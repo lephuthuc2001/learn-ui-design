@@ -1,0 +1,374 @@
+#EXTM3U
+#EXT-X-VERSION:4
+## Created with Unified Streaming Platform  (version=1.14.4-30793)
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-MEDIA-SEQUENCE:1
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-TARGETDURATION:6
+#USP-X-TIMESTAMP-MAP:MPEGTS=900000,LOCAL=1970-01-01T00:00:00Z
+#EXT-X-KEY:METHOD=AES-128,URI="https://contentplayer.hotmart.com/video/aZ88JBjNZp/mp4/key/aZ88JBjNZp-1769628973000.key?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d"
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-1.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-2.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-3.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-4.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-5.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-6.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-7.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-8.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-9.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-10.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-11.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-12.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-13.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-14.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-15.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-16.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-17.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-18.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-19.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-20.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-21.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-22.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-23.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-24.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-25.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-26.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-27.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-28.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-29.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-30.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-31.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-32.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-33.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-34.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-35.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-36.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-37.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-38.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-39.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-40.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-41.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-42.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-43.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-44.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-45.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-46.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-47.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-48.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-49.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-50.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-51.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-52.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-53.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-54.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-55.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-56.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-57.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-58.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-59.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-60.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-61.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-62.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-63.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-64.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-65.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-66.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-67.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-68.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-69.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-70.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-71.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-72.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-73.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-74.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-75.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-76.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-77.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-78.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-79.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-80.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-81.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-82.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-83.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-84.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-85.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-86.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-87.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-88.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-89.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-90.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-91.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-92.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-93.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-94.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-95.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-96.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-97.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-98.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-99.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-100.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-101.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-102.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-103.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-104.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-105.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-106.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-107.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-108.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-109.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-110.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-111.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-112.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-113.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-114.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-115.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-116.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-117.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-118.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-119.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-120.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-121.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-122.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-123.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-124.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-125.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-126.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-127.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-128.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-129.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-130.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-131.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-132.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-133.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-134.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-135.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-136.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-137.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-138.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-139.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-140.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-141.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-142.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-143.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-144.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-145.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-146.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-147.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-148.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-149.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-150.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-151.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-152.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-153.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-154.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-155.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-156.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-157.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-158.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-159.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-160.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-161.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-162.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-163.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-164.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-165.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-166.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-167.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-168.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-169.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-170.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-171.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-172.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-173.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-174.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-175.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-176.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-177.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-178.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-179.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-180.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:6, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-181.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXTINF:1.0666, no desc
+aZ88JBjNZp-1769628973000-audio=73368-video=248663-182.ts?hdntl=exp=1778510071~acl=/*~data=hdntl~hmac=4b57869eab6795296429ceabb79e939445daf79d055c828bf6e723f33c813c7d&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+#EXT-X-ENDLIST

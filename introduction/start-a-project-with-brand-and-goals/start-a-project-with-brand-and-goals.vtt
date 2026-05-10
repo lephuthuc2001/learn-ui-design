@@ -1,0 +1,5346 @@
+WEBVTT
+
+00:00:00.610 --> 00:00:03.520
+- Hey folks, and welcome to
+the learn UI design lesson
+
+00:00:03.520 --> 00:00:06.000
+on starting a new UI design project.
+
+00:00:06.000 --> 00:00:06.820
+on starting a new UI design project.
+
+00:00:06.820 --> 00:00:09.020
+So in this video, what
+I wanna do is give you
+
+00:00:09.020 --> 00:00:12.000
+a four-step process for
+beginning any UI design project,
+
+00:00:12.000 --> 00:00:12.550
+a four-step process for
+beginning any UI design project,
+
+00:00:12.550 --> 00:00:14.120
+and sure different projects
+
+00:00:14.120 --> 00:00:16.540
+are gonna have different
+processes, absolutely.
+
+00:00:16.540 --> 00:00:18.000
+But I wanna give you
+kinda a general outline
+
+00:00:18.000 --> 00:00:18.830
+But I wanna give you
+kinda a general outline
+
+00:00:18.830 --> 00:00:22.310
+that you can follow, whether
+you're doing say just a single
+
+00:00:22.310 --> 00:00:24.000
+page homework assignment for this course,
+
+00:00:24.000 --> 00:00:24.270
+page homework assignment for this course,
+
+00:00:24.270 --> 00:00:26.590
+or you're doing a multi-year project
+
+00:00:26.590 --> 00:00:28.130
+with your employer, doesn't matter.
+
+00:00:28.130 --> 00:00:30.000
+You take the same four-step process,
+
+00:00:30.000 --> 00:00:30.240
+You take the same four-step process,
+
+00:00:30.240 --> 00:00:32.690
+dial it up if you need,
+dial it back if you need,
+
+00:00:32.690 --> 00:00:35.110
+but you kinda have an
+outline of how to proceed
+
+00:00:35.110 --> 00:00:36.000
+as soon as you know
+you're gonna start working
+
+00:00:36.000 --> 00:00:36.460
+as soon as you know
+you're gonna start working
+
+00:00:36.460 --> 00:00:37.470
+on something new.
+
+00:00:37.470 --> 00:00:38.943
+So let's dive right in.
+
+00:00:40.340 --> 00:00:42.000
+First, I'm gonna review
+this four-step process.
+
+00:00:42.000 --> 00:00:42.540
+First, I'm gonna review
+this four-step process.
+
+00:00:42.540 --> 00:00:44.370
+Talk a little bit about
+each of these steps in turn
+
+00:00:44.370 --> 00:00:45.890
+but then we're gonna
+look at a couple examples
+
+00:00:45.890 --> 00:00:48.000
+where we apply it and see
+kinda how things play out.
+
+00:00:48.000 --> 00:00:48.910
+where we apply it and see
+kinda how things play out.
+
+00:00:48.910 --> 00:00:50.480
+The first step anytime you start
+
+00:00:50.480 --> 00:00:52.790
+a new UI project is to determine
+
+00:00:52.790 --> 00:00:54.000
+your brand and your goals.
+
+00:00:54.000 --> 00:00:54.870
+your brand and your goals.
+
+00:00:54.870 --> 00:00:58.260
+And by brand, all I mean
+is what you want your users
+
+00:00:58.260 --> 00:00:59.630
+to feel about you.
+
+00:00:59.630 --> 00:01:00.000
+Should your users feel that
+
+00:01:00.000 --> 00:01:00.970
+Should your users feel that
+
+00:01:00.970 --> 00:01:03.100
+you're really authoritative and official,
+
+00:01:03.100 --> 00:01:05.860
+or should they feel that you're
+like friendly and casual,
+
+00:01:05.860 --> 00:01:06.000
+or that you're kind of buttoned up
+
+00:01:06.000 --> 00:01:07.420
+or that you're kind of buttoned up
+
+00:01:07.420 --> 00:01:10.300
+and just whatever
+adjectives they would use
+
+00:01:10.300 --> 00:01:12.000
+or short phrases they
+would use to describe you.
+
+00:01:12.000 --> 00:01:12.550
+or short phrases they
+would use to describe you.
+
+00:01:12.550 --> 00:01:13.383
+That's your brand.
+
+00:01:13.383 --> 00:01:14.580
+It's as simple as that.
+
+00:01:14.580 --> 00:01:16.160
+Likewise goals is anything
+
+00:01:16.160 --> 00:01:17.800
+that you just want your users to do.
+
+00:01:17.800 --> 00:01:18.000
+Maybe you want 10% of
+people visiting this page
+
+00:01:18.000 --> 00:01:20.120
+Maybe you want 10% of
+people visiting this page
+
+00:01:20.120 --> 00:01:22.230
+to sign up for your mailing list,
+
+00:01:22.230 --> 00:01:24.000
+or maybe you want your page
+to be accessible to users
+
+00:01:24.000 --> 00:01:24.980
+or maybe you want your page
+to be accessible to users
+
+00:01:24.980 --> 00:01:26.210
+with screen readers.
+
+00:01:26.210 --> 00:01:28.030
+We'll talk about a couple
+of different types of goals
+
+00:01:28.030 --> 00:01:29.660
+that you can have in just a moment.
+
+00:01:29.660 --> 00:01:30.000
+But overall, the important thing is right
+
+00:01:30.000 --> 00:01:32.220
+But overall, the important thing is right
+
+00:01:32.220 --> 00:01:34.020
+when you get going on a new project,
+
+00:01:34.020 --> 00:01:35.900
+figure out what you want your brand to be.
+
+00:01:35.900 --> 00:01:36.000
+This is especially critical
+
+00:01:36.000 --> 00:01:37.250
+This is especially critical
+
+00:01:37.250 --> 00:01:38.980
+for you doing the UI design work,
+
+00:01:38.980 --> 00:01:41.640
+and then also figure out
+what goals you want to hit.
+
+00:01:41.640 --> 00:01:42.000
+What determines if a
+project is successful.
+
+00:01:42.000 --> 00:01:44.130
+What determines if a
+project is successful.
+
+00:01:44.130 --> 00:01:46.880
+Next, you're gonna collect
+and compile inspiration.
+
+00:01:46.880 --> 00:01:48.000
+And this step has a lot of wiggle room
+
+00:01:48.000 --> 00:01:48.560
+And this step has a lot of wiggle room
+
+00:01:48.560 --> 00:01:50.960
+depending on just how big your project is.
+
+00:01:50.960 --> 00:01:52.540
+If you're a pretty experienced designer
+
+00:01:52.540 --> 00:01:53.420
+and you're working alone,
+
+00:01:53.420 --> 00:01:54.000
+maybe you're just doing a
+side project or something.
+
+00:01:54.000 --> 00:01:55.350
+maybe you're just doing a
+side project or something.
+
+00:01:55.350 --> 00:01:58.120
+You may not actually really
+compile any inspiration
+
+00:01:58.120 --> 00:01:59.730
+specifically at the start,
+
+00:01:59.730 --> 00:02:00.000
+but especially if you're
+more of a beginning designer
+
+00:02:00.000 --> 00:02:02.390
+but especially if you're
+more of a beginning designer
+
+00:02:02.390 --> 00:02:04.180
+or you're working with a larger team,
+
+00:02:04.180 --> 00:02:05.900
+you just wanna be really clear about
+
+00:02:05.900 --> 00:02:06.000
+what's inspiring you and why,
+
+00:02:06.000 --> 00:02:07.890
+what's inspiring you and why,
+
+00:02:07.890 --> 00:02:09.530
+and what's influencing you and why.
+
+00:02:09.530 --> 00:02:10.400
+And this is something that you'll be
+
+00:02:10.400 --> 00:02:11.780
+very conscientious about.
+
+00:02:11.780 --> 00:02:12.000
+Now, there's actually
+a whole separate video
+
+00:02:12.000 --> 00:02:13.870
+Now, there's actually
+a whole separate video
+
+00:02:13.870 --> 00:02:15.060
+just on this step.
+
+00:02:15.060 --> 00:02:18.000
+So I'm kinda gonna gloss
+over it in this video.
+
+00:02:18.000 --> 00:02:18.260
+So I'm kinda gonna gloss
+over it in this video.
+
+00:02:18.260 --> 00:02:20.160
+The third step is to sketch and wireframe,
+
+00:02:20.160 --> 00:02:21.600
+and like the second step,
+
+00:02:21.600 --> 00:02:23.490
+how much you sketch and
+how much you wireframe
+
+00:02:23.490 --> 00:02:24.000
+really depends on the
+complexity of your project.
+
+00:02:24.000 --> 00:02:26.310
+really depends on the
+complexity of your project.
+
+00:02:26.310 --> 00:02:29.270
+If you're working on
+something, say like a blog,
+
+00:02:29.270 --> 00:02:30.000
+you may not do much wireframing at all.
+
+00:02:30.000 --> 00:02:30.990
+you may not do much wireframing at all.
+
+00:02:30.990 --> 00:02:32.340
+Just kinda quickly sketch out.
+
+00:02:32.340 --> 00:02:33.530
+Yep, title's gonna be the top,
+
+00:02:33.530 --> 00:02:35.000
+post is gonna be below that,
+
+00:02:35.000 --> 00:02:36.000
+the author's name might go here,
+
+00:02:36.000 --> 00:02:36.630
+the author's name might go here,
+
+00:02:36.630 --> 00:02:39.020
+but you can pretty
+quickly get to the details
+
+00:02:39.020 --> 00:02:40.410
+of the visual design.
+
+00:02:40.410 --> 00:02:42.000
+With a more complex
+and interactive project
+
+00:02:42.000 --> 00:02:43.220
+With a more complex
+and interactive project
+
+00:02:43.220 --> 00:02:45.380
+the process of wireframing overall
+
+00:02:45.380 --> 00:02:48.000
+might also include researching your users,
+
+00:02:48.000 --> 00:02:48.620
+might also include researching your users,
+
+00:02:48.620 --> 00:02:50.590
+iterating on low fidelity designs,
+
+00:02:50.590 --> 00:02:53.770
+maybe usability testing some
+of your designs, et cetera.
+
+00:02:53.770 --> 00:02:54.000
+All before doing the visual design work
+
+00:02:54.000 --> 00:02:55.740
+All before doing the visual design work
+
+00:02:55.740 --> 00:02:57.640
+to make those designs look great.
+
+00:02:57.640 --> 00:02:59.010
+For the purposes of this course,
+
+00:02:59.010 --> 00:03:00.000
+I'm just gonna assume that you
+have a sketched out version
+
+00:03:00.000 --> 00:03:01.700
+I'm just gonna assume that you
+have a sketched out version
+
+00:03:01.700 --> 00:03:03.850
+of the interface, ready to go.
+
+00:03:03.850 --> 00:03:06.000
+If you are interested in
+how you get to that step
+
+00:03:06.000 --> 00:03:06.210
+If you are interested in
+how you get to that step
+
+00:03:06.210 --> 00:03:08.070
+and how you make usable designs,
+
+00:03:08.070 --> 00:03:10.650
+I have a whole other course on
+that called learn UX design.
+
+00:03:10.650 --> 00:03:12.000
+And that covers the wireframing,
+the usability testing,
+
+00:03:12.000 --> 00:03:13.410
+And that covers the wireframing,
+the usability testing,
+
+00:03:13.410 --> 00:03:14.970
+the user research, et cetera.
+
+00:03:14.970 --> 00:03:17.030
+But for now, we're gonna
+presume we have a sketch
+
+00:03:17.030 --> 00:03:17.863
+that's ready to go.
+
+00:03:17.863 --> 00:03:18.000
+And we're just gonna be
+focusing on the visual design.
+
+00:03:18.000 --> 00:03:21.180
+And we're just gonna be
+focusing on the visual design.
+
+00:03:21.180 --> 00:03:24.000
+And then the fourth step is
+to explore visual styles.
+
+00:03:24.000 --> 00:03:24.200
+And then the fourth step is
+to explore visual styles.
+
+00:03:24.200 --> 00:03:25.690
+And so there's kinda this connection
+
+00:03:25.690 --> 00:03:27.890
+between the first step
+and the fourth step,
+
+00:03:27.890 --> 00:03:30.000
+because what you determined as your goals
+
+00:03:30.000 --> 00:03:30.050
+because what you determined as your goals
+
+00:03:30.050 --> 00:03:32.100
+and your brand actually affects
+
+00:03:32.100 --> 00:03:34.890
+what visual styles you're gonna
+start to play around with.
+
+00:03:34.890 --> 00:03:36.000
+When you get specific
+about what your brand is,
+
+00:03:36.000 --> 00:03:37.480
+When you get specific
+about what your brand is,
+
+00:03:37.480 --> 00:03:40.410
+that affects everything
+in your visual style,
+
+00:03:40.410 --> 00:03:42.000
+your colors, your typography,
+the illustrations,
+
+00:03:42.000 --> 00:03:43.850
+your colors, your typography,
+the illustrations,
+
+00:03:43.850 --> 00:03:46.350
+or the photography, or
+the icons that you use.
+
+00:03:46.350 --> 00:03:48.000
+Even the tone of voice that
+the text on your site is in.
+
+00:03:48.000 --> 00:03:49.170
+Even the tone of voice that
+the text on your site is in.
+
+00:03:49.170 --> 00:03:51.240
+So this step is really just about
+
+00:03:51.240 --> 00:03:54.000
+starting to explore little snippets to UI,
+
+00:03:54.000 --> 00:03:54.030
+starting to explore little snippets to UI,
+
+00:03:54.030 --> 00:03:56.890
+pieces of text or buttons or UI controls
+
+00:03:56.890 --> 00:03:58.550
+or common repeating elements.
+
+00:03:58.550 --> 00:04:00.000
+And as an official deliverable,
+
+00:04:00.000 --> 00:04:00.220
+And as an official deliverable,
+
+00:04:00.220 --> 00:04:02.870
+this is often called style tiles.
+
+00:04:02.870 --> 00:04:04.060
+So at the highest level,
+
+00:04:04.060 --> 00:04:05.880
+that's how you start a new project.
+
+00:04:05.880 --> 00:04:06.000
+First, you determine the brand and goals.
+
+00:04:06.000 --> 00:04:07.770
+First, you determine the brand and goals.
+
+00:04:07.770 --> 00:04:09.310
+You collect some inspiration,
+
+00:04:09.310 --> 00:04:11.750
+you sketch out the general
+overview of the screens,
+
+00:04:11.750 --> 00:04:12.000
+and then you start filling in details,
+
+00:04:12.000 --> 00:04:13.750
+and then you start filling in details,
+
+00:04:13.750 --> 00:04:15.910
+exploring different fonts, colors,
+
+00:04:15.910 --> 00:04:17.700
+UI components, et cetera.
+
+00:04:17.700 --> 00:04:18.000
+Now let's take these ideas
+
+00:04:18.000 --> 00:04:18.780
+Now let's take these ideas
+
+00:04:18.780 --> 00:04:20.810
+and start looking at a sample project.
+
+00:04:20.810 --> 00:04:23.290
+So here's a short brief for a
+project called Genius Notes,
+
+00:04:23.290 --> 00:04:24.000
+which is actually something
+that I worked on just a bit ago.
+
+00:04:24.000 --> 00:04:26.010
+which is actually something
+that I worked on just a bit ago.
+
+00:04:26.010 --> 00:04:28.350
+My client Danny came
+to me and talked about
+
+00:04:28.350 --> 00:04:30.000
+wanting to create high
+quality written guides
+
+00:04:30.000 --> 00:04:31.120
+wanting to create high
+quality written guides
+
+00:04:31.120 --> 00:04:33.320
+that basically take a
+whole variety of skills,
+
+00:04:33.320 --> 00:04:36.000
+and teach you the very best
+way to learn those skills.
+
+00:04:36.000 --> 00:04:36.900
+and teach you the very best
+way to learn those skills.
+
+00:04:36.900 --> 00:04:37.910
+The way he described it,
+
+00:04:37.910 --> 00:04:39.980
+which really kinda hit it
+home for me is he said,
+
+00:04:39.980 --> 00:04:41.670
+have you ever learned some skill?
+
+00:04:41.670 --> 00:04:42.000
+And when you were a beginner
+
+00:04:42.000 --> 00:04:42.620
+And when you were a beginner
+
+00:04:42.620 --> 00:04:45.270
+you had no idea what book
+you should be reading,
+
+00:04:45.270 --> 00:04:47.260
+what teacher you should be
+listening to, et cetera.
+
+00:04:47.260 --> 00:04:48.000
+And then once you kinda
+get into that world,
+
+00:04:48.000 --> 00:04:49.800
+And then once you kinda
+get into that world,
+
+00:04:49.800 --> 00:04:52.110
+you realize that almost
+everyone who's really good,
+
+00:04:52.110 --> 00:04:54.000
+kinda respects the same
+couple of resources.
+
+00:04:54.000 --> 00:04:54.950
+kinda respects the same
+couple of resources.
+
+00:04:54.950 --> 00:04:57.330
+And he's like, we just wanna
+recommend those resources
+
+00:04:57.330 --> 00:04:58.770
+for every single skill.
+
+00:04:58.770 --> 00:05:00.000
+The monetization would be
+through affiliate links
+
+00:05:00.000 --> 00:05:01.460
+The monetization would be
+through affiliate links
+
+00:05:01.460 --> 00:05:03.880
+of recommendations for
+different products and services,
+
+00:05:03.880 --> 00:05:06.000
+and Danny stress that the affiliate deals
+
+00:05:06.000 --> 00:05:06.180
+and Danny stress that the affiliate deals
+
+00:05:06.180 --> 00:05:07.450
+are not gonna really influence
+
+00:05:07.450 --> 00:05:09.000
+which recommendation is picked.
+
+00:05:09.000 --> 00:05:09.960
+So it's all neutral.
+
+00:05:09.960 --> 00:05:12.000
+The whole concept is this
+site will build your trust
+
+00:05:12.000 --> 00:05:12.800
+The whole concept is this
+site will build your trust
+
+00:05:12.800 --> 00:05:14.770
+by recommending the very best resources.
+
+00:05:14.770 --> 00:05:16.420
+And if they happen to make some money
+
+00:05:16.420 --> 00:05:17.770
+from that, that's awesome.
+
+00:05:17.770 --> 00:05:18.000
+All right, so step number
+one is really picking
+
+00:05:18.000 --> 00:05:20.110
+All right, so step number
+one is really picking
+
+00:05:20.110 --> 00:05:21.990
+what goals does our design need to achieve
+
+00:05:21.990 --> 00:05:24.000
+and what does success look like here?
+
+00:05:24.000 --> 00:05:24.290
+and what does success look like here?
+
+00:05:24.290 --> 00:05:26.440
+So one of the first things to focus on
+
+00:05:26.440 --> 00:05:28.400
+with goals is how the site makes money
+
+00:05:28.400 --> 00:05:30.000
+and how the site makes
+money is gonna be tied
+
+00:05:30.000 --> 00:05:31.010
+and how the site makes
+money is gonna be tied
+
+00:05:31.010 --> 00:05:32.170
+into what the design is.
+
+00:05:32.170 --> 00:05:34.670
+So for instance, if this
+site is making money
+
+00:05:34.670 --> 00:05:36.000
+through affiliate links and
+affiliate recommendations,
+
+00:05:36.000 --> 00:05:37.100
+through affiliate links and
+affiliate recommendations,
+
+00:05:37.100 --> 00:05:40.613
+then the recommendations
+need to be front and center.
+
+00:05:45.710 --> 00:05:47.500
+But that's kind of a short term fix
+
+00:05:47.500 --> 00:05:48.000
+because on the other hand,
+
+00:05:48.000 --> 00:05:49.550
+because on the other hand,
+
+00:05:49.550 --> 00:05:51.923
+the recommendations
+also need to be trusted.
+
+00:05:55.130 --> 00:05:57.660
+If the site doesn't earn your trust over,
+
+00:05:57.660 --> 00:05:59.110
+it doesn't matter how front and center
+
+00:05:59.110 --> 00:05:59.943
+the recommendations are.
+
+00:05:59.943 --> 00:06:00.000
+No one's gonna buy them anyways.
+
+00:06:00.000 --> 00:06:01.810
+No one's gonna buy them anyways.
+
+00:06:01.810 --> 00:06:04.890
+Now, goals related to how a
+site makes money are one thing,
+
+00:06:04.890 --> 00:06:06.000
+you'll also see kind of behavioral goals.
+
+00:06:06.000 --> 00:06:07.230
+you'll also see kind of behavioral goals.
+
+00:06:07.230 --> 00:06:08.910
+Do we want people to download something
+
+00:06:08.910 --> 00:06:11.800
+or subscribe to something,
+purchase something, donate,
+
+00:06:11.800 --> 00:06:12.000
+maybe use a new feature, whatever.
+
+00:06:12.000 --> 00:06:13.500
+maybe use a new feature, whatever.
+
+00:06:13.500 --> 00:06:15.090
+I have a whole bunch of behavioral goals
+
+00:06:15.090 --> 00:06:18.000
+listed on the starting a project
+cheat sheet attached below.
+
+00:06:18.000 --> 00:06:19.060
+listed on the starting a project
+cheat sheet attached below.
+
+00:06:19.060 --> 00:06:20.700
+For the purposes of this project,
+
+00:06:20.700 --> 00:06:22.540
+just saying that we really
+want the recommendations
+
+00:06:22.540 --> 00:06:24.000
+to be front and center and
+have people buying them.
+
+00:06:24.000 --> 00:06:24.820
+to be front and center and
+have people buying them.
+
+00:06:24.820 --> 00:06:27.700
+That's kind of all we
+can do for right now.
+
+00:06:27.700 --> 00:06:29.300
+There's also user experience goals.
+
+00:06:29.300 --> 00:06:30.000
+For instance, we might
+have different devices
+
+00:06:30.000 --> 00:06:30.960
+For instance, we might
+have different devices
+
+00:06:30.960 --> 00:06:32.140
+that we want this to work on.
+
+00:06:32.140 --> 00:06:34.700
+So in this case, this is
+gonna be a responsive website,
+
+00:06:34.700 --> 00:06:36.000
+meaning it needs to work across bubbles,
+
+00:06:36.000 --> 00:06:36.410
+meaning it needs to work across bubbles,
+
+00:06:36.410 --> 00:06:38.940
+tablets, desktops, whatever.
+
+00:06:38.940 --> 00:06:40.470
+Sometimes I'll also throw in something
+
+00:06:40.470 --> 00:06:42.000
+about users must find the
+app simple and usable,
+
+00:06:42.000 --> 00:06:42.940
+about users must find the
+app simple and usable,
+
+00:06:42.940 --> 00:06:44.360
+or easy to use or whatever.
+
+00:06:44.360 --> 00:06:46.700
+But for a site that's
+comprised mostly of articles
+
+00:06:46.700 --> 00:06:48.000
+that doesn't really strike
+me as quite as important.
+
+00:06:48.000 --> 00:06:49.950
+that doesn't really strike
+me as quite as important.
+
+00:06:49.950 --> 00:06:52.130
+And then one other type of
+goal that's important to list
+
+00:06:52.130 --> 00:06:53.820
+is context schools.
+
+00:06:53.820 --> 00:06:54.000
+So in this case, you know,
+like what's the context
+
+00:06:54.000 --> 00:06:56.540
+So in this case, you know,
+like what's the context
+
+00:06:56.540 --> 00:06:57.490
+of the user,
+
+00:06:57.490 --> 00:06:59.930
+the user in this case is
+mostly gonna be finding
+
+00:06:59.930 --> 00:07:00.000
+articles via Google.
+
+00:07:00.000 --> 00:07:01.140
+articles via Google.
+
+00:07:01.140 --> 00:07:02.830
+So everything essential about the site
+
+00:07:02.830 --> 00:07:05.410
+does need to be conveyed
+via the guide pages
+
+00:07:05.410 --> 00:07:06.000
+rather than say like the
+Homepage or the About page.
+
+00:07:06.000 --> 00:07:08.400
+rather than say like the
+Homepage or the About page.
+
+00:07:08.400 --> 00:07:12.000
+So I'll just put guide page
+must convey all necessary
+
+00:07:12.000 --> 00:07:13.160
+So I'll just put guide page
+must convey all necessary
+
+00:07:13.160 --> 00:07:15.340
+information to new users.
+
+00:07:15.340 --> 00:07:18.000
+Perfect, and even though
+this is just kind of a rough
+
+00:07:18.000 --> 00:07:18.110
+Perfect, and even though
+this is just kind of a rough
+
+00:07:18.110 --> 00:07:18.943
+stab at things,
+
+00:07:18.943 --> 00:07:20.250
+this is actually decently similar
+
+00:07:20.250 --> 00:07:22.450
+to the list that we came up with.
+
+00:07:22.450 --> 00:07:24.000
+And listing goals, just like this
+
+00:07:24.000 --> 00:07:24.320
+And listing goals, just like this
+
+00:07:24.320 --> 00:07:26.330
+even if it's like a little
+bit of a rough draft
+
+00:07:26.330 --> 00:07:27.520
+is a couple things here.
+
+00:07:27.520 --> 00:07:29.830
+First of all, listing your goals makes you
+
+00:07:29.830 --> 00:07:30.000
+more likely to achieve them, right?
+
+00:07:30.000 --> 00:07:31.470
+more likely to achieve them, right?
+
+00:07:31.470 --> 00:07:32.700
+If you don't know your goals,
+
+00:07:32.700 --> 00:07:36.000
+you're really only gonna be
+hitting them on accident.
+
+00:07:36.000 --> 00:07:36.150
+you're really only gonna be
+hitting them on accident.
+
+00:07:36.150 --> 00:07:38.750
+But beyond that, if you're
+working with a client
+
+00:07:38.750 --> 00:07:39.940
+or an employer,
+
+00:07:39.940 --> 00:07:42.000
+when you show that you are laser focused
+
+00:07:42.000 --> 00:07:42.300
+when you show that you are laser focused
+
+00:07:42.300 --> 00:07:44.070
+on taking their business goals
+
+00:07:44.070 --> 00:07:45.520
+and translating them into a website
+
+00:07:45.520 --> 00:07:46.790
+and then meeting those goals,
+
+00:07:46.790 --> 00:07:48.000
+you're making your client
+trust your judgment here.
+
+00:07:48.000 --> 00:07:49.890
+you're making your client
+trust your judgment here.
+
+00:07:49.890 --> 00:07:51.820
+And I'll also talk about this a lot more
+
+00:07:51.820 --> 00:07:53.660
+in the getting good design feedback
+
+00:07:53.660 --> 00:07:54.000
+and presenting your designs lesson,
+
+00:07:54.000 --> 00:07:55.320
+and presenting your designs lesson,
+
+00:07:55.320 --> 00:07:58.650
+but you're making your future
+design reviews a lot easier,
+
+00:07:58.650 --> 00:08:00.000
+because presenting your design
+
+00:08:00.000 --> 00:08:00.340
+because presenting your design
+
+00:08:00.340 --> 00:08:02.030
+based on how it meets the goals
+
+00:08:02.030 --> 00:08:03.880
+you laid out in the beginning
+
+00:08:03.880 --> 00:08:06.000
+is the single best way to
+structure a design review.
+
+00:08:06.000 --> 00:08:06.500
+is the single best way to
+structure a design review.
+
+00:08:06.500 --> 00:08:08.190
+And it will get you way better feedback
+
+00:08:08.190 --> 00:08:09.780
+if you do that.
+
+00:08:09.780 --> 00:08:12.000
+Now I'll just say for like
+really small projects,
+
+00:08:12.000 --> 00:08:12.300
+Now I'll just say for like
+really small projects,
+
+00:08:12.300 --> 00:08:15.210
+like learn UI design homework assignment,
+
+00:08:15.210 --> 00:08:18.000
+or maybe you do some sort of
+hundred days of UI exercise.
+
+00:08:18.000 --> 00:08:18.880
+or maybe you do some sort of
+hundred days of UI exercise.
+
+00:08:18.880 --> 00:08:21.940
+You don't really need to worry
+too much about these goals.
+
+00:08:21.940 --> 00:08:24.000
+Instead for that, what I
+would do is just jot down
+
+00:08:24.000 --> 00:08:24.580
+Instead for that, what I
+would do is just jot down
+
+00:08:24.580 --> 00:08:27.010
+a couple notes on brand that
+you're trying to achieve,
+
+00:08:27.010 --> 00:08:28.380
+and just leave it there.
+
+00:08:28.380 --> 00:08:30.000
+And so, yeah, let's use
+that as a transition
+
+00:08:30.000 --> 00:08:31.920
+And so, yeah, let's use
+that as a transition
+
+00:08:31.920 --> 00:08:33.600
+to talking about brand here.
+
+00:08:33.600 --> 00:08:35.360
+When I say brand that
+might sound like something
+
+00:08:35.360 --> 00:08:36.000
+that's kinda handwavy or a
+little artsy and mysterious,
+
+00:08:36.000 --> 00:08:38.180
+that's kinda handwavy or a
+little artsy and mysterious,
+
+00:08:38.180 --> 00:08:40.170
+I really don't mean for it to be,
+
+00:08:40.170 --> 00:08:42.000
+brand is simply what you want
+your users to perceive you as,
+
+00:08:42.000 --> 00:08:43.550
+brand is simply what you want
+your users to perceive you as,
+
+00:08:43.550 --> 00:08:45.060
+and it's as simple as coming up
+
+00:08:45.060 --> 00:08:47.790
+with just a list of adjectives, right?
+
+00:08:47.790 --> 00:08:48.000
+And so when I was working with my client
+
+00:08:48.000 --> 00:08:49.900
+And so when I was working with my client
+
+00:08:49.900 --> 00:08:51.530
+for this particular site,
+
+00:08:51.530 --> 00:08:52.980
+I started asking him questions,
+
+00:08:52.980 --> 00:08:54.000
+trying to really get a handle on
+
+00:08:54.000 --> 00:08:54.670
+trying to really get a handle on
+
+00:08:54.670 --> 00:08:56.150
+what kind of brand he was going for.
+
+00:08:56.150 --> 00:08:58.900
+I said, hey, what are like
+similar sites that you
+
+00:08:58.900 --> 00:09:00.000
+kinda look up to or think
+are doing something right
+
+00:09:00.000 --> 00:09:01.210
+kinda look up to or think
+are doing something right
+
+00:09:01.210 --> 00:09:02.880
+that you also want to do right?
+
+00:09:02.880 --> 00:09:05.417
+The very first thing he
+said was the Wirecutter.
+
+00:09:05.417 --> 00:09:06.000
+And the Wirecutter is
+a recommendation site.
+
+00:09:06.000 --> 00:09:08.010
+And the Wirecutter is
+a recommendation site.
+
+00:09:08.010 --> 00:09:10.630
+It's known for just being
+ridiculously thorough.
+
+00:09:10.630 --> 00:09:12.000
+This is an article on
+"The Best Robot Vacuums."
+
+00:09:12.000 --> 00:09:12.770
+This is an article on
+"The Best Robot Vacuums."
+
+00:09:12.770 --> 00:09:16.210
+It is 17,000 words long.
+
+00:09:16.210 --> 00:09:18.000
+And they test, you know, I don't know,
+
+00:09:18.000 --> 00:09:18.680
+And they test, you know, I don't know,
+
+00:09:18.680 --> 00:09:20.160
+perhaps dozens of vacuums.
+
+00:09:20.160 --> 00:09:22.710
+They spend scores of hours doing this
+
+00:09:22.710 --> 00:09:24.000
+and they write a small
+novel of a report on
+
+00:09:24.000 --> 00:09:25.880
+and they write a small
+novel of a report on
+
+00:09:25.880 --> 00:09:27.600
+which one they thought was the best,
+
+00:09:27.600 --> 00:09:29.300
+which, okay, that's the Roomba.
+
+00:09:29.300 --> 00:09:30.000
+Great, now you know.
+
+00:09:30.000 --> 00:09:30.270
+Great, now you know.
+
+00:09:30.270 --> 00:09:32.010
+So we talked about the Wirecutter
+
+00:09:32.010 --> 00:09:33.120
+and why that was so awesome.
+
+00:09:33.120 --> 00:09:35.410
+And we started coming up
+with little phrases like
+
+00:09:35.410 --> 00:09:36.000
+it earns your trust, or
+it's slightly obsessive.
+
+00:09:36.000 --> 00:09:40.370
+it earns your trust, or
+it's slightly obsessive.
+
+00:09:40.370 --> 00:09:41.660
+It's also balanced,
+
+00:09:41.660 --> 00:09:42.000
+you know, they're not playing favorites.
+
+00:09:42.000 --> 00:09:42.920
+you know, they're not playing favorites.
+
+00:09:42.920 --> 00:09:45.770
+They actually wanna get to
+the bottom of what's the best.
+
+00:09:47.250 --> 00:09:48.000
+Another thing that Danny was inspired by
+
+00:09:48.000 --> 00:09:49.090
+Another thing that Danny was inspired by
+
+00:09:49.090 --> 00:09:51.130
+was the Amazon Kindle logo, right?
+
+00:09:51.130 --> 00:09:53.967
+Here's just this boy
+sitting on a small hill
+
+00:09:53.967 --> 00:09:54.000
+and the starry night,
+
+00:09:54.000 --> 00:09:54.910
+and the starry night,
+
+00:09:54.910 --> 00:09:56.840
+very small hill in the starry night,
+
+00:09:56.840 --> 00:09:58.090
+just reading his Kindle.
+
+00:09:58.090 --> 00:10:00.000
+And it's kind of reflected
+
+00:10:00.000 --> 00:10:00.370
+And it's kind of reflected
+
+00:10:00.370 --> 00:10:02.230
+in some of these screenshot images.
+
+00:10:02.230 --> 00:10:05.260
+You've got like the beautiful
+bookstore vibe going on
+
+00:10:05.260 --> 00:10:06.000
+on the screen itself,
+
+00:10:06.000 --> 00:10:06.240
+on the screen itself,
+
+00:10:06.240 --> 00:10:09.160
+but then it's surrounded
+by this just serene,
+
+00:10:09.160 --> 00:10:10.320
+nighttime landscape.
+
+00:10:10.320 --> 00:10:12.000
+And there's just a little bit
+of sense of wonder in that.
+
+00:10:12.000 --> 00:10:13.170
+And there's just a little bit
+of sense of wonder in that.
+
+00:10:16.690 --> 00:10:18.000
+Now sometimes sites are
+gonna be not even close
+
+00:10:18.000 --> 00:10:19.860
+Now sometimes sites are
+gonna be not even close
+
+00:10:19.860 --> 00:10:22.150
+to being competitors to the
+thing that you want to do,
+
+00:10:22.150 --> 00:10:24.000
+but they inspire you
+along some other access
+
+00:10:24.000 --> 00:10:24.640
+but they inspire you
+along some other access
+
+00:10:24.640 --> 00:10:26.070
+that you just can't ignore.
+
+00:10:26.070 --> 00:10:29.320
+So Wait But Why, this
+was awesome for Danny
+
+00:10:29.320 --> 00:10:30.000
+because it embraced its
+own geekiness in his words.
+
+00:10:30.000 --> 00:10:32.730
+because it embraced its
+own geekiness in his words.
+
+00:10:32.730 --> 00:10:34.800
+Here's a giant article
+on "The Fermi Paradox"
+
+00:10:34.800 --> 00:10:36.000
+which is about why we haven't
+found aliens in the universe.
+
+00:10:36.000 --> 00:10:38.800
+which is about why we haven't
+found aliens in the universe.
+
+00:10:38.800 --> 00:10:40.220
+If you've never been to Wait But Why
+
+00:10:40.220 --> 00:10:42.000
+it's a bit of a silly blog.
+
+00:10:42.000 --> 00:10:42.070
+it's a bit of a silly blog.
+
+00:10:42.070 --> 00:10:43.290
+There's a lot of like hand drawn,
+
+00:10:43.290 --> 00:10:45.090
+stick, figure images and stuff.
+
+00:10:45.090 --> 00:10:46.950
+The writing is really, really casual,
+
+00:10:46.950 --> 00:10:48.000
+but just goes into
+incredible depth, right?
+
+00:10:48.000 --> 00:10:48.990
+but just goes into
+incredible depth, right?
+
+00:10:48.990 --> 00:10:50.510
+I mean, you can see this is also
+
+00:10:50.510 --> 00:10:52.163
+an extremely long article.
+
+00:10:53.090 --> 00:10:54.000
+So that was something
+that we also wanted to do.
+
+00:10:54.000 --> 00:10:55.490
+So that was something
+that we also wanted to do.
+
+00:10:59.160 --> 00:11:00.000
+Another way to kinda determine your brand
+
+00:11:00.000 --> 00:11:01.310
+Another way to kinda determine your brand
+
+00:11:01.310 --> 00:11:03.010
+is to start asking yourself,
+
+00:11:03.010 --> 00:11:04.130
+what do you not?
+
+00:11:04.130 --> 00:11:04.963
+Like what would,
+
+00:11:04.963 --> 00:11:06.000
+if your users thought X about you,
+
+00:11:06.000 --> 00:11:07.170
+if your users thought X about you,
+
+00:11:07.170 --> 00:11:09.240
+what would be a failure?
+
+00:11:09.240 --> 00:11:11.910
+And so that started to
+generate some more ideas,
+
+00:11:11.910 --> 00:11:12.000
+preaching or boasting, right?
+
+00:11:12.000 --> 00:11:14.253
+preaching or boasting, right?
+
+00:11:17.120 --> 00:11:18.000
+Genius Notes shouldn't be big.
+
+00:11:18.000 --> 00:11:19.950
+Genius Notes shouldn't be big.
+
+00:11:19.950 --> 00:11:21.543
+It shouldn't be spammy.
+
+00:11:22.511 --> 00:11:24.000
+It shouldn't be inhumane
+
+00:11:24.000 --> 00:11:24.030
+It shouldn't be inhumane
+
+00:11:26.479 --> 00:11:27.563
+or sloppy,
+
+00:11:29.180 --> 00:11:30.000
+et cetera.
+
+00:11:30.000 --> 00:11:30.013
+et cetera.
+
+00:11:30.013 --> 00:11:32.380
+Now, one thing that's
+interesting about these
+
+00:11:32.380 --> 00:11:34.720
+is they can actually start to generate.
+
+00:11:34.720 --> 00:11:36.000
+If you take the opposite of them,
+
+00:11:36.000 --> 00:11:36.580
+If you take the opposite of them,
+
+00:11:36.580 --> 00:11:39.420
+they can start to kind of
+generate more adjectives
+
+00:11:39.420 --> 00:11:40.620
+of what you're going for.
+
+00:11:40.620 --> 00:11:42.000
+So we're humble,
+
+00:11:42.000 --> 00:11:43.240
+So we're humble,
+
+00:11:43.240 --> 00:11:44.343
+not boasting.
+
+00:11:48.940 --> 00:11:51.940
+Or we are considered
+
+00:11:51.940 --> 00:11:52.803
+not spammy.
+
+00:11:56.890 --> 00:11:59.500
+Or we're precise, not sloppy.
+
+00:11:59.500 --> 00:12:00.000
+And it's as simple as this,
+
+00:12:00.000 --> 00:12:00.530
+And it's as simple as this,
+
+00:12:00.530 --> 00:12:02.120
+I've got a couple other brand questions
+
+00:12:02.120 --> 00:12:03.920
+in the starting a project cheat sheet,
+
+00:12:03.920 --> 00:12:05.930
+just things to kinda get you thinking
+
+00:12:05.930 --> 00:12:06.000
+and generating this
+little list of adjectives.
+
+00:12:06.000 --> 00:12:08.160
+and generating this
+little list of adjectives.
+
+00:12:08.160 --> 00:12:10.580
+Now from this list, Danny said,
+
+00:12:10.580 --> 00:12:12.000
+here's the ones that are kind of the most
+
+00:12:12.000 --> 00:12:12.520
+here's the ones that are kind of the most
+
+00:12:12.520 --> 00:12:14.900
+important trustworthy, right?
+
+00:12:14.900 --> 00:12:17.610
+So that came from earning your trust.
+
+00:12:17.610 --> 00:12:18.000
+We talked about that a bunch,
+
+00:12:18.000 --> 00:12:19.060
+We talked about that a bunch,
+
+00:12:20.100 --> 00:12:22.120
+geeky talked about that,
+
+00:12:22.120 --> 00:12:23.920
+embracing your own geekiness.
+
+00:12:23.920 --> 00:12:24.000
+Humble
+
+00:12:24.000 --> 00:12:24.753
+Humble
+
+00:12:26.430 --> 00:12:27.423
+and balanced.
+
+00:12:29.430 --> 00:12:30.000
+And it really only took us
+
+00:12:30.000 --> 00:12:30.870
+And it really only took us
+
+00:12:30.870 --> 00:12:33.310
+not even two hours to get to this point,
+
+00:12:33.310 --> 00:12:36.000
+but already, this is really exciting to me
+
+00:12:36.000 --> 00:12:36.100
+but already, this is really exciting to me
+
+00:12:36.100 --> 00:12:38.800
+and my designer senses like
+already coming up with ideas
+
+00:12:38.800 --> 00:12:41.200
+of how I'm gonna try and
+convey this trustworthiness
+
+00:12:41.200 --> 00:12:42.000
+or this geekiness or the humility,
+
+00:12:42.000 --> 00:12:43.320
+or this geekiness or the humility,
+
+00:12:43.320 --> 00:12:45.670
+you know, using little pieces of interface
+
+00:12:45.670 --> 00:12:48.000
+or fonts or colors or whatever it is.
+
+00:12:48.000 --> 00:12:48.530
+or fonts or colors or whatever it is.
+
+00:12:48.530 --> 00:12:49.670
+Now, my goal in this video
+
+00:12:49.670 --> 00:12:52.590
+is to also kind of kickstart
+your designer sense
+
+00:12:52.590 --> 00:12:54.000
+into starting to translate adjectives
+
+00:12:54.000 --> 00:12:55.610
+into starting to translate adjectives
+
+00:12:55.610 --> 00:12:57.733
+like this into interfaces.
+
+00:12:58.930 --> 00:13:00.000
+Whenever you're determining your brand.
+
+00:13:00.000 --> 00:13:00.490
+Whenever you're determining your brand.
+
+00:13:00.490 --> 00:13:02.023
+I really wanna hit home
+that there's two things
+
+00:13:02.023 --> 00:13:03.530
+that you should always be doing,
+
+00:13:03.530 --> 00:13:06.000
+the first picking those adjectives
+or short phrases, right?
+
+00:13:06.000 --> 00:13:06.660
+the first picking those adjectives
+or short phrases, right?
+
+00:13:06.660 --> 00:13:08.670
+Trustworthy or touch a wonderment
+
+00:13:08.670 --> 00:13:09.920
+because the big secret here
+
+00:13:09.920 --> 00:13:12.000
+is that a lot of the seeming
+subjectiveness of UI design
+
+00:13:12.000 --> 00:13:12.810
+is that a lot of the seeming
+subjectiveness of UI design
+
+00:13:12.810 --> 00:13:14.870
+fades away when you specify what you want
+
+00:13:14.870 --> 00:13:16.190
+your users to feel,
+
+00:13:16.190 --> 00:13:18.000
+and then you design to those ideas.
+
+00:13:18.000 --> 00:13:18.450
+and then you design to those ideas.
+
+00:13:18.450 --> 00:13:19.283
+Like for instance,
+
+00:13:19.283 --> 00:13:21.360
+we want a Genius Notes to be trustworthy,
+
+00:13:21.360 --> 00:13:23.380
+but what's a trustworthy font?
+
+00:13:23.380 --> 00:13:24.000
+Well, I think you already
+have some idea of this.
+
+00:13:24.000 --> 00:13:25.890
+Well, I think you already
+have some idea of this.
+
+00:13:25.890 --> 00:13:27.980
+So I wanna show you something
+that you've probably
+
+00:13:27.980 --> 00:13:28.813
+never seen before.
+
+00:13:28.813 --> 00:13:30.000
+This is "The New England
+Journal of Medicine"
+
+00:13:30.000 --> 00:13:31.160
+This is "The New England
+Journal of Medicine"
+
+00:13:31.160 --> 00:13:33.370
+where every single font on the site
+
+00:13:33.370 --> 00:13:35.090
+is replaced with Comic Sans.
+
+00:13:35.090 --> 00:13:36.000
+And as you scroll through this,
+it's like really difficult
+
+00:13:36.000 --> 00:13:38.070
+And as you scroll through this,
+it's like really difficult
+
+00:13:38.070 --> 00:13:39.580
+even to take it seriously.
+
+00:13:39.580 --> 00:13:42.000
+I even find it tough to view
+it as a completed design.
+
+00:13:42.000 --> 00:13:44.370
+I even find it tough to view
+it as a completed design.
+
+00:13:44.370 --> 00:13:47.130
+Like it looks a little bit
+kinda just like a wireframe
+
+00:13:47.130 --> 00:13:48.000
+and in large part that's
+because Comic Sans
+
+00:13:48.000 --> 00:13:49.590
+and in large part that's
+because Comic Sans
+
+00:13:49.590 --> 00:13:52.520
+is not a font that inspires trust.
+
+00:13:52.520 --> 00:13:54.000
+But if I go and I remove
+that single line of code
+
+00:13:54.000 --> 00:13:55.250
+But if I go and I remove
+that single line of code
+
+00:13:55.250 --> 00:13:57.050
+that replaced all fonts with that,
+
+00:13:57.050 --> 00:13:59.290
+all of a sudden things
+look a lot different.
+
+00:13:59.290 --> 00:14:00.000
+It just looks a lot more considered
+
+00:14:00.000 --> 00:14:01.210
+It just looks a lot more considered
+
+00:14:01.210 --> 00:14:03.683
+and professional and trustworthy,
+
+00:14:04.970 --> 00:14:06.000
+and the feel of it totally changes
+
+00:14:06.000 --> 00:14:07.100
+and the feel of it totally changes
+
+00:14:07.100 --> 00:14:09.610
+just with the topography alone.
+
+00:14:09.610 --> 00:14:11.360
+Now that's kind of an extreme example,
+
+00:14:11.360 --> 00:14:12.000
+but that's the sort of thing
+
+00:14:12.000 --> 00:14:12.470
+but that's the sort of thing
+
+00:14:12.470 --> 00:14:14.620
+that we're gonna be
+applying to everything.
+
+00:14:15.550 --> 00:14:17.910
+All right, and the second
+part of determining your brand
+
+00:14:17.910 --> 00:14:18.000
+really has to do with picking
+the opposite qualities
+
+00:14:18.000 --> 00:14:20.250
+really has to do with picking
+the opposite qualities
+
+00:14:20.250 --> 00:14:21.430
+that you want to convey.
+
+00:14:21.430 --> 00:14:24.000
+But what can be really good
+is not to pick some straw man.
+
+00:14:24.000 --> 00:14:25.030
+But what can be really good
+is not to pick some straw man.
+
+00:14:25.030 --> 00:14:28.190
+Oh, you know, we don't want
+to be bad customer service.
+
+00:14:28.190 --> 00:14:30.000
+We wanna be good customer service.
+
+00:14:30.000 --> 00:14:30.090
+We wanna be good customer service.
+
+00:14:30.090 --> 00:14:31.760
+That's not really a brand value.
+
+00:14:31.760 --> 00:14:35.770
+The very best brand values
+have defensible opposites.
+
+00:14:35.770 --> 00:14:36.000
+For instance, scrappy
+is a great brand value
+
+00:14:36.000 --> 00:14:38.170
+For instance, scrappy
+is a great brand value
+
+00:14:38.170 --> 00:14:41.390
+because the opposite of
+scrappy is like authoritative
+
+00:14:41.390 --> 00:14:42.000
+and official and trustworthy.
+
+00:14:42.000 --> 00:14:43.130
+and official and trustworthy.
+
+00:14:43.130 --> 00:14:44.820
+And that's a perfectly reasonable thing
+
+00:14:44.820 --> 00:14:47.013
+that a site or a brand might aspire to.
+
+00:14:48.270 --> 00:14:50.810
+Now to be clear, some of
+the things we've chosen
+
+00:14:50.810 --> 00:14:52.400
+have opposites, right?
+
+00:14:52.400 --> 00:14:54.000
+We wanna be humble, not boasting,
+
+00:14:54.000 --> 00:14:54.420
+We wanna be humble, not boasting,
+
+00:14:54.420 --> 00:14:56.150
+but if we were trying to make boasting
+
+00:14:56.150 --> 00:14:57.210
+a little more defensible,
+
+00:14:57.210 --> 00:14:59.810
+we might say, we don't wanna be humble.
+
+00:14:59.810 --> 00:15:00.000
+We wanna be humble.
+
+00:15:00.000 --> 00:15:00.860
+We wanna be humble.
+
+00:15:00.860 --> 00:15:03.360
+We don't wanna be omnipotent or something.
+
+00:15:03.360 --> 00:15:06.000
+Like you could imagine
+a site which has written
+
+00:15:06.000 --> 00:15:06.210
+Like you could imagine
+a site which has written
+
+00:15:06.210 --> 00:15:08.900
+where the tone of voice is just very wise
+
+00:15:08.900 --> 00:15:10.050
+and almost omnipotent.
+
+00:15:10.050 --> 00:15:12.000
+No, we want to avoid that.
+
+00:15:12.000 --> 00:15:12.100
+No, we want to avoid that.
+
+00:15:12.100 --> 00:15:15.090
+Or balanced, we wanna
+be balanced rather than
+
+00:15:15.090 --> 00:15:17.490
+the opposite of balanced
+isn't just biased, right?
+
+00:15:17.490 --> 00:15:18.000
+That's not a very positive thing.
+
+00:15:18.000 --> 00:15:18.880
+That's not a very positive thing.
+
+00:15:18.880 --> 00:15:19.713
+We might say,
+
+00:15:19.713 --> 00:15:22.743
+we wanna be balanced rather than loyal.
+
+00:15:24.770 --> 00:15:26.260
+Loyal sounds like a positive thing,
+
+00:15:26.260 --> 00:15:28.350
+but in this case, it's
+what we want to avoid.
+
+00:15:28.350 --> 00:15:29.900
+And if we start sounding loyal,
+
+00:15:29.900 --> 00:15:30.000
+we know we're kind of getting
+away from our brand values.
+
+00:15:30.000 --> 00:15:33.690
+we know we're kind of getting
+away from our brand values.
+
+00:15:33.690 --> 00:15:35.510
+I can actually kinda just
+put these up here, right?
+
+00:15:35.510 --> 00:15:36.000
+Trustworthy rather than say casual,
+
+00:15:36.000 --> 00:15:38.810
+Trustworthy rather than say casual,
+
+00:15:38.810 --> 00:15:42.000
+maybe the more defensible
+version of untrustworthy.
+
+00:15:42.000 --> 00:15:42.110
+maybe the more defensible
+version of untrustworthy.
+
+00:15:42.110 --> 00:15:45.040
+It just has a different
+value than inspiring trust.
+
+00:15:45.040 --> 00:15:48.000
+For geeky, I don't really
+know of a defensible opposite,
+
+00:15:48.000 --> 00:15:48.030
+For geeky, I don't really
+know of a defensible opposite,
+
+00:15:48.030 --> 00:15:49.860
+but you know, in this case,
+
+00:15:49.860 --> 00:15:52.590
+let's say geeky rather than bored,
+
+00:15:52.590 --> 00:15:54.000
+even though bored isn't really defensible.
+
+00:15:54.000 --> 00:15:55.050
+even though bored isn't really defensible.
+
+00:15:55.050 --> 00:15:57.690
+I would still say that if we ever come
+
+00:15:57.690 --> 00:16:00.000
+across sounding bored,
+when designing the site
+
+00:16:00.000 --> 00:16:00.190
+across sounding bored,
+when designing the site
+
+00:16:00.190 --> 00:16:01.023
+or writing the site,
+
+00:16:01.023 --> 00:16:03.180
+we know we're getting away
+from our brand values.
+
+00:16:03.180 --> 00:16:04.833
+Humble, we already talked about.
+
+00:16:10.770 --> 00:16:12.000
+And same thing with balanced.
+
+00:16:12.000 --> 00:16:12.273
+And same thing with balanced.
+
+00:16:15.420 --> 00:16:16.500
+So we can say, okay, cool,
+
+00:16:16.500 --> 00:16:17.900
+we're done with step one.
+
+00:16:17.900 --> 00:16:18.000
+Now we're gonna move towards
+collecting and compiling
+
+00:16:18.000 --> 00:16:19.900
+Now we're gonna move towards
+collecting and compiling
+
+00:16:19.900 --> 00:16:21.920
+some inspiration, which actually,
+
+00:16:21.920 --> 00:16:23.010
+if you were paying attention,
+
+00:16:23.010 --> 00:16:24.000
+we were starting to do that.
+
+00:16:24.000 --> 00:16:24.360
+we were starting to do that.
+
+00:16:24.360 --> 00:16:25.550
+When I asked my client,
+
+00:16:25.550 --> 00:16:27.700
+hey, what are the sites that inspire you?
+
+00:16:27.700 --> 00:16:29.440
+Even if it's in a totally different field
+
+00:16:29.440 --> 00:16:30.000
+or doing a totally different thing,
+
+00:16:30.000 --> 00:16:30.880
+or doing a totally different thing,
+
+00:16:30.880 --> 00:16:32.720
+where do you kinda draw inspiration from
+
+00:16:32.720 --> 00:16:35.340
+that's starting to get
+at the heart of step two.
+
+00:16:35.340 --> 00:16:36.000
+Now again, there's a whole
+other video that explores this
+
+00:16:36.000 --> 00:16:37.330
+Now again, there's a whole
+other video that explores this
+
+00:16:37.330 --> 00:16:38.570
+in a lot more detail.
+
+00:16:38.570 --> 00:16:40.350
+Then it would be time
+to sketch and wireframe
+
+00:16:40.350 --> 00:16:41.200
+out a little bit.
+
+00:16:41.200 --> 00:16:42.000
+But honestly, with
+something as straightforward
+
+00:16:42.000 --> 00:16:42.970
+But honestly, with
+something as straightforward
+
+00:16:42.970 --> 00:16:44.870
+as an article recommending a product,
+
+00:16:44.870 --> 00:16:46.500
+I'm probably not gonna take the time to do
+
+00:16:46.500 --> 00:16:48.000
+two in depth the sketches.
+
+00:16:48.000 --> 00:16:48.040
+two in depth the sketches.
+
+00:16:48.040 --> 00:16:51.100
+Instead, I'm gonna start
+exploring visual styles.
+
+00:16:51.100 --> 00:16:53.410
+So step one and step four are really
+
+00:16:53.410 --> 00:16:54.000
+where we're going to be
+spending most of our time
+
+00:16:54.000 --> 00:16:55.520
+where we're going to be
+spending most of our time
+
+00:16:55.520 --> 00:16:56.363
+in this video.
+
+00:16:57.290 --> 00:16:59.500
+All right, so we've got
+this brand trustworthy,
+
+00:16:59.500 --> 00:17:00.000
+geeky, humble, balanced.
+
+00:17:00.000 --> 00:17:01.330
+geeky, humble, balanced.
+
+00:17:01.330 --> 00:17:02.810
+It's a recommendation site.
+
+00:17:02.810 --> 00:17:04.180
+We're trying to give these really
+
+00:17:04.180 --> 00:17:05.690
+high quality recommendations.
+
+00:17:05.690 --> 00:17:06.000
+Let's start with topography, right?
+
+00:17:06.000 --> 00:17:07.740
+Let's start with topography, right?
+
+00:17:07.740 --> 00:17:09.570
+Let's start trying to distill
+
+00:17:09.570 --> 00:17:11.630
+these brand values into typography.
+
+00:17:11.630 --> 00:17:12.000
+And that's actually a really
+a fantastic place to start
+
+00:17:12.000 --> 00:17:14.100
+And that's actually a really
+a fantastic place to start
+
+00:17:14.100 --> 00:17:16.670
+for a site that's mostly
+made of articles anyways.
+
+00:17:16.670 --> 00:17:18.000
+So what fonts, when you
+think of trustworthy,
+
+00:17:18.000 --> 00:17:20.000
+So what fonts, when you
+think of trustworthy,
+
+00:17:20.000 --> 00:17:21.860
+when you think of trustworthy,
+what fonts do you think of,
+
+00:17:21.860 --> 00:17:24.000
+or even what general category of fonts?
+
+00:17:24.000 --> 00:17:24.520
+or even what general category of fonts?
+
+00:17:24.520 --> 00:17:25.780
+You don't really have to know too much.
+
+00:17:25.780 --> 00:17:28.180
+I realized this video is in
+the beginning of the course.
+
+00:17:28.180 --> 00:17:30.000
+So don't fret, if you're
+like, I've got no idea,
+
+00:17:30.000 --> 00:17:30.730
+So don't fret, if you're
+like, I've got no idea,
+
+00:17:30.730 --> 00:17:33.333
+but the thing I'm thinking of is serif.
+
+00:17:34.400 --> 00:17:36.000
+Serif fonts just tend to
+look a little more detailed,
+
+00:17:36.000 --> 00:17:39.240
+Serif fonts just tend to
+look a little more detailed,
+
+00:17:39.240 --> 00:17:42.000
+considered official, classy,
+old, wizened, whatever.
+
+00:17:42.000 --> 00:17:43.970
+considered official, classy,
+old, wizened, whatever.
+
+00:17:43.970 --> 00:17:46.230
+When I think a trustworthy,
+I think of serif fonts.
+
+00:17:46.230 --> 00:17:47.790
+And so I'm gonna do something like
+
+00:17:47.790 --> 00:17:48.000
+come to my Good Fonts Table,
+
+00:17:48.000 --> 00:17:49.230
+come to my Good Fonts Table,
+
+00:17:49.230 --> 00:17:51.040
+which is a resource in the fourth unit,
+
+00:17:51.040 --> 00:17:52.660
+the topography unit,
+
+00:17:52.660 --> 00:17:53.850
+I'm gonna filter by serifs
+
+00:17:53.850 --> 00:17:54.000
+and I'm start going through this list.
+
+00:17:54.000 --> 00:17:55.160
+and I'm start going through this list.
+
+00:17:55.160 --> 00:17:57.730
+I'm gonna find ones that
+I think might be worth
+
+00:17:57.730 --> 00:17:59.083
+kinda playing around with.
+
+00:18:01.868 --> 00:18:03.920
+So I actually went and stole these fonts
+
+00:18:03.920 --> 00:18:05.520
+from the file that I was designing.
+
+00:18:05.520 --> 00:18:06.000
+And because these are the
+actual ones I looked at.
+
+00:18:06.000 --> 00:18:07.260
+And because these are the
+actual ones I looked at.
+
+00:18:07.260 --> 00:18:08.900
+So here's FreightText Pro
+
+00:18:08.900 --> 00:18:10.430
+that's in my good fonts list.
+
+00:18:10.430 --> 00:18:12.000
+This is Freight Display,
+which is really similar.
+
+00:18:12.000 --> 00:18:12.950
+This is Freight Display,
+which is really similar.
+
+00:18:12.950 --> 00:18:14.230
+It's in the same family.
+
+00:18:14.230 --> 00:18:15.760
+Merriweather is another one on the list,
+
+00:18:15.760 --> 00:18:17.270
+Meta Serif on the list,
+
+00:18:17.270 --> 00:18:18.000
+More Pro, PT Serif,
+
+00:18:18.000 --> 00:18:19.320
+More Pro, PT Serif,
+
+00:18:19.320 --> 00:18:20.190
+Tisa Pro.
+
+00:18:20.190 --> 00:18:21.400
+So all of these are on the list.
+
+00:18:21.400 --> 00:18:23.260
+I'm just looking at my own list of fonts,
+
+00:18:23.260 --> 00:18:24.000
+kind of the best of my own past judgment.
+
+00:18:24.000 --> 00:18:26.210
+kind of the best of my own past judgment.
+
+00:18:26.210 --> 00:18:27.460
+Just filtering down into a couple
+
+00:18:27.460 --> 00:18:28.960
+of different starting points.
+
+00:18:28.960 --> 00:18:30.000
+And maybe you have some
+idea of what you think looks
+
+00:18:30.000 --> 00:18:31.250
+And maybe you have some
+idea of what you think looks
+
+00:18:31.250 --> 00:18:32.610
+the most trustworthy here.
+
+00:18:32.610 --> 00:18:34.960
+Maybe you don't, either
+way it's really fine.
+
+00:18:34.960 --> 00:18:36.000
+The whole point of this exploring visual
+
+00:18:36.000 --> 00:18:36.690
+The whole point of this exploring visual
+
+00:18:36.690 --> 00:18:38.890
+style step is just to
+get some stuff out there
+
+00:18:38.890 --> 00:18:42.000
+and start mixing and matching
+and seeing what feels right.
+
+00:18:42.000 --> 00:18:42.160
+and start mixing and matching
+and seeing what feels right.
+
+00:18:42.160 --> 00:18:45.490
+Now recall that our other big
+value here was geeky, right?
+
+00:18:45.490 --> 00:18:47.070
+What fonts are geeky?
+
+00:18:47.070 --> 00:18:48.000
+Well, again, I'm gonna go back
+to my Good Fonts Table here.
+
+00:18:48.000 --> 00:18:50.620
+Well, again, I'm gonna go back
+to my Good Fonts Table here.
+
+00:18:50.620 --> 00:18:52.510
+Maybe monospaced fonts are geeky, right?
+
+00:18:52.510 --> 00:18:54.000
+Because they kind of remind you of say,
+
+00:18:54.000 --> 00:18:54.890
+Because they kind of remind you of say,
+
+00:18:54.890 --> 00:18:56.660
+typing into a computer terminal
+
+00:18:56.660 --> 00:18:58.343
+or something like that, coding.
+
+00:18:59.620 --> 00:19:00.000
+So over here,
+
+00:19:00.000 --> 00:19:01.480
+So over here,
+
+00:19:01.480 --> 00:19:04.690
+I just copied a couple possible bylines.
+
+00:19:04.690 --> 00:19:06.000
+Each of these are in the monospaced fonts,
+
+00:19:06.000 --> 00:19:06.430
+Each of these are in the monospaced fonts,
+
+00:19:06.430 --> 00:19:09.710
+Fira Mono, Inconsolata, Input Mono.
+
+00:19:09.710 --> 00:19:12.000
+Of these, I think Input is
+kinda my favorite, right?
+
+00:19:12.000 --> 00:19:13.222
+Of these, I think Input is
+kinda my favorite, right?
+
+00:19:13.222 --> 00:19:15.150
+And when I start to look
+at these letter forms,
+
+00:19:15.150 --> 00:19:17.030
+and by the way, I mean, we're
+gonna get way more into this
+
+00:19:17.030 --> 00:19:18.000
+in the topography unit,
+
+00:19:18.000 --> 00:19:18.500
+in the topography unit,
+
+00:19:18.500 --> 00:19:20.450
+but I just wanna make it so clear that
+
+00:19:20.450 --> 00:19:23.250
+when this seems like something
+that's really subjective
+
+00:19:23.250 --> 00:19:24.000
+and loosey goosey, our whole process
+
+00:19:24.000 --> 00:19:25.110
+and loosey goosey, our whole process
+
+00:19:25.110 --> 00:19:26.750
+for figuring out what font to use
+
+00:19:26.750 --> 00:19:28.260
+is listing a bunch of adjectives
+
+00:19:28.260 --> 00:19:30.000
+that match what we want our users to feel,
+
+00:19:30.000 --> 00:19:30.370
+that match what we want our users to feel,
+
+00:19:30.370 --> 00:19:32.920
+and then trying to match
+those adjectives to fonts.
+
+00:19:32.920 --> 00:19:35.010
+And when we're matching
+the adjectives to fonts,
+
+00:19:35.010 --> 00:19:36.000
+we're like looking at the
+shapes of letters here.
+
+00:19:36.000 --> 00:19:37.270
+we're like looking at the
+shapes of letters here.
+
+00:19:37.270 --> 00:19:40.470
+I love that the letters here
+are so squared off, right.
+
+00:19:40.470 --> 00:19:42.000
+That just makes it feel
+particularly geeky.
+
+00:19:42.000 --> 00:19:43.350
+That just makes it feel
+particularly geeky.
+
+00:19:43.350 --> 00:19:45.720
+And you know, it's happening
+to some degree with these,
+
+00:19:45.720 --> 00:19:48.000
+but this one is by far
+the most pronounced.
+
+00:19:48.000 --> 00:19:48.120
+but this one is by far
+the most pronounced.
+
+00:19:48.120 --> 00:19:50.430
+And so maybe I'll take that
+as a jumping off point.
+
+00:19:50.430 --> 00:19:52.420
+And I'll say, what other
+fonts kinda exhibit
+
+00:19:52.420 --> 00:19:54.000
+some of that squared off nature.
+
+00:19:54.000 --> 00:19:54.120
+some of that squared off nature.
+
+00:19:54.120 --> 00:19:55.320
+Right, I can go here.
+
+00:19:55.320 --> 00:19:56.840
+Let's cancel the Mono filter,
+
+00:19:56.840 --> 00:19:59.180
+but let's just search square.
+
+00:19:59.180 --> 00:20:00.000
+Yeah, squared.
+
+00:20:00.000 --> 00:20:00.290
+Yeah, squared.
+
+00:20:00.290 --> 00:20:01.370
+Okay, cool.
+
+00:20:01.370 --> 00:20:02.240
+And already I see.
+
+00:20:02.240 --> 00:20:04.140
+Oh, I've got Clear Sans on this list.
+
+00:20:04.140 --> 00:20:05.430
+Alright, well, Clear Sans.
+
+00:20:05.430 --> 00:20:06.000
+Let's throw that one in here too.
+
+00:20:06.000 --> 00:20:07.653
+Let's throw that one in here too.
+
+00:20:10.640 --> 00:20:12.000
+And
+
+00:20:12.000 --> 00:20:12.350
+And
+
+00:20:12.350 --> 00:20:15.310
+another one we had was DIN 2014
+
+00:20:15.310 --> 00:20:16.913
+that one's on Adobe Fonts.
+
+00:20:18.050 --> 00:20:18.883
+Perfect.
+
+00:20:18.883 --> 00:20:20.180
+Another thing I can do here is
+
+00:20:20.180 --> 00:20:23.130
+when I'm just kind of messing
+around with little styles
+
+00:20:23.130 --> 00:20:24.000
+and trying to find a font,
+
+00:20:24.000 --> 00:20:24.440
+and trying to find a font,
+
+00:20:24.440 --> 00:20:26.343
+I will put them in uppercase,
+
+00:20:27.230 --> 00:20:28.390
+exploring uppercases
+
+00:20:28.390 --> 00:20:29.930
+is an important part
+of choosing your font.
+
+00:20:29.930 --> 00:20:30.000
+We talk about that in the topography unit.
+
+00:20:30.000 --> 00:20:32.030
+We talk about that in the topography unit.
+
+00:20:33.330 --> 00:20:35.940
+But now I've started compiling
+a bunch of ideas here
+
+00:20:35.940 --> 00:20:36.000
+and I could start to mix
+and match a title font
+
+00:20:36.000 --> 00:20:38.300
+and I could start to mix
+and match a title font
+
+00:20:38.300 --> 00:20:41.170
+with a little byline font
+right here and figure out
+
+00:20:41.170 --> 00:20:42.000
+what's gonna look the best.
+
+00:20:42.000 --> 00:20:42.400
+what's gonna look the best.
+
+00:20:42.400 --> 00:20:44.260
+What do I like, what don't I like?
+
+00:20:44.260 --> 00:20:46.290
+Now in a second, I'm gonna
+have you pause the video.
+
+00:20:46.290 --> 00:20:48.000
+So actually get your finger
+ready to press the space bar
+
+00:20:48.000 --> 00:20:48.680
+So actually get your finger
+ready to press the space bar
+
+00:20:48.680 --> 00:20:49.980
+or pause button or whatever.
+
+00:20:49.980 --> 00:20:52.750
+I want you to open up the Good
+Fonts Table in another tab.
+
+00:20:52.750 --> 00:20:54.000
+I want you to open up
+your design app of choice,
+
+00:20:54.000 --> 00:20:54.920
+I want you to open up
+your design app of choice,
+
+00:20:54.920 --> 00:20:57.670
+and I want you to take a stab
+at kind of designing just
+
+00:20:58.735 --> 00:21:00.000
+a trustworthy yet geeky
+title mixed with a byline.
+
+00:21:00.000 --> 00:21:02.050
+a trustworthy yet geeky
+title mixed with a byline.
+
+00:21:02.050 --> 00:21:04.130
+You can throw in a first
+paragraph of body text, too
+
+00:21:04.130 --> 00:21:05.630
+if you're feeling really ambitious.
+
+00:21:05.630 --> 00:21:06.000
+You can use one of the
+fonts that I've listed here.
+
+00:21:06.000 --> 00:21:07.860
+You can use one of the
+fonts that I've listed here.
+
+00:21:07.860 --> 00:21:09.360
+You can use a different one.
+
+00:21:09.360 --> 00:21:10.990
+I recommend using the Good Fonts Table,
+
+00:21:10.990 --> 00:21:12.000
+unless you have a strong sense
+of other fonts that you like
+
+00:21:12.000 --> 00:21:13.360
+unless you have a strong sense
+of other fonts that you like
+
+00:21:13.360 --> 00:21:15.450
+and feel trustworthy or geeky.
+
+00:21:15.450 --> 00:21:16.700
+But go ahead, pause.
+
+00:21:16.700 --> 00:21:18.000
+Do that little exercise and
+we will see you in just a sec.
+
+00:21:18.000 --> 00:21:19.600
+Do that little exercise and
+we will see you in just a sec.
+
+00:21:21.440 --> 00:21:22.800
+All right, welcome back.
+
+00:21:22.800 --> 00:21:24.000
+Now I wanna show you the
+fonts that I picked for this,
+
+00:21:24.000 --> 00:21:25.580
+Now I wanna show you the
+fonts that I picked for this,
+
+00:21:25.580 --> 00:21:26.530
+but the way I'm gonna show you
+
+00:21:26.530 --> 00:21:28.890
+is I'm actually just going
+to give you the presentation.
+
+00:21:28.890 --> 00:21:30.000
+A very brief version of the presentation
+
+00:21:30.000 --> 00:21:30.780
+A very brief version of the presentation
+
+00:21:30.780 --> 00:21:32.050
+that I gave to my client.
+
+00:21:32.050 --> 00:21:34.670
+This was kind of my first
+stab at putting together
+
+00:21:34.670 --> 00:21:36.000
+some UI that met all the brand
+values we had established.
+
+00:21:36.000 --> 00:21:38.190
+some UI that met all the brand
+values we had established.
+
+00:21:38.190 --> 00:21:40.480
+So the whole way this
+presentation was structured
+
+00:21:40.480 --> 00:21:42.000
+is I put our mission at the top,
+
+00:21:42.000 --> 00:21:42.260
+is I put our mission at the top,
+
+00:21:42.260 --> 00:21:44.930
+make accessible the best
+way to learn any given skill
+
+00:21:44.930 --> 00:21:48.000
+and below that each of the
+four main brand values.
+
+00:21:48.000 --> 00:21:49.050
+and below that each of the
+four main brand values.
+
+00:21:49.050 --> 00:21:50.820
+Then whatever I've put on this screen
+
+00:21:50.820 --> 00:21:52.410
+that this slide is talking about.
+
+00:21:52.410 --> 00:21:54.000
+I've highlighted the brand
+value that it most relates to.
+
+00:21:54.000 --> 00:21:55.700
+I've highlighted the brand
+value that it most relates to.
+
+00:21:55.700 --> 00:21:56.533
+So in this case,
+
+00:21:56.533 --> 00:21:57.366
+the article title,
+
+00:21:57.366 --> 00:21:59.650
+"How to Learn Yoga: The
+Best Way for Most People."
+
+00:21:59.650 --> 00:22:00.000
+One thing we had talked about was that
+
+00:22:00.000 --> 00:22:01.550
+One thing we had talked about was that
+
+00:22:01.550 --> 00:22:04.330
+Genius Notes should really
+give kind of the middle
+
+00:22:04.330 --> 00:22:05.360
+of the road way,
+
+00:22:05.360 --> 00:22:06.000
+that's gonna be most
+effective for most people.
+
+00:22:06.000 --> 00:22:08.140
+that's gonna be most
+effective for most people.
+
+00:22:08.140 --> 00:22:09.230
+Well, that's balanced.
+
+00:22:09.230 --> 00:22:10.063
+Awesome.
+
+00:22:10.063 --> 00:22:11.870
+And it's also making
+accessible the best way
+
+00:22:11.870 --> 00:22:12.000
+to learn a given skill.
+
+00:22:12.000 --> 00:22:13.140
+to learn a given skill.
+
+00:22:13.140 --> 00:22:15.200
+Now we change the font, right?
+
+00:22:15.200 --> 00:22:17.900
+So here's this font Freight
+from the Good Fonts Table.
+
+00:22:17.900 --> 00:22:18.000
+That's the one I went with.
+
+00:22:18.000 --> 00:22:19.170
+That's the one I went with.
+
+00:22:19.170 --> 00:22:21.520
+And Freight in particular
+is really trustworthy.
+
+00:22:21.520 --> 00:22:23.180
+It's finely crafted letters reflect
+
+00:22:23.180 --> 00:22:24.000
+the careful recommendations
+in each Genius Notes guide.
+
+00:22:24.000 --> 00:22:26.243
+the careful recommendations
+in each Genius Notes guide.
+
+00:22:27.390 --> 00:22:29.740
+Then we've got a little
+byline going on here.
+
+00:22:29.740 --> 00:22:30.000
+We'll pair Freight with a techy,
+
+00:22:30.000 --> 00:22:31.060
+We'll pair Freight with a techy,
+
+00:22:31.060 --> 00:22:32.510
+squared off terminal inspired font.
+
+00:22:32.510 --> 00:22:34.020
+This one is Plex.
+
+00:22:34.020 --> 00:22:35.470
+I didn't show you Plex just a minute ago,
+
+00:22:35.470 --> 00:22:36.000
+but this is also in the Good Fonts Table.
+
+00:22:36.000 --> 00:22:37.490
+but this is also in the Good Fonts Table.
+
+00:22:37.490 --> 00:22:39.190
+And yes, it's geeky.
+
+00:22:39.190 --> 00:22:40.650
+Another thing, and this doesn't pertain
+
+00:22:40.650 --> 00:22:42.000
+as much to the UI design
+
+00:22:42.000 --> 00:22:42.110
+as much to the UI design
+
+00:22:42.110 --> 00:22:43.580
+that we're gonna cover in this course,
+
+00:22:43.580 --> 00:22:46.840
+but the copy really can
+affect the brand too.
+
+00:22:46.840 --> 00:22:48.000
+If someone sees how recent this was,
+
+00:22:48.000 --> 00:22:48.470
+If someone sees how recent this was,
+
+00:22:48.470 --> 00:22:50.490
+which it was recent when
+I gave the presentation,
+
+00:22:50.490 --> 00:22:53.930
+that's kind of a real cool
+sign that actually this site
+
+00:22:53.930 --> 00:22:54.000
+does care about its guides
+
+00:22:54.000 --> 00:22:55.070
+does care about its guides
+
+00:22:55.070 --> 00:22:56.560
+and tries to keep them up-to-date.
+
+00:22:56.560 --> 00:22:57.450
+That's trustworthy.
+
+00:22:57.450 --> 00:22:59.030
+So there's a number of
+things that I call out
+
+00:22:59.030 --> 00:23:00.000
+in this presentation that are about
+
+00:23:00.000 --> 00:23:01.090
+in this presentation that are about
+
+00:23:01.090 --> 00:23:04.030
+how I say something or what
+the page actually says,
+
+00:23:04.030 --> 00:23:05.870
+the copy, the text on the page.
+
+00:23:05.870 --> 00:23:06.000
+This happens to be calling
+out just how impressive
+
+00:23:06.000 --> 00:23:08.040
+This happens to be calling
+out just how impressive
+
+00:23:08.040 --> 00:23:09.940
+the teacher's little resume is here.
+
+00:23:09.940 --> 00:23:11.200
+And by the way,
+
+00:23:11.200 --> 00:23:12.000
+when I talk about doing a style tile,
+
+00:23:12.000 --> 00:23:13.470
+when I talk about doing a style tile,
+
+00:23:13.470 --> 00:23:15.030
+this is the sort of thing I'm saying.
+
+00:23:15.030 --> 00:23:17.310
+I've taken a couple different font styles,
+
+00:23:17.310 --> 00:23:18.000
+the headline font style,
+
+00:23:18.000 --> 00:23:18.980
+the headline font style,
+
+00:23:18.980 --> 00:23:21.500
+a little byline piece here,
+
+00:23:21.500 --> 00:23:24.000
+a little author bio, an author photo,
+
+00:23:24.000 --> 00:23:24.200
+a little author bio, an author photo,
+
+00:23:24.200 --> 00:23:25.940
+and I've combined them all together
+
+00:23:25.940 --> 00:23:28.170
+in the way that they would
+be displayed on the site.
+
+00:23:28.170 --> 00:23:29.460
+So if you're working with clients
+
+00:23:29.460 --> 00:23:30.000
+and looking for kind of
+an in-between deliverable
+
+00:23:30.000 --> 00:23:31.930
+and looking for kind of
+an in-between deliverable
+
+00:23:31.930 --> 00:23:34.140
+after you've established
+your brand and your goals,
+
+00:23:34.140 --> 00:23:36.000
+but before you're actually
+designing out the whole UI,
+
+00:23:36.000 --> 00:23:36.500
+but before you're actually
+designing out the whole UI,
+
+00:23:36.500 --> 00:23:38.520
+show them a couple of
+style tiles like this,
+
+00:23:38.520 --> 00:23:40.830
+just say, how do we feel
+about this direction?
+
+00:23:40.830 --> 00:23:41.663
+I'll keep going here.
+
+00:23:41.663 --> 00:23:42.000
+You can read the text if you want,
+
+00:23:42.000 --> 00:23:42.890
+You can read the text if you want,
+
+00:23:42.890 --> 00:23:45.780
+but it's a little bit more
+about the actual text here.
+
+00:23:45.780 --> 00:23:47.790
+And then of course we put
+in some high quality imagery
+
+00:23:47.790 --> 00:23:48.000
+with people doing yoga,
+
+00:23:48.000 --> 00:23:49.740
+with people doing yoga,
+
+00:23:49.740 --> 00:23:51.550
+and then we start to scroll down.
+
+00:23:51.550 --> 00:23:53.770
+This is, as we get into the article
+
+00:23:53.770 --> 00:23:54.000
+and my call outs here are
+about all sorts of aspects
+
+00:23:54.000 --> 00:23:56.540
+and my call outs here are
+about all sorts of aspects
+
+00:23:56.540 --> 00:23:57.720
+of the design.
+
+00:23:57.720 --> 00:24:00.000
+We've got the top learning
+resource, the what?
+
+00:24:00.000 --> 00:24:00.320
+We've got the top learning
+resource, the what?
+
+00:24:00.320 --> 00:24:01.830
+Well, and then we're
+using this as a little
+
+00:24:01.830 --> 00:24:05.070
+chance to explain a bit more
+about how the site works.
+
+00:24:05.070 --> 00:24:06.000
+Again, the users are coming from Google.
+
+00:24:06.000 --> 00:24:07.290
+Again, the users are coming from Google.
+
+00:24:07.290 --> 00:24:09.310
+We can't rely on them
+having seen the About page
+
+00:24:09.310 --> 00:24:10.143
+or the Homepage.
+
+00:24:10.143 --> 00:24:11.560
+So we have to explain this sort of stuff
+
+00:24:11.560 --> 00:24:12.000
+in the article itself.
+
+00:24:12.000 --> 00:24:12.920
+in the article itself.
+
+00:24:12.920 --> 00:24:14.210
+And I'm just trying to give my client
+
+00:24:14.210 --> 00:24:15.990
+the sense that everything I've done here,
+
+00:24:15.990 --> 00:24:18.000
+it's all precise and it's all goal-based.
+
+00:24:18.000 --> 00:24:18.620
+it's all precise and it's all goal-based.
+
+00:24:18.620 --> 00:24:20.350
+We scroll on a bit more,
+
+00:24:20.350 --> 00:24:23.070
+the same sort of thing
+is going on, et cetera.
+
+00:24:23.070 --> 00:24:24.000
+And at that point, the
+presentation comes to an end.
+
+00:24:24.000 --> 00:24:25.490
+And at that point, the
+presentation comes to an end.
+
+00:24:25.490 --> 00:24:26.690
+How does it end?
+
+00:24:26.690 --> 00:24:29.300
+It doesn't end with me
+presenting 10 other concepts
+
+00:24:29.300 --> 00:24:30.000
+or anything else like that.
+
+00:24:30.000 --> 00:24:30.540
+or anything else like that.
+
+00:24:30.540 --> 00:24:32.000
+It's just above.
+
+00:24:32.000 --> 00:24:33.540
+Here's what I designed.
+
+00:24:33.540 --> 00:24:35.120
+Here's how it meets our goals.
+
+00:24:35.120 --> 00:24:36.000
+How are we succeeding at those standards?
+
+00:24:36.000 --> 00:24:37.140
+How are we succeeding at those standards?
+
+00:24:37.140 --> 00:24:37.973
+How are we failing?
+
+00:24:37.973 --> 00:24:39.850
+And how do we move forward?
+
+00:24:39.850 --> 00:24:42.000
+In this project ended up
+going extremely smoothly
+
+00:24:42.000 --> 00:24:42.880
+In this project ended up
+going extremely smoothly
+
+00:24:42.880 --> 00:24:44.740
+in large part because
+I just kept the design
+
+00:24:44.740 --> 00:24:46.450
+so focused on what the goals were.
+
+00:24:46.450 --> 00:24:48.000
+Also, if you were one step ahead of me,
+
+00:24:48.000 --> 00:24:48.020
+Also, if you were one step ahead of me,
+
+00:24:48.020 --> 00:24:49.530
+the entire way you may have said,
+
+00:24:49.530 --> 00:24:51.500
+if your brand value is humility,
+
+00:24:51.500 --> 00:24:53.900
+why the heck is your name Genius Notes?
+
+00:24:53.900 --> 00:24:54.000
+We recognize that too.
+
+00:24:54.000 --> 00:24:54.960
+We recognize that too.
+
+00:24:54.960 --> 00:24:56.050
+And by the end of the project,
+
+00:24:56.050 --> 00:24:59.090
+the site had changed to the name, Guidery.
+
+00:24:59.090 --> 00:25:00.000
+Guidery had incredibly
+long form articles here,
+
+00:25:00.000 --> 00:25:03.620
+Guidery had incredibly
+long form articles here,
+
+00:25:03.620 --> 00:25:04.913
+a Homepage,
+
+00:25:06.050 --> 00:25:08.703
+simple, clean to the point, trustworthy.
+
+00:25:11.250 --> 00:25:12.000
+even the About page felt very
+considered and carefully done.
+
+00:25:12.000 --> 00:25:14.633
+even the About page felt very
+considered and carefully done.
+
+00:25:15.630 --> 00:25:18.000
+Okay, so at this point
+you might be wondering
+
+00:25:18.000 --> 00:25:18.140
+Okay, so at this point
+you might be wondering
+
+00:25:18.140 --> 00:25:20.130
+there's so many brand adjectives.
+
+00:25:20.130 --> 00:25:20.963
+What do I have to do?
+
+00:25:20.963 --> 00:25:23.310
+Learn how to translate
+every single brand adjective
+
+00:25:23.310 --> 00:25:24.000
+into different typographic styles
+
+00:25:24.000 --> 00:25:26.490
+into different typographic styles
+
+00:25:26.490 --> 00:25:30.000
+and colors and imagery
+styles and whatever.
+
+00:25:30.000 --> 00:25:30.270
+and colors and imagery
+styles and whatever.
+
+00:25:30.270 --> 00:25:31.650
+No, you do not.
+
+00:25:31.650 --> 00:25:34.470
+There's really, there is
+an 80/20 rule at play here,
+
+00:25:34.470 --> 00:25:36.000
+which is to say an 80/20
+rule is when 80% of the work
+
+00:25:36.000 --> 00:25:37.620
+which is to say an 80/20
+rule is when 80% of the work
+
+00:25:37.620 --> 00:25:39.250
+comes from 20% of the effort,
+
+00:25:39.250 --> 00:25:42.000
+or 80% of the output comes
+from 20% of the input.
+
+00:25:42.000 --> 00:25:42.630
+or 80% of the output comes
+from 20% of the input.
+
+00:25:42.630 --> 00:25:43.890
+In our case,
+
+00:25:43.890 --> 00:25:45.670
+what I want to have you do is master
+
+00:25:45.670 --> 00:25:48.000
+the 20% of possible brand adjectives
+
+00:25:48.000 --> 00:25:48.450
+the 20% of possible brand adjectives
+
+00:25:48.450 --> 00:25:52.080
+or brand values that you
+will see 80% of the time.
+
+00:25:52.080 --> 00:25:52.930
+So without further ado,
+
+00:25:52.930 --> 00:25:54.000
+let's talk about the five most common
+
+00:25:54.000 --> 00:25:55.460
+let's talk about the five most common
+
+00:25:55.460 --> 00:25:56.530
+brands that you're gonna see.
+
+00:25:56.530 --> 00:25:58.290
+And I'm just gonna do a quick rundown
+
+00:25:58.290 --> 00:26:00.000
+on how they influence
+typography, color, imagery,
+
+00:26:00.000 --> 00:26:01.420
+on how they influence
+typography, color, imagery,
+
+00:26:01.420 --> 00:26:03.410
+but really don't have to worry too much
+
+00:26:03.410 --> 00:26:04.780
+about the details right now.
+
+00:26:04.780 --> 00:26:06.000
+I just want you to get
+familiar with these five brands
+
+00:26:06.000 --> 00:26:07.500
+I just want you to get
+familiar with these five brands
+
+00:26:07.500 --> 00:26:10.350
+and kind of start to
+recognize when you see them,
+
+00:26:10.350 --> 00:26:12.000
+and notice the patterns
+of what's happening
+
+00:26:12.000 --> 00:26:13.010
+and notice the patterns
+of what's happening
+
+00:26:13.010 --> 00:26:16.840
+when good designers designed
+to meet these brand values.
+
+00:26:16.840 --> 00:26:18.000
+The first one is clean and simple,
+
+00:26:18.000 --> 00:26:18.380
+The first one is clean and simple,
+
+00:26:18.380 --> 00:26:21.670
+and that is by far the
+most common client requests
+
+00:26:21.670 --> 00:26:22.503
+that I've had.
+
+00:26:22.503 --> 00:26:24.000
+Hey, we just want something
+that's clean and simple,
+
+00:26:24.000 --> 00:26:24.700
+Hey, we just want something
+that's clean and simple,
+
+00:26:24.700 --> 00:26:26.320
+neat and modern.
+
+00:26:26.320 --> 00:26:28.390
+Typography for clean and
+simple is often gonna be
+
+00:26:28.390 --> 00:26:30.000
+sans-serif fonts in
+particular Grotesque sans.
+
+00:26:30.000 --> 00:26:31.110
+sans-serif fonts in
+particular Grotesque sans.
+
+00:26:31.110 --> 00:26:32.560
+If you know what that means, great.
+
+00:26:32.560 --> 00:26:34.270
+If you don't do not worry about it,
+
+00:26:34.270 --> 00:26:35.410
+we'll get to it later.
+
+00:26:35.410 --> 00:26:36.000
+Likewise, with coloring
+this the primary palette,
+
+00:26:36.000 --> 00:26:37.920
+Likewise, with coloring
+this the primary palette,
+
+00:26:37.920 --> 00:26:39.360
+all you need to know is there's bright,
+
+00:26:39.360 --> 00:26:41.770
+clean, primary, hues.
+
+00:26:41.770 --> 00:26:42.000
+You know, it's like the
+four pack of crayons
+
+00:26:42.000 --> 00:26:43.280
+You know, it's like the
+four pack of crayons
+
+00:26:43.280 --> 00:26:44.410
+you get when you go to a restaurant
+
+00:26:44.410 --> 00:26:46.820
+and your toddler wants
+to color on the menu,
+
+00:26:46.820 --> 00:26:48.000
+or you'll see monohue schemes
+
+00:26:48.000 --> 00:26:48.680
+or you'll see monohue schemes
+
+00:26:48.680 --> 00:26:51.380
+where the whole site
+basically just has one
+
+00:26:51.380 --> 00:26:52.410
+main theme color.
+
+00:26:52.410 --> 00:26:54.000
+And the variations of that
+theme color are hues throughout.
+
+00:26:54.000 --> 00:26:54.670
+And the variations of that
+theme color are hues throughout.
+
+00:26:54.670 --> 00:26:57.290
+We'll get to all this in the color unit.
+
+00:26:57.290 --> 00:27:00.000
+The imagery might be
+illustrations or photos.
+
+00:27:00.000 --> 00:27:00.020
+The imagery might be
+illustrations or photos.
+
+00:27:00.020 --> 00:27:01.890
+Now the next most common brand.
+
+00:27:01.890 --> 00:27:03.890
+And I don't know if this
+is maybe second by rank,
+
+00:27:03.890 --> 00:27:06.000
+but it's certainly pretty
+easy to know when you see it
+
+00:27:06.000 --> 00:27:07.000
+but it's certainly pretty
+easy to know when you see it
+
+00:27:07.000 --> 00:27:10.520
+is fancy, luxury kind of formal brands.
+
+00:27:10.520 --> 00:27:12.000
+They might use serif fonts
+
+00:27:12.000 --> 00:27:12.440
+They might use serif fonts
+
+00:27:12.440 --> 00:27:14.850
+and they're much more likely
+to have a pallet of gray scale,
+
+00:27:14.850 --> 00:27:17.050
+maybe there's gold accents or something.
+
+00:27:17.050 --> 00:27:18.000
+And if there's any photography,
+
+00:27:18.000 --> 00:27:18.480
+And if there's any photography,
+
+00:27:18.480 --> 00:27:20.330
+it's gonna be extremely high quality,
+
+00:27:20.330 --> 00:27:21.643
+very beautiful stuff.
+
+00:27:23.070 --> 00:27:24.000
+Then there's also friendly sites.
+
+00:27:24.000 --> 00:27:24.510
+Then there's also friendly sites.
+
+00:27:24.510 --> 00:27:26.659
+This is just the sites that
+
+00:27:26.659 --> 00:27:27.640
+you load them up and you're like, wow,
+
+00:27:27.640 --> 00:27:28.820
+this site is very casual.
+
+00:27:28.820 --> 00:27:30.000
+It's just, it's very friendly.
+
+00:27:30.000 --> 00:27:30.030
+It's just, it's very friendly.
+
+00:27:30.030 --> 00:27:32.090
+It's cheaper, feels nice.
+
+00:27:32.090 --> 00:27:34.290
+They're almost always gonna
+be using sans-serifs fonts
+
+00:27:34.290 --> 00:27:35.800
+of some sort or another.
+
+00:27:35.800 --> 00:27:36.000
+And again, we'll get to the color unit
+
+00:27:36.000 --> 00:27:37.380
+And again, we'll get to the color unit
+
+00:27:37.380 --> 00:27:39.210
+exactly what these mean.
+
+00:27:39.210 --> 00:27:41.340
+With a friendly site, sometimes
+you might see some like
+
+00:27:41.340 --> 00:27:42.000
+cute little illustrations
+or something like that.
+
+00:27:42.000 --> 00:27:43.330
+cute little illustrations
+or something like that.
+
+00:27:43.330 --> 00:27:44.670
+Probably not something you're gonna see
+
+00:27:44.670 --> 00:27:45.790
+on a really fancy site,
+
+00:27:45.790 --> 00:27:47.000
+or if it's done, it's gonna be done
+
+00:27:47.000 --> 00:27:48.000
+in a very different style.
+
+00:27:48.000 --> 00:27:48.960
+in a very different style.
+
+00:27:48.960 --> 00:27:51.100
+Quirky, this one might
+be the least common brand
+
+00:27:51.100 --> 00:27:52.750
+that your clients will have you do.
+
+00:27:52.750 --> 00:27:54.000
+But a lot of designers get
+interested in doing this
+
+00:27:54.000 --> 00:27:55.760
+But a lot of designers get
+interested in doing this
+
+00:27:55.760 --> 00:27:59.290
+themselves as they see kind
+of all these other projects
+
+00:27:59.290 --> 00:28:00.000
+that fit in these other buckets.
+
+00:28:00.000 --> 00:28:00.970
+that fit in these other buckets.
+
+00:28:00.970 --> 00:28:03.530
+And quirky, sometimes they're
+gonna have maybe quirky
+
+00:28:03.530 --> 00:28:05.710
+or fonts or more of a muted palette,
+
+00:28:05.710 --> 00:28:06.000
+more likely to have an orangish-red
+
+00:28:06.000 --> 00:28:07.730
+more likely to have an orangish-red
+
+00:28:07.730 --> 00:28:09.430
+than a pinkish-red, for instance.
+
+00:28:09.430 --> 00:28:11.110
+And if there's illustrations,
+
+00:28:11.110 --> 00:28:12.000
+they might kind of further
+enhance the quirkiness.
+
+00:28:12.000 --> 00:28:13.400
+they might kind of further
+enhance the quirkiness.
+
+00:28:13.400 --> 00:28:15.860
+So we'll get into some examples in a sec.
+
+00:28:15.860 --> 00:28:18.000
+And then the final one is
+I'm just calling a techie,
+
+00:28:18.000 --> 00:28:18.650
+And then the final one is
+I'm just calling a techie,
+
+00:28:18.650 --> 00:28:21.630
+anything that's technical
+or scientific or futuristic.
+
+00:28:21.630 --> 00:28:23.770
+We talked about squared off sans-serifs
+
+00:28:23.770 --> 00:28:24.000
+being kinda geeky, that would
+fit very much in this vibe.
+
+00:28:24.000 --> 00:28:26.970
+being kinda geeky, that would
+fit very much in this vibe.
+
+00:28:26.970 --> 00:28:28.210
+Talked about monospace,
+
+00:28:28.210 --> 00:28:30.000
+you'd also see plenty of uppercase.
+
+00:28:30.000 --> 00:28:30.550
+you'd also see plenty of uppercase.
+
+00:28:30.550 --> 00:28:31.383
+And so on.
+
+00:28:31.383 --> 00:28:33.750
+This also has different connotations
+
+00:28:33.750 --> 00:28:36.000
+for what you'd see in the
+color and the imagery.
+
+00:28:36.000 --> 00:28:36.560
+for what you'd see in the
+color and the imagery.
+
+00:28:36.560 --> 00:28:38.570
+Now, if you're watching this on your toes,
+
+00:28:38.570 --> 00:28:40.790
+you might be thinking,
+wait a second, Eric,
+
+00:28:40.790 --> 00:28:42.000
+you just showed us this example
+where we had a serif font.
+
+00:28:42.000 --> 00:28:43.400
+you just showed us this example
+where we had a serif font.
+
+00:28:43.400 --> 00:28:44.970
+And yeah, it was kinda going for this,
+
+00:28:44.970 --> 00:28:47.390
+like not really fancy, not luxury,
+
+00:28:47.390 --> 00:28:48.000
+but like trustworthy vibe.
+
+00:28:48.000 --> 00:28:49.130
+but like trustworthy vibe.
+
+00:28:49.130 --> 00:28:51.330
+And it kinda feels like
+it matches this row.
+
+00:28:51.330 --> 00:28:53.230
+And yet at the same time,
+
+00:28:53.230 --> 00:28:54.000
+we also had some techie aspects, right?
+
+00:28:54.000 --> 00:28:55.370
+we also had some techie aspects, right?
+
+00:28:55.370 --> 00:28:57.980
+We're going for that
+squared-off sans-serifs font
+
+00:28:57.980 --> 00:28:59.570
+was kind of a vibrant orange.
+
+00:28:59.570 --> 00:29:00.000
+Can there really be two
+of these at the same time?
+
+00:29:00.000 --> 00:29:02.120
+Can there really be two
+of these at the same time?
+
+00:29:02.120 --> 00:29:03.660
+Or does it just count as clean and simple?
+
+00:29:03.660 --> 00:29:05.110
+How do they all fit together?
+
+00:29:06.140 --> 00:29:07.220
+Okay, here's your answer.
+
+00:29:07.220 --> 00:29:09.030
+Here's how it all fits together.
+
+00:29:09.030 --> 00:29:10.760
+This might be one of the most egregious
+
+00:29:10.760 --> 00:29:12.000
+simplifications in the entire course,
+
+00:29:12.000 --> 00:29:12.480
+simplifications in the entire course,
+
+00:29:12.480 --> 00:29:13.480
+but bear with me.
+
+00:29:13.480 --> 00:29:17.180
+I have smashed the four
+most common brand adjectives
+
+00:29:17.180 --> 00:29:18.000
+into one chart.
+
+00:29:18.000 --> 00:29:18.920
+into one chart.
+
+00:29:18.920 --> 00:29:21.670
+And these sites you might recognize
+
+00:29:21.670 --> 00:29:24.000
+as the reference sites from the building
+
+00:29:24.000 --> 00:29:24.330
+as the reference sites from the building
+
+00:29:24.330 --> 00:29:25.930
+your gut instinct lesson,
+
+00:29:25.930 --> 00:29:28.410
+except now they're on a two by two grid.
+
+00:29:28.410 --> 00:29:30.000
+So the whole idea here is
+if you wanna see a site
+
+00:29:30.000 --> 00:29:30.900
+So the whole idea here is
+if you wanna see a site
+
+00:29:30.900 --> 00:29:32.130
+that's really fancy,
+
+00:29:32.130 --> 00:29:33.760
+you look towards the top,
+
+00:29:33.760 --> 00:29:36.000
+for instance, semplice.com.
+
+00:29:36.000 --> 00:29:36.320
+for instance, semplice.com.
+
+00:29:36.320 --> 00:29:38.023
+Cool, I can just open this link.
+
+00:29:39.710 --> 00:29:42.000
+I guarantee you, I did not
+make the table on purpose,
+
+00:29:42.000 --> 00:29:42.110
+I guarantee you, I did not
+make the table on purpose,
+
+00:29:42.110 --> 00:29:46.040
+but we are definitely looking
+at a gray scale, gold accent,
+
+00:29:46.040 --> 00:29:48.000
+serif font, high quality, very classy,
+
+00:29:48.000 --> 00:29:49.320
+serif font, high quality, very classy,
+
+00:29:49.320 --> 00:29:50.703
+formal looking site.
+
+00:29:52.210 --> 00:29:53.680
+On the other sides of the spectrum.
+
+00:29:53.680 --> 00:29:54.000
+If we wanted to see something
+
+00:29:54.000 --> 00:29:55.180
+If we wanted to see something
+
+00:29:55.180 --> 00:29:58.170
+that was maybe a little more
+quirky kind of way down here,
+
+00:29:58.170 --> 00:30:00.000
+we could look at a site like Abstract
+
+00:30:00.000 --> 00:30:00.300
+we could look at a site like Abstract
+
+00:30:00.300 --> 00:30:02.750
+and sure enough Abstract
+is a little bit quirky.
+
+00:30:02.750 --> 00:30:05.450
+It's got these kind of
+gratuitous button animations
+
+00:30:05.450 --> 00:30:06.000
+and this font,
+
+00:30:06.000 --> 00:30:06.640
+and this font,
+
+00:30:06.640 --> 00:30:08.950
+which even though it's
+technically a serif font,
+
+00:30:08.950 --> 00:30:11.070
+it just does not feel very formal.
+
+00:30:11.070 --> 00:30:12.000
+It's a little more playful and wild.
+
+00:30:12.000 --> 00:30:12.890
+It's a little more playful and wild.
+
+00:30:12.890 --> 00:30:14.560
+On the friendly side of the spectrum
+
+00:30:14.560 --> 00:30:16.010
+we could rail it all the way on this end.
+
+00:30:16.010 --> 00:30:18.000
+And we could look at
+the site for Zeda Labs.
+
+00:30:18.000 --> 00:30:18.480
+And we could look at
+the site for Zeda Labs.
+
+00:30:18.480 --> 00:30:20.530
+And Zeda labs has a much softer,
+
+00:30:20.530 --> 00:30:23.060
+kind of a rounded off font here.
+
+00:30:23.060 --> 00:30:24.000
+They've got playful
+animations of their employees
+
+00:30:24.000 --> 00:30:25.970
+They've got playful
+animations of their employees
+
+00:30:25.970 --> 00:30:28.130
+shooting each other with lasers.
+
+00:30:28.130 --> 00:30:29.710
+They actually say the word shut up
+
+00:30:29.710 --> 00:30:30.000
+and take my money on a
+site that sells something
+
+00:30:30.000 --> 00:30:32.690
+and take my money on a
+site that sells something
+
+00:30:32.690 --> 00:30:33.680
+and so on.
+
+00:30:33.680 --> 00:30:35.430
+They also tell you that
+designers should be focused
+
+00:30:35.430 --> 00:30:36.000
+on your business goals,
+
+00:30:36.000 --> 00:30:36.400
+on your business goals,
+
+00:30:36.400 --> 00:30:39.140
+which, hey, Zeda you are
+preaching to the choir.
+
+00:30:39.140 --> 00:30:40.880
+So that's really the friendly
+side of the spectrum.
+
+00:30:40.880 --> 00:30:41.713
+And then finally,
+
+00:30:41.713 --> 00:30:42.000
+what's all the way on the techie side,
+
+00:30:42.000 --> 00:30:43.370
+what's all the way on the techie side,
+
+00:30:43.370 --> 00:30:45.720
+the science authoritative futuristic side.
+
+00:30:45.720 --> 00:30:48.000
+Origin Materials is a
+good example of that.
+
+00:30:48.000 --> 00:30:48.210
+Origin Materials is a
+good example of that.
+
+00:30:48.210 --> 00:30:50.670
+You look, and you see this sans-serif logo
+
+00:30:50.670 --> 00:30:54.000
+super squared off, black
+and white stark photography.
+
+00:30:54.000 --> 00:30:55.670
+super squared off, black
+and white stark photography.
+
+00:30:55.690 --> 00:30:57.190
+I scroll down, it feels like I'm scrolling
+
+00:30:57.190 --> 00:30:58.810
+through a blueprint,
+
+00:30:58.810 --> 00:31:00.000
+still kind of sparse but
+neat and clean, et cetera.
+
+00:31:00.000 --> 00:31:01.960
+still kind of sparse but
+neat and clean, et cetera.
+
+00:31:01.960 --> 00:31:03.090
+You get the idea.
+
+00:31:03.090 --> 00:31:05.610
+Now the whole premise
+of this chart is that
+
+00:31:05.610 --> 00:31:06.000
+it's actually kind of difficult
+
+00:31:06.000 --> 00:31:07.490
+it's actually kind of difficult
+
+00:31:07.490 --> 00:31:10.110
+to be both fancy and
+quirky at the same time.
+
+00:31:10.110 --> 00:31:12.000
+If you focus too much on
+being formal and luxurious,
+
+00:31:12.000 --> 00:31:13.150
+If you focus too much on
+being formal and luxurious,
+
+00:31:13.150 --> 00:31:14.400
+you're gonna find it very tough
+
+00:31:14.400 --> 00:31:16.930
+to also be offbeat in a convincing way,
+
+00:31:16.930 --> 00:31:18.000
+that may not be strictly true.
+
+00:31:18.000 --> 00:31:18.670
+that may not be strictly true.
+
+00:31:18.670 --> 00:31:20.190
+The best designers might be able
+
+00:31:20.190 --> 00:31:22.010
+to kinda hit these opposites,
+
+00:31:22.010 --> 00:31:23.740
+or they might be able to be very techie,
+
+00:31:23.740 --> 00:31:24.000
+maybe futuristic and
+authoritative and yet casual,
+
+00:31:24.000 --> 00:31:26.630
+maybe futuristic and
+authoritative and yet casual,
+
+00:31:26.630 --> 00:31:29.410
+but it just doesn't kinda seem right.
+
+00:31:29.410 --> 00:31:30.000
+So don't treat this chart
+as just representing
+
+00:31:30.000 --> 00:31:32.160
+So don't treat this chart
+as just representing
+
+00:31:32.160 --> 00:31:34.770
+the exact location where every
+one of these sites lives,
+
+00:31:34.770 --> 00:31:36.000
+and they couldn't be anywhere else.
+
+00:31:36.000 --> 00:31:36.410
+and they couldn't be anywhere else.
+
+00:31:36.410 --> 00:31:39.030
+And this is right in any
+difference of opinion is wrong.
+
+00:31:39.030 --> 00:31:40.690
+Instead kinda treat this as a resource
+
+00:31:40.690 --> 00:31:42.000
+that's directionally correct.
+
+00:31:42.000 --> 00:31:42.850
+that's directionally correct.
+
+00:31:42.850 --> 00:31:45.810
+When you know what brand values
+your site is trying to hit.
+
+00:31:45.810 --> 00:31:48.000
+If any of those kinda lean
+in any of these directions,
+
+00:31:48.000 --> 00:31:48.370
+If any of those kinda lean
+in any of these directions,
+
+00:31:48.370 --> 00:31:49.350
+you can then check out,
+
+00:31:49.350 --> 00:31:51.330
+you know, everything
+that's in that quadrant.
+
+00:31:51.330 --> 00:31:53.610
+So for instance, with Guidery, I said,
+
+00:31:53.610 --> 00:31:54.000
+hey, yeah, we have just a
+little bit of fanciness.
+
+00:31:54.000 --> 00:31:56.410
+hey, yeah, we have just a
+little bit of fanciness.
+
+00:31:56.410 --> 00:31:58.810
+Not, it's not all the way
+up here with Semplice,
+
+00:31:58.810 --> 00:32:00.000
+but it's maybe down here,
+
+00:32:00.000 --> 00:32:00.030
+but it's maybe down here,
+
+00:32:00.030 --> 00:32:00.863
+we started clean and simple, right?
+
+00:32:00.863 --> 00:32:03.470
+Just something that's
+very neutral and plain.
+
+00:32:03.470 --> 00:32:05.310
+And we go a little bit on the fancy side
+
+00:32:05.310 --> 00:32:06.000
+and we brought it a little
+bit out to the techie side,
+
+00:32:06.000 --> 00:32:07.810
+and we brought it a little
+bit out to the techie side,
+
+00:32:07.810 --> 00:32:09.660
+just 'cause we wanted
+something that was geeky
+
+00:32:09.660 --> 00:32:11.070
+as well as trustworthy.
+
+00:32:11.070 --> 00:32:12.000
+Well, that puts us in maybe
+the range of Quanta Magazine
+
+00:32:12.000 --> 00:32:13.980
+Well, that puts us in maybe
+the range of Quanta Magazine
+
+00:32:13.980 --> 00:32:15.940
+or Foundation Medicine.
+
+00:32:15.940 --> 00:32:18.000
+And if we open up
+Foundation Medicine site,
+
+00:32:18.000 --> 00:32:18.240
+And if we open up
+Foundation Medicine site,
+
+00:32:18.240 --> 00:32:21.150
+you can see there's some
+similar elements going on here.
+
+00:32:21.150 --> 00:32:22.680
+You know, they've got these big,
+
+00:32:22.680 --> 00:32:24.000
+beautiful serif details.
+
+00:32:24.000 --> 00:32:24.470
+beautiful serif details.
+
+00:32:24.470 --> 00:32:26.480
+There's kind of some angularness.
+
+00:32:26.480 --> 00:32:28.010
+You've got a serif headline
+
+00:32:28.010 --> 00:32:30.000
+with a little small uppercase, sans-serif,
+
+00:32:30.000 --> 00:32:31.190
+with a little small uppercase, sans-serif,
+
+00:32:31.190 --> 00:32:32.890
+neat clean label right by it.
+
+00:32:32.890 --> 00:32:34.240
+Now our labels were below
+
+00:32:34.240 --> 00:32:35.920
+and they were orange instead of red,
+
+00:32:35.920 --> 00:32:36.000
+but you can start to see
+they're sort of similar elements
+
+00:32:36.000 --> 00:32:38.810
+but you can start to see
+they're sort of similar elements
+
+00:32:38.810 --> 00:32:40.500
+throughout these sites.
+
+00:32:40.500 --> 00:32:42.000
+Likewise, if we look at Quanta Magazine,
+
+00:32:42.000 --> 00:32:43.053
+Likewise, if we look at Quanta Magazine,
+
+00:32:44.310 --> 00:32:46.490
+wow, it actually has the same exact thing.
+
+00:32:46.490 --> 00:32:48.000
+It's got a nice big serif headline
+
+00:32:48.000 --> 00:32:49.200
+It's got a nice big serif headline
+
+00:32:49.200 --> 00:32:51.160
+and then a little
+uppercase san serif label.
+
+00:32:51.160 --> 00:32:52.630
+And this is the site where,
+
+00:32:52.630 --> 00:32:54.000
+when I looked at Quanta Magazine
+while working on Guidery,
+
+00:32:54.000 --> 00:32:55.270
+when I looked at Quanta Magazine
+while working on Guidery,
+
+00:32:55.270 --> 00:32:56.270
+I thought, you know what?
+
+00:32:56.270 --> 00:32:58.740
+I think I can use orange
+as an accent color.
+
+00:32:58.740 --> 00:32:59.880
+And that's kind of the point.
+
+00:32:59.880 --> 00:33:00.000
+The idea is not if I'm
+designing a site right here
+
+00:33:00.000 --> 00:33:02.410
+The idea is not if I'm
+designing a site right here
+
+00:33:02.410 --> 00:33:05.780
+to just totally ape off of
+one of these particular sites
+
+00:33:05.780 --> 00:33:06.000
+that happens to be nearby,
+
+00:33:06.000 --> 00:33:07.410
+that happens to be nearby,
+
+00:33:07.410 --> 00:33:10.710
+but to use this whole quadrant
+as kind of inspiration,
+
+00:33:10.710 --> 00:33:12.000
+I'm mixing and matching
+elements from wherever.
+
+00:33:12.000 --> 00:33:12.960
+I'm mixing and matching
+elements from wherever.
+
+00:33:12.960 --> 00:33:13.810
+I might see them,
+
+00:33:13.810 --> 00:33:16.300
+this chart or the
+inspiration that we compiled
+
+00:33:16.300 --> 00:33:18.000
+in step two, wherever.
+
+00:33:18.000 --> 00:33:18.660
+in step two, wherever.
+
+00:33:18.660 --> 00:33:20.230
+All right, there's one
+other point I wanna make
+
+00:33:20.230 --> 00:33:21.063
+about this chart,
+
+00:33:21.063 --> 00:33:22.930
+which by the way, you
+can find the link to it
+
+00:33:22.930 --> 00:33:24.000
+in the resources below.
+
+00:33:24.000 --> 00:33:24.580
+in the resources below.
+
+00:33:24.580 --> 00:33:27.400
+But the point I wanna make
+is this, clean and simple,
+
+00:33:27.400 --> 00:33:29.560
+that most common thing that clients want
+
+00:33:29.560 --> 00:33:30.000
+is right here in the middle.
+
+00:33:30.000 --> 00:33:31.330
+is right here in the middle.
+
+00:33:31.330 --> 00:33:32.530
+And to get clean and simple,
+
+00:33:32.530 --> 00:33:35.470
+we're actually gonna focus a
+lot of the next unit on that.
+
+00:33:35.470 --> 00:33:36.000
+We want things to be very aligned.
+
+00:33:36.000 --> 00:33:37.340
+We want things to be very aligned.
+
+00:33:37.340 --> 00:33:39.130
+We want things to be very consistent.
+
+00:33:39.130 --> 00:33:40.680
+We want generous white space.
+
+00:33:40.680 --> 00:33:41.760
+That's really, what's gonna give us
+
+00:33:41.760 --> 00:33:42.000
+that clean and simple feeling,
+
+00:33:42.000 --> 00:33:43.520
+that clean and simple feeling,
+
+00:33:43.520 --> 00:33:46.050
+but you might get to the
+point somewhere down the road,
+
+00:33:46.050 --> 00:33:48.000
+where once you've
+mastered clean and simple,
+
+00:33:48.000 --> 00:33:48.300
+where once you've
+mastered clean and simple,
+
+00:33:48.300 --> 00:33:50.660
+you think that things are
+just a little bit boring,
+
+00:33:50.660 --> 00:33:53.200
+and this chart actually
+presents an answer for that.
+
+00:33:53.200 --> 00:33:54.000
+One of the biggest things you can do
+
+00:33:54.000 --> 00:33:54.500
+One of the biggest things you can do
+
+00:33:54.500 --> 00:33:57.270
+to spice up your designs
+once you've already achieved
+
+00:33:57.270 --> 00:33:58.103
+clean and simple,
+
+00:33:58.103 --> 00:34:00.000
+and can do that well is to
+start trying to figure out
+
+00:34:00.000 --> 00:34:00.420
+and can do that well is to
+start trying to figure out
+
+00:34:00.420 --> 00:34:03.320
+what brand you need to
+inject a little bit more of.
+
+00:34:03.320 --> 00:34:06.000
+And so even if you didn't start a project
+
+00:34:06.000 --> 00:34:06.150
+And so even if you didn't start a project
+
+00:34:06.150 --> 00:34:07.890
+by thinking of your brand values,
+
+00:34:07.890 --> 00:34:10.830
+it can help you course
+correct midway through.
+
+00:34:10.830 --> 00:34:12.000
+So here's an example of a fictional
+
+00:34:12.000 --> 00:34:13.770
+So here's an example of a fictional
+
+00:34:13.770 --> 00:34:16.650
+medical wholesale supply company, right?
+
+00:34:16.650 --> 00:34:18.000
+And I just wanna point out that
+a lot of the design in this
+
+00:34:18.000 --> 00:34:19.310
+And I just wanna point out that
+a lot of the design in this
+
+00:34:19.310 --> 00:34:20.990
+is technically pretty well done.
+
+00:34:20.990 --> 00:34:22.430
+It's very well aligned.
+
+00:34:22.430 --> 00:34:23.780
+It looks neat and clean.
+
+00:34:23.780 --> 00:34:24.000
+It's on a nice grid system.
+
+00:34:24.000 --> 00:34:25.450
+It's on a nice grid system.
+
+00:34:25.450 --> 00:34:26.760
+There's decent white space,
+
+00:34:26.760 --> 00:34:29.330
+at least considering how much
+content I need to display
+
+00:34:29.330 --> 00:34:30.000
+and how small the screen is.
+
+00:34:30.000 --> 00:34:31.200
+and how small the screen is.
+
+00:34:31.200 --> 00:34:33.610
+But honestly, it's a
+little bit boring, right?
+
+00:34:33.610 --> 00:34:35.220
+And so if I was working on this site,
+
+00:34:35.220 --> 00:34:36.000
+I might think, how do I add
+a little more zing here?
+
+00:34:36.000 --> 00:34:36.990
+I might think, how do I add
+a little more zing here?
+
+00:34:36.990 --> 00:34:38.250
+How do I add some excitement?
+
+00:34:38.250 --> 00:34:39.660
+It just looks kind of bland.
+
+00:34:39.660 --> 00:34:42.000
+Now, if I wasn't familiar
+with different brands
+
+00:34:42.000 --> 00:34:42.660
+Now, if I wasn't familiar
+with different brands
+
+00:34:42.660 --> 00:34:44.980
+being kind of offshoots
+from clean and simple
+
+00:34:44.980 --> 00:34:46.080
+in different directions,
+
+00:34:46.080 --> 00:34:48.000
+I might not really have a good
+idea of where I should go.
+
+00:34:48.000 --> 00:34:49.580
+I might not really have a good
+idea of where I should go.
+
+00:34:49.580 --> 00:34:52.140
+But if I know that the
+answer is to really get
+
+00:34:52.140 --> 00:34:54.000
+a good handle on what
+brand I'm trying to convey,
+
+00:34:54.000 --> 00:34:55.110
+a good handle on what
+brand I'm trying to convey,
+
+00:34:55.110 --> 00:34:57.970
+then I can sit down with my
+client and I can say, hey,
+
+00:34:57.970 --> 00:35:00.000
+I want you to tell me what
+MedDepot is all about.
+
+00:35:00.000 --> 00:35:00.670
+I want you to tell me what
+MedDepot is all about.
+
+00:35:00.670 --> 00:35:03.280
+I want you to tell me who
+you are and who you aren't.
+
+00:35:03.280 --> 00:35:06.000
+And I want you to tell me the
+principles that you stand for.
+
+00:35:06.000 --> 00:35:06.130
+And I want you to tell me the
+principles that you stand for.
+
+00:35:06.130 --> 00:35:07.220
+I want you to tell me the principles
+
+00:35:07.220 --> 00:35:09.400
+you'd be willing to lose money for, right?
+
+00:35:09.400 --> 00:35:10.360
+I want to know.
+
+00:35:10.360 --> 00:35:12.000
+And by the way, a lot of
+this stuff is in the starting
+
+00:35:12.000 --> 00:35:13.270
+And by the way, a lot of
+this stuff is in the starting
+
+00:35:13.270 --> 00:35:14.650
+a project cheat sheet,
+
+00:35:14.650 --> 00:35:16.060
+these brand reflections.
+
+00:35:16.060 --> 00:35:18.000
+But you say, I wanna know what you believe
+
+00:35:18.000 --> 00:35:18.170
+But you say, I wanna know what you believe
+
+00:35:18.170 --> 00:35:21.060
+that all your competitors
+would disagree with, right?
+
+00:35:21.060 --> 00:35:22.710
+And say, you start that conversation.
+
+00:35:22.710 --> 00:35:23.610
+And maybe it takes a while.
+
+00:35:23.610 --> 00:35:24.000
+Maybe you have to meet a couple times.
+
+00:35:24.000 --> 00:35:24.900
+Maybe you have to meet a couple times.
+
+00:35:24.900 --> 00:35:26.090
+Maybe there's some back and forth,
+
+00:35:26.090 --> 00:35:27.750
+but after a while they get it
+
+00:35:27.750 --> 00:35:29.240
+and they come back to you and they say,
+
+00:35:29.240 --> 00:35:30.000
+you know what, Eric?
+
+00:35:30.000 --> 00:35:31.160
+you know what, Eric?
+
+00:35:31.160 --> 00:35:32.240
+And I'm just making this up here.
+
+00:35:32.240 --> 00:35:34.760
+This is just a totally made up example,
+
+00:35:34.760 --> 00:35:36.000
+but maybe they come in and they say,
+
+00:35:36.000 --> 00:35:36.730
+but maybe they come in and they say,
+
+00:35:36.730 --> 00:35:39.370
+what we really stand for is just this idea
+
+00:35:39.370 --> 00:35:41.180
+of pro recognized pro, right?
+
+00:35:41.180 --> 00:35:42.000
+Like if you're a doctor,
+
+00:35:42.000 --> 00:35:42.830
+Like if you're a doctor,
+
+00:35:42.830 --> 00:35:44.970
+you're already one of the
+smartest people out there.
+
+00:35:44.970 --> 00:35:46.740
+And you're certainly one
+of the hardest working
+
+00:35:46.740 --> 00:35:48.000
+and you're making life or death
+decisions every single day.
+
+00:35:48.000 --> 00:35:49.390
+and you're making life or death
+decisions every single day.
+
+00:35:49.390 --> 00:35:51.290
+While some people are like moving pixels
+
+00:35:51.290 --> 00:35:52.598
+around the screen, right.
+
+00:35:52.598 --> 00:35:53.820
+(laughs)
+
+00:35:53.820 --> 00:35:54.000
+But if you're a doctor
+you're like absolutely
+
+00:35:54.000 --> 00:35:56.330
+But if you're a doctor
+you're like absolutely
+
+00:35:56.330 --> 00:35:59.260
+a consummate professional
+and MedDepot is the company
+
+00:35:59.260 --> 00:36:00.000
+that wants to stand by them.
+
+00:36:00.000 --> 00:36:01.290
+that wants to stand by them.
+
+00:36:01.290 --> 00:36:04.070
+And you say, whoa, that's
+totally different, right?
+
+00:36:04.070 --> 00:36:06.000
+If someone can describe
+their brand like that,
+
+00:36:06.000 --> 00:36:06.030
+If someone can describe
+their brand like that,
+
+00:36:06.030 --> 00:36:09.800
+even like they didn't
+just list adjectives,
+
+00:36:09.800 --> 00:36:12.000
+but you still get a sense of
+kind of what they're all about.
+
+00:36:12.000 --> 00:36:13.070
+but you still get a sense of
+kind of what they're all about.
+
+00:36:13.070 --> 00:36:14.600
+And we can start boiling that down
+
+00:36:14.600 --> 00:36:16.970
+into different design
+changes that we wanna make.
+
+00:36:16.970 --> 00:36:18.000
+So, you know, first of all,
+this stock image does this say,
+
+00:36:18.000 --> 00:36:20.240
+So, you know, first of all,
+this stock image does this say,
+
+00:36:20.240 --> 00:36:21.860
+I wanna stand by doctors?
+
+00:36:21.860 --> 00:36:23.970
+This guy doesn't even look real, right?
+
+00:36:23.970 --> 00:36:24.000
+Stock photography, we'll talk about this
+
+00:36:24.000 --> 00:36:25.440
+Stock photography, we'll talk about this
+
+00:36:25.440 --> 00:36:26.310
+in the imagery lesson,
+
+00:36:26.310 --> 00:36:28.280
+but stock photography using good photos
+
+00:36:28.280 --> 00:36:29.873
+is like a super power in design.
+
+00:36:29.873 --> 00:36:30.000
+It's the same thing with
+using high quality fonts.
+
+00:36:30.000 --> 00:36:32.510
+It's the same thing with
+using high quality fonts.
+
+00:36:32.510 --> 00:36:34.720
+Here's something that looks
+a lot more real, right?
+
+00:36:34.720 --> 00:36:36.000
+Like this guy, I don't know
+anything about doctors,
+
+00:36:36.000 --> 00:36:36.900
+Like this guy, I don't know
+anything about doctors,
+
+00:36:36.900 --> 00:36:38.870
+but presumably he's like
+looking into someone's
+
+00:36:38.870 --> 00:36:40.050
+chest cavity right now.
+
+00:36:40.050 --> 00:36:42.000
+And he's wearing Packers
+Gear as he does it.
+
+00:36:42.000 --> 00:36:43.156
+And he's wearing Packers
+Gear as he does it.
+
+00:36:43.156 --> 00:36:45.080
+(laughs)
+
+00:36:45.080 --> 00:36:46.231
+This is not fake.
+
+00:36:46.231 --> 00:36:47.890
+(laughs)
+
+00:36:47.890 --> 00:36:48.000
+So let's start by just
+trying to get some imagery
+
+00:36:48.000 --> 00:36:50.500
+So let's start by just
+trying to get some imagery
+
+00:36:50.500 --> 00:36:53.050
+that really says, you know
+what we see who you are.
+
+00:36:53.050 --> 00:36:54.000
+We recognize you as a pro.
+
+00:36:54.000 --> 00:36:55.160
+We recognize you as a pro.
+
+00:36:55.160 --> 00:36:57.363
+And we're going to honor that.
+
+00:37:07.480 --> 00:37:09.760
+All right, now we definitely
+need to change this,
+
+00:37:09.760 --> 00:37:11.490
+text color, let's get this white.
+
+00:37:11.490 --> 00:37:12.000
+Let's remove about us
+
+00:37:12.000 --> 00:37:12.400
+Let's remove about us
+
+00:37:12.400 --> 00:37:14.580
+'cause that's not a very
+good call to action.
+
+00:37:14.580 --> 00:37:16.910
+It's not about MedDepot, right?
+
+00:37:16.910 --> 00:37:18.000
+It's about pros coming here,
+taking care of their needs
+
+00:37:18.000 --> 00:37:19.400
+It's about pros coming here,
+taking care of their needs
+
+00:37:19.400 --> 00:37:21.260
+and getting on with their work.
+
+00:37:21.260 --> 00:37:22.870
+And actually, what if
+we took this headline
+
+00:37:22.870 --> 00:37:24.000
+instead of having 20,000
+satisfied customers up there,
+
+00:37:24.000 --> 00:37:25.930
+instead of having 20,000
+satisfied customers up there,
+
+00:37:25.930 --> 00:37:27.050
+which is maybe a little bit cheesy,
+
+00:37:27.050 --> 00:37:30.000
+what if we just said, helping
+20,000 plus professionals
+
+00:37:30.000 --> 00:37:32.030
+what if we just said, helping
+20,000 plus professionals
+
+00:37:32.030 --> 00:37:33.193
+do their best work.
+
+00:37:36.310 --> 00:37:38.840
+I realized they might not be
+selling directly to doctors.
+
+00:37:38.840 --> 00:37:40.650
+It's a problem with fictional examples.
+
+00:37:40.650 --> 00:37:42.000
+So a little bit weird.
+
+00:37:42.000 --> 00:37:42.210
+So a little bit weird.
+
+00:37:42.210 --> 00:37:44.650
+One other thing we can
+do is just like throw on
+
+00:37:45.571 --> 00:37:48.000
+a black outline on an outline,
+
+00:37:48.000 --> 00:37:48.223
+a black outline on an outline,
+
+00:37:49.280 --> 00:37:52.280
+but a black layer here with 70% opacity
+
+00:37:52.280 --> 00:37:54.000
+just makes it a little bit
+easier to read this headline.
+
+00:37:54.000 --> 00:37:55.450
+just makes it a little bit
+easier to read this headline.
+
+00:37:55.450 --> 00:37:56.450
+And maybe while we're at it,
+
+00:37:56.450 --> 00:37:58.860
+let's actually also change
+the font a little bit.
+
+00:37:58.860 --> 00:38:00.000
+We know if we have this brand,
+
+00:38:00.000 --> 00:38:00.220
+We know if we have this brand,
+
+00:38:00.220 --> 00:38:02.020
+that's all about like selling
+
+00:38:02.020 --> 00:38:06.000
+high quality equipment to
+well trained professionals.
+
+00:38:06.000 --> 00:38:06.460
+high quality equipment to
+well trained professionals.
+
+00:38:06.460 --> 00:38:08.070
+If you had to take a guess
+of whether that leans
+
+00:38:08.070 --> 00:38:09.910
+fancy, friendly, quirky or techie,
+
+00:38:09.910 --> 00:38:12.000
+I think I would definitely
+say it leans techie, right?
+
+00:38:12.000 --> 00:38:12.060
+I think I would definitely
+say it leans techie, right?
+
+00:38:12.060 --> 00:38:14.290
+So maybe if I'm gonna change fonts here,
+
+00:38:14.290 --> 00:38:16.740
+wanna go towards something
+that's a little bit more like
+
+00:38:16.740 --> 00:38:17.863
+a squared off font.
+
+00:38:18.860 --> 00:38:22.143
+In this case we could play
+around with one like Clear Sans.
+
+00:38:23.200 --> 00:38:24.000
+You might remember that one
+from just a little bit earlier.
+
+00:38:24.000 --> 00:38:26.020
+You might remember that one
+from just a little bit earlier.
+
+00:38:26.020 --> 00:38:28.993
+Let's give it a slightly bigger size.
+
+00:38:29.940 --> 00:38:30.000
+Talked about this in the text unit,
+
+00:38:30.000 --> 00:38:31.100
+Talked about this in the text unit,
+
+00:38:31.100 --> 00:38:33.860
+but headlines don't need to
+have very much line spacing.
+
+00:38:33.860 --> 00:38:34.750
+It's gonna do the same thing
+
+00:38:34.750 --> 00:38:36.000
+Clear Sans for, not the whole page, right?
+
+00:38:36.000 --> 00:38:37.370
+Clear Sans for, not the whole page, right?
+
+00:38:37.370 --> 00:38:41.203
+But just a lot of this kind
+of header and subheader text.
+
+00:38:45.620 --> 00:38:47.320
+Now, as far as the colors go,
+
+00:38:47.320 --> 00:38:48.000
+blue is pretty inoffensive.
+
+00:38:48.000 --> 00:38:48.860
+blue is pretty inoffensive.
+
+00:38:48.860 --> 00:38:50.880
+And so I feel like I could
+actually pick something.
+
+00:38:50.880 --> 00:38:52.940
+Maybe I'd just pick a
+color from this image
+
+00:38:52.940 --> 00:38:54.000
+so I can take this blue and
+then go and replace it with,
+
+00:38:54.000 --> 00:38:56.050
+so I can take this blue and
+then go and replace it with,
+
+00:38:56.050 --> 00:39:00.000
+I think I was seeing something
+like 170 was the hue.
+
+00:39:00.000 --> 00:39:00.530
+I think I was seeing something
+like 170 was the hue.
+
+00:39:00.530 --> 00:39:03.050
+Don't worry too much about
+this color detail stuff.
+
+00:39:03.050 --> 00:39:05.150
+We'll get a lot more into it.
+
+00:39:05.150 --> 00:39:06.000
+Yeah, there we go.
+
+00:39:06.000 --> 00:39:06.730
+Yeah, there we go.
+
+00:39:06.730 --> 00:39:08.030
+Something like that.
+
+00:39:08.030 --> 00:39:10.920
+So now it's kind of a
+slate green, so to speak.
+
+00:39:10.920 --> 00:39:12.000
+We might also be able to do
+something with the blue too.
+
+00:39:12.000 --> 00:39:13.593
+We might also be able to do
+something with the blue too.
+
+00:39:15.860 --> 00:39:17.770
+If we're gonna have a
+squared off font here,
+
+00:39:17.770 --> 00:39:18.000
+like Clear Sans, you can
+just kind of see in this E
+
+00:39:18.000 --> 00:39:20.090
+like Clear Sans, you can
+just kind of see in this E
+
+00:39:20.090 --> 00:39:21.510
+it's not like a perfect circle,
+
+00:39:21.510 --> 00:39:23.090
+this O not even close, right?
+
+00:39:23.090 --> 00:39:24.000
+Very squared off on the
+tops and on the sides.
+
+00:39:24.000 --> 00:39:26.290
+Very squared off on the
+tops and on the sides.
+
+00:39:26.290 --> 00:39:27.640
+We're gonna do the same thing
+
+00:39:27.640 --> 00:39:29.320
+with all our little shapes here.
+
+00:39:29.320 --> 00:39:30.000
+You can see this bounding box has a nice
+
+00:39:30.000 --> 00:39:32.540
+You can see this bounding box has a nice
+
+00:39:32.540 --> 00:39:34.350
+four pixel border radius here.
+
+00:39:34.350 --> 00:39:35.930
+We're gonna take all the stuff,
+
+00:39:35.930 --> 00:39:36.000
+I'm gonna use a plugin called Simlayer.
+
+00:39:36.000 --> 00:39:38.460
+I'm gonna use a plugin called Simlayer.
+
+00:39:38.460 --> 00:39:40.400
+And I'm gonna select all the layers
+
+00:39:40.400 --> 00:39:42.000
+that have the same border radius.
+
+00:39:42.000 --> 00:39:42.173
+that have the same border radius.
+
+00:39:44.400 --> 00:39:45.233
+There we go.
+
+00:39:45.233 --> 00:39:48.000
+Four pixel border radius,
+I'm gonna select them all.
+
+00:39:48.000 --> 00:39:48.240
+Four pixel border radius,
+I'm gonna select them all.
+
+00:39:48.240 --> 00:39:50.780
+And I'm gonna give it just
+a one pixel border radius,
+
+00:39:50.780 --> 00:39:53.020
+just the slightest bit here.
+
+00:39:53.020 --> 00:39:54.000
+And then all of these things
+have kind of this softer
+
+00:39:54.000 --> 00:39:58.020
+And then all of these things
+have kind of this softer
+
+00:39:58.020 --> 00:39:59.240
+two pixel border.
+
+00:39:59.240 --> 00:40:00.000
+I'm gonna take a bunch of those
+
+00:40:00.000 --> 00:40:00.500
+I'm gonna take a bunch of those
+
+00:40:00.500 --> 00:40:02.443
+and give them a one pixel border.
+
+00:40:04.100 --> 00:40:05.650
+I don't think that's
+gonna fix it universally.
+
+00:40:05.650 --> 00:40:06.000
+There's still a couple little things
+
+00:40:06.000 --> 00:40:06.840
+There's still a couple little things
+
+00:40:06.840 --> 00:40:10.023
+I'm gonna need to change
+individually here.
+
+00:40:12.230 --> 00:40:13.530
+But now all of a sudden it's just got
+
+00:40:13.530 --> 00:40:15.490
+kind of a tighter feel to it.
+
+00:40:15.490 --> 00:40:16.590
+I'm gonna put one more
+
+00:40:17.930 --> 00:40:18.000
+black kind of scrim layer behind this.
+
+00:40:18.000 --> 00:40:20.363
+black kind of scrim layer behind this.
+
+00:40:22.080 --> 00:40:22.913
+And there we go.
+
+00:40:22.913 --> 00:40:24.000
+We've taken the colors to
+these cooler slate grays,
+
+00:40:24.000 --> 00:40:26.110
+We've taken the colors to
+these cooler slate grays,
+
+00:40:26.110 --> 00:40:27.670
+just feels a little more technical
+
+00:40:27.670 --> 00:40:30.000
+and kinda almost colder, but
+it's also literally the colors
+
+00:40:30.000 --> 00:40:31.320
+and kinda almost colder, but
+it's also literally the colors
+
+00:40:31.320 --> 00:40:32.840
+of medical professionals.
+
+00:40:32.840 --> 00:40:34.810
+We took the font, we made
+a little more squared off,
+
+00:40:34.810 --> 00:40:36.000
+kind of adding a sense of professionality
+
+00:40:36.000 --> 00:40:36.630
+kind of adding a sense of professionality
+
+00:40:36.630 --> 00:40:38.310
+or preciseness as well.
+
+00:40:38.310 --> 00:40:40.190
+And that's mirrored in the border radius
+
+00:40:40.190 --> 00:40:41.640
+and the border width,
+
+00:40:41.640 --> 00:40:42.000
+and all the little shapes
+all around the screen.
+
+00:40:42.000 --> 00:40:44.490
+and all the little shapes
+all around the screen.
+
+00:40:44.490 --> 00:40:45.960
+And we even made a couple of texts changes
+
+00:40:45.960 --> 00:40:47.570
+just to kinda back this all up.
+
+00:40:47.570 --> 00:40:48.000
+And so, all right, fine.
+
+00:40:48.000 --> 00:40:49.210
+And so, all right, fine.
+
+00:40:49.210 --> 00:40:51.540
+This is, you know, it's a site.
+
+00:40:51.540 --> 00:40:52.373
+It's great.
+
+00:40:52.373 --> 00:40:54.000
+But when you compare
+to where we came from,
+
+00:40:54.000 --> 00:40:54.910
+But when you compare
+to where we came from,
+
+00:40:54.910 --> 00:40:56.370
+there's so much more attitude.
+
+00:40:56.370 --> 00:40:59.240
+There's so much, it just looks
+like this is a real thing.
+
+00:40:59.240 --> 00:41:00.000
+It's a lot more compelling.
+
+00:41:00.000 --> 00:41:00.730
+It's a lot more compelling.
+
+00:41:00.730 --> 00:41:03.760
+And that's the power
+of knowing your goals,
+
+00:41:03.760 --> 00:41:06.000
+specifying your brand
+and designing to that.
+
+00:41:06.000 --> 00:41:06.883
+specifying your brand
+and designing to that.
+
+00:41:07.870 --> 00:41:09.560
+I've said it before in this video.
+
+00:41:09.560 --> 00:41:11.380
+And I know I will say
+it again in this course,
+
+00:41:11.380 --> 00:41:12.000
+but if you don't specify
+what your goals are,
+
+00:41:12.000 --> 00:41:14.160
+but if you don't specify
+what your goals are,
+
+00:41:14.160 --> 00:41:16.900
+you will only be managing
+to hit them on accident.
+
+00:41:16.900 --> 00:41:18.000
+So whenever you start a new
+project, go ahead, figure out,
+
+00:41:18.000 --> 00:41:20.740
+So whenever you start a new
+project, go ahead, figure out,
+
+00:41:20.740 --> 00:41:23.470
+just jot down a couple adjectives
+for what your brand is,
+
+00:41:23.470 --> 00:41:24.000
+or if there's a specific
+goal that you wanna hit,
+
+00:41:24.000 --> 00:41:25.610
+or if there's a specific
+goal that you wanna hit,
+
+00:41:25.610 --> 00:41:27.090
+write those down too.
+
+00:41:27.090 --> 00:41:29.560
+But designed to those things,
+
+00:41:29.560 --> 00:41:30.000
+not only will it make your design better
+
+00:41:30.000 --> 00:41:32.140
+not only will it make your design better
+
+00:41:32.140 --> 00:41:35.890
+and that should reason
+enough alone to do it,
+
+00:41:35.890 --> 00:41:36.000
+but it will also make your
+clients and your employers
+
+00:41:36.000 --> 00:41:39.870
+but it will also make your
+clients and your employers
+
+00:41:39.870 --> 00:41:41.890
+and the people you work with love you more
+
+00:41:41.890 --> 00:41:42.000
+and trust you more
+
+00:41:42.000 --> 00:41:42.840
+and trust you more
+
+00:41:42.840 --> 00:41:44.300
+because you're on the same page as them.
+
+00:41:44.300 --> 00:41:46.150
+And you're trying to bring your design
+
+00:41:46.150 --> 00:41:47.760
+to not just be some pretty picture
+
+00:41:47.760 --> 00:41:48.000
+that they can hang on their fridge,
+
+00:41:48.000 --> 00:41:49.150
+that they can hang on their fridge,
+
+00:41:49.150 --> 00:41:50.970
+but to be something
+that solves the problems
+
+00:41:50.970 --> 00:41:52.418
+that you all have.
+
+00:41:52.418 --> 00:41:54.000
+And of course, as we saw,
+
+00:41:54.000 --> 00:41:54.010
+And of course, as we saw,
+
+00:41:54.010 --> 00:41:56.650
+it's never too late to do a goal focused
+
+00:41:56.650 --> 00:41:58.760
+or a brand focus to redesign.
+
+00:41:58.760 --> 00:42:00.000
+And even if you have a
+decent existing design,
+
+00:42:00.000 --> 00:42:01.570
+And even if you have a
+decent existing design,
+
+00:42:01.570 --> 00:42:03.610
+you can start to think what are the brands
+
+00:42:03.610 --> 00:42:04.820
+that we're trying to convey?
+
+00:42:04.820 --> 00:42:06.000
+How do we do this?
+
+00:42:06.000 --> 00:42:06.370
+How do we do this?
+
+00:42:06.370 --> 00:42:07.400
+It's all a win.
+
+00:42:07.400 --> 00:42:09.460
+So let me know if you have any questions,
+
+00:42:09.460 --> 00:42:10.940
+we'll see you in the student community
+
+00:42:10.940 --> 00:42:12.000
+and check out the homework below.
+
+00:42:12.000 --> 00:42:12.830
+and check out the homework below.
+
+00:42:12.830 --> 00:42:13.663
+Cheers!
+

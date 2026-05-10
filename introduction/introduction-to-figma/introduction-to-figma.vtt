@@ -1,0 +1,4582 @@
+WEBVTT
+
+00:00:00.250 --> 00:00:05.380
+Hey there, and welcome to the Learn UI
+Design lesson on an introduction to Figma.
+
+00:00:05.990 --> 00:00:06.000
+So in this lesson, we're going to be
+talking about all of the most basic
+
+00:00:06.000 --> 00:00:09.560
+So in this lesson, we're going to be
+talking about all of the most basic
+
+00:00:09.570 --> 00:00:12.000
+functionality in Figma, the 80 -20, so to speak.
+
+00:00:12.000 --> 00:00:12.340
+functionality in Figma, the 80 -20, so to speak.
+
+00:00:12.610 --> 00:00:14.920
+It's like maybe 20 % of Figma's total
+
+00:00:14.930 --> 00:00:18.000
+functionality, and yet 80 % of the time
+that you're designing, 80 % of the things
+
+00:00:18.000 --> 00:00:19.760
+functionality, and yet 80 % of the time
+that you're designing, 80 % of the things
+
+00:00:19.770 --> 00:00:23.520
+that I do in this video course are all
+covered in this lesson.
+
+00:00:23.990 --> 00:00:24.000
+So to those ends, make sure that you can
+follow along.
+
+00:00:24.000 --> 00:00:27.240
+So to those ends, make sure that you can
+follow along.
+
+00:00:27.330 --> 00:00:29.560
+If you're using Figma, follow along in Figma.
+
+00:00:29.570 --> 00:00:30.000
+and we're going to be doing a sample
+
+00:00:30.000 --> 00:00:30.640
+and we're going to be doing a sample
+
+00:00:30.650 --> 00:00:32.960
+project, so you can just make the sample
+project with me.
+
+00:00:33.150 --> 00:00:36.000
+If you're following along in a different
+app, that's totally fine, just make sure
+
+00:00:36.000 --> 00:00:37.100
+If you're following along in a different
+app, that's totally fine, just make sure
+
+00:00:37.110 --> 00:00:40.240
+that you can make this sample app just
+the same and you're going to be golden.
+
+00:00:40.870 --> 00:00:42.000
+So again, this is not everything, it's
+just sort of the basics and
+
+00:00:42.000 --> 00:00:44.660
+So again, this is not everything, it's
+just sort of the basics and
+
+00:00:44.670 --> 00:00:48.000
+if you're already really proficient with
+Figma or your design app of choice, feel
+
+00:00:48.000 --> 00:00:48.620
+if you're already really proficient with
+Figma or your design app of choice, feel
+
+00:00:48.630 --> 00:00:52.980
+free to skip this video entirely or at
+the very least, take a look at the topics
+
+00:00:52.990 --> 00:00:54.000
+below, make sure you can do those and
+then you're good to go.
+
+00:00:54.000 --> 00:00:56.220
+below, make sure you can do those and
+then you're good to go.
+
+00:00:56.230 --> 00:01:00.000
+So without any further ado, let's dive in
+and create our sample mobile lock screen.
+
+00:01:00.000 --> 00:01:01.860
+So without any further ado, let's dive in
+and create our sample mobile lock screen.
+
+00:01:02.570 --> 00:01:06.000
+All right, so now I'm on a new Figma file
+on a blank page.
+
+00:01:06.000 --> 00:01:06.760
+All right, so now I'm on a new Figma file
+on a blank page.
+
+00:01:06.850 --> 00:01:11.300
+I've got this gray canvas that you can't
+see right now, but it scrolls infinitely
+
+00:01:11.310 --> 00:01:12.000
+in all directions.
+
+00:01:12.000 --> 00:01:12.140
+in all directions.
+
+00:01:12.370 --> 00:01:14.000
+And I'm going to start putting stuff on it.
+
+00:01:14.450 --> 00:01:18.000
+Many times, one of the first things
+you're going to put on it is a frame.
+
+00:01:18.000 --> 00:01:18.520
+Many times, one of the first things
+you're going to put on it is a frame.
+
+00:01:18.650 --> 00:01:21.220
+And a frame is simply what contains your design.
+
+00:01:21.230 --> 00:01:23.320
+So if I want to make a phone design, I
+
+00:01:23.330 --> 00:01:24.000
+want a frame that is the size of a phone screen.
+
+00:01:24.000 --> 00:01:25.840
+want a frame that is the size of a phone screen.
+
+00:01:26.010 --> 00:01:27.880
+To make a frame, I can go up to this menu
+
+00:01:27.890 --> 00:01:30.000
+right here and you'll notice it has a
+hotkey associated with it, helpfully
+
+00:01:30.000 --> 00:01:32.460
+right here and you'll notice it has a
+hotkey associated with it, helpfully
+
+00:01:32.470 --> 00:01:33.740
+listed for us, that's F.
+
+00:01:34.010 --> 00:01:36.000
+Now in this entire course, I use hotkeys
+
+00:01:36.000 --> 00:01:36.540
+Now in this entire course, I use hotkeys
+
+00:01:36.550 --> 00:01:37.360
+all the time.
+
+00:01:37.550 --> 00:01:39.780
+And in the beginning of the course, I'll
+
+00:01:39.790 --> 00:01:42.000
+be careful to narrate them as much as
+possible so that you can start to learn
+
+00:01:42.000 --> 00:01:43.840
+be careful to narrate them as much as
+possible so that you can start to learn
+
+00:01:43.850 --> 00:01:45.520
+them and use them right from the get -go.
+
+00:01:45.530 --> 00:01:47.620
+Because designing fast will allow you to
+
+00:01:47.630 --> 00:01:48.000
+experiment with much less effort.
+
+00:01:48.000 --> 00:01:49.460
+experiment with much less effort.
+
+00:01:49.470 --> 00:01:52.480
+So F or A, frame or artboard, those terms
+
+00:01:52.490 --> 00:01:53.140
+are synonymous.
+
+00:01:53.430 --> 00:01:54.000
+It's going to bring up this menu here and
+
+00:01:54.000 --> 00:01:55.760
+It's going to bring up this menu here and
+
+00:01:55.770 --> 00:01:59.960
+then I can select phone and choose
+whatever phone size you have.
+
+00:02:00.110 --> 00:02:06.000
+I have the old iPhone 13 mini, I like the
+smaller screen size, but I'm going to
+
+00:02:06.000 --> 00:02:06.560
+I have the old iPhone 13 mini, I like the
+smaller screen size, but I'm going to
+
+00:02:06.570 --> 00:02:07.860
+bring that one up in this file.
+
+00:02:08.110 --> 00:02:09.960
+And by the way, the reason I say to
+
+00:02:09.970 --> 00:02:12.000
+choose your own phone size is because at
+the end of this, we're going to use the
+
+00:02:12.000 --> 00:02:14.020
+choose your own phone size is because at
+the end of this, we're going to use the
+
+00:02:14.030 --> 00:02:18.000
+Figma app and bring up the design on our
+phone, because it's a weird reality of
+
+00:02:18.000 --> 00:02:19.020
+Figma app and bring up the design on our
+phone, because it's a weird reality of
+
+00:02:19.030 --> 00:02:23.940
+designing for phones, but how it appears
+on your laptop or your desktop can be
+
+00:02:23.950 --> 00:02:24.000
+really different from how it appears when
+it's actually on your device.
+
+00:02:24.000 --> 00:02:27.020
+really different from how it appears when
+it's actually on your device.
+
+00:02:29.260 --> 00:02:30.000
+The zooming, I can control with perfect
+accuracy via this menu, but to be honest,
+
+00:02:30.000 --> 00:02:35.270
+The zooming, I can control with perfect
+accuracy via this menu, but to be honest,
+
+00:02:35.380 --> 00:02:36.000
+there's really only two zooms that I use
+very regularly.
+
+00:02:36.000 --> 00:02:37.990
+there's really only two zooms that I use
+very regularly.
+
+00:02:38.520 --> 00:02:42.000
+And that is, if I'm scrolling around and
+doing whatever in my design file, and I
+
+00:02:42.000 --> 00:02:42.850
+And that is, if I'm scrolling around and
+doing whatever in my design file, and I
+
+00:02:42.860 --> 00:02:47.850
+decide I want to look at this phone
+screen, I press Shift -2 to zoom to the selection.
+
+00:02:47.860 --> 00:02:48.000
+So you can tell I have this selected
+because it has the blue outline and then
+
+00:02:48.000 --> 00:02:51.250
+So you can tell I have this selected
+because it has the blue outline and then
+
+00:02:51.260 --> 00:02:54.000
+shift zero to make the selection 100 % to
+bring it to its actual full size.
+
+00:02:54.000 --> 00:02:56.170
+shift zero to make the selection 100 % to
+bring it to its actual full size.
+
+00:03:00.100 --> 00:03:06.000
+Now my idea for this lesson is in order
+to introduce you to all the stuff that I
+
+00:03:06.000 --> 00:03:06.470
+Now my idea for this lesson is in order
+to introduce you to all the stuff that I
+
+00:03:06.480 --> 00:03:10.530
+commonly do in Figma in this course,
+we're going to work on a sample project
+
+00:03:10.540 --> 00:03:12.000
+and it'll be a phone lock screen, But
+it'll be a phone lock screen that tries
+
+00:03:12.000 --> 00:03:14.310
+and it'll be a phone lock screen, But
+it'll be a phone lock screen that tries
+
+00:03:14.320 --> 00:03:18.000
+to kind of show you your to -do list and
+just make sure that you have an
+
+00:03:18.000 --> 00:03:19.250
+to kind of show you your to -do list and
+just make sure that you have an
+
+00:03:19.260 --> 00:03:21.010
+intentional mindset when you open up your phone.
+
+00:03:21.440 --> 00:03:23.010
+So the first thing I'm going to do is set
+
+00:03:23.020 --> 00:03:24.000
+a background color for this frame.
+
+00:03:24.000 --> 00:03:24.570
+a background color for this frame.
+
+00:03:24.940 --> 00:03:27.490
+To do that, a background color is, in
+
+00:03:27.500 --> 00:03:28.610
+Figma, a fill.
+
+00:03:28.960 --> 00:03:30.000
+And so if I go here, I can choose from my
+
+00:03:30.000 --> 00:03:31.530
+And so if I go here, I can choose from my
+
+00:03:31.540 --> 00:03:32.470
+personal colors.
+
+00:03:33.040 --> 00:03:34.310
+I'm just going to choose this sort of
+
+00:03:34.320 --> 00:03:35.330
+default -looking blue.
+
+00:03:36.320 --> 00:03:37.450
+And that's good enough for now.
+
+00:03:37.500 --> 00:03:38.850
+We'll kind of fiddle with it a bit later.
+
+00:03:38.860 --> 00:03:41.110
+I'm going to add in some text that says,
+
+00:03:41.280 --> 00:03:42.000
+What are you here to accomplish today?
+
+00:03:42.000 --> 00:03:42.930
+What are you here to accomplish today?
+
+00:03:43.120 --> 00:03:45.190
+And to add in text, I can select it from
+
+00:03:45.200 --> 00:03:48.000
+the text menu up here, or handy shortcut
+key, letter T.
+
+00:03:48.000 --> 00:03:49.810
+the text menu up here, or handy shortcut
+key, letter T.
+
+00:03:50.040 --> 00:03:53.290
+And you'll find that basically 100 % of
+the time, that's what I'm doing.
+
+00:03:53.660 --> 00:03:54.000
+So I click and drag to define how big I
+want my text box to be, and then I can
+
+00:03:54.000 --> 00:03:58.070
+So I click and drag to define how big I
+want my text box to be, and then I can
+
+00:03:58.080 --> 00:03:59.150
+add the text.
+
+00:03:59.280 --> 00:04:00.000
+What are you here to accomplish today?
+
+00:04:00.000 --> 00:04:02.430
+What are you here to accomplish today?
+
+00:04:02.440 --> 00:04:06.000
+If I press command enter, it kind of sets
+the text box and I can click away to
+
+00:04:06.000 --> 00:04:08.770
+If I press command enter, it kind of sets
+the text box and I can click away to
+
+00:04:08.780 --> 00:04:09.370
+deselect it.
+
+00:04:09.480 --> 00:04:10.990
+This is what my design looks like so far.
+
+00:04:13.710 --> 00:04:16.040
+I'm actually going to give this a
+different font.
+
+00:04:16.250 --> 00:04:18.000
+I'm going to change it to a font called
+Babus Neue.
+
+00:04:18.000 --> 00:04:18.840
+I'm going to change it to a font called
+Babus Neue.
+
+00:04:19.410 --> 00:04:24.000
+And there is a version of Babus Neue
+that's on Google Fonts and therefore will
+
+00:04:24.000 --> 00:04:24.020
+And there is a version of Babus Neue
+that's on Google Fonts and therefore will
+
+00:04:24.030 --> 00:04:25.000
+be included with Figma.
+
+00:04:25.270 --> 00:04:27.660
+But if you want the full version that has
+
+00:04:27.670 --> 00:04:30.000
+all the weights from thin to bold, you
+have to go get that separately.
+
+00:04:30.000 --> 00:04:31.180
+all the weights from thin to bold, you
+have to go get that separately.
+
+00:04:31.190 --> 00:04:35.900
+the link is below, and to use it, you'll
+need to download the desktop Figma app.
+
+00:04:36.030 --> 00:04:39.800
+So, that's one of the few differences
+between using it in your web browser and
+
+00:04:39.810 --> 00:04:41.060
+actually downloading the app.
+
+00:04:44.250 --> 00:04:45.880
+Now, I'm going to change the font size,
+
+00:04:45.950 --> 00:04:48.000
+and I can either type in a number
+directly, or I can use the up arrow key
+
+00:04:48.000 --> 00:04:49.140
+and I can either type in a number
+directly, or I can use the up arrow key
+
+00:04:49.150 --> 00:04:53.440
+to make it bigger, or even the shift up
+arrow key to make it bigger in increments
+
+00:04:53.450 --> 00:04:53.880
+of 10.
+
+00:04:54.110 --> 00:04:56.260
+And I'll just make it so it fits on one
+
+00:04:56.270 --> 00:05:00.000
+line or two lines here, something like that.
+
+00:05:00.000 --> 00:05:00.700
+line or two lines here, something like that.
+
+00:05:03.050 --> 00:05:04.860
+Maybe I can even add in a little bit more
+
+00:05:04.870 --> 00:05:06.000
+styling by making the word accomplished bold.
+
+00:05:06.000 --> 00:05:07.780
+styling by making the word accomplished bold.
+
+00:05:08.190 --> 00:05:09.860
+And Command -B is just the typical
+
+00:05:09.870 --> 00:05:10.980
+shortcut for doing that.
+
+00:05:17.300 --> 00:05:18.000
+Now designers care a lot about spacing,
+
+00:05:18.000 --> 00:05:19.330
+Now designers care a lot about spacing,
+
+00:05:19.840 --> 00:05:23.270
+and so to figure out what your spacing
+is, you can hold down the Option key.
+
+00:05:23.500 --> 00:05:24.000
+If I hold down Option and I have a layer
+selected, anything else I hover on, it's
+
+00:05:24.000 --> 00:05:27.970
+If I hold down Option and I have a layer
+selected, anything else I hover on, it's
+
+00:05:27.980 --> 00:05:30.000
+going to show me the spacing between how
+those layers line up.
+
+00:05:30.000 --> 00:05:31.270
+going to show me the spacing between how
+those layers line up.
+
+00:05:31.420 --> 00:05:35.530
+So you can see, I have 34 pixels on one
+side of this and 27 on the other.
+
+00:05:35.980 --> 00:05:36.000
+And since we're designers, we want it to
+be even.
+
+00:05:36.000 --> 00:05:38.650
+And since we're designers, we want it to
+be even.
+
+00:05:38.960 --> 00:05:41.590
+We want it to be exactly the same on both sides.
+
+00:05:41.780 --> 00:05:42.000
+And that is a handy case for rulers.
+
+00:05:42.000 --> 00:05:44.490
+And that is a handy case for rulers.
+
+00:05:44.660 --> 00:05:48.000
+So if I press Shift -R, I bring up my
+rulers, and Shift -R will make them
+
+00:05:48.000 --> 00:05:48.410
+So if I press Shift -R, I bring up my
+rulers, and Shift -R will make them
+
+00:05:48.420 --> 00:05:50.530
+invisible, and it will also make them
+visible again.
+
+00:05:50.920 --> 00:05:54.000
+I'm going to bring in a ruler and make
+it, let's say, 32 pixels from the left
+
+00:05:54.000 --> 00:05:57.130
+I'm going to bring in a ruler and make
+it, let's say, 32 pixels from the left
+
+00:05:57.140 --> 00:06:00.000
+-hand side, and then I'm going to do one
+32 pixels from the right -hand side as well.
+
+00:06:00.000 --> 00:06:00.490
+-hand side, and then I'm going to do one
+32 pixels from the right -hand side as well.
+
+00:06:00.500 --> 00:06:05.650
+And the reason I go with that value is
+because the default margin on iPhone is
+
+00:06:05.660 --> 00:06:06.000
+actually 16 pixels, so just doubling that
+will give this kind of a indented appearance
+
+00:06:06.000 --> 00:06:10.570
+actually 16 pixels, so just doubling that
+will give this kind of a indented appearance
+
+00:06:10.580 --> 00:06:11.910
+where it seems sort of noticeable.
+
+00:06:13.620 --> 00:06:17.390
+Now, the width of my frame here is 375,
+
+00:06:17.900 --> 00:06:18.000
+so I'm just going to do some math real
+quick, 375 minus 32, 343, and it's kind
+
+00:06:18.000 --> 00:06:24.000
+so I'm just going to do some math real
+quick, 375 minus 32, 343, and it's kind
+
+00:06:24.000 --> 00:06:25.970
+so I'm just going to do some math real
+quick, 375 minus 32, 343, and it's kind
+
+00:06:25.980 --> 00:06:30.000
+of snapping to the edge of this textbox,
+which is messing with where I want this
+
+00:06:30.000 --> 00:06:30.070
+of snapping to the edge of this textbox,
+which is messing with where I want this
+
+00:06:30.080 --> 00:06:31.430
+ruler to go
+,
+
+00:06:31.440 --> 00:06:35.390
+but
+there we go, now it's at 343.
+
+00:06:35.400 --> 00:06:36.000
+So now when I bring my textbox back
+there, I can align it perfectly here, and
+
+00:06:36.000 --> 00:06:40.450
+So now when I bring my textbox back
+there, I can align it perfectly here, and
+
+00:06:40.460 --> 00:06:42.000
+then I'll just change the size to make
+sure this stays on two lines.
+
+00:06:42.000 --> 00:06:43.590
+then I'll just change the size to make
+sure this stays on two lines.
+
+00:06:43.600 --> 00:06:45.950
+By the way, the size does not have to be
+an integer.
+
+00:06:45.960 --> 00:06:48.000
+I could say 44 .5 if I wanted to.
+
+00:06:48.000 --> 00:06:54.000
+I could say 44 .5 if I wanted to.
+
+00:06:54.000 --> 00:06:55.310
+I could say 44 .5 if I wanted to.
+
+00:06:55.320 --> 00:06:56.630
+Now of course, if I kind of want to
+
+00:06:56.640 --> 00:07:00.000
+evaluate the design as a whole, I can do
+my Shift -2, Shift -0 business and zoom
+
+00:07:00.000 --> 00:07:00.970
+evaluate the design as a whole, I can do
+my Shift -2, Shift -0 business and zoom
+
+00:07:00.980 --> 00:07:02.630
+out and see what things look like.
+
+00:07:02.860 --> 00:07:04.670
+So, so far, so good.
+
+00:07:04.680 --> 00:07:06.000
+Maybe I'll move this text down just a
+little bit.
+
+00:07:06.000 --> 00:07:07.050
+Maybe I'll move this text down just a
+little bit.
+
+00:07:07.060 --> 00:07:12.000
+And I'm using shift and the down arrow
+key to move it down 10 pixels at a time.
+
+00:07:12.000 --> 00:07:13.000
+And I'm using shift and the down arrow
+key to move it down 10 pixels at a time.
+
+00:07:13.010 --> 00:07:17.260
+The only other thing I'm going to adjust
+right now is I notice that my text box is
+
+00:07:17.270 --> 00:07:18.000
+set to a fixed size because I clicked and
+dragged it and it just made the text box
+
+00:07:18.000 --> 00:07:21.660
+set to a fixed size because I clicked and
+dragged it and it just made the text box
+
+00:07:21.670 --> 00:07:23.540
+the size of what I clicked and dragged.
+
+00:07:23.550 --> 00:07:24.000
+But I actually want to use this mode,
+
+00:07:24.000 --> 00:07:25.500
+But I actually want to use this mode,
+
+00:07:25.510 --> 00:07:28.360
+which I think is much more common, auto -height.
+
+00:07:28.370 --> 00:07:30.000
+And now the text box will resize based on
+
+00:07:30.000 --> 00:07:31.020
+And now the text box will resize based on
+
+00:07:31.030 --> 00:07:32.880
+however much text is in it.
+
+00:07:32.890 --> 00:07:34.900
+So it'll get taller if there's more text
+
+00:07:34.910 --> 00:07:36.000
+and less tall if there's less.
+
+00:07:36.000 --> 00:07:38.240
+and less tall if there's less.
+
+00:07:38.250 --> 00:07:39.720
+We have this headline that greets us when
+
+00:07:39.730 --> 00:07:40.600
+we open our phone.
+
+00:07:40.610 --> 00:07:42.000
+What are you here to accomplish today?
+
+00:07:42.000 --> 00:07:42.440
+What are you here to accomplish today?
+
+00:07:42.450 --> 00:07:46.220
+And just for way of example, I'll put in
+a couple little to -do list items.
+
+00:07:46.230 --> 00:07:48.000
+I'm gonna press Shift -R to see my ruler.
+
+00:07:48.000 --> 00:07:48.460
+I'm gonna press Shift -R to see my ruler.
+
+00:07:48.470 --> 00:07:50.500
+And I'm just gonna, I pressed T, but if I
+
+00:07:50.510 --> 00:07:53.600
+just click, it'll start a text box right there.
+
+00:07:53.610 --> 00:07:54.000
+So I could do something like Call Alice.
+
+00:07:54.000 --> 00:07:57.180
+So I could do something like Call Alice.
+
+00:07:57.190 --> 00:07:59.900
+But I really don't want this to be as big
+as the header text.
+
+00:07:59.910 --> 00:08:00.000
+I actually want it to be more like a
+normal text size.
+
+00:08:00.000 --> 00:08:02.840
+I actually want it to be more like a
+normal text size.
+
+00:08:02.850 --> 00:08:06.000
+And on iPhone, we'll cover this more in
+the sizing lesson, but on iPhone, I
+
+00:08:06.000 --> 00:08:06.440
+And on iPhone, we'll cover this more in
+the sizing lesson, but on iPhone, I
+
+00:08:06.450 --> 00:08:12.000
+happen to know that 17 is the default
+font size, at least for their default font.
+
+00:08:12.000 --> 00:08:15.280
+happen to know that 17 is the default
+font size, at least for their default font.
+
+00:08:15.290 --> 00:08:15.960
+So I'm going to do that.
+
+00:08:15.970 --> 00:08:17.380
+And I'm also going to choose a font
+
+00:08:17.390 --> 00:08:18.000
+called Input Sans Narrow.
+
+00:08:18.000 --> 00:08:19.720
+called Input Sans Narrow.
+
+00:08:19.730 --> 00:08:21.800
+You can use this one, there's links on it
+
+00:08:22.030 --> 00:08:24.000
+below, but it is $5 per weight to download.
+
+00:08:24.000 --> 00:08:24.660
+below, but it is $5 per weight to download.
+
+00:08:24.670 --> 00:08:26.920
+And so you could also use the free font
+
+00:08:26.930 --> 00:08:30.000
+JetBrains mono if you're looking for
+something kind of similar.
+
+00:08:30.000 --> 00:08:30.700
+JetBrains mono if you're looking for
+something kind of similar.
+
+00:08:30.710 --> 00:08:33.080
+So now callAlice is my first item.
+
+00:08:33.090 --> 00:08:34.440
+And what I'm going to do is I'm actually
+
+00:08:34.450 --> 00:08:36.000
+going to hold option and click and drag
+to create a duplicate of the layer.
+
+00:08:36.000 --> 00:08:38.440
+going to hold option and click and drag
+to create a duplicate of the layer.
+
+00:08:38.670 --> 00:08:42.000
+Now, I want this to be the second to do
+item in the list.
+
+00:08:42.000 --> 00:08:42.280
+Now, I want this to be the second to do
+item in the list.
+
+00:08:42.290 --> 00:08:47.060
+So I'm going to hold shift and that will
+keep it perfectly horizontally aligned
+
+00:08:47.070 --> 00:08:48.000
+with the element that I duplicated it from.
+
+00:08:48.000 --> 00:08:50.260
+with the element that I duplicated it from.
+
+00:08:50.270 --> 00:08:54.000
+And so call Alice can now be email Bob or
+
+00:08:54.000 --> 00:08:54.720
+And so call Alice can now be email Bob or
+
+00:08:54.730 --> 00:08:55.920
+something like that.
+
+00:08:55.930 --> 00:08:58.100
+And then I can do the same thing again, right?
+
+00:08:58.110 --> 00:09:00.000
+Holding shift and option while clicking
+and dragging.
+
+00:09:00.000 --> 00:09:01.240
+Holding shift and option while clicking
+and dragging.
+
+00:09:01.250 --> 00:09:06.000
+And then I let Figma hopefully put the
+spacing between these at the exact same amount.
+
+00:09:06.000 --> 00:09:06.600
+And then I let Figma hopefully put the
+spacing between these at the exact same amount.
+
+00:09:06.610 --> 00:09:12.000
+And by the way, if you do that and then
+you press command D, it'll just create
+
+00:09:12.000 --> 00:09:12.500
+And by the way, if you do that and then
+you press command D, it'll just create
+
+00:09:12.510 --> 00:09:17.040
+more layers, more duplicate layers at
+exactly the same spacing that you were doing.
+
+00:09:17.050 --> 00:09:18.000
+So that can be a quick way to create a
+little list of elements.
+
+00:09:18.000 --> 00:09:21.420
+So that can be a quick way to create a
+little list of elements.
+
+00:09:21.430 --> 00:09:24.000
+Now I'm starting to get a sense of what
+this to -do list will look like.
+
+00:09:24.000 --> 00:09:25.100
+Now I'm starting to get a sense of what
+this to -do list will look like.
+
+00:09:25.110 --> 00:09:29.220
+I'm also going to put in the date and
+time at the top of the screen.
+
+00:09:29.230 --> 00:09:30.000
+And to do that, I'm again going to create
+a duplicate of the text layer that I
+
+00:09:30.000 --> 00:09:34.800
+And to do that, I'm again going to create
+a duplicate of the text layer that I
+
+00:09:34.810 --> 00:09:35.920
+already have.
+
+00:09:35.930 --> 00:09:36.000
+And we'll talk about this much more in
+
+00:09:36.000 --> 00:09:37.460
+And we'll talk about this much more in
+
+00:09:37.470 --> 00:09:42.000
+the course, but I prefer to duplicate
+existing layers because it means I end up
+
+00:09:42.000 --> 00:09:42.160
+the course, but I prefer to duplicate
+existing layers because it means I end up
+
+00:09:42.170 --> 00:09:46.360
+with fewer text styles as I'm sort of
+exploring what styles to use, and that
+
+00:09:46.370 --> 00:09:48.000
+will make things look neater.
+
+00:09:48.000 --> 00:09:53.480
+will make things look neater.
+
+00:09:53.490 --> 00:09:54.000
+So I'll have 9 41 AM right there.
+
+00:09:54.000 --> 00:09:55.660
+So I'll have 9 41 AM right there.
+
+00:09:55.670 --> 00:10:00.000
+And then by holding option shift, I can
+click and drag a duplicate layer and
+
+00:10:00.000 --> 00:10:01.320
+And then by holding option shift, I can
+click and drag a duplicate layer and
+
+00:10:01.330 --> 00:10:04.620
+constrain it to be the same place vertically.
+
+00:10:04.630 --> 00:10:06.000
+And let's put in a date here, Monday,
+
+00:10:06.000 --> 00:10:06.740
+And let's put in a date here, Monday,
+
+00:10:06.750 --> 00:10:07.920
+January 1st.
+
+00:10:07.930 --> 00:10:10.040
+Of course, now it becomes really clear
+
+00:10:10.050 --> 00:10:12.000
+that it loses alignment with the right
+hand ruler, and so what I want to do is
+
+00:10:12.000 --> 00:10:15.780
+that it loses alignment with the right
+hand ruler, and so what I want to do is
+
+00:10:15.790 --> 00:10:17.920
+actually make the text aligned right.
+
+00:10:17.930 --> 00:10:18.000
+And then I hold shift while clicking and
+
+00:10:18.000 --> 00:10:19.980
+And then I hold shift while clicking and
+
+00:10:19.990 --> 00:10:24.000
+dragging to keep it constrained along
+this axis and there.
+
+00:10:24.000 --> 00:10:24.080
+dragging to keep it constrained along
+this axis and there.
+
+00:10:24.190 --> 00:10:30.000
+Now, even if it's Monday, January 17th,
+it'll still stay aligned just as it should.
+
+00:10:30.000 --> 00:10:35.690
+Now, even if it's Monday, January 17th,
+it'll still stay aligned just as it should.
+
+00:10:35.760 --> 00:10:36.000
+Now, I'm going to press shift R to hide
+my rulers and then select the artboard
+
+00:10:36.000 --> 00:10:40.310
+Now, I'm going to press shift R to hide
+my rulers and then select the artboard
+
+00:10:40.320 --> 00:10:42.000
+and do shift 2, shift 0.
+
+00:10:42.000 --> 00:10:42.270
+and do shift 2, shift 0.
+
+00:10:42.280 --> 00:10:47.510
+So here's the design as it stands so far.
+
+00:10:47.520 --> 00:10:48.000
+One thing I want to call your attention
+to is that every single element that
+
+00:10:48.000 --> 00:10:51.390
+One thing I want to call your attention
+to is that every single element that
+
+00:10:51.400 --> 00:10:54.000
+we've put on this page exists in this
+list that's been building out on the
+
+00:10:54.000 --> 00:10:56.290
+we've put on this page exists in this
+list that's been building out on the
+
+00:10:56.300 --> 00:11:00.000
+layer list on the left side, on the left
+-hand side here.
+
+00:11:00.000 --> 00:11:03.000
+layer list on the left side, on the left
+-hand side here.
+
+00:11:03.010 --> 00:11:06.000
+One thing I want to call your attention
+to is every element that we've put on the
+
+00:11:06.000 --> 00:11:06.960
+One thing I want to call your attention
+to is every element that we've put on the
+
+00:11:06.970 --> 00:11:12.000
+page so far also exists as a layer in
+this layers list on the left -hand side.
+
+00:11:12.000 --> 00:11:16.960
+page so far also exists as a layer in
+this layers list on the left -hand side.
+
+00:11:16.970 --> 00:11:18.000
+And overall, a great way to think about
+Figma as with many other design apps is
+
+00:11:18.000 --> 00:11:21.300
+And overall, a great way to think about
+Figma as with many other design apps is
+
+00:11:21.310 --> 00:11:24.000
+that your layers are on the left, your
+styling is on the right.
+
+00:11:24.000 --> 00:11:24.640
+that your layers are on the left, your
+styling is on the right.
+
+00:11:24.650 --> 00:11:26.820
+That's a fairly typical pattern here.
+
+00:11:26.830 --> 00:11:28.320
+Now with the layers list, the only thing
+
+00:11:28.330 --> 00:11:30.000
+I want to say right now is the order matters.
+
+00:11:30.000 --> 00:11:32.760
+I want to say right now is the order matters.
+
+00:11:32.770 --> 00:11:34.820
+So if I do something like press, let's
+
+00:11:35.170 --> 00:11:36.000
+say, R to create a rectangle, I can go in
+here and create it, or I can just press R
+
+00:11:36.000 --> 00:11:39.580
+say, R to create a rectangle, I can go in
+here and create it, or I can just press R
+
+00:11:39.590 --> 00:11:41.580
+and I can click and drag a rectangle.
+
+00:11:41.590 --> 00:11:42.000
+If that rectangle is at the top of the
+
+00:11:42.000 --> 00:11:43.120
+If that rectangle is at the top of the
+
+00:11:43.130 --> 00:11:47.880
+layers list, it appears on top of all the
+things that are below it.
+
+00:11:47.890 --> 00:11:48.000
+And if it's at the bottom, which I can
+move it just by clicking and dragging,
+
+00:11:48.000 --> 00:11:51.760
+And if it's at the bottom, which I can
+move it just by clicking and dragging,
+
+00:11:51.770 --> 00:11:52.940
+the reverse is true.
+
+00:11:52.950 --> 00:11:54.000
+Now it's below all of these other
+
+00:11:54.000 --> 00:11:54.940
+Now it's below all of these other
+
+00:11:54.950 --> 00:11:56.960
+elements that we've already added in.
+
+00:11:57.130 --> 00:11:59.380
+So, to move something with a hotkey, I
+
+00:11:59.390 --> 00:12:00.000
+can say command close bracket will make
+it go up one layer, and command open
+
+00:12:00.000 --> 00:12:06.000
+can say command close bracket will make
+it go up one layer, and command open
+
+00:12:06.000 --> 00:12:07.980
+can say command close bracket will make
+it go up one layer, and command open
+
+00:12:07.990 --> 00:12:10.260
+bracket makes it go down a layer.
+
+00:12:10.270 --> 00:12:12.000
+And then by holding down option while
+
+00:12:12.000 --> 00:12:12.800
+And then by holding down option while
+
+00:12:12.810 --> 00:12:18.000
+pressing either of those command option
+closed bracket, moves it to the top and
+
+00:12:18.000 --> 00:12:19.900
+pressing either of those command option
+closed bracket, moves it to the top and
+
+00:12:19.910 --> 00:12:23.140
+command option open bracket moves it to
+the very bottom.
+
+00:12:23.150 --> 00:12:24.000
+So those will be things that I will use
+fairly frequently.
+
+00:12:24.000 --> 00:12:30.000
+So those will be things that I will use
+fairly frequently.
+
+00:12:30.000 --> 00:12:30.160
+So those will be things that I will use
+fairly frequently.
+
+00:12:30.170 --> 00:12:33.920
+While we're on the subject, you'll notice
+that when I hover over a layer, I also
+
+00:12:33.930 --> 00:12:35.860
+have the ability to lock it.
+
+00:12:35.870 --> 00:12:36.000
+And so when it's locked, it just means it
+
+00:12:36.000 --> 00:12:37.420
+And so when it's locked, it just means it
+
+00:12:37.430 --> 00:12:38.500
+can't be selected.
+
+00:12:38.510 --> 00:12:41.100
+If I draw a little selection rectangle,
+
+00:12:41.110 --> 00:12:42.000
+it'll select every layer that my
+selection rectangle touches except for
+
+00:12:42.000 --> 00:12:44.820
+it'll select every layer that my
+selection rectangle touches except for
+
+00:12:44.830 --> 00:12:47.780
+locked layers, so that's what happened there.
+
+00:12:47.790 --> 00:12:48.000
+And I can lock with command shift L,
+
+00:12:48.000 --> 00:12:51.060
+And I can lock with command shift L,
+
+00:12:51.070 --> 00:12:54.000
+excuse me, that unlocks it as well as
+locks it, so it just basically toggles
+
+00:12:54.000 --> 00:12:54.580
+excuse me, that unlocks it as well as
+locks it, so it just basically toggles
+
+00:12:54.590 --> 00:12:56.480
+that status.
+
+00:12:56.490 --> 00:12:59.620
+And then of course, I can also hide it
+
+00:12:59.630 --> 00:13:00.000
+and unhide it, which is exactly what it
+seems like.
+
+00:13:00.000 --> 00:13:03.060
+and unhide it, which is exactly what it
+seems like.
+
+00:13:03.070 --> 00:13:06.000
+So both of those things will be useful in
+a variety of cases.
+
+00:13:06.000 --> 00:13:06.500
+So both of those things will be useful in
+a variety of cases.
+
+00:13:06.510 --> 00:13:12.000
+And the hotkey for hiding is Command
+-Shift -H, both to hide it and to make it visible.
+
+00:13:12.000 --> 00:13:13.480
+And the hotkey for hiding is Command
+-Shift -H, both to hide it and to make it visible.
+
+00:13:13.490 --> 00:13:18.000
+So I'm going to delete this layer, now
+it's selected, but if I just press
+
+00:13:18.000 --> 00:13:19.360
+So I'm going to delete this layer, now
+it's selected, but if I just press
+
+00:13:21.010 --> 00:13:24.000
+Delete, I will remove it from the design entirely.
+
+00:13:24.000 --> 00:13:26.400
+Delete, I will remove it from the design entirely.
+
+00:13:26.510 --> 00:13:28.060
+Alright, now let's do a little bit more
+
+00:13:28.070 --> 00:13:30.000
+visual styling on this.
+
+00:13:30.000 --> 00:13:31.320
+visual styling on this.
+
+00:13:31.330 --> 00:13:32.500
+Let's just make things appear a little
+
+00:13:32.510 --> 00:13:33.720
+more interesting.
+
+00:13:33.730 --> 00:13:36.000
+So if I select my overall frame, which I
+
+00:13:36.000 --> 00:13:36.300
+So if I select my overall frame, which I
+
+00:13:36.310 --> 00:13:40.940
+can do either from the canvas or from the
+layer list, I'm going to go to my fill,
+
+00:13:40.950 --> 00:13:42.000
+I'm going to open it up and I'm actually,
+instead of doing a solid color fill, I'm
+
+00:13:42.000 --> 00:13:45.000
+I'm going to open it up and I'm actually,
+instead of doing a solid color fill, I'm
+
+00:13:45.010 --> 00:13:46.960
+going to switch over to a gradient.
+
+00:13:46.970 --> 00:13:48.000
+So now I'm at a gradient and a gradient
+
+00:13:48.000 --> 00:13:50.160
+So now I'm at a gradient and a gradient
+
+00:13:50.170 --> 00:13:54.000
+is just a sort of a smooth transition
+between one color and another one.
+
+00:13:54.000 --> 00:13:54.300
+is just a sort of a smooth transition
+between one color and another one.
+
+00:13:54.310 --> 00:13:57.820
+If I click on the second color, I could
+choose something totally different.
+
+00:13:57.830 --> 00:14:00.000
+I mean, I could set it manually here or
+just to keep things simple, I will select
+
+00:14:00.000 --> 00:14:02.900
+I mean, I could set it manually here or
+just to keep things simple, I will select
+
+00:14:02.910 --> 00:14:04.680
+this color right here.
+
+00:14:04.690 --> 00:14:06.000
+And gradients are cool because in
+
+00:14:06.000 --> 00:14:07.000
+And gradients are cool because in
+
+00:14:07.010 --> 00:14:10.660
+addition to changing the colors, I can
+also change the direction of them.
+
+00:14:10.670 --> 00:14:12.000
+So I'll just change this gradient from
+top left to bottom right, which adds a
+
+00:14:12.000 --> 00:14:15.020
+So I'll just change this gradient from
+top left to bottom right, which adds a
+
+00:14:15.030 --> 00:14:18.000
+little more kind of pizzazz to things.
+
+00:14:18.000 --> 00:14:20.240
+little more kind of pizzazz to things.
+
+00:14:20.250 --> 00:14:22.400
+And as always, I'm like, Shift -2, Shift
+
+00:14:22.530 --> 00:14:24.000
+-0, kind of see this thing at 100 % and
+evaluate how I feel about this.
+
+00:14:24.000 --> 00:14:26.960
+-0, kind of see this thing at 100 % and
+evaluate how I feel about this.
+
+00:14:29.110 --> 00:14:30.000
+The next thing I'm going to do is I'm
+going to give some visual distinction to
+
+00:14:30.000 --> 00:14:32.580
+The next thing I'm going to do is I'm
+going to give some visual distinction to
+
+00:14:32.590 --> 00:14:34.800
+each of the elements in the to -do list.
+
+00:14:34.810 --> 00:14:36.000
+And I know that on mobile, specifically
+
+00:14:36.000 --> 00:14:37.020
+And I know that on mobile, specifically
+
+00:14:37.030 --> 00:14:42.000
+on iPhone, every tappable element should
+be at least 44 pixels by 44 pixels.
+
+00:14:42.000 --> 00:14:44.180
+on iPhone, every tappable element should
+be at least 44 pixels by 44 pixels.
+
+00:14:44.190 --> 00:14:48.000
+So I'm going to draw a rectangle by
+pressing R and I'm going to make it 44
+
+00:14:48.000 --> 00:14:54.000
+So I'm going to draw a rectangle by
+pressing R and I'm going to make it 44
+
+00:14:54.000 --> 00:14:54.340
+So I'm going to draw a rectangle by
+pressing R and I'm going to make it 44
+
+00:14:54.350 --> 00:14:57.760
+pixels tall and I'm going to make it the
+full width of the screen.
+
+00:14:57.870 --> 00:15:00.000
+Now, I can adjust the height when I have
+an element selected by pressing command
+
+00:15:00.000 --> 00:15:02.900
+Now, I can adjust the height when I have
+an element selected by pressing command
+
+00:15:02.910 --> 00:15:03.720
+up and down.
+
+00:15:03.730 --> 00:15:06.000
+That will adjust the bottom and then I
+
+00:15:06.000 --> 00:15:06.460
+That will adjust the bottom and then I
+
+00:15:06.470 --> 00:15:08.380
+can adjust the left edge.
+
+00:15:08.390 --> 00:15:10.600
+I can adjust the right edge with command
+
+00:15:10.610 --> 00:15:12.000
+left arrow and command right arrow.
+
+00:15:12.000 --> 00:15:12.880
+left arrow and command right arrow.
+
+00:15:12.890 --> 00:15:15.700
+And I can hold shift to adjust by 10.
+
+00:15:15.730 --> 00:15:18.000
+So, that is one way to adjust the size of things.
+
+00:15:18.010 --> 00:15:20.000
+Of course, I can also adjust the width
+
+00:15:20.010 --> 00:15:24.000
+and the height as well as the x value and
+the y value directly on the property pane here.
+
+00:15:24.000 --> 00:15:28.120
+and the height as well as the x value and
+the y value directly on the property pane here.
+
+00:15:28.170 --> 00:15:30.000
+Now, I want this rectangle to actually be
+below the text layer, so I will just
+
+00:15:30.000 --> 00:15:32.780
+Now, I want this rectangle to actually be
+below the text layer, so I will just
+
+00:15:32.790 --> 00:15:36.000
+press command open bracket a couple times
+until it is below all of the to -do list items.
+
+00:15:36.000 --> 00:15:39.080
+press command open bracket a couple times
+until it is below all of the to -do list items.
+
+00:15:39.090 --> 00:15:42.000
+And then I can use the up arrow and down
+arrow to get it so that the text appears
+
+00:15:42.000 --> 00:15:43.900
+And then I can use the up arrow and down
+arrow to get it so that the text appears
+
+00:15:43.910 --> 00:15:48.000
+vertically centered within the rectangle
+around it.
+
+00:15:48.010 --> 00:15:52.600
+And remember, by holding option, I can
+see, you know, these measurements can be
+
+00:15:52.610 --> 00:15:54.000
+useful to see, that it's 16 on the top
+and 16 on the bottom, but it's not always
+
+00:15:54.000 --> 00:15:57.160
+useful to see, that it's 16 on the top
+and 16 on the bottom, but it's not always
+
+00:15:57.170 --> 00:16:00.000
+the case that what appears centered is
+actually numerically centered, and that's
+
+00:16:00.000 --> 00:16:00.660
+the case that what appears centered is
+actually numerically centered, and that's
+
+00:16:00.670 --> 00:16:04.520
+an important thing to remember.
+
+00:16:04.530 --> 00:16:06.000
+If there is 16 pixels between the text
+
+00:16:06.000 --> 00:16:07.900
+If there is 16 pixels between the text
+
+00:16:07.910 --> 00:16:11.520
+box and the rectangle, then that means
+the distance between each of these items
+
+00:16:11.530 --> 00:16:12.000
+needs to be double that, or 32 pixels.
+
+00:16:12.000 --> 00:16:14.480
+needs to be double that, or 32 pixels.
+
+00:16:14.490 --> 00:16:16.000
+When you select multiple items and they
+
+00:16:16.010 --> 00:16:18.000
+all have the same spacing, Figma
+helpfully lets you edit it directly here.
+
+00:16:18.000 --> 00:16:19.780
+all have the same spacing, Figma
+helpfully lets you edit it directly here.
+
+00:16:19.790 --> 00:16:23.280
+So I can just go type 32 and it'll adjust everything.
+
+00:16:23.290 --> 00:16:24.000
+On Canvas, this control, you can get it
+
+00:16:24.000 --> 00:16:25.280
+On Canvas, this control, you can get it
+
+00:16:25.290 --> 00:16:30.000
+to pop up, but I really rarely do this,
+to be honest.
+
+00:16:30.000 --> 00:16:30.500
+to pop up, but I really rarely do this,
+to be honest.
+
+00:16:30.690 --> 00:16:35.840
+Now, I can hold option and shift to
+create a second layer here and I can
+
+00:16:35.850 --> 00:16:36.000
+duplicate it with command D a couple
+times and get these all in the right place.
+
+00:16:36.000 --> 00:16:40.380
+duplicate it with command D a couple
+times and get these all in the right place.
+
+00:16:40.510 --> 00:16:42.000
+Now, we don't want the boxes to be the
+shade of gray because it makes things
+
+00:16:42.000 --> 00:16:45.300
+Now, we don't want the boxes to be the
+shade of gray because it makes things
+
+00:16:45.310 --> 00:16:47.180
+impossible to read and it's terrible.
+
+00:16:47.190 --> 00:16:48.000
+What color do we want it to do?
+
+00:16:48.000 --> 00:16:48.800
+What color do we want it to do?
+
+00:16:48.850 --> 00:16:51.720
+Well, I kind of have this fun idea where
+we're gonna make it white, but we're
+
+00:16:51.730 --> 00:16:54.000
+gonna make it a translucent white so that
+you can kind of see through the box to
+
+00:16:54.000 --> 00:16:57.340
+gonna make it a translucent white so that
+you can kind of see through the box to
+
+00:16:57.350 --> 00:16:58.320
+different degrees.
+
+00:16:58.330 --> 00:16:59.320
+Here's what I mean.
+
+00:16:59.330 --> 00:17:00.000
+First task, let's make it white.
+
+00:17:00.000 --> 00:17:01.540
+First task, let's make it white.
+
+00:17:01.550 --> 00:17:03.340
+That's as easy as coming to the fill
+
+00:17:03.350 --> 00:17:06.000
+color and clicking over here.
+
+00:17:06.000 --> 00:17:09.150
+color and clicking over here.
+
+00:17:09.240 --> 00:17:11.590
+Okay, first task, let's make these layers white.
+
+00:17:11.600 --> 00:17:12.000
+There's actually a bunch of ways to do that.
+
+00:17:12.000 --> 00:17:13.630
+There's actually a bunch of ways to do that.
+
+00:17:13.640 --> 00:17:15.990
+One is by going to the fill and then
+
+00:17:16.000 --> 00:17:18.000
+opening up the color picker and just
+sliding to white.
+
+00:17:18.000 --> 00:17:18.970
+opening up the color picker and just
+sliding to white.
+
+00:17:19.040 --> 00:17:22.830
+Yeah, technically, this makes the text
+invisible, but we'll fix that in a sec.
+
+00:17:22.840 --> 00:17:24.000
+I can, you know, also open...
+
+00:17:24.000 --> 00:17:28.680
+I can, you know, also open...
+
+00:17:28.690 --> 00:17:30.000
+I can also type the value, the hex value
+
+00:17:30.000 --> 00:17:31.340
+I can also type the value, the hex value
+
+00:17:31.350 --> 00:17:36.000
+for white in right here, which is
+FFFFFFF, or because it's all the same
+
+00:17:36.000 --> 00:17:37.440
+for white in right here, which is
+FFFFFFF, or because it's all the same
+
+00:17:37.450 --> 00:17:39.900
+letter in the hex value, just F and press enter.
+
+00:17:39.910 --> 00:17:42.000
+that'll make it white and I can also use
+
+00:17:42.000 --> 00:17:42.700
+that'll make it white and I can also use
+
+00:17:42.710 --> 00:17:48.000
+a hotkey like options, like control C,
+which brings up the little color picker
+
+00:17:48.000 --> 00:17:49.580
+a hotkey like options, like control C,
+which brings up the little color picker
+
+00:17:49.590 --> 00:17:53.900
+tool and if I just click on anything else
+white in my design, now, that's white as well.
+
+00:17:53.910 --> 00:17:54.000
+I is another hotkey that works for that.
+
+00:17:54.000 --> 00:17:55.860
+I is another hotkey that works for that.
+
+00:17:55.870 --> 00:17:57.580
+So many ways to make things white.
+
+00:17:57.650 --> 00:17:58.400
+Oh, here's one more.
+
+00:17:58.410 --> 00:18:00.000
+You can just type white in here and that
+
+00:18:00.000 --> 00:18:00.120
+You can just type white in here and that
+
+00:18:00.130 --> 00:18:06.000
+will also work.
+
+00:18:06.000 --> 00:18:08.340
+will also work.
+
+00:18:08.350 --> 00:18:09.780
+But I said we kind of want to do an
+
+00:18:09.790 --> 00:18:12.000
+interesting visual effect where these are
+each slightly different opacities.
+
+00:18:12.000 --> 00:18:13.880
+interesting visual effect where these are
+each slightly different opacities.
+
+00:18:13.890 --> 00:18:18.000
+So to change opacity, I can go over to
+layer and the percentage value that's
+
+00:18:18.000 --> 00:18:18.620
+So to change opacity, I can go over to
+layer and the percentage value that's
+
+00:18:18.630 --> 00:18:20.940
+next to it is the opacity of the layer.
+
+00:18:20.950 --> 00:18:23.240
+I can type in something directly or use
+
+00:18:23.250 --> 00:18:24.000
+the arrow, the down arrow or the shift
+down arrow or shift up arrow to adjust
+
+00:18:24.000 --> 00:18:28.080
+the arrow, the down arrow or the shift
+down arrow or shift up arrow to adjust
+
+00:18:28.090 --> 00:18:30.000
+the value by increments of 10.
+
+00:18:30.000 --> 00:18:31.300
+the value by increments of 10.
+
+00:18:31.310 --> 00:18:32.480
+Another way, and this is what I do
+
+00:18:32.490 --> 00:18:36.000
+through most of the course, is to just
+press a number, 1, 2, 3, all the way up
+
+00:18:36.000 --> 00:18:36.760
+through most of the course, is to just
+press a number, 1, 2, 3, all the way up
+
+00:18:36.770 --> 00:18:42.000
+to 0, and it will switch to that opacity,
+but times 10.
+
+00:18:42.000 --> 00:18:42.540
+to 0, and it will switch to that opacity,
+but times 10.
+
+00:18:42.550 --> 00:18:48.000
+So pressing 2 goes 20%, pressing 3 gives
+30%, pressing 0 gives 100%, so that means
+
+00:18:48.000 --> 00:18:50.860
+So pressing 2 goes 20%, pressing 3 gives
+30%, pressing 0 gives 100%, so that means
+
+00:18:50.870 --> 00:18:54.000
+to do 0 % opacity, I actually have to
+press 0 twice in rapid succession.
+
+00:18:54.000 --> 00:18:56.120
+to do 0 % opacity, I actually have to
+press 0 twice in rapid succession.
+
+00:18:56.150 --> 00:18:57.020
+Now, that's not what I want though.
+
+00:18:57.030 --> 00:18:59.760
+I want 40%, so I'm going to press 4, and
+
+00:18:59.770 --> 00:19:00.000
+now I have 10%, 20, 30, 40, and it it
+kind of has this interesting scale effect.
+
+00:19:00.000 --> 00:19:06.000
+now I have 10%, 20, 30, 40, and it it
+kind of has this interesting scale effect.
+
+00:19:06.000 --> 00:19:07.780
+now I have 10%, 20, 30, 40, and it it
+kind of has this interesting scale effect.
+
+00:19:07.790 --> 00:19:11.100
+Now we'll be talking a lot more about
+this soon, but one thing I frequently do
+
+00:19:11.110 --> 00:19:12.000
+is use Command D to duplicate a frame or
+an artboard and then try out something
+
+00:19:12.000 --> 00:19:16.100
+is use Command D to duplicate a frame or
+an artboard and then try out something
+
+00:19:16.110 --> 00:19:17.180
+slightly different.
+
+00:19:17.190 --> 00:19:18.000
+So in this case, I'm also going to try
+
+00:19:18.000 --> 00:19:19.680
+So in this case, I'm also going to try
+
+00:19:19.690 --> 00:19:22.240
+out changing what's called the blend mode.
+
+00:19:22.250 --> 00:19:24.000
+And we go over these a lot more in the
+
+00:19:24.000 --> 00:19:24.480
+And we go over these a lot more in the
+
+00:19:24.490 --> 00:19:29.140
+photography and imagery lesson, but I can
+use a blend mode like overlay or soft
+
+00:19:29.150 --> 00:19:30.000
+light to just give a little bit more
+effect to things.
+
+00:19:30.000 --> 00:19:32.860
+light to just give a little bit more
+effect to things.
+
+00:19:32.870 --> 00:19:36.000
+So I kind of like soft light right here,
+but I can actually now raise the opacity.
+
+00:19:36.000 --> 00:19:38.420
+So I kind of like soft light right here,
+but I can actually now raise the opacity.
+
+00:19:39.410 --> 00:19:42.000
+So, I can now raise the opacity to make
+the effect a little more visible.
+
+00:19:42.000 --> 00:19:43.820
+So, I can now raise the opacity to make
+the effect a little more visible.
+
+00:19:43.830 --> 00:19:48.000
+So maybe this will become 25, which I
+just press 25 in rapid succession.
+
+00:19:48.000 --> 00:19:49.020
+So maybe this will become 25, which I
+just press 25 in rapid succession.
+
+00:19:49.030 --> 00:19:51.020
+For 50, I just press 5.
+
+00:19:51.030 --> 00:19:54.000
+For 75, I have to actually type out the number.
+
+00:19:54.000 --> 00:19:54.060
+For 75, I have to actually type out the number.
+
+00:19:54.070 --> 00:19:57.800
+And then for 100%, I just type 0.
+
+00:19:57.810 --> 00:20:00.000
+And I can say, which of these do I like better?
+
+00:20:00.000 --> 00:20:00.780
+And I can say, which of these do I like better?
+
+00:20:00.790 --> 00:20:04.840
+To me, it's a little bit of a wash, but
+the blend modes is kind of an interesting
+
+00:20:05.050 --> 00:20:06.000
+one, so maybe we'll go with that.
+
+00:20:06.000 --> 00:20:09.700
+one, so maybe we'll go with that.
+
+00:20:09.810 --> 00:20:12.000
+Now, technically, this is a to -do list,
+
+00:20:12.000 --> 00:20:12.040
+Now, technically, this is a to -do list,
+
+00:20:12.050 --> 00:20:15.400
+which means that each of these things
+should be kind of an item that you can
+
+00:20:15.410 --> 00:20:16.660
+check off the list.
+
+00:20:16.670 --> 00:20:18.000
+And when I think of checking something
+
+00:20:18.000 --> 00:20:18.160
+And when I think of checking something
+
+00:20:18.270 --> 00:20:21.860
+off, I feel like we're going to want to
+display a little checkbox to the left of
+
+00:20:21.870 --> 00:20:23.080
+each piece of text.
+
+00:20:23.150 --> 00:20:24.000
+So, I'm going to use shift -clicking to
+
+00:20:24.000 --> 00:20:25.240
+So, I'm going to use shift -clicking to
+
+00:20:25.250 --> 00:20:29.020
+get all these layers at once, and then
+I'm going to use shift -clicking and
+
+00:20:29.030 --> 00:20:30.000
+dragging to move them over here to put a
+little space, or give a little space for
+
+00:20:30.000 --> 00:20:34.200
+dragging to move them over here to put a
+little space, or give a little space for
+
+00:20:34.210 --> 00:20:36.000
+our checkboxes.
+
+00:20:36.000 --> 00:20:36.220
+our checkboxes.
+
+00:20:36.590 --> 00:20:38.780
+Now, I'm pressing Shift -R so I can see
+
+00:20:38.790 --> 00:20:39.680
+where the ruler is.
+
+00:20:39.810 --> 00:20:41.560
+Remember, everything is gonna be aligned.
+
+00:20:41.570 --> 00:20:42.000
+And then, I'm gonna press R to make a
+rectangle, and I'm gonna make it just a
+
+00:20:42.000 --> 00:20:46.540
+And then, I'm gonna press R to make a
+rectangle, and I'm gonna make it just a
+
+00:20:46.550 --> 00:20:48.000
+little bit bigger than the text itself,
+maybe something like 20 by 20 pixels.
+
+00:20:48.000 --> 00:20:52.320
+little bit bigger than the text itself,
+maybe something like 20 by 20 pixels.
+
+00:20:52.330 --> 00:20:54.000
+That should be fine.
+
+00:20:54.000 --> 00:20:55.320
+That should be fine.
+
+00:20:55.330 --> 00:20:57.640
+Now, one fun thing in Figma is you can
+
+00:20:57.650 --> 00:21:00.000
+press Shift -X, and that changes what was
+a fill, or a background fill, into a
+
+00:21:00.000 --> 00:21:02.500
+press Shift -X, and that changes what was
+a fill, or a background fill, into a
+
+00:21:02.650 --> 00:21:06.000
+stroke, which is kind of like a border or
+an outline.
+
+00:21:06.000 --> 00:21:07.020
+stroke, which is kind of like a border or
+an outline.
+
+00:21:07.830 --> 00:21:12.000
+So, Shift -X again, this little gray is
+back as my fill, Shift -X, now it's my stroke.
+
+00:21:12.000 --> 00:21:12.920
+So, Shift -X again, this little gray is
+back as my fill, Shift -X, now it's my stroke.
+
+00:21:12.930 --> 00:21:16.000
+Shift -X, Fill, Shift -X, Stroke.
+
+00:21:16.290 --> 00:21:18.000
+Now, I can also do things like change the
+
+00:21:18.000 --> 00:21:19.460
+Now, I can also do things like change the
+
+00:21:19.470 --> 00:21:23.960
+border radius a little bit, and I'm just
+gonna change the border radius so that it
+
+00:21:23.970 --> 00:21:24.000
+feels like it matches the font.
+
+00:21:24.000 --> 00:21:26.040
+feels like it matches the font.
+
+00:21:26.050 --> 00:21:28.380
+you'll notice the font feels kind of a
+
+00:21:28.390 --> 00:21:30.000
+little bit rounded, right?
+
+00:21:30.000 --> 00:21:30.460
+little bit rounded, right?
+
+00:21:30.470 --> 00:21:32.600
+So maybe I'll make it 40 pixels from the
+
+00:21:32.610 --> 00:21:33.440
+left here.
+
+00:21:33.450 --> 00:21:34.960
+The font feels a little bit rounded.
+
+00:21:34.970 --> 00:21:36.000
+I kind of want this to feel the same way.
+
+00:21:36.000 --> 00:21:36.980
+I kind of want this to feel the same way.
+
+00:21:36.990 --> 00:21:40.400
+I can also change the width of the stroke.
+
+00:21:40.410 --> 00:21:42.000
+So maybe 1 .5 here
+.
+
+00:21:42.000 --> 00:21:42.740
+So maybe 1 .5 here
+.
+
+00:21:42.750 --> 00:21:45.000
+That feels pretty consistent with the text.
+
+00:21:45.090 --> 00:21:46.680
+Of course, the color is different.
+
+00:21:46.690 --> 00:21:48.000
+So what I'm gonna do is just use command
+C and grab that white color very easily.
+
+00:21:48.000 --> 00:21:52.540
+So what I'm gonna do is just use command
+C and grab that white color very easily.
+
+00:21:52.550 --> 00:21:54.000
+And then I can do option, shift, click
+and drag, get that position and press
+
+00:21:54.000 --> 00:22:00.000
+And then I can do option, shift, click
+and drag, get that position and press
+
+00:22:00.000 --> 00:22:02.520
+And then I can do option, shift, click
+and drag, get that position and press
+
+00:22:02.530 --> 00:22:06.000
+command D twice to get these exactly
+where I want them.
+
+00:22:06.000 --> 00:22:07.660
+command D twice to get these exactly
+where I want them.
+
+00:22:07.670 --> 00:22:11.160
+Now you can probably already tell, but
+now I want to view the design at 100 %
+
+00:22:11.170 --> 00:22:12.000
+and just kind of evaluate how we're doing.
+
+00:22:12.000 --> 00:22:13.680
+and just kind of evaluate how we're doing.
+
+00:22:13.690 --> 00:22:15.940
+To quickly skip from selecting a child
+
+00:22:15.950 --> 00:22:18.000
+layer to selecting the parent layer,
+which in this case is this frame right
+
+00:22:18.000 --> 00:22:19.240
+layer to selecting the parent layer,
+which in this case is this frame right
+
+00:22:19.250 --> 00:22:20.960
+here, just press shift enter.
+
+00:22:20.970 --> 00:22:22.880
+So now I have the frame selected and I
+
+00:22:22.890 --> 00:22:24.000
+can do Shift -2, Shift -0, and there we go.
+
+00:22:24.000 --> 00:22:25.780
+can do Shift -2, Shift -0, and there we go.
+
+00:22:25.790 --> 00:22:27.800
+And maybe I remove the rulers with Shift
+
+00:22:28.190 --> 00:22:30.000
+-R. Hey, this isn't looking so bad.
+
+00:22:30.000 --> 00:22:32.610
+-R. Hey, this isn't looking so bad.
+
+00:22:32.620 --> 00:22:35.010
+Now that I'm evaluating it, uh, I'm
+
+00:22:35.020 --> 00:22:36.000
+really quickly thinking, I'm actually
+going to change the opacity to 80, 60,
+
+00:22:36.000 --> 00:22:39.490
+really quickly thinking, I'm actually
+going to change the opacity to 80, 60,
+
+00:22:39.500 --> 00:22:42.000
+40, and 20, just to make these a little
+bit darker.
+
+00:22:42.000 --> 00:22:42.010
+40, and 20, just to make these a little
+bit darker.
+
+00:22:42.020 --> 00:22:43.990
+And this is something you'll hear me say
+so much.
+
+00:22:44.000 --> 00:22:46.170
+We always reserve the right to change our mind.
+
+00:22:46.180 --> 00:22:47.790
+Like until this thing is shipped and
+
+00:22:47.800 --> 00:22:48.000
+live, I mean, even then, I guess you
+could technically change your mind.
+
+00:22:48.000 --> 00:22:49.950
+live, I mean, even then, I guess you
+could technically change your mind.
+
+00:22:49.960 --> 00:22:54.000
+It's just a little more annoying.
+
+00:22:54.000 --> 00:22:54.120
+It's just a little more annoying.
+
+00:22:54.130 --> 00:22:56.620
+But as designers, in this early stage,
+
+00:22:56.870 --> 00:22:59.520
+we're exploring, and just because you
+have something on the canvas does not
+
+00:22:59.530 --> 00:23:00.000
+mean you're committed to it.
+
+00:23:00.000 --> 00:23:04.320
+mean you're committed to it.
+
+00:23:04.330 --> 00:23:05.520
+Sometimes you have to do it just to see
+
+00:23:05.530 --> 00:23:06.000
+how it's going to look.
+
+00:23:06.000 --> 00:23:09.950
+how it's going to look.
+
+00:23:09.960 --> 00:23:11.890
+Okay, so I like this a little bit better,
+
+00:23:11.900 --> 00:23:12.000
+but now let's see what would happen if
+one of these items was done, right?
+
+00:23:12.000 --> 00:23:15.650
+but now let's see what would happen if
+one of these items was done, right?
+
+00:23:15.660 --> 00:23:18.000
+Like, I'm kind of imagining this would be
+struck through, and there would be a
+
+00:23:18.000 --> 00:23:18.890
+Like, I'm kind of imagining this would be
+struck through, and there would be a
+
+00:23:18.900 --> 00:23:24.000
+little check mark in the checkbox,
+And maybe we'd even reduce the opacity of
+
+00:23:24.000 --> 00:23:24.410
+little check mark in the checkbox,
+And maybe we'd even reduce the opacity of
+
+00:23:24.600 --> 00:23:28.810
+this text, so it just kind of feels
+lighter and like, not quite disabled, but
+
+00:23:28.820 --> 00:23:30.000
+just not as clickable.
+
+00:23:30.000 --> 00:23:34.860
+just not as clickable.
+
+00:23:34.870 --> 00:23:36.000
+So a lot of my basic text styling is
+
+00:23:36.000 --> 00:23:36.900
+So a lot of my basic text styling is
+
+00:23:36.970 --> 00:23:39.920
+right here, but if I want more advanced
+text styling, I can click the little
+
+00:23:39.930 --> 00:23:42.000
+three dot menu here and then under
+decoration, I can go to strikethrough, so
+
+00:23:42.000 --> 00:23:44.860
+three dot menu here and then under
+decoration, I can go to strikethrough, so
+
+00:23:44.870 --> 00:23:45.900
+that's pretty easy.
+
+00:23:45.910 --> 00:23:47.840
+To change the opacity, it's like I said,
+
+00:23:47.850 --> 00:23:48.000
+we just press 8 to say 80%, do the same
+thing with this little checkbox, 8 for 80%.
+
+00:23:48.000 --> 00:23:54.000
+we just press 8 to say 80%, do the same
+thing with this little checkbox, 8 for 80%.
+
+00:23:54.000 --> 00:23:54.700
+we just press 8 to say 80%, do the same
+thing with this little checkbox, 8 for 80%.
+
+00:23:54.710 --> 00:24:00.000
+And already it looks a little bit more
+subtle, that's kind of cool.
+
+00:24:00.000 --> 00:24:01.020
+And already it looks a little bit more
+subtle, that's kind of cool.
+
+00:24:01.030 --> 00:24:04.380
+Drawing a checkmark in the checkbox is a
+bit more complicated, though.
+
+00:24:04.390 --> 00:24:06.000
+So I'm going to zoom way in, and then
+we're going to use a new tool, the Pen tool.
+
+00:24:06.000 --> 00:24:08.820
+So I'm going to zoom way in, and then
+we're going to use a new tool, the Pen tool.
+
+00:24:08.830 --> 00:24:12.000
+So, this is it right here, but you'll see
+the hotkey is P, and that's what I used
+
+00:24:12.000 --> 00:24:12.480
+So, this is it right here, but you'll see
+the hotkey is P, and that's what I used
+
+00:24:12.490 --> 00:24:13.740
+throughout this course.
+
+00:24:13.750 --> 00:24:15.700
+So what I'm going to do is just click
+
+00:24:15.710 --> 00:24:18.000
+somewhere and that's going to start
+drawing a pen.
+
+00:24:18.000 --> 00:24:20.410
+somewhere and that's going to start
+drawing a pen.
+
+00:24:20.420 --> 00:24:22.090
+And that's going to start the drawing.
+
+00:24:22.180 --> 00:24:24.000
+And basically, I could just click on a
+
+00:24:24.000 --> 00:24:24.450
+And basically, I could just click on a
+
+00:24:24.460 --> 00:24:27.710
+whole bunch of points wherever I want to.
+
+00:24:27.720 --> 00:24:28.990
+And it'll just put points in.
+
+00:24:29.120 --> 00:24:30.000
+And so, this actually looks okay already.
+
+00:24:30.000 --> 00:24:32.130
+And so, this actually looks okay already.
+
+00:24:32.140 --> 00:24:34.170
+If I press enter, it sort of completes it.
+
+00:24:34.180 --> 00:24:36.000
+And I have the ability to change, you
+know, do I want square or round?
+
+00:24:36.000 --> 00:24:39.950
+And I have the ability to change, you
+know, do I want square or round?
+
+00:24:39.960 --> 00:24:42.000
+And if you open up the advanced options,
+then you can say, should the join, that
+
+00:24:42.000 --> 00:24:44.410
+And if you open up the advanced options,
+then you can say, should the join, that
+
+00:24:44.420 --> 00:24:48.000
+is kind of the elbow here, should it have
+like a right angle and be sort of
+
+00:24:48.000 --> 00:24:48.830
+is kind of the elbow here, should it have
+like a right angle and be sort of
+
+00:24:48.840 --> 00:24:51.250
+geometric or should be a little more rounded.
+
+00:24:51.260 --> 00:24:54.000
+Well, since we went with this round
+
+00:24:54.000 --> 00:24:54.050
+Well, since we went with this round
+
+00:24:54.060 --> 00:24:58.370
+corner here and our font in some sense
+feels a little bit more rounded and
+
+00:24:58.380 --> 00:24:59.330
+friendly, that's what I'm going to do.
+
+00:24:59.340 --> 00:25:00.000
+I'm going to try and be consistent in
+
+00:25:00.000 --> 00:25:00.850
+I'm going to try and be consistent in
+
+00:25:00.860 --> 00:25:05.430
+that sort of stylistic way.
+
+00:25:05.440 --> 00:25:06.000
+So I'm just going to adjust the sizing
+
+00:25:06.000 --> 00:25:07.030
+So I'm just going to adjust the sizing
+
+00:25:07.040 --> 00:25:10.430
+and kind of get it where I think it belongs.
+
+00:25:10.440 --> 00:25:12.000
+and then press eight so that it's
+
+00:25:12.000 --> 00:25:12.570
+and then press eight so that it's
+
+00:25:12.580 --> 00:25:18.000
+consistent in terms of opacity with all
+the other elements in the checked, on the
+
+00:25:18.000 --> 00:25:20.960
+consistent in terms of opacity with all
+the other elements in the checked, on the
+
+00:25:20.970 --> 00:25:23.660
+checked to do item.
+
+00:25:23.670 --> 00:25:24.000
+So command zero or shift zero brings me
+
+00:25:24.000 --> 00:25:25.760
+So command zero or shift zero brings me
+
+00:25:25.770 --> 00:25:30.000
+out to a hundred percent again, so far,
+so good.
+
+00:25:30.000 --> 00:25:36.000
+out to a hundred percent again, so far,
+so good.
+
+00:25:36.000 --> 00:25:40.000
+out to a hundred percent again, so far,
+so good.
+
+00:25:40.010 --> 00:25:42.000
+Now looking at this design, we've
+actually gotten pretty far with text and
+
+00:25:42.000 --> 00:25:44.300
+Now looking at this design, we've
+actually gotten pretty far with text and
+
+00:25:44.310 --> 00:25:48.000
+rectangles, but design is not just text
+and rectangles, there are circles too.
+
+00:25:48.000 --> 00:25:49.020
+rectangles, but design is not just text
+and rectangles, there are circles too.
+
+00:25:49.030 --> 00:25:54.000
+So I'm gonna press O is for oval, I
+guess, and I can click and drag an oval.
+
+00:25:54.000 --> 00:25:55.060
+So I'm gonna press O is for oval, I
+guess, and I can click and drag an oval.
+
+00:25:55.070 --> 00:25:56.920
+I don't want any of these other crazy
+shapes, though.
+
+00:25:56.930 --> 00:25:58.700
+I want a perfect circle.
+
+00:25:58.710 --> 00:26:00.000
+To get a perfect circle, hold shift, okay?
+
+00:26:00.000 --> 00:26:01.800
+To get a perfect circle, hold shift, okay?
+
+00:26:01.810 --> 00:26:06.000
+And I'm going to hold shift until my
+circle is about yay big and I'm going to
+
+00:26:06.000 --> 00:26:06.100
+And I'm going to hold shift until my
+circle is about yay big and I'm going to
+
+00:26:06.110 --> 00:26:07.800
+drag it to the bottom of the screen.
+
+00:26:07.810 --> 00:26:10.080
+So it's technically kind of off screen
+
+00:26:10.090 --> 00:26:11.860
+and I'm gonna try and get it totally centered.
+
+00:26:11.870 --> 00:26:12.000
+I'm gonna get it centered so that the
+
+00:26:12.000 --> 00:26:14.420
+I'm gonna get it centered so that the
+
+00:26:14.430 --> 00:26:18.000
+circle is bisected by the bottom of the
+screen, and it's also horizontally aligned.
+
+00:26:18.000 --> 00:26:18.600
+circle is bisected by the bottom of the
+screen, and it's also horizontally aligned.
+
+00:26:18.610 --> 00:26:24.000
+By the way, Figma tries to be helpful and
+get things to be aligned smart, but if
+
+00:26:24.000 --> 00:26:24.760
+By the way, Figma tries to be helpful and
+get things to be aligned smart, but if
+
+00:26:24.770 --> 00:26:29.380
+you feel like something is not quite
+aligned, you can center something
+
+00:26:29.390 --> 00:26:30.000
+horizontally with this little button
+here, or, Command -Z to undo, I can press
+
+00:26:30.000 --> 00:26:36.000
+horizontally with this little button
+here, or, Command -Z to undo, I can press
+
+00:26:36.000 --> 00:26:36.080
+horizontally with this little button
+here, or, Command -Z to undo, I can press
+
+00:26:36.230 --> 00:26:37.880
+Option -H, and that will do the same thing.
+
+00:26:37.890 --> 00:26:40.840
+So, there are a bunch of ways of
+
+00:26:40.850 --> 00:26:42.000
+horizontally centering something.
+
+00:26:42.000 --> 00:26:42.220
+horizontally centering something.
+
+00:26:42.230 --> 00:26:44.140
+Option V does it for vertical centering,
+
+00:26:44.150 --> 00:26:48.000
+and of course, I can use these buttons up
+here too.
+
+00:26:48.000 --> 00:26:50.530
+and of course, I can use these buttons up
+here too.
+
+00:26:50.540 --> 00:26:54.000
+Now, if I want to resize this circle, all
+of a sudden, I have this issue where I
+
+00:26:54.000 --> 00:26:57.450
+Now, if I want to resize this circle, all
+of a sudden, I have this issue where I
+
+00:26:57.460 --> 00:27:00.000
+want it to stay a circle, but I also want
+it to stay centered, and I want to resize
+
+00:27:00.000 --> 00:27:01.430
+want it to stay a circle, but I also want
+it to stay centered, and I want to resize
+
+00:27:01.440 --> 00:27:03.330
+from the center of the circle.
+
+00:27:03.340 --> 00:27:05.010
+So Option is what I need to hold.
+
+00:27:05.020 --> 00:27:06.000
+I hold Shift in order to keep it a
+perfect circle, and I hold Option to
+
+00:27:06.000 --> 00:27:09.010
+I hold Shift in order to keep it a
+perfect circle, and I hold Option to
+
+00:27:09.020 --> 00:27:11.550
+resize it from exactly the center.
+
+00:27:11.560 --> 00:27:12.000
+Now, before I can tell the size, though,
+
+00:27:12.000 --> 00:27:13.310
+Now, before I can tell the size, though,
+
+00:27:13.320 --> 00:27:18.000
+I need to put the elements on it that I
+intend to.
+
+00:27:18.000 --> 00:27:18.110
+I need to put the elements on it that I
+intend to.
+
+00:27:18.440 --> 00:27:19.850
+And actually, boy, I'm full of ideas.
+
+00:27:19.860 --> 00:27:21.110
+Before I do that, we're going to make
+
+00:27:25.890 --> 00:27:26.440
+this white.
+
+00:27:26.450 --> 00:27:28.220
+And maybe like 10 % opacity.
+
+00:27:28.230 --> 00:27:29.020
+That's too light.
+
+00:27:29.030 --> 00:27:29.980
+How about 30?
+
+00:27:29.990 --> 00:27:30.000
+That's a little bit better.
+
+00:27:30.000 --> 00:27:31.260
+That's a little bit better.
+
+00:27:31.270 --> 00:27:32.820
+And we're just going to put some text on it.
+
+00:27:32.830 --> 00:27:36.000
+And the text is going to say slide up to unlock.
+
+00:27:36.000 --> 00:27:38.360
+And the text is going to say slide up to unlock.
+
+00:27:38.730 --> 00:27:40.040
+Okay, oops, look at that.
+
+00:27:40.050 --> 00:27:42.000
+I tried to select the text and I
+accidentally selected the circle because
+
+00:27:42.000 --> 00:27:43.420
+I tried to select the text and I
+accidentally selected the circle because
+
+00:27:43.430 --> 00:27:45.400
+the circle is at the very top.
+
+00:27:45.410 --> 00:27:47.640
+So I can select it and then use my hotkey
+
+00:27:47.650 --> 00:27:48.000
+to move it to the bottom.
+
+00:27:48.000 --> 00:27:50.320
+to move it to the bottom.
+
+00:27:50.330 --> 00:27:54.000
+Now I can say slide up to unlock, but we
+
+00:27:54.000 --> 00:27:54.040
+Now I can say slide up to unlock, but we
+
+00:27:54.050 --> 00:27:55.380
+have all sorts of issues.
+
+00:27:55.390 --> 00:27:57.460
+What we really want is for this text to
+
+00:27:57.790 --> 00:27:59.820
+be centered, so I can do that.
+
+00:27:59.830 --> 00:28:00.000
+But then I also want to center it in the
+
+00:28:00.000 --> 00:28:01.700
+But then I also want to center it in the
+
+00:28:01.710 --> 00:28:04.400
+screen, so I'm gonna do that with option H.
+
+00:28:04.410 --> 00:28:06.000
+And then I also want it to be on two lines.
+
+00:28:06.000 --> 00:28:06.960
+And then I also want it to be on two lines.
+
+00:28:06.970 --> 00:28:08.840
+I don't want it to be this wide.
+
+00:28:08.850 --> 00:28:11.180
+So normally if I start to resize, it
+
+00:28:11.190 --> 00:28:12.000
+moves just the right edge, which of
+course removes the centering.
+
+00:28:12.000 --> 00:28:15.560
+moves just the right edge, which of
+course removes the centering.
+
+00:28:15.570 --> 00:28:18.000
+But by holding option, I can resize from
+the center.
+
+00:28:18.000 --> 00:28:19.940
+But by holding option, I can resize from
+the center.
+
+00:28:19.950 --> 00:28:20.920
+And there we go.
+
+00:28:20.930 --> 00:28:22.160
+That looks good.
+
+00:28:22.170 --> 00:28:24.000
+I'll use kind of up arrow there.
+
+00:28:24.000 --> 00:28:24.860
+I'll use kind of up arrow there.
+
+00:28:24.870 --> 00:28:26.480
+That looks good.
+
+00:28:26.490 --> 00:28:27.560
+Slide up to unlock.
+
+00:28:27.570 --> 00:28:30.000
+What could be clearer?
+
+00:28:30.000 --> 00:28:30.700
+What could be clearer?
+
+00:28:30.710 --> 00:28:34.240
+And that's done through this effects
+section on the property panel.
+
+00:28:34.250 --> 00:28:36.000
+So if I click plus, I can choose from
+these four effects, at least for right now.
+
+00:28:36.000 --> 00:28:39.120
+So if I click plus, I can choose from
+these four effects, at least for right now.
+
+00:28:39.130 --> 00:28:42.000
+And drop shadow is just sort of like your
+typical shadow.
+
+00:28:42.000 --> 00:28:42.100
+And drop shadow is just sort of like your
+typical shadow.
+
+00:28:42.110 --> 00:28:46.180
+I can adjust the X value and Y value,
+which is where the shadow appears, as
+
+00:28:46.190 --> 00:28:48.000
+well as the blur, which is kind of how
+big it appears.
+
+00:28:48.000 --> 00:28:49.020
+well as the blur, which is kind of how
+big it appears.
+
+00:28:49.030 --> 00:28:53.680
+So it might be a little bit difficult to
+see, but I can always toggle the visibility.
+
+00:28:53.690 --> 00:28:54.000
+Oh yeah, that's very difficult to see.
+
+00:28:54.000 --> 00:29:00.000
+Oh yeah, that's very difficult to see.
+
+00:29:00.000 --> 00:29:00.250
+Oh yeah, that's very difficult to see.
+
+00:29:00.260 --> 00:29:03.310
+try increasing the opacity of it and then
+
+00:29:03.320 --> 00:29:06.000
+I can toggle the visibility and you can
+see it's subtle but it's there.
+
+00:29:06.000 --> 00:29:08.030
+I can toggle the visibility and you can
+see it's subtle but it's there.
+
+00:29:08.040 --> 00:29:12.000
+Anyhow, we'll cover this a whole lot more
+in the lighting and shadows lesson but I
+
+00:29:12.000 --> 00:29:12.470
+Anyhow, we'll cover this a whole lot more
+in the lighting and shadows lesson but I
+
+00:29:12.480 --> 00:29:16.950
+figured we'd just do it because it does
+come up plenty throughout the rest of the
+
+00:29:16.960 --> 00:29:18.000
+course as well and I'm just gonna make
+this fairly subtle.
+
+00:29:18.000 --> 00:29:24.000
+course as well and I'm just gonna make
+this fairly subtle.
+
+00:29:24.000 --> 00:29:27.910
+course as well and I'm just gonna make
+this fairly subtle.
+
+00:29:27.920 --> 00:29:30.000
+Now the only other thing I want to do
+here is maybe draw a little up arrow just
+
+00:29:30.000 --> 00:29:32.190
+Now the only other thing I want to do
+here is maybe draw a little up arrow just
+
+00:29:32.200 --> 00:29:35.790
+so it's doubly clear that you're supposed
+to drag this thing up, so I'm going to go
+
+00:29:35.800 --> 00:29:36.000
+back to my pen tool, just like I used to
+draw the checkmark.
+
+00:29:36.000 --> 00:29:38.450
+back to my pen tool, just like I used to
+draw the checkmark.
+
+00:29:38.460 --> 00:29:42.000
+I press P, and then I draw one point.
+
+00:29:42.000 --> 00:29:43.030
+I press P, and then I draw one point.
+
+00:29:43.040 --> 00:29:45.790
+Again, it tries to helpfully make it easy
+
+00:29:45.800 --> 00:29:47.230
+for me to draw a vertical line.
+
+00:29:47.240 --> 00:29:48.000
+I can also hold shift just to be sure.
+
+00:29:48.000 --> 00:29:50.070
+I can also hold shift just to be sure.
+
+00:29:50.080 --> 00:29:53.370
+I'm going to start drawing my line there.
+
+00:29:53.380 --> 00:29:54.000
+And you're going to notice that when you
+
+00:29:54.000 --> 00:29:54.490
+And you're going to notice that when you
+
+00:29:54.500 --> 00:29:59.850
+zoom in enough, you actually see where
+each individual pixel is, and that this
+
+00:29:59.860 --> 00:30:00.000
+is not on the pixel lines exactly.
+
+00:30:00.000 --> 00:30:03.510
+is not on the pixel lines exactly.
+
+00:30:03.520 --> 00:30:05.550
+And if you press Ctrl -P, it'll switch
+
+00:30:05.560 --> 00:30:06.000
+into what's called Pixel Preview, and you
+can toggle back and forth between the
+
+00:30:06.000 --> 00:30:09.610
+into what's called Pixel Preview, and you
+can toggle back and forth between the
+
+00:30:09.860 --> 00:30:12.000
+vector version, which zooms in infinitely
+far, and the pixel version, which kind of
+
+00:30:12.000 --> 00:30:14.490
+vector version, which zooms in infinitely
+far, and the pixel version, which kind of
+
+00:30:14.500 --> 00:30:17.050
+shows things pixelated.
+
+00:30:17.060 --> 00:30:18.000
+Now, this is an iPhone, so technically it
+
+00:30:18.000 --> 00:30:19.010
+Now, this is an iPhone, so technically it
+
+00:30:19.020 --> 00:30:20.430
+has very high resolution.
+
+00:30:20.440 --> 00:30:22.030
+I shouldn't need to worry about this a
+
+00:30:22.040 --> 00:30:24.000
+tremendous amount,
+But it's not the worst habit to try and
+
+00:30:24.000 --> 00:30:25.770
+tremendous amount,
+But it's not the worst habit to try and
+
+00:30:25.780 --> 00:30:30.000
+make sure that your vectors that you
+draw, any sort of line or shapes that
+
+00:30:30.000 --> 00:30:31.130
+make sure that your vectors that you
+draw, any sort of line or shapes that
+
+00:30:31.480 --> 00:30:36.000
+you're drawing, tend to line up with the
+pixels themselves.
+
+00:30:36.000 --> 00:30:39.020
+you're drawing, tend to line up with the
+pixels themselves.
+
+00:30:39.030 --> 00:30:42.000
+So if I do that, you can see that there's
+much less blurring of this line across
+
+00:30:42.000 --> 00:30:44.540
+So if I do that, you can see that there's
+much less blurring of this line across
+
+00:30:44.550 --> 00:30:48.000
+pixels, which is called aliasing.
+
+00:30:48.000 --> 00:30:48.400
+pixels, which is called aliasing.
+
+00:30:48.410 --> 00:30:50.660
+Now, I press Enter to go back into Edit
+
+00:30:50.670 --> 00:30:52.620
+mode, and I'm going to select here.
+
+00:30:52.630 --> 00:30:54.000
+You'll see I'm not drawing a point, so if
+
+00:30:54.000 --> 00:30:54.080
+You'll see I'm not drawing a point, so if
+
+00:30:54.090 --> 00:30:56.540
+you ever have a point selected and you're
+not drawing one, It means you just need
+
+00:30:56.550 --> 00:31:00.000
+to press P again, and I'm going to hold
+shift to get a nice 45 degree angle.
+
+00:31:00.000 --> 00:31:01.600
+to press P again, and I'm going to hold
+shift to get a nice 45 degree angle.
+
+00:31:01.610 --> 00:31:03.940
+And this is what's going to help me draw
+my arrow.
+
+00:31:03.950 --> 00:31:06.000
+Now I don't actually want to continue
+drawing from this point.
+
+00:31:06.000 --> 00:31:07.140
+Now I don't actually want to continue
+drawing from this point.
+
+00:31:07.150 --> 00:31:11.120
+I want to draw from here, whoops, click
+back on that point.
+
+00:31:11.130 --> 00:31:12.000
+And now Figma has this helpful feature
+called vector networks, where I don't
+
+00:31:12.000 --> 00:31:14.800
+And now Figma has this helpful feature
+called vector networks, where I don't
+
+00:31:14.810 --> 00:31:18.000
+need to just draw like one shape where
+every point is connected to only two
+
+00:31:18.000 --> 00:31:19.540
+need to just draw like one shape where
+every point is connected to only two
+
+00:31:19.650 --> 00:31:20.980
+other points.
+
+00:31:20.990 --> 00:31:22.640
+Instead, this point is connected to three.
+
+00:31:22.650 --> 00:31:24.000
+And if you know anything about drawing
+vector shapes, that's a little bit unique
+
+00:31:24.000 --> 00:31:26.440
+And if you know anything about drawing
+vector shapes, that's a little bit unique
+
+00:31:26.730 --> 00:31:27.020
+to Figma.
+
+00:31:27.030 --> 00:31:29.240
+It's kind of nice, though.
+
+00:31:29.250 --> 00:31:30.000
+Now, let's see how this looks.
+
+00:31:30.000 --> 00:31:30.820
+Now, let's see how this looks.
+
+00:31:30.830 --> 00:31:35.440
+I zoom out, and of course, I want to
+
+00:31:35.450 --> 00:31:36.000
+press Option H to horizontally center that.
+
+00:31:36.000 --> 00:31:40.280
+press Option H to horizontally center that.
+
+00:31:40.290 --> 00:31:42.000
+And I would say this actually looks a
+
+00:31:42.000 --> 00:31:42.260
+And I would say this actually looks a
+
+00:31:42.270 --> 00:31:44.040
+little bit too thick.
+
+00:31:44.050 --> 00:31:45.640
+Now, I have a couple ways of dealing with
+
+00:31:45.650 --> 00:31:48.000
+that, and we'll talk about this plenty
+throughout the course.
+
+00:31:48.000 --> 00:31:48.820
+that, and we'll talk about this plenty
+throughout the course.
+
+00:31:48.830 --> 00:31:52.860
+The most obvious way is to make it
+thinner, but I can also reduce the
+
+00:31:52.870 --> 00:31:54.000
+opacity, which is sort of a different
+version of making something blend in.
+
+00:31:54.000 --> 00:31:59.080
+opacity, which is sort of a different
+version of making something blend in.
+
+00:31:59.090 --> 00:32:00.000
+So maybe it's at 80 % or whatever, if I
+go to command zero, now it feels like the
+
+00:32:00.000 --> 00:32:05.500
+So maybe it's at 80 % or whatever, if I
+go to command zero, now it feels like the
+
+00:32:05.510 --> 00:32:06.000
+arrow, even though it's a little bit
+thicker than the text, kind of balances
+
+00:32:06.000 --> 00:32:08.260
+arrow, even though it's a little bit
+thicker than the text, kind of balances
+
+00:32:08.270 --> 00:32:12.000
+out with the text, because even though
+it's thicker, it also has a lower opacity.
+
+00:32:12.000 --> 00:32:13.560
+out with the text, because even though
+it's thicker, it also has a lower opacity.
+
+00:32:15.630 --> 00:32:16.240
+Pretty cool.
+
+00:32:16.250 --> 00:32:18.000
+We've already covered so many of the main
+
+00:32:18.000 --> 00:32:18.060
+We've already covered so many of the main
+
+00:32:18.070 --> 00:32:21.320
+tools that you're going to use, but
+probably the most common one that we
+
+00:32:21.330 --> 00:32:24.000
+haven't talked about yet is the line
+tool, which is right here.
+
+00:32:24.000 --> 00:32:25.080
+haven't talked about yet is the line
+tool, which is right here.
+
+00:32:25.090 --> 00:32:28.340
+And if I'm just looking for where I'm
+going to put a line, let me press shift R
+
+00:32:28.350 --> 00:32:30.000
+so I can see my rulers, I'm just going to
+draw a little underline and it's going to
+
+00:32:30.000 --> 00:32:32.340
+so I can see my rulers, I'm just going to
+draw a little underline and it's going to
+
+00:32:32.350 --> 00:32:34.460
+go from ruler to ruler.
+
+00:32:34.470 --> 00:32:36.000
+Look at how much stuff is aligned here.
+
+00:32:36.000 --> 00:32:36.760
+Look at how much stuff is aligned here.
+
+00:32:36.770 --> 00:32:42.000
+So much stuff is either centered or
+aligned with these rulers.
+
+00:32:42.000 --> 00:32:44.510
+So much stuff is either centered or
+aligned with these rulers.
+
+00:32:44.520 --> 00:32:48.000
+And now I can give this a pretty low
+opacity, maybe something like 30%, maybe
+
+00:32:48.000 --> 00:32:49.510
+And now I can give this a pretty low
+opacity, maybe something like 30%, maybe
+
+00:32:49.520 --> 00:32:50.910
+a little bit more, 50.
+
+00:32:50.920 --> 00:32:52.290
+I don't know.
+
+00:32:52.300 --> 00:32:53.930
+I feel like that's not so bad.
+
+00:32:53.940 --> 00:32:54.000
+Now if I did want to move stuff around, I
+
+00:32:54.000 --> 00:32:56.950
+Now if I did want to move stuff around, I
+
+00:32:56.960 --> 00:33:00.000
+could always select these three layers
+and then kind of move them.
+
+00:33:00.000 --> 00:33:00.350
+could always select these three layers
+and then kind of move them.
+
+00:33:00.360 --> 00:33:04.630
+Or one handy thing I can do is press
+Command G, and that takes all the layers
+
+00:33:04.640 --> 00:33:06.000
+I've selected and puts them into a group.
+
+00:33:06.000 --> 00:33:06.470
+I've selected and puts them into a group.
+
+00:33:06.480 --> 00:33:08.230
+The nice thing about groups is you can
+
+00:33:08.240 --> 00:33:11.590
+move them as a group.
+
+00:33:11.600 --> 00:33:12.000
+The less nice thing about groups is if
+
+00:33:12.000 --> 00:33:12.890
+The less nice thing about groups is if
+
+00:33:12.900 --> 00:33:15.610
+you ever try and resize it, you get this stuff.
+
+00:33:15.620 --> 00:33:17.410
+Where your text gets all messed up.
+
+00:33:17.420 --> 00:33:18.000
+Whenever that happens, it means you
+actually don't want to use a group.
+
+00:33:18.000 --> 00:33:20.110
+Whenever that happens, it means you
+actually don't want to use a group.
+
+00:33:20.120 --> 00:33:22.670
+You want to use a frame, and you want to
+use constraints.
+
+00:33:22.680 --> 00:33:24.000
+Let's talk about what that means real quick.
+
+00:33:24.000 --> 00:33:24.770
+Let's talk about what that means real quick.
+
+00:33:24.780 --> 00:33:26.870
+So just as Command -G, turn these things
+
+00:33:26.880 --> 00:33:30.000
+into a group, Shift -Command -G ungroups them.
+
+00:33:30.000 --> 00:33:30.290
+into a group, Shift -Command -G ungroups them.
+
+00:33:30.300 --> 00:33:31.870
+And I'm going to use a special type of
+
+00:33:31.880 --> 00:33:36.000
+group called a frame, just the same sort
+of frame as surrounds this, except it's
+
+00:33:36.000 --> 00:33:36.650
+group called a frame, just the same sort
+of frame as surrounds this, except it's
+
+00:33:36.660 --> 00:33:40.570
+not going to be a whole separate design,
+it's going to be a frame that just has
+
+00:33:40.580 --> 00:33:42.000
+our little status bar right here.
+
+00:33:42.000 --> 00:33:43.150
+our little status bar right here.
+
+00:33:43.160 --> 00:33:48.000
+And to create a frame, I can go right
+
+00:33:48.000 --> 00:33:48.170
+And to create a frame, I can go right
+
+00:33:48.180 --> 00:33:53.350
+here and select this, and then draw it on
+and put these things in.
+
+00:33:53.360 --> 00:33:54.000
+Or what I think is often the easier way
+to do it is just press Option -Command -G.
+
+00:33:54.000 --> 00:33:59.050
+Or what I think is often the easier way
+to do it is just press Option -Command -G.
+
+00:33:59.060 --> 00:34:00.000
+So now these three elements are in their
+own frame.
+
+00:34:00.000 --> 00:34:03.470
+So now these three elements are in their
+own frame.
+
+00:34:03.480 --> 00:34:06.000
+And one thing I can do when something is
+in a frame is I can tell it constraints
+
+00:34:06.000 --> 00:34:07.890
+And one thing I can do when something is
+in a frame is I can tell it constraints
+
+00:34:07.900 --> 00:34:11.070
+for how it should act when there is resizing.
+
+00:34:11.080 --> 00:34:12.000
+So I actually want this January 1st to be
+
+00:34:12.000 --> 00:34:13.510
+So I actually want this January 1st to be
+
+00:34:13.520 --> 00:34:18.000
+anchored to the right hand side so that
+if this resizes, this frame resizes, this
+
+00:34:18.000 --> 00:34:18.990
+anchored to the right hand side so that
+if this resizes, this frame resizes, this
+
+00:34:19.000 --> 00:34:23.690
+will always stay anchored to the left and
+then this will always stay anchored to
+
+00:34:23.700 --> 00:34:24.000
+the right.
+
+00:34:24.000 --> 00:34:24.310
+the right.
+
+00:34:24.320 --> 00:34:27.110
+and then this line, I actually want to go
+
+00:34:27.120 --> 00:34:28.410
+from left to right.
+
+00:34:28.420 --> 00:34:30.000
+So now if my frame resizes, you'll see
+
+00:34:30.000 --> 00:34:30.770
+So now if my frame resizes, you'll see
+
+00:34:30.780 --> 00:34:36.000
+that the line, the little underline below
+always goes from the very left to the
+
+00:34:36.000 --> 00:34:36.310
+that the line, the little underline below
+always goes from the very left to the
+
+00:34:36.320 --> 00:34:42.000
+very right and the Monday, January 1st
+always stays anchored at the very right.
+
+00:34:42.000 --> 00:34:43.310
+very right and the Monday, January 1st
+always stays anchored at the very right.
+
+00:34:43.320 --> 00:34:47.270
+Now, one thing that's very likely to
+happen as you are designing and showing
+
+00:34:47.280 --> 00:34:48.000
+people your designs and creating new
+screens is you have elements that you
+
+00:34:48.000 --> 00:34:51.270
+people your designs and creating new
+screens is you have elements that you
+
+00:34:51.280 --> 00:34:52.990
+want to stay in sync with each other.
+
+00:34:53.000 --> 00:34:54.000
+And if you make a change in one screen,
+
+00:34:54.000 --> 00:34:54.290
+And if you make a change in one screen,
+
+00:34:54.300 --> 00:34:56.890
+and you don't want to have to go change
+it in a million places
+
+00:34:56.940 --> 00:34:57.050
+.
+
+00:34:57.060 --> 00:34:58.890
+In fact, we could even see that within
+
+00:34:58.900 --> 00:35:00.000
+the screen for a to -do item.
+
+00:35:00.000 --> 00:35:00.530
+the screen for a to -do item.
+
+00:35:00.600 --> 00:35:02.830
+Like, for instance, if we decide that we
+
+00:35:02.840 --> 00:35:06.000
+actually want the checkbox to be a little
+bit bigger, then it would be annoying to
+
+00:35:06.000 --> 00:35:06.230
+actually want the checkbox to be a little
+bit bigger, then it would be annoying to
+
+00:35:06.240 --> 00:35:07.910
+have to go and update all four of these.
+
+00:35:07.920 --> 00:35:09.410
+Or if we want the text to be a little bit
+
+00:35:09.420 --> 00:35:12.000
+more to the right, it would be annoying
+to go update all four of these.
+
+00:35:12.000 --> 00:35:13.270
+more to the right, it would be annoying
+to go update all four of these.
+
+00:35:13.280 --> 00:35:18.000
+So Figma very helpfully provides a way
+for us to do this, and it's called components.
+
+00:35:18.000 --> 00:35:18.570
+So Figma very helpfully provides a way
+for us to do this, and it's called components.
+
+00:35:18.580 --> 00:35:22.010
+So to create a component, I'm just going
+to duplicate all these layers at once and
+
+00:35:22.020 --> 00:35:24.000
+bring them down here.
+
+00:35:24.000 --> 00:35:24.270
+bring them down here.
+
+00:35:24.280 --> 00:35:26.030
+And then I'm going to make a component
+
+00:35:26.280 --> 00:35:30.000
+out of them, which I can do here, or you
+can see the hotkey option command K.
+
+00:35:30.000 --> 00:35:30.430
+out of them, which I can do here, or you
+can see the hotkey option command K.
+
+00:35:30.440 --> 00:35:32.730
+That's like what I'm doing all the time.
+
+00:35:32.980 --> 00:35:34.470
+Now, this component, you'll notice, this
+
+00:35:34.480 --> 00:35:35.770
+is actually the parent component.
+
+00:35:35.780 --> 00:35:36.000
+It's sort of like the master that all the
+
+00:35:36.000 --> 00:35:38.250
+It's sort of like the master that all the
+
+00:35:38.260 --> 00:35:40.710
+little children components pay attention to.
+
+00:35:40.720 --> 00:35:42.000
+So it has four diamonds.
+
+00:35:42.000 --> 00:35:42.610
+So it has four diamonds.
+
+00:35:42.740 --> 00:35:43.230
+They're filled in.
+
+00:35:43.240 --> 00:35:44.410
+Again, that means it's the parent.
+
+00:35:44.420 --> 00:35:45.710
+We'll get to that in a sec.
+
+00:35:45.720 --> 00:35:47.950
+I'm going to rename it using command -R
+
+00:35:47.960 --> 00:35:48.000
+and I'm just going to say to do item.
+
+00:35:48.000 --> 00:35:52.550
+and I'm just going to say to do item.
+
+00:35:52.560 --> 00:35:54.000
+Now when I press option and click and
+
+00:35:54.000 --> 00:35:55.270
+Now when I press option and click and
+
+00:35:55.280 --> 00:35:59.310
+drag and with a shift, and I create a
+second component, I'll put a little space
+
+00:35:59.320 --> 00:36:00.000
+between them here actually so we can see them.
+
+00:36:00.000 --> 00:36:03.290
+between them here actually so we can see them.
+
+00:36:03.300 --> 00:36:06.000
+Now what I can do is update just the
+
+00:36:06.000 --> 00:36:06.070
+Now what I can do is update just the
+
+00:36:06.080 --> 00:36:08.470
+parent and the child updates instantaneously.
+
+00:36:08.480 --> 00:36:11.810
+And this would happen even if this
+
+00:36:11.820 --> 00:36:12.000
+component was on a different page, on a
+different frame, even in a different file.
+
+00:36:12.000 --> 00:36:17.370
+component was on a different page, on a
+different frame, even in a different file.
+
+00:36:17.380 --> 00:36:18.000
+It's worth pointing out, though, that
+updating the parent does update the children.
+
+00:36:18.000 --> 00:36:22.150
+It's worth pointing out, though, that
+updating the parent does update the children.
+
+00:36:22.160 --> 00:36:24.000
+Updating the child does not update the parent.
+
+00:36:24.000 --> 00:36:24.230
+Updating the child does not update the parent.
+
+00:36:24.240 --> 00:36:27.190
+So if I say call Bob, just that child
+
+00:36:27.200 --> 00:36:28.710
+stays how it is.
+
+00:36:28.720 --> 00:36:30.000
+It's only when I update the parent that
+
+00:36:30.000 --> 00:36:31.310
+It's only when I update the parent that
+
+00:36:31.320 --> 00:36:34.890
+things start getting updated everywhere.
+
+00:36:34.900 --> 00:36:36.000
+So creating this component is nice
+
+00:36:36.000 --> 00:36:36.930
+So creating this component is nice
+
+00:36:36.940 --> 00:36:41.170
+because now these three can stay in sync,
+but I actually have a different styling
+
+00:36:41.180 --> 00:36:42.000
+here for this fourth item, because it's
+already done.
+
+00:36:42.000 --> 00:36:44.050
+here for this fourth item, because it's
+already done.
+
+00:36:44.060 --> 00:36:47.570
+And so what I'm going to do is actually
+create a different state of the component.
+
+00:36:47.580 --> 00:36:48.000
+And this is where things get a little bit fancier.
+
+00:36:48.000 --> 00:36:50.190
+And this is where things get a little bit fancier.
+
+00:36:50.200 --> 00:36:51.890
+I'm going to drag my component off to the
+
+00:36:51.900 --> 00:36:54.000
+side of the screen here, because now I'm
+treating this component as something
+
+00:36:54.000 --> 00:36:57.050
+side of the screen here, because now I'm
+treating this component as something
+
+00:36:57.060 --> 00:37:00.000
+where the parent version is in its own
+special place, and on the designs
+
+00:37:00.000 --> 00:37:01.690
+where the parent version is in its own
+special place, and on the designs
+
+00:37:01.700 --> 00:37:04.670
+themselves will only be child versions.
+
+00:37:04.680 --> 00:37:06.000
+So I'm going to create what's called a
+
+00:37:06.000 --> 00:37:06.110
+So I'm going to create what's called a
+
+00:37:06.120 --> 00:37:09.570
+variant of this component, which means
+it's going to have some styling changes.
+
+00:37:09.580 --> 00:37:12.000
+It's going to be the styling changes that
+allow us to have this text crossed off
+
+00:37:12.000 --> 00:37:13.570
+It's going to be the styling changes that
+allow us to have this text crossed off
+
+00:37:13.580 --> 00:37:18.000
+and a lower opacity here.
+
+00:37:18.000 --> 00:37:20.430
+and a lower opacity here.
+
+00:37:20.440 --> 00:37:22.770
+And then Figma will allow us to very
+
+00:37:22.780 --> 00:37:24.000
+easily say which of the two component
+variants we want to use throughout.
+
+00:37:24.000 --> 00:37:26.650
+easily say which of the two component
+variants we want to use throughout.
+
+00:37:26.660 --> 00:37:30.000
+So if I go here, I need to go to
+properties and add one.
+
+00:37:30.000 --> 00:37:30.450
+So if I go here, I need to go to
+properties and add one.
+
+00:37:30.460 --> 00:37:31.550
+I'm going to add a variant.
+
+00:37:31.560 --> 00:37:33.110
+You don't need to worry about the other
+
+00:37:33.120 --> 00:37:34.790
+ones right now.
+
+00:37:34.800 --> 00:37:36.000
+And so I'd say the property will be
+
+00:37:36.000 --> 00:37:37.890
+And so I'd say the property will be
+
+00:37:37.900 --> 00:37:42.000
+called a complete and there's really two
+States that it might be in false and true.
+
+00:37:42.000 --> 00:37:48.000
+called a complete and there's really two
+States that it might be in false and true.
+
+00:37:48.000 --> 00:37:51.080
+called a complete and there's really two
+States that it might be in false and true.
+
+00:37:51.090 --> 00:37:53.140
+So I've got one variant here.
+
+00:37:53.150 --> 00:37:54.000
+I'm going to press plus, which makes the
+
+00:37:54.000 --> 00:37:54.840
+I'm going to press plus, which makes the
+
+00:37:54.850 --> 00:37:55.640
+second one and complete.
+
+00:37:55.650 --> 00:37:58.200
+I'm going to type true, and then I'm
+
+00:37:58.210 --> 00:38:00.000
+going to go make the styling changes here
+that show that this thing is complete,
+
+00:38:00.000 --> 00:38:03.540
+going to go make the styling changes here
+that show that this thing is complete,
+
+00:38:03.550 --> 00:38:06.000
+which for now was 80 % opacity and with
+this text making it struck through.
+
+00:38:06.000 --> 00:38:12.000
+which for now was 80 % opacity and with
+this text making it struck through.
+
+00:38:12.000 --> 00:38:16.320
+which for now was 80 % opacity and with
+this text making it struck through.
+
+00:38:16.330 --> 00:38:18.000
+Now what I can do is whenever I have a
+component here, a child component, I
+
+00:38:18.000 --> 00:38:21.920
+Now what I can do is whenever I have a
+component here, a child component, I
+
+00:38:21.930 --> 00:38:24.000
+create a new version and I see this
+property right here that says complete
+
+00:38:24.000 --> 00:38:25.320
+create a new version and I see this
+property right here that says complete
+
+00:38:25.330 --> 00:38:28.960
+and whenever I say yes, it changes the
+styling to match.
+
+00:38:28.970 --> 00:38:30.000
+And again, if I change these two in any
+way, it'll update right here.
+
+00:38:30.000 --> 00:38:33.500
+And again, if I change these two in any
+way, it'll update right here.
+
+00:38:33.510 --> 00:38:36.000
+Now, the only other thing I need to do to
+finish this up is add in a layer to my
+
+00:38:36.000 --> 00:38:42.000
+Now, the only other thing I need to do to
+finish this up is add in a layer to my
+
+00:38:42.000 --> 00:38:42.720
+Now, the only other thing I need to do to
+finish this up is add in a layer to my
+
+00:38:42.730 --> 00:38:47.580
+component, this, and it has 80 % and it
+appears here.
+
+00:38:47.590 --> 00:38:48.000
+So everything is perfect.
+
+00:38:48.000 --> 00:38:50.040
+So everything is perfect.
+
+00:38:50.050 --> 00:38:54.000
+Now, I'll just spiff this up real quick.
+
+00:38:54.000 --> 00:38:54.440
+Now, I'll just spiff this up real quick.
+
+00:38:54.450 --> 00:38:58.280
+Now, I want to spiff this up real quick,
+but I'm kind of running into this issue,
+
+00:38:58.290 --> 00:39:00.000
+which is I need to move this one down
+some amount, and I need to put in two in
+
+00:39:00.000 --> 00:39:02.600
+which is I need to move this one down
+some amount, and I need to put in two in
+
+00:39:02.610 --> 00:39:06.000
+between them, so that there's the call
+Alice and gift for Carol.
+
+00:39:06.000 --> 00:39:08.460
+between them, so that there's the call
+Alice and gift for Carol.
+
+00:39:08.470 --> 00:39:12.000
+So because I want to work with these
+items as a list that always has
+
+00:39:12.000 --> 00:39:12.640
+So because I want to work with these
+items as a list that always has
+
+00:39:12.650 --> 00:39:17.140
+consistent spacing, I'm going to use a
+Figma feature called auto complete.
+
+00:39:17.150 --> 00:39:18.000
+I'm going to use a Figma feature called
+auto layout.
+
+00:39:18.000 --> 00:39:20.160
+I'm going to use a Figma feature called
+auto layout.
+
+00:39:20.170 --> 00:39:24.000
+So to create an auto layout, just select
+multiple items and you have this auto
+
+00:39:24.000 --> 00:39:24.920
+So to create an auto layout, just select
+multiple items and you have this auto
+
+00:39:24.930 --> 00:39:25.980
+layout thing right here.
+
+00:39:25.990 --> 00:39:28.860
+I can press plus, the hotkey is shift A,
+
+00:39:28.870 --> 00:39:30.000
+and that's what I'm going to do much more often.
+
+00:39:30.000 --> 00:39:31.100
+and that's what I'm going to do much more often.
+
+00:39:31.110 --> 00:39:33.400
+And when I've created an auto layout
+
+00:39:33.410 --> 00:39:36.000
+here, it's sort of like a parent frame
+where it's going to just adjust the
+
+00:39:36.000 --> 00:39:40.020
+here, it's sort of like a parent frame
+where it's going to just adjust the
+
+00:39:40.030 --> 00:39:40.720
+spacing automatically for me.
+
+00:39:40.730 --> 00:39:42.000
+So I'll just say, this is the to do list layer.
+
+00:39:42.000 --> 00:39:44.220
+So I'll just say, this is the to do list layer.
+
+00:39:44.230 --> 00:39:48.000
+And then if I select the call Bob item, I
+can press command D and it's going to
+
+00:39:48.000 --> 00:39:49.460
+And then if I select the call Bob item, I
+can press command D and it's going to
+
+00:39:49.470 --> 00:39:53.080
+duplicate it in this list and it's going
+to push down visit Dave just as much as
+
+00:39:53.090 --> 00:39:54.000
+it needs to be pushed down
+.
+
+00:39:54.000 --> 00:39:55.680
+it needs to be pushed down
+.
+
+00:39:55.690 --> 00:40:00.000
+So now, this one can be call Alice, this
+one can be email Bob, and again, if I
+
+00:40:00.000 --> 00:40:04.340
+So now, this one can be call Alice, this
+one can be email Bob, and again, if I
+
+00:40:05.670 --> 00:40:06.000
+just press command D, then this one can
+be gift for Carol.
+
+00:40:06.000 --> 00:40:11.420
+just press command D, then this one can
+be gift for Carol.
+
+00:40:11.430 --> 00:40:12.000
+Now, I can remove all of these items.
+
+00:40:12.000 --> 00:40:12.880
+Now, I can remove all of these items.
+
+00:40:12.890 --> 00:40:14.880
+I don't need them anymore.
+
+00:40:14.890 --> 00:40:18.000
+And I can just bring my auto layout list
+up here.
+
+00:40:18.000 --> 00:40:23.910
+And I can just bring my auto layout list
+up here.
+
+00:40:23.920 --> 00:40:24.000
+Now, just a couple of things that changed.
+
+00:40:24.000 --> 00:40:25.850
+Now, just a couple of things that changed.
+
+00:40:25.860 --> 00:40:28.390
+One is with auto layouts because the
+
+00:40:28.400 --> 00:40:30.000
+initial items had three pixels of spacing.
+
+00:40:30.000 --> 00:40:30.410
+initial items had three pixels of spacing.
+
+00:40:30.420 --> 00:40:32.630
+It just assumed that's what I want.
+
+00:40:32.640 --> 00:40:35.990
+I actually initially had zero pixels of
+spacing, so let's set that.
+
+00:40:36.000 --> 00:40:38.830
+And then I did have different backgrounds.
+
+00:40:38.840 --> 00:40:41.450
+So now the background is actually doubly
+
+00:40:41.460 --> 00:40:42.000
+nested in the auto layout in the component.
+
+00:40:42.000 --> 00:40:44.070
+nested in the auto layout in the component.
+
+00:40:44.080 --> 00:40:46.270
+To select a background layer directly, I
+
+00:40:46.280 --> 00:40:48.000
+can just hold down Command and click.
+
+00:40:48.000 --> 00:40:48.330
+can just hold down Command and click.
+
+00:40:48.340 --> 00:40:51.890
+And now I can see this has an opacity of 20%.
+
+00:40:51.900 --> 00:40:54.000
+And this one, I'm going to re -add as
+40%, this one as 60, and this one as 80.
+
+00:40:54.000 --> 00:40:58.970
+And this one, I'm going to re -add as
+40%, this one as 60, and this one as 80.
+
+00:40:58.980 --> 00:41:00.000
+And unfortunately, that's not something
+that Figma knows how to automatically
+
+00:41:00.000 --> 00:41:02.130
+And unfortunately, that's not something
+that Figma knows how to automatically
+
+00:41:02.140 --> 00:41:05.010
+update based on the number of items in
+the list.
+
+00:41:05.020 --> 00:41:06.000
+So that still has to be done manually,
+but fair enough, I've still made things
+
+00:41:06.000 --> 00:41:08.870
+So that still has to be done manually,
+but fair enough, I've still made things
+
+00:41:08.880 --> 00:41:10.850
+easier with the auto layout.
+
+00:41:10.860 --> 00:41:12.000
+And fun fact about auto layouts, they can
+
+00:41:12.000 --> 00:41:13.090
+And fun fact about auto layouts, they can
+
+00:41:13.100 --> 00:41:13.390
+be nested.
+
+00:41:13.400 --> 00:41:15.410
+So I could even select all three of these
+
+00:41:15.420 --> 00:41:18.000
+things, press Shift -A again, and Figma
+is going to guess that I want, you know,
+
+00:41:18.000 --> 00:41:19.530
+things, press Shift -A again, and Figma
+is going to guess that I want, you know,
+
+00:41:19.540 --> 00:41:21.370
+on average, 55 pixels of space between them.
+
+00:41:21.380 --> 00:41:23.710
+And then I can really quickly choose, do
+
+00:41:23.720 --> 00:41:24.000
+I want more than that?
+
+00:41:24.000 --> 00:41:25.430
+I want more than that?
+
+00:41:28.120 --> 00:41:28.410
+Less?
+
+00:41:28.420 --> 00:41:29.110
+What's the deal?
+
+00:41:29.120 --> 00:41:30.000
+But it's worth mentioning that the most
+
+00:41:30.000 --> 00:41:32.770
+But it's worth mentioning that the most
+
+00:41:32.780 --> 00:41:36.000
+classic use of an auto layout is actually
+for creating a button.
+
+00:41:36.000 --> 00:41:36.650
+classic use of an auto layout is actually
+for creating a button.
+
+00:41:36.660 --> 00:41:41.650
+And this isn't something that's really
+necessary for this design, but I'll show
+
+00:41:41.660 --> 00:41:42.000
+you anyways, if I create a rectangle and
+a text box, and the text box is
+
+00:41:42.000 --> 00:41:47.330
+you anyways, if I create a rectangle and
+a text box, and the text box is
+
+00:41:47.340 --> 00:41:48.000
+completely surrounded by the rectangle, I
+can press shift a and get a nice little
+
+00:41:48.000 --> 00:41:51.590
+completely surrounded by the rectangle, I
+can press shift a and get a nice little
+
+00:41:51.700 --> 00:41:54.000
+button style right there, and then I can
+go and, you know, change that rectangle
+
+00:41:54.000 --> 00:41:55.790
+button style right there, and then I can
+go and, you know, change that rectangle
+
+00:41:55.800 --> 00:41:59.950
+exactly how I would maybe give it four
+pixels of border radius to be consistent
+
+00:41:59.960 --> 00:42:00.000
+with the checkbox, maybe
+give it a white background to be
+
+00:42:00.000 --> 00:42:03.930
+with the checkbox, maybe
+give it a white background to be
+
+00:42:03.940 --> 00:42:06.000
+consistent with some of the other stuff
+and less opacity.
+
+00:42:06.000 --> 00:42:10.330
+consistent with some of the other stuff
+and less opacity.
+
+00:42:10.340 --> 00:42:11.530
+Oops, here's what's happening.
+
+00:42:11.540 --> 00:42:12.000
+I'm changing the layer opacity.
+
+00:42:12.000 --> 00:42:13.710
+I'm changing the layer opacity.
+
+00:42:13.720 --> 00:42:16.010
+And so it's changing the text as part of it.
+
+00:42:16.020 --> 00:42:18.000
+I actually want to change the fill
+
+00:42:18.000 --> 00:42:19.330
+I actually want to change the fill
+
+00:42:19.980 --> 00:42:20.750
+opacity, something like this.
+
+00:42:20.760 --> 00:42:23.230
+And with my auto layout, I have the
+
+00:42:23.240 --> 00:42:24.000
+ability to update the horizontal padding,
+that's the space around the sides, as
+
+00:42:24.000 --> 00:42:26.890
+ability to update the horizontal padding,
+that's the space around the sides, as
+
+00:42:27.600 --> 00:42:29.150
+well as the vertical, and so on.
+
+00:42:29.160 --> 00:42:30.000
+And so if I wanted this to look more like
+
+00:42:30.000 --> 00:42:31.770
+And so if I wanted this to look more like
+
+00:42:31.780 --> 00:42:35.350
+a button, I could do that, but I'm
+actually going to keep the circle for now.
+
+00:42:35.360 --> 00:42:36.000
+It's just worth knowing that auto layout
+is a very quick way to create buttons, in
+
+00:42:36.000 --> 00:42:39.770
+It's just worth knowing that auto layout
+is a very quick way to create buttons, in
+
+00:42:39.780 --> 00:42:42.000
+addition to helping with the formatting
+of lists.
+
+00:42:42.000 --> 00:42:45.940
+addition to helping with the formatting
+of lists.
+
+00:42:45.950 --> 00:42:48.000
+Now, this design is looking pretty good,
+so maybe I might want to just kind of
+
+00:42:48.000 --> 00:42:50.580
+Now, this design is looking pretty good,
+so maybe I might want to just kind of
+
+00:42:50.590 --> 00:42:51.140
+double -check that.
+
+00:42:51.210 --> 00:42:52.960
+One thing I'll do, especially if I'm
+
+00:42:52.970 --> 00:42:54.000
+designing a larger desktop screen, is I
+will do Command -Shift -Backslash, and
+
+00:42:54.000 --> 00:42:57.920
+designing a larger desktop screen, is I
+will do Command -Shift -Backslash, and
+
+00:42:57.930 --> 00:43:00.000
+that'll hide the layer list, and Command
+-Backslash hides all the other UI.
+
+00:43:00.000 --> 00:43:01.840
+that'll hide the layer list, and Command
+-Backslash hides all the other UI.
+
+00:43:01.850 --> 00:43:06.000
+This gives me a little bit more space to
+just make sure my design looks exactly as
+
+00:43:06.000 --> 00:43:09.830
+This gives me a little bit more space to
+just make sure my design looks exactly as
+
+00:43:09.840 --> 00:43:10.050
+I've intended.
+
+00:43:10.060 --> 00:43:12.000
+Like I said, I always do Shift -2, Shift
+
+00:43:12.000 --> 00:43:12.170
+Like I said, I always do Shift -2, Shift
+
+00:43:12.180 --> 00:43:14.030
+-0, to view at 100%.
+
+00:43:14.040 --> 00:43:15.550
+And that's very important if you're
+
+00:43:15.560 --> 00:43:18.000
+designing a desktop app on your desktop.
+
+00:43:18.000 --> 00:43:18.290
+designing a desktop app on your desktop.
+
+00:43:18.420 --> 00:43:20.530
+But for mobile app, what's even more
+
+00:43:20.540 --> 00:43:24.000
+important is actually using the Figma
+mobile app and just bringing up the
+
+00:43:24.000 --> 00:43:28.310
+important is actually using the Figma
+mobile app and just bringing up the
+
+00:43:30.320 --> 00:43:31.270
+design on your phone.
+
+00:43:31.280 --> 00:43:32.530
+So that's not something that's easy to
+
+00:43:32.860 --> 00:43:33.350
+put in this video.
+
+00:43:33.360 --> 00:43:35.790
+So I'll show you one of the next best
+
+00:43:35.800 --> 00:43:36.000
+things, which is to just go to this
+little play button here, present, and
+
+00:43:36.000 --> 00:43:38.990
+things, which is to just go to this
+little play button here, present, and
+
+00:43:39.000 --> 00:43:42.000
+that's going to bring up a one screen prototype.
+
+00:43:42.000 --> 00:43:42.230
+that's going to bring up a one screen prototype.
+
+00:43:42.240 --> 00:43:45.990
+But it's going to show our design in the
+
+00:43:46.000 --> 00:43:48.000
+little outline of a phone, which just
+kind of gives you a sense of how it appears.
+
+00:43:48.000 --> 00:43:50.430
+little outline of a phone, which just
+kind of gives you a sense of how it appears.
+
+00:43:50.440 --> 00:43:54.000
+And this is useful because I can see that
+this little bar right here means, man,
+
+00:43:54.000 --> 00:43:54.630
+And this is useful because I can see that
+this little bar right here means, man,
+
+00:43:54.640 --> 00:44:00.000
+maybe I should push my status bar down
+just a tad, right?
+
+00:44:00.000 --> 00:44:00.990
+maybe I should push my status bar down
+just a tad, right?
+
+00:44:01.000 --> 00:44:04.310
+And oops, because it's an auto layout,
+that's actually much harder.
+
+00:44:04.320 --> 00:44:06.000
+So what I'm going to do is remove the
+auto layout with Command -Shift -G.
+
+00:44:06.000 --> 00:44:09.990
+So what I'm going to do is remove the
+auto layout with Command -Shift -G.
+
+00:44:10.000 --> 00:44:11.810
+That's ungrouping all sorts of parent elements.
+
+00:44:11.820 --> 00:44:12.000
+And I'll just move that down a touch.
+
+00:44:12.000 --> 00:44:14.130
+And I'll just move that down a touch.
+
+00:44:14.140 --> 00:44:17.370
+And this thing should update instantaneously.
+
+00:44:17.380 --> 00:44:18.000
+So I have the ability to update and then
+
+00:44:18.000 --> 00:44:20.250
+So I have the ability to update and then
+
+00:44:20.260 --> 00:44:20.610
+view here.
+
+00:44:20.620 --> 00:44:22.550
+And as we'll cover in a future lesson,
+
+00:44:22.560 --> 00:44:24.000
+you can even set things such that if you
+click, they interact and they can go
+
+00:44:24.000 --> 00:44:26.690
+you can even set things such that if you
+click, they interact and they can go
+
+00:44:26.700 --> 00:44:30.000
+between screens as part of this presented prototype.
+
+00:44:30.000 --> 00:44:35.360
+between screens as part of this presented prototype.
+
+00:44:35.370 --> 00:44:36.000
+But if you have a design that you're
+
+00:44:36.000 --> 00:44:37.140
+But if you have a design that you're
+
+00:44:37.150 --> 00:44:39.560
+happy with, Then the question is now what?
+
+00:44:39.570 --> 00:44:41.600
+And the most common thing that I find
+
+00:44:41.610 --> 00:44:42.000
+myself doing is going to share and then
+going to copy link here.
+
+00:44:42.000 --> 00:44:46.060
+myself doing is going to share and then
+going to copy link here.
+
+00:44:46.070 --> 00:44:48.000
+Now, if you do that, you want to make
+sure that anyone with the link can at
+
+00:44:48.000 --> 00:44:49.160
+Now, if you do that, you want to make
+sure that anyone with the link can at
+
+00:44:49.170 --> 00:44:49.320
+least view.
+
+00:44:49.330 --> 00:44:51.300
+They don't have to be an editor or else
+
+00:44:51.310 --> 00:44:54.000
+Figma might start charging you, but you
+want to make sure that everyone with the
+
+00:44:54.000 --> 00:44:54.900
+Figma might start charging you, but you
+want to make sure that everyone with the
+
+00:44:54.910 --> 00:44:56.360
+link can view.
+
+00:44:56.370 --> 00:44:59.020
+It's also fairly easy to do that just by
+
+00:44:59.030 --> 00:45:00.000
+pressing command L and that's going to
+copy the page if you don't have anything selected.
+
+00:45:00.000 --> 00:45:03.140
+pressing command L and that's going to
+copy the page if you don't have anything selected.
+
+00:45:03.150 --> 00:45:06.000
+But I also like if I'm trying to direct a
+client to a specific part of the design,
+
+00:45:06.000 --> 00:45:09.200
+But I also like if I'm trying to direct a
+client to a specific part of the design,
+
+00:45:09.210 --> 00:45:12.000
+select that frame and then press command
+L and it says frame link copied to Clipboard.
+
+00:45:12.000 --> 00:45:13.620
+select that frame and then press command
+L and it says frame link copied to Clipboard.
+
+00:45:13.630 --> 00:45:17.500
+So they'll open that up and their browser
+will be centered exactly on this design.
+
+00:45:17.510 --> 00:45:18.000
+They won't even have to log in or anything.
+
+00:45:18.000 --> 00:45:19.960
+They won't even have to log in or anything.
+
+00:45:19.970 --> 00:45:21.240
+They won't have to download the app, they
+
+00:45:21.250 --> 00:45:24.000
+won't have to do anything fancy, they'll
+just see your design and then they'll be
+
+00:45:24.000 --> 00:45:25.780
+won't have to do anything fancy, they'll
+just see your design and then they'll be
+
+00:45:25.890 --> 00:45:29.900
+able to use comments, which you can
+access by clicking here or pressing C and
+
+00:45:29.910 --> 00:45:30.000
+they'll be able to say, Hey, it's not
+January or whatever feedback they need to
+
+00:45:30.000 --> 00:45:36.000
+they'll be able to say, Hey, it's not
+January or whatever feedback they need to
+
+00:45:36.000 --> 00:45:42.000
+they'll be able to say, Hey, it's not
+January or whatever feedback they need to
+
+00:45:42.000 --> 00:45:44.280
+they'll be able to say, Hey, it's not
+January or whatever feedback they need to
+
+00:45:44.290 --> 00:45:45.320
+give you.
+
+00:45:45.330 --> 00:45:47.400
+Now, the other thing that you will most
+
+00:45:47.410 --> 00:45:48.000
+often do to kind of finish up a design is
+export it in some way or another.
+
+00:45:48.000 --> 00:45:51.400
+often do to kind of finish up a design is
+export it in some way or another.
+
+00:45:51.410 --> 00:45:54.000
+And this can work in a couple different
+ways because you can choose different
+
+00:45:54.000 --> 00:45:55.060
+And this can work in a couple different
+ways because you can choose different
+
+00:45:55.070 --> 00:45:58.540
+sizes and you can also choose different
+file formats.
+
+00:45:58.550 --> 00:46:00.000
+Now, the file formats are probably the
+easiest to talk about.
+
+00:46:00.000 --> 00:46:01.240
+Now, the file formats are probably the
+easiest to talk about.
+
+00:46:01.250 --> 00:46:05.200
+A PNG is the most common way to export a design.
+
+00:46:05.210 --> 00:46:06.000
+You could do JPEG too.
+
+00:46:06.000 --> 00:46:07.060
+You could do JPEG too.
+
+00:46:07.070 --> 00:46:10.740
+It's sometimes a smaller file size, but
+it's also sometimes a little bit blurrier
+
+00:46:10.750 --> 00:46:12.000
+and not quite as crisp.
+
+00:46:12.000 --> 00:46:12.720
+and not quite as crisp.
+
+00:46:12.730 --> 00:46:15.980
+So PNG is really usually fine for a design.
+
+00:46:15.990 --> 00:46:18.000
+If you're exporting an icon or a logo or
+something vector where someone can
+
+00:46:18.000 --> 00:46:21.360
+If you're exporting an icon or a logo or
+something vector where someone can
+
+00:46:21.370 --> 00:46:24.000
+scroll, where someone can zoom as far as
+they want in on it and it doesn't get
+
+00:46:24.000 --> 00:46:25.840
+scroll, where someone can zoom as far as
+they want in on it and it doesn't get
+
+00:46:25.850 --> 00:46:29.160
+blurry, then you almost certainly want to
+be exporting an SVG.
+
+00:46:29.170 --> 00:46:30.000
+And so if you choose SVG, the sizing
+becomes irrelevant because it's scalable.
+
+00:46:30.000 --> 00:46:34.220
+And so if you choose SVG, the sizing
+becomes irrelevant because it's scalable.
+
+00:46:34.230 --> 00:46:36.000
+It can be zoomed in on as much as you want.
+
+00:46:36.000 --> 00:46:42.000
+It can be zoomed in on as much as you want.
+
+00:46:42.000 --> 00:46:42.760
+It can be zoomed in on as much as you want.
+
+00:46:42.770 --> 00:46:44.280
+The fourth option is PDF.
+
+00:46:44.290 --> 00:46:48.000
+And that's really only for if you're,
+let's say, creating a poster or a slide
+
+00:46:48.000 --> 00:46:48.220
+And that's really only for if you're,
+let's say, creating a poster or a slide
+
+00:46:48.230 --> 00:46:51.240
+deck or something like that, which I've
+done, but it's not really something we're
+
+00:46:51.250 --> 00:46:54.000
+going to worry about directly in this course.
+
+00:46:54.000 --> 00:46:57.230
+going to worry about directly in this course.
+
+00:46:57.240 --> 00:47:00.000
+Now, as far as the sizing options go
+
+00:47:00.000 --> 00:47:00.530
+Now, as far as the sizing options go
+
+00:47:00.540 --> 00:47:03.790
+here, 1x is the most common one that you
+want to do.
+
+00:47:03.800 --> 00:47:06.000
+It means that the image, when I'm at a
+hundred percent zoom, it means that image
+
+00:47:06.000 --> 00:47:07.890
+It means that the image, when I'm at a
+hundred percent zoom, it means that image
+
+00:47:07.900 --> 00:47:10.550
+that it exports will be this size by default.
+
+00:47:10.560 --> 00:47:12.000
+If I do two X, then the image will
+
+00:47:12.000 --> 00:47:12.630
+If I do two X, then the image will
+
+00:47:12.640 --> 00:47:13.710
+actually be twice as large.
+
+00:47:13.720 --> 00:47:17.630
+And so someone will need to zoom to 50 %
+
+00:47:17.640 --> 00:47:18.000
+opacity, so someone will need to zoom to
+50 % zoom to see it as you intended.
+
+00:47:18.000 --> 00:47:24.000
+opacity, so someone will need to zoom to
+50 % zoom to see it as you intended.
+
+00:47:24.000 --> 00:47:25.470
+opacity, so someone will need to zoom to
+50 % zoom to see it as you intended.
+
+00:47:25.480 --> 00:47:30.000
+If you're posting an image on the student
+community, please export at one X and
+
+00:47:30.000 --> 00:47:30.030
+If you're posting an image on the student
+community, please export at one X and
+
+00:47:30.040 --> 00:47:34.380
+generally, I think that's the best size
+to send to someone.
+
+00:47:34.390 --> 00:47:36.000
+All right, folks, and that wraps it up
+for an introduction to Figma.
+
+00:47:36.000 --> 00:47:37.440
+All right, folks, and that wraps it up
+for an introduction to Figma.
+
+00:47:37.450 --> 00:47:42.000
+So if you want more information on the
+app, take a look at the resources below.
+
+00:47:42.000 --> 00:47:42.240
+So if you want more information on the
+app, take a look at the resources below.
+
+00:47:42.430 --> 00:47:44.380
+But other than that, there's no homework,
+and we'll see you in the next video.
+

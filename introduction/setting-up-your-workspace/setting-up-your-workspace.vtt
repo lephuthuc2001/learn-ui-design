@@ -1,0 +1,2168 @@
+WEBVTT
+
+00:00:00.680 --> 00:00:02.440
+- Hey folks and welcome to the lesson
+
+00:00:02.440 --> 00:00:03.960
+on setting up your workspace
+
+00:00:03.960 --> 00:00:06.000
+for rapid user interface design.
+
+00:00:06.000 --> 00:00:06.760
+for rapid user interface design.
+
+00:00:06.760 --> 00:00:08.700
+In this lesson, what I'm
+gonna talk to you about
+
+00:00:08.700 --> 00:00:11.030
+is how I would set up my computer
+
+00:00:11.030 --> 00:00:12.000
+if I had just sat down in the new computer
+
+00:00:12.000 --> 00:00:13.690
+if I had just sat down in the new computer
+
+00:00:13.690 --> 00:00:16.430
+and knew I was gonna be doing
+a lot of design work there.
+
+00:00:16.430 --> 00:00:18.000
+And so it's just kind
+of the little tweaks,
+
+00:00:18.000 --> 00:00:18.970
+And so it's just kind
+of the little tweaks,
+
+00:00:18.970 --> 00:00:22.960
+and settings modifications, and
+extensions I would download,
+
+00:00:22.960 --> 00:00:24.000
+and that sort of stuff just to make
+
+00:00:24.000 --> 00:00:24.510
+and that sort of stuff just to make
+
+00:00:24.510 --> 00:00:27.040
+the rest of the design
+work more efficient.
+
+00:00:27.040 --> 00:00:29.910
+Now one warning before we get
+started is a lot of designers
+
+00:00:29.910 --> 00:00:30.000
+love to just really noodle on
+the details of tool chains,
+
+00:00:30.000 --> 00:00:34.570
+love to just really noodle on
+the details of tool chains,
+
+00:00:34.570 --> 00:00:36.000
+and workflows, and making
+everything 1% more efficient.
+
+00:00:36.000 --> 00:00:38.570
+and workflows, and making
+everything 1% more efficient.
+
+00:00:38.570 --> 00:00:40.490
+I'm really not all about that.
+
+00:00:40.490 --> 00:00:42.000
+What I want you to do is
+breeze through this video,
+
+00:00:42.000 --> 00:00:42.850
+What I want you to do is
+breeze through this video,
+
+00:00:42.850 --> 00:00:44.950
+make some of the changes I recommend here.
+
+00:00:44.950 --> 00:00:47.930
+But by and large, spend the
+vast majority of your time
+
+00:00:47.930 --> 00:00:48.000
+on actually designing rather than trying
+
+00:00:48.000 --> 00:00:50.740
+on actually designing rather than trying
+
+00:00:50.740 --> 00:00:52.970
+to make your tools perform 2% better.
+
+00:00:52.970 --> 00:00:54.000
+So with that being said,
+let's dive right in.
+
+00:00:54.000 --> 00:00:56.250
+So with that being said,
+let's dive right in.
+
+00:00:56.250 --> 00:00:58.360
+All right, so I've got
+this new project in Figma.
+
+00:00:58.360 --> 00:01:00.000
+And I'm just gonna kind
+of do a little fake design
+
+00:01:00.000 --> 00:01:00.390
+And I'm just gonna kind
+of do a little fake design
+
+00:01:00.390 --> 00:01:02.850
+to show you the things that
+I wanna illustrate here.
+
+00:01:02.850 --> 00:01:04.450
+So the first thing I'm
+gonna do is actually paste
+
+00:01:04.450 --> 00:01:06.000
+in an image that I have on
+my clipboard with command, V.
+
+00:01:06.000 --> 00:01:07.490
+in an image that I have on
+my clipboard with command, V.
+
+00:01:07.490 --> 00:01:09.530
+It's a nice, pretty
+image of Mount Rainier.
+
+00:01:09.530 --> 00:01:12.000
+Let's just say this is kind
+of some generic website.
+
+00:01:12.000 --> 00:01:12.320
+Let's just say this is kind
+of some generic website.
+
+00:01:12.320 --> 00:01:14.830
+Press command, zero to zoom into 100%.
+
+00:01:14.830 --> 00:01:16.450
+And I'm gonna press R.
+
+00:01:16.450 --> 00:01:17.610
+That's gonna make a new rectangle
+
+00:01:17.610 --> 00:01:18.000
+to add a little header here.
+
+00:01:18.000 --> 00:01:20.120
+to add a little header here.
+
+00:01:20.120 --> 00:01:22.230
+So cool, I have a header for my website.
+
+00:01:22.230 --> 00:01:23.520
+If I can't see it all by the way,
+
+00:01:23.520 --> 00:01:24.000
+just press command, shift, backslash
+
+00:01:24.000 --> 00:01:25.650
+just press command, shift, backslash
+
+00:01:25.650 --> 00:01:27.300
+and that toggles that left panel.
+
+00:01:27.300 --> 00:01:29.620
+Gives me a little bit
+more visibility here.
+
+00:01:29.620 --> 00:01:30.000
+Now you'll see that Figma
+made this layer gray.
+
+00:01:30.000 --> 00:01:33.520
+Now you'll see that Figma
+made this layer gray.
+
+00:01:33.520 --> 00:01:35.650
+C4C4C4 is the code,
+
+00:01:35.650 --> 00:01:36.000
+though you don't have to really
+worry too much about that.
+
+00:01:36.000 --> 00:01:37.600
+though you don't have to really
+worry too much about that.
+
+00:01:37.600 --> 00:01:41.630
+One thing that I absolutely
+recommend doing is open this up.
+
+00:01:41.630 --> 00:01:42.000
+And here you can see we're picking a color
+
+00:01:42.000 --> 00:01:43.780
+And here you can see we're picking a color
+
+00:01:43.780 --> 00:01:47.000
+using the RGB system.
+
+00:01:47.000 --> 00:01:48.000
+Actually, that's not really
+a great way to pick colors.
+
+00:01:48.000 --> 00:01:50.220
+Actually, that's not really
+a great way to pick colors.
+
+00:01:50.220 --> 00:01:52.690
+And in this course I recommend using HSB.
+
+00:01:52.690 --> 00:01:54.000
+So just pick HSB from the slider.
+
+00:01:54.000 --> 00:01:55.050
+So just pick HSB from the slider.
+
+00:01:55.050 --> 00:01:57.410
+And basically that's
+gonna allow you to specify
+
+00:01:57.410 --> 00:01:59.270
+four different numbers that represent
+
+00:01:59.270 --> 00:02:00.000
+whatever color you want.
+
+00:02:00.000 --> 00:02:00.610
+whatever color you want.
+
+00:02:00.610 --> 00:02:02.060
+Now typing in numbers here
+
+00:02:02.060 --> 00:02:04.710
+is only one of the ways
+to specify a color.
+
+00:02:04.710 --> 00:02:06.000
+Actually, a lot of the time
+I can just kind of slide
+
+00:02:06.000 --> 00:02:08.300
+Actually, a lot of the time
+I can just kind of slide
+
+00:02:08.300 --> 00:02:09.950
+to the particular color that I want.
+
+00:02:09.950 --> 00:02:12.000
+And the most common
+color that I'm gonna want
+
+00:02:12.000 --> 00:02:12.010
+And the most common
+color that I'm gonna want
+
+00:02:12.010 --> 00:02:13.670
+for new layers like this is white
+
+00:02:13.670 --> 00:02:16.000
+which is always gonna be in
+the upper left-hand corner
+
+00:02:16.000 --> 00:02:18.000
+no matter what the particular hue value
+
+00:02:18.000 --> 00:02:18.210
+no matter what the particular hue value
+
+00:02:18.210 --> 00:02:19.720
+that you have here is.
+
+00:02:19.720 --> 00:02:21.720
+So cool, now I have my white layer.
+
+00:02:21.720 --> 00:02:22.960
+Of course, if I press R again
+
+00:02:22.960 --> 00:02:24.000
+and go on to make another rectangle,
+
+00:02:24.000 --> 00:02:24.280
+and go on to make another rectangle,
+
+00:02:24.280 --> 00:02:27.340
+it's the same silly gray, C4C4C4.
+
+00:02:27.340 --> 00:02:29.530
+Again useless, so actually what I wanna do
+
+00:02:29.530 --> 00:02:30.000
+is select this white layer.
+
+00:02:30.000 --> 00:02:31.420
+is select this white layer.
+
+00:02:31.420 --> 00:02:34.070
+And I'm gonna go to Edit and
+say Set Default Properties.
+
+00:02:34.070 --> 00:02:36.000
+That just means the rest
+of the time in this file
+
+00:02:36.000 --> 00:02:36.270
+That just means the rest
+of the time in this file
+
+00:02:36.270 --> 00:02:37.550
+when I create a new layer,
+
+00:02:37.550 --> 00:02:40.670
+it's gonna have a white fill
+instead of that gray fill.
+
+00:02:40.670 --> 00:02:42.000
+Unfortunately in Figma right now,
+
+00:02:42.000 --> 00:02:42.700
+Unfortunately in Figma right now,
+
+00:02:42.700 --> 00:02:44.710
+this setting only works at the file level.
+
+00:02:44.710 --> 00:02:46.000
+So I will have to change it
+
+00:02:46.000 --> 00:02:48.000
+again and again if I'm
+doing different files.
+
+00:02:48.000 --> 00:02:48.080
+again and again if I'm
+doing different files.
+
+00:02:48.080 --> 00:02:49.600
+But if I know I'm gonna
+do a lot of design work
+
+00:02:49.600 --> 00:02:50.433
+in this one file,
+
+00:02:50.433 --> 00:02:52.710
+it can still be a really
+useful thing to do.
+
+00:02:52.710 --> 00:02:54.000
+Now I'm gonna use command, shift, L
+
+00:02:54.000 --> 00:02:54.140
+Now I'm gonna use command, shift, L
+
+00:02:54.140 --> 00:02:55.370
+to lock this image layer
+
+00:02:55.370 --> 00:02:57.410
+'cause I know I won't
+need to do anything here.
+
+00:02:57.410 --> 00:02:59.253
+And nice, I have my header.
+
+00:03:00.290 --> 00:03:03.030
+If I wanted to do something
+like create a button
+
+00:03:03.030 --> 00:03:04.080
+on a colored background,
+
+00:03:04.080 --> 00:03:05.880
+I'm most likely to use white.
+
+00:03:05.880 --> 00:03:06.000
+If I wanted to do something
+
+00:03:06.000 --> 00:03:07.220
+If I wanted to do something
+
+00:03:07.220 --> 00:03:09.630
+like let's say maybe
+create a card element,
+
+00:03:09.630 --> 00:03:11.110
+I'll give it a little bit of border radius
+
+00:03:11.110 --> 00:03:12.000
+and I'll give it a shadow.
+
+00:03:12.000 --> 00:03:12.420
+and I'll give it a shadow.
+
+00:03:12.420 --> 00:03:16.010
+And that's more likely than not
+gonna be a white background.
+
+00:03:16.010 --> 00:03:17.720
+So white is just a really useful color
+
+00:03:17.720 --> 00:03:18.000
+to have as the default here.
+
+00:03:18.000 --> 00:03:19.750
+to have as the default here.
+
+00:03:19.750 --> 00:03:21.350
+Let's say though that
+I'm gonna do something
+
+00:03:21.350 --> 00:03:24.000
+like maybe have a button
+on a white background.
+
+00:03:24.000 --> 00:03:25.170
+like maybe have a button
+on a white background.
+
+00:03:25.170 --> 00:03:29.700
+Then it's more likely that
+I'm gonna wanna use a color.
+
+00:03:29.700 --> 00:03:30.000
+And now I can pick it either
+with the visual color picker
+
+00:03:30.000 --> 00:03:32.860
+And now I can pick it either
+with the visual color picker
+
+00:03:32.860 --> 00:03:34.730
+or with this HSP color picker
+
+00:03:34.730 --> 00:03:36.000
+which we'll go over a lot
+more in future lessons.
+
+00:03:36.000 --> 00:03:38.360
+which we'll go over a lot
+more in future lessons.
+
+00:03:38.360 --> 00:03:41.470
+One other thing related to
+color that's worth pointing out
+
+00:03:41.470 --> 00:03:42.000
+is if you ever export your files
+
+00:03:42.000 --> 00:03:44.720
+is if you ever export your files
+
+00:03:44.720 --> 00:03:46.710
+and you notice that the exported file
+
+00:03:46.710 --> 00:03:48.000
+looks slightly different
+than what it looked like
+
+00:03:48.000 --> 00:03:48.420
+looks slightly different
+than what it looked like
+
+00:03:48.420 --> 00:03:49.500
+when you were designing it
+
+00:03:49.500 --> 00:03:51.050
+or maybe it looks different on the web,
+
+00:03:51.050 --> 00:03:53.220
+it's almost certainly
+because your color space
+
+00:03:53.220 --> 00:03:54.000
+is not set to sRGB.
+
+00:03:54.000 --> 00:03:55.420
+is not set to sRGB.
+
+00:03:55.420 --> 00:03:56.830
+So if you're using Figma for the web,
+
+00:03:56.830 --> 00:03:58.750
+sRGB is the default setting.
+
+00:03:58.750 --> 00:04:00.000
+If you're using it for desktop,
+
+00:04:00.000 --> 00:04:00.800
+If you're using it for desktop,
+
+00:04:00.800 --> 00:04:01.700
+you need to go do that
+
+00:04:01.700 --> 00:04:04.110
+and it's gonna make you restart your app.
+
+00:04:04.110 --> 00:04:05.483
+Boom, easy enough to do.
+
+00:04:06.330 --> 00:04:07.910
+Now just because it's
+bugging me a little bit,
+
+00:04:07.910 --> 00:04:10.440
+I'm gonna go give each of these two layers
+
+00:04:10.440 --> 00:04:12.000
+a nice little shadow here.
+
+00:04:12.000 --> 00:04:12.140
+a nice little shadow here.
+
+00:04:12.140 --> 00:04:13.890
+Go into Effects, it's the default one,
+
+00:04:13.890 --> 00:04:16.020
+but I'm just gonna make the
+blur a little bit bigger.
+
+00:04:16.020 --> 00:04:18.000
+Oftentimes looks just the tad better.
+
+00:04:18.000 --> 00:04:18.153
+Oftentimes looks just the tad better.
+
+00:04:19.950 --> 00:04:21.810
+Okay, another thing
+that I would probably do
+
+00:04:21.810 --> 00:04:24.000
+pretty early on in Figma
+is get some plugins.
+
+00:04:24.000 --> 00:04:25.100
+pretty early on in Figma
+is get some plugins.
+
+00:04:25.100 --> 00:04:26.610
+And like I said in the intro,
+
+00:04:26.610 --> 00:04:28.520
+designers love to talk endlessly
+
+00:04:28.520 --> 00:04:30.000
+about what plugins are the best
+
+00:04:30.000 --> 00:04:30.040
+about what plugins are the best
+
+00:04:30.040 --> 00:04:32.470
+and kind of fiddle with these
+
+00:04:32.470 --> 00:04:35.040
+and try and optimize endlessly.
+
+00:04:35.040 --> 00:04:36.000
+I would much prefer you
+spend your time designing.
+
+00:04:36.000 --> 00:04:37.140
+I would much prefer you
+spend your time designing.
+
+00:04:37.140 --> 00:04:38.210
+So I'm actually just gonna cover
+
+00:04:38.210 --> 00:04:40.950
+a couple of these plugins
+that are the most useful.
+
+00:04:40.950 --> 00:04:42.000
+One is Better Font Picker.
+
+00:04:42.000 --> 00:04:42.530
+One is Better Font Picker.
+
+00:04:42.530 --> 00:04:44.110
+I highly recommend this one.
+
+00:04:44.110 --> 00:04:45.750
+So basically if I make some text,
+
+00:04:45.750 --> 00:04:48.000
+I press T, click and
+drag to do a text box.
+
+00:04:48.000 --> 00:04:48.530
+I press T, click and
+drag to do a text box.
+
+00:04:48.530 --> 00:04:52.193
+Let's say it's My Mountain Odyssey.
+
+00:04:53.979 --> 00:04:54.000
+If I go to select what font I'm using
+
+00:04:54.000 --> 00:04:56.130
+If I go to select what font I'm using
+
+00:04:56.130 --> 00:04:58.430
+from the default Figma font picker,
+
+00:04:58.430 --> 00:05:00.000
+I can't see what any of these look like.
+
+00:05:00.000 --> 00:05:00.030
+I can't see what any of these look like.
+
+00:05:00.030 --> 00:05:03.550
+And so unless I have every
+single one memorized and I don't,
+
+00:05:03.550 --> 00:05:05.360
+that's not very useful.
+
+00:05:05.360 --> 00:05:06.000
+Better to use the Better Font Picker.
+
+00:05:06.000 --> 00:05:07.750
+Better to use the Better Font Picker.
+
+00:05:07.750 --> 00:05:11.000
+And let's say here I
+can see that Adelle Sans
+
+00:05:11.000 --> 00:05:12.000
+is kind of this nice,
+rounded, friendly font here.
+
+00:05:12.000 --> 00:05:14.150
+is kind of this nice,
+rounded, friendly font here.
+
+00:05:14.150 --> 00:05:15.440
+So I'll pick that one,
+
+00:05:15.440 --> 00:05:17.430
+and I'm off to the races.
+
+00:05:17.430 --> 00:05:18.000
+Of course, I'll make
+it a little bit bigger
+
+00:05:18.000 --> 00:05:18.550
+Of course, I'll make
+it a little bit bigger
+
+00:05:18.550 --> 00:05:21.303
+like a good title guys here, bold it.
+
+00:05:23.100 --> 00:05:23.933
+And so on.
+
+00:05:24.770 --> 00:05:27.660
+Another plugin that you'll
+see me use is Content Reel.
+
+00:05:27.660 --> 00:05:30.000
+So Content Reel is really
+great if you're generating
+
+00:05:30.000 --> 00:05:30.550
+So Content Reel is really
+great if you're generating
+
+00:05:30.550 --> 00:05:32.180
+let's say something like I wanted
+
+00:05:32.180 --> 00:05:34.620
+a little profile picture for the author,
+
+00:05:34.620 --> 00:05:36.000
+and then I'll have the
+author's name right here.
+
+00:05:36.000 --> 00:05:37.020
+and then I'll have the
+author's name right here.
+
+00:05:38.240 --> 00:05:41.133
+And I'll make that a good
+body text size, maybe 16.
+
+00:05:43.990 --> 00:05:48.000
+Well, one thing I can do
+with this Content Reel plugin
+
+00:05:48.000 --> 00:05:48.970
+Well, one thing I can do
+with this Content Reel plugin
+
+00:05:49.990 --> 00:05:52.820
+is if I have a layer selected
+that is either an image
+
+00:05:52.820 --> 00:05:54.000
+or a vector shape that
+could become an image,
+
+00:05:54.000 --> 00:05:54.750
+or a vector shape that
+could become an image,
+
+00:05:54.750 --> 00:05:56.710
+I can click this Avatars button.
+
+00:05:56.710 --> 00:05:59.240
+And boom, I'm gonna get avatar
+of a person right there.
+
+00:05:59.240 --> 00:06:00.000
+If I click this full name,
+
+00:06:00.000 --> 00:06:00.580
+If I click this full name,
+
+00:06:00.580 --> 00:06:02.023
+bam, same sort of thing.
+
+00:06:03.330 --> 00:06:05.170
+What's also cool is you can do this
+
+00:06:05.170 --> 00:06:06.000
+with many layers at a time.
+
+00:06:06.000 --> 00:06:06.910
+with many layers at a time.
+
+00:06:06.910 --> 00:06:08.273
+So if you had a whole list,
+
+00:06:12.300 --> 00:06:14.530
+I could really quickly
+find different avatars
+
+00:06:14.530 --> 00:06:17.703
+for each of the people on
+the list, so that's nice.
+
+00:06:19.850 --> 00:06:22.610
+I also have a couple of
+plugins that are icon-related.
+
+00:06:22.610 --> 00:06:24.000
+Feather Icons and Material Icons.
+
+00:06:24.000 --> 00:06:25.080
+Feather Icons and Material Icons.
+
+00:06:25.080 --> 00:06:27.290
+So they both kind of work the same way.
+
+00:06:27.290 --> 00:06:29.120
+Feather Icons is bigger and softer.
+
+00:06:29.120 --> 00:06:30.000
+Material design is a little bit smaller
+
+00:06:30.000 --> 00:06:31.360
+Material design is a little bit smaller
+
+00:06:31.360 --> 00:06:32.880
+and sort of default looking.
+
+00:06:32.880 --> 00:06:34.820
+But if I say, "Oh, I want a search icon,"
+
+00:06:34.820 --> 00:06:36.000
+I can just pull that up right here
+
+00:06:36.000 --> 00:06:36.630
+I can just pull that up right here
+
+00:06:36.630 --> 00:06:38.160
+and double click it.
+
+00:06:38.160 --> 00:06:41.068
+Boom, it's on my artboard.
+
+00:06:41.068 --> 00:06:42.000
+If you see the text appear above it,
+
+00:06:42.000 --> 00:06:42.840
+If you see the text appear above it,
+
+00:06:42.840 --> 00:06:44.860
+it means that layer has not recognized
+
+00:06:44.860 --> 00:06:47.460
+that it actually lives on this frame here.
+
+00:06:47.460 --> 00:06:48.000
+So I need to drag it out, drag it back in,
+
+00:06:48.000 --> 00:06:49.610
+So I need to drag it out, drag it back in,
+
+00:06:49.610 --> 00:06:50.943
+and it's good to go.
+
+00:06:54.080 --> 00:06:58.450
+So now maybe I could do
+something like have a search bar.
+
+00:06:58.450 --> 00:07:00.000
+And it was very easy to create that.
+
+00:07:00.000 --> 00:07:00.283
+And it was very easy to create that.
+
+00:07:02.240 --> 00:07:04.720
+And then finally you
+should also download Stark
+
+00:07:04.720 --> 00:07:06.000
+which can be really good for for instance
+
+00:07:06.000 --> 00:07:06.870
+which can be really good for for instance
+
+00:07:06.870 --> 00:07:11.260
+looking at the text contrast
+between a text color
+
+00:07:11.260 --> 00:07:12.000
+and a background color.
+
+00:07:12.000 --> 00:07:12.600
+and a background color.
+
+00:07:12.600 --> 00:07:14.280
+Of course, black to white is 21:1,
+
+00:07:14.280 --> 00:07:15.530
+and it says this passes
+
+00:07:15.530 --> 00:07:17.660
+at all different levels of accessibility
+
+00:07:17.660 --> 00:07:18.000
+which is a very intricate topic
+
+00:07:18.000 --> 00:07:19.680
+which is a very intricate topic
+
+00:07:19.680 --> 00:07:23.310
+that we will be getting into
+much more later in the course.
+
+00:07:23.310 --> 00:07:24.000
+Now that's most of what I
+would do to modify Figma.
+
+00:07:24.000 --> 00:07:25.700
+Now that's most of what I
+would do to modify Figma.
+
+00:07:25.700 --> 00:07:27.090
+There's also a couple of files
+
+00:07:27.090 --> 00:07:29.130
+that I would make sure
+I had on my computer.
+
+00:07:29.130 --> 00:07:30.000
+So one of the ways I like to pull them up
+
+00:07:30.000 --> 00:07:30.680
+So one of the ways I like to pull them up
+
+00:07:30.680 --> 00:07:32.010
+is by pressing command, space,
+
+00:07:32.010 --> 00:07:34.320
+and this brings up Mac's Spotlight search.
+
+00:07:34.320 --> 00:07:35.500
+If I have this,
+
+00:07:35.500 --> 00:07:36.000
+then I can for instance
+grab my hand pointer cursor.
+
+00:07:36.000 --> 00:07:40.240
+then I can for instance
+grab my hand pointer cursor.
+
+00:07:40.240 --> 00:07:41.120
+I'll get this here,
+
+00:07:41.120 --> 00:07:42.000
+and I can just drag it in super easily.
+
+00:07:42.000 --> 00:07:43.840
+and I can just drag it in super easily.
+
+00:07:43.840 --> 00:07:45.530
+This is really good for a lot of designs
+
+00:07:45.530 --> 00:07:47.100
+if you wanna show like for instance
+
+00:07:47.100 --> 00:07:48.000
+that something is a hover state.
+
+00:07:48.000 --> 00:07:48.670
+that something is a hover state.
+
+00:07:48.670 --> 00:07:51.570
+So maybe I have one version
+of the button with no hover,
+
+00:07:51.570 --> 00:07:53.010
+but then I wanna show
+the version of the button
+
+00:07:53.010 --> 00:07:54.000
+when someone hovers it.
+
+00:07:54.000 --> 00:07:54.020
+when someone hovers it.
+
+00:07:54.020 --> 00:07:55.990
+Well, this little hand pointer cursor
+
+00:07:55.990 --> 00:07:57.430
+is a great way to do that.
+
+00:07:57.430 --> 00:08:00.000
+Likewise, if I wanna have
+someone typing into the text box,
+
+00:08:00.000 --> 00:08:01.570
+Likewise, if I wanna have
+someone typing into the text box,
+
+00:08:01.570 --> 00:08:03.070
+I want a text cursor.
+
+00:08:03.070 --> 00:08:05.600
+So that one is also pretty simple to do.
+
+00:08:05.600 --> 00:08:06.000
+And if I just want a default cursor
+
+00:08:06.000 --> 00:08:09.110
+And if I just want a default cursor
+
+00:08:09.110 --> 00:08:11.390
+that doesn't really necessarily correspond
+
+00:08:11.390 --> 00:08:12.000
+to hovering over anything in particular,
+
+00:08:12.000 --> 00:08:13.120
+to hovering over anything in particular,
+
+00:08:13.120 --> 00:08:14.640
+the arrow cursor is where it's at.
+
+00:08:14.640 --> 00:08:15.530
+So I've got that.
+
+00:08:15.530 --> 00:08:17.030
+All of these files are linked below
+
+00:08:17.030 --> 00:08:18.000
+so you can download them and use them.
+
+00:08:18.000 --> 00:08:19.200
+so you can download them and use them.
+
+00:08:19.200 --> 00:08:22.020
+Another thing you'll see
+me do pretty frequently
+
+00:08:22.020 --> 00:08:24.000
+is use a little text expansion.
+
+00:08:24.000 --> 00:08:24.760
+is use a little text expansion.
+
+00:08:24.760 --> 00:08:27.497
+So you'll see me type things like :abc
+
+00:08:29.460 --> 00:08:30.000
+which expands into the
+alphabet pasted three times.
+
+00:08:30.000 --> 00:08:34.360
+which expands into the
+alphabet pasted three times.
+
+00:08:34.360 --> 00:08:36.000
+And the way I'm doing that
+is with an app called aText.
+
+00:08:36.000 --> 00:08:37.518
+And the way I'm doing that
+is with an app called aText.
+
+00:08:37.518 --> 00:08:40.610
+aText is fantastic because it allows you
+
+00:08:40.610 --> 00:08:42.000
+to let's say type in certain things
+
+00:08:42.000 --> 00:08:44.600
+to let's say type in certain things
+
+00:08:44.600 --> 00:08:47.610
+and have them expand into
+certain other things.
+
+00:08:47.610 --> 00:08:48.000
+So every time I type :abc,
+
+00:08:48.000 --> 00:08:49.760
+So every time I type :abc,
+
+00:08:49.760 --> 00:08:51.350
+I get the alphabet three times.
+
+00:08:51.350 --> 00:08:53.400
+Why is that useful for design?
+
+00:08:53.400 --> 00:08:54.000
+Well, it turns out that
+the ideal line length
+
+00:08:54.000 --> 00:08:55.710
+Well, it turns out that
+the ideal line length
+
+00:08:55.710 --> 00:09:00.000
+is typically between about 50
+and 75 characters per line.
+
+00:09:00.000 --> 00:09:00.180
+is typically between about 50
+and 75 characters per line.
+
+00:09:00.180 --> 00:09:03.540
+So in a design if I have
+paragraphs and paragraphs of text
+
+00:09:03.540 --> 00:09:05.820
+and I wanna ensure that they're gonna have
+
+00:09:05.820 --> 00:09:06.000
+about that line length,
+
+00:09:06.000 --> 00:09:06.790
+about that line length,
+
+00:09:06.790 --> 00:09:08.630
+I'll paste in the alphabet three times
+
+00:09:08.630 --> 00:09:10.070
+which allows me to see
+
+00:09:10.070 --> 00:09:12.000
+ah yes, this is about as long
+as I should have a line be
+
+00:09:12.000 --> 00:09:12.920
+ah yes, this is about as long
+as I should have a line be
+
+00:09:12.920 --> 00:09:15.560
+for this given font and
+this given font size.
+
+00:09:15.560 --> 00:09:18.000
+And this is about as
+short as it should be.
+
+00:09:18.000 --> 00:09:19.370
+And this is about as
+short as it should be.
+
+00:09:19.370 --> 00:09:23.170
+And this is mostly applicable
+for longer form text.
+
+00:09:23.170 --> 00:09:24.000
+Speaking of longer form text,
+
+00:09:24.000 --> 00:09:24.690
+Speaking of longer form text,
+
+00:09:24.690 --> 00:09:26.920
+another way that I will use this
+
+00:09:26.920 --> 00:09:29.780
+is I will say something like :lorem1.
+
+00:09:30.844 --> 00:09:34.210
+And this brings up one
+paragraph of Lorem Ipsum text
+
+00:09:34.210 --> 00:09:36.000
+which is sort of the default
+filler texts that designers use
+
+00:09:36.000 --> 00:09:37.430
+which is sort of the default
+filler texts that designers use
+
+00:09:37.430 --> 00:09:39.920
+when they just need to put
+some texts in and design.
+
+00:09:39.920 --> 00:09:41.860
+I have Lorem1, I have Lorem2,
+
+00:09:41.860 --> 00:09:42.000
+all the way up to Lorem5
+
+00:09:42.000 --> 00:09:43.220
+all the way up to Lorem5
+
+00:09:43.220 --> 00:09:45.010
+which it's a little bit difficult to see,
+
+00:09:45.010 --> 00:09:48.000
+but that's five paragraphs
+of Lorem Ipsum filler text.
+
+00:09:48.000 --> 00:09:48.233
+but that's five paragraphs
+of Lorem Ipsum filler text.
+
+00:09:50.150 --> 00:09:52.860
+Now this can be really useful
+just to sort of validate
+
+00:09:52.860 --> 00:09:54.000
+that the particular design looks good
+
+00:09:54.000 --> 00:09:55.990
+that the particular design looks good
+
+00:09:55.990 --> 00:09:58.040
+and works well with longer text.
+
+00:09:58.040 --> 00:10:00.000
+But one warning is I
+actually encourage you
+
+00:10:00.000 --> 00:10:00.330
+But one warning is I
+actually encourage you
+
+00:10:00.330 --> 00:10:02.110
+not to use Lorem Ipsum text
+
+00:10:02.110 --> 00:10:04.120
+too much when you're
+really doing a design.
+
+00:10:04.120 --> 00:10:05.240
+As soon as possible,
+
+00:10:05.240 --> 00:10:06.000
+try and use realistic text
+
+00:10:06.000 --> 00:10:06.900
+try and use realistic text
+
+00:10:06.900 --> 00:10:09.780
+or even quasi-realistic text
+for the particular design
+
+00:10:09.780 --> 00:10:10.740
+that you're working on.
+
+00:10:10.740 --> 00:10:12.000
+Just because those particular
+words, the subject matter,
+
+00:10:12.000 --> 00:10:14.350
+Just because those particular
+words, the subject matter,
+
+00:10:14.350 --> 00:10:16.970
+even the length of the
+sentences that you're typing in
+
+00:10:16.970 --> 00:10:18.000
+is gonna affect the
+whole feel of the design.
+
+00:10:18.000 --> 00:10:19.370
+is gonna affect the
+whole feel of the design.
+
+00:10:19.370 --> 00:10:21.330
+And so text is actually an important part
+
+00:10:21.330 --> 00:10:23.420
+of the feel of the overall design.
+
+00:10:23.420 --> 00:10:24.000
+That being said, for
+illustrating a visual point
+
+00:10:24.000 --> 00:10:25.670
+That being said, for
+illustrating a visual point
+
+00:10:25.670 --> 00:10:27.450
+or trying to do something very quickly,
+
+00:10:27.450 --> 00:10:30.000
+there's no problem with
+some Lorem Ipsum filler.
+
+00:10:30.000 --> 00:10:30.770
+there's no problem with
+some Lorem Ipsum filler.
+
+00:10:30.770 --> 00:10:31.720
+Now like I said,
+
+00:10:31.720 --> 00:10:34.203
+I like to use aText for a text expander.
+
+00:10:35.400 --> 00:10:36.000
+It's pretty great because it
+is a one-time payment of 4.99,
+
+00:10:36.000 --> 00:10:39.130
+It's pretty great because it
+is a one-time payment of 4.99,
+
+00:10:39.130 --> 00:10:41.530
+and it also happens to work in Figma.
+
+00:10:41.530 --> 00:10:42.000
+Not all texts expansion
+does work in Figma.
+
+00:10:42.000 --> 00:10:44.140
+Not all texts expansion
+does work in Figma.
+
+00:10:44.140 --> 00:10:46.230
+If you are using Sketch or other apps,
+
+00:10:46.230 --> 00:10:48.000
+it's probably worth trying to see
+
+00:10:48.000 --> 00:10:48.450
+it's probably worth trying to see
+
+00:10:48.450 --> 00:10:50.740
+if the default Mac text expansion works.
+
+00:10:50.740 --> 00:10:54.000
+So what you can do is open up
+the keyboard settings here.
+
+00:10:54.000 --> 00:10:55.740
+So what you can do is open up
+the keyboard settings here.
+
+00:10:56.510 --> 00:10:58.800
+And if you go to Text,
+
+00:10:58.800 --> 00:11:00.000
+you can add something
+like abc and type in-
+
+00:11:00.000 --> 00:11:02.170
+you can add something
+like abc and type in-
+
+00:11:02.170 --> 00:11:04.380
+Well, of course it
+replaced it right there.
+
+00:11:04.380 --> 00:11:05.990
+But you can add in whatever you want
+
+00:11:05.990 --> 00:11:06.000
+and have it be replaced
+with something else.
+
+00:11:06.000 --> 00:11:07.640
+and have it be replaced
+with something else.
+
+00:11:07.640 --> 00:11:10.100
+But just because of complicated details
+
+00:11:10.100 --> 00:11:11.660
+relating to how Figma is programmed,
+
+00:11:11.660 --> 00:11:12.000
+this doesn't currently work in Figma.
+
+00:11:12.000 --> 00:11:13.610
+this doesn't currently work in Figma.
+
+00:11:13.610 --> 00:11:15.280
+It does work in Sketch.
+
+00:11:15.280 --> 00:11:17.760
+While we're on the topic
+of keyboard settings,
+
+00:11:17.760 --> 00:11:18.000
+if you navigate over to Shortcuts here
+
+00:11:18.000 --> 00:11:20.470
+if you navigate over to Shortcuts here
+
+00:11:20.470 --> 00:11:24.000
+you can add specific keyboard
+shortcuts for different apps
+
+00:11:24.000 --> 00:11:24.350
+you can add specific keyboard
+shortcuts for different apps
+
+00:11:24.350 --> 00:11:26.420
+by going to App Shortcuts here
+
+00:11:26.420 --> 00:11:28.670
+and then pressing the plus button.
+
+00:11:28.670 --> 00:11:30.000
+So basically you have
+to enter the exact name
+
+00:11:30.000 --> 00:11:31.250
+So basically you have
+to enter the exact name
+
+00:11:31.250 --> 00:11:33.260
+of the menu command you want to add.
+
+00:11:33.260 --> 00:11:36.000
+Which if I wanna add a Figma command,
+
+00:11:36.000 --> 00:11:36.280
+Which if I wanna add a Figma command,
+
+00:11:36.280 --> 00:11:39.680
+I find that one thing I do all the time
+
+00:11:39.680 --> 00:11:41.830
+is I like to upper case text.
+
+00:11:41.830 --> 00:11:42.000
+So Text Upper Case is the
+exact name of the menu command.
+
+00:11:42.000 --> 00:11:45.280
+So Text Upper Case is the
+exact name of the menu command.
+
+00:11:45.280 --> 00:11:48.000
+And if I go to Text Upper Case,
+
+00:11:48.000 --> 00:11:49.533
+And if I go to Text Upper Case,
+
+00:11:51.210 --> 00:11:53.360
+I can then enter in a keyboard shortcut.
+
+00:11:53.360 --> 00:11:54.000
+I like command, shift, U.
+
+00:11:54.000 --> 00:11:54.780
+I like command, shift, U.
+
+00:11:54.780 --> 00:11:56.460
+And if I just type command, shift, U,
+
+00:11:56.460 --> 00:11:57.800
+it formats it properly.
+
+00:11:57.800 --> 00:11:59.080
+I can press add.
+
+00:11:59.080 --> 00:12:00.000
+And then whenever I'm in Figma,
+
+00:12:00.000 --> 00:12:00.663
+And then whenever I'm in Figma,
+
+00:12:00.663 --> 00:12:02.030
+I can press command, shift, U,
+
+00:12:02.030 --> 00:12:03.820
+and automatically uppercase text,
+
+00:12:03.820 --> 00:12:05.123
+undo it, whatever I want.
+
+00:12:05.970 --> 00:12:06.000
+Now we've covered Feather Icons
+and Material Icons already.
+
+00:12:06.000 --> 00:12:09.860
+Now we've covered Feather Icons
+and Material Icons already.
+
+00:12:09.860 --> 00:12:12.000
+But you should also know
+that I have developed
+
+00:12:12.000 --> 00:12:12.340
+But you should also know
+that I have developed
+
+00:12:12.340 --> 00:12:14.180
+a free set of icons.
+
+00:12:14.180 --> 00:12:16.140
+It's free for all Learn UI Design students
+
+00:12:16.140 --> 00:12:17.630
+called Quantum Icons.
+
+00:12:17.630 --> 00:12:18.000
+And Quantum Icons is particularly designed
+
+00:12:18.000 --> 00:12:20.670
+And Quantum Icons is particularly designed
+
+00:12:20.670 --> 00:12:23.160
+for really data or interaction-heavy apps.
+
+00:12:23.160 --> 00:12:24.000
+The icons themselves are very compact
+
+00:12:24.000 --> 00:12:24.980
+The icons themselves are very compact
+
+00:12:24.980 --> 00:12:27.650
+and very angular relative
+to other icon sets.
+
+00:12:27.650 --> 00:12:29.770
+I've linked below some ways to get them.
+
+00:12:29.770 --> 00:12:30.000
+But basically, if you're in Figma
+
+00:12:30.000 --> 00:12:32.630
+But basically, if you're in Figma
+
+00:12:32.630 --> 00:12:34.810
+and you add them as a library here,
+
+00:12:34.810 --> 00:12:36.000
+go here, find Quantum Icons,
+
+00:12:36.000 --> 00:12:36.850
+go here, find Quantum Icons,
+
+00:12:36.850 --> 00:12:38.470
+turn it on as a library.
+
+00:12:38.470 --> 00:12:39.920
+And I could search...
+
+00:12:39.920 --> 00:12:42.000
+I tried to use a lot of
+synonyms in the name here.
+
+00:12:42.000 --> 00:12:42.010
+I tried to use a lot of
+synonyms in the name here.
+
+00:12:42.010 --> 00:12:44.350
+So hamburger, I could type hamburger.
+
+00:12:44.350 --> 00:12:46.100
+I could type menu,
+
+00:12:46.100 --> 00:12:48.000
+and I'm going to get
+this hamburger menu icon.
+
+00:12:48.000 --> 00:12:48.730
+and I'm going to get
+this hamburger menu icon.
+
+00:12:48.730 --> 00:12:51.500
+So called because it
+sort of resembles a bun
+
+00:12:51.500 --> 00:12:53.483
+with a patty in the middle.
+
+00:12:54.330 --> 00:12:55.910
+Conversation for another time.
+
+00:12:55.910 --> 00:12:59.053
+But that is just one other icon
+set that you can draw from.
+
+00:13:00.270 --> 00:13:02.430
+All right, on the web the very best place
+
+00:13:02.430 --> 00:13:04.950
+to find free fonts is Google Fonts.
+
+00:13:04.950 --> 00:13:06.000
+So I recommend you become
+familiar with this site.
+
+00:13:06.000 --> 00:13:07.400
+So I recommend you become
+familiar with this site.
+
+00:13:07.400 --> 00:13:08.740
+We'll be referencing a ton
+
+00:13:08.740 --> 00:13:11.410
+of Google Fonts throughout this course.
+
+00:13:11.410 --> 00:13:12.000
+But one thing that's really important here
+
+00:13:12.000 --> 00:13:13.700
+But one thing that's really important here
+
+00:13:13.700 --> 00:13:16.970
+is if you go to this website
+which is linked below,
+
+00:13:16.970 --> 00:13:18.000
+you'll have the option to batch install
+
+00:13:18.000 --> 00:13:19.280
+you'll have the option to batch install
+
+00:13:19.280 --> 00:13:22.560
+a list of the top Google Font families.
+
+00:13:22.560 --> 00:13:23.940
+So you can batch install
+
+00:13:23.940 --> 00:13:24.000
+50 Google Font families with one click.
+
+00:13:24.000 --> 00:13:26.320
+50 Google Font families with one click.
+
+00:13:26.320 --> 00:13:29.390
+You do need to download a
+free app called SkyFonts
+
+00:13:29.390 --> 00:13:30.000
+in order to do this.
+
+00:13:30.000 --> 00:13:30.380
+in order to do this.
+
+00:13:30.380 --> 00:13:31.670
+But the nice thing about SkyFonts
+
+00:13:31.670 --> 00:13:33.940
+is you can download on multiple computers,
+
+00:13:33.940 --> 00:13:35.640
+and it'll sort of sync up
+
+00:13:35.640 --> 00:13:36.000
+what fonts you have on what computer.
+
+00:13:36.000 --> 00:13:38.150
+what fonts you have on what computer.
+
+00:13:38.150 --> 00:13:39.970
+Once you download SkyFonts,
+
+00:13:39.970 --> 00:13:42.000
+I recommend you then go
+over to the Good Fonts Table
+
+00:13:42.000 --> 00:13:42.350
+I recommend you then go
+over to the Good Fonts Table
+
+00:13:42.350 --> 00:13:44.820
+which is a lesson in the
+future of Learn UI Design.
+
+00:13:44.820 --> 00:13:46.630
+It's in the typography unit.
+
+00:13:46.630 --> 00:13:47.690
+But you can go there now,
+
+00:13:47.690 --> 00:13:48.000
+and you can look at a lot of
+the fonts that I recommend
+
+00:13:48.000 --> 00:13:50.570
+and you can look at a lot of
+the fonts that I recommend
+
+00:13:50.570 --> 00:13:54.000
+as the very best free or very cheap fonts.
+
+00:13:54.000 --> 00:13:54.160
+as the very best free or very cheap fonts.
+
+00:13:54.160 --> 00:13:56.010
+Some of them are part of Google Fonts.
+
+00:13:56.010 --> 00:13:57.420
+That's the blue F here,
+
+00:13:57.420 --> 00:13:59.060
+and you can download them for free.
+
+00:13:59.060 --> 00:14:00.000
+Some of them are Adobe Fonts
+
+00:14:00.000 --> 00:14:00.500
+Some of them are Adobe Fonts
+
+00:14:00.500 --> 00:14:03.290
+which if you have a
+Creative Cloud subscription
+
+00:14:03.290 --> 00:14:06.000
+like to Photoshop, or
+Illustrator, or InDesign,
+
+00:14:06.000 --> 00:14:07.330
+like to Photoshop, or
+Illustrator, or InDesign,
+
+00:14:07.330 --> 00:14:10.010
+then you also very likely
+have access to Adobe Fonts
+
+00:14:10.010 --> 00:14:11.130
+for free as well.
+
+00:14:11.130 --> 00:14:12.000
+And then some of them are
+third-party, open-source fonts
+
+00:14:12.000 --> 00:14:13.380
+And then some of them are
+third-party, open-source fonts
+
+00:14:13.380 --> 00:14:14.530
+which you can download as well.
+
+00:14:14.530 --> 00:14:16.520
+So go grab a bunch of those.
+
+00:14:16.520 --> 00:14:17.990
+When you've grabbed a font
+
+00:14:17.990 --> 00:14:18.000
+and you've downloaded
+it to install it on Mac,
+
+00:14:18.000 --> 00:14:20.240
+and you've downloaded
+it to install it on Mac,
+
+00:14:20.240 --> 00:14:21.930
+you go to font book, open this up,
+
+00:14:21.930 --> 00:14:24.000
+and you can just drag it into
+this main list right here.
+
+00:14:24.000 --> 00:14:24.500
+and you can just drag it into
+this main list right here.
+
+00:14:24.500 --> 00:14:25.670
+That's all there is to it.
+
+00:14:25.670 --> 00:14:27.400
+That'll install a new font.
+
+00:14:27.400 --> 00:14:29.850
+Now one thing I highly recommend you do
+
+00:14:29.850 --> 00:14:30.000
+is add a folder for user
+interface design inspiration.
+
+00:14:30.000 --> 00:14:34.850
+is add a folder for user
+interface design inspiration.
+
+00:14:35.730 --> 00:14:36.000
+So I call mine Good UI.
+
+00:14:36.000 --> 00:14:37.280
+So I call mine Good UI.
+
+00:14:37.280 --> 00:14:38.950
+You can call yours whatever you want.
+
+00:14:38.950 --> 00:14:41.870
+We'll cover more about finding inspiration
+
+00:14:41.870 --> 00:14:42.000
+slightly later in this unit.
+
+00:14:42.000 --> 00:14:43.480
+slightly later in this unit.
+
+00:14:43.480 --> 00:14:45.930
+But the whole idea is you
+want to have inspiration
+
+00:14:45.930 --> 00:14:47.870
+ready to go that you can peruse
+
+00:14:47.870 --> 00:14:48.000
+and get inspired from
+before you actually need it.
+
+00:14:48.000 --> 00:14:50.880
+and get inspired from
+before you actually need it.
+
+00:14:50.880 --> 00:14:53.010
+Because when you actually
+need the inspiration,
+
+00:14:53.010 --> 00:14:54.000
+it can be very difficult to find something
+
+00:14:54.000 --> 00:14:54.470
+it can be very difficult to find something
+
+00:14:54.470 --> 00:14:56.440
+that kind of does the trick.
+
+00:14:56.440 --> 00:14:59.030
+So if I just open up the very first site
+
+00:14:59.030 --> 00:15:00.000
+that I have in my Good UI
+folder, it's abstract.com.
+
+00:15:00.000 --> 00:15:02.860
+that I have in my Good UI
+folder, it's abstract.com.
+
+00:15:02.860 --> 00:15:05.020
+Very cool, somewhat quirky site
+
+00:15:05.020 --> 00:15:06.000
+for a design tool called Abstract.
+
+00:15:06.000 --> 00:15:07.810
+for a design tool called Abstract.
+
+00:15:07.810 --> 00:15:10.360
+And the other big thing
+that I'm gonna recommend,
+
+00:15:10.360 --> 00:15:12.000
+this is honestly one of
+the most important things
+
+00:15:12.000 --> 00:15:12.040
+this is honestly one of
+the most important things
+
+00:15:12.040 --> 00:15:13.260
+in this whole video
+
+00:15:13.260 --> 00:15:17.490
+is to download the
+extension called WhatFont.
+
+00:15:17.490 --> 00:15:18.000
+When I click the WhatFont extension here,
+
+00:15:18.000 --> 00:15:19.370
+When I click the WhatFont extension here,
+
+00:15:19.370 --> 00:15:21.950
+I can then hover over
+any text on this website
+
+00:15:21.950 --> 00:15:23.440
+and see what font it's written in.
+
+00:15:23.440 --> 00:15:24.000
+So this is GT American Mono.
+
+00:15:24.000 --> 00:15:25.360
+So this is GT American Mono.
+
+00:15:25.360 --> 00:15:28.060
+This is Vesterbro Poster, et cetera.
+
+00:15:28.060 --> 00:15:28.893
+And if I click,
+
+00:15:28.893 --> 00:15:30.000
+I can actually get a little
+bit more details about it.
+
+00:15:30.000 --> 00:15:31.320
+I can actually get a little
+bit more details about it.
+
+00:15:31.320 --> 00:15:33.770
+Oh, it's normal style, it's weight 400.
+
+00:15:33.770 --> 00:15:35.140
+That's the normal weight.
+
+00:15:35.140 --> 00:15:36.000
+95 size, good to know.
+
+00:15:36.000 --> 00:15:36.670
+95 size, good to know.
+
+00:15:36.670 --> 00:15:39.840
+The color is pure white,
+okay cool, whatever.
+
+00:15:39.840 --> 00:15:42.000
+This extension is available
+for Safari, for Chrome,
+
+00:15:42.000 --> 00:15:42.930
+This extension is available
+for Safari, for Chrome,
+
+00:15:42.930 --> 00:15:45.360
+for other Chrome-like
+browsers like Brave here.
+
+00:15:45.360 --> 00:15:46.740
+And a special shout out
+
+00:15:46.740 --> 00:15:48.000
+to Learn UI Design student Zack Michener
+
+00:15:48.000 --> 00:15:48.980
+to Learn UI Design student Zack Michener
+
+00:15:48.980 --> 00:15:52.340
+who developed a version of
+this extension for Firefox.
+
+00:15:52.340 --> 00:15:53.710
+I highly recommend that you
+
+00:15:53.710 --> 00:15:54.000
+start using this extension today.
+
+00:15:54.000 --> 00:15:55.640
+start using this extension today.
+
+00:15:55.640 --> 00:15:58.080
+And then every time you
+see a font that you like
+
+00:15:58.080 --> 00:15:59.670
+or even one that you don't really like
+
+00:15:59.670 --> 00:16:00.000
+but you're curious what it is,
+
+00:16:00.000 --> 00:16:01.200
+but you're curious what it is,
+
+00:16:01.200 --> 00:16:04.360
+hover over it and just
+put a face to a name.
+
+00:16:04.360 --> 00:16:05.470
+The more you can do this,
+
+00:16:05.470 --> 00:16:06.000
+the more you'll start
+building a mental repository
+
+00:16:06.000 --> 00:16:08.050
+the more you'll start
+building a mental repository
+
+00:16:08.050 --> 00:16:10.400
+of all the different
+fonts that are out there
+
+00:16:10.400 --> 00:16:12.000
+and when they sort of shine.
+
+00:16:12.000 --> 00:16:12.160
+and when they sort of shine.
+
+00:16:12.160 --> 00:16:14.150
+And so actually just to pull an example
+
+00:16:14.150 --> 00:16:17.780
+because I've been using this
+extension every day for years.
+
+00:16:17.780 --> 00:16:18.000
+I can't remember when I downloaded it,
+
+00:16:18.000 --> 00:16:19.250
+I can't remember when I downloaded it,
+
+00:16:19.250 --> 00:16:21.730
+but I don't really think
+there have been many days
+
+00:16:21.730 --> 00:16:24.000
+that have gone by where I
+haven't actually used it.
+
+00:16:24.000 --> 00:16:24.200
+that have gone by where I
+haven't actually used it.
+
+00:16:24.200 --> 00:16:27.960
+And even yesterday I was
+browsing a site called onXmaps
+
+00:16:27.960 --> 00:16:30.000
+which make these custom maps for hunters
+
+00:16:30.000 --> 00:16:30.060
+which make these custom maps for hunters
+
+00:16:30.060 --> 00:16:32.060
+or for people who like off-roading.
+
+00:16:32.060 --> 00:16:33.490
+And one thing I noticed
+
+00:16:33.490 --> 00:16:35.060
+is they had these very cool headlines,
+
+00:16:35.060 --> 00:16:36.000
+and I said, "Wow, I
+wonder what font that is?"
+
+00:16:36.000 --> 00:16:37.420
+and I said, "Wow, I
+wonder what font that is?"
+
+00:16:37.420 --> 00:16:38.490
+Easy enough to find out.
+
+00:16:38.490 --> 00:16:40.140
+It was Atlas Grotesque Web.
+
+00:16:40.140 --> 00:16:41.990
+And that was really interesting for me
+
+00:16:41.990 --> 00:16:42.000
+because I could immediately
+think of another site
+
+00:16:42.000 --> 00:16:44.470
+because I could immediately
+think of another site
+
+00:16:44.470 --> 00:16:46.270
+that uses Atlas Grotesque Web.
+
+00:16:46.270 --> 00:16:48.000
+Here is FiveThirtyEight, and
+you can see Atlas Grotesque Web
+
+00:16:48.000 --> 00:16:49.750
+Here is FiveThirtyEight, and
+you can see Atlas Grotesque Web
+
+00:16:49.750 --> 00:16:53.620
+for their headlines paired
+with Decimal Mono, interesting.
+
+00:16:53.620 --> 00:16:54.000
+But as you start to recognize
+
+00:16:54.000 --> 00:16:55.340
+But as you start to recognize
+
+00:16:55.340 --> 00:16:57.700
+seeing the same font
+in different contexts,
+
+00:16:57.700 --> 00:17:00.000
+you get a better sense of what
+that font can be used for.
+
+00:17:00.000 --> 00:17:00.820
+you get a better sense of what
+that font can be used for.
+
+00:17:00.820 --> 00:17:03.070
+So just in this particular example,
+
+00:17:03.070 --> 00:17:06.000
+look, when I make this
+font really big and bold
+
+00:17:06.000 --> 00:17:06.360
+look, when I make this
+font really big and bold
+
+00:17:06.360 --> 00:17:10.070
+and when I set it in this
+really brilliant, rich red,
+
+00:17:10.070 --> 00:17:12.000
+it has a very different feel
+
+00:17:12.000 --> 00:17:12.100
+it has a very different feel
+
+00:17:12.100 --> 00:17:14.240
+than when I have it be
+a little bit smaller
+
+00:17:14.240 --> 00:17:16.010
+and used for all these different headlines
+
+00:17:16.010 --> 00:17:18.000
+kind of throughout a site here.
+
+00:17:18.000 --> 00:17:18.220
+kind of throughout a site here.
+
+00:17:18.220 --> 00:17:19.150
+It's just one font,
+
+00:17:19.150 --> 00:17:20.960
+but you can see that
+you can kind of achieve
+
+00:17:20.960 --> 00:17:22.130
+a slightly different character
+
+00:17:22.130 --> 00:17:24.000
+by styling it slightly differently.
+
+00:17:24.000 --> 00:17:24.120
+by styling it slightly differently.
+
+00:17:24.120 --> 00:17:26.030
+And this is just one example.
+
+00:17:26.030 --> 00:17:27.710
+As you become a better
+and better designer,
+
+00:17:27.710 --> 00:17:30.000
+you'll start to recognize all
+sorts of fonts across the web.
+
+00:17:30.000 --> 00:17:31.410
+you'll start to recognize all
+sorts of fonts across the web.
+
+00:17:31.410 --> 00:17:32.330
+And that's it folks.
+
+00:17:32.330 --> 00:17:34.060
+That is all of the things that I would do
+
+00:17:34.060 --> 00:17:36.000
+to set up a new computer
+in order to design
+
+00:17:36.000 --> 00:17:36.350
+to set up a new computer
+in order to design
+
+00:17:36.350 --> 00:17:37.960
+as efficiently as possible.
+
+00:17:37.960 --> 00:17:40.390
+So take a look at the table below
+
+00:17:40.390 --> 00:17:41.670
+that goes through all of these things.
+
+00:17:41.670 --> 00:17:42.000
+I talk a little bit more about differences
+
+00:17:42.000 --> 00:17:43.410
+I talk a little bit more about differences
+
+00:17:43.410 --> 00:17:46.030
+between different design
+apps or operating systems.
+
+00:17:46.030 --> 00:17:47.410
+And also like I said,
+
+00:17:47.410 --> 00:17:48.000
+since so many of these
+little tools and things
+
+00:17:48.000 --> 00:17:49.350
+since so many of these
+little tools and things
+
+00:17:49.350 --> 00:17:52.500
+go out of date so much
+quicker than the actual skills
+
+00:17:52.500 --> 00:17:53.920
+of designing which is what we spend
+
+00:17:53.920 --> 00:17:54.000
+the rest of the course covering,
+
+00:17:54.000 --> 00:17:55.460
+the rest of the course covering,
+
+00:17:55.460 --> 00:17:58.950
+I will keep the text
+below more up-to-date.
+
+00:17:58.950 --> 00:18:00.000
+And if you see any problems or mistakes,
+
+00:18:00.000 --> 00:18:00.910
+And if you see any problems or mistakes,
+
+00:18:00.910 --> 00:18:02.170
+let me know so that it can be
+
+00:18:02.170 --> 00:18:04.780
+as useful as possible for
+all the other students.
+
+00:18:04.780 --> 00:18:06.000
+All right, thanks, and we'll
+see you in the next lesson.
+
+00:18:06.000 --> 00:18:07.253
+All right, thanks, and we'll
+see you in the next lesson.
+
