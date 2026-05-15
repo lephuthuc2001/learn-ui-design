@@ -1,11 +1,11 @@
 ---
 name: process-video
-description: Use when the user points at a video directory containing a master playlist (master.m3u8, _resMaster.m3u8, or index.m3u8) and wants subtitles fetched and notes written. Combines fetch-hotmart-vtt and vtt-to-notes into one end-to-end workflow.
+description: Use when the user points at a video directory containing a master playlist (master.m3u8, _resMaster.m3u8, or index.m3u8) and wants subtitles fetched, notes written, and Anki flashcards generated. Combines fetch-hotmart-vtt, vtt-to-notes, and notes-to-anki into one end-to-end workflow.
 ---
 
-# Process Video: VTT + Notes
+# Process Video: VTT + Notes + Anki
 
-End-to-end workflow: given a video directory with a master playlist, produce a `.vtt` subtitle file and a `.md` notes file.
+End-to-end workflow: given a video directory with a master playlist, produce a `.vtt` subtitle file, a `.md` notes file, an `.anki.md` flashcard file, and rendered diagram PNGs.
 
 ## Workflow
 
@@ -17,6 +17,10 @@ master.m3u8 / _resMaster.m3u8 / index.m3u8
                                                       │
                                                       ▼
                                               [vtt-to-notes]  →  <slug>.md
+                                                                    │
+                                                                    ▼
+                                                          [notes-to-anki]  →  <slug>.anki.md
+                                                                              + images/<slug>-card-*.png
 ```
 
 **Step 1 — Fetch the VTT**
@@ -27,9 +31,18 @@ node fetch.js <video-directory>
 The script auto-detects `master.m3u8`, `_resMaster.m3u8`, or `index.m3u8` — whichever exists.
 Output: `<video-directory>/<slug>.vtt`
 
-**Step 2 — Write the notes**
-Invoke the `vtt-to-notes` skill on the `.vtt` file just created.
+**Step 2 — Write the notes (dispatch as subagent)**
+The `.vtt` file is large (often 30k+ tokens) and would permanently bloat main context. Dispatch this step to a **general-purpose subagent** with a self-contained prompt that:
+- Names the exact `.vtt` path and the expected output `.md` path
+- Tells the agent to load the `vtt-to-notes` skill and follow it
+- Reminds it to preserve the instructor's voice (direct quotes in `>` blockquotes), include asides, and use Mermaid with `<br/>` for line breaks
+
+The agent reads the VTT, writes the `.md`, and reports back. Only the final `.md` enters main context.
 Output: `<video-directory>/<slug>.md`
+
+**Step 3 — Generate Anki flashcards (inline, in main thread)**
+Run inline so you can eyeball the cards and steer phrasing. Invoke the `notes-to-anki` skill on the `.md` notes file. The skill writes the card file and renders Mermaid diagrams to PNGs with `mmdc`.
+Output: `<video-directory>/<slug>.anki.md` + `<video-directory>/images/<slug>-card-*.png`
 
 ## Usage
 
@@ -37,15 +50,20 @@ User provides one of:
 - A directory path: `introduction/start-a-project-with-brand-and-goals`
 - A file path pointing to the master playlist
 
-Derive the slug from the directory name (lowercase, hyphenated). Use that slug for both output files.
+Derive the slug from the directory name (lowercase, hyphenated). Use that slug for all output files.
 
 ## Output Structure
 
 ```
 <unit>/
 └── <slug>/
-    ├── <slug>.vtt    ← fetched subtitles
-    └── <slug>.md     ← notes written from VTT
+    ├── <slug>.vtt        ← fetched subtitles
+    ├── <slug>.md         ← notes written from VTT
+    ├── <slug>.anki.md    ← Anki Q/A cards with Mermaid blocks
+    └── images/
+        ├── <slug>-card-1.png
+        ├── <slug>-card-2.png
+        └── ...
 ```
 
 ## Prerequisites
@@ -53,3 +71,4 @@ Derive the slug from the directory name (lowercase, hyphenated). Use that slug f
 - One of `master.m3u8`, `_resMaster.m3u8`, or `index.m3u8` must exist in the directory
 - `hdntl` token must not be expired — the script checks this automatically and errors clearly if expired
 - If token is expired: tell the user to re-open the video in their browser, which regenerates the master playlist file
+- `mmdc` (`@mermaid-js/mermaid-cli`) must be installed globally for Step 3 to render diagrams
