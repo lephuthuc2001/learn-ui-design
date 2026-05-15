@@ -203,14 +203,16 @@ mkdir -p <unit>/<video-slug>/images
 mmdc \
   -i <unit>/<video-slug>/<slug>.anki.md \
   -o <unit>/<video-slug>/images/<slug>-card.png \
-  -t default -b transparent
+  -t dark -b "#1f1f1f"
 ```
 
 This writes `<slug>-card-1.png`, `<slug>-card-2.png`, etc., one per Mermaid block, in document order. `mmdc` is installed globally (`@mermaid-js/mermaid-cli`); no per-run install needed.
 
+`-t dark -b "#1f1f1f"` renders arrows and labels in light colors so they're visible against Anki's dark mode background. Do not use `-t default -b transparent` — default-theme arrows are dark and invisible on dark backgrounds.
+
 Flags worth knowing:
-- `-t default | dark | forest | neutral` — theme
-- `-b transparent | white | <hex>` — background
+- `-t dark` — use for Anki dark mode (light arrows on dark bg)
+- `-b <hex>` — match Anki's card background (`#1f1f1f` is a close approximation)
 - `-w 1200 -H 800` — explicit width/height if a diagram is getting clipped
 - `-c config.json` — custom Mermaid config (rarely needed)
 
