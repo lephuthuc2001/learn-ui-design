@@ -20,6 +20,7 @@ introduction/
 ## Core Workflow
 
 **Fetch subtitles from a video directory:**
+
 ```bash
 node fetch.js <video-directory>
 # e.g. node fetch.js introduction/building-gut-instinct
@@ -37,11 +38,11 @@ The shared `fetch.js` at the repo root auto-detects the master playlist, validat
 
 Three custom skills live in `.claude/skills/`:
 
-| Skill | Trigger |
-|-------|---------|
+| Skill               | Trigger                                       |
+| ------------------- | --------------------------------------------- |
 | `fetch-hotmart-vtt` | Directory has a master playlist but no `.vtt` |
-| `vtt-to-notes` | `.vtt` exists and notes need to be written |
-| `process-video` | End-to-end: fetch + write notes in one go |
+| `vtt-to-notes`      | `.vtt` exists and notes need to be written    |
+| `process-video`     | End-to-end: fetch + write notes in one go     |
 
 ## Notes Style (from `vtt-to-notes` skill)
 
