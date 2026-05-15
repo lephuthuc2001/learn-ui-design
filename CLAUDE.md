@@ -44,6 +44,24 @@ Three custom skills live in `.claude/skills/`:
 | `vtt-to-notes`      | `.vtt` exists and notes need to be written    |
 | `process-video`     | End-to-end: fetch + write notes in one go     |
 
+## Anki Deck
+
+All Anki cards and sub-decks for this repo must be created inside **`UI/UX::Learn UI Design`** (deck ID `1778403436058`). Never create cards or decks at the top level or under any other parent.
+
+### Sub-deck hierarchy
+
+The `create_deck` MCP tool only supports 2-level names (`Parent::Child`), so decks deeper than 2 levels (e.g. `UI/UX::Learn UI Design::01. Introduction::01. Begin Here`) must be **created manually in the Anki GUI first**. Once the deck exists, `add_notes` will work with the full path.
+
+### Uploading images from WSL
+
+AnkiMCP runs on Windows and cannot read Linux paths. Use the Windows UNC path to the WSL filesystem instead:
+
+```
+\\wsl.localhost\Ubuntu\home\lephuthuc\learn-ui-design\<relative-path>
+```
+
+Pass this as the `path` argument to `store_media_file`.
+
 ## Notes Style (from `vtt-to-notes` skill)
 
 - Preserve the instructor's voice — use `>` blockquotes for direct quotes, not paraphrases

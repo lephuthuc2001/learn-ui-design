@@ -1,11 +1,11 @@
 ---
 name: process-video
-description: Use when the user points at a video directory containing a master playlist (master.m3u8, _resMaster.m3u8, or index.m3u8) and wants subtitles fetched, notes written, and Anki flashcards generated. Combines fetch-hotmart-vtt, vtt-to-notes, and notes-to-anki into one end-to-end workflow.
+description: Use when the user points at a video directory containing a master playlist (master.m3u8, _resMaster.m3u8, or index.m3u8) and wants subtitles fetched, notes written, Anki flashcards generated, and cards uploaded to Anki. Combines fetch-hotmart-vtt, vtt-to-notes, notes-to-anki, and anki-upload into one end-to-end workflow.
 ---
 
 # Process Video: VTT + Notes + Anki
 
-End-to-end workflow: given a video directory with a master playlist, produce a `.vtt` subtitle file, a `.md` notes file, an `.anki.md` flashcard file, and rendered diagram PNGs.
+End-to-end workflow: given a video directory with a master playlist, produce a `.vtt` subtitle file, a `.md` notes file, an `.anki.md` flashcard file, rendered diagram PNGs, and upload all cards to Anki.
 
 ## Workflow
 
@@ -21,6 +21,9 @@ master.m3u8 / _resMaster.m3u8 / index.m3u8
                                                                     ▼
                                                           [notes-to-anki]  →  <slug>.anki.md
                                                                               + images/<slug>-card-*.png
+                                                                                    │
+                                                                                    ▼
+                                                                            [anki-upload]  →  cards in Anki
 ```
 
 **Step 1 — Fetch the VTT**
@@ -43,6 +46,10 @@ Output: `<video-directory>/<slug>.md`
 **Step 3 — Generate Anki flashcards (inline, in main thread)**
 Run inline so you can eyeball the cards and steer phrasing. Invoke the `notes-to-anki` skill on the `.md` notes file. The skill writes the card file and renders Mermaid diagrams to PNGs with `mmdc`.
 Output: `<video-directory>/<slug>.anki.md` + `<video-directory>/images/<slug>-card-*.png`
+
+**Step 4 — Upload cards to Anki (inline, in main thread)**
+Invoke the `anki-upload` skill on the `.anki.md` file produced in Step 3. The skill uploads images and batch-creates all cards in the correct `UI/UX::Learn UI Design` sub-deck via the AnkiMCP server.
+Output: cards live in Anki, tagged and organized by lesson.
 
 ## Usage
 
