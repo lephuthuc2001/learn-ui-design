@@ -9,6 +9,13 @@ description: Use when uploading Anki flashcards from a <slug>.anki.md file to th
 
 Given a `<slug>.anki.md` flashcard file (produced by `notes-to-anki`), upload all cards to the Anki desktop app via the AnkiMCP MCP server tools.
 
+**Always dispatch this as a subagent.** The work is fully mechanical (parse → upload images → upload cards), needs no steering, and the MCP responses are verbose. The main thread only needs the final report.
+
+When invoking as a subagent, pass:
+- The exact `.anki.md` path
+- The instruction to follow the `anki-upload` skill
+- The expectation that it returns a short summary: cards created / skipped / failed, deck name, images uploaded
+
 ## Input
 
 Path to the `.anki.md` file:
