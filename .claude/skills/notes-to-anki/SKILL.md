@@ -141,16 +141,27 @@ Prioritize:
 
 ## Selection Guidelines
 
+The core question for every potential card: **"Six months from now, mid-project, would having drilled this card have helped me design better?"** If yes, include it. If it would just confirm something you already know — or something irrelevant to the act of designing — skip it.
+
 **Do include:**
-- Every named tool, framework, or rule of thumb
-- Each counterexample the instructor uses to test a rule
-- Distinctive quotes that capture the instructor's stance (e.g. *"Aesthetics is not magic"*)
-- The "why" behind each principle, not just the "what"
+
+- **Counter-intuitive insights** — things you'd get wrong without having studied them ("Why does *less* make something feel more expensive?")
+- **Multi-part frameworks** — any list of 3+ items that needs to be held in memory together; you can't reconstruct these from logic alone
+- **The reasoning behind rules** — not just "use more white space" but *why* it signals value; knowing the why lets you apply the rule in novel situations
+- **Decision heuristics** — things you'd actually invoke at the keyboard: "when do I pick X vs Y?", "what do I do first?"
+- **Counterexamples that test a rule** — the instructor's examples that show where a principle breaks or bends
+- **Memorable quotes** — only when the phrasing itself carries the insight, not just because it's quotable
 
 **Do not include:**
-- Throwaway transitions ("let's switch gears", "stay with me for a second")
-- Trivia that doesn't generalize ("Hue at 263, hue at 260")
-- Mechanical paraphrases that just restate the question
+
+- **Things you'd do naturally** — if a principle is so obvious you'd follow it without prompting, drilling it wastes review time
+- **Course metadata** — what a unit or lesson is "about", lesson titles, course structure. "What is Unit 1 about?" has zero design content.
+- **Names without substance** — "What is the Six Strategies of Simplicity?" is not a card. The six strategies are the cards. Never card a label when the content behind it is what matters.
+- **Instructor-specific resources** — tools, templates, or databases the instructor mentions using in their own practice (e.g. a font database they built). These can be Googled if ever needed.
+- **Specific numbers or measurements from demos** — exact hex values, pixel counts, or settings from a screen recording don't generalize.
+- **Throwaway transitions** — "let's switch gears", "as I mentioned earlier", course logistics.
+
+**A second test for borderline cases:** Would you answer this card correctly on the first try, right now, without hesitation? If yes, don't card it — Anki is for the things you'd forget, not the things you already know.
 
 ## Style
 
