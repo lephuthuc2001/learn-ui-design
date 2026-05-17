@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MINIMALIST. - Personal Blog</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed": "#e3e2e2",
+                        "inverse-on-surface": "#f1f1f1",
+                        "primary-container": "#1b1b1b",
+                        "on-tertiary-container": "#848484",
+                        "on-background": "#1a1c1c",
+                        "surface-container-lowest": "#ffffff",
+                        "background": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "primary-fixed-dim": "#c6c6c6",
+                        "on-tertiary-fixed-variant": "#474747",
+                        "on-error": "#ffffff",
+                        "surface-container": "#eeeeee",
+                        "inverse-surface": "#2f3131",
+                        "on-secondary-fixed": "#1b1c1c",
+                        "primary-fixed": "#e2e2e2",
+                        "on-secondary-fixed-variant": "#464747",
+                        "secondary": "#5e5e5e",
+                        "surface": "#f9f9f9",
+                        "on-primary-container": "#848484",
+                        "error": "#ba1a1a",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#1b1b1b",
+                        "outline-variant": "#cfc4c5",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed-variant": "#474747",
+                        "surface-tint": "#5e5e5e",
+                        "on-surface": "#1a1c1c",
+                        "on-primary-fixed": "#1b1b1b",
+                        "secondary-fixed-dim": "#c7c6c6",
+                        "surface-bright": "#f9f9f9",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed": "#1b1b1b",
+                        "secondary-container": "#e3e2e2",
+                        "inverse-primary": "#c6c6c6",
+                        "surface-dim": "#dadada",
+                        "on-surface-variant": "#4c4546",
+                        "tertiary": "#000000",
+                        "error-container": "#ffdad6",
+                        "tertiary-fixed": "#e2e2e2",
+                        "on-primary": "#ffffff",
+                        "primary": "#000000",
+                        "outline": "#7e7576",
+                        "surface-variant": "#e2e2e2",
+                        "on-secondary-container": "#646464",
+                        "surface-container-high": "#e8e8e8",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "surface-container-low": "#f3f3f3"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "max-width": "1200px",
+                        "reading-width": "680px",
+                        "margin-mobile": "20px",
+                        "gutter": "32px",
+                        "margin-desktop": "64px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "body-md": ["Inter"],
+                        "headline-lg": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "label-md": ["Inter"],
+                        "caption": ["Inter"],
+                        "display-lg": ["Inter"],
+                        "display-lg-mobile": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", { "lineHeight": "1.75", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.3", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "1.4", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "caption": ["12px", { "lineHeight": "1.4", "fontWeight": "400" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col antialiased">
+<!-- TopAppBar Component -->
+<header class="bg-surface border-b border-surface-variant w-full">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-gutter max-w-max-width mx-auto">
+<!-- Brand -->
+<a class="text-headline-md font-headline-md font-bold tracking-tighter text-primary" href="#">MINIMALIST.</a>
+<!-- Navigation -->
+<nav class="hidden md:flex gap-8">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 text-label-md font-label-md hover:text-primary transition-colors duration-200" href="#">Journal</a>
+<a class="text-secondary text-label-md font-label-md hover:text-primary transition-colors duration-200" href="#">Archives</a>
+<a class="text-secondary text-label-md font-label-md hover:text-primary transition-colors duration-200" href="#">About</a>
+</nav>
+<!-- Actions -->
+<div class="flex items-center gap-4">
+<button aria-label="RSS Feed" class="text-primary hover:text-secondary transition-colors duration-200">
+<span class="material-symbols-outlined" data-icon="rss_feed">rss_feed</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content Area -->
+<div class="flex-grow w-full max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop py-10 md:py-20 flex flex-col lg:flex-row gap-gutter lg:gap-16">
+<!-- Sidebar (SideNavBar conceptually adapted for layout) -->
+<aside class="w-full lg:w-64 shrink-0 flex flex-col gap-10">
+<!-- Author Bio -->
+<div class="flex flex-col gap-4">
+<img alt="Author portrait" class="w-20 h-20 rounded-full object-cover grayscale border border-surface-variant" data-alt="A stark black and white headshot portrait of an author, looking directly at the camera with a neutral, thoughtful expression. The lighting is soft but high contrast, emphasizing structural facial features. The background is pure white, creating a crisp silhouette. This adheres to a strict minimalist, high-fidelity monochromatic aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCU6lSfMcgMENGvNbViS4lOQ9FDt3rRLtug_amLN9xpbkku0FJt_yJ_RU4ovPtvHjWgjqaYExp9dOmYbqait_pTC-fVaGlG6wBbwUMYvt25lwWZr-_H3ZgiysACwgc34PNku0S-8qcP52wX1jjAni9vFKQpMC4ypikwBYmWytg752LJMRlJ-jDL_Qv3QyY8B76G-HIPcdOhGHcY7TYbIa36ih7A4RCNRpb0GCyR7YVkB49hVD0poFHKiGlTFiev13knP5QBPFTn3mRz"/>
+<div>
+<h2 class="text-headline-md font-headline-md text-primary">The Editor</h2>
+<p class="text-body-md font-body-md text-secondary mt-2">Notes on structural clarity and the digital void.</p>
+</div>
+<button class="bg-primary text-on-primary py-2 px-4 hover:bg-[#262626] transition-colors text-label-md font-label-md mt-2 w-fit">
+                    Subscribe to Newsletter
+                </button>
+</div>
+<!-- Categories -->
+<div class="flex flex-col gap-2">
+<h3 class="text-label-md font-label-md text-secondary uppercase tracking-widest mb-2">Categories</h3>
+<nav class="flex flex-col gap-3">
+<a class="flex items-center gap-3 text-secondary hover:text-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary transition-colors" data-icon="palette">palette</span>
+<span class="text-label-md font-label-md">Design</span>
+</a>
+<a class="flex items-center gap-3 text-secondary hover:text-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary transition-colors" data-icon="computer">computer</span>
+<span class="text-label-md font-label-md">Technology</span>
+</a>
+<a class="flex items-center gap-3 text-secondary hover:text-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary transition-colors" data-icon="psychology">psychology</span>
+<span class="text-label-md font-label-md">Philosophy</span>
+</a>
+<a class="flex items-center gap-3 text-secondary hover:text-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary transition-colors" data-icon="grid_view">grid_view</span>
+<span class="text-label-md font-label-md">Minimalism</span>
+</a>
+<a class="flex items-center gap-3 text-secondary hover:text-primary transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary transition-colors" data-icon="calendar_today">calendar_today</span>
+<span class="text-label-md font-label-md">Monthly Wrap</span>
+</a>
+</nav>
+</div>
+<!-- Footer Links in Sidebar -->
+<div class="flex flex-col gap-2 mt-auto pt-10 border-t border-surface-variant">
+<nav class="flex flex-col gap-3">
+<a class="flex items-center gap-3 text-secondary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="security">security</span>
+<span class="text-label-md font-label-md">Privacy</span>
+</a>
+<a class="flex items-center gap-3 text-secondary hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="gavel">gavel</span>
+<span class="text-label-md font-label-md">Legal</span>
+</a>
+</nav>
+</div>
+</aside>
+<!-- Canvas / Reading Zone -->
+<main class="w-full lg:w-reading-width lg:mx-auto flex flex-col gap-12">
+<!-- Article Card 1 -->
+<article class="flex flex-col gap-4 pb-12 border-b border-surface-variant group">
+<div class="flex items-center gap-3 text-caption font-caption text-secondary">
+<time datetime="2024-05-12">May 12, 2024</time>
+<span class="w-1 h-1 bg-surface-variant rounded-full"></span>
+<span class="uppercase tracking-wider">Design</span>
+</div>
+<a class="group-hover:opacity-80 transition-opacity block" href="#">
+<img alt="Minimalist architecture" class="w-full h-[300px] object-cover grayscale mb-6" data-alt="A stark, high-contrast black and white photograph of minimalist architecture. Sharp, angular concrete forms intersect against a plain, blown-out white sky. The lighting creates deep, solid black shadows that contrast heavily with pure white surfaces, emphasizing geometry over texture. The aesthetic is extremely clean, cold, and structural." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJBhA64kr7YcAZq4VoINUGK8Wu2QLYf1ABUrJzy-FULYhvA7sokTSEcZLdMPa2w-eOU-0X_I6OUmGirdWVGzgU1yb7kROx77VTNcGlgxFrG2GS3R-7ooNazXysvZw0incJtaOqo-Mj0WXuGBt-aWCE2iAm-aYgrx86Xes8Nf7s1pmR3RCBA4iznKqKY0WGL0zg1V4cP_kHeAgrVz7ZoY5F7AKC2x0phE8iYG1yMDayMFZsU-93_xijcnZ8mWu70eV0fwSeOmov1YiA"/>
+</a>
+<a class="group-hover:text-secondary transition-colors" href="#">
+<h2 class="text-headline-lg md:text-display-lg-mobile font-headline-lg md:font-display-lg-mobile text-primary">The Architecture of Emptiness</h2>
+</a>
+<p class="text-body-lg font-body-lg text-on-surface-variant">
+                    Exploring how intentional negative space shapes our perception of digital environments. When we strip away the superfluous, we force the user to confront the core utility of the product. Silence is a design tool.
+                </p>
+<a class="text-label-md font-label-md text-primary hover:text-secondary transition-colors mt-2 inline-flex items-center gap-1 w-fit border-b border-primary pb-0.5" href="#">
+                    Read Essay
+                    <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+<!-- Article Card 2 -->
+<article class="flex flex-col gap-4 pb-12 border-b border-surface-variant group">
+<div class="flex items-center gap-3 text-caption font-caption text-secondary">
+<time datetime="2024-04-28">April 28, 2024</time>
+<span class="w-1 h-1 bg-surface-variant rounded-full"></span>
+<span class="uppercase tracking-wider">Technology</span>
+</div>
+<a class="group-hover:text-secondary transition-colors" href="#">
+<h2 class="text-headline-lg font-headline-lg text-primary">Friction as a Feature</h2>
+</a>
+<p class="text-body-lg font-body-lg text-on-surface-variant">
+                    Modern UX obsesses over 'seamlessness' to a fault. By removing all friction, we also remove cognitive engagement. Introducing artificial barriers can sometimes elevate a task from a chore to a ritual.
+                </p>
+<a class="text-label-md font-label-md text-primary hover:text-secondary transition-colors mt-2 inline-flex items-center gap-1 w-fit border-b border-primary pb-0.5" href="#">
+                    Read Essay
+                    <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+<!-- Article Card 3 -->
+<article class="flex flex-col gap-4 pb-12 border-b border-surface-variant group">
+<div class="flex items-center gap-3 text-caption font-caption text-secondary">
+<time datetime="2024-04-15">April 15, 2024</time>
+<span class="w-1 h-1 bg-surface-variant rounded-full"></span>
+<span class="uppercase tracking-wider">Philosophy</span>
+</div>
+<a class="group-hover:text-secondary transition-colors" href="#">
+<h2 class="text-headline-lg font-headline-lg text-primary">The Tyranny of Choice</h2>
+</a>
+<p class="text-body-lg font-body-lg text-on-surface-variant">
+                    Infinite scroll and endless configuration options are presented as freedom, but they are often paralyzing. A tightly curated, opinionated system respects the user's time more than an open sandbox.
+                </p>
+<a class="text-label-md font-label-md text-primary hover:text-secondary transition-colors mt-2 inline-flex items-center gap-1 w-fit border-b border-primary pb-0.5" href="#">
+                    Read Essay
+                    <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</article>
+<!-- Pagination -->
+<div class="flex justify-between items-center py-4">
+<button class="text-secondary text-label-md font-label-md opacity-50 cursor-not-allowed">
+                    Newer
+                </button>
+<button class="text-primary hover:text-secondary transition-colors text-label-md font-label-md flex items-center gap-1">
+                    Older
+                    <span class="material-symbols-outlined text-[16px]" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</main>
+</div>
+<!-- Footer Component -->
+<footer class="bg-surface border-t border-surface-variant mt-auto">
+<div class="w-full py-12 px-margin-mobile md:px-margin-desktop mt-20 flex flex-col md:flex-row justify-between items-center max-w-max-width mx-auto gap-8 md:gap-0">
+<span class="text-label-md font-label-md font-bold text-primary">
+                © 2024 MINIMALIST. ALL RIGHTS RESERVED.
+            </span>
+<nav class="flex gap-6">
+<a class="text-secondary text-label-md font-label-md hover:text-primary transition-colors" href="#">RSS</a>
+<a class="text-secondary text-label-md font-label-md hover:text-primary transition-colors" href="#">Newsletter</a>
+<a class="text-secondary text-label-md font-label-md hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+</div>
+</footer>
+</body></html>

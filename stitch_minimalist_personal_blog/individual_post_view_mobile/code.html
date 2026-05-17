@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MINIMALIST. - Individual Post View</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary-fixed": "#e3e2e2",
+                      "primary-fixed": "#e2e2e2",
+                      "on-primary-fixed": "#1b1b1b",
+                      "secondary-fixed-dim": "#c7c6c6",
+                      "on-secondary-fixed-variant": "#464747",
+                      "surface-variant": "#e2e2e2",
+                      "error": "#ba1a1a",
+                      "tertiary-container": "#1b1b1b",
+                      "error-container": "#ffdad6",
+                      "primary-container": "#1b1b1b",
+                      "inverse-on-surface": "#f1f1f1",
+                      "on-background": "#1a1c1c",
+                      "surface-container-high": "#e8e8e8",
+                      "on-tertiary-fixed-variant": "#474747",
+                      "on-error-container": "#93000a",
+                      "outline": "#7e7576",
+                      "surface-bright": "#f9f9f9",
+                      "primary": "#000000",
+                      "tertiary-fixed-dim": "#c6c6c6",
+                      "on-secondary-container": "#646464",
+                      "surface-container-highest": "#e2e2e2",
+                      "on-error": "#ffffff",
+                      "outline-variant": "#cfc4c5",
+                      "on-secondary-fixed": "#1b1c1c",
+                      "on-surface-variant": "#4c4546",
+                      "surface-container-low": "#f3f3f3",
+                      "on-surface": "#1a1c1c",
+                      "tertiary-fixed": "#e2e2e2",
+                      "on-tertiary": "#ffffff",
+                      "surface-tint": "#5e5e5e",
+                      "on-primary-container": "#848484",
+                      "tertiary": "#000000",
+                      "inverse-surface": "#2f3131",
+                      "on-primary": "#ffffff",
+                      "on-tertiary-fixed": "#1b1b1b",
+                      "background": "#f9f9f9",
+                      "on-primary-fixed-variant": "#474747",
+                      "secondary": "#5e5e5e",
+                      "inverse-primary": "#c6c6c6",
+                      "surface-container": "#eeeeee",
+                      "primary-fixed-dim": "#c6c6c6",
+                      "secondary-container": "#e3e2e2",
+                      "on-secondary": "#ffffff",
+                      "surface-dim": "#dadada",
+                      "surface-container-lowest": "#ffffff",
+                      "surface": "#f9f9f9",
+                      "on-tertiary-container": "#848484"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "32px",
+                      "unit": "8px",
+                      "margin-mobile": "20px",
+                      "max-width": "1200px",
+                      "margin-desktop": "64px",
+                      "reading-width": "680px"
+              },
+              "fontFamily": {
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "headline-lg": [
+                              "Inter"
+                      ],
+                      "label-md": [
+                              "Inter"
+                      ],
+                      "display-lg-mobile": [
+                              "Inter"
+                      ],
+                      "display-lg": [
+                              "Inter"
+                      ],
+                      "caption": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Inter"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ]
+              },
+              "fontSize": {
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "40px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "display-lg": [
+                              "64px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.75",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+<!-- TopAppBar (Mobile) -->
+<header class="bg-surface border-b border-surface-variant flex justify-between items-center w-full px-margin-mobile py-unit-4 max-w-max-width mx-auto">
+<div class="flex items-center gap-4">
+<button class="text-primary hover:text-primary transition-colors duration-200">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<a class="text-headline-md font-headline-md font-bold tracking-tighter text-primary" href="#">MINIMALIST.</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-primary hover:text-primary transition-colors duration-200">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+<button class="text-primary hover:text-primary transition-colors duration-200 opacity-80">
+<span class="material-symbols-outlined" data-icon="rss_feed">rss_feed</span>
+</button>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow flex flex-col items-center w-full">
+<!-- Article Container -->
+<article class="w-full max-w-reading-width px-margin-mobile py-8 md:py-16">
+<!-- Article Header -->
+<header class="mb-10 text-center">
+<div class="mb-4">
+<span class="text-label-md font-label-md text-secondary uppercase tracking-widest border border-outline px-2 py-1">Minimalism</span>
+</div>
+<h1 class="text-display-lg-mobile font-display-lg-mobile text-primary mb-6">The Architecture of Silence</h1>
+<div class="flex items-center justify-center gap-4 text-secondary text-caption font-caption mt-6 border-y border-surface-variant py-4">
+<div class="flex items-center gap-2">
+<img alt="Author" class="w-8 h-8 rounded-full border border-outline-variant grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBN7P2w0TOaVWoe47cBzy6uFXzFNw6lJJVyzI_miSYAFBAfQRms_BQGZ55c30xLKJBQALHQPDsNcyqALU4dJpHST_eil0-IqU8Eq9GiSfxzFPHeyTlxBsyYa_Y-U0QH9sQvOhGZG7qc2Fpl0z10moaJasgVWoEkkRv4vpJIeLJeOYlKrICRKluyt_6fHxrV3Rd1nHJyuyCndbMYqVmbLb15rawbLE3jRulbPfZ2QfaEL1GE1MlfZUZrwD2Gl5KD1INynMfpLgsBqo8Z"/>
+<span class="font-medium text-primary">The Editor</span>
+</div>
+<span>•</span>
+<time datetime="2023-10-27">October 27, 2023</time>
+<span>•</span>
+<span>5 min read</span>
+</div>
+</header>
+<!-- Hero Image -->
+<figure class="mb-12">
+<img class="w-full h-auto object-cover border border-surface-variant grayscale opacity-90 hover:opacity-100 transition-opacity duration-500" data-alt="A sparse, minimalist interior featuring a single, brutalist concrete chair against a stark white wall. Soft, natural daylight casts long, distinct shadows across a pale wooden floor, emphasizing geometric purity. The atmosphere is profoundly silent and contemplative, executed in a strict monochrome palette of white, grey, and subtle off-white tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJSaYwMajLOr3Lb8GCzFCSXlQ-sKO0PxPY9OjC5nvrzpvLG0H6m1OZoijTMx9K9S-pV47zRZ3ktULmEt9JnyxpMNFywBpSoIuowy7nZ_1lTw1H_cy3wjlf05GAaqDu8OYPnm-xv0SyyODBdjEv3UidWzM-hazwqRSAICVjl_VlIHJrxrxangnEe4O3IsIzDMxuH2U-i8lYSxCwi7XuBNXSaXpJ5pJBFe8Qcb8TeK8U3mItMzYF_1qv1OYOKYmsXPtWqmodl_uX8kL1"/>
+<figcaption class="text-caption font-caption text-secondary mt-3 text-center">Form follows nothingness.</figcaption>
+</figure>
+<!-- Article Body -->
+<div class="prose prose-p:text-body-md prose-p:font-body-md prose-p:text-on-background prose-p:mb-6 prose-p:leading-relaxed prose-headings:text-primary prose-h2:text-headline-lg prose-h2:font-headline-lg prose-h2:mt-12 prose-h2:mb-6 prose-a:text-primary prose-a:underline prose-a:underline-offset-4 hover:prose-a:text-secondary transition-colors max-w-none">
+<p class="text-body-lg font-body-lg text-secondary-fixed-dim border-l-2 border-primary pl-4 mb-8 italic">
+                    "We are drowning in information, while starving for wisdom. The modern interface must be a sanctuary, not a billboard."
+                </p>
+<p>
+                    In an era defined by incessant digital noise, the act of removal becomes a radical form of creation. Structural minimalism is not merely an aesthetic choice; it is an editorial stance. By stripping away the superfluous—color, depth, artificial textures—we force the content to stand on its own merit.
+                </p>
+<p>
+                    Consider the white space not as an emptiness to be filled, but as a physical material. It is the mortar that holds the bricks of typography together. When we compress the grid, we suffocate thought. When we expand it, we allow ideas to breathe.
+                </p>
+<h2 class="text-headline-lg font-headline-lg border-b border-surface-variant pb-2">The Typographic Grid</h2>
+<p>
+                    The Swiss International Style taught us that a strict grid is liberating, not confining. It provides a mathematical certainty to the page. In digital environments, this translates to predictable line lengths—ideally between 60 and 80 characters—ensuring the eye does not tire as it tracks back across the screen.
+                </p>
+<ul class="list-disc list-inside text-body-md font-body-md text-on-background mb-8 space-y-2 marker:text-outline">
+<li>Prioritize legibility over decoration.</li>
+<li>Establish a clear, unambiguous hierarchy.</li>
+<li>Utilize high contrast for essential elements only.</li>
+</ul>
+<p>
+                    We have adopted a monochromatic palette because color is often used as a crutch to compensate for weak structural hierarchy. By relying on weight, scale, and proximity, we build interfaces that are inherently robust.
+                </p>
+<h2 class="text-headline-lg font-headline-lg border-b border-surface-variant pb-2">The Death of the Drop Shadow</h2>
+<p>
+                    Skeuomorphism and its modern descendants rely on visual lies—the illusion of depth on a flat pane of glass. By removing shadows and blurs, we embrace the digital medium for what it is. Elements are separated by simple, low-contrast 1px outlines. State changes are communicated through stark inversions.
+                </p>
+<div class="bg-surface-container p-6 my-8 border border-surface-variant flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-1" data-icon="format_quote">format_quote</span>
+<p class="m-0 text-body-md font-body-md text-secondary">
+                        The screen is a 2D surface. Acknowledging this limitation is the first step toward honest design.
+                     </p>
+</div>
+<p>
+                    Ultimately, this approach asks more of the creator and respects the time of the consumer. It is an architecture built for silence, designed for reading, and engineered for clarity.
+                </p>
+</div>
+<!-- Tags & Sharing -->
+<div class="mt-12 pt-8 border-t border-surface-variant flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex gap-2">
+<span class="text-label-md font-label-md bg-surface border border-outline-variant px-3 py-1 text-secondary">Design</span>
+<span class="text-label-md font-label-md bg-surface border border-outline-variant px-3 py-1 text-secondary">Theory</span>
+</div>
+<div class="flex gap-4">
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]" data-icon="share">share</span>
+<span class="text-label-md font-label-md">Share</span>
+</button>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]" data-icon="bookmark">bookmark</span>
+<span class="text-label-md font-label-md">Save</span>
+</button>
+</div>
+</div>
+<!-- Author Bio -->
+<div class="mt-12 bg-surface border border-surface-variant p-6 flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
+<img alt="Author" class="w-20 h-20 rounded-full border border-outline-variant grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgawjOp1RBje4rk5rWfvwnnqQTbNERBS0Eq2bRBzarYvymCMm2Tk2txH6hTIRI4lq08LQ-RsPtHJjRvl9H0t5b4gCsbE2yaV_JMnLbu177Ku59-uXW9cRPoGg0JL1oOo-2Got1IjOMKNADwWc3ZbzZO3jYv145PjggI06pbNY37WObsevqJh80e8xLpsJhfRwHq1lK7j519SD-FT2lZ98NBM17VARhEuFdyTVB4VxkbN2ol9S4bhduAc2CdsLnJ6BYf-LMQCvhV6w_"/>
+<div>
+<h3 class="text-headline-md font-headline-md text-primary mb-2">The Editor</h3>
+<p class="text-body-md font-body-md text-secondary mb-4">Notes on structural clarity and the digital void. Exploring the intersection of minimalism, typography, and human attention.</p>
+<button class="bg-primary text-on-primary text-label-md font-label-md px-6 py-2 hover:bg-tertiary-container transition-colors">Subscribe to Author</button>
+</div>
+</div>
+</article>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 px-margin-mobile mt-10 border-t border-surface-variant bg-surface flex flex-col justify-center items-center gap-6">
+<div class="text-label-md font-label-md font-bold text-primary text-center">
+            MINIMALIST.
+        </div>
+<div class="flex gap-6">
+<a class="text-secondary hover:text-primary transition-colors text-label-md font-label-md" href="#">RSS</a>
+<a class="text-secondary hover:text-primary transition-colors text-label-md font-label-md" href="#">Newsletter</a>
+<a class="text-secondary hover:text-primary transition-colors text-label-md font-label-md" href="#">Contact</a>
+</div>
+<div class="text-caption font-caption text-secondary text-center">
+            © 2024 MINIMALIST. ALL RIGHTS RESERVED.
+        </div>
+</footer>
+</body></html>

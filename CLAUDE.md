@@ -62,6 +62,17 @@ AnkiMCP runs on Windows and cannot read Linux paths. Use the Windows UNC path to
 
 Pass this as the `path` argument to `store_media_file`.
 
+## Publishing Notes to the Blog
+
+Finished notes graduate from this repo to the blog at `~/blog`. To publish a note:
+
+1. Copy the `.md` file to `~/blog/src/content/notes/learn-ui-design/`
+2. Add frontmatter (title, course, unit, lesson, date, tags, description)
+3. Remove the leading `# Title` heading — PostLayout renders it from frontmatter
+4. Run `pnpm build` in `~/blog` to verify
+
+See `~/blog/CLAUDE.md` for the full blog workflow.
+
 ## Notes Style (from `vtt-to-notes` skill)
 
 - Preserve the instructor's voice — use `>` blockquotes for direct quotes, not paraphrases
