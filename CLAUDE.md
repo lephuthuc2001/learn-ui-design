@@ -9,12 +9,18 @@ A personal note-taking repo for a **Learn UI Design** course hosted on Hotmart. 
 ## Directory Layout
 
 ```
-introduction/
+<unit>/
 └── <video-slug>/
     ├── master.m3u8 / _resMaster.m3u8 / index.m3u8   ← HLS playlist (user-provided)
     ├── _subtitles.m3u8                                ← intermediate subtitle playlist
     ├── <video-slug>.vtt                               ← merged subtitle file
-    └── <video-slug>.md                                ← notes written from VTT
+    ├── <video-slug>.md                                ← notes with embedded screenshots
+    ├── <video-slug>.anki.md                           ← Anki Q/A flashcards
+    ├── screenshots/                                   ← frames extracted from video
+    │   ├── 01-<name>.jpg
+    │   └── ...
+    └── images/                                        ← rendered Mermaid PNGs for Anki
+        └── <video-slug>-card-*.png
 ```
 
 ## Core Workflow
@@ -36,13 +42,22 @@ The shared `fetch.js` at the repo root auto-detects the master playlist, validat
 
 ## Skills
 
-Three custom skills live in `.claude/skills/`:
+Custom skills live in `.claude/skills/`:
 
-| Skill               | Trigger                                       |
-| ------------------- | --------------------------------------------- |
-| `fetch-hotmart-vtt` | Directory has a master playlist but no `.vtt` |
-| `vtt-to-notes`      | `.vtt` exists and notes need to be written    |
-| `process-video`     | End-to-end: fetch + write notes in one go     |
+| Skill                        | Trigger                                                        |
+| ---------------------------- | -------------------------------------------------------------- |
+| `fetch-hotmart-vtt`          | Directory has a master playlist but no `.vtt`                  |
+| `vtt-to-notes`               | `.vtt` exists and notes need to be written                     |
+| `extract-video-screenshots`  | Notes need screenshots/images extracted from the video stream  |
+| `notes-to-anki`              | Notes `.md` exists and flashcards need to be generated         |
+| `anki-upload`                | `.anki.md` is ready and cards need uploading to Anki           |
+| `process-video`              | End-to-end: fetch + notes + screenshots + Anki cards in one go |
+
+**Shared script at repo root:**
+```bash
+bash extract-screenshots.sh <video-directory> "name:HH:MM:SS" ...
+```
+Reads the token from `index.m3u8`, downloads segments from `vod-akm.play.hotmart.com`, fetches the AES key, and extracts frames with ffmpeg. Output goes to `<video-directory>/screenshots/`.
 
 ## Anki Deck
 

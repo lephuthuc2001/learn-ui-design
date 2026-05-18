@@ -1,11 +1,11 @@
 ---
 name: process-video
-description: Use when the user points at a video directory containing a master playlist (master.m3u8, _resMaster.m3u8, or index.m3u8) and wants subtitles fetched, notes written, and Anki flashcards generated. Combines fetch-hotmart-vtt, vtt-to-notes, and notes-to-anki. Stops after generating the .anki.md so the user can review cards before uploading.
+description: Use when the user points at a video directory containing a master playlist (master.m3u8, _resMaster.m3u8, or index.m3u8) and wants subtitles fetched, notes written, screenshots extracted, and Anki flashcards generated. Combines fetch-hotmart-vtt, vtt-to-notes, extract-video-screenshots, and notes-to-anki. Stops after generating the .anki.md so the user can review cards before uploading.
 ---
 
-# Process Video: VTT + Notes + Anki Cards
+# Process Video: VTT + Notes + Screenshots + Anki Cards
 
-Workflow: given a video directory with a master playlist, produce a `.vtt` subtitle file, a `.md` notes file, and an `.anki.md` flashcard file with rendered diagram PNGs. **Stops here** — the user reviews cards before uploading. Upload separately with the `anki-upload` skill.
+Workflow: given a video directory with a master playlist, produce a `.vtt` subtitle file, a `.md` notes file with embedded screenshots, and an `.anki.md` flashcard file. **Stops here** — the user reviews cards before uploading. Upload separately with the `anki-upload` skill.
 
 ## Workflow
 
@@ -18,6 +18,9 @@ master.m3u8 / _resMaster.m3u8 / index.m3u8
                                                       ▼
                                               [vtt-to-notes]  →  <slug>.md
                                                                     │
+                                                                    ▼
+                                             [extract-video-screenshots]  →  screenshots/*.jpg
+                                                                    │         (embedded in <slug>.md)
                                                                     ▼
                                                           [notes-to-anki]  →  <slug>.anki.md
                                                                               + images/<slug>-card-*.png
@@ -44,11 +47,23 @@ The `.vtt` file is large (often 30k+ tokens) and would permanently bloat main co
 The agent reads the VTT, writes the `.md`, and reports back. Only the final `.md` enters main context.
 Output: `<video-directory>/<slug>.md`
 
-**Step 3 — Generate Anki flashcards (inline, in main thread)**
+**Step 3 — Extract screenshots and embed in notes**
+Read the `.vtt` to identify the key visual moments (grep for concepts discussed in the notes). Use the `extract-video-screenshots` skill:
+```bash
+bash extract-screenshots.sh <video-directory> "name:HH:MM:SS" ...
+```
+Then embed each screenshot into the `.md` at the relevant section:
+```markdown
+![Descriptive alt text explaining what the image proves](screenshots/<name>.jpg)
+```
+Alt text should explain *what the screenshot demonstrates*, not just describe what's in it.
+Output: `<video-directory>/screenshots/*.jpg` + images embedded in `<slug>.md`
+
+**Step 4 — Generate Anki flashcards (inline, in main thread)**
 Run inline so you can eyeball the cards and steer phrasing. Invoke the `notes-to-anki` skill on the `.md` notes file. The skill writes the card file and renders Mermaid diagrams to PNGs with `mmdc`.
 Output: `<video-directory>/<slug>.anki.md` + `<video-directory>/images/<slug>-card-*.png`
 
-**Step 4 — Hand off to user**
+**Step 5 — Hand off to user**
 Tell the user:
 - Where the `.anki.md` file is
 - How many cards were generated
@@ -67,12 +82,15 @@ Derive the slug from the directory name (lowercase, hyphenated). Use that slug f
 ```
 <unit>/
 └── <slug>/
-    ├── <slug>.vtt        ← fetched subtitles
-    ├── <slug>.md         ← notes written from VTT
-    ├── <slug>.anki.md    ← Anki Q/A cards with Mermaid blocks
+    ├── <slug>.vtt           ← fetched subtitles
+    ├── <slug>.md            ← notes with embedded screenshots
+    ├── <slug>.anki.md       ← Anki Q/A cards with Mermaid blocks
+    ├── screenshots/
+    │   ├── 01-<name>.jpg
+    │   ├── 02-<name>.jpg
+    │   └── ...
     └── images/
         ├── <slug>-card-1.png
-        ├── <slug>-card-2.png
         └── ...
 ```
 
