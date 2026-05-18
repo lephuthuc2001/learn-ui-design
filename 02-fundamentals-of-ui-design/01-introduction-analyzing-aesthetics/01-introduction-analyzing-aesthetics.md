@@ -107,6 +107,8 @@ In all cases: the fundamental problem of making messy look simple — that's wha
 
 To show how fundamental these ideas are, the instructor steps outside screen design for a few minutes.
 
+![The stylish bachelor pad used as the main design example throughout this section](screenshots/01-bachelor-pad.jpg)
+
 > "Say for a second that you're out with friends, and maybe someone you meet invites you back to their place, and you go back with a bunch of folks, and you're all hanging out in their stylish bachelor pad or whatever…"
 
 > "Before I was a designer, I would have said no way. You know, there's some magic behind how they lay things out that I'm just not privy to. I don't understand it. It's above me."
@@ -114,6 +116,8 @@ To show how fundamental these ideas are, the instructor steps outside screen des
 But pay attention to a few critical foundational ideas — alignment, white space, consistency — and you can **reverse engineer** why a room looks elegant.
 
 ### Alignment in the room
+
+![Alignment in the bachelor pad — rug, furniture, and paintings all at right angles](screenshots/02-alignment-room.jpg)
 
 > "Maybe it's even the most important idea that beginning designers miss."
 
@@ -123,6 +127,9 @@ But pay attention to a few critical foundational ideas — alignment, white spac
 - The more elements aligned (to each other, or just suggesting parallel lines), the more the room feels crisp, clean, neat.
 
 #### Test the rule by breaking it
+
+![A messy desk — no alignment, antithesis of the bachelor pad](screenshots/03-messy-desk.jpg)
+
 A messy desk with no alignment — antithesis of well-aligned, and sure enough, doesn't look as nice.
 
 > "This is not exactly a value judgment here, right? This person who's working at this desk, they're putting all their attention into the work on the screen, and not the surroundings."
@@ -135,6 +142,8 @@ A messy desk with no alignment — antithesis of well-aligned, and sure enough, 
 
 UI example: a dashboard — card edges aligning, text within cards aligning vertically and horizontally, sidebar icons centered with center lines aligned, text left-aligned. Even when the sidebar isn't aligned with the headline, *within* the sidebar everything is neat.
 
+![Dashboard UI showing heavy alignment — card edges, text, sidebar icons all lock to invisible grid lines](screenshots/04-dashboard-alignment.jpg)
+
 > "Alignment is really the default, and if you want to make something look carefully crafted, then alignment matters. You are going to be thinking an enormous amount about it."
 
 ### White space / spacing
@@ -142,6 +151,9 @@ UI example: a dashboard — card edges aligning, text within cards aligning vert
 > "I say white space, spacing. I use those terms interchangeably. The thing is white space doesn't have to be white."
 
 In the bachelor pad:
+
+![Fireplace as sole focal point on a large wall — white space makes it feel presented](screenshots/05-fireplace-whitespace.jpg)
+
 - The **fireplace** is the sole element on a much larger wall. The space around it isn't blank — it's textured, with mild lines of alignment in the texture. The space makes the fireplace look like a **focal point** — makes it look **presented**.
 - The **small side table** — could fit more, but instead holds a single book ("Paris"), some flowers, and one other thing. Not packed → those three things look presented, elegant.
 
@@ -159,7 +171,12 @@ flowchart LR
 ```
 
 - Vendor stall counterexample: lots of items, no spacing → no single item feels presented. There's a reason the vendor lays it out this way, but if your goal is to make each item feel carefully presented, this doesn't do it.
+
+![Market vendor stall — dense, nothing feels presented](screenshots/06-vendor-stall.jpg)
+
 - Gallery: opposite extreme — 99% white space, very few focal points → feels maximally presented and elegant.
+
+![Art gallery — ~99% white space, few focal points, maximally presented](screenshots/07-art-gallery.jpg)
 
 > "This is not a value judgment per se. I'd actually much rather talk to the proprietor of this shop than whoever curated these photos."
 
@@ -219,6 +236,8 @@ Same general principle applies even in a mobile app or website, just with differ
 
 ### Placeist (travel app concept by Jan Losert)
 
+![Placeist travel app by Jan Losert — consistency, alignment, white space, and restrained color](screenshots/08-placeist-app.jpg)
+
 The same principles that made the interior designs work show up here too.
 
 **Consistency:**
@@ -243,6 +262,8 @@ The same principles that made the interior designs work show up here too.
 > "So defaulting to grayscale and beautiful imagery with just a little pop of color in about that same hue."
 
 ### A mobile real estate app
+
+![Mobile real estate app — same principles: alignment, generous spacing, round motif, mostly grayscale with a purple accent](screenshots/09-real-estate-app.jpg)
 
 Different app, same principles.
 
