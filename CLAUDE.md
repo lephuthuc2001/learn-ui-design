@@ -51,7 +51,7 @@ Custom skills live in `.claude/skills/`:
 | `extract-video-screenshots`  | Notes need screenshots/images extracted from the video stream  |
 | `notes-to-anki`              | Notes `.md` exists and flashcards need to be generated         |
 | `anki-upload`                | `.anki.md` is ready and cards need uploading to Anki           |
-| `process-video`              | End-to-end: fetch + notes + screenshots + Anki cards in one go |
+| `process-video`              | End-to-end: fetch + notes + screenshots (stops there)          |
 
 **Shared script at repo root:**
 ```bash

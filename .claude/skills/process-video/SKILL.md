@@ -1,11 +1,11 @@
 ---
 name: process-video
-description: Use when the user points at a video directory containing a master playlist (master.m3u8, _resMaster.m3u8, or index.m3u8) and wants subtitles fetched, notes written, screenshots extracted, and Anki flashcards generated. Combines fetch-hotmart-vtt, vtt-to-notes, extract-video-screenshots, and notes-to-anki. Stops after generating the .anki.md so the user can review cards before uploading.
+description: Use when the user points at a video directory containing a master playlist (master.m3u8, _resMaster.m3u8, or index.m3u8) and wants subtitles fetched, notes written, and screenshots extracted. Combines fetch-hotmart-vtt, vtt-to-notes, and extract-video-screenshots. Stops after the notes .md is complete with screenshots embedded.
 ---
 
-# Process Video: VTT + Notes + Screenshots + Anki Cards
+# Process Video: VTT + Notes + Screenshots
 
-Workflow: given a video directory with a master playlist, produce a `.vtt` subtitle file, a `.md` notes file with embedded screenshots, and an `.anki.md` flashcard file. **Stops here** — the user reviews cards before uploading. Upload separately with the `anki-upload` skill.
+Workflow: given a video directory with a master playlist, produce a `.vtt` subtitle file and a `.md` notes file with screenshots embedded. **Stops here** — Anki cards are a separate decision; run `notes-to-anki` manually if needed.
 
 ## Workflow
 
@@ -20,14 +20,10 @@ master.m3u8 / _resMaster.m3u8 / index.m3u8
                                                                     │
                                                                     ▼
                                              [extract-video-screenshots]  →  screenshots/*.jpg
-                                                                    │         (embedded in <slug>.md)
-                                                                    ▼
-                                                          [notes-to-anki]  →  <slug>.anki.md
-                                                                              + images/<slug>-card-*.png
+                                                                                (embedded in <slug>.md)
                                                                                     │
                                                                                     ▼
-                                                                            ⏸ STOP — user reviews cards
-                                                                            then runs anki-upload manually
+                                                                            ⏸ STOP — notes are done
 ```
 
 **Step 1 — Fetch the VTT**
@@ -48,7 +44,7 @@ The agent reads the VTT, writes the `.md`, and reports back. Only the final `.md
 Output: `<video-directory>/<slug>.md`
 
 **Step 3 — Extract screenshots and embed in notes**
-Read the `.vtt` to identify the key visual moments (grep for concepts discussed in the notes). Use the `extract-video-screenshots` skill:
+Read the `.vtt` to identify key visual moments (grep for concepts discussed in the notes). Use the `extract-video-screenshots` skill:
 ```bash
 bash extract-screenshots.sh <video-directory> "name:HH:MM:SS" ...
 ```
@@ -59,15 +55,8 @@ Then embed each screenshot into the `.md` at the relevant section:
 Alt text should explain *what the screenshot demonstrates*, not just describe what's in it.
 Output: `<video-directory>/screenshots/*.jpg` + images embedded in `<slug>.md`
 
-**Step 4 — Generate Anki flashcards (inline, in main thread)**
-Run inline so you can eyeball the cards and steer phrasing. Invoke the `notes-to-anki` skill on the `.md` notes file. The skill writes the card file and renders Mermaid diagrams to PNGs with `mmdc`.
-Output: `<video-directory>/<slug>.anki.md` + `<video-directory>/images/<slug>-card-*.png`
-
-**Step 5 — Hand off to user**
-Tell the user:
-- Where the `.anki.md` file is
-- How many cards were generated
-- To review and edit the file, then run the `anki-upload` skill when ready
+**Step 4 — Hand off to user**
+Tell the user the notes are ready and where the `.md` file is. Mention that `notes-to-anki` and `anki-upload` are available separately if they want flashcards.
 
 ## Usage
 
