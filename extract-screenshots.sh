@@ -96,7 +96,7 @@ for shot in "${SHOTS[@]}"; do
 
   # Find video+audio stream segment filename prefix
   # Pattern: <videoId>-<epoch>-audio=<N>-video=<M>-<seg>.ts
-  SEG_PREFIX=$(grep -oP "${VIDEO_ID}-${TS_EPOCH}-audio=\d+-video=\d+" "$MASTER" | head -1)
+  SEG_PREFIX=$(grep -oP "${VIDEO_ID}-${TS_EPOCH}-audio=\d+-video=\d+" "$MASTER" | tail -1)
   [[ -z "$SEG_PREFIX" ]] && SEG_PREFIX="${VIDEO_ID}-${TS_EPOCH}-audio=73892-video=207845"
 
   SEG_URL="https://vod-akm.play.hotmart.com/video/${VIDEO_ID}/hls/${SEG_PREFIX}-${SEG}.ts?${TOKEN}"
