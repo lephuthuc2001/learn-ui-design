@@ -1,0 +1,5158 @@
+WEBVTT
+
+00:00:00.540 --> 00:00:01.610
+- Hey folks, and welcome
+
+00:00:01.610 --> 00:00:04.530
+to the Learn UI design lesson on sizing.
+
+00:00:04.530 --> 00:00:06.000
+Now, sizing your UI elements
+kind of sounds boring
+
+00:00:06.000 --> 00:00:07.970
+Now, sizing your UI elements
+kind of sounds boring
+
+00:00:07.970 --> 00:00:10.740
+but it's actually one of the
+most common beginner mistakes
+
+00:00:10.740 --> 00:00:12.000
+to size elements incorrectly
+or at least awkwardly.
+
+00:00:12.000 --> 00:00:14.380
+to size elements incorrectly
+or at least awkwardly.
+
+00:00:14.380 --> 00:00:16.780
+Turns out that most things in
+your UI design sort of have
+
+00:00:16.780 --> 00:00:18.000
+a natural size that they
+desire to be at, so to speak.
+
+00:00:18.000 --> 00:00:19.860
+a natural size that they
+desire to be at, so to speak.
+
+00:00:19.860 --> 00:00:20.890
+And there's a lot of logic
+
+00:00:20.890 --> 00:00:23.740
+for why you might size things
+one way versus another.
+
+00:00:23.740 --> 00:00:24.000
+We're gonna dive into all of that today,
+
+00:00:24.000 --> 00:00:25.450
+We're gonna dive into all of that today,
+
+00:00:25.450 --> 00:00:28.530
+we're gonna look at two examples,
+one mobile, one desktop,
+
+00:00:28.530 --> 00:00:30.000
+we're going to cover three heuristics
+
+00:00:30.000 --> 00:00:30.160
+we're going to cover three heuristics
+
+00:00:30.160 --> 00:00:32.290
+for sizing elements in your UI design.
+
+00:00:32.290 --> 00:00:35.690
+But overall, I would say if
+you only take away one thing
+
+00:00:35.690 --> 00:00:36.000
+from this lesson, let it be this,
+
+00:00:36.000 --> 00:00:37.710
+from this lesson, let it be this,
+
+00:00:37.710 --> 00:00:40.150
+anytime you get the temptation
+to just size something
+
+00:00:40.150 --> 00:00:41.830
+that you're not really
+sure how big it should be,
+
+00:00:41.830 --> 00:00:42.000
+some button, say, oh,
+it's an important button,
+
+00:00:42.000 --> 00:00:43.750
+some button, say, oh,
+it's an important button,
+
+00:00:43.750 --> 00:00:45.810
+I'm gonna make it 80 pixels tall, stop.
+
+00:00:45.810 --> 00:00:47.670
+Before you make it 80 pixels tall,
+
+00:00:47.670 --> 00:00:48.000
+go and look at a bunch of well designed,
+
+00:00:48.000 --> 00:00:50.010
+go and look at a bunch of well designed,
+
+00:00:50.010 --> 00:00:52.800
+professionally designed apps
+and see what they're doing.
+
+00:00:52.800 --> 00:00:54.000
+And if no one else is doing
+anything like what you wanna do,
+
+00:00:54.000 --> 00:00:55.510
+And if no one else is doing
+anything like what you wanna do,
+
+00:00:55.510 --> 00:00:58.100
+you're probably not making
+the right sizing decision.
+
+00:00:58.100 --> 00:00:59.210
+This is sort of a corollary
+
+00:00:59.210 --> 00:01:00.000
+to Jakob's Law of User Experience
+
+00:01:00.000 --> 00:01:01.500
+to Jakob's Law of User Experience
+
+00:01:01.500 --> 00:01:03.240
+which you might be familiar with if you're
+
+00:01:03.240 --> 00:01:05.120
+into the UX side of things as well.
+
+00:01:05.120 --> 00:01:06.000
+In any case, let's dive into our examples
+
+00:01:06.000 --> 00:01:07.870
+In any case, let's dive into our examples
+
+00:01:07.870 --> 00:01:10.520
+and see what we learn.
+
+00:01:10.520 --> 00:01:11.640
+All right, today, we're gonna be looking
+
+00:01:11.640 --> 00:01:12.000
+at a mock up for givewell.org
+which is a nonprofit
+
+00:01:12.000 --> 00:01:15.350
+at a mock up for givewell.org
+which is a nonprofit
+
+00:01:15.350 --> 00:01:16.520
+that I've done a little bit of work with.
+
+00:01:16.520 --> 00:01:18.000
+And this whole example is based loosely
+
+00:01:18.000 --> 00:01:18.940
+And this whole example is based loosely
+
+00:01:18.940 --> 00:01:20.820
+on some of my concepts
+that I've sent them.
+
+00:01:20.820 --> 00:01:23.730
+Givewell.org is actually a
+really cool organization.
+
+00:01:23.730 --> 00:01:24.000
+They rank some of the
+top charities on earth
+
+00:01:24.000 --> 00:01:26.080
+They rank some of the
+top charities on earth
+
+00:01:26.080 --> 00:01:29.070
+in terms of number of lives
+saved per dollar donated
+
+00:01:29.070 --> 00:01:30.000
+and basically figure out like,
+
+00:01:30.000 --> 00:01:30.260
+and basically figure out like,
+
+00:01:30.260 --> 00:01:31.480
+what is the most effective way
+
+00:01:31.480 --> 00:01:34.480
+that you can actually make the
+world better with a donation.
+
+00:01:34.480 --> 00:01:35.800
+On this particular page,
+
+00:01:35.800 --> 00:01:36.000
+this is in their top charity section,
+
+00:01:36.000 --> 00:01:37.520
+this is in their top charity section,
+
+00:01:37.520 --> 00:01:38.830
+they're showing one of their top charities
+
+00:01:38.830 --> 00:01:41.330
+of all time which is a charity
+
+00:01:41.330 --> 00:01:42.000
+that distributes preventative
+antimalarial medicine.
+
+00:01:42.000 --> 00:01:44.610
+that distributes preventative
+antimalarial medicine.
+
+00:01:44.610 --> 00:01:47.160
+You can see I've mostly
+already aligned stuff
+
+00:01:47.160 --> 00:01:48.000
+pretty much correctly
+by the book according
+
+00:01:48.000 --> 00:01:49.900
+pretty much correctly
+by the book according
+
+00:01:49.900 --> 00:01:51.330
+to the alignment lesson.
+
+00:01:51.330 --> 00:01:54.000
+And yet, just because nothing
+is really sized quite right,
+
+00:01:54.000 --> 00:01:54.670
+And yet, just because nothing
+is really sized quite right,
+
+00:01:54.670 --> 00:01:56.930
+the page sort of has this
+awkward appearance to it.
+
+00:01:56.930 --> 00:01:59.010
+So we're gonna swoop in,
+make a bunch of changes,
+
+00:01:59.010 --> 00:02:00.000
+fix everything up nicely.
+
+00:02:00.000 --> 00:02:00.030
+fix everything up nicely.
+
+00:02:00.030 --> 00:02:02.470
+I'll talk about the logic for
+why I'm doing what I'm doing
+
+00:02:02.470 --> 00:02:05.090
+and then we'll translate
+this page into mobile as well
+
+00:02:05.090 --> 00:02:06.000
+and talk about how things differ
+
+00:02:06.000 --> 00:02:06.650
+and talk about how things differ
+
+00:02:06.650 --> 00:02:08.290
+when you're designing for smaller screens.
+
+00:02:08.290 --> 00:02:10.890
+So first things first,
+let's start at the top left.
+
+00:02:10.890 --> 00:02:12.000
+We've got this giant
+hamburger button right here.
+
+00:02:12.000 --> 00:02:13.840
+We've got this giant
+hamburger button right here.
+
+00:02:13.840 --> 00:02:15.620
+And it might seem a little bit goofy
+
+00:02:15.620 --> 00:02:16.740
+in the context of this page
+
+00:02:16.740 --> 00:02:18.000
+but I guarantee you this is one
+of the things that I've seen
+
+00:02:18.000 --> 00:02:19.110
+but I guarantee you this is one
+of the things that I've seen
+
+00:02:19.110 --> 00:02:21.570
+in the thousands of homework
+submissions that I've seen
+
+00:02:21.570 --> 00:02:24.000
+through Learn UI Design
+comes up again, and again.
+
+00:02:24.000 --> 00:02:24.210
+through Learn UI Design
+comes up again, and again.
+
+00:02:24.210 --> 00:02:28.010
+Very large icons, and very large
+hamburger buttons like this
+
+00:02:28.010 --> 00:02:30.000
+are just kind of oddly common
+for beginner designers to do.
+
+00:02:30.000 --> 00:02:32.030
+are just kind of oddly common
+for beginner designers to do.
+
+00:02:32.030 --> 00:02:34.180
+So we're definitely gonna
+shrink this a little bit.
+
+00:02:34.180 --> 00:02:36.000
+And I would say the main logic behind
+
+00:02:36.000 --> 00:02:36.710
+And I would say the main logic behind
+
+00:02:36.710 --> 00:02:38.890
+what size your icon should be is,
+
+00:02:38.890 --> 00:02:40.810
+for the most part, it
+should sort of appear
+
+00:02:40.810 --> 00:02:42.000
+as an extension of the text.
+
+00:02:42.000 --> 00:02:42.790
+as an extension of the text.
+
+00:02:42.790 --> 00:02:47.790
+So this text is written with a
+"pen of a certain thickness",
+
+00:02:47.880 --> 00:02:48.000
+and we kind of want the icon
+to be not too far from that.
+
+00:02:48.000 --> 00:02:51.160
+and we kind of want the icon
+to be not too far from that.
+
+00:02:51.160 --> 00:02:53.510
+We go into our pixel preview mode here,
+
+00:02:53.510 --> 00:02:54.000
+just pressing Ctrl+P to see this.
+
+00:02:54.000 --> 00:02:55.530
+just pressing Ctrl+P to see this.
+
+00:02:55.530 --> 00:02:58.370
+You can see that perhaps the
+text is about one pixel thick,
+
+00:02:58.370 --> 00:03:00.000
+maybe a little bit more
+in different places.
+
+00:03:00.000 --> 00:03:01.130
+maybe a little bit more
+in different places.
+
+00:03:01.130 --> 00:03:04.370
+And for icons, typically one
+pixel seems kind of wispy.
+
+00:03:04.370 --> 00:03:06.000
+So what I like to do is make
+things about two pixels thick.
+
+00:03:06.000 --> 00:03:06.770
+So what I like to do is make
+things about two pixels thick.
+
+00:03:06.770 --> 00:03:09.220
+I think that is a fantastic default.
+
+00:03:09.220 --> 00:03:10.570
+Also, for what it's worth,
+
+00:03:10.570 --> 00:03:12.000
+most icons that appear in your UI,
+
+00:03:12.000 --> 00:03:12.500
+most icons that appear in your UI,
+
+00:03:12.500 --> 00:03:13.950
+you should be able to fit within a box
+
+00:03:13.950 --> 00:03:16.470
+that's 24 pixels by 24 pixels.
+
+00:03:16.470 --> 00:03:18.000
+So this being 40 pixels
+wide is definitely too big.
+
+00:03:18.000 --> 00:03:19.140
+So this being 40 pixels
+wide is definitely too big.
+
+00:03:19.140 --> 00:03:22.080
+If I make that 24, then
+it just becomes clear
+
+00:03:22.080 --> 00:03:24.000
+I need to bring these a
+little bit closer together.
+
+00:03:24.000 --> 00:03:24.900
+I need to bring these a
+little bit closer together.
+
+00:03:24.900 --> 00:03:26.250
+Let's go ahead and do that.
+
+00:03:27.140 --> 00:03:29.090
+And maybe I could make it even smaller.
+
+00:03:29.930 --> 00:03:30.000
+There we go.
+
+00:03:30.000 --> 00:03:31.390
+There we go.
+
+00:03:31.390 --> 00:03:34.360
+Now it's 20 pixels wide, 12 pixels tall
+
+00:03:34.360 --> 00:03:36.000
+and feels about right.
+
+00:03:36.000 --> 00:03:36.450
+and feels about right.
+
+00:03:36.450 --> 00:03:39.020
+We're gonna go ahead and
+resize this text later on
+
+00:03:39.020 --> 00:03:40.460
+but one thing that you can do is
+
+00:03:40.460 --> 00:03:42.000
+if the icon being two pixels thick
+
+00:03:42.000 --> 00:03:43.070
+if the icon being two pixels thick
+
+00:03:43.070 --> 00:03:45.850
+or the stroke weight being two
+pixels thick feels too much
+
+00:03:45.850 --> 00:03:48.000
+for the text, you can
+actually reduce the opacity
+
+00:03:48.000 --> 00:03:48.190
+for the text, you can
+actually reduce the opacity
+
+00:03:48.190 --> 00:03:49.180
+of the icon a little bit.
+
+00:03:49.180 --> 00:03:52.840
+So if I do, say 80%, that
+might balance it out nicer
+
+00:03:52.840 --> 00:03:54.000
+with text that is nearby.
+
+00:03:54.000 --> 00:03:54.760
+with text that is nearby.
+
+00:03:54.760 --> 00:03:56.860
+Of course, right now, we
+haven't styled that yet.
+
+00:03:56.860 --> 00:03:59.600
+So we can come back to
+that when we need to.
+
+00:03:59.600 --> 00:04:00.000
+Now let's look, we have
+this search our site
+
+00:04:00.000 --> 00:04:01.960
+Now let's look, we have
+this search our site
+
+00:04:01.960 --> 00:04:03.970
+and research thing right here.
+
+00:04:03.970 --> 00:04:05.390
+This is gonna turn to a search bar.
+
+00:04:05.390 --> 00:04:06.000
+And so we will want a search icon.
+
+00:04:06.000 --> 00:04:07.890
+And so we will want a search icon.
+
+00:04:07.890 --> 00:04:09.970
+Let's go ahead and just
+make that one custom.
+
+00:04:09.970 --> 00:04:12.000
+Press O for an oval, hold
+Shift to get a constant size.
+
+00:04:12.000 --> 00:04:13.450
+Press O for an oval, hold
+Shift to get a constant size.
+
+00:04:13.450 --> 00:04:15.740
+Now again, I'm gonna want this icon
+
+00:04:15.740 --> 00:04:17.780
+to be about the same
+size as the other one,
+
+00:04:17.780 --> 00:04:18.000
+so not more than, say 20 pixels wide.
+
+00:04:18.000 --> 00:04:20.920
+so not more than, say 20 pixels wide.
+
+00:04:20.920 --> 00:04:24.000
+So what I need to do, this
+is 15 by 15 right now,
+
+00:04:24.000 --> 00:04:24.080
+So what I need to do, this
+is 15 by 15 right now,
+
+00:04:24.080 --> 00:04:25.760
+I'm gonna press Shift+X
+
+00:04:25.760 --> 00:04:28.540
+to create a stroke instead of a fill,
+
+00:04:28.540 --> 00:04:30.000
+just switches those in Figma
+
+00:04:30.000 --> 00:04:30.470
+just switches those in Figma
+
+00:04:31.730 --> 00:04:34.923
+and we'll give it a two pixel stroke.
+
+00:04:35.840 --> 00:04:36.000
+And I would do inside except I actually,
+
+00:04:36.000 --> 00:04:38.060
+And I would do inside except I actually,
+
+00:04:38.060 --> 00:04:40.760
+I need to do center because
+what I'm gonna do now
+
+00:04:40.760 --> 00:04:42.000
+is press P, get into the pen tool,
+
+00:04:42.000 --> 00:04:44.970
+is press P, get into the pen tool,
+
+00:04:44.970 --> 00:04:48.000
+and I'm gonna go and extend the handle
+
+00:04:48.000 --> 00:04:48.420
+and I'm gonna go and extend the handle
+
+00:04:48.420 --> 00:04:49.733
+of the magnifying glass.
+
+00:04:51.150 --> 00:04:54.000
+And if you have the stroke
+inside, you can't see it.
+
+00:04:54.000 --> 00:04:54.483
+And if you have the stroke
+inside, you can't see it.
+
+00:04:55.990 --> 00:04:57.660
+So it needs to be on the center.
+
+00:04:57.660 --> 00:05:00.000
+So the sizing is a little bit
+off 'cause it goes over here
+
+00:05:00.000 --> 00:05:00.050
+So the sizing is a little bit
+off 'cause it goes over here
+
+00:05:00.050 --> 00:05:00.883
+and it goes over here.
+
+00:05:00.883 --> 00:05:03.090
+So when this says the width is 19 pixels,
+
+00:05:03.090 --> 00:05:05.950
+it's actually really just over 20
+
+00:05:05.950 --> 00:05:06.000
+but overall, this feels fine enough
+
+00:05:06.000 --> 00:05:08.820
+but overall, this feels fine enough
+
+00:05:08.820 --> 00:05:10.343
+and I would just use this.
+
+00:05:12.000 --> 00:05:13.240
+I'm gonna press H just to make that
+
+00:05:13.240 --> 00:05:15.510
+a little bit lighter
+too but we can come back
+
+00:05:15.510 --> 00:05:18.000
+to exactly how light this should be.
+
+00:05:18.000 --> 00:05:18.280
+to exactly how light this should be.
+
+00:05:18.280 --> 00:05:20.500
+And technically, it
+shouldn't start as black,
+
+00:05:20.500 --> 00:05:23.903
+it should start as the color
+of the text and still be 80%.
+
+00:05:28.990 --> 00:05:30.000
+And so this backs up what I
+consider the first heuristic
+
+00:05:30.000 --> 00:05:31.850
+And so this backs up what I
+consider the first heuristic
+
+00:05:31.850 --> 00:05:34.420
+for sizing elements in
+user interface design,
+
+00:05:34.420 --> 00:05:36.000
+which is to default consistency
+or consistency first.
+
+00:05:36.000 --> 00:05:37.630
+which is to default consistency
+or consistency first.
+
+00:05:37.630 --> 00:05:39.800
+A lot of the sizing of icons has to do
+
+00:05:39.800 --> 00:05:41.410
+with the text around it.
+
+00:05:41.410 --> 00:05:42.000
+We're not making icons
+bigger than 20 or 24 pixels,
+
+00:05:42.000 --> 00:05:44.070
+We're not making icons
+bigger than 20 or 24 pixels,
+
+00:05:44.070 --> 00:05:46.590
+simply because text is so rarely gonna be
+
+00:05:46.590 --> 00:05:47.780
+that much bigger too.
+
+00:05:47.780 --> 00:05:48.000
+And just bear in mind
+this is a little bit small
+
+00:05:48.000 --> 00:05:49.520
+And just bear in mind
+this is a little bit small
+
+00:05:49.520 --> 00:05:51.390
+for right now, we'll come
+back to it in a minute.
+
+00:05:51.390 --> 00:05:53.790
+But the whole general
+idea, and I hit this home
+
+00:05:53.790 --> 00:05:54.000
+in the icons video later on in the course.
+
+00:05:54.000 --> 00:05:55.990
+in the icons video later on in the course.
+
+00:05:55.990 --> 00:05:58.300
+So say make your icons
+and your text look like
+
+00:05:58.300 --> 00:05:59.930
+they were drawn with the same pen.
+
+00:05:59.930 --> 00:06:00.000
+It's just one more way
+to add some consistency.
+
+00:06:00.000 --> 00:06:02.220
+It's just one more way
+to add some consistency.
+
+00:06:02.220 --> 00:06:04.880
+One common icon sizing
+mistake that I'll see
+
+00:06:04.880 --> 00:06:06.000
+is if someone wants to use an icon,
+
+00:06:06.000 --> 00:06:06.920
+is if someone wants to use an icon,
+
+00:06:06.920 --> 00:06:08.870
+maybe a bit like an illustration.
+
+00:06:08.870 --> 00:06:12.000
+So let's say someone goes here
+
+00:06:12.000 --> 00:06:12.010
+So let's say someone goes here
+
+00:06:13.320 --> 00:06:16.040
+and we'll add the thumbs up
+from the Quantum icon set
+
+00:06:16.040 --> 00:06:17.203
+for our top pick.
+
+00:06:18.550 --> 00:06:21.670
+The issue is if I say, to scale this icon,
+
+00:06:21.670 --> 00:06:23.173
+use the hotkey K here,
+
+00:06:25.120 --> 00:06:28.203
+and I make it say twice as big, 40 by 40,
+
+00:06:29.100 --> 00:06:29.933
+then all of a sudden,
+
+00:06:29.933 --> 00:06:30.000
+all these stroke weights here have doubled
+
+00:06:30.000 --> 00:06:32.250
+all these stroke weights here have doubled
+
+00:06:32.250 --> 00:06:35.380
+and now it's twice as thick
+and it's just kind of awkward.
+
+00:06:35.380 --> 00:06:36.000
+The text would need to be much bigger,
+
+00:06:36.000 --> 00:06:37.270
+The text would need to be much bigger,
+
+00:06:37.270 --> 00:06:38.460
+which even if it is bigger,
+
+00:06:38.460 --> 00:06:41.230
+it's still just gonna look
+a little bit funky next
+
+00:06:41.230 --> 00:06:42.000
+to this really big, chunky thick icon.
+
+00:06:42.000 --> 00:06:43.820
+to this really big, chunky thick icon.
+
+00:06:43.820 --> 00:06:46.840
+So one thing I highly recommend is instead
+
+00:06:46.840 --> 00:06:48.000
+of just making an icon bigger
+than it otherwise would be,
+
+00:06:48.000 --> 00:06:50.970
+of just making an icon bigger
+than it otherwise would be,
+
+00:06:50.970 --> 00:06:53.040
+try enclosing it in a little circle,
+
+00:06:53.040 --> 00:06:54.000
+just encapsulating it in a circle.
+
+00:06:54.000 --> 00:06:54.883
+just encapsulating it in a circle.
+
+00:06:56.230 --> 00:06:59.540
+Do something like that,
+grab this theme blue,
+
+00:06:59.540 --> 00:07:00.000
+move the element to the bottom
+
+00:07:00.000 --> 00:07:01.490
+move the element to the bottom
+
+00:07:01.490 --> 00:07:03.963
+and change the icon's
+color to white instead.
+
+00:07:07.070 --> 00:07:10.530
+Option+H, Option+V will
+bring it to the middle there.
+
+00:07:10.530 --> 00:07:11.593
+Seems about centered.
+
+00:07:13.210 --> 00:07:14.043
+And there we go.
+
+00:07:14.043 --> 00:07:16.100
+That's typically gonna
+be a much better way
+
+00:07:16.100 --> 00:07:18.000
+to sort of make an icon
+take up a bit more space.
+
+00:07:18.000 --> 00:07:18.620
+to sort of make an icon
+take up a bit more space.
+
+00:07:18.620 --> 00:07:19.960
+Now I said it's critically important
+
+00:07:19.960 --> 00:07:22.350
+to go and look at what some apps are doing
+
+00:07:22.350 --> 00:07:23.690
+that are professionally designed.
+
+00:07:23.690 --> 00:07:24.000
+So I've just picked out Airtable,
+
+00:07:24.000 --> 00:07:26.200
+So I've just picked out Airtable,
+
+00:07:26.200 --> 00:07:27.830
+this Vercel landing page
+
+00:07:27.830 --> 00:07:30.000
+and an IDEO blog post
+just kind of randomly.
+
+00:07:30.000 --> 00:07:31.120
+and an IDEO blog post
+just kind of randomly.
+
+00:07:31.120 --> 00:07:33.590
+And we'll look at what
+these three sites are doing.
+
+00:07:33.590 --> 00:07:34.900
+Each of them is professionally designed.
+
+00:07:34.900 --> 00:07:36.000
+They're all very well done.
+
+00:07:36.000 --> 00:07:36.280
+They're all very well done.
+
+00:07:36.280 --> 00:07:37.430
+But what are they doing in terms
+
+00:07:37.430 --> 00:07:39.490
+of the sizing of various elements?
+
+00:07:39.490 --> 00:07:41.160
+One thing you can see with Airtable
+
+00:07:41.160 --> 00:07:42.000
+is they actually have
+a filled in icon style
+
+00:07:42.000 --> 00:07:42.950
+is they actually have
+a filled in icon style
+
+00:07:42.950 --> 00:07:44.210
+for most of their icons.
+
+00:07:44.210 --> 00:07:45.890
+So they're actually quite small.
+
+00:07:45.890 --> 00:07:47.760
+And in that sense, they
+don't really feel consistent
+
+00:07:47.760 --> 00:07:48.000
+with the text, it's not necessarily
+drawn with the same pen,
+
+00:07:48.000 --> 00:07:50.400
+with the text, it's not necessarily
+drawn with the same pen,
+
+00:07:50.400 --> 00:07:51.840
+but they went ahead and accented them
+
+00:07:51.840 --> 00:07:53.430
+with a different color
+and so they feel like
+
+00:07:53.430 --> 00:07:54.000
+these cutesy little drawings
+that do sort of fit in.
+
+00:07:54.000 --> 00:07:56.300
+these cutesy little drawings
+that do sort of fit in.
+
+00:07:56.300 --> 00:07:59.840
+But just keep in mind how
+small each of these things are.
+
+00:07:59.840 --> 00:08:00.000
+Like This might be the biggest one
+
+00:08:00.000 --> 00:08:01.210
+Like This might be the biggest one
+
+00:08:01.210 --> 00:08:02.960
+and I would say that
+doesn't even look like
+
+00:08:02.960 --> 00:08:04.713
+it's more than 20 pixels by 20.
+
+00:08:05.810 --> 00:08:06.000
+All right, I guess it is, 25 or something.
+
+00:08:06.000 --> 00:08:09.280
+All right, I guess it is, 25 or something.
+
+00:08:09.280 --> 00:08:10.600
+Vercel's, this nice landing page,
+
+00:08:10.600 --> 00:08:12.000
+not a ton of icons up here.
+
+00:08:12.000 --> 00:08:12.590
+not a ton of icons up here.
+
+00:08:12.590 --> 00:08:14.070
+But if we scroll down a bit,
+
+00:08:14.070 --> 00:08:16.620
+they are doing the icon encapsulated
+
+00:08:16.620 --> 00:08:17.860
+in a little circle here.
+
+00:08:17.860 --> 00:08:18.000
+And it just gives you a sense of
+
+00:08:18.000 --> 00:08:19.430
+And it just gives you a sense of
+
+00:08:19.430 --> 00:08:21.700
+you could imagine this icon
+is not gonna really hold
+
+00:08:21.700 --> 00:08:23.720
+its own next to this
+sub header right here.
+
+00:08:23.720 --> 00:08:24.000
+So putting it in the circle is a nice way
+
+00:08:24.000 --> 00:08:25.340
+So putting it in the circle is a nice way
+
+00:08:25.340 --> 00:08:29.020
+to kind of beef up the importance
+of that particular icon.
+
+00:08:29.020 --> 00:08:29.853
+And then IDEO.
+
+00:08:29.853 --> 00:08:30.000
+I actually don't love this design as much
+
+00:08:30.000 --> 00:08:31.530
+I actually don't love this design as much
+
+00:08:31.530 --> 00:08:33.890
+because these icons are quite small.
+
+00:08:33.890 --> 00:08:36.000
+But compared to this massive
+title and everything else
+
+00:08:36.000 --> 00:08:36.280
+But compared to this massive
+title and everything else
+
+00:08:36.280 --> 00:08:38.290
+on this page being generally oversized,
+
+00:08:38.290 --> 00:08:39.660
+it just feels a little bit out of place.
+
+00:08:39.660 --> 00:08:40.620
+I suppose when you scroll down,
+
+00:08:40.620 --> 00:08:42.000
+there's a little bit
+more consistency here.
+
+00:08:42.000 --> 00:08:42.210
+there's a little bit
+more consistency here.
+
+00:08:42.210 --> 00:08:44.530
+This does feel like it's drawn
+with the same pen as this
+
+00:08:44.530 --> 00:08:46.230
+or this or even this text right here.
+
+00:08:46.230 --> 00:08:47.363
+So that's good.
+
+00:08:49.340 --> 00:08:50.910
+So now we're gonna shrink this logo,
+
+00:08:50.910 --> 00:08:53.900
+which in my opinion is
+just clearly too big.
+
+00:08:53.900 --> 00:08:54.000
+It's definitely more common
+of a beginner mistake
+
+00:08:54.000 --> 00:08:55.730
+It's definitely more common
+of a beginner mistake
+
+00:08:55.730 --> 00:08:57.600
+to make a logo too big than too small.
+
+00:08:57.600 --> 00:08:59.170
+And of course, there's
+definitely some clients
+
+00:08:59.170 --> 00:09:00.000
+who wanna see a big logo no matter what.
+
+00:09:00.000 --> 00:09:00.810
+who wanna see a big logo no matter what.
+
+00:09:00.810 --> 00:09:02.650
+So it can be an uphill battle trying
+
+00:09:02.650 --> 00:09:04.990
+to get it down to a nice size.
+
+00:09:04.990 --> 00:09:06.000
+I am going to say to fit this image here.
+
+00:09:06.000 --> 00:09:07.890
+I am going to say to fit this image here.
+
+00:09:07.890 --> 00:09:11.760
+And typically logo sizes can totally vary.
+
+00:09:11.760 --> 00:09:12.000
+For something that's
+longer than it is tall,
+
+00:09:12.000 --> 00:09:14.580
+For something that's
+longer than it is tall,
+
+00:09:14.580 --> 00:09:17.590
+I would say I wouldn't wanna
+go over maybe 200 pixels
+
+00:09:17.590 --> 00:09:18.000
+as a width.
+
+00:09:18.000 --> 00:09:18.423
+as a width.
+
+00:09:19.730 --> 00:09:21.850
+Once you get that big, it's
+just gonna start being perhaps,
+
+00:09:21.850 --> 00:09:23.120
+a little bit bulky.
+
+00:09:23.120 --> 00:09:24.000
+And another way to think
+about the logo size,
+
+00:09:24.000 --> 00:09:24.980
+And another way to think
+about the logo size,
+
+00:09:24.980 --> 00:09:26.580
+especially if it's just a text logo
+
+00:09:26.580 --> 00:09:28.680
+or primarily text is how does it compare
+
+00:09:28.680 --> 00:09:30.000
+to the headers on the page.
+
+00:09:30.000 --> 00:09:30.100
+to the headers on the page.
+
+00:09:30.100 --> 00:09:33.720
+Honestly, the page title
+should probably be much bigger
+
+00:09:33.720 --> 00:09:34.930
+than the logo itself.
+
+00:09:34.930 --> 00:09:36.000
+So this is all right.
+
+00:09:36.000 --> 00:09:36.210
+So this is all right.
+
+00:09:36.210 --> 00:09:38.240
+And we'll see what we come
+and do with this here.
+
+00:09:38.240 --> 00:09:39.790
+But if this is functionally equivalent
+
+00:09:39.790 --> 00:09:42.000
+to about size 30 text, that
+seems plenty big to me.
+
+00:09:42.000 --> 00:09:43.750
+to about size 30 text, that
+seems plenty big to me.
+
+00:09:43.750 --> 00:09:45.830
+Now, I will say that one time
+
+00:09:45.830 --> 00:09:47.780
+that you see this broken a little bit is
+
+00:09:47.780 --> 00:09:48.000
+when you have a logo
+
+00:09:48.000 --> 00:09:48.613
+when you have a logo
+
+00:09:48.613 --> 00:09:50.670
+that's really complicated like this seal
+
+00:09:50.670 --> 00:09:53.000
+on the New England Journal
+of Medicine website.
+
+00:09:53.000 --> 00:09:54.000
+And in this particular case,
+
+00:09:54.000 --> 00:09:54.300
+And in this particular case,
+
+00:09:54.300 --> 00:09:56.100
+the whole site is so nicely designed,
+
+00:09:56.100 --> 00:09:57.940
+it doesn't seem to
+really make a difference,
+
+00:09:57.940 --> 00:10:00.000
+but having a logo be too
+detailed makes it very tempting
+
+00:10:00.000 --> 00:10:00.740
+but having a logo be too
+detailed makes it very tempting
+
+00:10:00.740 --> 00:10:02.670
+to make it too large and overall,
+
+00:10:02.670 --> 00:10:05.340
+overly detailed logos are one
+of the top three logo mistakes
+
+00:10:05.340 --> 00:10:06.000
+that I warn against in my
+blog post linked below.
+
+00:10:06.000 --> 00:10:07.823
+that I warn against in my
+blog post linked below.
+
+00:10:08.660 --> 00:10:10.270
+So this seems about fine.
+
+00:10:10.270 --> 00:10:12.000
+Now let's talk about the header too.
+
+00:10:12.000 --> 00:10:12.540
+Now let's talk about the header too.
+
+00:10:12.540 --> 00:10:14.640
+Overall it's also been
+weirdly common looking
+
+00:10:14.640 --> 00:10:18.000
+at beginner designs to see
+headers that are far too tall.
+
+00:10:18.000 --> 00:10:18.420
+at beginner designs to see
+headers that are far too tall.
+
+00:10:18.420 --> 00:10:19.970
+Typically, I think of making headers,
+
+00:10:19.970 --> 00:10:22.880
+probably starting around
+60, 70, maybe 80 pixels,
+
+00:10:22.880 --> 00:10:24.000
+depending on how spacious you
+want the overall feel to be.
+
+00:10:24.000 --> 00:10:25.880
+depending on how spacious you
+want the overall feel to be.
+
+00:10:25.880 --> 00:10:27.690
+But I would say anywhere from 50 to 90
+
+00:10:27.690 --> 00:10:29.240
+is sort of a good range.
+
+00:10:29.240 --> 00:10:30.000
+And this is actually kind of a good excuse
+
+00:10:30.000 --> 00:10:31.050
+And this is actually kind of a good excuse
+
+00:10:31.050 --> 00:10:33.660
+to talk about sizing of elements
+
+00:10:33.660 --> 00:10:35.990
+where there's a lot of
+uncertainty in general.
+
+00:10:35.990 --> 00:10:36.000
+If I'm sizing this header,
+
+00:10:36.000 --> 00:10:36.940
+If I'm sizing this header,
+
+00:10:36.940 --> 00:10:38.010
+I very much wanna come at it
+
+00:10:38.010 --> 00:10:40.410
+from a fill left, fill
+right sort of strategy.
+
+00:10:40.410 --> 00:10:42.000
+I wanna figure out what's
+definitely too small
+
+00:10:42.000 --> 00:10:42.480
+I wanna figure out what's
+definitely too small
+
+00:10:42.480 --> 00:10:45.200
+and what's definitely too
+big and then kind of end up
+
+00:10:45.200 --> 00:10:47.090
+in the middle of those ranges.
+
+00:10:47.090 --> 00:10:48.000
+So if I have to put in this
+hamburger button and this logo,
+
+00:10:48.000 --> 00:10:50.690
+So if I have to put in this
+hamburger button and this logo,
+
+00:10:50.690 --> 00:10:53.220
+I'm not gonna adjust the
+spacing totally right now,
+
+00:10:53.220 --> 00:10:54.000
+as well as we're
+ultimately gonna make this
+
+00:10:54.000 --> 00:10:54.810
+as well as we're
+ultimately gonna make this
+
+00:10:54.810 --> 00:10:57.060
+into a search bar like a little control
+
+00:10:57.060 --> 00:10:58.860
+and this will become a full on button.
+
+00:10:58.860 --> 00:11:00.000
+It does seem if we're
+at whatever, 30 pixels,
+
+00:11:00.000 --> 00:11:03.200
+It does seem if we're
+at whatever, 30 pixels,
+
+00:11:03.200 --> 00:11:05.390
+this is definitely too small.
+
+00:11:05.390 --> 00:11:06.000
+There's no breathing room for our logo.
+
+00:11:06.000 --> 00:11:07.350
+There's no breathing room for our logo.
+
+00:11:07.350 --> 00:11:09.050
+We're gonna end up
+making that logo so tiny
+
+00:11:09.050 --> 00:11:11.240
+if it's gonna have any
+breathing room around it.
+
+00:11:11.240 --> 00:11:12.000
+30 definitely feels too small.
+
+00:11:12.000 --> 00:11:12.810
+30 definitely feels too small.
+
+00:11:12.810 --> 00:11:15.363
+Even 40 is like a little more manageable.
+
+00:11:16.590 --> 00:11:17.660
+But then on the other hand,
+
+00:11:17.660 --> 00:11:18.000
+we could just keep expanding
+this until we say like,
+
+00:11:18.000 --> 00:11:19.530
+we could just keep expanding
+this until we say like,
+
+00:11:19.530 --> 00:11:21.220
+what is absolutely too big?
+
+00:11:21.220 --> 00:11:22.950
+And I can imagine having some headers,
+
+00:11:22.950 --> 00:11:24.000
+especially if we work this in
+
+00:11:24.000 --> 00:11:24.360
+especially if we work this in
+
+00:11:24.360 --> 00:11:29.130
+where the total height is
+100 pixels or 110, 120, fine,
+
+00:11:29.130 --> 00:11:30.000
+but maybe at about this point,
+
+00:11:30.000 --> 00:11:31.350
+but maybe at about this point,
+
+00:11:31.350 --> 00:11:33.860
+I'm just thinking this is
+actually getting way too big.
+
+00:11:33.860 --> 00:11:35.650
+At this point, we're at 149.
+
+00:11:35.650 --> 00:11:36.000
+So basically 150 pixels tall
+
+00:11:36.000 --> 00:11:37.770
+So basically 150 pixels tall
+
+00:11:37.770 --> 00:11:40.200
+and we're already eating
+up a significant amount
+
+00:11:40.200 --> 00:11:42.000
+of the screen real estate here.
+
+00:11:42.000 --> 00:11:42.140
+of the screen real estate here.
+
+00:11:42.140 --> 00:11:44.450
+Likewise, our logo, even
+if we center it here,
+
+00:11:44.450 --> 00:11:46.250
+just feels like it's lost in space,
+
+00:11:46.250 --> 00:11:48.000
+it's absolutely just floating
+in the middle of nowhere.
+
+00:11:48.000 --> 00:11:49.160
+it's absolutely just floating
+in the middle of nowhere.
+
+00:11:49.160 --> 00:11:51.880
+So we've sort of established
+these upper and lower bounds.
+
+00:11:51.880 --> 00:11:54.000
+We wanted more than 30 but less than 150.
+
+00:11:54.000 --> 00:11:54.620
+We wanted more than 30 but less than 150.
+
+00:11:54.620 --> 00:11:57.510
+Now that's actually a
+pretty wide range of sizes,
+
+00:11:57.510 --> 00:12:00.000
+30 to 150, that's a range of 120 pixels.
+
+00:12:00.000 --> 00:12:00.530
+30 to 150, that's a range of 120 pixels.
+
+00:12:00.530 --> 00:12:04.370
+And in general, bigger
+elements have more leeway
+
+00:12:04.370 --> 00:12:05.380
+in how you size them.
+
+00:12:05.380 --> 00:12:06.000
+So that's actually the second
+heuristic for sizing elements
+
+00:12:06.000 --> 00:12:07.890
+So that's actually the second
+heuristic for sizing elements
+
+00:12:07.890 --> 00:12:09.890
+is that you should explore a larger range
+
+00:12:09.890 --> 00:12:12.000
+of size options for larger elements.
+
+00:12:12.000 --> 00:12:12.260
+of size options for larger elements.
+
+00:12:12.260 --> 00:12:14.840
+Now, even though I said
+okay, 30 is too small,
+
+00:12:14.840 --> 00:12:18.000
+150 is too big, I don't
+wanna go necessarily exactly
+
+00:12:18.000 --> 00:12:18.300
+150 is too big, I don't
+wanna go necessarily exactly
+
+00:12:18.300 --> 00:12:20.300
+to what is halfway in between them
+
+00:12:20.300 --> 00:12:23.050
+which is 90 in this case.
+
+00:12:23.050 --> 00:12:24.000
+And the reason why is,
+let me explain it here.
+
+00:12:24.000 --> 00:12:25.750
+And the reason why is,
+let me explain it here.
+
+00:12:25.750 --> 00:12:30.000
+I'll just make a little
+square, let's make it blue
+
+00:12:30.000 --> 00:12:30.020
+I'll just make a little
+square, let's make it blue
+
+00:12:30.020 --> 00:12:33.413
+and we'll give it a
+height and width of 10.
+
+00:12:36.060 --> 00:12:39.270
+And then I'm gonna make another
+square, this is 20 by 20.
+
+00:12:39.270 --> 00:12:42.000
+So we got 10 by 10, 20 by
+20, I'm gonna do 100 by 100,
+
+00:12:42.000 --> 00:12:44.223
+So we got 10 by 10, 20 by
+20, I'm gonna do 100 by 100,
+
+00:12:45.880 --> 00:12:48.000
+and we'll do 110 by 110.
+
+00:12:48.000 --> 00:12:48.113
+and we'll do 110 by 110.
+
+00:12:52.090 --> 00:12:54.000
+So we've got sort of
+this weird thing going on
+
+00:12:54.000 --> 00:12:54.300
+So we've got sort of
+this weird thing going on
+
+00:12:54.300 --> 00:12:58.690
+where this square is 10 wider
+and 10 taller than this one.
+
+00:12:58.690 --> 00:13:00.000
+Likewise, this one is 10 wider
+and 10 taller than this one.
+
+00:13:00.000 --> 00:13:01.730
+Likewise, this one is 10 wider
+and 10 taller than this one.
+
+00:13:01.730 --> 00:13:03.940
+And yet the size difference,
+
+00:13:03.940 --> 00:13:05.910
+we don't really judge to be the same.
+
+00:13:05.910 --> 00:13:06.000
+This one feels like it's
+much bigger than this one.
+
+00:13:06.000 --> 00:13:08.260
+This one feels like it's
+much bigger than this one.
+
+00:13:08.260 --> 00:13:10.810
+And sure enough, it's four times the area.
+
+00:13:10.810 --> 00:13:12.000
+This one only feels marginally
+bigger than this one.
+
+00:13:12.000 --> 00:13:13.330
+This one only feels marginally
+bigger than this one.
+
+00:13:13.330 --> 00:13:15.660
+And so there's this sense
+that, at least visually,
+
+00:13:15.660 --> 00:13:17.530
+when we're looking at
+elements on our page,
+
+00:13:17.530 --> 00:13:18.000
+not only do we need to make bigger changes
+
+00:13:18.000 --> 00:13:19.890
+not only do we need to make bigger changes
+
+00:13:19.890 --> 00:13:22.410
+to bigger elements to feel
+like the same relative
+
+00:13:22.410 --> 00:13:23.940
+or kind of proportional change,
+
+00:13:23.940 --> 00:13:24.000
+but also, if we've sort
+of identified maybe
+
+00:13:24.000 --> 00:13:26.230
+but also, if we've sort
+of identified maybe
+
+00:13:26.230 --> 00:13:28.950
+this is the lower bounds,
+and this is the upper bounds,
+
+00:13:28.950 --> 00:13:30.000
+numerically, what feels
+like halfway in between them
+
+00:13:30.000 --> 00:13:32.450
+numerically, what feels
+like halfway in between them
+
+00:13:32.450 --> 00:13:34.160
+is actually going to be more similar
+
+00:13:34.160 --> 00:13:36.000
+to the smaller one than to the larger one.
+
+00:13:36.000 --> 00:13:36.623
+to the smaller one than to the larger one.
+
+00:13:38.450 --> 00:13:39.980
+So what I'm saying here is
+
+00:13:39.980 --> 00:13:42.000
+that even though 90 as a
+height is exactly in between
+
+00:13:42.000 --> 00:13:43.480
+that even though 90 as a
+height is exactly in between
+
+00:13:43.480 --> 00:13:46.000
+what we judged as being
+too small and too big,
+
+00:13:46.000 --> 00:13:48.000
+I actually probably want to make a header
+
+00:13:48.000 --> 00:13:48.340
+I actually probably want to make a header
+
+00:13:48.340 --> 00:13:50.560
+that's a little bit smaller still.
+
+00:13:50.560 --> 00:13:52.690
+If you're a developer
+or technically minded,
+
+00:13:52.690 --> 00:13:54.000
+you might understand that
+kind of what I'm getting at
+
+00:13:54.000 --> 00:13:54.950
+you might understand that
+kind of what I'm getting at
+
+00:13:54.950 --> 00:13:56.560
+is you don't wanna just take the average
+
+00:13:56.560 --> 00:14:00.000
+or the arithmetic mean between
+what's too big and too small,
+
+00:14:00.000 --> 00:14:00.110
+or the arithmetic mean between
+what's too big and too small,
+
+00:14:00.110 --> 00:14:01.860
+you're actually looking
+for the geometric mean.
+
+00:14:01.860 --> 00:14:03.580
+And so what this means practically,
+
+00:14:03.580 --> 00:14:05.370
+even if you didn't understand
+any of those words,
+
+00:14:05.370 --> 00:14:06.000
+is whenever you've identified
+what's definitely too small
+
+00:14:06.000 --> 00:14:08.380
+is whenever you've identified
+what's definitely too small
+
+00:14:08.380 --> 00:14:09.880
+and what's definitely too big,
+
+00:14:09.880 --> 00:14:11.520
+don't just go halfway in between them.
+
+00:14:11.520 --> 00:14:12.000
+You're gonna more often
+find the best option
+
+00:14:12.000 --> 00:14:13.850
+You're gonna more often
+find the best option
+
+00:14:13.850 --> 00:14:15.500
+by going a little bit smaller than kind of
+
+00:14:15.500 --> 00:14:16.640
+that halfway point.
+
+00:14:16.640 --> 00:14:18.000
+And sure enough, I think 50 pixels here,
+
+00:14:18.000 --> 00:14:19.510
+And sure enough, I think 50 pixels here,
+
+00:14:19.510 --> 00:14:22.450
+at least for a header that
+just has this content in it,
+
+00:14:22.450 --> 00:14:24.000
+actually feels really nice,
+
+00:14:24.000 --> 00:14:24.730
+actually feels really nice,
+
+00:14:24.730 --> 00:14:28.010
+50 being much closer to
+30 than it is to 150.
+
+00:14:28.010 --> 00:14:30.000
+Now, we still have these items right here.
+
+00:14:30.000 --> 00:14:30.400
+Now, we still have these items right here.
+
+00:14:30.400 --> 00:14:33.460
+And honestly, I kind of
+think we should include them
+
+00:14:33.460 --> 00:14:34.293
+in a header as well.
+
+00:14:34.293 --> 00:14:36.000
+But one way that we can do
+this is make a sub navigation.
+
+00:14:36.000 --> 00:14:36.950
+But one way that we can do
+this is make a sub navigation.
+
+00:14:36.950 --> 00:14:39.170
+So I'm gonna duplicate our top nav,
+
+00:14:39.170 --> 00:14:40.860
+make it a little bit bigger,
+and then I'm gonna send it
+
+00:14:40.860 --> 00:14:42.000
+to the bottom of the page.
+
+00:14:42.000 --> 00:14:42.510
+to the bottom of the page.
+
+00:14:42.510 --> 00:14:45.630
+In some sense there's 50
+pixels between here and here
+
+00:14:45.630 --> 00:14:48.000
+as well as there's 50 pixels
+between here and here.
+
+00:14:48.000 --> 00:14:48.090
+as well as there's 50 pixels
+between here and here.
+
+00:14:48.090 --> 00:14:50.970
+So hey, that's consistent, that's great.
+
+00:14:50.970 --> 00:14:53.130
+But we actually have some
+reason to break the consistency
+
+00:14:53.130 --> 00:14:54.000
+because this nav is the
+absolute most primary one,
+
+00:14:54.000 --> 00:14:56.940
+because this nav is the
+absolute most primary one,
+
+00:14:56.940 --> 00:14:59.550
+it's kind of the overall
+navigation on the whole page.
+
+00:14:59.550 --> 00:15:00.000
+This one is of secondary importance.
+
+00:15:00.000 --> 00:15:01.720
+This one is of secondary importance.
+
+00:15:01.720 --> 00:15:03.350
+And so I'm actually gonna
+make it a little bit smaller.
+
+00:15:03.350 --> 00:15:06.000
+Now there's only 40 pixels
+for the secondary nav
+
+00:15:06.000 --> 00:15:06.130
+Now there's only 40 pixels
+for the secondary nav
+
+00:15:06.130 --> 00:15:08.983
+but the primary nav is still 50 pixels.
+
+00:15:10.060 --> 00:15:12.000
+So I'll grab these,
+center them a little bit,
+
+00:15:12.000 --> 00:15:12.510
+So I'll grab these,
+center them a little bit,
+
+00:15:12.510 --> 00:15:14.710
+I'm actually gonna press
+Shift+A to put them in a group
+
+00:15:14.710 --> 00:15:16.270
+and then I can change the space
+
+00:15:16.270 --> 00:15:18.000
+between the layers very
+easily, that was 24.
+
+00:15:18.000 --> 00:15:19.540
+between the layers very
+easily, that was 24.
+
+00:15:19.540 --> 00:15:21.563
+And I might also left align them.
+
+00:15:23.640 --> 00:15:24.000
+Now let's look at these
+form controls right here.
+
+00:15:24.000 --> 00:15:25.890
+Now let's look at these
+form controls right here.
+
+00:15:25.890 --> 00:15:28.020
+We've got a search bar
+that's gonna ultimately need
+
+00:15:28.020 --> 00:15:28.970
+to go around this.
+
+00:15:28.970 --> 00:15:30.000
+And let me just lock these layers
+
+00:15:30.000 --> 00:15:30.120
+And let me just lock these layers
+
+00:15:30.120 --> 00:15:31.830
+'cause we won't play with them anymore.
+
+00:15:31.830 --> 00:15:34.310
+And then we've got a button
+that's gonna go around here.
+
+00:15:34.310 --> 00:15:36.000
+And one key thing for
+sizing of form controls is
+
+00:15:36.000 --> 00:15:38.100
+And one key thing for
+sizing of form controls is
+
+00:15:38.100 --> 00:15:39.980
+that first heuristic.
+
+00:15:39.980 --> 00:15:41.610
+In the absence of any compelling logic
+
+00:15:41.610 --> 00:15:42.000
+to do otherwise, go consistent.
+
+00:15:42.000 --> 00:15:44.320
+to do otherwise, go consistent.
+
+00:15:44.320 --> 00:15:45.543
+Set in a stroke.
+
+00:15:46.400 --> 00:15:48.000
+Of course it doesn't need
+to be very thick at all.
+
+00:15:48.000 --> 00:15:48.990
+Of course it doesn't need
+to be very thick at all.
+
+00:15:48.990 --> 00:15:50.763
+We'll put it all the way at the bottom.
+
+00:15:51.770 --> 00:15:54.000
+Then pull it up just enough to see it.
+
+00:15:54.000 --> 00:15:54.143
+Then pull it up just enough to see it.
+
+00:15:56.390 --> 00:15:57.670
+I'll move this here a little bit.
+
+00:15:57.670 --> 00:15:59.920
+And then I'm just gonna
+duplicate this layer.
+
+00:16:02.270 --> 00:16:04.120
+Then I can remove the stroke.
+
+00:16:04.120 --> 00:16:06.000
+And we'll talk about this
+more in the color lesson
+
+00:16:06.000 --> 00:16:06.220
+And we'll talk about this
+more in the color lesson
+
+00:16:06.220 --> 00:16:08.680
+but I think I can just go
+for kind of a nice orange
+
+00:16:08.680 --> 00:16:10.770
+that seems to be suggested by the site.
+
+00:16:10.770 --> 00:16:12.000
+But since this is the donate button,
+
+00:16:12.000 --> 00:16:12.310
+But since this is the donate button,
+
+00:16:12.310 --> 00:16:13.940
+I want it to be kind of bright
+
+00:16:13.940 --> 00:16:16.120
+and attract attention a little bit.
+
+00:16:16.120 --> 00:16:17.950
+Now I can just press Shift+A
+
+00:16:17.950 --> 00:16:18.000
+to create an auto layout here
+
+00:16:18.000 --> 00:16:20.470
+to create an auto layout here
+
+00:16:20.470 --> 00:16:23.490
+which will allow me to edit
+the button text very nicely.
+
+00:16:23.490 --> 00:16:24.000
+But I do want the height to
+be consistent, so this is 35.
+
+00:16:24.000 --> 00:16:26.790
+But I do want the height to
+be consistent, so this is 35.
+
+00:16:26.790 --> 00:16:28.050
+Let's just make it an even number
+
+00:16:28.050 --> 00:16:29.500
+so it seems more intentional.
+
+00:16:30.610 --> 00:16:32.603
+That's a huge deal either way.
+
+00:16:34.410 --> 00:16:36.000
+We want this to be 36 as well.
+
+00:16:36.000 --> 00:16:36.403
+We want this to be 36 as well.
+
+00:16:39.080 --> 00:16:41.700
+So we'll switch over to a fixed height
+
+00:16:41.700 --> 00:16:42.000
+and make it a bit bigger.
+
+00:16:42.000 --> 00:16:43.083
+and make it a bit bigger.
+
+00:16:44.600 --> 00:16:46.070
+And that actually looks pretty good.
+
+00:16:46.070 --> 00:16:48.000
+Now let's zoom out and see how this looks.
+
+00:16:48.000 --> 00:16:48.090
+Now let's zoom out and see how this looks.
+
+00:16:48.090 --> 00:16:51.160
+Overall, a 36 pixel form control is well
+
+00:16:51.160 --> 00:16:52.930
+within the accepted range of what most
+
+00:16:52.930 --> 00:16:54.000
+professionally designed
+desktop web apps are doing.
+
+00:16:54.000 --> 00:16:55.780
+professionally designed
+desktop web apps are doing.
+
+00:16:55.780 --> 00:16:58.490
+I would say the minimum that
+you want is a height of 30
+
+00:16:58.490 --> 00:17:00.000
+and the maximum is probably
+about a height of 50.
+
+00:17:00.000 --> 00:17:00.950
+and the maximum is probably
+about a height of 50.
+
+00:17:00.950 --> 00:17:02.130
+You'll sometimes have buttons
+
+00:17:02.130 --> 00:17:03.890
+that are like big calls to action
+
+00:17:03.890 --> 00:17:06.000
+at the bottom of marketing
+pages that are even bigger,
+
+00:17:06.000 --> 00:17:07.890
+at the bottom of marketing
+pages that are even bigger,
+
+00:17:07.890 --> 00:17:10.100
+maybe 55, 60, is not crazy.
+
+00:17:10.100 --> 00:17:12.000
+Of course the text would
+probably be bigger too.
+
+00:17:12.000 --> 00:17:12.530
+Of course the text would
+probably be bigger too.
+
+00:17:12.530 --> 00:17:14.190
+But for something that's kind of limited
+
+00:17:14.190 --> 00:17:17.620
+into this already narrow
+space, 36 seems spot on.
+
+00:17:17.620 --> 00:17:18.000
+And let's take the briefest of looks
+
+00:17:18.000 --> 00:17:19.170
+And let's take the briefest of looks
+
+00:17:19.170 --> 00:17:21.570
+at what some of these
+other sites are doing.
+
+00:17:21.570 --> 00:17:23.460
+One thing that's notable about the buttons
+
+00:17:23.460 --> 00:17:24.000
+on Airtable's interface is they've got
+
+00:17:24.000 --> 00:17:24.960
+on Airtable's interface is they've got
+
+00:17:24.960 --> 00:17:27.670
+these tag style buttons that are so small,
+
+00:17:27.670 --> 00:17:29.470
+share and upgrade.
+
+00:17:29.470 --> 00:17:30.000
+Most of the time I don't
+recommend making buttons
+
+00:17:30.000 --> 00:17:31.800
+Most of the time I don't
+recommend making buttons
+
+00:17:31.800 --> 00:17:32.810
+that are this small because
+
+00:17:32.810 --> 00:17:34.500
+they actually get kind of tough to click.
+
+00:17:34.500 --> 00:17:36.000
+So that's only 22 pixels
+high, not very big.
+
+00:17:36.000 --> 00:17:38.310
+So that's only 22 pixels
+high, not very big.
+
+00:17:38.310 --> 00:17:39.270
+But I do appreciate
+
+00:17:39.270 --> 00:17:40.920
+that they made the upgrade nice and orange
+
+00:17:40.920 --> 00:17:42.000
+and the share kind of
+bright and green here.
+
+00:17:42.000 --> 00:17:42.800
+and the share kind of
+bright and green here.
+
+00:17:42.800 --> 00:17:45.120
+And so what they lack in the actual size,
+
+00:17:45.120 --> 00:17:47.440
+they still make up for with bright colors
+
+00:17:47.440 --> 00:17:48.000
+and kind of popping and catching your eye.
+
+00:17:48.000 --> 00:17:49.543
+and kind of popping and catching your eye.
+
+00:17:50.440 --> 00:17:52.630
+If we look here, we got a sign up button.
+
+00:17:52.630 --> 00:17:53.730
+This looks like it's well within
+
+00:17:53.730 --> 00:17:54.000
+that kind of 30 to 50 range or so,
+
+00:17:54.000 --> 00:17:56.770
+that kind of 30 to 50 range or so,
+
+00:17:56.770 --> 00:17:58.300
+yeah, 35 pretty normal,
+
+00:17:58.300 --> 00:18:00.000
+but then we have these, again,
+
+00:18:00.000 --> 00:18:00.370
+but then we have these, again,
+
+00:18:00.370 --> 00:18:02.270
+calls to action on a marketing page.
+
+00:18:02.270 --> 00:18:04.300
+These are typically about
+as big as the buttons come.
+
+00:18:04.300 --> 00:18:06.000
+And this is only 50 pixels tall.
+
+00:18:06.000 --> 00:18:06.130
+And this is only 50 pixels tall.
+
+00:18:06.130 --> 00:18:07.763
+So pretty typical.
+
+00:18:08.840 --> 00:18:12.000
+IDEO, no buttons throughout the blog post
+
+00:18:12.000 --> 00:18:12.560
+IDEO, no buttons throughout the blog post
+
+00:18:12.560 --> 00:18:13.980
+but here we go, there's one.
+
+00:18:13.980 --> 00:18:15.840
+And again, it looks
+like it's gonna be right
+
+00:18:15.840 --> 00:18:18.000
+around 50 or something, 48.
+
+00:18:18.000 --> 00:18:18.600
+around 50 or something, 48.
+
+00:18:18.600 --> 00:18:19.623
+So you get the idea.
+
+00:18:20.950 --> 00:18:23.310
+Now it's time that we
+talked about font sizes.
+
+00:18:23.310 --> 00:18:24.000
+Font sizes, if you can size them well,
+
+00:18:24.000 --> 00:18:25.590
+Font sizes, if you can size them well,
+
+00:18:25.590 --> 00:18:27.610
+I mean, this is just one of
+the most important things
+
+00:18:27.610 --> 00:18:30.000
+that you can do in
+terms of a single change
+
+00:18:30.000 --> 00:18:30.020
+that you can do in
+terms of a single change
+
+00:18:30.020 --> 00:18:32.130
+that will make your design look better.
+
+00:18:32.130 --> 00:18:34.320
+I'm gonna talk about five
+different major font styles
+
+00:18:34.320 --> 00:18:35.550
+that you'll probably use.
+
+00:18:35.550 --> 00:18:36.000
+And honestly, most apps I think,
+
+00:18:36.000 --> 00:18:37.370
+And honestly, most apps I think,
+
+00:18:37.370 --> 00:18:38.620
+could get away with just having
+
+00:18:38.620 --> 00:18:40.260
+these five styles and that's it.
+
+00:18:40.260 --> 00:18:41.950
+If you have one size for
+each of these styles,
+
+00:18:41.950 --> 00:18:42.000
+you'll be good to go.
+
+00:18:42.000 --> 00:18:43.020
+you'll be good to go.
+
+00:18:43.020 --> 00:18:44.760
+The first one is the body size.
+
+00:18:44.760 --> 00:18:47.630
+And maybe I call this the
+default size, the body size,
+
+00:18:47.630 --> 00:18:48.000
+the paragraph size, the
+standard size, whatever.
+
+00:18:48.000 --> 00:18:51.010
+the paragraph size, the
+standard size, whatever.
+
+00:18:51.010 --> 00:18:54.000
+But the whole idea is that
+most of the text on your page
+
+00:18:54.000 --> 00:18:54.860
+But the whole idea is that
+most of the text on your page
+
+00:18:54.860 --> 00:18:57.120
+that's in paragraphs or anything beyond,
+
+00:18:57.120 --> 00:18:58.840
+just maybe a quick label or something,
+
+00:18:58.840 --> 00:19:00.000
+anything that's in it, a text box,
+
+00:19:00.000 --> 00:19:01.650
+anything that's in it, a text box,
+
+00:19:01.650 --> 00:19:02.740
+some sort of description,
+
+00:19:02.740 --> 00:19:04.390
+we're just gonna take all of these
+
+00:19:04.390 --> 00:19:06.000
+and kind of lump them
+into our default size.
+
+00:19:06.000 --> 00:19:06.490
+and kind of lump them
+into our default size.
+
+00:19:06.490 --> 00:19:08.530
+Some of them we might split out later
+
+00:19:08.530 --> 00:19:09.630
+but the idea is we want to,
+
+00:19:09.630 --> 00:19:12.000
+again by that first heuristic
+default to consistency.
+
+00:19:12.000 --> 00:19:13.670
+again by that first heuristic
+default to consistency.
+
+00:19:13.670 --> 00:19:17.930
+Now, right now all of this
+stuff is Minion Pro at 16 point.
+
+00:19:17.930 --> 00:19:18.000
+16 point is a good starting size.
+
+00:19:18.000 --> 00:19:20.760
+16 point is a good starting size.
+
+00:19:20.760 --> 00:19:21.880
+It is the default size
+
+00:19:21.880 --> 00:19:23.770
+where if you don't add any CSS styles,
+
+00:19:23.770 --> 00:19:24.000
+your website will just
+probably start displaying
+
+00:19:24.000 --> 00:19:25.670
+your website will just
+probably start displaying
+
+00:19:25.670 --> 00:19:27.110
+its text in 16 point.
+
+00:19:27.110 --> 00:19:29.330
+And Minion Pro, in my opinion,
+
+00:19:29.330 --> 00:19:30.000
+is kind of on the small side
+even for any particular size.
+
+00:19:30.000 --> 00:19:33.460
+is kind of on the small side
+even for any particular size.
+
+00:19:33.460 --> 00:19:35.350
+If I were to look at some
+other fonts at 16 point,
+
+00:19:35.350 --> 00:19:36.000
+they'd actually be more
+readable and maybe look bigger.
+
+00:19:36.000 --> 00:19:37.920
+they'd actually be more
+readable and maybe look bigger.
+
+00:19:37.920 --> 00:19:41.270
+So I'm definitely gonna want
+to lean a little bit big here.
+
+00:19:41.270 --> 00:19:42.000
+How big? Well, kind of depends.
+
+00:19:42.000 --> 00:19:43.970
+How big? Well, kind of depends.
+
+00:19:43.970 --> 00:19:45.940
+If I get as high up as 20 here,
+
+00:19:45.940 --> 00:19:48.000
+it starts to seem like this might just be
+
+00:19:48.000 --> 00:19:48.560
+it starts to seem like this might just be
+
+00:19:48.560 --> 00:19:49.730
+a bit more than I want just 'cause
+
+00:19:49.730 --> 00:19:51.550
+of how much content is on this page,
+
+00:19:51.550 --> 00:19:53.550
+how many little different
+things are going on.
+
+00:19:53.550 --> 00:19:54.000
+20 might be a bit big, but 19...
+
+00:19:54.000 --> 00:19:57.520
+20 might be a bit big, but 19...
+
+00:19:57.520 --> 00:19:59.763
+So if 15 is too small and 20 is too big,
+
+00:19:59.763 --> 00:20:00.000
+this is actually kind of a violation
+
+00:20:00.000 --> 00:20:01.340
+this is actually kind of a violation
+
+00:20:01.340 --> 00:20:02.320
+to that third heuristic
+
+00:20:02.320 --> 00:20:06.000
+but maybe 19, 18, somewhere
+around there seems good.
+
+00:20:06.000 --> 00:20:06.010
+but maybe 19, 18, somewhere
+around there seems good.
+
+00:20:06.010 --> 00:20:08.220
+Let's just do 19 for right now.
+
+00:20:08.220 --> 00:20:12.000
+Now, I want to say one thing
+about picking a body text size,
+
+00:20:12.000 --> 00:20:12.280
+Now, I want to say one thing
+about picking a body text size,
+
+00:20:12.280 --> 00:20:15.490
+which is for pages that
+have a ton going on,
+
+00:20:15.490 --> 00:20:17.900
+I sometimes call them
+highly interactive pages,
+
+00:20:17.900 --> 00:20:18.000
+and even though this page
+isn't super interactive,
+
+00:20:18.000 --> 00:20:20.160
+and even though this page
+isn't super interactive,
+
+00:20:20.160 --> 00:20:21.880
+you can click this link
+and click this link
+
+00:20:21.880 --> 00:20:24.000
+and there's a nav, there's
+still so much going on
+
+00:20:24.000 --> 00:20:24.630
+and there's a nav, there's
+still so much going on
+
+00:20:24.630 --> 00:20:27.110
+that it's kind of under
+different constraints
+
+00:20:27.110 --> 00:20:29.760
+than pages that are primarily text.
+
+00:20:29.760 --> 00:20:30.000
+So for instance, if we just removed,
+
+00:20:30.000 --> 00:20:32.163
+So for instance, if we just removed,
+
+00:20:33.710 --> 00:20:36.000
+if we just removed everything except
+
+00:20:36.000 --> 00:20:36.080
+if we just removed everything except
+
+00:20:36.080 --> 00:20:38.480
+for maybe one little
+piece of body text here
+
+00:20:40.130 --> 00:20:42.000
+and we said this page is all
+about this text right here,
+
+00:20:42.000 --> 00:20:43.563
+and we said this page is all
+about this text right here,
+
+00:20:44.620 --> 00:20:46.170
+you can see that size 19
+
+00:20:46.170 --> 00:20:48.000
+is actually probably not big enough.
+
+00:20:48.000 --> 00:20:48.763
+is actually probably not big enough.
+
+00:20:49.970 --> 00:20:53.230
+We always want to have 50
+to 75 characters align,
+
+00:20:53.230 --> 00:20:54.000
+so that's two to three alphabets.
+
+00:20:54.000 --> 00:20:54.740
+so that's two to three alphabets.
+
+00:20:54.740 --> 00:20:57.380
+We can see that according
+to this font size,
+
+00:20:57.380 --> 00:20:58.260
+this is wide enough,
+
+00:20:58.260 --> 00:21:00.000
+but it just doesn't take
+up enough of the page.
+
+00:21:00.000 --> 00:21:00.480
+but it just doesn't take
+up enough of the page.
+
+00:21:00.480 --> 00:21:01.910
+It's so little.
+
+00:21:01.910 --> 00:21:02.960
+And so if we wanted something
+
+00:21:02.960 --> 00:21:05.190
+that took up a little
+bit more of the page,
+
+00:21:05.190 --> 00:21:06.000
+at this point it would be this size
+
+00:21:06.000 --> 00:21:07.010
+at this point it would be this size
+
+00:21:07.010 --> 00:21:09.220
+and then 20 kind of
+becomes the minimum size,
+
+00:21:09.220 --> 00:21:12.000
+that makes sense and we could
+actually get much bigger.
+
+00:21:12.000 --> 00:21:12.630
+that makes sense and we could
+actually get much bigger.
+
+00:21:12.630 --> 00:21:15.670
+So the constraints if you have
+a very text heavy site are
+
+00:21:15.670 --> 00:21:18.000
+to try and have a larger body font size.
+
+00:21:18.000 --> 00:21:19.490
+to try and have a larger body font size.
+
+00:21:19.490 --> 00:21:21.230
+If you have a more interaction heavy site
+
+00:21:21.230 --> 00:21:22.610
+where there's lots of little labels
+
+00:21:22.610 --> 00:21:24.000
+and lots of stuff going on,
+
+00:21:24.000 --> 00:21:24.400
+and lots of stuff going on,
+
+00:21:24.400 --> 00:21:27.540
+then maybe your normal default
+size isn't quite as big.
+
+00:21:27.540 --> 00:21:29.850
+If you have a site that
+has both types of pages,
+
+00:21:29.850 --> 00:21:30.000
+it can be a very careful balance.
+
+00:21:30.000 --> 00:21:31.890
+it can be a very careful balance.
+
+00:21:31.890 --> 00:21:33.230
+Perhaps you'll find one size
+
+00:21:33.230 --> 00:21:35.350
+that fits the bill for both places
+
+00:21:35.350 --> 00:21:36.000
+and perhaps you'll just have
+
+00:21:36.000 --> 00:21:36.610
+and perhaps you'll just have
+
+00:21:36.610 --> 00:21:38.350
+to have two different sizes there.
+
+00:21:38.350 --> 00:21:39.570
+So let me straighten this out a bit
+
+00:21:39.570 --> 00:21:40.870
+and then we'll keep going.
+
+00:21:51.680 --> 00:21:53.490
+So now everything looks a
+little bit more official
+
+00:21:53.490 --> 00:21:54.000
+and it's a little bit neater.
+
+00:21:54.000 --> 00:21:55.030
+and it's a little bit neater.
+
+00:21:55.030 --> 00:21:58.350
+Let's talk about the
+top level header style,
+
+00:21:58.350 --> 00:22:00.000
+the page title, the h1 in HTML speak.
+
+00:22:00.000 --> 00:22:01.400
+the page title, the h1 in HTML speak.
+
+00:22:01.400 --> 00:22:03.670
+I like to call this the h1 style
+
+00:22:03.670 --> 00:22:05.760
+but it just means header one,
+
+00:22:05.760 --> 00:22:06.000
+kind of the most important
+header or the page title.
+
+00:22:06.000 --> 00:22:08.100
+kind of the most important
+header or the page title.
+
+00:22:08.100 --> 00:22:10.210
+It's as opposed to something like h2
+
+00:22:10.210 --> 00:22:12.000
+which could be for instance,
+overview or cost effectiveness,
+
+00:22:12.000 --> 00:22:13.320
+which could be for instance,
+overview or cost effectiveness,
+
+00:22:13.320 --> 00:22:15.800
+or even malaria consortium down here.
+
+00:22:15.800 --> 00:22:17.210
+Now, if you remember, the second heuristic
+
+00:22:17.210 --> 00:22:18.000
+of sizing elements in UI design is
+
+00:22:18.000 --> 00:22:19.330
+of sizing elements in UI design is
+
+00:22:19.330 --> 00:22:21.820
+to explore a wider range of
+sizes for bigger elements.
+
+00:22:21.820 --> 00:22:23.770
+And h1s kind of fit the bill here.
+
+00:22:23.770 --> 00:22:24.000
+So even though I just
+picked the normal size of 16
+
+00:22:24.000 --> 00:22:26.390
+So even though I just
+picked the normal size of 16
+
+00:22:26.390 --> 00:22:27.910
+and doubled it for 32,
+
+00:22:27.910 --> 00:22:30.000
+we can actually explore a
+good deal of sizes here.
+
+00:22:30.000 --> 00:22:30.410
+we can actually explore a
+good deal of sizes here.
+
+00:22:31.410 --> 00:22:36.000
+And I'm gonna press Shift+Enter
+to go up to the parent
+
+00:22:36.000 --> 00:22:36.270
+And I'm gonna press Shift+Enter
+to go up to the parent
+
+00:22:36.270 --> 00:22:39.663
+and tell him to stop clipping
+content, don't need that.
+
+00:22:43.960 --> 00:22:44.960
+Just get this stuff out of the way
+
+00:22:44.960 --> 00:22:47.760
+until we find a good style that we like.
+
+00:22:47.760 --> 00:22:48.000
+And I can slide up to
+what's clearly too big
+
+00:22:48.000 --> 00:22:49.800
+And I can slide up to
+what's clearly too big
+
+00:22:49.800 --> 00:22:53.690
+in the range of 50 and go down
+to what's clearly too small.
+
+00:22:53.690 --> 00:22:54.000
+And the range of 32 I feel like actually
+
+00:22:54.000 --> 00:22:55.750
+And the range of 32 I feel like actually
+
+00:22:55.750 --> 00:22:57.610
+isn't really big enough.
+
+00:22:57.610 --> 00:22:59.130
+Now this is ultimately a decision
+
+00:22:59.130 --> 00:23:00.000
+where this charity is just one charity
+
+00:23:00.000 --> 00:23:01.510
+where this charity is just one charity
+
+00:23:01.510 --> 00:23:03.840
+of the many charities listed on this page.
+
+00:23:03.840 --> 00:23:05.630
+And so whatever these headlines say,
+
+00:23:05.630 --> 00:23:06.000
+I can't just pick a size
+
+00:23:06.000 --> 00:23:06.760
+I can't just pick a size
+
+00:23:06.760 --> 00:23:08.980
+in isolation looking at one header.
+
+00:23:08.980 --> 00:23:11.230
+I'm gonna have to see
+how this particular size,
+
+00:23:11.230 --> 00:23:12.000
+if I pick 40, I have to see how 40 works
+
+00:23:12.000 --> 00:23:13.930
+if I pick 40, I have to see how 40 works
+
+00:23:13.930 --> 00:23:17.350
+for all of the different
+titles on the page,
+
+00:23:17.350 --> 00:23:18.000
+or if I pick 42.
+
+00:23:18.000 --> 00:23:18.500
+or if I pick 42.
+
+00:23:18.500 --> 00:23:19.333
+There we go.
+
+00:23:19.333 --> 00:23:20.610
+Looks great for this.
+
+00:23:20.610 --> 00:23:22.020
+And graphic designers can get away
+
+00:23:22.020 --> 00:23:23.930
+with just picking one
+size and having it work
+
+00:23:23.930 --> 00:23:24.000
+for that particular piece of text
+
+00:23:24.000 --> 00:23:25.860
+for that particular piece of text
+
+00:23:25.860 --> 00:23:27.630
+but in UI design, we know we have
+
+00:23:27.630 --> 00:23:29.450
+to have not only this headline
+
+00:23:29.450 --> 00:23:30.000
+but other ones on the page
+
+00:23:30.000 --> 00:23:30.620
+but other ones on the page
+
+00:23:30.620 --> 00:23:32.020
+and then if the page gets updated
+
+00:23:32.020 --> 00:23:33.310
+or changed to something else,
+
+00:23:33.310 --> 00:23:34.590
+there's always sort of this interplay
+
+00:23:34.590 --> 00:23:36.000
+between the real data in this text box
+
+00:23:36.000 --> 00:23:37.550
+between the real data in this text box
+
+00:23:37.550 --> 00:23:39.920
+and the font size that we choose.
+
+00:23:39.920 --> 00:23:41.420
+If it gets to be way too long,
+
+00:23:43.700 --> 00:23:45.030
+this just looks ridiculous.
+
+00:23:45.030 --> 00:23:47.070
+So it's a careful balance.
+
+00:23:47.070 --> 00:23:48.000
+Now just as text heavy sites tend
+
+00:23:48.000 --> 00:23:49.710
+Now just as text heavy sites tend
+
+00:23:49.710 --> 00:23:54.000
+to have larger body sizes,
+like the IDEO blog post,
+
+00:23:54.000 --> 00:23:54.450
+to have larger body sizes,
+like the IDEO blog post,
+
+00:23:54.450 --> 00:23:56.450
+let's see, 18 as its body size
+
+00:23:56.450 --> 00:23:57.420
+but if we go to Airtable
+
+00:23:57.420 --> 00:23:59.900
+which is a lot more interaction-heavy,
+
+00:23:59.900 --> 00:24:00.000
+not there's a real body size here
+
+00:24:00.000 --> 00:24:01.500
+not there's a real body size here
+
+00:24:01.500 --> 00:24:03.490
+but let's say it's this 14 point.
+
+00:24:03.490 --> 00:24:06.000
+So definitely on the smaller
+side and that's fine,
+
+00:24:06.000 --> 00:24:06.923
+So definitely on the smaller
+side and that's fine,
+
+00:24:08.110 --> 00:24:11.260
+while as IDEO is on the bigger
+side, and that works for it.
+
+00:24:11.260 --> 00:24:12.000
+So just as that you see that
+pattern for the body font size,
+
+00:24:12.000 --> 00:24:14.560
+So just as that you see that
+pattern for the body font size,
+
+00:24:14.560 --> 00:24:16.970
+you'll also see it for the h1 size.
+
+00:24:16.970 --> 00:24:18.000
+Here we have a 70 pixel header.
+
+00:24:18.000 --> 00:24:18.900
+Here we have a 70 pixel header.
+
+00:24:18.900 --> 00:24:20.520
+Again, if we flip on over to Airtable,
+
+00:24:20.520 --> 00:24:23.470
+nothing on this page is
+even close to 70 pixels.
+
+00:24:23.470 --> 00:24:24.000
+This one's only 22,
+that's ridiculously small.
+
+00:24:24.000 --> 00:24:25.820
+This one's only 22,
+that's ridiculously small.
+
+00:24:25.820 --> 00:24:27.360
+That's like mildly bigger
+
+00:24:27.360 --> 00:24:29.340
+than the body font size on this page.
+
+00:24:29.340 --> 00:24:30.000
+Vercel looks like it's kind
+of nice and in between.
+
+00:24:30.000 --> 00:24:32.540
+Vercel looks like it's kind
+of nice and in between.
+
+00:24:32.540 --> 00:24:34.750
+Maybe we've got some big headers here,
+
+00:24:34.750 --> 00:24:36.000
+64 point, yep, that's quite big
+
+00:24:36.000 --> 00:24:36.960
+64 point, yep, that's quite big
+
+00:24:36.960 --> 00:24:40.860
+but then this body, what's
+really the true body size?
+
+00:24:40.860 --> 00:24:41.790
+They have a couple going on
+
+00:24:41.790 --> 00:24:42.000
+but this one looks maybe the closest,
+
+00:24:42.000 --> 00:24:43.560
+but this one looks maybe the closest,
+
+00:24:43.560 --> 00:24:45.113
+size 16, there you go.
+
+00:24:46.330 --> 00:24:48.000
+Now this is actually a good
+lead into talking about h2s.
+
+00:24:48.000 --> 00:24:49.280
+Now this is actually a good
+lead into talking about h2s.
+
+00:24:49.280 --> 00:24:52.680
+So here we've got this primary
+header better together.
+
+00:24:52.680 --> 00:24:54.000
+For our secondary header
+we want a font size
+
+00:24:54.000 --> 00:24:55.470
+For our secondary header
+we want a font size
+
+00:24:55.470 --> 00:24:57.240
+that is big enough to show you
+
+00:24:57.240 --> 00:24:59.380
+that it's supposed to
+be bigger than the body
+
+00:24:59.380 --> 00:25:00.000
+but also small enough that
+it doesn't get confused
+
+00:25:00.000 --> 00:25:02.070
+but also small enough that
+it doesn't get confused
+
+00:25:02.070 --> 00:25:03.590
+with this top level header.
+
+00:25:03.590 --> 00:25:05.000
+And for whatever reason,
+
+00:25:05.000 --> 00:25:06.000
+when designers think about
+trying to pick a size
+
+00:25:06.000 --> 00:25:07.040
+when designers think about
+trying to pick a size
+
+00:25:07.040 --> 00:25:11.010
+for an h1 and an h2 and a body
+text all at the same time,
+
+00:25:11.010 --> 00:25:12.000
+they come across this
+thing called type scales.
+
+00:25:12.000 --> 00:25:14.130
+they come across this
+thing called type scales.
+
+00:25:14.130 --> 00:25:16.870
+Type scales are based around this idea
+
+00:25:16.870 --> 00:25:18.000
+that you should multiply
+each successive font size
+
+00:25:18.000 --> 00:25:19.810
+that you should multiply
+each successive font size
+
+00:25:19.810 --> 00:25:21.350
+by a certain constant,
+
+00:25:21.350 --> 00:25:24.000
+in this case, I've
+picked 1.250 major third
+
+00:25:24.000 --> 00:25:24.750
+in this case, I've
+picked 1.250 major third
+
+00:25:24.750 --> 00:25:27.323
+but I can go and pick any
+of these on the site here,
+
+00:25:28.230 --> 00:25:30.000
+an act of unforgiveable pretension.
+
+00:25:30.000 --> 00:25:30.170
+an act of unforgiveable pretension.
+
+00:25:30.170 --> 00:25:33.050
+These are all named after
+musical intervals except
+
+00:25:33.050 --> 00:25:36.000
+for the golden ratio which who
+even knows with this stuff?
+
+00:25:36.000 --> 00:25:37.050
+for the golden ratio which who
+even knows with this stuff?
+
+00:25:37.050 --> 00:25:39.200
+And here, now we've got
+our page title right here
+
+00:25:39.200 --> 00:25:40.440
+and our secondary headers
+
+00:25:40.440 --> 00:25:42.000
+and our tertiary headers on down the line.
+
+00:25:42.000 --> 00:25:42.500
+and our tertiary headers on down the line.
+
+00:25:42.500 --> 00:25:44.710
+And presumably This is
+kind of the default size
+
+00:25:44.710 --> 00:25:46.400
+that that body text is.
+
+00:25:46.400 --> 00:25:48.000
+Now if you can't tell my
+opinion at this point,
+
+00:25:48.000 --> 00:25:48.640
+Now if you can't tell my
+opinion at this point,
+
+00:25:48.640 --> 00:25:51.110
+I think type scales are ridiculous.
+
+00:25:51.110 --> 00:25:52.780
+You really should feel no compulsion
+
+00:25:52.780 --> 00:25:54.000
+to obey one of these things exactly.
+
+00:25:54.000 --> 00:25:55.130
+to obey one of these things exactly.
+
+00:25:55.130 --> 00:25:56.630
+Instead, you should understand
+
+00:25:56.630 --> 00:25:58.620
+why this is generally a good idea
+
+00:25:58.620 --> 00:26:00.000
+but then you should adjust
+type sizes as you need.
+
+00:26:00.000 --> 00:26:01.900
+but then you should adjust
+type sizes as you need.
+
+00:26:01.900 --> 00:26:03.610
+We'll cover this more
+in the typography unit
+
+00:26:03.610 --> 00:26:06.000
+but the general idea is just
+having a secondary header
+
+00:26:06.000 --> 00:26:07.370
+but the general idea is just
+having a secondary header
+
+00:26:07.370 --> 00:26:09.050
+that kind of walks the line nicely
+
+00:26:09.050 --> 00:26:12.000
+between your primary header
+here and your body text.
+
+00:26:12.000 --> 00:26:12.120
+between your primary header
+here and your body text.
+
+00:26:12.120 --> 00:26:14.700
+It's about corralling the
+users attention effectively
+
+00:26:14.700 --> 00:26:16.650
+and giving them a sense of exactly
+
+00:26:16.650 --> 00:26:18.000
+how important any given header is.
+
+00:26:18.000 --> 00:26:19.270
+how important any given header is.
+
+00:26:19.270 --> 00:26:21.640
+If we go and we look here,
+we can see this is actually,
+
+00:26:21.640 --> 00:26:23.040
+they do a fantastic job.
+
+00:26:23.040 --> 00:26:24.000
+If I just squint my eyes here,
+
+00:26:24.000 --> 00:26:24.610
+If I just squint my eyes here,
+
+00:26:24.610 --> 00:26:27.010
+I can tell kind of immediately
+what I'm looking at.
+
+00:26:27.010 --> 00:26:29.830
+There's this page title which
+applies to everything here,
+
+00:26:29.830 --> 00:26:30.000
+all the stuff that I'm looking at
+
+00:26:30.000 --> 00:26:31.230
+all the stuff that I'm looking at
+
+00:26:31.230 --> 00:26:33.040
+and then there's these
+three smaller titles
+
+00:26:33.040 --> 00:26:34.710
+which seem to be kind of in parallel
+
+00:26:34.710 --> 00:26:36.000
+and sort of sub headers underneath this.
+
+00:26:36.000 --> 00:26:37.540
+and sort of sub headers underneath this.
+
+00:26:37.540 --> 00:26:38.373
+I don't need to be able
+
+00:26:38.373 --> 00:26:40.530
+to perceive a single word on the page
+
+00:26:40.530 --> 00:26:42.000
+to understand that overall
+structure of the page,
+
+00:26:42.000 --> 00:26:42.740
+to understand that overall
+structure of the page,
+
+00:26:42.740 --> 00:26:44.820
+and that's our goal.
+
+00:26:44.820 --> 00:26:46.800
+One interesting thing
+about type scales though,
+
+00:26:46.800 --> 00:26:48.000
+is if you follow them exactly,
+
+00:26:48.000 --> 00:26:48.510
+is if you follow them exactly,
+
+00:26:48.510 --> 00:26:50.910
+it does kind of follow our third heuristic
+
+00:26:50.910 --> 00:26:53.370
+for sizing elements which
+is that once you found
+
+00:26:53.370 --> 00:26:54.000
+your upper bound and your lower bound,
+
+00:26:54.000 --> 00:26:55.160
+your upper bound and your lower bound,
+
+00:26:55.160 --> 00:26:56.830
+you're always gonna choose something,
+
+00:26:56.830 --> 00:26:58.900
+the middle so to speak
+is actually always closer
+
+00:26:58.900 --> 00:26:59.873
+to the lower bound.
+
+00:27:00.720 --> 00:27:01.970
+If I go and I look here,
+
+00:27:01.970 --> 00:27:04.700
+109 pixels is actually closer numerically
+
+00:27:04.700 --> 00:27:06.000
+to 67 pixels than it is to 177 pixels.
+
+00:27:06.000 --> 00:27:08.660
+to 67 pixels than it is to 177 pixels.
+
+00:27:08.660 --> 00:27:12.000
+Likewise, 16 is closer
+to nine than it is to 25.
+
+00:27:12.000 --> 00:27:12.570
+Likewise, 16 is closer
+to nine than it is to 25.
+
+00:27:12.570 --> 00:27:15.460
+And so that general principle
+can be useful to keep in mind,
+
+00:27:15.460 --> 00:27:17.580
+but none of your users
+will find your site ugly
+
+00:27:17.580 --> 00:27:18.000
+because you didn't follow
+a type scale exactly.
+
+00:27:18.000 --> 00:27:20.100
+because you didn't follow
+a type scale exactly.
+
+00:27:20.100 --> 00:27:21.910
+However, they might notice,
+
+00:27:21.910 --> 00:27:23.980
+if your sub headers look
+too much like headers
+
+00:27:23.980 --> 00:27:24.000
+or too much like your body text.
+
+00:27:24.000 --> 00:27:25.730
+or too much like your body text.
+
+00:27:25.730 --> 00:27:29.450
+Again, your job is just to
+corral attention effectively.
+
+00:27:29.450 --> 00:27:30.000
+All right, so our body
+text size is 19 here,
+
+00:27:30.000 --> 00:27:32.120
+All right, so our body
+text size is 19 here,
+
+00:27:32.120 --> 00:27:35.080
+so let's say that's about
+20 and this is about 40.
+
+00:27:35.080 --> 00:27:36.000
+So we could say for our sub headers,
+
+00:27:36.000 --> 00:27:37.160
+So we could say for our sub headers,
+
+00:27:37.160 --> 00:27:38.950
+we'd actually want to
+be 30 is in the middle
+
+00:27:38.950 --> 00:27:42.000
+and we know we'll want to be
+on the the lower end of 30.
+
+00:27:42.000 --> 00:27:42.633
+and we know we'll want to be
+on the the lower end of 30.
+
+00:27:44.340 --> 00:27:47.240
+Take a bunch of these, make them 25.
+
+00:27:47.240 --> 00:27:48.000
+Even that's a bit bigger.
+
+00:27:48.000 --> 00:27:48.640
+Even that's a bit bigger.
+
+00:27:48.640 --> 00:27:50.220
+If this was text-heavy page
+
+00:27:50.220 --> 00:27:52.820
+and the individual
+sections were quite long,
+
+00:27:52.820 --> 00:27:54.000
+I actually could have
+these subheaders be 25.
+
+00:27:54.000 --> 00:27:56.170
+I actually could have
+these subheaders be 25.
+
+00:27:56.170 --> 00:27:57.820
+But in the context of this page,
+
+00:27:57.820 --> 00:28:00.000
+these are all just gonna be
+really short little snippets.
+
+00:28:00.000 --> 00:28:00.290
+these are all just gonna be
+really short little snippets.
+
+00:28:00.290 --> 00:28:02.290
+Nothing's gonna be over
+a couple of lines long.
+
+00:28:02.290 --> 00:28:04.970
+So what I'm gonna do
+is actually keep them,
+
+00:28:04.970 --> 00:28:06.000
+the size 19 for right now
+and we'll come back to them
+
+00:28:06.000 --> 00:28:07.510
+the size 19 for right now
+and we'll come back to them
+
+00:28:07.510 --> 00:28:09.140
+in just a bit.
+
+00:28:09.140 --> 00:28:09.973
+But that being said,
+
+00:28:09.973 --> 00:28:12.000
+this card that actually
+gives the charity's name,
+
+00:28:12.000 --> 00:28:12.020
+this card that actually
+gives the charity's name,
+
+00:28:12.020 --> 00:28:14.673
+this could be 25 and
+that seems to work fine.
+
+00:28:16.010 --> 00:28:18.000
+So now we've talked about
+three different font sizes.
+
+00:28:18.000 --> 00:28:18.410
+So now we've talked about
+three different font sizes.
+
+00:28:18.410 --> 00:28:20.060
+We've talked about the body text size,
+
+00:28:20.060 --> 00:28:22.010
+which we use, not just for paragraph text,
+
+00:28:22.010 --> 00:28:24.000
+but also for labels or for
+text that's inside inputs
+
+00:28:24.000 --> 00:28:26.710
+but also for labels or for
+text that's inside inputs
+
+00:28:26.710 --> 00:28:28.920
+or maybe kind of like
+little descriptive labels.
+
+00:28:28.920 --> 00:28:30.000
+It can be anywhere.
+
+00:28:30.000 --> 00:28:30.090
+It can be anywhere.
+
+00:28:30.090 --> 00:28:32.280
+And in general, while
+we might change the size
+
+00:28:32.280 --> 00:28:35.280
+of some of those, it's
+just our default go to size
+
+00:28:35.280 --> 00:28:36.000
+whenever we're putting
+something new on the screen.
+
+00:28:36.000 --> 00:28:37.440
+whenever we're putting
+something new on the screen.
+
+00:28:37.440 --> 00:28:40.550
+We talked about the h1
+and we said we'll explore
+
+00:28:40.550 --> 00:28:42.000
+a much wider range of values for this.
+
+00:28:42.000 --> 00:28:42.370
+a much wider range of values for this.
+
+00:28:42.370 --> 00:28:44.510
+Ultimately, we settled on 42 here.
+
+00:28:44.510 --> 00:28:46.240
+And then we talked about the h2.
+
+00:28:46.240 --> 00:28:48.000
+There's only one little
+occurrence of it on this page,
+
+00:28:48.000 --> 00:28:48.590
+There's only one little
+occurrence of it on this page,
+
+00:28:48.590 --> 00:28:50.450
+Malaria Consortium 25.
+
+00:28:50.450 --> 00:28:53.200
+It's closer to the body text
+size than it is to the h1.
+
+00:28:54.180 --> 00:28:57.650
+If you have a very very
+structured document in particular,
+
+00:28:57.650 --> 00:29:00.000
+you might need to make h3s and h4s,
+
+00:29:00.000 --> 00:29:00.660
+you might need to make h3s and h4s,
+
+00:29:00.660 --> 00:29:03.710
+then you kind of have to just
+play with the font sizes again
+
+00:29:03.710 --> 00:29:05.880
+so that people can immediately
+look at the subtitle
+
+00:29:05.880 --> 00:29:06.000
+and know just how important
+or what level it's at.
+
+00:29:06.000 --> 00:29:08.640
+and know just how important
+or what level it's at.
+
+00:29:08.640 --> 00:29:10.390
+But we're not really going
+to bother with that here
+
+00:29:10.390 --> 00:29:12.000
+because the vast majority of
+sites don't actually need h4s
+
+00:29:12.000 --> 00:29:13.230
+because the vast majority of
+sites don't actually need h4s
+
+00:29:13.230 --> 00:29:15.090
+and h5s and h6s.
+
+00:29:15.090 --> 00:29:16.160
+Instead, I'm gonna move on
+
+00:29:16.160 --> 00:29:18.000
+to an extremely common
+font size in UI design
+
+00:29:18.000 --> 00:29:18.550
+to an extremely common
+font size in UI design
+
+00:29:18.550 --> 00:29:20.740
+which is the secondary font size.
+
+00:29:20.740 --> 00:29:22.690
+And you've probably seen
+me do this a little bit
+
+00:29:22.690 --> 00:29:24.000
+but it's one of the most rote
+
+00:29:24.000 --> 00:29:24.600
+but it's one of the most rote
+
+00:29:24.600 --> 00:29:27.320
+and predictable font sizes in UI design.
+
+00:29:27.320 --> 00:29:30.000
+It's very, very standard and
+I mean this in a good way.
+
+00:29:30.000 --> 00:29:31.500
+It's very, very standard and
+I mean this in a good way.
+
+00:29:31.500 --> 00:29:33.810
+I mean, you just know
+what you should be doing
+
+00:29:33.810 --> 00:29:35.020
+'cause everyone should basically be doing
+
+00:29:35.020 --> 00:29:36.000
+the same thing here.
+
+00:29:36.000 --> 00:29:36.400
+the same thing here.
+
+00:29:36.400 --> 00:29:38.370
+To take some piece of secondary text,
+
+00:29:38.370 --> 00:29:41.050
+maybe it's a label that's
+just not quite as important
+
+00:29:41.050 --> 00:29:42.000
+and make it two font sizes smaller.
+
+00:29:42.000 --> 00:29:43.843
+and make it two font sizes smaller.
+
+00:29:45.430 --> 00:29:47.000
+I suppose you could theoretically do one
+
+00:29:47.000 --> 00:29:48.000
+or maybe you could do
+three, occasionally two,
+
+00:29:48.000 --> 00:29:48.540
+or maybe you could do
+three, occasionally two,
+
+00:29:48.540 --> 00:29:50.653
+but two just seems to work really well.
+
+00:29:51.690 --> 00:29:54.000
+Take my body text size and
+make it a little bit smaller
+
+00:29:54.000 --> 00:29:54.140
+Take my body text size and
+make it a little bit smaller
+
+00:29:54.140 --> 00:29:55.320
+and then the other thing I'm gonna do
+
+00:29:55.320 --> 00:29:56.460
+is make it a little bit lighter.
+
+00:29:56.460 --> 00:29:59.163
+Just press eight and get 80% opacity here.
+
+00:30:00.650 --> 00:30:02.360
+Now this feels quite secondary,
+
+00:30:02.360 --> 00:30:04.290
+even compared to this text right here.
+
+00:30:04.290 --> 00:30:05.870
+I'm actually gonna do the same thing
+
+00:30:05.870 --> 00:30:06.000
+with these little links,
+how good is these links?
+
+00:30:06.000 --> 00:30:08.810
+with these little links,
+how good is these links?
+
+00:30:08.810 --> 00:30:11.400
+I'm not gonna change the
+color 'cause it's already blue
+
+00:30:11.400 --> 00:30:12.000
+and I don't wanna make it too light
+
+00:30:12.000 --> 00:30:13.410
+and I don't wanna make it too light
+
+00:30:13.410 --> 00:30:15.290
+but I can bring it down to size 17.
+
+00:30:15.290 --> 00:30:17.133
+And it feels a little bit secondary.
+
+00:30:18.130 --> 00:30:19.580
+The secondary font size works
+
+00:30:19.580 --> 00:30:22.760
+for details or annotations
+or sometimes captions.
+
+00:30:22.760 --> 00:30:24.000
+It's like anything that feels like
+
+00:30:24.000 --> 00:30:24.410
+It's like anything that feels like
+
+00:30:24.410 --> 00:30:26.940
+you're piping in with from the side,
+
+00:30:26.940 --> 00:30:28.110
+what's the cost effectiveness?
+
+00:30:28.110 --> 00:30:30.000
+you could save a life for two to $3,000.
+
+00:30:30.000 --> 00:30:30.280
+you could save a life for two to $3,000.
+
+00:30:30.280 --> 00:30:32.130
+How good is this, like,
+
+00:30:32.130 --> 00:30:33.240
+hey, you wanna know how good this is?
+
+00:30:33.240 --> 00:30:34.800
+It's sort of a comment from the side.
+
+00:30:34.800 --> 00:30:36.000
+And that's really what the
+secondary text size is all about.
+
+00:30:36.000 --> 00:30:38.050
+And that's really what the
+secondary text size is all about.
+
+00:30:38.050 --> 00:30:40.530
+And the final size or
+styling I wanna talk about
+
+00:30:40.530 --> 00:30:42.000
+in our big five is labels.
+
+00:30:42.000 --> 00:30:42.920
+in our big five is labels.
+
+00:30:42.920 --> 00:30:44.860
+Labels are maybe slightly less common
+
+00:30:44.860 --> 00:30:47.560
+if you're just making a
+primarily text based site,
+
+00:30:47.560 --> 00:30:48.000
+though it's not to say
+you'll never see them.
+
+00:30:48.000 --> 00:30:49.400
+though it's not to say
+you'll never see them.
+
+00:30:49.400 --> 00:30:51.020
+Labels are much more common
+
+00:30:51.020 --> 00:30:53.830
+when you have say little
+small pieces of UI.
+
+00:30:53.830 --> 00:30:54.000
+A label could be in a menu,
+a label could be for content.
+
+00:30:54.000 --> 00:30:57.000
+A label could be in a menu,
+a label could be for content.
+
+00:30:57.000 --> 00:30:59.190
+A lot of times a label
+is actually referring
+
+00:30:59.190 --> 00:31:00.000
+to a specific text input
+or selection control.
+
+00:31:00.000 --> 00:31:02.640
+to a specific text input
+or selection control.
+
+00:31:02.640 --> 00:31:05.670
+Labels are interesting
+because, in my opinion,
+
+00:31:05.670 --> 00:31:06.000
+one extremely reliable go to trick
+
+00:31:06.000 --> 00:31:08.430
+one extremely reliable go to trick
+
+00:31:08.430 --> 00:31:10.653
+with labels is to make them uppercase.
+
+00:31:14.000 --> 00:31:16.100
+So it's gonna be hard to select all these.
+
+00:31:17.964 --> 00:31:18.000
+Let me goo to my Similayer plugin
+
+00:31:18.000 --> 00:31:19.614
+Let me goo to my Similayer plugin
+
+00:31:21.560 --> 00:31:22.440
+and select everything
+
+00:31:22.440 --> 00:31:24.000
+with the same size, style.
+
+00:31:24.000 --> 00:31:27.440
+with the same size, style.
+
+00:31:29.860 --> 00:31:30.000
+There we go.
+
+00:31:30.000 --> 00:31:30.693
+There we go.
+
+00:31:30.693 --> 00:31:31.700
+Yeah, that just got all of them.
+
+00:31:31.700 --> 00:31:33.840
+Now I'm gonna use my keyboard shortcut,
+
+00:31:33.840 --> 00:31:35.920
+Command+Shift+U, make these uppercase.
+
+00:31:35.920 --> 00:31:36.000
+And as soon as I make them uppercase,
+
+00:31:36.000 --> 00:31:37.230
+And as soon as I make them uppercase,
+
+00:31:37.230 --> 00:31:38.450
+you can see almost immediately
+
+00:31:38.450 --> 00:31:41.060
+that they appear too big and too bold.
+
+00:31:41.060 --> 00:31:42.000
+So there's a couple ways we combat that.
+
+00:31:42.000 --> 00:31:42.920
+So there's a couple ways we combat that.
+
+00:31:42.920 --> 00:31:44.260
+One is by making them smaller.
+
+00:31:44.260 --> 00:31:47.090
+So this is why they're
+often their own size
+
+00:31:47.090 --> 00:31:48.000
+to 18, 17.
+
+00:31:48.000 --> 00:31:48.477
+to 18, 17.
+
+00:31:53.310 --> 00:31:54.000
+Another is by making them lighter,
+
+00:31:54.000 --> 00:31:54.910
+Another is by making them lighter,
+
+00:31:54.910 --> 00:31:58.850
+could set them at say 70%
+opacity or 80% opacity,
+
+00:31:58.850 --> 00:32:00.000
+maybe 80 feels about Right
+
+00:32:00.000 --> 00:32:00.510
+maybe 80 feels about Right
+
+00:32:01.730 --> 00:32:03.380
+but then I also have this issue
+
+00:32:03.380 --> 00:32:06.000
+that making Serif fonts in particular,
+
+00:32:06.000 --> 00:32:06.100
+that making Serif fonts in particular,
+
+00:32:06.100 --> 00:32:08.990
+uppercase just feels a little bit goofy.
+
+00:32:08.990 --> 00:32:12.000
+It can work especially when I
+letter space them generously
+
+00:32:12.000 --> 00:32:12.610
+It can work especially when I
+letter space them generously
+
+00:32:12.610 --> 00:32:14.350
+but right now it doesn't really feel
+
+00:32:14.350 --> 00:32:15.840
+like the right place for that.
+
+00:32:15.840 --> 00:32:18.000
+And so fortunately, we use
+another font right here,
+
+00:32:18.000 --> 00:32:18.120
+And so fortunately, we use
+another font right here,
+
+00:32:18.120 --> 00:32:21.660
+DIN 2014, since we're
+already loading it up,
+
+00:32:21.660 --> 00:32:23.070
+try switching that over.
+
+00:32:23.070 --> 00:32:24.000
+Maybe I don't want bold
+but I want demi bold,
+
+00:32:24.000 --> 00:32:26.020
+Maybe I don't want bold
+but I want demi bold,
+
+00:32:26.020 --> 00:32:28.200
+demi bold, however you say it.
+
+00:32:28.200 --> 00:32:29.710
+Play with letter spacing a little bit,
+
+00:32:29.710 --> 00:32:30.000
+the opacity, size some more.
+
+00:32:30.000 --> 00:32:31.823
+the opacity, size some more.
+
+00:32:34.160 --> 00:32:35.790
+Yeah, and there we go, landed at 16
+
+00:32:35.790 --> 00:32:36.000
+and that really does not feel so bad.
+
+00:32:36.000 --> 00:32:37.880
+and that really does not feel so bad.
+
+00:32:37.880 --> 00:32:39.080
+I like that quite a bit.
+
+00:32:41.490 --> 00:32:42.000
+I'm also gonna take this label style
+
+00:32:42.000 --> 00:32:43.240
+I'm also gonna take this label style
+
+00:32:43.240 --> 00:32:45.740
+and just try applying it
+here and see how it goes.
+
+00:32:48.867 --> 00:32:50.440
+You can make them by default lighter,
+
+00:32:50.440 --> 00:32:52.470
+but the page that we're
+on, "Top Charities",
+
+00:32:52.470 --> 00:32:54.000
+make that maybe a little bit darker
+
+00:32:54.000 --> 00:32:54.420
+make that maybe a little bit darker
+
+00:32:54.420 --> 00:32:57.620
+and we can just give it a nice
+little selected state here.
+
+00:32:57.620 --> 00:32:59.810
+I'll use the same blue highlight color
+
+00:32:59.810 --> 00:33:00.000
+that I had below.
+
+00:33:00.000 --> 00:33:00.993
+that I had below.
+
+00:33:05.160 --> 00:33:06.000
+There we go, looking good.
+
+00:33:06.000 --> 00:33:06.493
+There we go, looking good.
+
+00:33:08.010 --> 00:33:10.890
+Now we just have this image
+which feels about the right size
+
+00:33:10.890 --> 00:33:12.000
+'cause it kind of competes
+nicely with the text
+
+00:33:12.000 --> 00:33:13.370
+'cause it kind of competes
+nicely with the text
+
+00:33:13.370 --> 00:33:15.760
+and feels relatively as important
+
+00:33:15.760 --> 00:33:18.000
+and sort of doesn't feel too
+big, doesn't feel too small.
+
+00:33:18.000 --> 00:33:18.860
+and sort of doesn't feel too
+big, doesn't feel too small.
+
+00:33:18.860 --> 00:33:20.190
+So the very last thing that I'm gonna do
+
+00:33:20.190 --> 00:33:22.620
+is just add a little decorative element.
+
+00:33:22.620 --> 00:33:24.000
+All these little labels
+and all these references
+
+00:33:24.000 --> 00:33:24.950
+All these little labels
+and all these references
+
+00:33:24.950 --> 00:33:26.030
+to research and stuff,
+
+00:33:26.030 --> 00:33:28.010
+just make this site feel
+like a little bit more
+
+00:33:28.010 --> 00:33:29.510
+of a techie brand.
+
+00:33:29.510 --> 00:33:30.000
+And so what I'm gonna
+do is just add something
+
+00:33:30.000 --> 00:33:32.100
+And so what I'm gonna
+do is just add something
+
+00:33:32.100 --> 00:33:35.673
+that kind of adds to that
+techie feel to the site.
+
+00:33:42.960 --> 00:33:45.630
+And we'll bring the picture
+of this boy to the front,
+
+00:33:45.630 --> 00:33:48.000
+move him down so that he's flush here,
+
+00:33:48.000 --> 00:33:48.333
+move him down so that he's flush here,
+
+00:33:49.470 --> 00:33:52.450
+kind of have him overlap
+this wraparound shape
+
+00:33:52.450 --> 00:33:53.910
+in the background.
+
+00:33:53.910 --> 00:33:54.000
+And I will just put on one more
+little highlight behind him,
+
+00:33:54.000 --> 00:33:57.220
+And I will just put on one more
+little highlight behind him,
+
+00:33:57.220 --> 00:33:59.740
+just something subtle in a color
+
+00:33:59.740 --> 00:34:00.000
+that's based on his clothing here
+
+00:34:00.000 --> 00:34:03.250
+that's based on his clothing here
+
+00:34:05.250 --> 00:34:06.000
+and then I wanna mask it.
+
+00:34:06.000 --> 00:34:06.603
+and then I wanna mask it.
+
+00:34:09.170 --> 00:34:10.743
+So go with an intersection,
+
+00:34:12.040 --> 00:34:15.433
+move layer to the back and there we go.
+
+00:34:16.340 --> 00:34:17.290
+I think this looks good
+
+00:34:17.290 --> 00:34:18.000
+and now let's tackle the mobile version.
+
+00:34:18.000 --> 00:34:19.970
+and now let's tackle the mobile version.
+
+00:34:19.970 --> 00:34:22.790
+So I'm gonna press A to bring
+up my different frame sizes.
+
+00:34:22.790 --> 00:34:24.000
+I'll just pick this iPhone 11.
+
+00:34:24.000 --> 00:34:25.136
+I'll just pick this iPhone 11.
+
+00:34:25.136 --> 00:34:27.800
+375 is a good phone size,
+
+00:34:27.800 --> 00:34:30.000
+at least because it's right in
+the middle for iPhone widths.
+
+00:34:30.000 --> 00:34:31.010
+at least because it's right in
+the middle for iPhone widths.
+
+00:34:31.010 --> 00:34:32.520
+Technically, if I knew a lot of my users
+
+00:34:32.520 --> 00:34:35.720
+were gonna be on 320, it might
+be better to start there.
+
+00:34:35.720 --> 00:34:36.000
+But 375 is at least smaller than 414.
+
+00:34:36.000 --> 00:34:38.660
+But 375 is at least smaller than 414.
+
+00:34:38.660 --> 00:34:40.350
+And in general, when
+I'm designing on mobile,
+
+00:34:40.350 --> 00:34:41.970
+I wanna start with a narrow screen size
+
+00:34:41.970 --> 00:34:42.000
+'cause it's the tighter constraint.
+
+00:34:42.000 --> 00:34:43.430
+'cause it's the tighter constraint.
+
+00:34:43.430 --> 00:34:44.960
+If something works at 375,
+
+00:34:44.960 --> 00:34:46.000
+it's almost certainly gonna work
+
+00:34:46.000 --> 00:34:48.000
+if I make the screen 50 pixels bigger.
+
+00:34:48.000 --> 00:34:48.600
+if I make the screen 50 pixels bigger.
+
+00:34:48.600 --> 00:34:53.460
+So we'll rename this charity mobile.
+
+00:34:53.460 --> 00:34:54.000
+Let's start bringing on
+over the same elements
+
+00:34:54.000 --> 00:34:55.820
+Let's start bringing on
+over the same elements
+
+00:34:55.820 --> 00:34:56.720
+that we have here.
+
+00:34:59.842 --> 00:35:00.000
+And actually the very first thing
+
+00:35:00.000 --> 00:35:00.720
+And actually the very first thing
+
+00:35:00.720 --> 00:35:04.810
+that I'm gonna do is put
+in some rulers on the side.
+
+00:35:04.810 --> 00:35:06.000
+So Shift+R to bring up rulers in Figma,
+
+00:35:06.000 --> 00:35:07.270
+So Shift+R to bring up rulers in Figma,
+
+00:35:07.270 --> 00:35:08.760
+slide them in from the side.
+
+00:35:08.760 --> 00:35:11.620
+I'm gonna put one at 16,
+which is the side margin
+
+00:35:11.620 --> 00:35:12.000
+that's most common for
+both iOS and Android,
+
+00:35:12.000 --> 00:35:14.600
+that's most common for
+both iOS and Android,
+
+00:35:14.600 --> 00:35:17.940
+and 359, which is 375 minus 16.
+
+00:35:17.940 --> 00:35:18.000
+And I'll just put it in
+one in the middle too
+
+00:35:18.000 --> 00:35:19.570
+And I'll just put it in
+one in the middle too
+
+00:35:19.570 --> 00:35:23.523
+which I think is 188.
+
+00:35:25.210 --> 00:35:27.230
+Yeah, 187.5.
+
+00:35:27.230 --> 00:35:29.670
+So 188 just works perfectly.
+
+00:35:29.670 --> 00:35:30.000
+And then I'm gonna take
+this hamburger button
+
+00:35:30.000 --> 00:35:31.290
+And then I'm gonna take
+this hamburger button
+
+00:35:31.290 --> 00:35:35.620
+and align it with the 16
+point ruler right here.
+
+00:35:35.620 --> 00:35:36.000
+And on mobile, just 'cause
+the screen's not as wide,
+
+00:35:36.000 --> 00:35:37.740
+And on mobile, just 'cause
+the screen's not as wide,
+
+00:35:37.740 --> 00:35:39.930
+you don't have that many places
+that you can align things.
+
+00:35:39.930 --> 00:35:41.530
+So use them when you can.
+
+00:35:41.530 --> 00:35:42.000
+Having a little side margin
+right here is a huge way
+
+00:35:42.000 --> 00:35:44.150
+Having a little side margin
+right here is a huge way
+
+00:35:44.150 --> 00:35:46.850
+to buy yourself more alignment
+with the same elements.
+
+00:35:48.140 --> 00:35:49.610
+I'll throw on a Donate button right here
+
+00:35:49.610 --> 00:35:52.730
+but already I know one of the
+biggest changes I need to make
+
+00:35:52.730 --> 00:35:54.000
+is it needs to be 44 pixels tall.
+
+00:35:54.000 --> 00:35:55.550
+is it needs to be 44 pixels tall.
+
+00:35:55.550 --> 00:35:56.383
+And this is because
+
+00:35:56.383 --> 00:35:59.000
+of the iPhone tap target size guidelines.
+
+00:35:59.000 --> 00:36:00.000
+Anything that I need to
+tap, anything at all,
+
+00:36:00.000 --> 00:36:01.530
+Anything that I need to
+tap, anything at all,
+
+00:36:01.530 --> 00:36:04.480
+buttons, text, input,
+controls, switches, whatever,
+
+00:36:04.480 --> 00:36:05.920
+on iPhone, it should own a space
+
+00:36:05.920 --> 00:36:06.000
+of 44 pixels by 44
+pixels absolute minimum.
+
+00:36:06.000 --> 00:36:09.360
+of 44 pixels by 44
+pixels absolute minimum.
+
+00:36:09.360 --> 00:36:11.580
+And so actually, you sometimes end up
+
+00:36:11.580 --> 00:36:12.000
+with an interesting situation
+
+00:36:12.000 --> 00:36:12.910
+with an interesting situation
+
+00:36:12.910 --> 00:36:15.030
+where your buttons on mobile are bigger
+
+00:36:15.030 --> 00:36:16.620
+than your buttons on desktop.
+
+00:36:16.620 --> 00:36:17.460
+And that's totally fine.
+
+00:36:17.460 --> 00:36:18.000
+I'm here to give you
+permission to do that.
+
+00:36:18.000 --> 00:36:20.250
+I'm here to give you
+permission to do that.
+
+00:36:20.250 --> 00:36:23.050
+We ultimately just wanna make
+things easy for our users.
+
+00:36:24.190 --> 00:36:25.730
+Yeah, and this button was so chunky
+
+00:36:25.730 --> 00:36:28.230
+that I figured rather than kind of have it
+
+00:36:28.230 --> 00:36:29.760
+maybe look a little awkward there,
+
+00:36:29.760 --> 00:36:30.000
+I will just bring it off to the side
+
+00:36:30.000 --> 00:36:31.670
+I will just bring it off to the side
+
+00:36:31.670 --> 00:36:33.800
+and it'll have a consistent
+four pixels of space
+
+00:36:33.800 --> 00:36:35.770
+or three pixels of spacing all the way
+
+00:36:35.770 --> 00:36:36.000
+around it in this header.
+
+00:36:36.000 --> 00:36:37.053
+around it in this header.
+
+00:36:38.770 --> 00:36:41.880
+Of course, this is technically
+only 20 pixels wide
+
+00:36:41.880 --> 00:36:42.000
+but if it owns this whole tap target,
+
+00:36:42.000 --> 00:36:43.970
+but if it owns this whole tap target,
+
+00:36:43.970 --> 00:36:46.490
+then it has 48 pixels of space.
+
+00:36:46.490 --> 00:36:48.000
+And by the way, I said 44 is
+the tap target size for iPhone,
+
+00:36:48.000 --> 00:36:50.960
+And by the way, I said 44 is
+the tap target size for iPhone,
+
+00:36:50.960 --> 00:36:53.610
+48 is the tab target size for Android.
+
+00:36:53.610 --> 00:36:54.000
+So if you're designing
+something for Android,
+
+00:36:54.000 --> 00:36:56.120
+So if you're designing
+something for Android,
+
+00:36:56.120 --> 00:36:57.490
+which of course this is a mobile website,
+
+00:36:57.490 --> 00:36:59.170
+people could be using it for Android too.
+
+00:36:59.170 --> 00:37:00.000
+It's always better to lean
+just a little bit bigger.
+
+00:37:00.000 --> 00:37:01.873
+It's always better to lean
+just a little bit bigger.
+
+00:37:03.360 --> 00:37:06.000
+So there we go, if this is 19 pixels wide,
+
+00:37:06.000 --> 00:37:06.213
+So there we go, if this is 19 pixels wide,
+
+00:37:06.213 --> 00:37:09.640
+it's 244 minus 19, 15.
+
+00:37:09.640 --> 00:37:11.990
+So we need at least seven
+pixels of space on each side
+
+00:37:11.990 --> 00:37:12.000
+but I think that will be plenty
+
+00:37:12.000 --> 00:37:14.320
+but I think that will be plenty
+
+00:37:14.320 --> 00:37:16.543
+to have a nice generous tap target size.
+
+00:37:18.000 --> 00:37:21.120
+Now, the way I sort of
+perceive this site working,
+
+00:37:21.120 --> 00:37:24.000
+all of these things would be
+in the hamburger menu here
+
+00:37:24.000 --> 00:37:24.410
+all of these things would be
+in the hamburger menu here
+
+00:37:24.410 --> 00:37:26.650
+and if I tap this, then
+I'd get some slide out
+
+00:37:26.650 --> 00:37:29.310
+or fly down or however
+it wants to animate in
+
+00:37:29.310 --> 00:37:30.000
+but I would see my menu that way.
+
+00:37:30.000 --> 00:37:31.470
+but I would see my menu that way.
+
+00:37:31.470 --> 00:37:32.990
+So we can just move on
+
+00:37:32.990 --> 00:37:35.493
+to the actual page content right here.
+
+00:37:37.360 --> 00:37:38.833
+Grab this, I'll paste it in.
+
+00:37:41.070 --> 00:37:42.000
+What we need to do is make
+this go from left to right.
+
+00:37:42.000 --> 00:37:44.323
+What we need to do is make
+this go from left to right.
+
+00:37:51.800 --> 00:37:54.000
+So let's talk about how to
+adjust these font sizes.
+
+00:37:54.000 --> 00:37:54.290
+So let's talk about how to
+adjust these font sizes.
+
+00:37:54.290 --> 00:37:58.200
+The h1 clearly needs to
+be adjusted the most here.
+
+00:37:58.200 --> 00:38:00.000
+If you look at a variety of
+well designed mobile websites,
+
+00:38:00.000 --> 00:38:01.890
+If you look at a variety of
+well designed mobile websites,
+
+00:38:01.890 --> 00:38:05.720
+you'll see h1s are typically
+in the 25 to 45 range.
+
+00:38:05.720 --> 00:38:06.000
+But oftentimes, it'll only be
+on that larger side of things
+
+00:38:06.000 --> 00:38:08.500
+But oftentimes, it'll only be
+on that larger side of things
+
+00:38:08.500 --> 00:38:10.510
+if they're very short titles.
+
+00:38:10.510 --> 00:38:12.000
+So you can see 25 here
+does feel a bit small.
+
+00:38:12.000 --> 00:38:13.603
+So you can see 25 here
+does feel a bit small.
+
+00:38:15.010 --> 00:38:16.570
+If I go and I view this on my device,
+
+00:38:16.570 --> 00:38:18.000
+I'll find something like 34 makes sense.
+
+00:38:18.000 --> 00:38:19.380
+I'll find something like 34 makes sense.
+
+00:38:19.380 --> 00:38:21.740
+And by the way, I highly recommend
+
+00:38:21.740 --> 00:38:23.670
+for mobile viewing and on device.
+
+00:38:23.670 --> 00:38:24.000
+I'm doing that and then
+another way to do it
+
+00:38:24.000 --> 00:38:25.930
+I'm doing that and then
+another way to do it
+
+00:38:25.930 --> 00:38:28.010
+is even if I don't have my phone handy,
+
+00:38:28.010 --> 00:38:30.000
+I can go into presentation mode.
+
+00:38:30.000 --> 00:38:30.420
+I can go into presentation mode.
+
+00:38:30.420 --> 00:38:34.700
+I find at least that this
+size is actually much closer
+
+00:38:34.700 --> 00:38:36.000
+to my actual iPhone size
+than when I'm designing it
+
+00:38:36.000 --> 00:38:38.550
+to my actual iPhone size
+than when I'm designing it
+
+00:38:38.550 --> 00:38:41.040
+in the designer part of the app.
+
+00:38:41.040 --> 00:38:42.000
+I believe Figma is
+intentionally shrinking down
+
+00:38:42.000 --> 00:38:43.580
+I believe Figma is
+intentionally shrinking down
+
+00:38:43.580 --> 00:38:46.710
+the pixels of my computer so
+that I'm essentially seeing
+
+00:38:46.710 --> 00:38:48.000
+my design at the size it
+would appear on my phone.
+
+00:38:48.000 --> 00:38:49.210
+my design at the size it
+would appear on my phone.
+
+00:38:51.080 --> 00:38:53.880
+And one other little thing about sizing,
+
+00:38:53.880 --> 00:38:54.000
+we'll talk more about this,
+
+00:38:54.000 --> 00:38:55.080
+we'll talk more about this,
+
+00:38:55.080 --> 00:38:57.530
+but line spacing does
+not need to be as high
+
+00:38:57.530 --> 00:38:59.800
+when you have very short lines.
+
+00:38:59.800 --> 00:39:00.000
+The whole point of line
+spacing is to help your eye get
+
+00:39:00.000 --> 00:39:02.540
+The whole point of line
+spacing is to help your eye get
+
+00:39:02.540 --> 00:39:05.410
+from one line to the next and
+when the lines are so short,
+
+00:39:05.410 --> 00:39:06.000
+it just doesn't need much help.
+
+00:39:06.000 --> 00:39:06.520
+it just doesn't need much help.
+
+00:39:06.520 --> 00:39:09.533
+So we can make that a little bit smaller.
+
+00:39:11.670 --> 00:39:12.000
+As far as the labels, these
+work totally fine at 16 point.
+
+00:39:12.000 --> 00:39:15.490
+As far as the labels, these
+work totally fine at 16 point.
+
+00:39:15.490 --> 00:39:18.000
+The body text here is 19
+point which also works good.
+
+00:39:18.000 --> 00:39:19.080
+The body text here is 19
+point which also works good.
+
+00:39:19.080 --> 00:39:22.130
+The only real thing to keep
+in mind for body text size
+
+00:39:22.130 --> 00:39:24.000
+is never go below 16 on
+mobile or else iPhone,
+
+00:39:24.000 --> 00:39:25.300
+is never go below 16 on
+mobile or else iPhone,
+
+00:39:25.300 --> 00:39:27.530
+at least when you click on a form input,
+
+00:39:27.530 --> 00:39:30.000
+will do this weird zooming
+thing and kind of mess
+
+00:39:30.000 --> 00:39:30.430
+will do this weird zooming
+thing and kind of mess
+
+00:39:30.430 --> 00:39:33.170
+with how you're viewing
+the mobile website.
+
+00:39:33.170 --> 00:39:35.120
+So just make sure your base text size,
+
+00:39:35.120 --> 00:39:36.000
+your normal text size on
+mobile is at least 16.
+
+00:39:36.000 --> 00:39:38.140
+your normal text size on
+mobile is at least 16.
+
+00:39:38.140 --> 00:39:39.943
+19 is also gonna work here.
+
+00:39:42.320 --> 00:39:43.990
+For a little bit of context,
+
+00:39:43.990 --> 00:39:47.937
+iPhone uses SF Pro text
+
+00:39:49.440 --> 00:39:52.610
+in 17 point as their default font size
+
+00:39:52.610 --> 00:39:54.000
+and Android uses Roboto
+
+00:39:54.000 --> 00:39:55.740
+and Android uses Roboto
+
+00:39:55.740 --> 00:39:58.780
+in 16 point as their default font size.
+
+00:39:58.780 --> 00:40:00.000
+So you get a sense of how
+big these are in comparison.
+
+00:40:00.000 --> 00:40:03.470
+So you get a sense of how
+big these are in comparison.
+
+00:40:03.470 --> 00:40:06.000
+Overall, this 19 point minion
+seems to work pretty well.
+
+00:40:06.000 --> 00:40:07.133
+Overall, this 19 point minion
+seems to work pretty well.
+
+00:40:08.560 --> 00:40:10.413
+Now I'm gonna bring my card over.
+
+00:40:15.820 --> 00:40:17.030
+And one thing I'm gonna do,
+
+00:40:17.030 --> 00:40:18.000
+if you remember from the alignment lesson
+
+00:40:18.000 --> 00:40:18.890
+if you remember from the alignment lesson
+
+00:40:18.890 --> 00:40:21.460
+is I'm gonna have the
+card go a little bit past
+
+00:40:21.460 --> 00:40:24.000
+this normal line of
+alignment so that the content
+
+00:40:24.000 --> 00:40:24.330
+this normal line of
+alignment so that the content
+
+00:40:24.330 --> 00:40:27.700
+in the card, which has maybe
+a little bit more contrast
+
+00:40:27.700 --> 00:40:30.000
+with its background, can all be aligned
+
+00:40:30.000 --> 00:40:31.360
+with its background, can all be aligned
+
+00:40:31.360 --> 00:40:33.143
+with the other content on the page.
+
+00:40:34.590 --> 00:40:36.000
+And then on mobile, unfortunately,
+
+00:40:36.000 --> 00:40:36.250
+And then on mobile, unfortunately,
+
+00:40:36.250 --> 00:40:39.572
+you're only gonna get a
+smaller version of this logo,
+
+00:40:39.572 --> 00:40:41.163
+because that's all we have room for.
+
+00:40:45.230 --> 00:40:47.313
+This blue bar still feels a bit close.
+
+00:40:55.960 --> 00:40:59.240
+There we go, and this is
+looking quite a bit better.
+
+00:40:59.240 --> 00:41:00.000
+So the final thing I wanna do
+
+00:41:00.000 --> 00:41:00.440
+So the final thing I wanna do
+
+00:41:00.440 --> 00:41:02.380
+is transfer this image on over.
+
+00:41:02.380 --> 00:41:03.870
+And we talk about this a lot more
+
+00:41:03.870 --> 00:41:05.710
+in the responsive design video.
+
+00:41:05.710 --> 00:41:06.000
+But essentially, when
+you're sizing an image
+
+00:41:06.000 --> 00:41:08.770
+But essentially, when
+you're sizing an image
+
+00:41:08.770 --> 00:41:12.000
+on a mobile design, you may
+not do it in quite the same way
+
+00:41:12.000 --> 00:41:12.860
+on a mobile design, you may
+not do it in quite the same way
+
+00:41:12.860 --> 00:41:14.350
+that you would on desktop.
+
+00:41:14.350 --> 00:41:17.540
+For instance, not only do I
+wanna make this guy smaller
+
+00:41:17.540 --> 00:41:18.000
+but even when he's smaller,
+because he's so tall,
+
+00:41:18.000 --> 00:41:21.040
+but even when he's smaller,
+because he's so tall,
+
+00:41:21.040 --> 00:41:23.330
+so much taller than he is wide,
+
+00:41:23.330 --> 00:41:24.000
+I have this awkward space around here.
+
+00:41:24.000 --> 00:41:25.077
+I have this awkward space around here.
+
+00:41:25.077 --> 00:41:28.420
+And so this specific image might
+just be tough to work with.
+
+00:41:28.420 --> 00:41:30.000
+So one industry term, it's
+a bit of a weird term,
+
+00:41:30.000 --> 00:41:30.900
+So one industry term, it's
+a bit of a weird term,
+
+00:41:30.900 --> 00:41:33.450
+but we call it art
+direction, which is to say,
+
+00:41:33.450 --> 00:41:34.560
+you just kind of do things
+
+00:41:34.560 --> 00:41:36.000
+besides just resizing an
+image when you move to mobile
+
+00:41:36.000 --> 00:41:37.200
+besides just resizing an
+image when you move to mobile
+
+00:41:37.200 --> 00:41:39.680
+such that the feel of the image
+
+00:41:39.680 --> 00:41:42.000
+or the feel of the artwork
+or whatever stays the same
+
+00:41:42.000 --> 00:41:43.070
+or the feel of the artwork
+or whatever stays the same
+
+00:41:43.070 --> 00:41:45.850
+but it's just in a little bit
+different of a form factor.
+
+00:41:45.850 --> 00:41:48.000
+It's something that
+works better for mobile.
+
+00:41:48.000 --> 00:41:48.220
+It's something that
+works better for mobile.
+
+00:41:48.220 --> 00:41:49.230
+So I'll do that there.
+
+00:41:49.230 --> 00:41:52.010
+And honestly, I don't really want
+
+00:41:52.010 --> 00:41:54.000
+to have this big gray line
+going all over the place
+
+00:41:54.000 --> 00:41:55.130
+to have this big gray line
+going all over the place
+
+00:41:55.130 --> 00:41:57.450
+on mobile because I think
+it would just take away.
+
+00:41:57.450 --> 00:41:59.380
+There's just so little space as it is.
+
+00:41:59.380 --> 00:42:00.000
+But maybe I just keep that gray line
+
+00:42:00.000 --> 00:42:01.440
+But maybe I just keep that gray line
+
+00:42:01.440 --> 00:42:04.770
+in the context of having
+one little line right there.
+
+00:42:04.770 --> 00:42:06.000
+And it's going from one
+ruler to the other ruler.
+
+00:42:06.000 --> 00:42:07.603
+And it's going from one
+ruler to the other ruler.
+
+00:42:11.330 --> 00:42:12.000
+So we'll put that there
+
+00:42:12.000 --> 00:42:12.540
+So we'll put that there
+
+00:42:12.540 --> 00:42:14.620
+and I'll take this little circle highlight
+
+00:42:14.620 --> 00:42:16.410
+and we'll put that behind them.
+
+00:42:16.410 --> 00:42:18.000
+But again, in the
+interest of art direction,
+
+00:42:18.000 --> 00:42:18.260
+But again, in the
+interest of art direction,
+
+00:42:18.260 --> 00:42:20.743
+it's gonna need to be a
+slightly different shape.
+
+00:42:29.600 --> 00:42:30.000
+And I realized this is
+a little bit messed up.
+
+00:42:30.000 --> 00:42:31.420
+And I realized this is
+a little bit messed up.
+
+00:42:31.420 --> 00:42:33.420
+Did I even notice that this didn't work?
+
+00:42:34.720 --> 00:42:35.553
+So there we go.
+
+00:42:35.553 --> 00:42:36.000
+As far as the sizing goes,
+
+00:42:36.000 --> 00:42:36.990
+As far as the sizing goes,
+
+00:42:36.990 --> 00:42:38.610
+I've got a good body text size.
+
+00:42:38.610 --> 00:42:40.890
+If I viewed it on my device,
+I know I can read it,
+
+00:42:40.890 --> 00:42:42.000
+the labels make sense, the
+secondary text can stay the same,
+
+00:42:42.000 --> 00:42:44.100
+the labels make sense, the
+secondary text can stay the same,
+
+00:42:44.100 --> 00:42:46.040
+the h2, that also stayed the same,
+
+00:42:46.040 --> 00:42:47.600
+although it's not inconceivable
+
+00:42:47.600 --> 00:42:48.000
+that it would need to
+get a little bit smaller.
+
+00:42:48.000 --> 00:42:50.360
+that it would need to
+get a little bit smaller.
+
+00:42:50.360 --> 00:42:51.530
+And the biggest change was having
+
+00:42:51.530 --> 00:42:54.000
+this h1 come down quite a bit.
+
+00:42:54.000 --> 00:42:54.050
+this h1 come down quite a bit.
+
+00:42:54.050 --> 00:42:56.230
+And this video is going
+long enough anyways
+
+00:42:56.230 --> 00:42:58.290
+but if you heed my advice at the start,
+
+00:42:58.290 --> 00:43:00.000
+which is to always go and look
+at what good sites are doing,
+
+00:43:00.000 --> 00:43:00.710
+which is to always go and look
+at what good sites are doing,
+
+00:43:00.710 --> 00:43:02.830
+you'll see that this is very much the case
+
+00:43:02.830 --> 00:43:05.690
+where large text sizes on desktop,
+
+00:43:05.690 --> 00:43:06.000
+whether they're 40, or 50, or 60, or 70,
+
+00:43:06.000 --> 00:43:08.440
+whether they're 40, or 50, or 60, or 70,
+
+00:43:08.440 --> 00:43:11.473
+often come on down into
+this range of about 30.
+
+00:43:12.980 --> 00:43:17.120
+And that wraps it up for sizing
+your elements in UI design.
+
+00:43:17.120 --> 00:43:18.000
+So just as you go and
+size different elements
+
+00:43:18.000 --> 00:43:19.960
+So just as you go and
+size different elements
+
+00:43:19.960 --> 00:43:21.100
+in your own designs,
+
+00:43:21.100 --> 00:43:23.700
+remember the three heuristics
+that we talked about today.
+
+00:43:23.700 --> 00:43:24.000
+First of all, to default to consistency,
+
+00:43:24.000 --> 00:43:25.850
+First of all, to default to consistency,
+
+00:43:25.850 --> 00:43:28.130
+to make everything as
+consistent as possible,
+
+00:43:28.130 --> 00:43:30.000
+unless there's an overwhelming
+reason not to do so.
+
+00:43:30.000 --> 00:43:31.020
+unless there's an overwhelming
+reason not to do so.
+
+00:43:31.020 --> 00:43:33.290
+And I'll just mention now,
+'cause I forgot to earlier,
+
+00:43:33.290 --> 00:43:36.000
+the worst offender here
+is default font sizes.
+
+00:43:36.000 --> 00:43:36.290
+the worst offender here
+is default font sizes.
+
+00:43:36.290 --> 00:43:38.100
+Make sure to keep those consistent.
+
+00:43:38.100 --> 00:43:40.970
+The second heuristic we talked
+about was just a helpful tip,
+
+00:43:40.970 --> 00:43:42.000
+which is to explore a
+wider range of values
+
+00:43:42.000 --> 00:43:43.370
+which is to explore a
+wider range of values
+
+00:43:43.370 --> 00:43:44.840
+when you're working with larger elements.
+
+00:43:44.840 --> 00:43:46.660
+That's just sort of the way sizing works.
+
+00:43:46.660 --> 00:43:48.000
+And along those same lines,
+
+00:43:48.000 --> 00:43:48.150
+And along those same lines,
+
+00:43:48.150 --> 00:43:50.080
+the third heuristic that we talked about,
+
+00:43:50.080 --> 00:43:52.550
+was whenever you've
+identified a lower bound
+
+00:43:52.550 --> 00:43:54.000
+and an upper bound, usually
+the optimum sizing wise
+
+00:43:54.000 --> 00:43:55.470
+and an upper bound, usually
+the optimum sizing wise
+
+00:43:55.470 --> 00:43:58.120
+is kind of in that lower half of values,
+
+00:43:58.120 --> 00:44:00.000
+just based on how geometric means work.
+
+00:44:00.000 --> 00:44:00.440
+just based on how geometric means work.
+
+00:44:00.440 --> 00:44:02.190
+So take those three tips
+
+00:44:02.190 --> 00:44:03.450
+and just sort of keep them in mind
+
+00:44:03.450 --> 00:44:04.780
+as you're working on your design.
+
+00:44:04.780 --> 00:44:06.000
+And again, I'll just repeat one more time,
+
+00:44:06.000 --> 00:44:06.870
+And again, I'll just repeat one more time,
+
+00:44:06.870 --> 00:44:09.320
+if you only take one thing
+away from this lesson,
+
+00:44:09.320 --> 00:44:12.000
+let it be anytime you wanna
+make some 80 pixel button
+
+00:44:12.000 --> 00:44:13.110
+let it be anytime you wanna
+make some 80 pixel button
+
+00:44:13.110 --> 00:44:15.700
+or 120 pixel header, just go and look
+
+00:44:15.700 --> 00:44:17.310
+at what other sites are doing first,
+
+00:44:17.310 --> 00:44:18.000
+just the very best sites,
+
+00:44:18.000 --> 00:44:18.830
+just the very best sites,
+
+00:44:18.830 --> 00:44:20.420
+the most professionally designed sites
+
+00:44:20.420 --> 00:44:21.540
+that you'd like to imitate,
+
+00:44:21.540 --> 00:44:23.300
+and see if you can figure out the logic
+
+00:44:23.300 --> 00:44:24.000
+behind why they're doing
+what they're doing.
+
+00:44:24.000 --> 00:44:25.120
+behind why they're doing
+what they're doing.
+
+00:44:25.120 --> 00:44:27.700
+Because in the end,
+we're largely not trying
+
+00:44:27.700 --> 00:44:29.270
+to reinvent the wheel here.
+
+00:44:29.270 --> 00:44:30.000
+There's certain sizes that make
+sense for certain elements.
+
+00:44:30.000 --> 00:44:32.833
+There's certain sizes that make
+sense for certain elements.
+
+00:44:33.740 --> 00:44:34.850
+Let me know if you have any questions
+
+00:44:34.850 --> 00:44:35.790
+in the student community.
+
+00:44:35.790 --> 00:44:36.000
+Take a look at the resources
+in the homework below
+
+00:44:36.000 --> 00:44:37.720
+Take a look at the resources
+in the homework below
+
+00:44:37.720 --> 00:44:39.670
+and we will see you in the next lesson.
+

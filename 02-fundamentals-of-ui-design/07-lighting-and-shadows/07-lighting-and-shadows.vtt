@@ -1,0 +1,6404 @@
+WEBVTT
+
+00:00:00.140 --> 00:00:01.810
+- Hey folks, and welcome to the video
+
+00:00:01.810 --> 00:00:03.370
+on Lighting and Shadows.
+
+00:00:03.370 --> 00:00:05.240
+Now, lighting and shadows might sound
+
+00:00:05.240 --> 00:00:06.000
+like pretty boring topics.
+
+00:00:06.000 --> 00:00:06.640
+like pretty boring topics.
+
+00:00:06.640 --> 00:00:08.310
+And I don't blame you if you think that
+
+00:00:08.310 --> 00:00:10.240
+but there's only one way to find out
+
+00:00:10.240 --> 00:00:11.790
+and that's to watch this video.
+
+00:00:12.700 --> 00:00:16.030
+I will say that lighting and
+shadows is probably the source
+
+00:00:16.030 --> 00:00:18.000
+of one of my earliest breakthroughs in UI
+
+00:00:18.000 --> 00:00:18.200
+of one of my earliest breakthroughs in UI
+
+00:00:18.200 --> 00:00:20.040
+that just kind of made everything click.
+
+00:00:20.040 --> 00:00:24.000
+And that is the simple idea
+that light comes from the sky.
+
+00:00:24.000 --> 00:00:24.220
+And that is the simple idea
+that light comes from the sky.
+
+00:00:24.220 --> 00:00:26.540
+And if you bear this one idea
+
+00:00:26.540 --> 00:00:29.120
+in mind that all the shadows that you put
+
+00:00:29.120 --> 00:00:30.000
+into your user interface
+are supposed to kind
+
+00:00:30.000 --> 00:00:31.160
+into your user interface
+are supposed to kind
+
+00:00:31.160 --> 00:00:33.000
+of mimic real world lighting.
+
+00:00:33.000 --> 00:00:35.410
+It's gonna make the whole
+thing a lot easier, kind of
+
+00:00:35.410 --> 00:00:36.000
+everything bubbles up from
+that one little principle.
+
+00:00:36.000 --> 00:00:38.190
+everything bubbles up from
+that one little principle.
+
+00:00:38.190 --> 00:00:40.450
+So we're gonna be talking
+about how to craft a shadow,
+
+00:00:40.450 --> 00:00:42.000
+what that implies about the light source
+
+00:00:42.000 --> 00:00:42.950
+what that implies about the light source
+
+00:00:42.950 --> 00:00:45.270
+that's lighting up your UI,
+and then we're gonna look
+
+00:00:45.270 --> 00:00:47.790
+at a bunch of different
+other kind of random tips
+
+00:00:47.790 --> 00:00:48.000
+or tricks or tactics
+for how to apply shadows
+
+00:00:48.000 --> 00:00:50.800
+or tricks or tactics
+for how to apply shadows
+
+00:00:50.800 --> 00:00:52.910
+to your user interface design.
+
+00:00:52.910 --> 00:00:54.000
+All right, enough intro.
+
+00:00:54.000 --> 00:00:54.643
+All right, enough intro.
+
+00:00:56.950 --> 00:00:58.190
+All right, so let's talk about this light
+
+00:00:58.190 --> 00:01:00.000
+comes from the sky idea,
+that's a good place to start.
+
+00:01:00.000 --> 00:01:01.340
+comes from the sky idea,
+that's a good place to start.
+
+00:01:01.340 --> 00:01:03.140
+Light comes from the sky so often
+
+00:01:03.140 --> 00:01:06.000
+whether you're outside and
+it's the sun or you're inside
+
+00:01:06.000 --> 00:01:06.310
+whether you're outside and
+it's the sun or you're inside
+
+00:01:06.310 --> 00:01:08.900
+and it's a light on the
+ceiling that, I mean
+
+00:01:08.900 --> 00:01:11.090
+if you're sitting around a
+campfire telling a scary story
+
+00:01:11.090 --> 00:01:12.000
+we have this idea that
+you shine a flashlight up,
+
+00:01:12.000 --> 00:01:13.700
+we have this idea that
+you shine a flashlight up,
+
+00:01:13.700 --> 00:01:15.240
+light comes from the
+bottom in order to make
+
+00:01:15.240 --> 00:01:17.010
+your face look spooky, right?
+
+00:01:17.010 --> 00:01:18.000
+So, it is so consistent that light comes
+
+00:01:18.000 --> 00:01:19.620
+So, it is so consistent that light comes
+
+00:01:19.620 --> 00:01:22.350
+from the sky that even in our interfaces
+
+00:01:22.350 --> 00:01:23.980
+which are totally flat you know,
+
+00:01:23.980 --> 00:01:24.000
+pics colored pixels on a screen,
+
+00:01:24.000 --> 00:01:26.150
+pics colored pixels on a screen,
+
+00:01:26.150 --> 00:01:28.440
+we still wanna imitate those
+little lighting effects
+
+00:01:28.440 --> 00:01:30.000
+and we still want to have those shadows.
+
+00:01:30.000 --> 00:01:30.350
+and we still want to have those shadows.
+
+00:01:30.350 --> 00:01:32.650
+And this is a perfect example of it.
+
+00:01:32.650 --> 00:01:36.000
+This is, you know, from
+back in the day, pre 2014
+
+00:01:36.000 --> 00:01:36.240
+This is, you know, from
+back in the day, pre 2014
+
+00:01:36.240 --> 00:01:40.130
+I think Apple's iPhone interface
+had a lot more lighting
+
+00:01:40.130 --> 00:01:42.000
+shadow, texture effects, stuff like that.
+
+00:01:42.000 --> 00:01:43.180
+shadow, texture effects, stuff like that.
+
+00:01:43.180 --> 00:01:44.780
+This has kind of fallen out of favor
+
+00:01:44.780 --> 00:01:46.640
+but if we study how it used to be done
+
+00:01:46.640 --> 00:01:48.000
+in highly skeuomorphic designs,
+
+00:01:48.000 --> 00:01:48.770
+in highly skeuomorphic designs,
+
+00:01:48.770 --> 00:01:50.290
+that's the designer a fancy term
+
+00:01:50.290 --> 00:01:52.760
+for trying to imitate real world shadows
+
+00:01:52.760 --> 00:01:54.000
+and textures and lighting effects.
+
+00:01:54.000 --> 00:01:55.050
+and textures and lighting effects.
+
+00:01:55.050 --> 00:01:57.680
+If we look at how it's done
+in a skeumorphic design,
+
+00:01:57.680 --> 00:02:00.000
+we can pretty easily
+apply those same lessons
+
+00:02:00.000 --> 00:02:00.100
+we can pretty easily
+apply those same lessons
+
+00:02:00.100 --> 00:02:02.720
+to much flatter designs
+where it's not quite as
+
+00:02:02.720 --> 00:02:05.420
+vividly real world ask.
+
+00:02:05.420 --> 00:02:06.000
+And you can see there's all sorts
+
+00:02:06.000 --> 00:02:06.690
+And you can see there's all sorts
+
+00:02:06.690 --> 00:02:08.580
+of lighting and shadow
+effects going on here.
+
+00:02:08.580 --> 00:02:10.540
+There's kind of this
+glossiness to this button,
+
+00:02:10.540 --> 00:02:12.000
+there's a little highlight right here,
+
+00:02:12.000 --> 00:02:13.220
+there's a little highlight right here,
+
+00:02:13.220 --> 00:02:14.640
+there's a shadow right here.
+
+00:02:14.640 --> 00:02:16.020
+There's some texture,
+which we're really not
+
+00:02:16.020 --> 00:02:17.770
+gonna be covering texture in this lesson
+
+00:02:17.770 --> 00:02:18.000
+but there's kind of this
+little divot right here
+
+00:02:18.000 --> 00:02:19.530
+but there's kind of this
+little divot right here
+
+00:02:19.530 --> 00:02:21.420
+that's got some shadowing effect,
+
+00:02:21.420 --> 00:02:23.530
+on this switch there's a
+bunch of stuff too, right?
+
+00:02:23.530 --> 00:02:24.000
+It looks like this is sort of pressed in
+
+00:02:24.000 --> 00:02:26.000
+It looks like this is sort of pressed in
+
+00:02:26.000 --> 00:02:27.710
+and there's a little glossiness here
+
+00:02:27.710 --> 00:02:30.000
+so there's, I mean, easily
+half a dozen little effects.
+
+00:02:30.000 --> 00:02:30.990
+so there's, I mean, easily
+half a dozen little effects.
+
+00:02:30.990 --> 00:02:33.170
+Now, what I want to impress upon you
+
+00:02:33.170 --> 00:02:36.000
+is that every single one of
+these comes from the idea
+
+00:02:36.000 --> 00:02:36.070
+is that every single one of
+these comes from the idea
+
+00:02:36.070 --> 00:02:37.700
+of light coming from the sky.
+
+00:02:37.700 --> 00:02:40.130
+So for instance, let's take
+this little shadow right here.
+
+00:02:40.130 --> 00:02:42.000
+This little shadow appears because
+
+00:02:42.000 --> 00:02:42.430
+This little shadow appears because
+
+00:02:42.430 --> 00:02:44.460
+if there's some imaginary
+light source shining
+
+00:02:44.460 --> 00:02:46.060
+down on my interface, the ray
+
+00:02:46.060 --> 00:02:48.000
+of sunlight passes
+through here and hits here
+
+00:02:48.000 --> 00:02:49.220
+of sunlight passes
+through here and hits here
+
+00:02:49.220 --> 00:02:52.500
+but this area right here
+does not get direct sunlight.
+
+00:02:52.500 --> 00:02:54.000
+It just sort of maybe
+catches some ambient line
+
+00:02:54.000 --> 00:02:54.950
+It just sort of maybe
+catches some ambient line
+
+00:02:54.950 --> 00:02:57.773
+so it's not exactly pitch black
+but it's a little bit darker
+
+00:02:57.773 --> 00:03:00.000
+because it doesn't catch
+direct light from the sun.
+
+00:03:00.000 --> 00:03:00.570
+because it doesn't catch
+direct light from the sun.
+
+00:03:00.570 --> 00:03:02.800
+Likewise, cause we're here,
+let's say we have kind
+
+00:03:02.800 --> 00:03:06.000
+of this glassy glossy texture right here,
+
+00:03:06.000 --> 00:03:06.610
+of this glassy glossy texture right here,
+
+00:03:06.610 --> 00:03:09.930
+some sort of material that
+lines the inside of this switch.
+
+00:03:09.930 --> 00:03:12.000
+Well, not only does this
+part catch more light
+
+00:03:12.000 --> 00:03:13.810
+Well, not only does this
+part catch more light
+
+00:03:13.810 --> 00:03:17.370
+because it's kind of directly
+in line with the sun here.
+
+00:03:17.370 --> 00:03:18.000
+You see this top part,
+the sun's rays are kind
+
+00:03:18.000 --> 00:03:19.820
+You see this top part,
+the sun's rays are kind
+
+00:03:19.820 --> 00:03:21.430
+of only hitting it at a glancing blow.
+
+00:03:21.430 --> 00:03:24.000
+It's gonna reflect some light,
+but it's this bottom part
+
+00:03:24.000 --> 00:03:24.370
+It's gonna reflect some light,
+but it's this bottom part
+
+00:03:24.370 --> 00:03:26.400
+that's going to be
+reflecting a lot more light
+
+00:03:26.400 --> 00:03:29.210
+and that's kind of why we have
+this glossiness right here.
+
+00:03:29.210 --> 00:03:30.000
+If we go look at this little divot
+
+00:03:30.000 --> 00:03:31.010
+If we go look at this little divot
+
+00:03:31.010 --> 00:03:34.190
+you can see that it's
+comprised of two lines.
+
+00:03:34.190 --> 00:03:36.000
+There's sort of a darker line
+on top of a lighter line.
+
+00:03:36.000 --> 00:03:36.970
+There's sort of a darker line
+on top of a lighter line.
+
+00:03:36.970 --> 00:03:38.570
+And that's actually, that
+was pretty surprising
+
+00:03:38.570 --> 00:03:40.520
+to me when I first started
+looking at this stuff.
+
+00:03:40.520 --> 00:03:42.000
+This line right here, that's
+kind of part of this divider
+
+00:03:42.000 --> 00:03:43.940
+This line right here, that's
+kind of part of this divider
+
+00:03:43.940 --> 00:03:46.450
+is actually lighter than the background.
+
+00:03:46.450 --> 00:03:48.000
+Now, that is not necessary to
+do in every single interface
+
+00:03:48.000 --> 00:03:49.360
+Now, that is not necessary to
+do in every single interface
+
+00:03:49.360 --> 00:03:51.200
+but here it's just a really clear example
+
+00:03:51.200 --> 00:03:52.500
+of what's going on.
+
+00:03:52.500 --> 00:03:54.000
+We have light coming from the sky,
+
+00:03:54.000 --> 00:03:55.180
+We have light coming from the sky,
+
+00:03:55.180 --> 00:03:57.740
+it sort of misses this top
+part of the divot, right?
+
+00:03:57.740 --> 00:03:59.060
+'Cause the sun can't really hit there
+
+00:03:59.060 --> 00:04:00.000
+so that makes it darker.
+
+00:04:00.000 --> 00:04:00.300
+so that makes it darker.
+
+00:04:00.300 --> 00:04:01.850
+And then this lighter part actually
+
+00:04:01.850 --> 00:04:04.620
+receives the sun rays straight on
+
+00:04:04.620 --> 00:04:06.000
+even compared to like this
+surface area right here,
+
+00:04:06.000 --> 00:04:07.800
+even compared to like this
+surface area right here,
+
+00:04:07.800 --> 00:04:09.820
+which is what makes this so light.
+
+00:04:09.820 --> 00:04:12.000
+And so it's kind of cool
+because when you zoom in enough
+
+00:04:12.000 --> 00:04:12.640
+And so it's kind of cool
+because when you zoom in enough
+
+00:04:12.640 --> 00:04:13.890
+it doesn't really look like anything,
+
+00:04:13.890 --> 00:04:16.200
+it looks like a dark line
+on top of a white line.
+
+00:04:16.200 --> 00:04:18.000
+But when you zoom out,
+then your eye just sort
+
+00:04:18.000 --> 00:04:18.950
+But when you zoom out,
+then your eye just sort
+
+00:04:18.950 --> 00:04:21.400
+of takes it in as one
+piece, which is kind of
+
+00:04:21.400 --> 00:04:24.000
+this indented little
+divot that runs the length
+
+00:04:24.000 --> 00:04:24.020
+this indented little
+divot that runs the length
+
+00:04:24.020 --> 00:04:25.570
+of these controls.
+
+00:04:25.570 --> 00:04:27.140
+Of course, we're seeing similar stuff
+
+00:04:27.140 --> 00:04:29.570
+on these buttons over here, the top
+
+00:04:29.570 --> 00:04:30.000
+because it's a protruding button
+with a popped out surface.
+
+00:04:30.000 --> 00:04:33.510
+because it's a protruding button
+with a popped out surface.
+
+00:04:33.510 --> 00:04:35.720
+That top area is gonna catch more sunlight
+
+00:04:35.720 --> 00:04:36.000
+and reflected right?
+
+00:04:36.000 --> 00:04:37.040
+and reflected right?
+
+00:04:37.040 --> 00:04:38.350
+Here's the popped out button.
+
+00:04:38.350 --> 00:04:39.860
+And this side gets more sunlight,
+
+00:04:39.860 --> 00:04:42.000
+this side gets ever so slightly less.
+
+00:04:42.000 --> 00:04:42.073
+this side gets ever so slightly less.
+
+00:04:44.130 --> 00:04:46.160
+They even have another
+effect going on where
+
+00:04:46.160 --> 00:04:48.000
+there's kind of a light bit
+right inside the rim here.
+
+00:04:48.000 --> 00:04:49.713
+there's kind of a light bit
+right inside the rim here.
+
+00:04:51.490 --> 00:04:53.910
+And that sheen sort of implies
+there's this perfect angle
+
+00:04:53.910 --> 00:04:54.000
+at which the sun hits this
+
+00:04:54.000 --> 00:04:55.900
+at which the sun hits this
+
+00:04:55.900 --> 00:04:59.020
+and goes straight to our
+eyes very efficiently.
+
+00:04:59.020 --> 00:05:00.000
+So this is skeuomorphic design.
+
+00:05:00.000 --> 00:05:00.620
+So this is skeuomorphic design.
+
+00:05:00.620 --> 00:05:03.680
+This is when it's full of
+lighting and shadows and textures.
+
+00:05:03.680 --> 00:05:05.770
+Like I said, since about 2014,
+
+00:05:05.770 --> 00:05:06.000
+this has really dropped off in popularity
+
+00:05:06.000 --> 00:05:07.970
+this has really dropped off in popularity
+
+00:05:07.970 --> 00:05:10.330
+and we really quickly went into an era
+
+00:05:10.330 --> 00:05:12.000
+where everything became flat.
+
+00:05:12.000 --> 00:05:12.550
+where everything became flat.
+
+00:05:12.550 --> 00:05:15.500
+This is the idea of flat design,
+there's no shadow effects,
+
+00:05:15.500 --> 00:05:16.680
+there's no lighting effects.
+
+00:05:16.680 --> 00:05:18.000
+They're still icons, they're still texts,
+
+00:05:18.000 --> 00:05:18.360
+They're still icons, they're still texts,
+
+00:05:18.360 --> 00:05:20.140
+they're still even divider lines
+
+00:05:20.140 --> 00:05:22.530
+but everything is a
+little bit more symbolic.
+
+00:05:22.530 --> 00:05:24.000
+It doesn't allude so strongly
+
+00:05:24.000 --> 00:05:24.830
+It doesn't allude so strongly
+
+00:05:24.830 --> 00:05:27.800
+to physical textures or physical effects.
+
+00:05:27.800 --> 00:05:30.000
+Now this is a perfectly
+valid way of designing today.
+
+00:05:30.000 --> 00:05:30.730
+Now this is a perfectly
+valid way of designing today.
+
+00:05:30.730 --> 00:05:32.250
+And to be fair, so is this,
+
+00:05:32.250 --> 00:05:33.710
+although you might run into something
+
+00:05:33.710 --> 00:05:36.000
+looking a little dated depending
+on exactly how you do it
+
+00:05:36.000 --> 00:05:36.690
+looking a little dated depending
+on exactly how you do it
+
+00:05:36.690 --> 00:05:39.880
+but honestly, most designs now
+are somewhere in the middle.
+
+00:05:39.880 --> 00:05:42.000
+They use the principles
+from skeuomorphic design
+
+00:05:42.000 --> 00:05:42.820
+They use the principles
+from skeuomorphic design
+
+00:05:42.820 --> 00:05:45.060
+but there's still plenty
+of room to keep things
+
+00:05:45.060 --> 00:05:47.183
+just very flat and clean looking.
+
+00:05:49.070 --> 00:05:51.240
+So, as we explore these ideas,
+
+00:05:51.240 --> 00:05:52.420
+we're gonna be looking primarily
+
+00:05:52.420 --> 00:05:53.490
+at this little interface.
+
+00:05:53.490 --> 00:05:54.000
+This is just a contact us
+page, totally sample content
+
+00:05:54.000 --> 00:05:57.100
+This is just a contact us
+page, totally sample content
+
+00:05:57.100 --> 00:05:58.960
+but it's gonna allow us
+to kind of illustrate some
+
+00:05:58.960 --> 00:06:00.000
+of the things we're talking about.
+
+00:06:00.000 --> 00:06:00.480
+of the things we're talking about.
+
+00:06:00.480 --> 00:06:02.630
+The first thing we should
+do is actually break down
+
+00:06:02.630 --> 00:06:04.150
+how shadows are created.
+
+00:06:04.150 --> 00:06:06.000
+I'm gonna zoom in just so you
+can see this pretty clearly
+
+00:06:06.000 --> 00:06:06.770
+I'm gonna zoom in just so you
+can see this pretty clearly
+
+00:06:06.770 --> 00:06:08.280
+and figma, I'm gonna go do effects
+
+00:06:08.280 --> 00:06:09.770
+and then the default effect
+
+00:06:09.770 --> 00:06:11.830
+I can choose a couple of things,
+including an inner shadow
+
+00:06:11.830 --> 00:06:12.000
+we'll add some of those
+
+00:06:12.000 --> 00:06:12.870
+we'll add some of those
+
+00:06:12.870 --> 00:06:15.140
+but drop drop shadow is
+the main one that I want.
+
+00:06:15.140 --> 00:06:17.650
+And to actually set the
+properties of the drop shadow,
+
+00:06:17.650 --> 00:06:18.000
+I have to click this little
+settings toggle icon right here.
+
+00:06:18.000 --> 00:06:21.210
+I have to click this little
+settings toggle icon right here.
+
+00:06:21.210 --> 00:06:22.940
+Now you can see there's
+actually four properties
+
+00:06:22.940 --> 00:06:23.773
+I need a set.
+
+00:06:23.773 --> 00:06:24.000
+X and Y a color and opacity for the color
+
+00:06:24.000 --> 00:06:27.310
+X and Y a color and opacity for the color
+
+00:06:27.310 --> 00:06:29.880
+a blur and something called a spread.
+
+00:06:29.880 --> 00:06:30.000
+These are really not as
+complicated as they sound.
+
+00:06:30.000 --> 00:06:32.150
+These are really not as
+complicated as they sound.
+
+00:06:32.150 --> 00:06:35.160
+The color should be fairly
+apparent right off the get-go,
+
+00:06:35.160 --> 00:06:36.000
+the default color of your
+shadow is black and 99.9%
+
+00:06:36.000 --> 00:06:38.800
+the default color of your
+shadow is black and 99.9%
+
+00:06:38.800 --> 00:06:40.820
+of the time that's what
+you're gonna want to use.
+
+00:06:40.820 --> 00:06:42.000
+Technically you could make
+it red or some other color.
+
+00:06:42.000 --> 00:06:43.980
+Technically you could make
+it red or some other color.
+
+00:06:43.980 --> 00:06:47.690
+There's really not a
+strong reason to do that.
+
+00:06:47.690 --> 00:06:48.000
+The truth is any time the background
+
+00:06:48.000 --> 00:06:49.530
+The truth is any time the background
+
+00:06:49.530 --> 00:06:52.670
+on which the shadow falls
+has very little saturation,
+
+00:06:52.670 --> 00:06:54.000
+let's say it's white or it's gray
+
+00:06:54.000 --> 00:06:54.660
+let's say it's white or it's gray
+
+00:06:54.660 --> 00:06:56.990
+or it's dark gray, or even black,
+
+00:06:56.990 --> 00:06:59.060
+you can't see a shadow if it's pitch black
+
+00:06:59.060 --> 00:07:00.000
+but if it's any sort of white
+
+00:07:00.000 --> 00:07:00.240
+but if it's any sort of white
+
+00:07:00.240 --> 00:07:02.560
+or gray and there's really
+not too much color to it
+
+00:07:02.560 --> 00:07:04.550
+it's kind of an off-white or an off-gray,
+
+00:07:04.550 --> 00:07:06.000
+there's just no physical way
+to have a shadow be colored
+
+00:07:06.000 --> 00:07:08.340
+there's just no physical way
+to have a shadow be colored
+
+00:07:08.340 --> 00:07:11.170
+unless the button has like some
+sort of lighting behind it.
+
+00:07:11.170 --> 00:07:12.000
+And that's very much not
+the style we're going
+
+00:07:12.000 --> 00:07:13.500
+And that's very much not
+the style we're going
+
+00:07:13.500 --> 00:07:16.280
+for 99.9% of the time.
+
+00:07:16.280 --> 00:07:17.760
+So we'll keep our shadows black.
+
+00:07:17.760 --> 00:07:18.000
+That's a fairly simple example.
+
+00:07:18.000 --> 00:07:20.600
+That's a fairly simple example.
+
+00:07:20.600 --> 00:07:22.450
+We'll cover it more in the color unit
+
+00:07:22.450 --> 00:07:24.000
+but you can run into colored shadows
+
+00:07:24.000 --> 00:07:24.860
+but you can run into colored shadows
+
+00:07:24.860 --> 00:07:27.630
+if the background is not an a white
+
+00:07:27.630 --> 00:07:30.000
+or an off-white or a gray
+or kind of an off gray.
+
+00:07:30.000 --> 00:07:30.420
+or an off-white or a gray
+or kind of an off gray.
+
+00:07:30.420 --> 00:07:31.700
+And so here's an example.
+
+00:07:31.700 --> 00:07:33.670
+We'll actually look at this exact image,
+
+00:07:33.670 --> 00:07:35.950
+but if I take like a little layer of black
+
+00:07:35.950 --> 00:07:36.000
+and I try and match up with
+this shadow color here,
+
+00:07:36.000 --> 00:07:39.340
+and I try and match up with
+this shadow color here,
+
+00:07:39.340 --> 00:07:42.000
+let's see 10% opacities to
+light, 20% still to light,
+
+00:07:42.000 --> 00:07:43.200
+let's see 10% opacities to
+light, 20% still to light,
+
+00:07:43.200 --> 00:07:45.510
+by 30 or 40 I'm starting
+to get pretty close
+
+00:07:45.510 --> 00:07:46.920
+to this color here
+
+00:07:46.920 --> 00:07:48.000
+but you can see it's not
+the exact same color.
+
+00:07:48.000 --> 00:07:49.340
+but you can see it's not
+the exact same color.
+
+00:07:49.340 --> 00:07:51.390
+This is a little bit richer of a red
+
+00:07:51.390 --> 00:07:53.170
+and this is a little bit kind of flatter.
+
+00:07:53.170 --> 00:07:54.000
+It's a little dollar in grayer
+
+00:07:54.000 --> 00:07:54.640
+It's a little dollar in grayer
+
+00:07:54.640 --> 00:07:57.210
+and we'll go into the
+exact reason why that is.
+
+00:07:57.210 --> 00:07:58.800
+But the lesson for us is that
+
+00:07:58.800 --> 00:08:00.000
+unless your background is colored.
+
+00:08:00.000 --> 00:08:00.400
+unless your background is colored.
+
+00:08:00.400 --> 00:08:02.880
+And even then if I was
+putting a button on some sort
+
+00:08:02.880 --> 00:08:06.000
+of Mingo salmon color or
+whatever you call this,
+
+00:08:06.000 --> 00:08:06.480
+of Mingo salmon color or
+whatever you call this,
+
+00:08:06.480 --> 00:08:08.440
+I would still probably
+just keep the button black
+
+00:08:08.440 --> 00:08:09.840
+for simplicity sake.
+
+00:08:09.840 --> 00:08:12.000
+If you're painting watercolors, go wild
+
+00:08:12.000 --> 00:08:12.060
+If you're painting watercolors, go wild
+
+00:08:12.060 --> 00:08:14.070
+but in the world of user interface design
+
+00:08:14.070 --> 00:08:16.840
+99.9% of those shadows are gonna be black
+
+00:08:16.840 --> 00:08:18.000
+and let's not overthink it.
+
+00:08:18.000 --> 00:08:18.363
+and let's not overthink it.
+
+00:08:19.450 --> 00:08:21.100
+Then there's the question of opacity.
+
+00:08:21.100 --> 00:08:23.410
+This kind of represents the
+strength of the light source.
+
+00:08:23.410 --> 00:08:24.000
+You can see that if I
+have an opacity of 0%,
+
+00:08:24.000 --> 00:08:25.600
+You can see that if I
+have an opacity of 0%,
+
+00:08:25.600 --> 00:08:26.840
+there's no shadow at all.
+
+00:08:26.840 --> 00:08:29.680
+And if I have no capacity of
+say 50%, it's pretty strong.
+
+00:08:29.680 --> 00:08:30.000
+Of course, I can also do
+an opacity of a hundred
+
+00:08:30.000 --> 00:08:31.700
+Of course, I can also do
+an opacity of a hundred
+
+00:08:31.700 --> 00:08:32.670
+which means I'm gonna be getting
+
+00:08:32.670 --> 00:08:35.840
+to a pure black right
+there where the shadow
+
+00:08:35.840 --> 00:08:36.000
+is at its strongest, I
+almost never want that.
+
+00:08:36.000 --> 00:08:39.560
+is at its strongest, I
+almost never want that.
+
+00:08:39.560 --> 00:08:42.000
+Again just to kind of give
+you the 80-20 rule here.
+
+00:08:42.000 --> 00:08:42.580
+Again just to kind of give
+you the 80-20 rule here.
+
+00:08:42.580 --> 00:08:45.470
+I would say 80% of the
+time, you're just gonna
+
+00:08:45.470 --> 00:08:48.000
+want a shadow that starts
+at about around 20%.
+
+00:08:48.000 --> 00:08:48.710
+want a shadow that starts
+at about around 20%.
+
+00:08:48.710 --> 00:08:52.910
+Maybe sometimes you'll bump it
+up to 25%, maybe down to 15.
+
+00:08:52.910 --> 00:08:54.000
+But I would say that 20
+to 25 opacity is really
+
+00:08:54.000 --> 00:08:56.280
+But I would say that 20
+to 25 opacity is really
+
+00:08:56.280 --> 00:09:00.000
+the sweet spot for shadows
+on light backgrounds.
+
+00:09:00.000 --> 00:09:00.590
+the sweet spot for shadows
+on light backgrounds.
+
+00:09:00.590 --> 00:09:02.450
+Occasionally you'll want
+a very light shadow,
+
+00:09:02.450 --> 00:09:05.070
+it's not uncommon to have
+something that's at 5% or 10%
+
+00:09:05.070 --> 00:09:06.000
+especially if the shadow
+is a little bit larger.
+
+00:09:06.000 --> 00:09:07.260
+especially if the shadow
+is a little bit larger.
+
+00:09:07.260 --> 00:09:09.490
+So it's what it loses in
+the strength of the shadow
+
+00:09:09.490 --> 00:09:11.260
+it makes up for in the size.
+
+00:09:11.260 --> 00:09:12.000
+You also might have a
+particularly dark shadow
+
+00:09:12.000 --> 00:09:14.210
+You also might have a
+particularly dark shadow
+
+00:09:14.210 --> 00:09:17.010
+that's 35% or even 40%.
+
+00:09:17.010 --> 00:09:18.000
+I find that most of the time
+
+00:09:18.000 --> 00:09:18.720
+I find that most of the time
+
+00:09:18.720 --> 00:09:21.710
+if you're gonna be using
+a value like 35 or 40,
+
+00:09:21.710 --> 00:09:24.000
+it's because you actually
+have a dark background.
+
+00:09:24.000 --> 00:09:24.490
+it's because you actually
+have a dark background.
+
+00:09:24.490 --> 00:09:26.390
+So if we just go look at some
+
+00:09:26.390 --> 00:09:28.570
+of these interface elements
+that I have designed
+
+00:09:28.570 --> 00:09:30.000
+in the past, that logo didn't
+come through, that's weird.
+
+00:09:30.000 --> 00:09:31.880
+in the past, that logo didn't
+come through, that's weird.
+
+00:09:31.880 --> 00:09:36.000
+You can see, let's see,
+this is an opacity of 30%
+
+00:09:36.000 --> 00:09:36.470
+You can see, let's see,
+this is an opacity of 30%
+
+00:09:36.470 --> 00:09:39.430
+just a very thin little
+shadow on a light background
+
+00:09:39.430 --> 00:09:42.000
+but something like this could
+be quite a bit darker, 50%.
+
+00:09:42.000 --> 00:09:44.430
+but something like this could
+be quite a bit darker, 50%.
+
+00:09:44.550 --> 00:09:47.940
+And that is just because
+since the background is darker
+
+00:09:47.940 --> 00:09:48.000
+a shadow needs to be
+correspondingly darker
+
+00:09:48.000 --> 00:09:51.020
+a shadow needs to be
+correspondingly darker
+
+00:09:51.020 --> 00:09:53.843
+in order to come through
+sort of the same amount.
+
+00:09:55.150 --> 00:09:57.070
+Even though I've spent a
+lot of this unit harping
+
+00:09:57.070 --> 00:09:59.550
+on you like being
+consistent in everything,
+
+00:09:59.550 --> 00:10:00.000
+you honestly don't really
+need to be consistent
+
+00:10:00.000 --> 00:10:02.520
+you honestly don't really
+need to be consistent
+
+00:10:02.520 --> 00:10:04.860
+about exactly how strong shadows are.
+
+00:10:04.860 --> 00:10:06.000
+I feel like the main goal here is to
+
+00:10:06.000 --> 00:10:06.350
+I feel like the main goal here is to
+
+00:10:06.350 --> 00:10:09.570
+make the shadows appear
+generally sort of consistent
+
+00:10:09.570 --> 00:10:11.660
+but as we'll see later
+on, in some examples,
+
+00:10:11.660 --> 00:10:12.000
+consistency is honestly not
+as important for lighting
+
+00:10:12.000 --> 00:10:14.560
+consistency is honestly not
+as important for lighting
+
+00:10:14.560 --> 00:10:17.750
+and shadows as it is for
+other aspects of your design.
+
+00:10:17.750 --> 00:10:18.000
+Now, the X and Y properties
+and the next ones to cover.
+
+00:10:18.000 --> 00:10:19.970
+Now, the X and Y properties
+and the next ones to cover.
+
+00:10:19.970 --> 00:10:22.050
+And these are just dead simple.
+
+00:10:22.050 --> 00:10:24.000
+The X affects the sort
+
+00:10:24.000 --> 00:10:24.440
+The X affects the sort
+
+00:10:24.440 --> 00:10:26.360
+of the horizontal position of the shadow.
+
+00:10:26.360 --> 00:10:29.180
+Zero means it's perfectly
+centered while I suppose
+
+00:10:29.180 --> 00:10:30.000
+at some level you could be kind of cutesy
+
+00:10:30.000 --> 00:10:31.150
+at some level you could be kind of cutesy
+
+00:10:31.150 --> 00:10:33.780
+and say that like you have
+a sunset lighting effect
+
+00:10:33.780 --> 00:10:35.610
+and the sun is really off to the side.
+
+00:10:35.610 --> 00:10:36.000
+If the sun is more or less above you
+
+00:10:36.000 --> 00:10:37.430
+If the sun is more or less above you
+
+00:10:37.430 --> 00:10:39.600
+you're just always gonna
+be using zero here.
+
+00:10:39.600 --> 00:10:41.240
+And as you'll see in this video,
+
+00:10:41.240 --> 00:10:42.000
+I don't think we ever change this value
+
+00:10:42.000 --> 00:10:43.090
+I don't think we ever change this value
+
+00:10:43.090 --> 00:10:44.710
+unless perhaps we're doing some sort
+
+00:10:44.710 --> 00:10:46.720
+of special lighting effect that isn't just
+
+00:10:46.720 --> 00:10:48.000
+like an element that's slightly raised
+
+00:10:48.000 --> 00:10:48.880
+like an element that's slightly raised
+
+00:10:48.880 --> 00:10:50.650
+from the screen casting a shadow.
+
+00:10:50.650 --> 00:10:52.670
+The Y value on the other hand, I mean this
+
+00:10:52.670 --> 00:10:54.000
+so this affects the vertical
+position of this shadow.
+
+00:10:54.000 --> 00:10:55.320
+so this affects the vertical
+position of this shadow.
+
+00:10:56.370 --> 00:11:00.000
+We're often just gonna have
+a small positive value.
+
+00:11:00.000 --> 00:11:00.030
+We're often just gonna have
+a small positive value.
+
+00:11:00.030 --> 00:11:01.860
+And that just means the shadow falls
+
+00:11:01.860 --> 00:11:04.640
+below the object that's
+raised up because light comes
+
+00:11:04.640 --> 00:11:06.000
+from the sky and cast the
+shadow below the element.
+
+00:11:06.000 --> 00:11:07.070
+from the sky and cast the
+shadow below the element.
+
+00:11:07.070 --> 00:11:08.740
+I don't think I've ever designed something
+
+00:11:08.740 --> 00:11:10.310
+that had lighting coming from below
+
+00:11:10.310 --> 00:11:12.000
+and therefore needed a negative Y value.
+
+00:11:12.000 --> 00:11:12.620
+and therefore needed a negative Y value.
+
+00:11:12.620 --> 00:11:15.260
+Although sometimes when you do
+internal shadows to elements
+
+00:11:15.260 --> 00:11:17.130
+which we'll see in just a bit,
+
+00:11:17.130 --> 00:11:18.000
+you will play around with that
+Y value a little bit more.
+
+00:11:18.000 --> 00:11:19.970
+you will play around with that
+Y value a little bit more.
+
+00:11:19.970 --> 00:11:21.640
+No that for default shadows,
+
+00:11:21.640 --> 00:11:24.000
+a good Y value is typically
+one pixel two pixels.
+
+00:11:24.000 --> 00:11:24.780
+a good Y value is typically
+one pixel two pixels.
+
+00:11:24.780 --> 00:11:27.400
+Usually I don't go much more
+than four pixels and we'll talk
+
+00:11:27.400 --> 00:11:30.000
+about why in just a minute,
+oh, no pun intended.
+
+00:11:30.000 --> 00:11:30.880
+about why in just a minute,
+oh, no pun intended.
+
+00:11:30.880 --> 00:11:32.800
+All right, moving on to blur.
+
+00:11:32.800 --> 00:11:34.600
+The blur property has to do
+
+00:11:34.600 --> 00:11:36.000
+with how focused the light sources
+
+00:11:36.000 --> 00:11:38.150
+with how focused the light sources
+
+00:11:38.150 --> 00:11:42.000
+and also the distance between
+the object and the shadow
+
+00:11:42.000 --> 00:11:42.200
+and also the distance between
+the object and the shadow
+
+00:11:42.200 --> 00:11:44.040
+which because of the refraction of light
+
+00:11:44.040 --> 00:11:45.610
+those are actually the same things
+
+00:11:45.610 --> 00:11:46.660
+but you don't really need to worry
+
+00:11:46.660 --> 00:11:48.000
+about the physics too much.
+
+00:11:48.000 --> 00:11:48.220
+about the physics too much.
+
+00:11:48.220 --> 00:11:50.500
+The important idea is
+that, well, blur is kind of
+
+00:11:50.500 --> 00:11:52.680
+what it sounds like if
+I have no blur at all,
+
+00:11:52.680 --> 00:11:54.000
+I have a hard edge to the shadow.
+
+00:11:54.000 --> 00:11:54.510
+I have a hard edge to the shadow.
+
+00:11:54.510 --> 00:11:56.610
+It just looks like someone
+threw another rectangle
+
+00:11:56.610 --> 00:11:57.630
+below my button.
+
+00:11:57.630 --> 00:12:00.000
+If I have a massive blur,
+let's say 40 pixels,
+
+00:12:00.000 --> 00:12:00.410
+If I have a massive blur,
+let's say 40 pixels,
+
+00:12:00.410 --> 00:12:02.700
+then I get this very soft shadow effect
+
+00:12:02.700 --> 00:12:05.250
+which actually really does
+have a time and a place.
+
+00:12:06.360 --> 00:12:08.290
+Blur is a very powerful property though
+
+00:12:08.290 --> 00:12:11.610
+and it definitely has an
+ability to be much higher
+
+00:12:11.610 --> 00:12:12.000
+than whatever you're
+using for this Y value.
+
+00:12:12.000 --> 00:12:13.830
+than whatever you're
+using for this Y value.
+
+00:12:13.830 --> 00:12:17.700
+So sometimes I think I
+might see a blur that's less
+
+00:12:17.700 --> 00:12:18.000
+than the Y, but for the most part
+
+00:12:18.000 --> 00:12:19.260
+than the Y, but for the most part
+
+00:12:19.260 --> 00:12:21.423
+it's actually honestly
+a little bit bigger.
+
+00:12:23.300 --> 00:12:24.000
+With such a large Y value
+in such a large blur
+
+00:12:24.000 --> 00:12:25.630
+With such a large Y value
+in such a large blur
+
+00:12:25.630 --> 00:12:28.360
+I'd probably reduce the opacity
+of this just to kind of make
+
+00:12:28.360 --> 00:12:30.000
+up for it and end up with a
+little bit more subtle shadow.
+
+00:12:30.000 --> 00:12:31.260
+up for it and end up with a
+little bit more subtle shadow.
+
+00:12:32.280 --> 00:12:34.110
+Now, the final property
+that we have to talk
+
+00:12:34.110 --> 00:12:35.370
+about is the spread.
+
+00:12:35.370 --> 00:12:36.000
+And this one's a bit of a doozy
+
+00:12:36.000 --> 00:12:36.550
+And this one's a bit of a doozy
+
+00:12:36.550 --> 00:12:39.830
+because it represents
+something totally unrealistic
+
+00:12:39.830 --> 00:12:41.300
+and real life, which is
+
+00:12:41.300 --> 00:12:42.000
+it allows you to
+artificially change the size
+
+00:12:42.000 --> 00:12:43.810
+it allows you to
+artificially change the size
+
+00:12:43.810 --> 00:12:45.940
+of the object, casting the shadow.
+
+00:12:45.940 --> 00:12:48.000
+So with a spread value of 20,
+the shadow is actually going
+
+00:12:48.000 --> 00:12:49.100
+So with a spread value of 20,
+the shadow is actually going
+
+00:12:49.100 --> 00:12:51.820
+out 20 pixels beyond where
+it otherwise would have.
+
+00:12:51.820 --> 00:12:53.100
+It's sort of artificially saying
+
+00:12:53.100 --> 00:12:54.000
+let's pretend this button
+is 20 pixels bigger,
+
+00:12:54.000 --> 00:12:55.380
+let's pretend this button
+is 20 pixels bigger,
+
+00:12:55.380 --> 00:12:57.050
+I believe on every single side
+
+00:12:57.050 --> 00:12:59.530
+and then display the
+shadow for that thing.
+
+00:12:59.530 --> 00:13:00.000
+Likewise, you can also
+have a negative spread
+
+00:13:00.000 --> 00:13:01.920
+Likewise, you can also
+have a negative spread
+
+00:13:01.920 --> 00:13:04.740
+which like in this case
+just made it disappear
+
+00:13:04.740 --> 00:13:06.000
+but if the spread is just
+negative a little bit,
+
+00:13:06.000 --> 00:13:06.730
+but if the spread is just
+negative a little bit,
+
+00:13:06.730 --> 00:13:08.650
+it kind of sucks the shadow in.
+
+00:13:08.650 --> 00:13:10.880
+This has an effect of making the element
+
+00:13:10.880 --> 00:13:12.000
+look a little bit closer to the viewer
+
+00:13:12.000 --> 00:13:13.110
+look a little bit closer to the viewer
+
+00:13:13.110 --> 00:13:15.660
+to quote unquote the camera.
+
+00:13:15.660 --> 00:13:18.000
+It's as if this element is
+popped out of the screen so much
+
+00:13:18.000 --> 00:13:18.040
+It's as if this element is
+popped out of the screen so much
+
+00:13:18.040 --> 00:13:20.360
+it's obscuring us from
+seeing its own shadow.
+
+00:13:20.360 --> 00:13:23.180
+So that's kind of what
+a negative spread does.
+
+00:13:23.180 --> 00:13:24.000
+As we'll talk about in a sec,
+if you have a negative spread,
+
+00:13:24.000 --> 00:13:25.850
+As we'll talk about in a sec,
+if you have a negative spread,
+
+00:13:25.850 --> 00:13:28.590
+sometimes you actually want
+to increase the strength
+
+00:13:28.590 --> 00:13:29.550
+of the shadow to make up
+
+00:13:29.550 --> 00:13:30.000
+for that and actually make
+it a little more visible.
+
+00:13:30.000 --> 00:13:32.420
+for that and actually make
+it a little more visible.
+
+00:13:32.420 --> 00:13:35.030
+But playing with spreads
+is useful for a number
+
+00:13:35.030 --> 00:13:36.000
+of interesting lighting
+effects and shadow effects
+
+00:13:36.000 --> 00:13:37.460
+of interesting lighting
+effects and shadow effects
+
+00:13:37.460 --> 00:13:39.750
+but also can be used
+just to create kind of
+
+00:13:39.750 --> 00:13:42.000
+these very soft shadows with
+elements that need to appear
+
+00:13:42.000 --> 00:13:42.120
+these very soft shadows with
+elements that need to appear
+
+00:13:42.120 --> 00:13:44.590
+like they're just
+hovering over the screen.
+
+00:13:44.590 --> 00:13:45.423
+All right.
+
+00:13:45.423 --> 00:13:46.680
+So if we're putting this all together,
+
+00:13:46.680 --> 00:13:48.000
+let's try and just kind
+of look at quote unquote
+
+00:13:48.000 --> 00:13:49.230
+let's try and just kind
+of look at quote unquote
+
+00:13:49.230 --> 00:13:50.800
+a totally normal shadow.
+
+00:13:50.800 --> 00:13:52.990
+Like if you're just creating
+a shadow on some element
+
+00:13:52.990 --> 00:13:54.000
+for the first time, what
+values should you put in here?
+
+00:13:54.000 --> 00:13:56.240
+for the first time, what
+values should you put in here?
+
+00:13:56.240 --> 00:13:58.350
+Well, I think different
+people have slightly
+
+00:13:58.350 --> 00:14:00.000
+different tastes, but
+usually what I default
+
+00:14:00.000 --> 00:14:01.040
+different tastes, but
+usually what I default
+
+00:14:01.040 --> 00:14:01.873
+to and you'll see me do this
+
+00:14:01.873 --> 00:14:03.810
+throughout the course is having a shadow
+
+00:14:03.810 --> 00:14:06.000
+of say about a Y value of one
+
+00:14:06.000 --> 00:14:06.120
+of say about a Y value of one
+
+00:14:06.120 --> 00:14:08.840
+which means it's gonna be
+below the button itself.
+
+00:14:08.840 --> 00:14:11.130
+And it's gonna have a blur
+that's a little bit larger
+
+00:14:11.130 --> 00:14:12.000
+than that Y value.
+
+00:14:12.000 --> 00:14:12.100
+than that Y value.
+
+00:14:12.100 --> 00:14:13.330
+So this could be one and two,
+
+00:14:13.330 --> 00:14:15.060
+this could be two and three right here.
+
+00:14:15.060 --> 00:14:17.510
+It might even be two and
+four, whatever it is,
+
+00:14:17.510 --> 00:14:18.000
+this is getting pretty dark.
+
+00:14:18.000 --> 00:14:19.130
+this is getting pretty dark.
+
+00:14:19.130 --> 00:14:20.850
+At this point, I get in here
+
+00:14:20.850 --> 00:14:22.810
+and adjust this opacity down probably
+
+00:14:22.810 --> 00:14:24.000
+to something like 20% again,
+a good place to default.
+
+00:14:24.000 --> 00:14:25.400
+to something like 20% again,
+a good place to default.
+
+00:14:25.400 --> 00:14:27.560
+And then by default, for most shadows
+
+00:14:27.560 --> 00:14:29.770
+I'm not really gonna have much spread
+
+00:14:29.770 --> 00:14:30.000
+and by not much, I mean zero,
+let's be totally clear here.
+
+00:14:30.000 --> 00:14:32.710
+and by not much, I mean zero,
+let's be totally clear here.
+
+00:14:32.710 --> 00:14:35.580
+So let's say we do wanna
+use that type of shadow,
+
+00:14:35.580 --> 00:14:36.000
+I'll go and actually
+replace our current button
+
+00:14:36.000 --> 00:14:37.810
+I'll go and actually
+replace our current button
+
+00:14:37.810 --> 00:14:39.570
+with our new shadowed button here.
+
+00:14:39.570 --> 00:14:41.510
+And then even though I said
+
+00:14:41.510 --> 00:14:42.000
+that shadowing is not as
+important consistency wise,
+
+00:14:42.000 --> 00:14:44.620
+that shadowing is not as
+important consistency wise,
+
+00:14:44.620 --> 00:14:47.530
+we still wanna kind of default
+to it and see how that works.
+
+00:14:47.530 --> 00:14:48.000
+So we'll talk about a couple
+
+00:14:48.000 --> 00:14:48.410
+So we'll talk about a couple
+
+00:14:48.410 --> 00:14:52.010
+of cases where maybe it doesn't
+work as well for instance.
+
+00:14:52.010 --> 00:14:53.980
+Again, looking at our
+properties here, Y value
+
+00:14:53.980 --> 00:14:54.000
+of two to a blur of four
+and an opacity of 20%.
+
+00:14:54.000 --> 00:14:57.850
+of two to a blur of four
+and an opacity of 20%.
+
+00:14:57.850 --> 00:14:59.950
+If we hop on up to this header up here,
+
+00:14:59.950 --> 00:15:00.000
+we have this very light gray
+header at the top of the page.
+
+00:15:00.000 --> 00:15:02.240
+we have this very light gray
+header at the top of the page.
+
+00:15:02.240 --> 00:15:04.830
+Headers are something
+that if they're not flat,
+
+00:15:04.830 --> 00:15:06.000
+that is if they have any shadow at all
+
+00:15:06.000 --> 00:15:06.960
+that is if they have any shadow at all
+
+00:15:06.960 --> 00:15:08.460
+the shadow is gonna be below them.
+
+00:15:08.460 --> 00:15:10.620
+Headers are never inset into the page.
+
+00:15:10.620 --> 00:15:12.000
+Instead I call them outset.
+
+00:15:12.000 --> 00:15:12.420
+Instead I call them outset.
+
+00:15:12.420 --> 00:15:14.970
+I realized that is inventing a new usage
+
+00:15:14.970 --> 00:15:16.210
+of the English word outset.
+
+00:15:16.210 --> 00:15:18.000
+It's a new definition,
+that's not what it means.
+
+00:15:18.000 --> 00:15:18.160
+It's a new definition,
+that's not what it means.
+
+00:15:18.160 --> 00:15:20.590
+But just bear with me, Inset
+and outset are opposites
+
+00:15:20.590 --> 00:15:22.710
+for the purposes of this course.
+
+00:15:22.710 --> 00:15:24.000
+And headers are always outset,
+
+00:15:24.000 --> 00:15:24.690
+And headers are always outset,
+
+00:15:24.690 --> 00:15:27.510
+these sort of top navigation
+elements like that.
+
+00:15:27.510 --> 00:15:28.343
+So in that case
+
+00:15:28.343 --> 00:15:30.000
+I know I'm gonna want
+to put a shadow below.
+
+00:15:30.000 --> 00:15:30.030
+I know I'm gonna want
+to put a shadow below.
+
+00:15:30.030 --> 00:15:31.350
+We'll go and we'll just do,
+
+00:15:31.350 --> 00:15:32.770
+I think we said it was two and four
+
+00:15:32.770 --> 00:15:36.000
+and 25% or something
+like that, or actually
+
+00:15:36.000 --> 00:15:36.850
+and 25% or something
+like that, or actually
+
+00:15:36.850 --> 00:15:38.570
+it was 20% wasn't it?
+
+00:15:38.570 --> 00:15:39.420
+Just gave us a little lecture
+
+00:15:39.420 --> 00:15:41.810
+on outsets and already
+forgot my shadow value.
+
+00:15:41.810 --> 00:15:42.000
+Yeah, two and four 20%, there we go.
+
+00:15:42.000 --> 00:15:44.320
+Yeah, two and four 20%, there we go.
+
+00:15:44.320 --> 00:15:45.153
+All right.
+
+00:15:45.153 --> 00:15:45.986
+So this is interesting
+
+00:15:45.986 --> 00:15:48.000
+because maybe I can
+actually reduce this just
+
+00:15:48.000 --> 00:15:48.520
+because maybe I can
+actually reduce this just
+
+00:15:48.520 --> 00:15:50.120
+to make it a little more apparent here.
+
+00:15:50.120 --> 00:15:51.220
+You could run into this case where
+
+00:15:51.220 --> 00:15:53.000
+if you have a particularly light object
+
+00:15:53.000 --> 00:15:54.000
+that's casting the shadow,
+
+00:15:54.000 --> 00:15:54.360
+that's casting the shadow,
+
+00:15:54.360 --> 00:15:57.870
+sometimes the shadow
+itself kind of blends in
+
+00:15:57.870 --> 00:16:00.000
+with the object or it's
+sort of tough to see
+
+00:16:00.000 --> 00:16:00.310
+with the object or it's
+sort of tough to see
+
+00:16:00.310 --> 00:16:03.640
+where the shadow begins and
+where the object begins,
+
+00:16:03.640 --> 00:16:05.430
+or it's tough to see where the shadow ends
+
+00:16:05.430 --> 00:16:06.000
+and where the object begins.
+
+00:16:06.000 --> 00:16:07.053
+and where the object begins.
+
+00:16:10.080 --> 00:16:12.000
+This makes it a little bit
+more apparent, but now looking
+
+00:16:12.000 --> 00:16:13.020
+This makes it a little bit
+more apparent, but now looking
+
+00:16:13.020 --> 00:16:15.570
+at this, it's like, am I
+looking at a border here?
+
+00:16:15.570 --> 00:16:16.920
+And this is the element
+
+00:16:16.920 --> 00:16:18.000
+or is this just like
+where the shadow ends?
+
+00:16:18.000 --> 00:16:19.750
+or is this just like
+where the shadow ends?
+
+00:16:19.750 --> 00:16:22.170
+And if you zoom out,
+you'll notice it actually
+
+00:16:22.170 --> 00:16:24.000
+appears a little bit fuzzier to one's eye.
+
+00:16:24.000 --> 00:16:25.060
+appears a little bit fuzzier to one's eye.
+
+00:16:25.060 --> 00:16:28.390
+This also happens if I'm using
+say like a very bright color.
+
+00:16:28.390 --> 00:16:29.650
+Sometimes if I have yellow
+
+00:16:29.650 --> 00:16:30.000
+and the yellow's casting
+a shadow, that shadow
+
+00:16:30.000 --> 00:16:31.990
+and the yellow's casting
+a shadow, that shadow
+
+00:16:31.990 --> 00:16:35.870
+does the same thing where my
+eye has trouble distinguishing
+
+00:16:35.870 --> 00:16:36.000
+where the light object casting
+
+00:16:36.000 --> 00:16:37.390
+where the light object casting
+
+00:16:37.390 --> 00:16:40.430
+the shadow ends and where
+that light shadow begins.
+
+00:16:40.430 --> 00:16:42.000
+So that's something to be careful of
+
+00:16:42.000 --> 00:16:42.130
+So that's something to be careful of
+
+00:16:42.130 --> 00:16:45.000
+and certainly a reason to be inconsistent
+
+00:16:45.000 --> 00:16:47.230
+with how you apply your shadows.
+
+00:16:47.230 --> 00:16:48.000
+Certainly I could fix it
+by removing the shadow.
+
+00:16:48.000 --> 00:16:49.810
+Certainly I could fix it
+by removing the shadow.
+
+00:16:49.810 --> 00:16:50.810
+That's perfectly valid
+
+00:16:50.810 --> 00:16:54.000
+because shadows are almost
+always optional in UI design now,
+
+00:16:54.000 --> 00:16:54.660
+because shadows are almost
+always optional in UI design now,
+
+00:16:54.660 --> 00:16:58.610
+but another good way
+to do this is I really
+
+00:16:58.610 --> 00:17:00.000
+shouldn't actually have
+a light gray header
+
+00:17:00.000 --> 00:17:01.710
+shouldn't actually have
+a light gray header
+
+00:17:01.710 --> 00:17:05.790
+in the first place, because
+if light comes from the sky
+
+00:17:05.790 --> 00:17:06.000
+the things that are more
+popped out of the screen
+
+00:17:06.000 --> 00:17:08.140
+the things that are more
+popped out of the screen
+
+00:17:08.140 --> 00:17:10.410
+are gonna be just slightly
+more available to catch
+
+00:17:10.410 --> 00:17:12.000
+the sun's rays and
+reflect it into our eyes.
+
+00:17:12.000 --> 00:17:13.200
+the sun's rays and
+reflect it into our eyes.
+
+00:17:13.200 --> 00:17:15.540
+And anything that's indented
+down into the screen,
+
+00:17:15.540 --> 00:17:17.380
+which the main screen is indented relative
+
+00:17:17.380 --> 00:17:18.000
+to the header should
+actually be slightly darker.
+
+00:17:18.000 --> 00:17:19.880
+to the header should
+actually be slightly darker.
+
+00:17:19.880 --> 00:17:22.930
+That's a good general rule to follow.
+
+00:17:22.930 --> 00:17:24.000
+Not saying you always
+need to, but it's going to
+
+00:17:24.000 --> 00:17:25.220
+Not saying you always
+need to, but it's going to
+
+00:17:25.220 --> 00:17:28.070
+sort of naturally assist with
+how the eye perceives things.
+
+00:17:28.070 --> 00:17:28.903
+So if anything,
+
+00:17:28.903 --> 00:17:30.000
+I'm actually gonna try
+and make this white.
+
+00:17:30.000 --> 00:17:30.650
+I'm actually gonna try
+and make this white.
+
+00:17:30.650 --> 00:17:33.570
+Now, I don't actually want to
+make the rest of the screen
+
+00:17:33.570 --> 00:17:36.000
+a very light gray, but I certainly could.
+
+00:17:36.000 --> 00:17:36.670
+a very light gray, but I certainly could.
+
+00:17:36.670 --> 00:17:38.030
+And then I have some shadow here
+
+00:17:38.030 --> 00:17:41.210
+which nominal adjust isn't
+necessarily gonna be consistent
+
+00:17:41.210 --> 00:17:42.000
+with exactly how I do the
+shadow on this button.
+
+00:17:42.000 --> 00:17:43.140
+with exactly how I do the
+shadow on this button.
+
+00:17:43.140 --> 00:17:46.140
+No, not necessarily, but that's
+kind of my thought process
+
+00:17:46.140 --> 00:17:48.000
+and putting a shadow
+on something like this.
+
+00:17:48.000 --> 00:17:48.340
+and putting a shadow
+on something like this.
+
+00:17:49.480 --> 00:17:51.330
+If we're gonna go do a text box here,
+
+00:17:51.330 --> 00:17:53.420
+we get into some new territory
+
+00:17:53.420 --> 00:17:54.000
+because text boxes usually
+if they are not flat,
+
+00:17:54.000 --> 00:17:57.130
+because text boxes usually
+if they are not flat,
+
+00:17:57.130 --> 00:18:00.000
+if they have a shadow at
+all, they're usually indented
+
+00:18:00.000 --> 00:18:00.450
+if they have a shadow at
+all, they're usually indented
+
+00:18:00.450 --> 00:18:02.320
+into the screen and we're
+gonna do it that way
+
+00:18:02.320 --> 00:18:04.510
+so we can talk about inner shadows.
+
+00:18:04.510 --> 00:18:06.000
+Now I need to switch from drop
+shadow to inner shadow here.
+
+00:18:06.000 --> 00:18:07.420
+Now I need to switch from drop
+shadow to inner shadow here.
+
+00:18:07.420 --> 00:18:10.610
+And I find that I have actually
+the exact same properties.
+
+00:18:10.610 --> 00:18:12.000
+I can go and I can kinda NAB
+these down to two for 20%
+
+00:18:12.000 --> 00:18:15.610
+I can go and I can kinda NAB
+these down to two for 20%
+
+00:18:15.890 --> 00:18:18.000
+and you can see that
+that's actually quite a bit
+
+00:18:18.000 --> 00:18:18.510
+and you can see that
+that's actually quite a bit
+
+00:18:18.510 --> 00:18:22.160
+of dark shadow inside
+the element right there.
+
+00:18:22.160 --> 00:18:24.000
+And we've talked about
+this idea in spacing and
+
+00:18:24.000 --> 00:18:24.710
+And we've talked about
+this idea in spacing and
+
+00:18:24.710 --> 00:18:28.420
+in the simplicity lesson, that
+shadows are really there to
+
+00:18:28.420 --> 00:18:30.000
+kind of convey some information
+about how all the objects
+
+00:18:30.000 --> 00:18:31.130
+kind of convey some information
+about how all the objects
+
+00:18:31.130 --> 00:18:33.310
+are related, but they're
+more like metadata,
+
+00:18:33.310 --> 00:18:35.398
+they're more like a meta
+element that says something
+
+00:18:35.398 --> 00:18:36.000
+about a relationship
+rather than actual content.
+
+00:18:36.000 --> 00:18:38.110
+about a relationship
+rather than actual content.
+
+00:18:38.110 --> 00:18:40.870
+And anything like that can
+actually be pretty light.
+
+00:18:40.870 --> 00:18:42.000
+It just needs to be lightness
+so that you can perceive
+
+00:18:42.000 --> 00:18:43.500
+It just needs to be lightness
+so that you can perceive
+
+00:18:43.500 --> 00:18:45.830
+it's there even if unconsciously.
+
+00:18:45.830 --> 00:18:47.910
+I guess that's not even
+technically true of shadows
+
+00:18:47.910 --> 00:18:48.000
+if they're not required,
+but if we're gonna bother
+
+00:18:48.000 --> 00:18:49.490
+if they're not required,
+but if we're gonna bother
+
+00:18:49.490 --> 00:18:50.790
+to put one, we're gonna make it
+
+00:18:50.790 --> 00:18:53.580
+so that it's just ever so perceivable
+
+00:18:53.580 --> 00:18:54.000
+but we don't really need
+to make it all that dark.
+
+00:18:54.000 --> 00:18:56.163
+but we don't really need
+to make it all that dark.
+
+00:18:57.250 --> 00:18:59.220
+This Seems like it's working pretty well
+
+00:18:59.220 --> 00:19:00.000
+but one thing that I would
+be concerned about is
+
+00:19:00.000 --> 00:19:02.030
+but one thing that I would
+be concerned about is
+
+00:19:02.030 --> 00:19:05.550
+if you make the blur too
+large and an inner shadow
+
+00:19:06.510 --> 00:19:08.300
+at some point, you're
+gonna have shadow coming up
+
+00:19:08.300 --> 00:19:09.480
+from the bottom too.
+
+00:19:09.480 --> 00:19:11.480
+And that just does not make much sense.
+
+00:19:11.480 --> 00:19:12.000
+So if you start to see on an
+inner shadow shadow coming up
+
+00:19:12.000 --> 00:19:14.170
+So if you start to see on an
+inner shadow shadow coming up
+
+00:19:14.170 --> 00:19:16.250
+from the bottom, then you
+know you've probably blurred
+
+00:19:16.250 --> 00:19:18.000
+too much and you need to
+kind of back things up
+
+00:19:18.000 --> 00:19:18.500
+too much and you need to
+kind of back things up
+
+00:19:18.500 --> 00:19:20.150
+a little bit.
+
+00:19:20.150 --> 00:19:21.900
+Once we have with shadow
+that we like here,
+
+00:19:21.900 --> 00:19:24.000
+I can use option command
+C to copy it and option
+
+00:19:24.000 --> 00:19:25.100
+I can use option command
+C to copy it and option
+
+00:19:25.100 --> 00:19:27.790
+command V to paste it right here
+
+00:19:27.790 --> 00:19:30.000
+and that just copies and
+paste the style and figma.
+
+00:19:30.000 --> 00:19:31.230
+and that just copies and
+paste the style and figma.
+
+00:19:31.230 --> 00:19:32.920
+Now I'm not actually gonna
+copy and paste the style
+
+00:19:32.920 --> 00:19:36.000
+from this button, but
+this dropdown right here
+
+00:19:36.000 --> 00:19:36.080
+from this button, but
+this dropdown right here
+
+00:19:36.080 --> 00:19:38.970
+drop downs are another control
+that most traditionally
+
+00:19:38.970 --> 00:19:41.860
+if they're not flat, they're
+raised up out of the screen.
+
+00:19:41.860 --> 00:19:42.000
+So I'm just gonna go and
+quickly add in a little a shadow
+
+00:19:42.000 --> 00:19:45.340
+So I'm just gonna go and
+quickly add in a little a shadow
+
+00:19:45.340 --> 00:19:46.173
+right here.
+
+00:19:47.720 --> 00:19:48.000
+There we go.
+
+00:19:48.000 --> 00:19:48.553
+There we go.
+
+00:19:48.553 --> 00:19:50.370
+And again, it can be quite subtle.
+
+00:19:50.370 --> 00:19:52.870
+It just needs to kind of barely register
+
+00:19:52.870 --> 00:19:54.000
+on the user's consciousness
+at minimum that it's there.
+
+00:19:54.000 --> 00:19:55.610
+on the user's consciousness
+at minimum that it's there.
+
+00:19:55.610 --> 00:19:58.150
+And that shadow kind of
+says, hey, I'm clickable,
+
+00:19:58.150 --> 00:19:59.360
+come click me.
+
+00:19:59.360 --> 00:20:00.000
+Likewise, the inner
+shadow here in here says,
+
+00:20:00.000 --> 00:20:01.960
+Likewise, the inner
+shadow here in here says,
+
+00:20:01.960 --> 00:20:04.580
+I'm typable, click in and start typing.
+
+00:20:04.580 --> 00:20:06.000
+Now, ultimately the shadow
+values that we've picked
+
+00:20:06.000 --> 00:20:06.620
+Now, ultimately the shadow
+values that we've picked
+
+00:20:06.620 --> 00:20:09.670
+for this button are kind of
+on the low end of things.
+
+00:20:09.670 --> 00:20:12.000
+Two and four are the Y value in the blur,
+
+00:20:12.000 --> 00:20:12.280
+Two and four are the Y value in the blur,
+
+00:20:12.280 --> 00:20:13.390
+I just wanna show you
+
+00:20:13.390 --> 00:20:16.580
+it is possible that you
+will have scenarios where
+
+00:20:16.580 --> 00:20:18.000
+you will get much greater values here.
+
+00:20:18.000 --> 00:20:18.790
+you will get much greater values here.
+
+00:20:18.790 --> 00:20:21.790
+And one of the biggest cases for doing so
+
+00:20:21.790 --> 00:20:24.000
+is because you're trying
+to represent elevation.
+
+00:20:24.000 --> 00:20:24.630
+is because you're trying
+to represent elevation.
+
+00:20:24.630 --> 00:20:28.240
+Now, let's talk briefly
+kind of the naive idea
+
+00:20:28.240 --> 00:20:30.000
+of how you might make
+something appear elevated
+
+00:20:30.000 --> 00:20:30.930
+of how you might make
+something appear elevated
+
+00:20:30.930 --> 00:20:32.960
+is to increase the Y value.
+
+00:20:32.960 --> 00:20:34.570
+But realistically, it's not
+
+00:20:34.570 --> 00:20:36.000
+like this button looks
+elevated when I do this.
+
+00:20:36.000 --> 00:20:37.040
+like this button looks
+elevated when I do this.
+
+00:20:37.040 --> 00:20:39.040
+You know, even if I were
+to kind of move it up,
+
+00:20:39.040 --> 00:20:42.000
+like that doesn't feel quite
+right and it's not quite right
+
+00:20:42.000 --> 00:20:42.270
+like that doesn't feel quite
+right and it's not quite right
+
+00:20:42.270 --> 00:20:44.400
+because like I said slightly earlier,
+
+00:20:44.400 --> 00:20:47.450
+one of the things that
+happens is when the object
+
+00:20:47.450 --> 00:20:48.000
+that cast the shadow gets
+farther away from the shadow,
+
+00:20:48.000 --> 00:20:50.440
+that cast the shadow gets
+farther away from the shadow,
+
+00:20:50.440 --> 00:20:52.210
+this edge gets more diffuse,
+
+00:20:52.210 --> 00:20:54.000
+we need to increase the blur value
+
+00:20:54.000 --> 00:20:54.120
+we need to increase the blur value
+
+00:20:54.120 --> 00:20:56.760
+in addition to increasing the Y value.
+
+00:20:56.760 --> 00:20:59.300
+So typically, the way I think about this
+
+00:20:59.300 --> 00:21:00.000
+is I will move these up, I
+will kind of multiply them.
+
+00:21:00.000 --> 00:21:02.180
+is I will move these up, I
+will kind of multiply them.
+
+00:21:02.180 --> 00:21:05.000
+It might work just fine if you
+add like two to each of them
+
+00:21:05.000 --> 00:21:06.000
+but I'll do something
+where I just multiply each
+
+00:21:06.000 --> 00:21:06.690
+but I'll do something
+where I just multiply each
+
+00:21:06.690 --> 00:21:08.660
+by two or even by one and a half.
+
+00:21:08.660 --> 00:21:12.000
+So two and four is going
+to become four and eight
+
+00:21:12.000 --> 00:21:13.660
+So two and four is going
+to become four and eight
+
+00:21:14.600 --> 00:21:17.193
+and then we can do this again.
+
+00:21:18.790 --> 00:21:22.050
+And now, if you look at these
+three one after the other,
+
+00:21:22.050 --> 00:21:23.490
+it does really start to look
+
+00:21:23.490 --> 00:21:24.000
+like this one is kind of
+hovering higher than this one.
+
+00:21:24.000 --> 00:21:26.920
+like this one is kind of
+hovering higher than this one.
+
+00:21:26.920 --> 00:21:29.380
+And this effect can be used to say
+
+00:21:29.380 --> 00:21:30.000
+if you want different elements
+to slide over one another
+
+00:21:30.000 --> 00:21:32.220
+if you want different elements
+to slide over one another
+
+00:21:32.220 --> 00:21:34.040
+you can give certain things, quote unquote
+
+00:21:34.040 --> 00:21:36.000
+a higher elevation and those
+things will appear on top
+
+00:21:36.000 --> 00:21:36.780
+a higher elevation and those
+things will appear on top
+
+00:21:36.780 --> 00:21:39.270
+when you're scrolling, you
+can have certain controls
+
+00:21:39.270 --> 00:21:42.000
+that are the most popped out
+from the screen, et cetera.
+
+00:21:42.000 --> 00:21:42.070
+that are the most popped out
+from the screen, et cetera.
+
+00:21:42.070 --> 00:21:43.870
+But one of them primary use cases
+
+00:21:43.870 --> 00:21:47.327
+for something like this is
+say doing a hover state.
+
+00:21:47.327 --> 00:21:48.000
+And the idea is perhaps
+when I hover on this button,
+
+00:21:48.000 --> 00:21:51.050
+And the idea is perhaps
+when I hover on this button,
+
+00:21:51.050 --> 00:21:53.780
+I actually want the shadow
+to get a little bit bigger,
+
+00:21:53.780 --> 00:21:54.000
+which means the effect we're
+trying to simulate it's
+
+00:21:54.000 --> 00:21:57.270
+which means the effect we're
+trying to simulate it's
+
+00:21:57.270 --> 00:22:00.000
+as if, when I hover on this
+button, the button rises
+
+00:22:00.000 --> 00:22:00.650
+as if, when I hover on this
+button, the button rises
+
+00:22:00.650 --> 00:22:02.010
+up a little bit from the screen.
+
+00:22:02.010 --> 00:22:05.100
+And actually material design
+has something very similar
+
+00:22:05.100 --> 00:22:06.000
+where not only do they have
+the button rise up on hover
+
+00:22:06.000 --> 00:22:07.450
+where not only do they have
+the button rise up on hover
+
+00:22:07.450 --> 00:22:10.310
+but when then when I click
+my mouse down right here
+
+00:22:10.310 --> 00:22:12.000
+it comes up even a little bit more.
+
+00:22:12.000 --> 00:22:12.450
+it comes up even a little bit more.
+
+00:22:12.450 --> 00:22:14.320
+So there's sort of this
+progression, the button actually
+
+00:22:14.320 --> 00:22:16.780
+kind of rises up out of
+the screen to meet you
+
+00:22:16.780 --> 00:22:18.000
+as you go to click it.
+
+00:22:18.000 --> 00:22:18.200
+as you go to click it.
+
+00:22:18.200 --> 00:22:21.080
+That's not the only way to
+do it Clicked state, right?
+
+00:22:21.080 --> 00:22:24.000
+Certainly another option is if this button
+
+00:22:24.000 --> 00:22:24.210
+Certainly another option is if this button
+
+00:22:24.210 --> 00:22:27.730
+if the analogy that I want to
+follow should be pressed in,
+
+00:22:27.730 --> 00:22:30.000
+I can pick like a slightly
+darker shade of the button
+
+00:22:30.000 --> 00:22:31.440
+I can pick like a slightly
+darker shade of the button
+
+00:22:31.440 --> 00:22:34.210
+and then instead of having
+a shadow on the outside
+
+00:22:34.210 --> 00:22:36.000
+give it an inner shadow
+and this makes this button
+
+00:22:36.000 --> 00:22:36.450
+give it an inner shadow
+and this makes this button
+
+00:22:36.450 --> 00:22:37.620
+look pressed in.
+
+00:22:37.620 --> 00:22:40.180
+So if I click here, it's
+as if my little mouse
+
+00:22:40.180 --> 00:22:42.000
+cursor is pressing this into
+the screen and it suddenly
+
+00:22:42.000 --> 00:22:42.800
+cursor is pressing this into
+the screen and it suddenly
+
+00:22:42.800 --> 00:22:45.450
+becomes indented, which not
+only gives it a slightly
+
+00:22:45.450 --> 00:22:48.000
+darker background color,
+because again, indentation
+
+00:22:48.000 --> 00:22:48.320
+darker background color,
+because again, indentation
+
+00:22:48.320 --> 00:22:52.070
+will most naturally always
+mean a darker background color
+
+00:22:52.070 --> 00:22:53.810
+but then there's also that
+inner shadow to really
+
+00:22:53.810 --> 00:22:54.000
+drive the metaphor home.
+
+00:22:54.000 --> 00:22:55.960
+drive the metaphor home.
+
+00:22:55.960 --> 00:22:58.000
+All right, so hopefully
+that makes some sense.
+
+00:22:58.000 --> 00:23:00.000
+The big thing to remember is elevation
+
+00:23:00.000 --> 00:23:00.850
+The big thing to remember is elevation
+
+00:23:00.850 --> 00:23:05.740
+is simulated with movement
+in both the Y and the blur.
+
+00:23:05.740 --> 00:23:06.000
+And just to drive the point
+home, I wanna show you
+
+00:23:06.000 --> 00:23:07.750
+And just to drive the point
+home, I wanna show you
+
+00:23:07.750 --> 00:23:10.610
+that this actually does
+happen in the real world.
+
+00:23:10.610 --> 00:23:12.000
+If you look at this example,
+this makes it crystal clear
+
+00:23:12.000 --> 00:23:12.660
+If you look at this example,
+this makes it crystal clear
+
+00:23:12.660 --> 00:23:16.240
+but the shadow from this
+woman's chin on her neck is,
+
+00:23:16.240 --> 00:23:18.000
+has a very crisp delineation
+
+00:23:18.000 --> 00:23:18.530
+has a very crisp delineation
+
+00:23:18.530 --> 00:23:20.090
+between what's shadowed and what's light,
+
+00:23:20.090 --> 00:23:21.670
+it has a very clear boundary.
+
+00:23:21.670 --> 00:23:22.890
+The shadow from the trees
+
+00:23:22.890 --> 00:23:24.000
+which are farther away, and
+yet like half an inch away
+
+00:23:24.000 --> 00:23:25.940
+which are farther away, and
+yet like half an inch away
+
+00:23:25.940 --> 00:23:28.910
+on the surface of her neck,
+these are much fuzzier.
+
+00:23:28.910 --> 00:23:30.000
+And that is simply because
+the tree is farther away.
+
+00:23:30.000 --> 00:23:31.410
+And that is simply because
+the tree is farther away.
+
+00:23:31.410 --> 00:23:34.010
+The light has actually, it's
+gone just around the tree
+
+00:23:34.010 --> 00:23:36.000
+and it started to spread
+out kind of lightly
+
+00:23:36.000 --> 00:23:36.740
+and it started to spread
+out kind of lightly
+
+00:23:36.740 --> 00:23:38.370
+and it gives us this effect.
+
+00:23:38.370 --> 00:23:40.130
+Likewise, you can see this.
+
+00:23:40.130 --> 00:23:42.000
+I mean, this is fun if you
+ever got at sunset, but look
+
+00:23:42.000 --> 00:23:42.590
+I mean, this is fun if you
+ever got at sunset, but look
+
+00:23:42.590 --> 00:23:46.090
+at the crispness of the shadow
+of his feet and his legs,
+
+00:23:46.090 --> 00:23:47.390
+where there's a very small distance
+
+00:23:47.390 --> 00:23:48.000
+between the object casting the shadow
+
+00:23:48.000 --> 00:23:49.087
+between the object casting the shadow
+
+00:23:49.087 --> 00:23:52.270
+and the shadow itself and his
+head, which is much fuzzier
+
+00:23:52.270 --> 00:23:54.000
+or what's even fuzzier is
+the shadow that's being cast
+
+00:23:54.000 --> 00:23:55.090
+or what's even fuzzier is
+the shadow that's being cast
+
+00:23:55.090 --> 00:23:57.660
+from further away, this building here
+
+00:23:57.660 --> 00:23:58.575
+and that's the fuzziest
+shadow of all of them.
+
+00:23:58.575 --> 00:24:00.000
+So this sort of just,
+
+00:24:00.000 --> 00:24:00.770
+So this sort of just,
+
+00:24:00.770 --> 00:24:04.080
+I think makes very clear
+this real-world way
+
+00:24:04.080 --> 00:24:06.000
+in which shadows work
+that we are trying to
+
+00:24:06.000 --> 00:24:06.350
+in which shadows work
+that we are trying to
+
+00:24:06.350 --> 00:24:09.093
+imitate when we're creating
+elevation in our UI.
+
+00:24:10.270 --> 00:24:12.000
+Now in my book, hover States are one
+
+00:24:12.000 --> 00:24:12.070
+Now in my book, hover States are one
+
+00:24:12.070 --> 00:24:16.310
+of those things that to really
+get the feel of the design
+
+00:24:16.310 --> 00:24:18.000
+of a hover state, you actually
+have to try it out like
+
+00:24:18.000 --> 00:24:18.950
+of a hover state, you actually
+have to try it out like
+
+00:24:18.950 --> 00:24:21.630
+in your browser and see,
+does this feel like too much?
+
+00:24:21.630 --> 00:24:23.000
+Does it feel like not enough?
+
+00:24:23.000 --> 00:24:24.000
+And whenever I'm designing a hover state
+
+00:24:24.000 --> 00:24:24.780
+And whenever I'm designing a hover state
+
+00:24:24.780 --> 00:24:26.010
+I kind of say mentally,
+
+00:24:26.010 --> 00:24:28.430
+I reserve the right to
+change my mind here.
+
+00:24:28.430 --> 00:24:30.000
+But we do have in Figma, there's kind of,
+
+00:24:30.000 --> 00:24:31.060
+But we do have in Figma, there's kind of,
+
+00:24:31.060 --> 00:24:33.400
+at least at this point
+it's a little bit of a hack
+
+00:24:33.400 --> 00:24:36.000
+to show a hover state but I
+could take my hovered button
+
+00:24:36.000 --> 00:24:37.330
+to show a hover state but I
+could take my hovered button
+
+00:24:37.330 --> 00:24:40.720
+and if I unclick the clip content property
+
+00:24:40.720 --> 00:24:42.000
+that allow the shadow to shine out
+
+00:24:42.000 --> 00:24:42.730
+that allow the shadow to shine out
+
+00:24:42.730 --> 00:24:46.180
+around this little frame right
+here, and then I got to go
+
+00:24:46.180 --> 00:24:48.000
+to the prototype tab and
+add a little interaction.
+
+00:24:48.000 --> 00:24:48.740
+to the prototype tab and
+add a little interaction.
+
+00:24:48.740 --> 00:24:50.380
+I don't want to click interaction,
+
+00:24:50.380 --> 00:24:52.720
+I want a well hovering interaction
+
+00:24:52.720 --> 00:24:54.000
+and this is going to be opened
+
+00:24:54.000 --> 00:24:56.230
+and this is going to be opened
+
+00:24:56.230 --> 00:25:00.000
+as an overlay quote unquote,
+we'll go grab button hover.
+
+00:25:00.000 --> 00:25:00.803
+as an overlay quote unquote,
+we'll go grab button hover.
+
+00:25:03.010 --> 00:25:05.730
+And I want to say that it
+should be positioned manually
+
+00:25:05.730 --> 00:25:06.000
+which means that this
+little frame right here
+
+00:25:06.000 --> 00:25:08.000
+which means that this
+little frame right here
+
+00:25:08.000 --> 00:25:11.040
+by default will appear right over
+
+00:25:11.040 --> 00:25:12.000
+the thing that's being hovered on.
+
+00:25:12.000 --> 00:25:12.630
+the thing that's being hovered on.
+
+00:25:12.630 --> 00:25:15.780
+Now, this should be enough
+where I can go press play
+
+00:25:15.780 --> 00:25:18.000
+and let's see how this
+looks when I hover on it.
+
+00:25:18.000 --> 00:25:18.700
+and let's see how this
+looks when I hover on it.
+
+00:25:18.700 --> 00:25:20.280
+Hey, not too bad.
+
+00:25:20.280 --> 00:25:23.240
+That actually feels
+pretty good in my opinion.
+
+00:25:23.240 --> 00:25:24.000
+Now because this other button
+is added as an overlay,
+
+00:25:24.000 --> 00:25:25.600
+Now because this other button
+is added as an overlay,
+
+00:25:25.600 --> 00:25:27.630
+there's technically, I'm
+looking at two shadows here.
+
+00:25:27.630 --> 00:25:28.730
+This is a little darker
+
+00:25:28.730 --> 00:25:30.000
+than I would be seeing in
+browser, but what can you do?
+
+00:25:30.000 --> 00:25:31.550
+than I would be seeing in
+browser, but what can you do?
+
+00:25:31.550 --> 00:25:32.950
+It's better than nothing and sometimes
+
+00:25:32.950 --> 00:25:34.780
+it's worth exploring just to kind of test
+
+00:25:34.780 --> 00:25:36.000
+your intuitions about hover States.
+
+00:25:36.000 --> 00:25:36.563
+your intuitions about hover States.
+
+00:25:37.900 --> 00:25:40.500
+So we've kind of talked
+about the standard shadow.
+
+00:25:40.500 --> 00:25:42.000
+We've talked about how
+to simulate elevation.
+
+00:25:42.000 --> 00:25:43.620
+We've talked about how
+to simulate elevation.
+
+00:25:43.620 --> 00:25:46.720
+Let's talk a little bit more
+about those softer shadows.
+
+00:25:46.720 --> 00:25:48.000
+The soft shadows that you
+see with negative spread,
+
+00:25:48.000 --> 00:25:49.340
+The soft shadows that you
+see with negative spread,
+
+00:25:49.340 --> 00:25:52.590
+those often work best on larger elements.
+
+00:25:52.590 --> 00:25:54.000
+So if I go and I create something here,
+
+00:25:54.000 --> 00:25:55.700
+So if I go and I create something here,
+
+00:25:55.700 --> 00:25:58.940
+let's give it a blur that's
+actually four times larger
+
+00:25:58.940 --> 00:26:00.000
+than the Y value here.
+
+00:26:00.000 --> 00:26:00.560
+than the Y value here.
+
+00:26:00.560 --> 00:26:03.710
+So that's gonna be fairly
+large as far as blurs go
+
+00:26:04.590 --> 00:26:06.000
+and I'm just gonna make it a
+little darker so we can see it.
+
+00:26:06.000 --> 00:26:07.850
+and I'm just gonna make it a
+little darker so we can see it.
+
+00:26:07.850 --> 00:26:10.100
+What I've done is
+actually created a fairly
+
+00:26:10.100 --> 00:26:11.770
+large amount of shadow.
+
+00:26:11.770 --> 00:26:12.000
+You could like go figure
+out what is the area
+
+00:26:12.000 --> 00:26:13.960
+You could like go figure
+out what is the area
+
+00:26:13.960 --> 00:26:17.620
+that is very noticeably gray
+because it's the entire length
+
+00:26:17.620 --> 00:26:18.000
+on both the top and bottom
+and the entire height on
+
+00:26:18.000 --> 00:26:19.680
+on both the top and bottom
+and the entire height on
+
+00:26:19.680 --> 00:26:23.160
+both the left and the right
+that has all become much grayer.
+
+00:26:23.160 --> 00:26:24.000
+Now, the thing that's kind of beautiful
+
+00:26:24.000 --> 00:26:24.760
+Now, the thing that's kind of beautiful
+
+00:26:24.760 --> 00:26:29.090
+about having a negative spread
+is it sucks the shadow in,
+
+00:26:29.090 --> 00:26:30.000
+it pretends the object casting,
+it is a little bit smaller
+
+00:26:30.000 --> 00:26:32.150
+it pretends the object casting,
+it is a little bit smaller
+
+00:26:32.150 --> 00:26:36.000
+But what that means is the
+shadow starts to disappear
+
+00:26:36.000 --> 00:26:36.200
+But what that means is the
+shadow starts to disappear
+
+00:26:36.200 --> 00:26:37.940
+around the corners.
+
+00:26:37.940 --> 00:26:41.060
+So if you see here, I still
+have this gray that runs most
+
+00:26:41.060 --> 00:26:42.000
+of the length of the image itself
+
+00:26:42.000 --> 00:26:43.460
+of the length of the image itself
+
+00:26:43.460 --> 00:26:45.840
+but right around the
+corners, it kind of fades out
+
+00:26:45.840 --> 00:26:48.000
+and I can actually play
+this effect even more.
+
+00:26:48.000 --> 00:26:48.940
+and I can actually play
+this effect even more.
+
+00:26:48.940 --> 00:26:50.310
+Let me increase the blur.
+
+00:26:50.310 --> 00:26:51.670
+Let's go to something like huge
+
+00:26:51.670 --> 00:26:54.000
+like even 40 pixels or
+something like that.
+
+00:26:54.000 --> 00:26:54.450
+like even 40 pixels or
+something like that.
+
+00:26:54.450 --> 00:26:57.190
+And then as I decrease the spread more,
+
+00:26:57.190 --> 00:26:58.940
+that just means more
+and more of the effect
+
+00:26:58.940 --> 00:27:00.000
+of the shadow is it's going
+to be visible kind of here,
+
+00:27:00.000 --> 00:27:01.620
+of the shadow is it's going
+to be visible kind of here,
+
+00:27:01.620 --> 00:27:02.930
+like a little disc peeking out,
+
+00:27:02.930 --> 00:27:04.950
+a little half disc peeking out right there
+
+00:27:04.950 --> 00:27:06.000
+not even half, sorry, it's
+just a fraction of a disc.
+
+00:27:06.000 --> 00:27:07.320
+not even half, sorry, it's
+just a fraction of a disc.
+
+00:27:07.320 --> 00:27:10.650
+You have this kind of shadow
+peeking out ever so slightly
+
+00:27:10.650 --> 00:27:12.000
+but even around the corners,
+it's all but disappeared.
+
+00:27:12.000 --> 00:27:13.190
+but even around the corners,
+it's all but disappeared.
+
+00:27:13.190 --> 00:27:16.770
+So when you have very large
+objects that need to be raised
+
+00:27:16.770 --> 00:27:18.000
+up from the screen, playing
+
+00:27:18.000 --> 00:27:18.220
+up from the screen, playing
+
+00:27:18.220 --> 00:27:21.343
+with this negative spread
+value can be a way to do it.
+
+00:27:22.180 --> 00:27:24.000
+Do you remember that for a
+shadow of equal visibility,
+
+00:27:24.000 --> 00:27:25.880
+Do you remember that for a
+shadow of equal visibility,
+
+00:27:25.880 --> 00:27:28.490
+if you have a negative spread,
+you do want to be bumping
+
+00:27:28.490 --> 00:27:30.000
+up the opacity, just so
+it's actually visible.
+
+00:27:30.000 --> 00:27:31.470
+up the opacity, just so
+it's actually visible.
+
+00:27:31.470 --> 00:27:32.790
+Otherwise it's gonna be, I mean
+
+00:27:32.790 --> 00:27:34.791
+just completely invisible.
+
+00:27:34.791 --> 00:27:35.950
+(indistinct) to be perfectly fair,
+
+00:27:35.950 --> 00:27:36.000
+this is a contrived example
+
+00:27:36.000 --> 00:27:37.270
+this is a contrived example
+
+00:27:37.270 --> 00:27:40.590
+because I think this little
+like beacon might be clickable.
+
+00:27:40.590 --> 00:27:42.000
+For instance, maybe it would
+bring up a little thing calling
+
+00:27:42.000 --> 00:27:42.740
+For instance, maybe it would
+bring up a little thing calling
+
+00:27:42.740 --> 00:27:44.730
+out the address or the
+phone number or something.
+
+00:27:44.730 --> 00:27:47.460
+This map by itself would
+probably not be clickable
+
+00:27:47.460 --> 00:27:48.000
+and therefore, I wouldn't
+really wanna give it
+
+00:27:48.000 --> 00:27:49.100
+and therefore, I wouldn't
+really wanna give it
+
+00:27:49.100 --> 00:27:50.840
+a good shadow treatment like this.
+
+00:27:50.840 --> 00:27:53.690
+A shadow treatment often
+implies clickability
+
+00:27:53.690 --> 00:27:54.000
+and I guarantee if you watch people,
+
+00:27:54.000 --> 00:27:55.310
+and I guarantee if you watch people,
+
+00:27:55.310 --> 00:27:56.840
+they might hover over this map and try
+
+00:27:56.840 --> 00:27:59.250
+and figure out what
+they can click on here.
+
+00:27:59.250 --> 00:28:00.000
+Now, this is sort of a big
+example, but I will just say
+
+00:28:00.000 --> 00:28:02.750
+Now, this is sort of a big
+example, but I will just say
+
+00:28:02.750 --> 00:28:05.360
+in the same way that I kind
+of have a go-to default shadow
+
+00:28:05.360 --> 00:28:06.000
+of about one to two here two
+to four here in 20% here,
+
+00:28:06.000 --> 00:28:09.370
+of about one to two here two
+to four here in 20% here,
+
+00:28:09.370 --> 00:28:11.410
+my default shadow if I'm
+going to do a negative spread
+
+00:28:11.410 --> 00:28:12.000
+is to put in some value for
+Y actually use the equal
+
+00:28:12.000 --> 00:28:14.580
+is to put in some value for
+Y actually use the equal
+
+00:28:14.580 --> 00:28:17.260
+and opposite value for the
+spread and then use something
+
+00:28:17.260 --> 00:28:18.000
+like four times that value for the blur.
+
+00:28:18.000 --> 00:28:19.880
+like four times that value for the blur.
+
+00:28:19.880 --> 00:28:22.500
+This is often how I think
+about kind of a nice,
+
+00:28:22.500 --> 00:28:23.827
+good soft shadow.
+
+00:28:23.827 --> 00:28:24.000
+Now I'm not really sure
+exactly what I would want to
+
+00:28:24.000 --> 00:28:26.330
+Now I'm not really sure
+exactly what I would want to
+
+00:28:26.330 --> 00:28:28.280
+do to optimize this 'cause
+it doesn't necessarily
+
+00:28:28.280 --> 00:28:30.000
+make a ton of sense on the
+map here, but you can kind
+
+00:28:30.000 --> 00:28:30.710
+make a ton of sense on the
+map here, but you can kind
+
+00:28:30.710 --> 00:28:34.520
+of see, even if I have,
+let's say 25% okay,
+
+00:28:34.520 --> 00:28:36.000
+you get a sense that there's
+a shadow underneath there.
+
+00:28:36.000 --> 00:28:36.530
+you get a sense that there's
+a shadow underneath there.
+
+00:28:36.530 --> 00:28:39.790
+It's pretty subtle and
+it's ever so much lighter
+
+00:28:39.790 --> 00:28:41.163
+at the little corners here.
+
+00:28:42.020 --> 00:28:44.230
+Now let's talk about the
+spread value a little bit more
+
+00:28:44.230 --> 00:28:47.680
+because in this example,
+we use the spread value
+
+00:28:47.680 --> 00:28:48.000
+in conjunction with a large positive blur.
+
+00:28:48.000 --> 00:28:50.890
+in conjunction with a large positive blur.
+
+00:28:50.890 --> 00:28:54.000
+But one of my favorite little
+effects is to add a shadow
+
+00:28:54.000 --> 00:28:54.780
+But one of my favorite little
+effects is to add a shadow
+
+00:28:54.780 --> 00:28:57.110
+where the shadow is not
+actually representing the shadow
+
+00:28:57.110 --> 00:29:00.000
+from a light source it's
+representing light itself.
+
+00:29:00.000 --> 00:29:00.200
+from a light source it's
+representing light itself.
+
+00:29:00.200 --> 00:29:01.780
+So, I'm gonna go to the shadow
+
+00:29:01.780 --> 00:29:04.310
+and the first thing I'm
+gonna change very noticeably
+
+00:29:04.310 --> 00:29:06.000
+is I'm gonna grab this
+color, the same color
+
+00:29:06.000 --> 00:29:07.150
+is I'm gonna grab this
+color, the same color
+
+00:29:07.150 --> 00:29:09.050
+as the little beacon here and that's gonna
+
+00:29:09.050 --> 00:29:10.480
+be my light color.
+
+00:29:10.480 --> 00:29:12.000
+Then I'm gonna center the
+shadow on the beacon itself.
+
+00:29:12.000 --> 00:29:12.810
+Then I'm gonna center the
+shadow on the beacon itself.
+
+00:29:12.810 --> 00:29:14.800
+Right now you can see it
+already looks like it's glowing,
+
+00:29:14.800 --> 00:29:16.880
+so technically I could call it right there
+
+00:29:16.880 --> 00:29:18.000
+but I found it can be very
+cool to reduce the blur to zero
+
+00:29:18.000 --> 00:29:21.100
+but I found it can be very
+cool to reduce the blur to zero
+
+00:29:21.100 --> 00:29:22.400
+which now there's no shadow.
+
+00:29:22.400 --> 00:29:24.000
+But if I start to give it
+a positive spread, well,
+
+00:29:24.000 --> 00:29:26.440
+But if I start to give it
+a positive spread, well,
+
+00:29:26.440 --> 00:29:27.840
+nothing happens until you can see
+
+00:29:27.840 --> 00:29:30.000
+that this is actually supposed
+to be only 50% opacity.
+
+00:29:30.000 --> 00:29:31.600
+that this is actually supposed
+to be only 50% opacity.
+
+00:29:31.600 --> 00:29:33.570
+So I can increase the
+spread as much as I want.
+
+00:29:33.570 --> 00:29:34.580
+I could even animate it.
+
+00:29:34.580 --> 00:29:36.000
+This could be a beacon that
+sort of shoots out some light
+
+00:29:36.000 --> 00:29:37.530
+This could be a beacon that
+sort of shoots out some light
+
+00:29:37.530 --> 00:29:39.810
+and disappears, shoots out
+some light and disappears.
+
+00:29:39.810 --> 00:29:41.420
+There's all kinds of fun effects there
+
+00:29:41.420 --> 00:29:42.000
+that you can work with.
+
+00:29:42.000 --> 00:29:42.570
+that you can work with.
+
+00:29:43.610 --> 00:29:44.840
+By using a positive spread
+
+00:29:44.840 --> 00:29:47.730
+with no blur is just a nice
+little way to create some sort
+
+00:29:47.730 --> 00:29:48.000
+of like beacon indicator or whatever.
+
+00:29:48.000 --> 00:29:49.660
+of like beacon indicator or whatever.
+
+00:29:49.660 --> 00:29:51.270
+And your developer, if they don't know
+
+00:29:51.270 --> 00:29:53.110
+about it already will
+always appreciate this
+
+00:29:53.110 --> 00:29:54.000
+because if they can add this as a shadow
+
+00:29:54.000 --> 00:29:55.250
+because if they can add this as a shadow
+
+00:29:55.250 --> 00:29:56.760
+rather than as a separate element,
+
+00:29:56.760 --> 00:29:59.080
+it's just slightly less work for them.
+
+00:29:59.080 --> 00:30:00.000
+Another place where this is
+super handy is a focus state.
+
+00:30:00.000 --> 00:30:02.600
+Another place where this is
+super handy is a focus state.
+
+00:30:02.600 --> 00:30:03.500
+So let's say I click
+
+00:30:03.500 --> 00:30:06.000
+into this email address,
+little input right here.
+
+00:30:06.000 --> 00:30:07.330
+into this email address,
+little input right here.
+
+00:30:07.330 --> 00:30:09.470
+Well, one thing I'm gonna wanna do is
+
+00:30:09.470 --> 00:30:11.780
+especially if someone is, I said click
+
+00:30:11.780 --> 00:30:12.000
+but especially if someone
+is using say tab to get
+
+00:30:12.000 --> 00:30:14.420
+but especially if someone
+is using say tab to get
+
+00:30:14.420 --> 00:30:16.490
+around and they're just
+tabbing through the interface,
+
+00:30:16.490 --> 00:30:18.000
+then we need to show in some
+way when this field is focused
+
+00:30:18.000 --> 00:30:20.560
+then we need to show in some
+way when this field is focused
+
+00:30:20.560 --> 00:30:22.210
+because the user didn't
+necessarily click there,
+
+00:30:22.210 --> 00:30:24.000
+they press tab and then
+their eye needs to track
+
+00:30:24.000 --> 00:30:24.260
+they press tab and then
+their eye needs to track
+
+00:30:24.260 --> 00:30:26.500
+where did focus move to?
+
+00:30:26.500 --> 00:30:30.000
+Well, probably my all-time
+favorite way to do that is with
+
+00:30:30.000 --> 00:30:31.200
+Well, probably my all-time
+favorite way to do that is with
+
+00:30:31.200 --> 00:30:32.860
+I mean, you can do it with
+a shadow or you could do it
+
+00:30:32.860 --> 00:30:34.930
+with an outline in this case, let's do it
+
+00:30:34.930 --> 00:30:36.000
+with a quote unquote drop shadow.
+
+00:30:36.000 --> 00:30:36.880
+with a quote unquote drop shadow.
+
+00:30:36.880 --> 00:30:38.290
+That's really not a shadow at all,
+
+00:30:38.290 --> 00:30:39.790
+it's almost like a glow.
+
+00:30:39.790 --> 00:30:42.000
+So we're gonna center it
+again, X and Y of zero
+
+00:30:42.000 --> 00:30:42.910
+So we're gonna center it
+again, X and Y of zero
+
+00:30:42.910 --> 00:30:44.320
+then we're gonna go pick some fun color.
+
+00:30:44.320 --> 00:30:45.630
+We could just use our theme purple,
+
+00:30:45.630 --> 00:30:47.340
+there's no reason not to do that.
+
+00:30:47.340 --> 00:30:48.000
+And we're gonna do that same playbook,
+
+00:30:48.000 --> 00:30:49.480
+And we're gonna do that same playbook,
+
+00:30:49.480 --> 00:30:52.050
+reduce the blur, increase the spread.
+
+00:30:52.050 --> 00:30:53.370
+Right now this is pretty hefty
+
+00:30:53.370 --> 00:30:54.000
+but let's just bring down
+the opacity a little bit,
+
+00:30:54.000 --> 00:30:56.810
+but let's just bring down
+the opacity a little bit,
+
+00:30:56.810 --> 00:30:59.830
+something like 30% bring down that spread.
+
+00:30:59.830 --> 00:31:00.000
+All I need to do is make this
+spread high enough where when
+
+00:31:00.000 --> 00:31:02.970
+All I need to do is make this
+spread high enough where when
+
+00:31:02.970 --> 00:31:06.000
+someone presses tab and their
+cursor and goes into this box
+
+00:31:06.000 --> 00:31:06.600
+someone presses tab and their
+cursor and goes into this box
+
+00:31:06.600 --> 00:31:09.090
+and they can start typing,
+their eye is just ever
+
+00:31:09.090 --> 00:31:10.160
+so drawn right there.
+
+00:31:10.160 --> 00:31:12.000
+And I think this would work fairly well.
+
+00:31:12.000 --> 00:31:12.800
+And I think this would work fairly well.
+
+00:31:12.800 --> 00:31:14.970
+Are you ready for a third
+trick related to spread?
+
+00:31:14.970 --> 00:31:16.620
+This one is pretty good too.
+
+00:31:16.620 --> 00:31:18.000
+So, let's go look at this other example.
+
+00:31:18.000 --> 00:31:18.790
+So, let's go look at this other example.
+
+00:31:18.790 --> 00:31:22.310
+Maybe I have some sort of book reading app
+
+00:31:22.310 --> 00:31:24.000
+and I've got all these
+images of books here.
+
+00:31:24.000 --> 00:31:24.530
+and I've got all these
+images of books here.
+
+00:31:24.530 --> 00:31:27.560
+One thing you can do with a
+negative spread is actually
+
+00:31:27.560 --> 00:31:30.000
+make a shadow that
+appears only on the bottom
+
+00:31:30.000 --> 00:31:30.190
+make a shadow that
+appears only on the bottom
+
+00:31:30.190 --> 00:31:31.870
+and doesn't appear on the sides at all.
+
+00:31:31.870 --> 00:31:33.460
+How do you do that you ask?
+
+00:31:33.460 --> 00:31:34.450
+Let me tell you.
+
+00:31:34.450 --> 00:31:36.000
+First, you're gonna make sure
+you have a positive Y value
+
+00:31:36.000 --> 00:31:36.920
+First, you're gonna make sure
+you have a positive Y value
+
+00:31:36.920 --> 00:31:38.920
+and you're also gonna
+want a positive blur,
+
+00:31:38.920 --> 00:31:42.000
+but then the spread needs
+to be negative enough
+
+00:31:42.000 --> 00:31:42.480
+but then the spread needs
+to be negative enough
+
+00:31:42.480 --> 00:31:45.180
+so that it counteracts
+the effect of the blur.
+
+00:31:45.180 --> 00:31:47.440
+The shadow is normally
+blurring out from the sides
+
+00:31:47.440 --> 00:31:48.000
+and it's equal on both sides.
+
+00:31:48.000 --> 00:31:48.570
+and it's equal on both sides.
+
+00:31:48.570 --> 00:31:50.040
+And if it's a blur for
+it'll probably go out,
+
+00:31:50.040 --> 00:31:51.660
+let's say roughly four
+pixels although I don't know
+
+00:31:51.660 --> 00:31:53.280
+if it's always exact.
+
+00:31:53.280 --> 00:31:54.000
+If I have a spread of negative four,
+
+00:31:54.000 --> 00:31:55.310
+If I have a spread of negative four,
+
+00:31:55.310 --> 00:31:56.730
+it's sucks that shadow in.
+
+00:31:56.730 --> 00:31:59.900
+So let's actually make it
+just a little bit darker
+
+00:31:59.900 --> 00:32:00.000
+so we can see what
+we're working with here.
+
+00:32:00.000 --> 00:32:02.023
+so we can see what
+we're working with here.
+
+00:32:03.660 --> 00:32:05.370
+So now you can see the shadow,
+
+00:32:05.370 --> 00:32:06.000
+I'm gonna go into pixel mode too.
+
+00:32:06.000 --> 00:32:06.770
+I'm gonna go into pixel mode too.
+
+00:32:06.770 --> 00:32:07.603
+There we go.
+
+00:32:09.400 --> 00:32:11.990
+And then when I do my negative
+spread, the shadow is all
+
+00:32:11.990 --> 00:32:12.000
+about gone now with the spread
+of negative three, except for
+
+00:32:12.000 --> 00:32:14.830
+about gone now with the spread
+of negative three, except for
+
+00:32:14.830 --> 00:32:18.000
+on the bottom, because I
+had this positive Y value,
+
+00:32:18.000 --> 00:32:18.050
+on the bottom, because I
+had this positive Y value,
+
+00:32:18.050 --> 00:32:20.770
+the shadow is always just been
+shifted down a little bit.
+
+00:32:20.770 --> 00:32:22.410
+So now it's invisible on the top,
+
+00:32:22.410 --> 00:32:24.000
+it's invisible on the sides
+but the spread counteracts
+
+00:32:24.000 --> 00:32:26.080
+it's invisible on the sides
+but the spread counteracts
+
+00:32:26.080 --> 00:32:28.060
+the blur enough that it's only visible
+
+00:32:28.060 --> 00:32:30.000
+on the bottom because of the positive Y.
+
+00:32:30.000 --> 00:32:30.510
+on the bottom because of the positive Y.
+
+00:32:30.510 --> 00:32:31.910
+Let's go see how this looks.
+
+00:32:33.050 --> 00:32:35.390
+Zoom out, it's not quite
+as strong as I was hoping.
+
+00:32:35.390 --> 00:32:36.000
+I'm gonna bring down the opacity, kind of
+
+00:32:36.000 --> 00:32:37.640
+I'm gonna bring down the opacity, kind of
+
+00:32:37.640 --> 00:32:42.000
+fix this bad boy up a little
+bit, increase the Y there.
+
+00:32:42.000 --> 00:32:42.640
+fix this bad boy up a little
+bit, increase the Y there.
+
+00:32:43.240 --> 00:32:45.540
+And I wanna make it look
+a little more blurred
+
+00:32:46.490 --> 00:32:47.420
+and there we go.
+
+00:32:47.420 --> 00:32:48.000
+Maybe that blur is now making
+it visible on the sides
+
+00:32:48.000 --> 00:32:50.150
+Maybe that blur is now making
+it visible on the sides
+
+00:32:50.150 --> 00:32:54.000
+but to me honestly,
+that looks good enough.
+
+00:32:54.000 --> 00:32:54.193
+but to me honestly,
+that looks good enough.
+
+00:32:58.170 --> 00:32:59.460
+Now there's technically another way
+
+00:32:59.460 --> 00:33:00.000
+to do bottom only shadows
+
+00:33:00.000 --> 00:33:01.200
+to do bottom only shadows
+
+00:33:01.200 --> 00:33:03.280
+and that is instead of
+doing it with a shadow
+
+00:33:03.280 --> 00:33:06.000
+it is to use a whole
+separate layer to do that.
+
+00:33:06.000 --> 00:33:06.100
+it is to use a whole
+separate layer to do that.
+
+00:33:06.100 --> 00:33:08.550
+And typically the way I do
+it is with a blurred layer.
+
+00:33:08.550 --> 00:33:10.740
+So I'm gonna press O to create new oval
+
+00:33:10.740 --> 00:33:12.000
+and then I'm just gonna draw
+my oval right under a book.
+
+00:33:12.000 --> 00:33:13.590
+and then I'm just gonna draw
+my oval right under a book.
+
+00:33:13.590 --> 00:33:15.040
+I'm actually gonna make it black
+
+00:33:15.040 --> 00:33:17.860
+because that's the default
+color of shadows all the time.
+
+00:33:17.860 --> 00:33:18.000
+And let's go ahead
+
+00:33:18.000 --> 00:33:19.430
+And let's go ahead
+
+00:33:19.430 --> 00:33:21.600
+and use a different
+effect, not a drop shadow.
+
+00:33:21.600 --> 00:33:23.650
+We're gonna use a layer blur.
+
+00:33:23.650 --> 00:33:24.000
+Here it is.
+
+00:33:24.000 --> 00:33:24.720
+Here it is.
+
+00:33:24.720 --> 00:33:26.870
+And the default layer blur Figma throws on
+
+00:33:26.870 --> 00:33:28.600
+is for definitely not enough,
+
+00:33:28.600 --> 00:33:30.000
+I want something higher.
+
+00:33:30.000 --> 00:33:30.230
+I want something higher.
+
+00:33:30.230 --> 00:33:32.290
+20 yeah, that should be good enough.
+
+00:33:32.290 --> 00:33:36.000
+Now let's actually get this
+layer blur below the book,
+
+00:33:36.000 --> 00:33:37.210
+Now let's actually get this
+layer blur below the book,
+
+00:33:37.210 --> 00:33:38.043
+I can do that.
+
+00:33:38.043 --> 00:33:39.570
+And then I can mess with the opacity too.
+
+00:33:39.570 --> 00:33:41.510
+So maybe say 50% or something
+
+00:33:41.510 --> 00:33:42.000
+like that is closer to what I want.
+
+00:33:42.000 --> 00:33:43.770
+like that is closer to what I want.
+
+00:33:43.770 --> 00:33:45.690
+I'll go ahead and duplicate
+it just a couple of times
+
+00:33:45.690 --> 00:33:48.000
+because it's always better to
+evaluate this sort of stuff
+
+00:33:48.000 --> 00:33:48.620
+because it's always better to
+evaluate this sort of stuff
+
+00:33:48.620 --> 00:33:50.440
+when you can see it all.
+
+00:33:50.440 --> 00:33:53.640
+Let's try a lighter opacity, 30%.
+
+00:33:53.640 --> 00:33:54.000
+Yeah, something like that
+could work really nicely.
+
+00:33:54.000 --> 00:33:56.330
+Yeah, something like that
+could work really nicely.
+
+00:33:56.330 --> 00:33:57.580
+Now this is cool too
+
+00:33:57.580 --> 00:34:00.000
+because this gives me the
+option of having something
+
+00:34:00.000 --> 00:34:00.440
+because this gives me the
+option of having something
+
+00:34:00.440 --> 00:34:03.800
+that's floating high enough off
+the screen where the shadow,
+
+00:34:03.800 --> 00:34:06.000
+I can see the entire shadow, right?
+
+00:34:06.000 --> 00:34:06.020
+I can see the entire shadow, right?
+
+00:34:06.020 --> 00:34:07.630
+Like here's the dark
+point and then it's clear
+
+00:34:07.630 --> 00:34:10.160
+that it's floating this entire
+distance off the screen.
+
+00:34:10.160 --> 00:34:12.000
+It's not like the shadow is
+forced to be sort of attached
+
+00:34:12.000 --> 00:34:12.650
+It's not like the shadow is
+forced to be sort of attached
+
+00:34:12.650 --> 00:34:14.450
+to the element, which is the case
+
+00:34:14.450 --> 00:34:16.693
+if I'm using an actual drop shadow.
+
+00:34:18.790 --> 00:34:21.060
+So that's just another fun effect
+
+00:34:21.060 --> 00:34:22.633
+or kind of way to do things.
+
+00:34:24.760 --> 00:34:28.340
+I will say there is one
+other fairly common way
+
+00:34:28.340 --> 00:34:30.000
+of representing shadows
+that you should know about.
+
+00:34:30.000 --> 00:34:30.930
+of representing shadows
+that you should know about.
+
+00:34:30.930 --> 00:34:32.190
+So far, we've talked about using
+
+00:34:32.190 --> 00:34:34.180
+like Figma is actual shadow effect,
+
+00:34:34.180 --> 00:34:36.000
+and then we talked about blurring
+
+00:34:36.000 --> 00:34:36.020
+and then we talked about blurring
+
+00:34:36.020 --> 00:34:39.260
+a black oval here and then
+making it less opaque.
+
+00:34:39.260 --> 00:34:41.930
+But sometimes you can actually
+just represent a shadow
+
+00:34:41.930 --> 00:34:42.000
+with a black shape that's not blurred
+
+00:34:42.000 --> 00:34:44.710
+with a black shape that's not blurred
+
+00:34:44.710 --> 00:34:46.550
+and then just given some light opacity.
+
+00:34:46.550 --> 00:34:48.000
+And if you're doing illustration,
+
+00:34:48.000 --> 00:34:48.220
+And if you're doing illustration,
+
+00:34:48.220 --> 00:34:50.920
+like this is how your shadows
+will look in illustration.
+
+00:34:50.920 --> 00:34:52.760
+You'll often just use
+a different color layer
+
+00:34:52.760 --> 00:34:54.000
+and make it the shape of the shadow.
+
+00:34:54.000 --> 00:34:55.220
+and make it the shape of the shadow.
+
+00:34:55.220 --> 00:34:58.100
+So I don't have any illustrations
+on this particular page
+
+00:34:58.100 --> 00:35:00.000
+but one thing I could do,
+and this is kind of fun
+
+00:35:00.000 --> 00:35:00.870
+but one thing I could do,
+and this is kind of fun
+
+00:35:00.870 --> 00:35:04.730
+if a little gimmicky is make
+this book, actually look
+
+00:35:04.730 --> 00:35:06.000
+like a hard cover by sort of
+faking where a shadow would go.
+
+00:35:06.000 --> 00:35:08.570
+like a hard cover by sort of
+faking where a shadow would go.
+
+00:35:08.570 --> 00:35:12.000
+That sort of represents
+that fold between the spine
+
+00:35:12.000 --> 00:35:12.170
+That sort of represents
+that fold between the spine
+
+00:35:12.170 --> 00:35:14.390
+of the book and the cover of the book.
+
+00:35:14.390 --> 00:35:15.440
+And so if I'm gonna do that,
+
+00:35:15.440 --> 00:35:18.000
+I'm actually going to have
+a little gradient here.
+
+00:35:18.000 --> 00:35:18.190
+I'm actually going to have
+a little gradient here.
+
+00:35:18.190 --> 00:35:20.490
+I'll switch over to a linear gradient
+
+00:35:20.490 --> 00:35:24.000
+and then I'm gonna drag one
+part there, one part there
+
+00:35:24.000 --> 00:35:25.490
+and then I'm gonna drag one
+part there, one part there
+
+00:35:28.800 --> 00:35:30.000
+and I'm actually, of course
+I'm just gonna make it black.
+
+00:35:30.000 --> 00:35:31.220
+and I'm actually, of course
+I'm just gonna make it black.
+
+00:35:31.220 --> 00:35:32.977
+Sorry, that is the color of shadows
+
+00:35:32.977 --> 00:35:35.290
+and I want this to work
+pretty across the board,
+
+00:35:35.290 --> 00:35:36.000
+obviously that's way too dark.
+
+00:35:36.000 --> 00:35:37.200
+obviously that's way too dark.
+
+00:35:37.200 --> 00:35:38.350
+So maybe I bring it down to something
+
+00:35:38.350 --> 00:35:42.000
+like 20% opacity and there we
+go, it looks a little bit more
+
+00:35:42.000 --> 00:35:43.100
+like 20% opacity and there we
+go, it looks a little bit more
+
+00:35:43.100 --> 00:35:46.050
+like a hard cover, and
+I could take this sort
+
+00:35:46.050 --> 00:35:48.000
+of gimmick and apply it to all the books.
+
+00:35:48.000 --> 00:35:48.300
+of gimmick and apply it to all the books.
+
+00:35:48.300 --> 00:35:51.650
+Probably won't be very visible
+on the dark cover there.
+
+00:35:51.650 --> 00:35:54.000
+That might be a little more
+visible there but perfect.
+
+00:35:54.000 --> 00:35:56.650
+That might be a little more
+visible there but perfect.
+
+00:35:56.650 --> 00:35:58.890
+Now I've got three different
+ways of making shadows.
+
+00:35:58.890 --> 00:36:00.000
+I can use a, just a layer proper,
+
+00:36:00.000 --> 00:36:00.880
+I can use a, just a layer proper,
+
+00:36:00.880 --> 00:36:03.960
+I can use a blurred layer
+representing the shadow
+
+00:36:03.960 --> 00:36:06.000
+or I can use the shadow
+property in my app.
+
+00:36:06.000 --> 00:36:07.210
+or I can use the shadow
+property in my app.
+
+00:36:07.210 --> 00:36:08.860
+But in all of these cases,
+
+00:36:08.860 --> 00:36:12.000
+everything we've done so far
+has only one shadow per layer.
+
+00:36:12.000 --> 00:36:13.840
+everything we've done so far
+has only one shadow per layer.
+
+00:36:13.840 --> 00:36:16.650
+And sometimes you actually want
+multiple shadows per layer.
+
+00:36:16.650 --> 00:36:18.000
+Why would you want that?
+
+00:36:18.000 --> 00:36:18.260
+Why would you want that?
+
+00:36:18.260 --> 00:36:20.290
+Because there's multiple light sources.
+
+00:36:20.290 --> 00:36:23.760
+So one place where I most
+commonly a map to do this
+
+00:36:23.760 --> 00:36:24.000
+isn't something like a
+floating action button
+
+00:36:24.000 --> 00:36:25.750
+isn't something like a
+floating action button
+
+00:36:25.750 --> 00:36:27.600
+which needs to float above
+all the other content
+
+00:36:27.600 --> 00:36:29.660
+on the page and it's
+just a good way to demo
+
+00:36:29.660 --> 00:36:30.000
+what multiple light sources can look like.
+
+00:36:30.000 --> 00:36:32.020
+what multiple light sources can look like.
+
+00:36:32.020 --> 00:36:35.170
+Now, certainly the first
+thing that we're gonna do
+
+00:36:35.170 --> 00:36:36.000
+is we're gonna go and create
+a fairly high elevation shadow
+
+00:36:36.000 --> 00:36:39.190
+is we're gonna go and create
+a fairly high elevation shadow
+
+00:36:39.190 --> 00:36:40.160
+just the standard way.
+
+00:36:40.160 --> 00:36:41.890
+So maybe instead of
+saying one and two here,
+
+00:36:41.890 --> 00:36:42.000
+I say four and eight.
+
+00:36:42.000 --> 00:36:42.930
+I say four and eight.
+
+00:36:42.930 --> 00:36:43.990
+That's a good place to start
+
+00:36:43.990 --> 00:36:47.060
+if it's a pretty high up shadow 25%
+
+00:36:47.060 --> 00:36:48.000
+maybe I'll make it just
+a little bit higher just
+
+00:36:48.000 --> 00:36:49.160
+maybe I'll make it just
+a little bit higher just
+
+00:36:49.160 --> 00:36:51.580
+to make it a little more apparent.
+
+00:36:51.580 --> 00:36:52.413
+There we go.
+
+00:36:52.413 --> 00:36:54.000
+So I have this floating action
+button that does indeed look
+
+00:36:54.000 --> 00:36:55.020
+So I have this floating action
+button that does indeed look
+
+00:36:55.020 --> 00:36:55.853
+like it's floating,
+
+00:36:55.853 --> 00:36:58.330
+I could probably even make
+this look a little bit more.
+
+00:36:58.330 --> 00:37:00.000
+Let's try something like six and 12.
+
+00:37:00.000 --> 00:37:00.830
+Let's try something like six and 12.
+
+00:37:00.830 --> 00:37:02.500
+Yeah, there we go.
+
+00:37:02.500 --> 00:37:05.660
+Now in cinema, this is known as the shadow
+
+00:37:05.660 --> 00:37:06.000
+from the key light.
+
+00:37:06.000 --> 00:37:06.660
+from the key light.
+
+00:37:06.660 --> 00:37:09.560
+The key light is like the
+main light that is providing
+
+00:37:09.560 --> 00:37:12.000
+that light from above and
+light on the scene here.
+
+00:37:12.000 --> 00:37:12.810
+that light from above and
+light on the scene here.
+
+00:37:12.810 --> 00:37:14.550
+That is not the only light source.
+
+00:37:14.550 --> 00:37:16.100
+And when I say it's not
+the only light source,
+
+00:37:16.100 --> 00:37:18.000
+actually maybe I'm playing fast and loose
+
+00:37:18.000 --> 00:37:18.590
+actually maybe I'm playing fast and loose
+
+00:37:18.590 --> 00:37:20.780
+with the language here
+because the other light source
+
+00:37:20.780 --> 00:37:23.000
+that I'm referencing is ambient light.
+
+00:37:23.000 --> 00:37:24.000
+That's light that bounces around, bounces
+
+00:37:24.000 --> 00:37:25.270
+That's light that bounces around, bounces
+
+00:37:25.270 --> 00:37:28.710
+off all the other stuff in
+the room and hits, you know
+
+00:37:28.710 --> 00:37:30.000
+here or your object or whatever
+and kind of casts a very
+
+00:37:30.000 --> 00:37:32.710
+here or your object or whatever
+and kind of casts a very
+
+00:37:32.710 --> 00:37:34.450
+very light shadow.
+
+00:37:34.450 --> 00:37:35.970
+To create an ambient shadow,
+
+00:37:35.970 --> 00:37:36.000
+all I'm gonna do is it
+has no directionality
+
+00:37:36.000 --> 00:37:38.540
+all I'm gonna do is it
+has no directionality
+
+00:37:38.540 --> 00:37:40.800
+since it's light bouncing
+off of everything
+
+00:37:40.800 --> 00:37:42.000
+or it has very little, you know
+
+00:37:42.000 --> 00:37:42.050
+or it has very little, you know
+
+00:37:42.050 --> 00:37:43.170
+there might be some you'd have to talk
+
+00:37:43.170 --> 00:37:44.640
+to somebody knows this better.
+
+00:37:44.640 --> 00:37:47.270
+So in order to represent
+it for our purposes
+
+00:37:47.270 --> 00:37:48.000
+I'm gonna make it
+centered X and Y of zero.
+
+00:37:48.000 --> 00:37:49.800
+I'm gonna make it
+centered X and Y of zero.
+
+00:37:49.800 --> 00:37:52.250
+And then I'm gonna give it
+a pretty hefty blur too.
+
+00:37:52.250 --> 00:37:54.000
+But I'm just gonna make
+sure that it's very light,
+
+00:37:54.000 --> 00:37:54.940
+But I'm just gonna make
+sure that it's very light,
+
+00:37:54.940 --> 00:37:57.203
+it's gonna be almost imperceptible.
+
+00:37:59.420 --> 00:38:00.000
+But one of the things that it will do is
+
+00:38:00.000 --> 00:38:02.470
+But one of the things that it will do is
+
+00:38:02.470 --> 00:38:04.720
+it's gonna be easiest
+to perceive at the top,
+
+00:38:06.510 --> 00:38:09.300
+because one issue that you
+can have with your shadows is
+
+00:38:09.300 --> 00:38:12.000
+if they're very strongly
+biased to below the button
+
+00:38:12.000 --> 00:38:12.690
+if they're very strongly
+biased to below the button
+
+00:38:12.690 --> 00:38:15.170
+the shadow can be so light at
+the top that it's hard to see.
+
+00:38:15.170 --> 00:38:16.220
+It's not really a problem
+
+00:38:16.220 --> 00:38:18.000
+with a deep purple button like this
+
+00:38:18.000 --> 00:38:18.470
+with a deep purple button like this
+
+00:38:18.470 --> 00:38:20.470
+but if my button was actually much lighter
+
+00:38:20.470 --> 00:38:21.720
+then I'd wanna make sure
+there's enough shadow
+
+00:38:21.720 --> 00:38:24.000
+at the top so that it
+does not appear to blend
+
+00:38:24.000 --> 00:38:24.210
+at the top so that it
+does not appear to blend
+
+00:38:24.210 --> 00:38:25.913
+in with the background here.
+
+00:38:26.750 --> 00:38:29.350
+And that's one thing an
+ambient shadow can be good
+
+00:38:29.350 --> 00:38:30.000
+at doing.
+
+00:38:30.000 --> 00:38:30.183
+at doing.
+
+00:38:31.650 --> 00:38:33.730
+So you can't see it as much up there
+
+00:38:33.730 --> 00:38:36.000
+but then keep your eye kind
+of just to top the control
+
+00:38:36.000 --> 00:38:36.700
+but then keep your eye kind
+of just to top the control
+
+00:38:36.700 --> 00:38:39.350
+and it's gonna get a little
+darker, especially there.
+
+00:38:42.350 --> 00:38:44.233
+Okay, so that's plenty
+of stuff with shadows.
+
+00:38:44.233 --> 00:38:46.410
+I wanna talk about a few
+other lighting effects
+
+00:38:46.410 --> 00:38:48.000
+that are more kind of the
+gleams and glints that come
+
+00:38:48.000 --> 00:38:48.490
+that are more kind of the
+gleams and glints that come
+
+00:38:48.490 --> 00:38:51.490
+off of things rather than
+the shadows below them.
+
+00:38:51.490 --> 00:38:53.350
+Probably the most common
+you'll see is you'll
+
+00:38:53.350 --> 00:38:54.000
+have a little bit of a
+bevel, which just implies
+
+00:38:54.000 --> 00:38:55.930
+have a little bit of a
+bevel, which just implies
+
+00:38:55.930 --> 00:38:59.840
+that the edge of this is not
+like a perfect 90 degree angle,
+
+00:38:59.840 --> 00:39:00.000
+sort of the edge if you were
+to picture this thing in 3D
+
+00:39:00.000 --> 00:39:02.340
+sort of the edge if you were
+to picture this thing in 3D
+
+00:39:02.340 --> 00:39:06.000
+but instead there is a
+bevel all the way around.
+
+00:39:06.000 --> 00:39:06.020
+but instead there is a
+bevel all the way around.
+
+00:39:06.020 --> 00:39:08.630
+And the most common way of doing that is
+
+00:39:08.630 --> 00:39:12.000
+with a stroke where the
+stroke has a gradient.
+
+00:39:12.000 --> 00:39:12.380
+with a stroke where the
+stroke has a gradient.
+
+00:39:12.380 --> 00:39:15.350
+So I'll do a linear gradient
+of course and the top part
+
+00:39:15.350 --> 00:39:17.970
+of this gradient is actually
+gonna start at white, okay?
+
+00:39:17.970 --> 00:39:18.000
+And we'll, you'll see,
+I'll change the color here.
+
+00:39:18.000 --> 00:39:19.670
+And we'll, you'll see,
+I'll change the color here.
+
+00:39:19.670 --> 00:39:22.350
+It's not gonna be pure white,
+but the idea is this is
+
+00:39:22.350 --> 00:39:24.000
+what's catching the light and
+reflecting it into our eyes.
+
+00:39:24.000 --> 00:39:25.200
+what's catching the light and
+reflecting it into our eyes.
+
+00:39:25.200 --> 00:39:28.620
+This bevel at the bottom
+side is angled away
+
+00:39:28.620 --> 00:39:29.810
+from the light source
+
+00:39:29.810 --> 00:39:30.000
+and so it's going to
+be a little bit darker.
+
+00:39:30.000 --> 00:39:31.900
+and so it's going to
+be a little bit darker.
+
+00:39:31.900 --> 00:39:33.980
+We can just do pure black, who cares?
+
+00:39:33.980 --> 00:39:35.190
+We'll adjust this in just a second
+
+00:39:35.190 --> 00:39:36.000
+and you'll see how it looks much better.
+
+00:39:36.000 --> 00:39:37.150
+and you'll see how it looks much better.
+
+00:39:37.150 --> 00:39:40.230
+Certainly the easiest
+and kind of naive way
+
+00:39:40.230 --> 00:39:42.000
+to adjust it is just
+to change the opacity.
+
+00:39:42.000 --> 00:39:42.580
+to adjust it is just
+to change the opacity.
+
+00:39:42.580 --> 00:39:44.680
+But I don't actually prefer that.
+
+00:39:44.680 --> 00:39:46.320
+I feel like it works just slightly better
+
+00:39:46.320 --> 00:39:48.000
+if we change the blend mode.
+
+00:39:48.000 --> 00:39:48.600
+if we change the blend mode.
+
+00:39:48.600 --> 00:39:51.440
+So as a strangely, the case
+with most of this course
+
+00:39:51.440 --> 00:39:53.640
+overlay in soft light
+are like the blend modes
+
+00:39:53.640 --> 00:39:54.000
+are gonna be going to the most.
+
+00:39:54.000 --> 00:39:54.790
+are gonna be going to the most.
+
+00:39:54.790 --> 00:39:57.410
+Overlay here, I feel like it
+changes it into two different
+
+00:39:57.410 --> 00:40:00.000
+of a color, so let's
+go look at soft light.
+
+00:40:00.000 --> 00:40:00.050
+of a color, so let's
+go look at soft light.
+
+00:40:00.050 --> 00:40:02.450
+Oh yeah, bingo, this is it.
+
+00:40:02.450 --> 00:40:04.890
+Now, what I wanna do is take whichever one
+
+00:40:04.890 --> 00:40:06.000
+appears maybe a little bit too strong
+
+00:40:06.000 --> 00:40:07.670
+appears maybe a little bit too strong
+
+00:40:07.670 --> 00:40:11.700
+and just kind of bump
+that down a little bit.
+
+00:40:11.700 --> 00:40:12.000
+So it feels like it matches the top here.
+
+00:40:12.000 --> 00:40:14.480
+So it feels like it matches the top here.
+
+00:40:14.480 --> 00:40:16.940
+And then what I'm gonna
+do is I'm just gonna
+
+00:40:16.940 --> 00:40:18.000
+make it extra visible,
+I'll make it two pixels
+
+00:40:18.000 --> 00:40:18.680
+make it extra visible,
+I'll make it two pixels
+
+00:40:18.680 --> 00:40:20.310
+but that's not required.
+
+00:40:20.310 --> 00:40:22.120
+When I zoom out, you
+can now see the bevel.
+
+00:40:22.120 --> 00:40:24.000
+It appears maybe just a bit too strong,
+
+00:40:24.000 --> 00:40:24.310
+It appears maybe just a bit too strong,
+
+00:40:24.310 --> 00:40:27.010
+so I'll take the entire
+thing down just a little bit,
+
+00:40:27.010 --> 00:40:29.610
+so that here we go, maybe 60%.
+
+00:40:29.610 --> 00:40:30.000
+Now, if I remember correctly,
+it's not actually possible
+
+00:40:30.000 --> 00:40:33.040
+Now, if I remember correctly,
+it's not actually possible
+
+00:40:33.040 --> 00:40:36.000
+in CSS to specify a blend mode
+
+00:40:36.000 --> 00:40:36.010
+in CSS to specify a blend mode
+
+00:40:36.010 --> 00:40:38.310
+for a border on an object that
+doesn't have a blend mode.
+
+00:40:38.310 --> 00:40:39.760
+So if I was making this on the web,
+
+00:40:39.760 --> 00:40:41.980
+I'd probably in order to
+give this to a developer
+
+00:40:41.980 --> 00:40:42.000
+have to sample this color
+directly and this one directly
+
+00:40:42.000 --> 00:40:44.960
+have to sample this color
+directly and this one directly
+
+00:40:44.960 --> 00:40:47.120
+and say, just make a border
+that has a linear gradient
+
+00:40:47.120 --> 00:40:48.000
+from this color to this color.
+
+00:40:48.000 --> 00:40:48.890
+from this color to this color.
+
+00:40:48.890 --> 00:40:50.870
+But for the sake of design, we know
+
+00:40:50.870 --> 00:40:53.510
+at least how we can get
+there and get that effect.
+
+00:40:53.510 --> 00:40:54.000
+Now we started down the
+road to skeuomorphism
+
+00:40:54.000 --> 00:40:55.520
+Now we started down the
+road to skeuomorphism
+
+00:40:55.520 --> 00:40:58.450
+and who wants to turn
+around now, instead when
+
+00:40:58.450 --> 00:41:00.000
+I see the kind of this bevel,
+it makes me also think what
+
+00:41:00.000 --> 00:41:00.440
+I see the kind of this bevel,
+it makes me also think what
+
+00:41:00.440 --> 00:41:03.420
+if I could just make this button
+ever so slightly indented?
+
+00:41:03.420 --> 00:41:05.280
+Well, very possible effect.
+
+00:41:05.280 --> 00:41:06.000
+Whenever you want to indent something,
+
+00:41:06.000 --> 00:41:07.270
+Whenever you want to indent something,
+
+00:41:07.270 --> 00:41:09.030
+think about how the sun is hitting it.
+
+00:41:09.030 --> 00:41:10.530
+The light source from the sky comes
+
+00:41:10.530 --> 00:41:12.000
+and hits the bottom more directly
+
+00:41:12.000 --> 00:41:12.170
+and hits the bottom more directly
+
+00:41:12.170 --> 00:41:14.460
+which means it reflects
+more light into your eye.
+
+00:41:14.460 --> 00:41:16.960
+The top gets less light, the
+light is kind of hitting it
+
+00:41:16.960 --> 00:41:18.000
+at a glancing blow, so it's
+gonna be a little bit darker.
+
+00:41:18.000 --> 00:41:19.750
+at a glancing blow, so it's
+gonna be a little bit darker.
+
+00:41:19.750 --> 00:41:21.660
+So I'm gonna do that same
+sort of linear gradient,
+
+00:41:21.660 --> 00:41:23.250
+this time with another fill layer.
+
+00:41:23.250 --> 00:41:24.000
+I'll put it on linear gradients starts
+
+00:41:24.000 --> 00:41:25.800
+I'll put it on linear gradients starts
+
+00:41:25.800 --> 00:41:29.783
+at black and goes to
+100% right at the bottom.
+
+00:41:32.830 --> 00:41:35.510
+Again am gonna have to go and
+try out a different blend mode
+
+00:41:35.510 --> 00:41:36.000
+to get even close to the effect I want.
+
+00:41:36.000 --> 00:41:37.690
+to get even close to the effect I want.
+
+00:41:37.690 --> 00:41:40.660
+But in all likelihood,
+I'm gonna take this down.
+
+00:41:40.660 --> 00:41:42.000
+Let's say got to zoom out a little bit
+
+00:41:42.000 --> 00:41:43.970
+Let's say got to zoom out a little bit
+
+00:41:43.970 --> 00:41:45.080
+so I can see the grids.
+
+00:41:45.080 --> 00:41:45.913
+There we go.
+
+00:41:45.913 --> 00:41:48.000
+Something like 20% should
+probably be enough.
+
+00:41:48.000 --> 00:41:49.300
+Something like 20% should
+probably be enough.
+
+00:41:49.300 --> 00:41:51.730
+Perfect, it's super
+super subtle, but it just
+
+00:41:51.730 --> 00:41:54.000
+gives you an idea of what
+you can do when you wanna try
+
+00:41:54.000 --> 00:41:54.810
+gives you an idea of what
+you can do when you wanna try
+
+00:41:54.810 --> 00:41:56.593
+out other lighting effects.
+
+00:41:58.390 --> 00:42:00.000
+By the way, I would say for most buttons,
+
+00:42:00.000 --> 00:42:00.520
+By the way, I would say for most buttons,
+
+00:42:00.520 --> 00:42:02.860
+it's far more common to see
+the button that's popped out
+
+00:42:02.860 --> 00:42:04.670
+rather than slightly indented in.
+
+00:42:04.670 --> 00:42:06.000
+And so this linear gradient
+fill is actually gonna be
+
+00:42:06.000 --> 00:42:07.860
+And so this linear gradient
+fill is actually gonna be
+
+00:42:07.860 --> 00:42:10.000
+from white on top to black on the bottom.
+
+00:42:10.000 --> 00:42:11.990
+We'll see a few examples of that later.
+
+00:42:11.990 --> 00:42:12.000
+Now, if we really have a problem
+
+00:42:12.000 --> 00:42:13.700
+Now, if we really have a problem
+
+00:42:13.700 --> 00:42:16.540
+and just can't stop ourselves
+from adding lighting effects,
+
+00:42:16.540 --> 00:42:18.000
+kind of the next thing that
+demands to be done here.
+
+00:42:18.000 --> 00:42:18.830
+kind of the next thing that
+demands to be done here.
+
+00:42:18.830 --> 00:42:20.070
+And this is not an effect,
+
+00:42:20.070 --> 00:42:22.890
+I think I've used
+professionally since like 2013
+
+00:42:22.890 --> 00:42:24.000
+or so, is to actually have
+this icon appear slightly
+
+00:42:24.000 --> 00:42:26.710
+or so, is to actually have
+this icon appear slightly
+
+00:42:26.710 --> 00:42:27.670
+debossed.
+
+00:42:27.670 --> 00:42:29.260
+Debossed is the opposite of embossing,
+
+00:42:29.260 --> 00:42:30.000
+embossing is when something's popped out,
+
+00:42:30.000 --> 00:42:30.980
+embossing is when something's popped out,
+
+00:42:30.980 --> 00:42:33.350
+debossing is when say text or in this case
+
+00:42:33.350 --> 00:42:36.000
+an icon is actually pushed
+in just a little bit.
+
+00:42:36.000 --> 00:42:36.480
+an icon is actually pushed
+in just a little bit.
+
+00:42:36.480 --> 00:42:39.130
+Now, if we consider our light
+source coming from the top
+
+00:42:39.130 --> 00:42:41.390
+then light is very directly
+going to hit anything
+
+00:42:41.390 --> 00:42:42.000
+that's angled up, but it's
+going to have a glancing blow
+
+00:42:42.000 --> 00:42:44.120
+that's angled up, but it's
+going to have a glancing blow
+
+00:42:44.120 --> 00:42:47.710
+for the things at the top
+where it's kind of angled in.
+
+00:42:47.710 --> 00:42:48.000
+So one way to do this
+is with an inner shadow.
+
+00:42:48.000 --> 00:42:51.240
+So one way to do this
+is with an inner shadow.
+
+00:42:51.240 --> 00:42:54.000
+Go and add our effects here and our shadow
+
+00:42:54.000 --> 00:42:54.270
+Go and add our effects here and our shadow
+
+00:43:00.410 --> 00:43:03.460
+and let's do a Y of zero or
+a blur of zero, excuse me
+
+00:43:03.460 --> 00:43:05.100
+'cause we don't have any
+space to work with here.
+
+00:43:05.100 --> 00:43:06.000
+This is kind of all we got
+just has to look like that.
+
+00:43:06.000 --> 00:43:08.250
+This is kind of all we got
+just has to look like that.
+
+00:43:08.250 --> 00:43:10.030
+But even something like
+that, that's a little strong
+
+00:43:10.030 --> 00:43:12.000
+but let's zoom out and see how it looks.
+
+00:43:12.000 --> 00:43:12.400
+but let's zoom out and see how it looks.
+
+00:43:12.400 --> 00:43:13.233
+There we go.
+
+00:43:13.233 --> 00:43:15.200
+It may be a bit tough to see
+
+00:43:15.200 --> 00:43:17.040
+on the video that you're
+watching in this course
+
+00:43:17.040 --> 00:43:18.000
+but it's something that
+you can play around with
+
+00:43:18.000 --> 00:43:18.380
+but it's something that
+you can play around with
+
+00:43:18.380 --> 00:43:21.633
+and it's a perfectly valid
+effect for this sort of thing.
+
+00:43:22.540 --> 00:43:23.530
+Now, one thing I want to tell you
+
+00:43:23.530 --> 00:43:24.000
+that's just overall important
+and kind of a meta lesson
+
+00:43:24.000 --> 00:43:26.100
+that's just overall important
+and kind of a meta lesson
+
+00:43:26.100 --> 00:43:28.400
+beyond any individual thing I'm saying
+
+00:43:28.400 --> 00:43:30.000
+in this lesson is to
+always go and check kind of
+
+00:43:30.000 --> 00:43:32.340
+in this lesson is to
+always go and check kind of
+
+00:43:32.340 --> 00:43:34.580
+how other good designers
+are doing lighting
+
+00:43:34.580 --> 00:43:35.800
+and shadowing effects.
+
+00:43:35.800 --> 00:43:36.000
+Like for instance,
+
+00:43:36.000 --> 00:43:36.633
+Like for instance,
+
+00:43:36.633 --> 00:43:38.420
+if I knew I had to make some progress bar
+
+00:43:38.420 --> 00:43:40.680
+to represent a book that I've
+read some certain percentage
+
+00:43:40.680 --> 00:43:42.000
+of, I could go and do a bunch of research
+
+00:43:42.000 --> 00:43:43.160
+of, I could go and do a bunch of research
+
+00:43:43.160 --> 00:43:45.230
+to generally figure out
+like do I make this pushed
+
+00:43:45.230 --> 00:43:47.250
+into the screen or do
+I make it popped out?
+
+00:43:47.250 --> 00:43:48.000
+Is it indented?
+
+00:43:48.000 --> 00:43:48.083
+Is it indented?
+
+00:43:48.083 --> 00:43:48.916
+Is it out dented?
+
+00:43:48.916 --> 00:43:49.749
+What is it?
+
+00:43:49.749 --> 00:43:50.582
+And if I did that
+
+00:43:50.582 --> 00:43:54.000
+I would find almost universally
+that these are indented.
+
+00:43:54.000 --> 00:43:54.150
+I would find almost universally
+that these are indented.
+
+00:43:54.150 --> 00:43:56.440
+The progress bar itself is indented,
+
+00:43:56.440 --> 00:43:57.690
+so let's go and add that.
+
+00:43:59.020 --> 00:44:00.000
+And that the fill for the
+progress bar is out dented.
+
+00:44:00.000 --> 00:44:01.903
+And that the fill for the
+progress bar is out dented.
+
+00:44:06.550 --> 00:44:08.690
+And I'm gonna give it a very light opacity
+
+00:44:08.690 --> 00:44:12.000
+because this thing actually
+could be a light source itself,
+
+00:44:12.000 --> 00:44:12.450
+because this thing actually
+could be a light source itself,
+
+00:44:12.450 --> 00:44:14.410
+so I really don't want it to get too dark.
+
+00:44:14.410 --> 00:44:16.840
+Something that emits light
+is not gonna have a very
+
+00:44:16.840 --> 00:44:18.000
+very shaded bottom to it.
+
+00:44:18.000 --> 00:44:18.383
+very shaded bottom to it.
+
+00:44:21.050 --> 00:44:21.883
+And fair enough,
+
+00:44:21.883 --> 00:44:24.000
+that's how to handle it
+if it's a progress liner.
+
+00:44:24.000 --> 00:44:24.320
+that's how to handle it
+if it's a progress liner.
+
+00:44:24.320 --> 00:44:25.920
+But overall, I think it's
+important to keep this
+
+00:44:25.920 --> 00:44:28.530
+in mind about every single control here.
+
+00:44:28.530 --> 00:44:30.000
+For instance, we've seen that buttons
+
+00:44:30.000 --> 00:44:30.290
+For instance, we've seen that buttons
+
+00:44:30.290 --> 00:44:32.470
+I mean always have shadows below them,
+
+00:44:32.470 --> 00:44:34.810
+buttons are always out dented.
+
+00:44:34.810 --> 00:44:36.000
+Anything that kind of resembles
+a card, it's the same story.
+
+00:44:36.000 --> 00:44:38.530
+Anything that kind of resembles
+a card, it's the same story.
+
+00:44:38.530 --> 00:44:40.530
+In fact, it's really at this point
+
+00:44:40.530 --> 00:44:42.000
+it's just a very common beginner
+mistake for me to see where
+
+00:44:42.000 --> 00:44:43.010
+it's just a very common beginner
+mistake for me to see where
+
+00:44:43.010 --> 00:44:45.830
+if you stick with the
+frames, default background
+
+00:44:45.830 --> 00:44:48.000
+color of white and then you
+have something that looks
+
+00:44:48.000 --> 00:44:48.350
+color of white and then you
+have something that looks
+
+00:44:48.350 --> 00:44:50.910
+like a card on your UI,
+
+00:44:50.910 --> 00:44:53.460
+you might be tempted to make
+it a light gray instead.
+
+00:44:53.460 --> 00:44:54.000
+But if you make it a light
+gray, like ask yourself,
+
+00:44:54.000 --> 00:44:56.510
+But if you make it a light
+gray, like ask yourself,
+
+00:44:56.510 --> 00:44:59.050
+does this look like
+something that's popped out
+
+00:44:59.050 --> 00:45:00.000
+of the screen or pushed into the screen?
+
+00:45:00.000 --> 00:45:01.280
+of the screen or pushed into the screen?
+
+00:45:01.280 --> 00:45:02.290
+At least to my eyes.
+
+00:45:02.290 --> 00:45:04.480
+And I think this is kind of
+accepted designer wisdom,
+
+00:45:04.480 --> 00:45:06.000
+anything that's darker appears pushed in.
+
+00:45:06.000 --> 00:45:06.550
+anything that's darker appears pushed in.
+
+00:45:06.550 --> 00:45:08.210
+Well, I'm really shooting
+myself in the foot
+
+00:45:08.210 --> 00:45:10.180
+then if I'm trying to
+make this look like a card
+
+00:45:10.180 --> 00:45:12.000
+with the main content, so
+this needs to be white.
+
+00:45:12.000 --> 00:45:12.990
+with the main content, so
+this needs to be white.
+
+00:45:12.990 --> 00:45:15.280
+And if I'm gonna have a
+color difference at all
+
+00:45:15.280 --> 00:45:18.000
+then I'm gonna make the whole
+background this light gray.
+
+00:45:18.000 --> 00:45:18.210
+then I'm gonna make the whole
+background this light gray.
+
+00:45:18.210 --> 00:45:19.750
+Of course, as we talked about in spacing
+
+00:45:19.750 --> 00:45:21.020
+you have other ways of doing that.
+
+00:45:21.020 --> 00:45:22.270
+You could use a divider line
+
+00:45:22.270 --> 00:45:24.000
+or you could just use a shadow, et cetera.
+
+00:45:24.000 --> 00:45:24.373
+or you could just use a shadow, et cetera.
+
+00:45:25.270 --> 00:45:27.060
+But the important thing
+to remember is these cards
+
+00:45:27.060 --> 00:45:29.330
+are always popped out
+any sort of card content
+
+00:45:29.330 --> 00:45:30.000
+along with any sort of button
+headers of the same way,
+
+00:45:30.000 --> 00:45:31.780
+along with any sort of button
+headers of the same way,
+
+00:45:31.780 --> 00:45:33.723
+these are always out dented.
+
+00:45:34.950 --> 00:45:36.000
+I will say that most of the time
+
+00:45:36.000 --> 00:45:36.930
+I will say that most of the time
+
+00:45:36.930 --> 00:45:39.990
+if they're not flat
+drop-downs are out dented
+
+00:45:39.990 --> 00:45:42.000
+but text inputs have a
+little bit more leeway.
+
+00:45:42.000 --> 00:45:42.530
+but text inputs have a
+little bit more leeway.
+
+00:45:42.530 --> 00:45:44.450
+It's possible to see some text inputs
+
+00:45:44.450 --> 00:45:47.870
+especially big search
+inputs that are out dented
+
+00:45:47.870 --> 00:45:48.000
+and have a shadow below
+them rather than indented.
+
+00:45:48.000 --> 00:45:50.470
+and have a shadow below
+them rather than indented.
+
+00:45:50.470 --> 00:45:52.270
+Of course, we'll look
+at some examples now,
+
+00:45:52.270 --> 00:45:53.670
+probably the most common thing now
+
+00:45:53.670 --> 00:45:54.000
+is to actually have
+totally flat text boxes,
+
+00:45:54.000 --> 00:45:55.990
+is to actually have
+totally flat text boxes,
+
+00:45:55.990 --> 00:45:58.040
+but just know you have
+a little bit more leeway
+
+00:45:58.040 --> 00:46:00.000
+with text boxes.
+
+00:46:00.000 --> 00:46:00.020
+with text boxes.
+
+00:46:00.020 --> 00:46:01.160
+And speaking of leeway,
+
+00:46:01.160 --> 00:46:04.410
+radios and checkboxes are
+also kind of the same thing.
+
+00:46:04.410 --> 00:46:06.000
+You don't universally
+see that a radio button
+
+00:46:06.000 --> 00:46:06.400
+You don't universally
+see that a radio button
+
+00:46:06.400 --> 00:46:10.350
+or a checkbox is out dented or indented.
+
+00:46:10.350 --> 00:46:11.183
+So let's look at a couple
+
+00:46:11.183 --> 00:46:12.000
+of examples just to wrap things up.
+
+00:46:12.000 --> 00:46:12.670
+of examples just to wrap things up.
+
+00:46:12.670 --> 00:46:14.840
+As I mentioned earlier in the lesson,
+
+00:46:14.840 --> 00:46:17.160
+consistency is just weirdly less important
+
+00:46:17.160 --> 00:46:18.000
+with shadows than it
+is with other aspects.
+
+00:46:18.000 --> 00:46:19.620
+with shadows than it
+is with other aspects.
+
+00:46:19.620 --> 00:46:23.720
+Say like the font style
+here totally consistent,
+
+00:46:23.720 --> 00:46:24.000
+the colors are consistent,
+the layout is consistent
+
+00:46:24.000 --> 00:46:26.560
+the colors are consistent,
+the layout is consistent
+
+00:46:26.560 --> 00:46:30.000
+but here I have a little search
+bar that's completely flat.
+
+00:46:30.000 --> 00:46:30.180
+but here I have a little search
+bar that's completely flat.
+
+00:46:30.180 --> 00:46:31.320
+Although look at this.
+
+00:46:31.320 --> 00:46:34.210
+When I have a focus state here it's made
+
+00:46:34.210 --> 00:46:36.000
+from sort of that exterior shadow
+
+00:46:36.000 --> 00:46:36.040
+from sort of that exterior shadow
+
+00:46:36.040 --> 00:46:38.760
+with no blur and a positive
+spread, that's awesome.
+
+00:46:38.760 --> 00:46:41.920
+Anyhow, it's a totally
+flat text box right here
+
+00:46:41.920 --> 00:46:42.000
+but then right here this, I
+mean, it's the same search.
+
+00:46:42.000 --> 00:46:44.190
+but then right here this, I
+mean, it's the same search.
+
+00:46:44.190 --> 00:46:45.970
+It even says the same thing in each one.
+
+00:46:45.970 --> 00:46:48.000
+And if I were to type in
+more here in at present
+
+00:46:48.000 --> 00:46:48.370
+And if I were to type in
+more here in at present
+
+00:46:48.370 --> 00:46:49.860
+or then I would see it update right here
+
+00:46:49.860 --> 00:46:51.770
+and yet this one is not flat.
+
+00:46:51.770 --> 00:46:54.000
+This one has a nice, big,
+soft shadow below it.
+
+00:46:54.000 --> 00:46:54.720
+This one has a nice, big,
+soft shadow below it.
+
+00:46:54.720 --> 00:46:56.280
+So you have a little bit more room
+
+00:46:56.280 --> 00:46:58.010
+for these kinds of inconsistencies.
+
+00:46:58.010 --> 00:46:59.470
+You can make some things flat
+
+00:46:59.470 --> 00:47:00.000
+and some things much more shadowed.
+
+00:47:00.000 --> 00:47:03.250
+and some things much more shadowed.
+
+00:47:03.250 --> 00:47:05.150
+In general, I would try and be consistent
+
+00:47:05.150 --> 00:47:06.000
+within like one type though, like yes,
+
+00:47:06.000 --> 00:47:07.280
+within like one type though, like yes,
+
+00:47:07.280 --> 00:47:08.620
+I realize these are both search bars
+
+00:47:08.620 --> 00:47:11.370
+but this is sort of the big,
+the big display search bar
+
+00:47:11.370 --> 00:47:12.000
+and this is the tiny one up in the menu.
+
+00:47:12.000 --> 00:47:13.500
+and this is the tiny one up in the menu.
+
+00:47:13.500 --> 00:47:15.050
+If I look here, here's a drop down
+
+00:47:15.050 --> 00:47:16.950
+that's actually very
+consistent with this button
+
+00:47:16.950 --> 00:47:18.000
+which is not a dropdown.
+
+00:47:18.000 --> 00:47:18.170
+which is not a dropdown.
+
+00:47:18.170 --> 00:47:21.360
+They're styled exactly
+the same, both flat.
+
+00:47:21.360 --> 00:47:24.000
+And then I can tap in here and sure enough
+
+00:47:24.000 --> 00:47:24.470
+And then I can tap in here and sure enough
+
+00:47:24.470 --> 00:47:26.510
+see that despite all
+this stuff being flat,
+
+00:47:26.510 --> 00:47:28.420
+at least these search bars are consistent
+
+00:47:28.420 --> 00:47:30.000
+with this top search bar right here.
+
+00:47:30.000 --> 00:47:30.220
+with this top search bar right here.
+
+00:47:31.200 --> 00:47:33.110
+So dribble has very few shadows.
+
+00:47:33.110 --> 00:47:35.110
+The invoicing app harvest
+is something that comes
+
+00:47:35.110 --> 00:47:36.000
+to mind as a little more
+skeuomorphic of an app.
+
+00:47:36.000 --> 00:47:38.210
+to mind as a little more
+skeuomorphic of an app.
+
+00:47:38.210 --> 00:47:40.340
+You can see, they have a
+lighting effect on their header.
+
+00:47:40.340 --> 00:47:42.000
+Interestingly enough, they
+don't have a shadow below it
+
+00:47:42.000 --> 00:47:43.370
+Interestingly enough, they
+don't have a shadow below it
+
+00:47:43.370 --> 00:47:45.530
+but they do have sort of this gradient
+
+00:47:45.530 --> 00:47:47.750
+from a brighter orange
+because this is catching
+
+00:47:47.750 --> 00:47:48.000
+the sun's rays better because
+it's angled towards it
+
+00:47:48.000 --> 00:47:50.980
+the sun's rays better because
+it's angled towards it
+
+00:47:50.980 --> 00:47:53.340
+and then this bottom is
+just a little bit darker.
+
+00:47:53.340 --> 00:47:54.000
+So it's kind of as if
+this header is out dented
+
+00:47:54.000 --> 00:47:55.920
+So it's kind of as if
+this header is out dented
+
+00:47:55.920 --> 00:47:58.410
+from the screen just a little bit.
+
+00:47:58.410 --> 00:48:00.000
+It's even more clearly visible
+in this dropdown right here,
+
+00:48:00.000 --> 00:48:00.950
+It's even more clearly visible
+in this dropdown right here,
+
+00:48:00.950 --> 00:48:01.783
+right?
+
+00:48:01.783 --> 00:48:03.510
+This dropdown is very light at the top.
+
+00:48:03.510 --> 00:48:04.950
+I mean, it's very light
+at the bottom as well
+
+00:48:04.950 --> 00:48:06.000
+but it is slightly darker at the bottom,
+
+00:48:06.000 --> 00:48:07.030
+but it is slightly darker at the bottom,
+
+00:48:07.030 --> 00:48:08.730
+same thing with this button here.
+
+00:48:08.730 --> 00:48:10.700
+Interesting that when
+I hover on it, it looks
+
+00:48:10.700 --> 00:48:12.000
+like it keeps the effect, but
+it just makes both the top
+
+00:48:12.000 --> 00:48:13.770
+like it keeps the effect, but
+it just makes both the top
+
+00:48:13.770 --> 00:48:15.730
+and the bottom a little bit darker.
+
+00:48:15.730 --> 00:48:16.960
+With this sort of hover effect,
+
+00:48:16.960 --> 00:48:18.000
+one thing I like in this
+two is, it's as if you know,
+
+00:48:18.000 --> 00:48:19.650
+one thing I like in this
+two is, it's as if you know,
+
+00:48:19.650 --> 00:48:21.540
+I was moving my hand over the button
+
+00:48:21.540 --> 00:48:23.470
+and that sort of shadows
+the element itself
+
+00:48:23.470 --> 00:48:24.000
+'cause it blocks the sun
+
+00:48:24.000 --> 00:48:24.800
+'cause it blocks the sun
+
+00:48:24.800 --> 00:48:27.460
+from hitting it as
+directly or as strongly.
+
+00:48:27.460 --> 00:48:30.000
+But I definitely prefer hover
+states that are a bit darker
+
+00:48:36.000 --> 00:48:36.130
+Now, despite all the shadowing
+on these elements above,
+
+00:48:36.130 --> 00:48:39.040
+it looks like their text
+box is totally flat.
+
+00:48:39.040 --> 00:48:41.170
+There's no shadow whatsoever.
+
+00:48:41.170 --> 00:48:42.000
+And then I get down here and
+it appears that there's almost
+
+00:48:42.000 --> 00:48:43.690
+And then I get down here and
+it appears that there's almost
+
+00:48:43.690 --> 00:48:46.700
+these buttons that are kind of like tabs.
+
+00:48:46.700 --> 00:48:48.000
+It's a bit tough to say, but
+these are flatter themselves
+
+00:48:48.000 --> 00:48:49.620
+It's a bit tough to say, but
+these are flatter themselves
+
+00:48:49.620 --> 00:48:51.130
+than the other buttons that we've seen.
+
+00:48:51.130 --> 00:48:52.840
+So it's sort of like a secondary style
+
+00:48:52.840 --> 00:48:54.000
+that's not perfectly consistent
+
+00:49:00.000 --> 00:49:02.290
+being totally flat,
+there's no shadows there.
+
+00:49:02.290 --> 00:49:04.940
+Same thing with check boxes,
+there's no shadows there.
+
+00:49:04.940 --> 00:49:06.000
+And I just wanna say that
+you should never ever
+
+00:49:06.000 --> 00:49:07.990
+And I just wanna say that
+you should never ever
+
+00:49:07.990 --> 00:49:11.060
+ever have any shadows on
+a control that's disabled.
+
+00:49:11.060 --> 00:49:12.000
+If I can't use this control, it's disabled
+
+00:49:12.000 --> 00:49:13.440
+If I can't use this control, it's disabled
+
+00:49:13.440 --> 00:49:16.950
+because I've said that this is
+not a billable type of task.
+
+00:49:16.950 --> 00:49:18.000
+If I can't click in here, there
+should not be any shadows.
+
+00:49:18.000 --> 00:49:19.580
+If I can't click in here, there
+should not be any shadows.
+
+00:49:19.580 --> 00:49:22.240
+Shadows, they don't
+always imply clickability
+
+00:49:22.240 --> 00:49:24.000
+but a lot of the time they do.
+
+00:49:24.000 --> 00:49:24.430
+but a lot of the time they do.
+
+00:49:24.430 --> 00:49:26.470
+And it's just a very
+industry standard thing
+
+00:49:26.470 --> 00:49:29.740
+to have no shadows on a disabled control.
+
+00:49:29.740 --> 00:49:30.000
+A good example of this is Duolingo
+
+00:49:30.000 --> 00:49:31.680
+A good example of this is Duolingo
+
+00:49:31.680 --> 00:49:33.850
+which actually has totally flat shadows.
+
+00:49:33.850 --> 00:49:36.000
+Like they might be doing
+the shadow with an internal
+
+00:49:36.000 --> 00:49:37.860
+Like they might be doing
+the shadow with an internal
+
+00:49:37.860 --> 00:49:39.040
+like an internal shadow
+
+00:49:39.040 --> 00:49:42.000
+that's just a slightly
+darker shade of green here,
+
+00:49:42.000 --> 00:49:42.090
+that's just a slightly
+darker shade of green here,
+
+00:49:42.090 --> 00:49:44.300
+but despite kind of the cartoony shadow
+
+00:49:44.300 --> 00:49:46.000
+on the save button here,
+
+00:49:46.000 --> 00:49:48.000
+this is a totally flat text input box.
+
+00:49:48.000 --> 00:49:48.880
+this is a totally flat text input box.
+
+00:49:48.880 --> 00:49:51.610
+And then if we look at
+this motivational message
+
+00:49:51.610 --> 00:49:54.000
+this little slider here,
+you'll notice the sort
+
+00:49:54.000 --> 00:49:54.620
+this little slider here,
+you'll notice the sort
+
+00:49:54.620 --> 00:49:57.840
+of the track of the
+slider is this flat blue.
+
+00:49:57.840 --> 00:49:59.740
+But then if anything, it's sort of implied
+
+00:49:59.740 --> 00:50:00.000
+that this button that slides
+back and forth is popped
+
+00:50:00.000 --> 00:50:03.100
+that this button that slides
+back and forth is popped
+
+00:50:03.100 --> 00:50:06.000
+out of the screen because it
+has the dark area below it,
+
+00:50:06.000 --> 00:50:06.280
+out of the screen because it
+has the dark area below it,
+
+00:50:06.280 --> 00:50:07.200
+right?
+
+00:50:07.200 --> 00:50:09.390
+So again, if I do slide this such that I
+
+00:50:09.390 --> 00:50:12.000
+haven't made any changes
+that green shadow disappears
+
+00:50:12.000 --> 00:50:13.450
+haven't made any changes
+that green shadow disappears
+
+00:50:13.450 --> 00:50:15.650
+and it's a totally flat gray.
+
+00:50:15.650 --> 00:50:17.490
+So all in all, I appreciate the design
+
+00:50:17.490 --> 00:50:18.000
+of all three of these
+sites and yet they're going
+
+00:50:18.000 --> 00:50:19.370
+of all three of these
+sites and yet they're going
+
+00:50:19.370 --> 00:50:21.240
+for a bunch of different effects, right?
+
+00:50:21.240 --> 00:50:24.000
+Here's a very cartoony, bubbly feel
+
+00:50:24.000 --> 00:50:24.810
+Here's a very cartoony, bubbly feel
+
+00:50:24.810 --> 00:50:27.930
+very friendly brand that
+has sort these almost
+
+00:50:27.930 --> 00:50:30.000
+cartoonish shadows applied to it.
+
+00:50:30.000 --> 00:50:30.390
+cartoonish shadows applied to it.
+
+00:50:30.390 --> 00:50:31.990
+And then we have something
+that's a little bit
+
+00:50:31.990 --> 00:50:33.480
+more skeuomorphic, it's certainly not
+
+00:50:33.480 --> 00:50:35.180
+like the old iOS looked
+
+00:50:35.180 --> 00:50:36.000
+but it's a little bit
+more along those lines.
+
+00:50:36.000 --> 00:50:37.790
+but it's a little bit
+more along those lines.
+
+00:50:37.790 --> 00:50:40.500
+And then we have something
+that's almost entirely flat
+
+00:50:40.500 --> 00:50:42.000
+but just has this very
+tastefully applied soft
+
+00:50:42.000 --> 00:50:43.750
+but just has this very
+tastefully applied soft
+
+00:50:43.750 --> 00:50:45.350
+shadow right here.
+
+00:50:45.350 --> 00:50:47.650
+But like I've said almost
+the most important metal
+
+00:50:47.650 --> 00:50:48.000
+lesson you can have coming out of this,
+
+00:50:48.000 --> 00:50:49.450
+lesson you can have coming out of this,
+
+00:50:49.450 --> 00:50:52.330
+is just to go and look at examples
+
+00:50:52.330 --> 00:50:54.000
+whenever you need to design a control.
+
+00:50:54.000 --> 00:50:54.180
+whenever you need to design a control.
+
+00:50:54.180 --> 00:50:57.190
+If you're wondering how you
+should apply shadow somewhere,
+
+00:50:57.190 --> 00:51:00.000
+don't just guess at it,
+like go see what there is.
+
+00:51:00.000 --> 00:51:00.140
+don't just guess at it,
+like go see what there is.
+
+00:51:00.140 --> 00:51:02.610
+Because once you start
+consciously noticing this stuff
+
+00:51:02.610 --> 00:51:05.100
+you're gonna pick up on
+little effects and trends
+
+00:51:05.100 --> 00:51:06.000
+and ways of doing things
+that you just didn't notice.
+
+00:51:06.000 --> 00:51:07.490
+and ways of doing things
+that you just didn't notice.
+
+00:51:07.490 --> 00:51:09.580
+They were just all totally unconscious
+
+00:51:09.580 --> 00:51:12.000
+until you start analyzing these things.
+
+00:51:12.000 --> 00:51:12.370
+until you start analyzing these things.
+
+00:51:12.370 --> 00:51:13.930
+So light comes from the sky, right?
+
+00:51:13.930 --> 00:51:15.190
+Remember that and you'll be (indistinct),
+
+00:51:15.190 --> 00:51:17.725
+all the rest is more or less just details.
+
+00:51:17.725 --> 00:51:18.000
+In all seriousness,
+probably the toughest thing
+
+00:51:18.000 --> 00:51:19.650
+In all seriousness,
+probably the toughest thing
+
+00:51:19.650 --> 00:51:22.270
+with lighting and
+shadows is in that stage,
+
+00:51:22.270 --> 00:51:24.000
+when you realize you're
+gonna need to create
+
+00:51:24.000 --> 00:51:24.170
+when you realize you're
+gonna need to create
+
+00:51:24.170 --> 00:51:25.660
+all the different form elements
+
+00:51:25.660 --> 00:51:27.790
+and kind of have them
+look somewhat consistent
+
+00:51:27.790 --> 00:51:30.000
+even if the individual
+shadows vary or some
+
+00:51:30.000 --> 00:51:30.220
+even if the individual
+shadows vary or some
+
+00:51:30.220 --> 00:51:32.560
+of the controls are flat
+and others are shadowed,
+
+00:51:32.560 --> 00:51:35.600
+you kind of figure out how
+exactly do we get everything
+
+00:51:35.600 --> 00:51:36.000
+to work so that it
+looks consistent enough,
+
+00:51:36.000 --> 00:51:37.840
+to work so that it
+looks consistent enough,
+
+00:51:37.840 --> 00:51:40.820
+even if it's not truly as if
+there's just one light source
+
+00:51:40.820 --> 00:51:42.000
+that shines on everything identically.
+
+00:51:42.000 --> 00:51:43.310
+that shines on everything identically.
+
+00:51:43.310 --> 00:51:45.090
+So, because that's the tough part
+
+00:51:45.090 --> 00:51:46.930
+that's gonna be your
+homework, take a look.
+
+00:51:46.930 --> 00:51:48.000
+I actually recommend doing
+this homework a couple
+
+00:51:48.000 --> 00:51:48.600
+I actually recommend doing
+this homework a couple
+
+00:51:48.600 --> 00:51:49.950
+of different times and seeing
+
+00:51:49.950 --> 00:51:52.160
+if you can explore different sort
+
+00:51:52.160 --> 00:51:54.000
+of brands or effects that you can get,
+
+00:51:54.000 --> 00:51:54.250
+of brands or effects that you can get,
+
+00:51:54.250 --> 00:51:56.900
+maybe play around with those
+cartoony shadows that we saw
+
+00:51:56.900 --> 00:52:00.000
+on Duolingo or some of the
+more skeuomorphic shadows
+
+00:52:00.000 --> 00:52:00.660
+on Duolingo or some of the
+more skeuomorphic shadows
+
+00:52:00.660 --> 00:52:03.860
+and lighting effects that we
+saw in harvest, et cetera.
+
+00:52:03.860 --> 00:52:04.890
+If you have any questions,
+
+00:52:04.890 --> 00:52:06.000
+post them in the student community
+
+00:52:06.000 --> 00:52:06.450
+post them in the student community
+
+00:52:06.450 --> 00:52:08.300
+and we'll see you in the next lesson.
+

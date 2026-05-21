@@ -1,0 +1,7661 @@
+WEBVTT
+
+00:00:00.800 --> 00:00:02.020
+- Hey folks and welcome
+
+00:00:02.020 --> 00:00:04.970
+to the Learn UI design lesson on spacing.
+
+00:00:04.970 --> 00:00:06.000
+Spacing is one of the most
+fundamental and important skills
+
+00:00:06.000 --> 00:00:08.700
+Spacing is one of the most
+fundamental and important skills
+
+00:00:08.700 --> 00:00:12.000
+that you, as the designer can
+work on and get better at.
+
+00:00:12.000 --> 00:00:12.007
+that you, as the designer can
+work on and get better at.
+
+00:00:12.007 --> 00:00:14.040
+It's something that
+you're going to be using
+
+00:00:14.040 --> 00:00:16.410
+in basically every design
+project you ever do.
+
+00:00:16.410 --> 00:00:18.000
+Doesn't matter whether it's a web app
+
+00:00:18.000 --> 00:00:18.520
+Doesn't matter whether it's a web app
+
+00:00:18.520 --> 00:00:21.070
+or a mobile app or
+something else entirely,
+
+00:00:21.070 --> 00:00:22.400
+it doesn't matter whether you're trying
+
+00:00:22.400 --> 00:00:24.000
+to have just like a very
+clean and simple brand
+
+00:00:24.000 --> 00:00:24.450
+to have just like a very
+clean and simple brand
+
+00:00:24.450 --> 00:00:27.040
+or a friendly brand or
+any other type of brand,
+
+00:00:27.040 --> 00:00:29.240
+any platform, you're going
+to be using white space,
+
+00:00:29.240 --> 00:00:30.000
+and you're going to be thinking
+
+00:00:30.000 --> 00:00:30.150
+and you're going to be thinking
+
+00:00:30.150 --> 00:00:32.990
+about the lessons from this video.
+
+00:00:32.990 --> 00:00:34.680
+So we're gonna look at a
+couple of examples today.
+
+00:00:34.680 --> 00:00:36.000
+We're just going to talk
+about how spacing applies
+
+00:00:36.000 --> 00:00:36.810
+We're just going to talk
+about how spacing applies
+
+00:00:36.810 --> 00:00:39.810
+in a wide variety of applications.
+
+00:00:39.810 --> 00:00:40.740
+And we're going to talk
+
+00:00:40.740 --> 00:00:42.000
+about in particular four
+rules, laws, heuristics
+
+00:00:42.000 --> 00:00:44.750
+about in particular four
+rules, laws, heuristics
+
+00:00:44.750 --> 00:00:47.270
+to remember when you're
+applying white space
+
+00:00:47.270 --> 00:00:48.000
+to your own designs, but the
+overarching theme if anything,
+
+00:00:48.000 --> 00:00:50.090
+to your own designs, but the
+overarching theme if anything,
+
+00:00:50.090 --> 00:00:53.050
+that I'd like you to walk
+away with is the sense
+
+00:00:53.050 --> 00:00:54.000
+that white space is a
+really special element,
+
+00:00:54.000 --> 00:00:55.040
+that white space is a
+really special element,
+
+00:00:55.040 --> 00:00:56.410
+If you can call it an element.
+
+00:00:56.410 --> 00:00:59.280
+Because it's the only thing
+that you will ever add
+
+00:00:59.280 --> 00:01:00.000
+to your design, that doesn't
+clutter it in some way.
+
+00:01:00.000 --> 00:01:02.460
+to your design, that doesn't
+clutter it in some way.
+
+00:01:02.460 --> 00:01:05.990
+And by clutter, I mean just
+add some visual distractingness
+
+00:01:05.990 --> 00:01:06.000
+to the design, right?
+
+00:01:06.000 --> 00:01:07.210
+to the design, right?
+
+00:01:07.210 --> 00:01:11.360
+Even the smallest lightest
+little one pixel divider line
+
+00:01:11.360 --> 00:01:12.000
+is going to add something
+to the screen that kind of,
+
+00:01:12.000 --> 00:01:14.090
+is going to add something
+to the screen that kind of,
+
+00:01:14.090 --> 00:01:16.870
+you know, adds clutter,
+white space does not.
+
+00:01:16.870 --> 00:01:18.000
+And yet you can communicate
+with white space,
+
+00:01:18.000 --> 00:01:18.920
+And yet you can communicate
+with white space,
+
+00:01:18.920 --> 00:01:21.700
+you can use white space to
+say what things are related.
+
+00:01:21.700 --> 00:01:24.000
+You can use white space to
+say what things are important.
+
+00:01:24.000 --> 00:01:24.240
+You can use white space to
+say what things are important.
+
+00:01:24.240 --> 00:01:25.073
+So remember that,
+
+00:01:25.073 --> 00:01:28.250
+it's the only thing that can
+communicate without cluttering.
+
+00:01:28.250 --> 00:01:30.000
+Alright, would that being
+said, let's get started.
+
+00:01:30.000 --> 00:01:30.750
+Alright, would that being
+said, let's get started.
+
+00:01:31.690 --> 00:01:32.660
+I'm going to begin just
+
+00:01:32.660 --> 00:01:34.957
+by telling you these four laws of spacing.
+
+00:01:34.957 --> 00:01:36.000
+And I don't necessarily expect
+
+00:01:36.000 --> 00:01:36.600
+And I don't necessarily expect
+
+00:01:36.600 --> 00:01:37.730
+that you're going to understand all
+
+00:01:37.730 --> 00:01:39.100
+of these perfectly right now.
+
+00:01:39.100 --> 00:01:41.580
+That's why we have a whole
+bunch of examples coming up
+
+00:01:41.580 --> 00:01:42.000
+but I just want to kind
+of get these primed
+
+00:01:42.000 --> 00:01:43.850
+but I just want to kind
+of get these primed
+
+00:01:43.850 --> 00:01:46.120
+in your mind so that as you
+see them in the examples,
+
+00:01:46.120 --> 00:01:48.000
+you understand what I'm
+referencing back to.
+
+00:01:48.000 --> 00:01:48.610
+you understand what I'm
+referencing back to.
+
+00:01:48.610 --> 00:01:50.550
+Four of the most important
+things you can remember
+
+00:01:50.550 --> 00:01:51.700
+with regards to spacing.
+
+00:01:51.700 --> 00:01:53.850
+Number one, you can use white space
+
+00:01:53.850 --> 00:01:54.000
+to separate without cluttering.
+
+00:01:54.000 --> 00:01:56.420
+to separate without cluttering.
+
+00:01:56.420 --> 00:01:57.790
+I'm going to be showing you some examples
+
+00:01:57.790 --> 00:01:59.564
+that kind of illustrate
+how to some degree,
+
+00:01:59.564 --> 00:02:00.000
+separator lines, background color changes
+
+00:02:00.000 --> 00:02:02.640
+separator lines, background color changes
+
+00:02:02.640 --> 00:02:06.000
+even cards or shadows
+are all kind of instances
+
+00:02:06.000 --> 00:02:06.160
+even cards or shadows
+are all kind of instances
+
+00:02:06.160 --> 00:02:09.080
+of elements that are
+supposed to divide one area
+
+00:02:09.080 --> 00:02:10.670
+of the screen from another area
+
+00:02:10.670 --> 00:02:12.000
+and how white space
+also does the same thing
+
+00:02:12.000 --> 00:02:13.120
+and how white space
+also does the same thing
+
+00:02:13.120 --> 00:02:14.420
+but it does it without cluttering.
+
+00:02:14.420 --> 00:02:16.960
+That's probably the most important lesson.
+
+00:02:16.960 --> 00:02:18.000
+Number two, we're gonna be
+talking about how white space
+
+00:02:18.000 --> 00:02:18.850
+Number two, we're gonna be
+talking about how white space
+
+00:02:18.850 --> 00:02:22.020
+can be used to highlight
+focal points in your design.
+
+00:02:22.020 --> 00:02:23.930
+If you have an important
+element, there's a whole bunch
+
+00:02:23.930 --> 00:02:24.000
+of things you can do to attract attention.
+
+00:02:24.000 --> 00:02:25.610
+of things you can do to attract attention.
+
+00:02:25.610 --> 00:02:27.190
+Like you could make it really, really big
+
+00:02:27.190 --> 00:02:29.620
+or really, really colorful,
+but a slightly more
+
+00:02:29.620 --> 00:02:30.000
+subtle option is to give it
+a lot of spacing around it.
+
+00:02:30.000 --> 00:02:33.420
+subtle option is to give it
+a lot of spacing around it.
+
+00:02:33.420 --> 00:02:35.190
+And especially if you're
+trying to have a clean,
+
+00:02:35.190 --> 00:02:36.000
+simple and uncluttered
+design, that's going to be one
+
+00:02:36.000 --> 00:02:38.260
+simple and uncluttered
+design, that's going to be one
+
+00:02:38.260 --> 00:02:42.000
+of the go-to ways to draw
+attention to certain focal points.
+
+00:02:42.000 --> 00:02:42.370
+of the go-to ways to draw
+attention to certain focal points.
+
+00:02:42.370 --> 00:02:44.180
+The third law is that external spacing
+
+00:02:44.180 --> 00:02:46.370
+should always be greater
+than internal spacing.
+
+00:02:46.370 --> 00:02:47.660
+And I'll explain what I mean by this
+
+00:02:47.660 --> 00:02:48.000
+but it basically means
+whenever you have some sort
+
+00:02:48.000 --> 00:02:49.770
+but it basically means
+whenever you have some sort
+
+00:02:49.770 --> 00:02:54.000
+of group of elements that kind
+of logically fit together,
+
+00:02:54.000 --> 00:02:54.070
+of group of elements that kind
+of logically fit together,
+
+00:02:54.070 --> 00:02:57.020
+the spacing around that
+group should be greater
+
+00:02:57.020 --> 00:02:59.450
+than the spacing in between
+the elements of that group.
+
+00:02:59.450 --> 00:03:00.000
+And I mean that in a very broad way, again
+
+00:03:00.000 --> 00:03:01.770
+And I mean that in a very broad way, again
+
+00:03:01.770 --> 00:03:03.200
+we're going to be talking
+about it, but I just
+
+00:03:03.200 --> 00:03:05.220
+want to introduce the idea now.
+
+00:03:05.220 --> 00:03:06.000
+And the fourth law,
+
+00:03:06.000 --> 00:03:06.070
+And the fourth law,
+
+00:03:06.070 --> 00:03:08.110
+I promise you, I only
+mean this figuratively,
+
+00:03:08.110 --> 00:03:10.340
+but double your white space.
+
+00:03:10.340 --> 00:03:12.000
+White space is one of
+the things that at least
+
+00:03:12.000 --> 00:03:12.410
+White space is one of
+the things that at least
+
+00:03:12.410 --> 00:03:14.610
+for me and for many
+other beginning designers
+
+00:03:14.610 --> 00:03:18.000
+you need to use more
+of it than you suspect.
+
+00:03:18.000 --> 00:03:18.070
+you need to use more
+of it than you suspect.
+
+00:03:18.070 --> 00:03:19.940
+Does this mean you should
+actually take your first guess
+
+00:03:19.940 --> 00:03:21.120
+and literally double it?
+
+00:03:21.120 --> 00:03:23.020
+No, it doesn't, but it does mean
+
+00:03:23.020 --> 00:03:24.000
+that many great designs
+use more white space
+
+00:03:24.000 --> 00:03:25.480
+that many great designs
+use more white space
+
+00:03:25.480 --> 00:03:26.570
+that if you were to go and measure it,
+
+00:03:26.570 --> 00:03:28.660
+which I encourage you
+to, through copy work,
+
+00:03:28.660 --> 00:03:30.000
+or just on the fly, you would find
+
+00:03:30.000 --> 00:03:30.660
+or just on the fly, you would find
+
+00:03:30.660 --> 00:03:32.050
+that they're using quite a bit of spacing
+
+00:03:32.050 --> 00:03:34.760
+and we want to do the exact same thing.
+
+00:03:34.760 --> 00:03:36.000
+The first example we're
+going to be looking at today
+
+00:03:36.000 --> 00:03:36.380
+The first example we're
+going to be looking at today
+
+00:03:36.380 --> 00:03:40.000
+is Craigslist and
+Craigslist gets a little bit
+
+00:03:40.000 --> 00:03:42.000
+of a bad rap among visual designers,
+
+00:03:42.000 --> 00:03:42.050
+of a bad rap among visual designers,
+
+00:03:42.050 --> 00:03:44.910
+just because it's so garishly simplistic
+
+00:03:44.910 --> 00:03:48.000
+and unstyled that it just, it
+doesn't really feel designed.
+
+00:03:48.000 --> 00:03:48.360
+and unstyled that it just, it
+doesn't really feel designed.
+
+00:03:48.360 --> 00:03:50.420
+It's certainly anything but pretty.
+
+00:03:50.420 --> 00:03:52.640
+So we're going to be doing a
+little bit of visual touch up
+
+00:03:52.640 --> 00:03:54.000
+on the interface, and
+we're primarily going
+
+00:03:54.000 --> 00:03:55.020
+on the interface, and
+we're primarily going
+
+00:03:55.020 --> 00:03:57.580
+to be using the principles
+of white space to do it.
+
+00:03:57.580 --> 00:03:58.950
+I will also be honest.
+
+00:03:58.950 --> 00:04:00.000
+We're going to be using
+plenty of alignment.
+
+00:04:00.000 --> 00:04:00.360
+We're going to be using
+plenty of alignment.
+
+00:04:00.360 --> 00:04:01.650
+So if you haven't watched that lesson,
+
+00:04:01.650 --> 00:04:03.750
+it's a useful thing that we're
+going to reference a bunch,
+
+00:04:03.750 --> 00:04:06.000
+and a few other ideas from
+the fundamentals in this unit.
+
+00:04:06.000 --> 00:04:07.010
+and a few other ideas from
+the fundamentals in this unit.
+
+00:04:07.010 --> 00:04:09.330
+Now I just want to be clear,
+this is very much a demo.
+
+00:04:09.330 --> 00:04:11.500
+Craigslist has made the design choices
+
+00:04:11.500 --> 00:04:12.000
+that it has for very specific reasons.
+
+00:04:12.000 --> 00:04:13.570
+that it has for very specific reasons.
+
+00:04:13.570 --> 00:04:14.710
+Like for instance,
+
+00:04:14.710 --> 00:04:17.830
+I know they want to load
+their page very, very quickly.
+
+00:04:17.830 --> 00:04:18.000
+There are basically no
+images on this page.
+
+00:04:18.000 --> 00:04:19.930
+There are basically no
+images on this page.
+
+00:04:19.930 --> 00:04:24.000
+Even their logo is the letters
+C and L in plain Arial.
+
+00:04:24.000 --> 00:04:24.930
+Even their logo is the letters
+C and L in plain Arial.
+
+00:04:24.930 --> 00:04:26.900
+But since we're doing a visual touch-up
+
+00:04:26.900 --> 00:04:28.860
+for an educational exercise, we can throw
+
+00:04:28.860 --> 00:04:30.000
+that out the window
+and decide for instance
+
+00:04:30.000 --> 00:04:31.840
+that out the window
+and decide for instance
+
+00:04:31.840 --> 00:04:34.150
+to use some custom fonts
+or include other icons
+
+00:04:34.150 --> 00:04:35.350
+or whatever we want to.
+
+00:04:35.350 --> 00:04:36.000
+So just bear in mind
+
+00:04:36.000 --> 00:04:36.210
+So just bear in mind
+
+00:04:36.210 --> 00:04:38.460
+that we may be doing things
+that are not necessarily part
+
+00:04:38.460 --> 00:04:40.957
+of Craigslists business goals.
+
+00:04:40.957 --> 00:04:42.000
+All right, so let's take it from the top.
+
+00:04:42.000 --> 00:04:43.010
+All right, so let's take it from the top.
+
+00:04:43.010 --> 00:04:44.320
+I mean, literally at the top
+
+00:04:44.320 --> 00:04:46.720
+we've got this header
+element 44 pixels tall.
+
+00:04:46.720 --> 00:04:48.000
+It goes the full width of the screen.
+
+00:04:48.000 --> 00:04:48.430
+It goes the full width of the screen.
+
+00:04:48.430 --> 00:04:49.730
+Now, one thing that's interesting
+
+00:04:49.730 --> 00:04:52.490
+about this header element is it's gray
+
+00:04:52.490 --> 00:04:54.000
+and basically the entire rest
+
+00:04:54.000 --> 00:04:54.260
+and basically the entire rest
+
+00:04:54.260 --> 00:04:56.180
+of the background of the page is white.
+
+00:04:56.180 --> 00:04:58.640
+And so what they're doing here, I'm going
+
+00:04:58.640 --> 00:05:00.000
+to make this explicit, but
+it should sound obvious
+
+00:05:00.000 --> 00:05:00.680
+to make this explicit, but
+it should sound obvious
+
+00:05:00.680 --> 00:05:02.440
+the moment I say it, is they're using
+
+00:05:02.440 --> 00:05:05.020
+this background color change
+from a very light gray
+
+00:05:05.020 --> 00:05:06.000
+with brightness 93 to white,
+with a brightness of 100.
+
+00:05:06.000 --> 00:05:08.310
+with brightness 93 to white,
+with a brightness of 100.
+
+00:05:08.310 --> 00:05:10.710
+And that background color
+change means everything
+
+00:05:10.710 --> 00:05:12.000
+with one background is part
+
+00:05:12.000 --> 00:05:12.110
+with one background is part
+
+00:05:12.110 --> 00:05:14.460
+of one logical grouping called the header
+
+00:05:14.460 --> 00:05:16.230
+and everything with a
+white background is part
+
+00:05:16.230 --> 00:05:18.000
+of another logical
+grouping called the content
+
+00:05:18.000 --> 00:05:18.780
+of another logical
+grouping called the content
+
+00:05:18.780 --> 00:05:20.430
+of the page or whatever.
+
+00:05:20.430 --> 00:05:22.580
+Now you may be thinking,
+duh, that's obvious.
+
+00:05:22.580 --> 00:05:23.620
+Well, that's, that's good.
+
+00:05:23.620 --> 00:05:24.000
+It should kind of be obvious
+or it should be obvious
+
+00:05:24.000 --> 00:05:26.110
+It should kind of be obvious
+or it should be obvious
+
+00:05:26.110 --> 00:05:27.820
+in retrospect, I want to show you though
+
+00:05:27.820 --> 00:05:30.000
+that they're also using
+other elements to do that.
+
+00:05:30.000 --> 00:05:30.600
+that they're also using
+other elements to do that.
+
+00:05:30.600 --> 00:05:32.450
+For instance, borders.
+
+00:05:32.450 --> 00:05:33.870
+If you look at these little dropdowns
+
+00:05:33.870 --> 00:05:35.160
+like the Seattle dropdown
+
+00:05:35.160 --> 00:05:36.000
+all Seattle jobs, these
+drop-downs have not only
+
+00:05:36.000 --> 00:05:37.910
+all Seattle jobs, these
+drop-downs have not only
+
+00:05:37.910 --> 00:05:39.680
+they have a background color change
+
+00:05:39.680 --> 00:05:42.000
+but they have an even stronger
+dark gray border around them.
+
+00:05:42.000 --> 00:05:44.260
+but they have an even stronger
+dark gray border around them.
+
+00:05:44.260 --> 00:05:46.170
+And likewise that border
+is saying the same thing,
+
+00:05:46.170 --> 00:05:48.000
+it's saying on one side of this border,
+
+00:05:48.000 --> 00:05:48.070
+it's saying on one side of this border,
+
+00:05:48.070 --> 00:05:51.860
+the inside is one
+logical group, a dropdown
+
+00:05:51.860 --> 00:05:53.420
+which includes say a label
+
+00:05:53.420 --> 00:05:54.000
+and the little caret that tells
+you, you should click here.
+
+00:05:54.000 --> 00:05:55.530
+and the little caret that tells
+you, you should click here.
+
+00:05:55.530 --> 00:05:58.970
+And then outside is, you
+know, the rest of the page.
+
+00:05:58.970 --> 00:06:00.000
+Technically they have a really fine border
+
+00:06:00.000 --> 00:06:01.380
+Technically they have a really fine border
+
+00:06:01.380 --> 00:06:03.130
+on the bottom of their header as well.
+
+00:06:03.130 --> 00:06:06.000
+And look, they have the same
+background, color change
+
+00:06:06.000 --> 00:06:06.260
+And look, they have the same
+background, color change
+
+00:06:06.260 --> 00:06:09.460
+plus border strategy right
+here around their logo
+
+00:06:09.460 --> 00:06:12.000
+or what kind of stands in for their logo.
+
+00:06:12.000 --> 00:06:12.360
+or what kind of stands in for their logo.
+
+00:06:12.360 --> 00:06:14.310
+Let's see, do they have
+anything going on over here?
+
+00:06:14.310 --> 00:06:15.970
+Not really but like even the search bar
+
+00:06:15.970 --> 00:06:17.180
+is the same sort of thing.
+
+00:06:17.180 --> 00:06:18.000
+The search bar is a divider line.
+
+00:06:18.000 --> 00:06:19.640
+The search bar is a divider line.
+
+00:06:19.640 --> 00:06:22.020
+So why am I bringing all this up?
+
+00:06:22.020 --> 00:06:23.660
+One are the most important
+lessons you can learn
+
+00:06:23.660 --> 00:06:24.000
+about spacing is that
+you can use white space
+
+00:06:24.000 --> 00:06:27.060
+about spacing is that
+you can use white space
+
+00:06:27.060 --> 00:06:29.890
+instead of any of these other separators.
+
+00:06:29.890 --> 00:06:30.000
+Borders and lines are a type of separator.
+
+00:06:30.000 --> 00:06:32.190
+Borders and lines are a type of separator.
+
+00:06:32.190 --> 00:06:34.820
+Background color changes
+are a type of separator.
+
+00:06:34.820 --> 00:06:36.000
+So is spacing.
+
+00:06:36.000 --> 00:06:36.040
+So is spacing.
+
+00:06:36.040 --> 00:06:39.200
+And that's not to say you
+should always use spacing
+
+00:06:39.200 --> 00:06:40.800
+but anytime you're trying
+to make a design look neater
+
+00:06:40.800 --> 00:06:42.000
+and cleaner and simpler,
+you should at least think
+
+00:06:42.000 --> 00:06:44.230
+and cleaner and simpler,
+you should at least think
+
+00:06:44.230 --> 00:06:46.630
+can I use spacing instead of a line?
+
+00:06:46.630 --> 00:06:48.000
+Or can I use white space
+
+00:06:48.000 --> 00:06:48.580
+Or can I use white space
+
+00:06:48.580 --> 00:06:51.310
+instead of a background color change?
+
+00:06:51.310 --> 00:06:53.870
+And by the way, I use
+the terms white space
+
+00:06:53.870 --> 00:06:54.000
+and spacing interchangeably.
+
+00:06:54.000 --> 00:06:55.520
+and spacing interchangeably.
+
+00:06:55.520 --> 00:06:56.840
+It doesn't have to be white.
+
+00:06:56.840 --> 00:06:59.630
+This could be a dark UI with
+white text, and I would still
+
+00:06:59.630 --> 00:07:00.000
+call the empty pixels of dark
+or black or whatever it is
+
+00:07:00.000 --> 00:07:03.060
+call the empty pixels of dark
+or black or whatever it is
+
+00:07:03.060 --> 00:07:04.470
+spacing or white space.
+
+00:07:04.470 --> 00:07:05.897
+It's just a matter of semantics.
+
+00:07:05.897 --> 00:07:06.000
+All right, so let's try this idea.
+
+00:07:06.000 --> 00:07:07.770
+All right, so let's try this idea.
+
+00:07:07.770 --> 00:07:10.270
+Let's take this header
+and delete the background.
+
+00:07:10.270 --> 00:07:12.000
+And then if we're using spacing, you know,
+
+00:07:12.000 --> 00:07:12.590
+And then if we're using spacing, you know,
+
+00:07:12.590 --> 00:07:16.870
+perhaps we would be able to
+just keep all of this stuff
+
+00:07:16.870 --> 00:07:18.000
+at kind of where it is right
+now, but I'm gonna move it down
+
+00:07:18.000 --> 00:07:19.680
+at kind of where it is right
+now, but I'm gonna move it down
+
+00:07:19.680 --> 00:07:21.320
+just a bit, just to make it really clear
+
+00:07:21.320 --> 00:07:23.770
+that it's separated from
+this other content here.
+
+00:07:25.650 --> 00:07:28.400
+And kind of get the sense of, okay,
+
+00:07:28.400 --> 00:07:30.000
+especially if I put a little
+more margin at the top here
+
+00:07:30.000 --> 00:07:30.920
+especially if I put a little
+more margin at the top here
+
+00:07:30.920 --> 00:07:34.340
+so that the spacing is symmetric top
+
+00:07:34.340 --> 00:07:36.000
+versus bottom spacing is
+relatively similar here.
+
+00:07:36.000 --> 00:07:37.653
+versus bottom spacing is
+relatively similar here.
+
+00:07:38.680 --> 00:07:40.910
+I can start to make it feel
+
+00:07:40.910 --> 00:07:42.000
+like I'm communicating the separatedness
+
+00:07:42.000 --> 00:07:43.820
+like I'm communicating the separatedness
+
+00:07:43.820 --> 00:07:46.730
+of the header from the
+content, just using space.
+
+00:07:46.730 --> 00:07:48.000
+And sure enough, that looks cleaner.
+
+00:07:48.000 --> 00:07:48.920
+And sure enough, that looks cleaner.
+
+00:07:48.920 --> 00:07:51.180
+Now let's try doing the same
+thing with these breadcrumbs.
+
+00:07:51.180 --> 00:07:52.950
+Essentially what I'm
+going to be doing is just
+
+00:07:52.950 --> 00:07:54.000
+removing the borders.
+
+00:07:54.000 --> 00:07:54.360
+removing the borders.
+
+00:07:54.360 --> 00:07:57.180
+But when the borders go,
+I still would want this
+
+00:07:57.180 --> 00:07:59.210
+to be something that
+kind of looks clickable.
+
+00:07:59.210 --> 00:08:00.000
+Like I'll be experimenting
+a little bit here.
+
+00:08:00.000 --> 00:08:01.460
+Like I'll be experimenting
+a little bit here.
+
+00:08:03.810 --> 00:08:05.113
+So I've got Seattle,
+
+00:08:08.952 --> 00:08:12.000
+all Seattle jobs and media.
+
+00:08:12.000 --> 00:08:12.657
+all Seattle jobs and media.
+
+00:08:15.840 --> 00:08:18.000
+I guess it's really art media design.
+
+00:08:18.000 --> 00:08:18.320
+I guess it's really art media design.
+
+00:08:18.320 --> 00:08:19.750
+And then, because these are breadcrumbs,
+
+00:08:19.750 --> 00:08:22.070
+I'm going to need some
+little separator character
+
+00:08:22.070 --> 00:08:23.330
+in between them.
+
+00:08:23.330 --> 00:08:24.000
+You can see, they just use a little caret.
+
+00:08:24.000 --> 00:08:25.120
+You can see, they just use a little caret.
+
+00:08:25.120 --> 00:08:28.200
+I'm actually going to do a
+character called a guillemets
+
+00:08:28.200 --> 00:08:30.000
+which is used as quotes and
+French and some other language
+
+00:08:30.000 --> 00:08:31.140
+which is used as quotes and
+French and some other language
+
+00:08:31.140 --> 00:08:35.160
+but in English it's generally unseen.
+
+00:08:35.160 --> 00:08:36.000
+And so it can look kind of
+cool to do something like that.
+
+00:08:36.000 --> 00:08:38.060
+And so it can look kind of
+cool to do something like that.
+
+00:08:40.330 --> 00:08:42.000
+I'll go tidy up the
+horizontal spacing here.
+
+00:08:42.000 --> 00:08:42.820
+I'll go tidy up the
+horizontal spacing here.
+
+00:08:42.820 --> 00:08:44.570
+And eight pixel sounds good.
+
+00:08:44.570 --> 00:08:45.610
+One thing I will do though
+
+00:08:45.610 --> 00:08:48.000
+is probably pick maybe a slightly
+darker default font color.
+
+00:08:48.000 --> 00:08:50.573
+is probably pick maybe a slightly
+darker default font color.
+
+00:08:53.540 --> 00:08:54.000
+Then I can even remove
+some of the attention
+
+00:08:54.000 --> 00:08:56.070
+Then I can even remove
+some of the attention
+
+00:08:56.070 --> 00:08:59.180
+from these guillemets by
+say, making them lighter,
+
+00:08:59.180 --> 00:09:00.000
+60% opacity or something
+could work out nicely.
+
+00:09:00.000 --> 00:09:02.520
+60% opacity or something
+could work out nicely.
+
+00:09:02.520 --> 00:09:04.030
+Now, before I get ahead of myself,
+
+00:09:04.030 --> 00:09:06.000
+I actually do want to
+change the font here.
+
+00:09:06.000 --> 00:09:06.180
+I actually do want to
+change the font here.
+
+00:09:07.420 --> 00:09:09.040
+Right now, it's in the default Arial.
+
+00:09:09.040 --> 00:09:11.260
+The entire site is so
+that it loads quickly
+
+00:09:11.260 --> 00:09:12.000
+but for the sake of
+doing a visual touch up,
+
+00:09:12.000 --> 00:09:12.790
+but for the sake of
+doing a visual touch up,
+
+00:09:12.790 --> 00:09:14.790
+we'll pick something a little bit nicer.
+
+00:09:18.010 --> 00:09:20.030
+I'm gonna go with freight
+text, which is one
+
+00:09:20.030 --> 00:09:24.000
+of the good font recommendations
+from the topography unit.
+
+00:09:24.000 --> 00:09:24.060
+of the good font recommendations
+from the topography unit.
+
+00:09:24.060 --> 00:09:25.210
+I think it's super elegant,
+
+00:09:25.210 --> 00:09:27.710
+and I think it works in a
+wide variety of designs.
+
+00:09:33.350 --> 00:09:34.740
+Now, in the alignment lesson, we talked
+
+00:09:34.740 --> 00:09:36.000
+about aligning things such
+that you get the greatest feel
+
+00:09:36.000 --> 00:09:38.200
+about aligning things such
+that you get the greatest feel
+
+00:09:38.200 --> 00:09:40.460
+of alignment with the
+same number of elements.
+
+00:09:40.460 --> 00:09:41.940
+For that reason, I'm going to align this
+
+00:09:41.940 --> 00:09:42.000
+with the search bar rather
+than just shoving it
+
+00:09:42.000 --> 00:09:43.930
+with the search bar rather
+than just shoving it
+
+00:09:43.930 --> 00:09:45.480
+up against the logo over there.
+
+00:09:47.410 --> 00:09:48.000
+If 18 kind of becomes the default size,
+
+00:09:48.000 --> 00:09:49.940
+If 18 kind of becomes the default size,
+
+00:09:49.940 --> 00:09:53.760
+I'm going to beef these up to 18 as well
+
+00:09:53.760 --> 00:09:54.000
+and then I'll increase the
+white space between them.
+
+00:09:54.000 --> 00:09:56.200
+and then I'll increase the
+white space between them.
+
+00:09:56.200 --> 00:09:57.950
+And then I can remove this divider line.
+
+00:09:57.950 --> 00:09:59.270
+Again, all of this is just sort
+
+00:09:59.270 --> 00:10:00.000
+of in the interest of
+trying to remove elements
+
+00:10:00.000 --> 00:10:03.300
+of in the interest of
+trying to remove elements
+
+00:10:03.300 --> 00:10:06.000
+that are doing the same thing
+that spacing could be doing.
+
+00:10:06.000 --> 00:10:06.200
+that are doing the same thing
+that spacing could be doing.
+
+00:10:08.020 --> 00:10:11.170
+And maybe I'll just make these
+labels a little clearer too.
+
+00:10:11.170 --> 00:10:12.000
+This could even be bold new posts.
+
+00:10:12.000 --> 00:10:13.100
+This could even be bold new posts.
+
+00:10:13.100 --> 00:10:15.450
+It's kind of like a
+primary action on the site.
+
+00:10:20.450 --> 00:10:22.010
+For the Craigslist logo here,
+
+00:10:22.010 --> 00:10:24.000
+it seems pretty clear that I
+will just be writing Craigslist
+
+00:10:24.000 --> 00:10:24.450
+it seems pretty clear that I
+will just be writing Craigslist
+
+00:10:24.450 --> 00:10:26.640
+in the same font I've already loaded.
+
+00:10:26.640 --> 00:10:28.310
+At least that'll be a little bit quicker
+
+00:10:28.310 --> 00:10:30.000
+to load than having some other image.
+
+00:10:30.000 --> 00:10:30.863
+to load than having some other image.
+
+00:10:34.050 --> 00:10:36.000
+But one thing that might
+be fun is I noticed, first
+
+00:10:36.000 --> 00:10:36.900
+But one thing that might
+be fun is I noticed, first
+
+00:10:36.900 --> 00:10:41.000
+of all they Craigslist, their
+actual logo is the peace sign
+
+00:10:41.000 --> 00:10:42.000
+and in their kind of
+text-based logo that you see
+
+00:10:42.000 --> 00:10:44.070
+and in their kind of
+text-based logo that you see
+
+00:10:44.070 --> 00:10:46.710
+on their page since it's a
+link that you have basically
+
+00:10:46.710 --> 00:10:48.000
+by definition already been
+to, it oftentimes shows
+
+00:10:48.000 --> 00:10:49.680
+by definition already been
+to, it oftentimes shows
+
+00:10:49.680 --> 00:10:54.000
+up as purple, which is the
+color of the peace emoji.
+
+00:10:54.000 --> 00:10:54.133
+up as purple, which is the
+color of the peace emoji.
+
+00:10:55.530 --> 00:10:57.740
+So I think it'd be cool if we said, Hey
+
+00:10:57.740 --> 00:11:00.000
+for this Craigslist
+design, let's keep somewhat
+
+00:11:00.000 --> 00:11:00.110
+for this Craigslist
+design, let's keep somewhat
+
+00:11:00.110 --> 00:11:02.420
+in the spirit of keeping things very quick
+
+00:11:02.420 --> 00:11:04.890
+to load and nimble and use the emoji
+
+00:11:04.890 --> 00:11:06.000
+that everyone else already
+has on their computer.
+
+00:11:06.000 --> 00:11:07.950
+that everyone else already
+has on their computer.
+
+00:11:07.950 --> 00:11:10.800
+We could even grab a
+purple from the emoji here
+
+00:11:12.390 --> 00:11:15.870
+and then maybe I would use
+that purple as a theme color.
+
+00:11:15.870 --> 00:11:18.000
+So I'm actually just going
+to make a square of it above
+
+00:11:18.000 --> 00:11:18.010
+So I'm actually just going
+to make a square of it above
+
+00:11:18.010 --> 00:11:20.410
+so I can really quickly
+grab it whenever I need.
+
+00:11:23.520 --> 00:11:24.000
+To me, this dark gray though
+
+00:11:24.000 --> 00:11:25.370
+To me, this dark gray though
+
+00:11:25.370 --> 00:11:28.770
+is looking maybe a little bit too light.
+
+00:11:28.770 --> 00:11:30.000
+So maybe I will have a purple-ish gray.
+
+00:11:30.000 --> 00:11:32.443
+So maybe I will have a purple-ish gray.
+
+00:11:34.340 --> 00:11:35.463
+Grab the hue I want.
+
+00:11:37.060 --> 00:11:39.060
+And that seems like that should be fine.
+
+00:11:40.380 --> 00:11:42.000
+But what I'm actually going
+to do is take that gray
+
+00:11:42.000 --> 00:11:42.040
+But what I'm actually going
+to do is take that gray
+
+00:11:42.040 --> 00:11:44.693
+and I'll just make a rectangle
+with that same color here.
+
+00:11:47.550 --> 00:11:48.000
+This is just something
+I would do before I end
+
+00:11:48.000 --> 00:11:49.900
+This is just something
+I would do before I end
+
+00:11:49.900 --> 00:11:52.360
+up naming the colors in the Figma document
+
+00:11:52.360 --> 00:11:53.530
+when I'm still kind playing around
+
+00:11:53.530 --> 00:11:54.000
+with them I might want to just be able
+
+00:11:54.000 --> 00:11:54.960
+with them I might want to just be able
+
+00:11:54.960 --> 00:11:57.150
+to really quickly reference
+them in one place.
+
+00:11:57.150 --> 00:11:59.663
+And that's a very cheap
+and easy way to do it.
+
+00:12:03.070 --> 00:12:05.070
+Now, what I'm going to do is remove a few
+
+00:12:05.070 --> 00:12:06.000
+of the elements that I
+think are not very useful
+
+00:12:06.000 --> 00:12:07.730
+of the elements that I
+think are not very useful
+
+00:12:07.730 --> 00:12:09.340
+on this particular page.
+
+00:12:09.340 --> 00:12:11.840
+For instance, this art
+media design should be kind
+
+00:12:11.840 --> 00:12:12.000
+of clear that we're here
+
+00:12:12.000 --> 00:12:13.040
+of clear that we're here
+
+00:12:13.040 --> 00:12:14.770
+because it's going to say art media design
+
+00:12:14.770 --> 00:12:16.860
+at the top of the page in the breadcrumbs
+
+00:12:16.860 --> 00:12:18.000
+but also we'll have it say
+that in the search as well.
+
+00:12:18.000 --> 00:12:19.150
+but also we'll have it say
+that in the search as well.
+
+00:12:19.150 --> 00:12:20.930
+So I'm going to remove it here.
+
+00:12:20.930 --> 00:12:22.960
+This is a button to minimize the sidebar
+
+00:12:22.960 --> 00:12:24.000
+which I don't think is super necessary.
+
+00:12:24.000 --> 00:12:24.730
+which I don't think is super necessary.
+
+00:12:24.730 --> 00:12:29.280
+So we can remove that for this
+particular set of results,
+
+00:12:29.280 --> 00:12:30.000
+there's only one page
+
+00:12:30.000 --> 00:12:30.500
+there's only one page
+
+00:12:30.500 --> 00:12:33.320
+which means just having a bunch
+of greyed out buttons here
+
+00:12:33.320 --> 00:12:36.000
+doesn't make much sense,
+we could remove all those.
+
+00:12:36.000 --> 00:12:36.360
+doesn't make much sense,
+we could remove all those.
+
+00:12:36.360 --> 00:12:37.970
+There's no other sort orders on this page,
+
+00:12:37.970 --> 00:12:40.100
+besides newest, believe me, I checked.
+
+00:12:40.100 --> 00:12:41.920
+So we're going to remove that.
+
+00:12:41.920 --> 00:12:42.000
+Let's actually do a search
+
+00:12:42.000 --> 00:12:43.890
+Let's actually do a search
+
+00:12:43.890 --> 00:12:46.620
+where the button or it
+searches as you type
+
+00:12:46.620 --> 00:12:48.000
+so that you don't need to
+press a physical button.
+
+00:12:48.000 --> 00:12:48.230
+so that you don't need to
+press a physical button.
+
+00:12:48.230 --> 00:12:51.540
+We could remove that and save search.
+
+00:12:51.540 --> 00:12:53.670
+We can think about putting
+that somewhere else
+
+00:12:53.670 --> 00:12:54.000
+in the sidebar where you
+actually customize the search.
+
+00:12:54.000 --> 00:12:56.970
+in the sidebar where you
+actually customize the search.
+
+00:12:56.970 --> 00:12:59.100
+Oh, and then this, go figure.
+
+00:12:59.100 --> 00:13:00.000
+On this particular page,
+
+00:13:00.000 --> 00:13:00.510
+On this particular page,
+
+00:13:00.510 --> 00:13:02.700
+you can really only choose
+between list and map.
+
+00:13:02.700 --> 00:13:04.260
+Those are the only useful ones.
+
+00:13:04.260 --> 00:13:06.000
+And even having map is very similar
+
+00:13:06.000 --> 00:13:06.130
+And even having map is very similar
+
+00:13:06.130 --> 00:13:09.420
+to searching within a certain
+radius of a certain location.
+
+00:13:09.420 --> 00:13:12.000
+So let's just play with removing this.
+
+00:13:12.000 --> 00:13:12.730
+So let's just play with removing this.
+
+00:13:12.730 --> 00:13:14.070
+If I was really working on this app,
+
+00:13:14.070 --> 00:13:16.200
+I'm sure we'd have to figure
+out some way to include it.
+
+00:13:16.200 --> 00:13:18.000
+But seeing as this is a
+teaching exercise about spacing,
+
+00:13:18.000 --> 00:13:19.410
+But seeing as this is a
+teaching exercise about spacing,
+
+00:13:19.410 --> 00:13:22.130
+now we have this awesome
+example to talk about
+
+00:13:22.130 --> 00:13:24.000
+all the spacing that is now
+visible around this search bar.
+
+00:13:24.000 --> 00:13:26.260
+all the spacing that is now
+visible around this search bar.
+
+00:13:26.260 --> 00:13:28.730
+Especially if we just make it a tad bigger
+
+00:13:28.730 --> 00:13:29.810
+I'm gonna go ahead and add a shadow
+
+00:13:29.810 --> 00:13:30.000
+and you don't need to worry
+too much about these details.
+
+00:13:30.000 --> 00:13:32.690
+and you don't need to worry
+too much about these details.
+
+00:13:32.690 --> 00:13:34.160
+I'm gonna give it a large blur
+
+00:13:34.160 --> 00:13:35.740
+and then a slightly negative spread,
+
+00:13:35.740 --> 00:13:36.000
+which will just make it
+a little less visible.
+
+00:13:36.000 --> 00:13:39.727
+which will just make it
+a little less visible.
+
+00:13:39.727 --> 00:13:41.650
+Kind of a just a soft shadow.
+
+00:13:41.650 --> 00:13:42.000
+I like this particular effect.
+
+00:13:42.000 --> 00:13:43.460
+I like this particular effect.
+
+00:13:43.460 --> 00:13:45.230
+I'm going to try removing the stroke too,
+
+00:13:45.230 --> 00:13:47.040
+see if that's enough.
+
+00:13:47.040 --> 00:13:48.000
+Not really, probably
+should keep it in there.
+
+00:13:48.000 --> 00:13:49.290
+Not really, probably
+should keep it in there.
+
+00:13:50.510 --> 00:13:54.000
+Now, I want you to observe
+like just how much the space
+
+00:13:54.000 --> 00:13:54.120
+Now, I want you to observe
+like just how much the space
+
+00:13:54.120 --> 00:13:57.480
+around this search bar kind
+of draws attention to it.
+
+00:13:57.480 --> 00:13:59.420
+Especially if we kind of
+move these filter boxes
+
+00:13:59.420 --> 00:14:00.000
+out of the way, it just is
+a lot more apparent here.
+
+00:14:00.000 --> 00:14:02.570
+out of the way, it just is
+a lot more apparent here.
+
+00:14:02.570 --> 00:14:03.915
+And if you consider
+that basically everyone
+
+00:14:03.915 --> 00:14:05.660
+who comes to this page is either going
+
+00:14:05.660 --> 00:14:06.000
+to start skimming straight
+through this list,
+
+00:14:06.000 --> 00:14:07.560
+to start skimming straight
+through this list,
+
+00:14:07.560 --> 00:14:10.320
+or they're going to have some
+keyword location or whatever
+
+00:14:10.320 --> 00:14:12.000
+that they just type directly
+into here, like this bar
+
+00:14:12.000 --> 00:14:13.860
+that they just type directly
+into here, like this bar
+
+00:14:13.860 --> 00:14:16.770
+and this text are the most
+important elements on the page.
+
+00:14:16.770 --> 00:14:18.000
+And so having them just
+be naturally visible
+
+00:14:18.000 --> 00:14:19.030
+And so having them just
+be naturally visible
+
+00:14:19.030 --> 00:14:21.233
+seems like a really good way to go.
+
+00:14:23.470 --> 00:14:24.000
+So I'll put some text in there.
+
+00:14:24.000 --> 00:14:24.930
+So I'll put some text in there.
+
+00:14:24.930 --> 00:14:26.180
+I always like to be as helpful
+
+00:14:26.180 --> 00:14:29.573
+as possible in these little
+hint texts in search bars.
+
+00:14:30.740 --> 00:14:32.210
+We'll just make this a little bit bigger.
+
+00:14:32.210 --> 00:14:34.013
+That's also going to draw
+some attention to it,
+
+00:14:34.013 --> 00:14:36.000
+and I'll make it a 50%
+opacity, which is just nice
+
+00:14:36.000 --> 00:14:37.480
+and I'll make it a 50%
+opacity, which is just nice
+
+00:14:37.480 --> 00:14:39.460
+and light for kind of this
+hint text that appears
+
+00:14:39.460 --> 00:14:41.043
+before the user starts typing.
+
+00:14:42.080 --> 00:14:44.170
+Now, as far as an icon,
+
+00:14:44.170 --> 00:14:48.000
+I'm going to go grab, let's
+do maybe the feather icon set.
+
+00:14:48.000 --> 00:14:49.170
+I'm going to go grab, let's
+do maybe the feather icon set.
+
+00:14:50.420 --> 00:14:53.410
+Those icons are very soft
+and they're just a bit larger
+
+00:14:53.410 --> 00:14:54.000
+than material designer quantum.
+
+00:14:54.000 --> 00:14:55.093
+than material designer quantum.
+
+00:14:57.170 --> 00:14:58.210
+So there we go.
+
+00:14:58.210 --> 00:14:59.750
+I'm actually going to
+make this the same color
+
+00:14:59.750 --> 00:15:00.000
+as the text, should work nicely.
+
+00:15:00.000 --> 00:15:02.900
+as the text, should work nicely.
+
+00:15:02.900 --> 00:15:04.750
+And then one thing I'm going
+to do with this white space
+
+00:15:04.750 --> 00:15:05.870
+is I'm going to be particular
+
+00:15:05.870 --> 00:15:06.000
+about trying to make it symmetric.
+
+00:15:06.000 --> 00:15:08.120
+about trying to make it symmetric.
+
+00:15:08.120 --> 00:15:09.740
+You'll see that there's now 18 pixels
+
+00:15:09.740 --> 00:15:12.000
+on three sides of this search bar.
+
+00:15:12.000 --> 00:15:12.020
+on three sides of this search bar.
+
+00:15:12.020 --> 00:15:14.910
+And I could do 18 pixels here,
+
+00:15:14.910 --> 00:15:17.370
+but I don't really need to per se, because
+
+00:15:18.280 --> 00:15:20.010
+in some sense this text and this icon are
+
+00:15:20.010 --> 00:15:23.970
+like considered one group and
+they're within the search bar.
+
+00:15:23.970 --> 00:15:24.000
+So the spacing within this group
+
+00:15:24.000 --> 00:15:25.610
+So the spacing within this group
+
+00:15:25.610 --> 00:15:29.530
+between the icon and the
+text should actually be less
+
+00:15:29.530 --> 00:15:30.000
+than the space around the
+icon or around this group.
+
+00:15:30.000 --> 00:15:32.570
+than the space around the
+icon or around this group.
+
+00:15:32.570 --> 00:15:33.890
+This is just one example
+
+00:15:33.890 --> 00:15:36.000
+of internal spacing being
+less than external spacing.
+
+00:15:36.000 --> 00:15:37.283
+of internal spacing being
+less than external spacing.
+
+00:15:39.580 --> 00:15:41.590
+So, you know, so I make
+that a little bit smaller.
+
+00:15:41.590 --> 00:15:42.000
+Certainly doesn't look any worse.
+
+00:15:42.000 --> 00:15:43.980
+Certainly doesn't look any worse.
+
+00:15:43.980 --> 00:15:45.160
+By the way just to be clear,
+
+00:15:45.160 --> 00:15:46.640
+we're starting to see some other examples
+
+00:15:46.640 --> 00:15:48.000
+of this internal spacing
+versus external spacing.
+
+00:15:48.000 --> 00:15:49.370
+of this internal spacing
+versus external spacing.
+
+00:15:49.370 --> 00:15:50.880
+Consider these breadcrumbs.
+
+00:15:50.880 --> 00:15:53.460
+These are really just one group, right?
+
+00:15:53.460 --> 00:15:54.000
+Like all four of these
+elements interspersed
+
+00:15:54.000 --> 00:15:56.200
+Like all four of these
+elements interspersed
+
+00:15:56.200 --> 00:15:57.960
+by these three elements, they fit together
+
+00:15:57.960 --> 00:16:00.000
+very neat, neatly as a group, we refer
+
+00:16:00.000 --> 00:16:00.020
+very neat, neatly as a group, we refer
+
+00:16:00.020 --> 00:16:03.000
+to them as the breadcrumbs
+or like the navigation.
+
+00:16:03.000 --> 00:16:06.000
+The spacing between each of
+these elements is eight pixels.
+
+00:16:06.000 --> 00:16:06.320
+The spacing between each of
+these elements is eight pixels.
+
+00:16:06.320 --> 00:16:09.300
+And yet, if you look,
+the spacing between say
+
+00:16:09.300 --> 00:16:12.000
+that text element and the next
+element down is 23 pixels.
+
+00:16:12.000 --> 00:16:13.050
+that text element and the next
+element down is 23 pixels.
+
+00:16:13.050 --> 00:16:16.110
+Like these are one group and
+the space within this group
+
+00:16:16.110 --> 00:16:18.000
+the internal spacing is much
+less than the external spacing.
+
+00:16:18.000 --> 00:16:20.100
+the internal spacing is much
+less than the external spacing.
+
+00:16:20.100 --> 00:16:22.240
+And that just makes it clear to the user
+
+00:16:22.240 --> 00:16:24.000
+what is logically related on the page.
+
+00:16:24.000 --> 00:16:24.950
+what is logically related on the page.
+
+00:16:24.950 --> 00:16:27.170
+I'll mention this a whole
+bunch in this video.
+
+00:16:27.170 --> 00:16:28.460
+It's super important,
+
+00:16:28.460 --> 00:16:30.000
+and if you don't find yourself
+doing it automatically
+
+00:16:30.000 --> 00:16:31.350
+and if you don't find yourself
+doing it automatically
+
+00:16:31.350 --> 00:16:32.550
+you should definitely be saying
+
+00:16:32.550 --> 00:16:36.000
+to yourself internal spacing
+is less than external spacing.
+
+00:16:36.000 --> 00:16:36.760
+to yourself internal spacing
+is less than external spacing.
+
+00:16:36.760 --> 00:16:38.800
+Now let's go back to the search bar.
+
+00:16:38.800 --> 00:16:39.920
+Having all this white space
+
+00:16:39.920 --> 00:16:42.000
+around the search bar is
+great for making it visible
+
+00:16:42.000 --> 00:16:42.450
+around the search bar is
+great for making it visible
+
+00:16:42.450 --> 00:16:45.030
+but just because white space
+is kind of this preferred
+
+00:16:45.030 --> 00:16:48.000
+almost exceptional means
+of separating elements
+
+00:16:48.000 --> 00:16:48.450
+almost exceptional means
+of separating elements
+
+00:16:48.450 --> 00:16:50.660
+does not mean it's the
+only one that you can use.
+
+00:16:50.660 --> 00:16:52.510
+You can definitely use other things.
+
+00:16:52.510 --> 00:16:54.000
+And especially it's when
+you use them in combination
+
+00:16:54.000 --> 00:16:54.590
+And especially it's when
+you use them in combination
+
+00:16:54.590 --> 00:16:56.870
+with white space that
+they become so powerful.
+
+00:16:56.870 --> 00:16:58.487
+So we have this border here.
+
+00:16:58.487 --> 00:17:00.000
+That's kind of, ho-hum.
+
+00:17:00.000 --> 00:17:00.100
+That's kind of, ho-hum.
+
+00:17:00.100 --> 00:17:01.470
+One thing I'm thinking about
+
+00:17:01.470 --> 00:17:03.100
+is like can I remove this border?
+
+00:17:03.100 --> 00:17:05.730
+In fact, you saw me do it
+earlier, just out of habit.
+
+00:17:05.730 --> 00:17:06.000
+I didn't even know if it would work
+
+00:17:06.000 --> 00:17:06.870
+I didn't even know if it would work
+
+00:17:06.870 --> 00:17:09.130
+and it turns out it kind of doesn't
+
+00:17:09.130 --> 00:17:11.770
+there's not enough shadow
+on the sides and the top
+
+00:17:11.770 --> 00:17:12.000
+for it to be immediately
+an obviously clear to users
+
+00:17:12.000 --> 00:17:15.300
+for it to be immediately
+an obviously clear to users
+
+00:17:15.300 --> 00:17:18.000
+that this search bar stands
+apart from everything else.
+
+00:17:18.000 --> 00:17:18.520
+that this search bar stands
+apart from everything else.
+
+00:17:18.520 --> 00:17:21.470
+But having a divider line or a border,
+
+00:17:21.470 --> 00:17:23.140
+that's really only one
+
+00:17:23.140 --> 00:17:24.000
+of the other ways of separating elements.
+
+00:17:24.000 --> 00:17:25.330
+of the other ways of separating elements.
+
+00:17:25.330 --> 00:17:27.330
+The other big one was a
+background color change.
+
+00:17:27.330 --> 00:17:30.000
+And here, what I could do is
+actually color the entire rest
+
+00:17:30.000 --> 00:17:31.620
+And here, what I could do is
+actually color the entire rest
+
+00:17:31.620 --> 00:17:35.140
+of the background of this
+page, say to 96% brightness.
+
+00:17:35.140 --> 00:17:36.000
+And now all of a sudden
+it makes the search bar
+
+00:17:36.000 --> 00:17:37.890
+And now all of a sudden
+it makes the search bar
+
+00:17:37.890 --> 00:17:39.433
+pop even more.
+
+00:17:41.010 --> 00:17:42.000
+Now that the corners are more apparent,
+
+00:17:42.000 --> 00:17:42.290
+Now that the corners are more apparent,
+
+00:17:42.290 --> 00:17:44.480
+I'm going to give a slightly
+more rounded radius to them.
+
+00:17:44.480 --> 00:17:47.450
+That's six pixels just feels very friendly
+
+00:17:47.450 --> 00:17:48.000
+and soft, kind of matches
+the, feel this shadow.
+
+00:17:48.000 --> 00:17:50.420
+and soft, kind of matches
+the, feel this shadow.
+
+00:17:50.420 --> 00:17:52.870
+Yeah, I'm liking this quite a bit.
+
+00:17:52.870 --> 00:17:54.000
+One thing I might do though
+
+00:17:54.000 --> 00:17:54.050
+One thing I might do though
+
+00:17:54.050 --> 00:17:58.180
+just a bit is shorten the search bar.
+
+00:17:58.180 --> 00:17:59.013
+I'm not sure
+
+00:17:59.013 --> 00:18:00.000
+if there's actually a character
+limit on these titles.
+
+00:18:00.000 --> 00:18:01.250
+if there's actually a character
+limit on these titles.
+
+00:18:01.250 --> 00:18:02.830
+My guess is there probably is.
+
+00:18:02.830 --> 00:18:05.360
+And since none of them
+are actually very long,
+
+00:18:05.360 --> 00:18:06.000
+there's not a ton of variability in them.
+
+00:18:06.000 --> 00:18:07.380
+there's not a ton of variability in them.
+
+00:18:07.380 --> 00:18:09.530
+Let's just presume it's pretty short.
+
+00:18:09.530 --> 00:18:12.000
+Let's try something like just
+say 750 pixels of width here.
+
+00:18:12.000 --> 00:18:13.610
+Let's try something like just
+say 750 pixels of width here.
+
+00:18:13.610 --> 00:18:14.790
+As we work on this text,
+
+00:18:14.790 --> 00:18:16.460
+we might need to make
+it a little bit larger
+
+00:18:16.460 --> 00:18:18.000
+but just in general,
+not having form controls
+
+00:18:18.000 --> 00:18:18.840
+but just in general,
+not having form controls
+
+00:18:19.740 --> 00:18:21.880
+stretching on to infinity
+is going to look better
+
+00:18:21.880 --> 00:18:23.330
+in the long run.
+
+00:18:23.330 --> 00:18:24.000
+Now, when we look at this
+results list right here,
+
+00:18:24.000 --> 00:18:25.780
+Now, when we look at this
+results list right here,
+
+00:18:25.780 --> 00:18:28.190
+to me, it looks visually very cluttered.
+
+00:18:28.190 --> 00:18:30.000
+And I know we just
+changed the font, but even
+
+00:18:30.000 --> 00:18:30.270
+And I know we just
+changed the font, but even
+
+00:18:30.270 --> 00:18:32.870
+when it was the previous font,
+it's not like it looked good.
+
+00:18:32.870 --> 00:18:34.950
+Like we start with an icon,
+then we have gray text.
+
+00:18:34.950 --> 00:18:36.000
+That's nice and aligned, which is good
+
+00:18:36.000 --> 00:18:36.760
+That's nice and aligned, which is good
+
+00:18:36.760 --> 00:18:39.700
+but then there's hardly
+any space, five pixels
+
+00:18:39.700 --> 00:18:42.000
+between this gray text
+and then the blue links
+
+00:18:42.000 --> 00:18:42.800
+between this gray text
+and then the blue links
+
+00:18:42.800 --> 00:18:44.260
+and all the blue links are jammed
+
+00:18:44.260 --> 00:18:47.420
+in line with smaller
+text of a different color
+
+00:18:47.420 --> 00:18:48.000
+saying where the opportunity
+actually is located.
+
+00:18:48.000 --> 00:18:50.690
+saying where the opportunity
+actually is located.
+
+00:18:50.690 --> 00:18:51.970
+And then some of them,
+
+00:18:51.970 --> 00:18:53.970
+not that this is even
+useful for a job posting,
+
+00:18:53.970 --> 00:18:54.000
+but some of them have
+the orange word pick here
+
+00:18:54.000 --> 00:18:56.050
+but some of them have
+the orange word pick here
+
+00:18:56.050 --> 00:18:58.937
+because I guess the poster
+attached some images as well.
+
+00:18:58.937 --> 00:19:00.000
+And of course there are
+
+00:19:00.000 --> 00:19:00.560
+And of course there are
+
+00:19:00.560 --> 00:19:02.150
+then all followed by a trashcan icon.
+
+00:19:02.150 --> 00:19:04.540
+So how do we use white
+space to solve this problem?
+
+00:19:04.540 --> 00:19:05.970
+Well, one of the things I would definitely
+
+00:19:05.970 --> 00:19:06.000
+do is put a little more
+space between the columns
+
+00:19:06.000 --> 00:19:08.730
+do is put a little more
+space between the columns
+
+00:19:08.730 --> 00:19:11.290
+but also I think I would just separate
+
+00:19:11.290 --> 00:19:12.000
+out these locations into a third column.
+
+00:19:12.000 --> 00:19:13.460
+out these locations into a third column.
+
+00:19:13.460 --> 00:19:15.270
+Again, especially if
+there's a character limit
+
+00:19:15.270 --> 00:19:16.440
+on the title of the post
+
+00:19:16.440 --> 00:19:18.000
+and we can guarantee that
+we're not going to have a bunch
+
+00:19:18.000 --> 00:19:18.540
+and we can guarantee that
+we're not going to have a bunch
+
+00:19:18.540 --> 00:19:20.490
+of running over to be
+like two or three lines.
+
+00:19:20.490 --> 00:19:21.705
+It just seems like an easy win
+
+00:19:21.705 --> 00:19:24.000
+to get a little more alignment
+out of the same information
+
+00:19:24.000 --> 00:19:24.780
+to get a little more alignment
+out of the same information
+
+00:19:25.907 --> 00:19:27.557
+and make the locations scannable.
+
+00:19:31.220 --> 00:19:32.720
+So I've got some of this same stuff
+
+00:19:32.720 --> 00:19:34.690
+that I can put on this page right here.
+
+00:19:34.690 --> 00:19:36.000
+We'll take this, just scoot it
+
+00:19:36.000 --> 00:19:36.180
+We'll take this, just scoot it
+
+00:19:36.180 --> 00:19:38.033
+on down below so we can reference it.
+
+00:19:39.300 --> 00:19:42.000
+But we'll start by aligning
+the date, that looks good.
+
+00:19:42.000 --> 00:19:42.123
+But we'll start by aligning
+the date, that looks good.
+
+00:19:43.600 --> 00:19:46.150
+Then we'll put it in the post titles.
+
+00:19:46.150 --> 00:19:48.000
+Maybe something like 32 pixels
+of space is plenty there.
+
+00:19:48.000 --> 00:19:49.653
+Maybe something like 32 pixels
+of space is plenty there.
+
+00:19:50.870 --> 00:19:54.000
+And then after that, we
+will do the locations.
+
+00:19:54.000 --> 00:19:54.653
+And then after that, we
+will do the locations.
+
+00:19:57.970 --> 00:20:00.000
+Now you might notice
+I don't have this star
+
+00:20:00.000 --> 00:20:00.080
+Now you might notice
+I don't have this star
+
+00:20:00.080 --> 00:20:02.350
+and I don't have this trash can yet.
+
+00:20:02.350 --> 00:20:03.550
+My intention is
+
+00:20:03.550 --> 00:20:06.000
+that you wouldn't actually see
+the controls to star a post
+
+00:20:06.000 --> 00:20:07.250
+that you wouldn't actually see
+the controls to star a post
+
+00:20:07.250 --> 00:20:08.990
+or to remove it with the trashcan.
+
+00:20:08.990 --> 00:20:11.080
+You wouldn't see those
+icons until you're hovering
+
+00:20:11.080 --> 00:20:12.000
+over the specific posts that
+you want to take the action on.
+
+00:20:12.000 --> 00:20:14.270
+over the specific posts that
+you want to take the action on.
+
+00:20:14.270 --> 00:20:16.460
+This is a design decision
+that can make the desktop
+
+00:20:16.460 --> 00:20:18.000
+version feel even neater and cleaner.
+
+00:20:18.000 --> 00:20:19.210
+version feel even neater and cleaner.
+
+00:20:19.210 --> 00:20:20.770
+Now it does present some issues.
+
+00:20:20.770 --> 00:20:21.840
+For instance, on mobile,
+
+00:20:21.840 --> 00:20:24.000
+we wouldn't be able to use
+hover because there's no hover
+
+00:20:24.000 --> 00:20:24.080
+we wouldn't be able to use
+hover because there's no hover
+
+00:20:24.080 --> 00:20:26.910
+on mobile and certainly to keep
+things keyboard accessible,
+
+00:20:26.910 --> 00:20:28.870
+we'd want to make sure that
+those controls would appear
+
+00:20:28.870 --> 00:20:30.000
+if someone was using, say
+the tab key to use this app.
+
+00:20:30.000 --> 00:20:31.873
+if someone was using, say
+the tab key to use this app.
+
+00:20:33.060 --> 00:20:36.000
+But let's just put on a
+little hover state right here.
+
+00:20:36.000 --> 00:20:37.358
+But let's just put on a
+little hover state right here.
+
+00:20:37.358 --> 00:20:39.640
+To figure out how tall the hover state is.
+
+00:20:39.640 --> 00:20:40.870
+I always go and add up
+
+00:20:40.870 --> 00:20:42.000
+the line height plus the
+paragraph space, so that is 42.
+
+00:20:42.000 --> 00:20:45.170
+the line height plus the
+paragraph space, so that is 42.
+
+00:20:45.170 --> 00:20:46.743
+I'm going to assume, let's see.
+
+00:20:47.700 --> 00:20:48.000
+It feels about right, move it down.
+
+00:20:48.000 --> 00:20:50.160
+It feels about right, move it down.
+
+00:20:50.160 --> 00:20:51.300
+Kind of centering on the text.
+
+00:20:51.300 --> 00:20:53.120
+I'm going to remove the drop shadow here.
+
+00:20:53.120 --> 00:20:54.000
+And then this white feels pretty bright.
+
+00:20:54.000 --> 00:20:54.980
+And then this white feels pretty bright.
+
+00:20:54.980 --> 00:20:58.920
+So I'm actually going to give
+it like maybe a 70% opacity.
+
+00:20:58.920 --> 00:21:00.000
+It's going to be maybe a
+bit of a subtle hover effect
+
+00:21:00.000 --> 00:21:01.520
+It's going to be maybe a
+bit of a subtle hover effect
+
+00:21:01.520 --> 00:21:03.170
+but I still think it'll work out.
+
+00:21:05.030 --> 00:21:06.000
+Just dragging my little hand
+pointer, cursor guy here.
+
+00:21:06.000 --> 00:21:08.543
+Just dragging my little hand
+pointer, cursor guy here.
+
+00:21:09.530 --> 00:21:11.200
+Boom, that doesn't look so bad.
+
+00:21:11.200 --> 00:21:12.000
+Now, one problem you
+might've noticed here.
+
+00:21:12.000 --> 00:21:13.460
+Now, one problem you
+might've noticed here.
+
+00:21:13.460 --> 00:21:14.660
+And this is something we talked about
+
+00:21:14.660 --> 00:21:16.330
+in the alignment lesson
+is when you're trying
+
+00:21:16.330 --> 00:21:18.000
+to align hover states, you will run
+
+00:21:18.000 --> 00:21:18.160
+to align hover states, you will run
+
+00:21:18.160 --> 00:21:20.570
+into weird issues where the hover state
+
+00:21:20.570 --> 00:21:21.430
+you have to make a choice
+
+00:21:21.430 --> 00:21:23.760
+between whether the content should line up
+
+00:21:23.760 --> 00:21:24.000
+with the other stuff or the hover state,
+
+00:21:24.000 --> 00:21:25.770
+with the other stuff or the hover state,
+
+00:21:25.770 --> 00:21:29.310
+which you see less should
+line up with the other stuff.
+
+00:21:29.310 --> 00:21:30.000
+In this case, I'm just
+going to have the hover
+
+00:21:30.000 --> 00:21:30.810
+In this case, I'm just
+going to have the hover
+
+00:21:30.810 --> 00:21:34.060
+state extend a little bit
+beyond this line of alignment.
+
+00:21:34.060 --> 00:21:34.893
+That doesn't strike me
+
+00:21:34.893 --> 00:21:36.000
+as being too bad or too messy or anything.
+
+00:21:36.000 --> 00:21:37.530
+as being too bad or too messy or anything.
+
+00:21:37.530 --> 00:21:38.803
+So let's just do that.
+
+00:21:42.940 --> 00:21:45.003
+I'll have it be symmetric on both sides.
+
+00:21:46.230 --> 00:21:48.000
+And then of course I
+can add in some rulers
+
+00:21:48.000 --> 00:21:48.080
+And then of course I
+can add in some rulers
+
+00:21:48.080 --> 00:21:50.840
+into my document here
+so that it's very easy
+
+00:21:50.840 --> 00:21:52.483
+to align other things to them.
+
+00:21:56.190 --> 00:21:57.750
+Now I just pressed option command P
+
+00:21:57.750 --> 00:21:59.240
+to bring up the last extension I used,
+
+00:21:59.240 --> 00:22:00.000
+the feather icons extension,
+and I'm going to grab the star
+
+00:22:00.000 --> 00:22:03.940
+the feather icons extension,
+and I'm going to grab the star
+
+00:22:05.070 --> 00:22:06.000
+and we also want the trashcan, perfect.
+
+00:22:06.000 --> 00:22:08.983
+and we also want the trashcan, perfect.
+
+00:22:14.820 --> 00:22:15.880
+Now I'm just going to put some amount
+
+00:22:15.880 --> 00:22:17.420
+of space in between them.
+
+00:22:17.420 --> 00:22:18.000
+Really, all I want to do is make sure
+
+00:22:18.000 --> 00:22:18.780
+Really, all I want to do is make sure
+
+00:22:18.780 --> 00:22:21.568
+that each has enough where they kind
+
+00:22:21.568 --> 00:22:23.870
+of have their own hover
+state square right here
+
+00:22:23.870 --> 00:22:24.000
+but I'm not going to worry too much
+
+00:22:24.000 --> 00:22:24.920
+but I'm not going to worry too much
+
+00:22:24.920 --> 00:22:26.423
+about the exact sizing here.
+
+00:22:31.460 --> 00:22:32.840
+Just looking at where we're at so far,
+
+00:22:32.840 --> 00:22:35.670
+there's two quick changes
+I'm going to make.
+
+00:22:35.670 --> 00:22:36.000
+First of all because these icons
+are a little heavy compared
+
+00:22:36.000 --> 00:22:37.730
+First of all because these icons
+are a little heavy compared
+
+00:22:37.730 --> 00:22:39.877
+to the text, I'm actually going
+
+00:22:39.877 --> 00:22:41.808
+to make them slightly less opacity,
+
+00:22:41.808 --> 00:22:42.000
+maybe 80% or thereabouts would be fine.
+
+00:22:42.000 --> 00:22:43.850
+maybe 80% or thereabouts would be fine.
+
+00:22:43.850 --> 00:22:45.890
+And then the other thing
+I'm going to do is just put
+
+00:22:45.890 --> 00:22:48.000
+like a little title that says
+search results or something
+
+00:22:48.000 --> 00:22:49.060
+like a little title that says
+search results or something
+
+00:22:49.060 --> 00:22:52.683
+and maybe has a count of the
+number of search results.
+
+00:22:54.920 --> 00:22:56.530
+So I'll do that, we'll
+make the line height auto
+
+00:22:56.530 --> 00:22:59.003
+cause right now it's
+something ridiculously long.
+
+00:23:01.140 --> 00:23:04.840
+And let's just say there's
+whatever, maybe 21 results here.
+
+00:23:04.840 --> 00:23:06.000
+One thing I can also do is
+capitalize these search results.
+
+00:23:06.000 --> 00:23:09.840
+One thing I can also do is
+capitalize these search results.
+
+00:23:12.244 --> 00:23:14.860
+That draws a little bit
+more attention to the label.
+
+00:23:14.860 --> 00:23:17.500
+But if I do that,
+oftentimes what I also want
+
+00:23:17.500 --> 00:23:18.000
+to do simultaneously is make
+the label a bit smaller.
+
+00:23:18.000 --> 00:23:20.870
+to do simultaneously is make
+the label a bit smaller.
+
+00:23:20.870 --> 00:23:22.810
+So in this case, maybe 15 instead
+
+00:23:22.810 --> 00:23:24.000
+of 18 and I can also make
+it a little bit lighter.
+
+00:23:24.000 --> 00:23:26.080
+of 18 and I can also make
+it a little bit lighter.
+
+00:23:26.080 --> 00:23:29.420
+So something like 80% opacity
+
+00:23:29.420 --> 00:23:30.000
+this is a common text design
+pattern that we'll talk
+
+00:23:30.000 --> 00:23:31.590
+this is a common text design
+pattern that we'll talk
+
+00:23:31.590 --> 00:23:34.310
+about in the topography unit,
+but I call it the slub pattern
+
+00:23:34.310 --> 00:23:36.000
+for smaller, lighter
+case, uppercase and bold.
+
+00:23:36.000 --> 00:23:36.800
+for smaller, lighter
+case, uppercase and bold.
+
+00:23:36.800 --> 00:23:38.060
+And it's something that a lot
+
+00:23:38.060 --> 00:23:40.250
+of really good designers
+use way more frequently
+
+00:23:40.250 --> 00:23:41.400
+than you might imagine.
+
+00:23:42.320 --> 00:23:44.670
+Once we have it here, we can also say
+
+00:23:44.670 --> 00:23:47.293
+put it over here and just
+say something like filter.
+
+00:23:48.710 --> 00:23:50.560
+And now we have this neat parallelism
+
+00:23:51.690 --> 00:23:54.000
+between the filters and the
+search results themselves.
+
+00:23:54.000 --> 00:23:54.150
+between the filters and the
+search results themselves.
+
+00:23:54.150 --> 00:23:55.720
+Now I just want to call
+your attention once again
+
+00:23:55.720 --> 00:23:57.610
+to the idea that internal spacing is less
+
+00:23:57.610 --> 00:23:59.230
+than external spacing.
+
+00:23:59.230 --> 00:24:00.000
+So certainly we have this
+list of different job
+
+00:24:00.000 --> 00:24:03.470
+So certainly we have this
+list of different job
+
+00:24:03.470 --> 00:24:06.000
+opportunities here and
+the space between any one
+
+00:24:06.000 --> 00:24:07.410
+of these is just a couple pixels.
+
+00:24:07.410 --> 00:24:10.480
+Right, they're basically
+however tall we said this was,
+
+00:24:10.480 --> 00:24:12.000
+42 pixels tall, and
+they're just all stacked
+
+00:24:12.000 --> 00:24:13.590
+42 pixels tall, and
+they're just all stacked
+
+00:24:13.590 --> 00:24:15.270
+on top of each other, not a whole ton
+
+00:24:15.270 --> 00:24:16.633
+of space in between them.
+
+00:24:18.330 --> 00:24:20.745
+Then there's just a little bit of space
+
+00:24:20.745 --> 00:24:23.210
+between the label and the
+thing that the label refers to.
+
+00:24:23.210 --> 00:24:24.000
+So here's the search results label.
+
+00:24:24.000 --> 00:24:24.760
+So here's the search results label.
+
+00:24:24.760 --> 00:24:25.960
+Here's the search results.
+
+00:24:25.960 --> 00:24:28.630
+And we have 10 pixels of
+space in between them.
+
+00:24:28.630 --> 00:24:30.000
+You can then consider this
+kind of its own logical group
+
+00:24:30.000 --> 00:24:31.330
+You can then consider this
+kind of its own logical group
+
+00:24:31.330 --> 00:24:36.000
+right, and internal to this,
+this 10 pixel little margin
+
+00:24:36.000 --> 00:24:36.330
+right, and internal to this,
+this 10 pixel little margin
+
+00:24:36.610 --> 00:24:38.220
+right here is actually less
+
+00:24:38.220 --> 00:24:39.860
+than the space external to this group.
+
+00:24:39.860 --> 00:24:42.000
+So if we look here, now we have 30 pixels
+
+00:24:42.000 --> 00:24:42.410
+So if we look here, now we have 30 pixels
+
+00:24:43.460 --> 00:24:45.040
+between the label and
+the search bar above,
+
+00:24:45.040 --> 00:24:47.440
+which of course is its own type of group.
+
+00:24:47.440 --> 00:24:48.000
+And so in really good
+designs, you're just going to
+
+00:24:48.000 --> 00:24:49.510
+And so in really good
+designs, you're just going to
+
+00:24:49.510 --> 00:24:53.100
+be able to go kind of up and
+down the ladder of groupings
+
+00:24:53.100 --> 00:24:54.000
+and always find that your
+internal spacing is less
+
+00:24:54.000 --> 00:24:56.010
+and always find that your
+internal spacing is less
+
+00:24:56.010 --> 00:24:57.540
+than your external spacing.
+
+00:24:57.540 --> 00:24:59.450
+Like, you know, once we
+get to the search bar,
+
+00:24:59.450 --> 00:25:00.000
+we've already done it with the search bar
+
+00:25:00.000 --> 00:25:01.020
+we've already done it with the search bar
+
+00:25:01.020 --> 00:25:04.240
+but all the spacing in the
+search bar is less than 30,
+
+00:25:04.240 --> 00:25:05.773
+which is the external spacing.
+
+00:25:06.860 --> 00:25:08.870
+All right, now let's work
+on these filters a bit.
+
+00:25:08.870 --> 00:25:10.490
+The first thing I want
+to do is I'm definitely
+
+00:25:10.490 --> 00:25:12.000
+going to be making this
+text a little bit bigger.
+
+00:25:12.000 --> 00:25:13.600
+going to be making this
+text a little bit bigger.
+
+00:25:13.600 --> 00:25:15.240
+We'll go with the same default font size
+
+00:25:15.240 --> 00:25:18.000
+that we have right here,
+which I believe was 18.
+
+00:25:18.000 --> 00:25:18.143
+that we have right here,
+which I believe was 18.
+
+00:25:20.630 --> 00:25:22.270
+Of course if this text is 18,
+
+00:25:22.270 --> 00:25:24.000
+we probably don't want quite
+so small a line height.
+
+00:25:24.000 --> 00:25:27.090
+we probably don't want quite
+so small a line height.
+
+00:25:27.090 --> 00:25:29.160
+So let's try just doing auto,
+
+00:25:29.160 --> 00:25:30.000
+which that's going to be 23 pixels
+
+00:25:30.000 --> 00:25:30.940
+which that's going to be 23 pixels
+
+00:25:30.940 --> 00:25:35.193
+and no space between paragraphs
+and see where that gets us.
+
+00:25:38.110 --> 00:25:39.480
+Honestly, going through these filters,
+
+00:25:39.480 --> 00:25:41.240
+i think some of them we
+could probably remove
+
+00:25:41.240 --> 00:25:42.000
+and some of them we might
+even be able to combine.
+
+00:25:42.000 --> 00:25:43.720
+and some of them we might
+even be able to combine.
+
+00:25:43.720 --> 00:25:46.410
+So for instance has image
+just doesn't strike me
+
+00:25:46.410 --> 00:25:48.000
+as very useful in job listings.
+
+00:25:48.000 --> 00:25:48.910
+as very useful in job listings.
+
+00:25:48.910 --> 00:25:50.600
+Of course, all this sort of stuff,
+
+00:25:50.600 --> 00:25:52.600
+if I was working for
+Craigslist as a client
+
+00:25:52.600 --> 00:25:54.000
+I might push to remove this filter
+
+00:25:54.000 --> 00:25:54.340
+I might push to remove this filter
+
+00:25:54.340 --> 00:25:56.860
+when I'm looking at job
+listings in particular.
+
+00:25:56.860 --> 00:25:58.910
+But if there's a real strong
+reason why it is useful
+
+00:25:58.910 --> 00:26:00.000
+then like by all means I'd keep it.
+
+00:26:00.000 --> 00:26:00.550
+then like by all means I'd keep it.
+
+00:26:00.550 --> 00:26:02.760
+I just, as a designer,
+I always want to default
+
+00:26:02.760 --> 00:26:05.270
+to removing things that I think
+are going to be less used,
+
+00:26:05.270 --> 00:26:06.000
+less useful, and just
+generally taking up space.
+
+00:26:06.000 --> 00:26:08.160
+less useful, and just
+generally taking up space.
+
+00:26:08.160 --> 00:26:11.610
+We'll talk about subtler
+strategies for hiding elements
+
+00:26:11.610 --> 00:26:12.000
+besides simply removing
+them a little bit later
+
+00:26:12.000 --> 00:26:13.880
+besides simply removing
+them a little bit later
+
+00:26:13.880 --> 00:26:17.950
+in this unit, search
+titles only, posted today,
+
+00:26:17.950 --> 00:26:18.000
+that's easy enough to
+see bundle duplicates.
+
+00:26:18.000 --> 00:26:20.020
+that's easy enough to
+see bundle duplicates.
+
+00:26:20.020 --> 00:26:21.870
+That feels like something
+that should be on by default,
+
+00:26:21.870 --> 00:26:23.780
+someone shouldn't get rewarded
+
+00:26:23.780 --> 00:26:24.000
+for posting the same thing 20 times a day
+
+00:26:24.000 --> 00:26:26.230
+for posting the same thing 20 times a day
+
+00:26:26.230 --> 00:26:27.417
+include new nearby areas.
+
+00:26:27.417 --> 00:26:30.000
+And then we also perhaps
+can just start putting
+
+00:26:30.000 --> 00:26:30.660
+And then we also perhaps
+can just start putting
+
+00:26:30.660 --> 00:26:34.580
+in these other like job type filters here.
+
+00:26:34.580 --> 00:26:36.000
+Now, when I do this in Figma sometimes,
+
+00:26:36.000 --> 00:26:36.830
+Now, when I do this in Figma sometimes,
+
+00:26:36.830 --> 00:26:40.780
+what I'll do is I will press shift enter.
+
+00:26:40.780 --> 00:26:42.000
+So that's going to do like
+essentially same line break
+
+00:26:42.000 --> 00:26:44.580
+So that's going to do like
+essentially same line break
+
+00:26:44.580 --> 00:26:46.470
+as there would be from
+if there was just a line
+
+00:26:46.470 --> 00:26:48.000
+of text that overflowed to the next line
+
+00:26:48.000 --> 00:26:48.680
+of text that overflowed to the next line
+
+00:26:48.680 --> 00:26:50.960
+but then I'm gonna press enter here
+
+00:26:50.960 --> 00:26:53.570
+and I'll start typing the
+next filter internship.
+
+00:26:53.570 --> 00:26:54.000
+And then I'll press shift, enter
+
+00:26:54.000 --> 00:26:54.900
+And then I'll press shift, enter
+
+00:26:54.900 --> 00:26:58.610
+for non-profit and I'll press
+shift, enter for telecommute.
+
+00:26:58.610 --> 00:27:00.000
+Or that actually is just remote.
+
+00:27:00.000 --> 00:27:00.380
+Or that actually is just remote.
+
+00:27:00.380 --> 00:27:01.627
+It's how we say it these days.
+
+00:27:01.627 --> 00:27:03.400
+All right, and then if I do put
+
+00:27:03.400 --> 00:27:05.960
+in a paragraph spacing, what happens is
+
+00:27:05.960 --> 00:27:06.000
+where I pressed enter, the
+paragraph spacing gets applied
+
+00:27:06.000 --> 00:27:08.920
+where I pressed enter, the
+paragraph spacing gets applied
+
+00:27:08.920 --> 00:27:11.670
+but where I pressed shift
+enter, it's only line height.
+
+00:27:11.670 --> 00:27:12.000
+There's no paragraph spacing
+applied in between these lines.
+
+00:27:12.000 --> 00:27:14.750
+There's no paragraph spacing
+applied in between these lines.
+
+00:27:14.750 --> 00:27:17.730
+This is cool because it
+allows me to use one text box
+
+00:27:17.730 --> 00:27:18.000
+to just have like kind of sub categories.
+
+00:27:18.000 --> 00:27:20.800
+to just have like kind of sub categories.
+
+00:27:20.800 --> 00:27:21.730
+This is by the way,
+
+00:27:21.730 --> 00:27:24.000
+another internal spacing
+smaller than external spacing.
+
+00:27:24.000 --> 00:27:24.960
+another internal spacing
+smaller than external spacing.
+
+00:27:24.960 --> 00:27:27.210
+Search titles only and
+include nearby areas
+
+00:27:27.210 --> 00:27:28.750
+are two filters that kind of
+
+00:27:28.750 --> 00:27:30.000
+apply a just one level, there
+they're sort of non-specific
+
+00:27:30.000 --> 00:27:32.660
+apply a just one level, there
+they're sort of non-specific
+
+00:27:32.660 --> 00:27:36.000
+to job posts, but then this
+next group internship, nonprofit
+
+00:27:36.000 --> 00:27:36.330
+to job posts, but then this
+next group internship, nonprofit
+
+00:27:36.330 --> 00:27:39.730
+and remote are all specifically
+job related filters.
+
+00:27:39.730 --> 00:27:41.770
+So they're a little bit
+closer to each other cause
+
+00:27:41.770 --> 00:27:42.000
+they're more logically related.
+
+00:27:42.000 --> 00:27:43.000
+they're more logically related.
+
+00:27:43.000 --> 00:27:45.000
+And then there's a small space
+
+00:27:45.000 --> 00:27:46.850
+in between them and the other filters.
+
+00:27:46.850 --> 00:27:48.000
+And I'm on the fence as to
+whether or not full-time
+
+00:27:48.000 --> 00:27:48.880
+And I'm on the fence as to
+whether or not full-time
+
+00:27:48.880 --> 00:27:51.550
+part-time contract and
+employees choice really
+
+00:27:51.550 --> 00:27:52.880
+need to be their own group.
+
+00:27:52.880 --> 00:27:54.000
+But let's just say that they are, I guess.
+
+00:27:54.000 --> 00:27:56.253
+But let's just say that they are, I guess.
+
+00:28:00.930 --> 00:28:03.573
+Again, I'm using shift
+enter for these right here.
+
+00:28:07.280 --> 00:28:08.780
+I'm going to get rid of these,
+
+00:28:12.460 --> 00:28:14.110
+this stuff.
+
+00:28:14.110 --> 00:28:16.260
+This miles from zip
+control is pretty useful.
+
+00:28:16.260 --> 00:28:17.960
+So we'll come back to it in a sec.
+
+00:28:21.390 --> 00:28:24.000
+Now what I'm going to do is
+because this text is bigger,
+
+00:28:24.000 --> 00:28:24.180
+Now what I'm going to do is
+because this text is bigger,
+
+00:28:24.180 --> 00:28:28.110
+I will make these boxes a
+little bit bigger as well,
+
+00:28:28.110 --> 00:28:30.000
+maybe something like 17 pixels.
+
+00:28:30.000 --> 00:28:30.123
+maybe something like 17 pixels.
+
+00:28:33.010 --> 00:28:34.130
+Then I'm going to get them roughly aligned
+
+00:28:34.130 --> 00:28:36.000
+with the baseline of the text
+and increase the spacing.
+
+00:28:36.000 --> 00:28:37.703
+with the baseline of the text
+and increase the spacing.
+
+00:28:40.700 --> 00:28:42.000
+Here we go.
+
+00:28:42.000 --> 00:28:42.260
+Here we go.
+
+00:28:42.260 --> 00:28:45.270
+These, I think I need to move
+down an extra, was it 10?
+
+00:28:45.270 --> 00:28:47.620
+Yeah. 10 pixels right there.
+
+00:28:47.620 --> 00:28:48.000
+And then I can grab these
+three, drag them down to here.
+
+00:28:48.000 --> 00:28:52.000
+And then I can grab these
+three, drag them down to here.
+
+00:28:52.000 --> 00:28:53.823
+And one more rounds it out.
+
+00:28:55.810 --> 00:28:58.423
+Yes, they all have equal
+spacing, six pixels.
+
+00:28:59.500 --> 00:29:00.000
+Now can you tell the next
+change that I'm about to do?
+
+00:29:00.000 --> 00:29:02.270
+Now can you tell the next
+change that I'm about to do?
+
+00:29:02.270 --> 00:29:05.270
+When you look at this, does
+something look a little bit off?
+
+00:29:06.610 --> 00:29:08.740
+To me, what I want to do is add in
+
+00:29:08.740 --> 00:29:11.070
+just a little more space here.
+
+00:29:11.070 --> 00:29:12.000
+So like let's say this
+is maybe eight pixels,
+
+00:29:12.000 --> 00:29:13.580
+So like let's say this
+is maybe eight pixels,
+
+00:29:13.580 --> 00:29:17.010
+but be careful I don't
+want to add so much space
+
+00:29:17.010 --> 00:29:18.000
+that the distance between a checkbox
+
+00:29:18.000 --> 00:29:18.860
+that the distance between a checkbox
+
+00:29:18.860 --> 00:29:20.530
+and the label for that checkbox,
+
+00:29:20.530 --> 00:29:23.730
+because these things
+are one group is greater
+
+00:29:23.730 --> 00:29:24.000
+than the space between
+this group and this group.
+
+00:29:24.000 --> 00:29:27.250
+than the space between
+this group and this group.
+
+00:29:27.250 --> 00:29:29.200
+This is just another internal spacing
+
+00:29:29.200 --> 00:29:30.000
+external spacing sort of thing.
+
+00:29:30.000 --> 00:29:30.933
+external spacing sort of thing.
+
+00:29:33.090 --> 00:29:35.380
+I don't want these
+smushed in here like this
+
+00:29:35.380 --> 00:29:36.000
+but I do want to have kind
+
+00:29:36.000 --> 00:29:37.200
+but I do want to have kind
+
+00:29:37.200 --> 00:29:42.000
+of logical separation of
+this one line the next.
+
+00:29:42.000 --> 00:29:42.200
+of logical separation of
+this one line the next.
+
+00:29:42.630 --> 00:29:44.550
+And if I don't believe that
+I'm quite getting there,
+
+00:29:44.550 --> 00:29:46.920
+I can like certainly go
+
+00:29:46.920 --> 00:29:48.000
+and add a little bit
+more line height here.
+
+00:29:48.000 --> 00:29:50.170
+and add a little bit
+more line height here.
+
+00:29:50.170 --> 00:29:51.503
+Let's see what is this?
+
+00:29:54.670 --> 00:29:58.103
+26 pixels, bring it down to 25.
+
+00:30:03.320 --> 00:30:06.000
+Now what I've done is added
+even more space between these
+
+00:30:06.000 --> 00:30:06.210
+Now what I've done is added
+even more space between these
+
+00:30:06.210 --> 00:30:07.610
+which should give me a little more leeway
+
+00:30:07.610 --> 00:30:10.453
+to have space between each
+checkbox and its own label.
+
+00:30:11.600 --> 00:30:12.000
+To me, that feels pretty
+good just like that.
+
+00:30:12.000 --> 00:30:14.060
+To me, that feels pretty
+good just like that.
+
+00:30:14.060 --> 00:30:15.970
+Honestly, if I was going
+to change something
+
+00:30:15.970 --> 00:30:18.000
+I think I would probably
+decrease this space.
+
+00:30:18.000 --> 00:30:18.200
+I think I would probably
+decrease this space.
+
+00:30:18.200 --> 00:30:20.250
+But the reason this space feels too big is
+
+00:30:20.250 --> 00:30:22.900
+because it's actually
+feels a little bit greater
+
+00:30:22.900 --> 00:30:23.733
+than the space
+
+00:30:23.733 --> 00:30:24.000
+between this label and the
+thing the label applies to,
+
+00:30:24.000 --> 00:30:26.100
+between this label and the
+thing the label applies to,
+
+00:30:26.100 --> 00:30:27.980
+which is this whole group.
+
+00:30:27.980 --> 00:30:30.000
+So the spacing internal to
+this group, which is here
+
+00:30:30.000 --> 00:30:31.050
+So the spacing internal to
+this group, which is here
+
+00:30:31.050 --> 00:30:33.853
+and here should be less than
+the spacing with the label.
+
+00:30:38.960 --> 00:30:40.660
+We'll get those nice and lined up.
+
+00:30:42.280 --> 00:30:43.990
+All right, now, the last thing I have left
+
+00:30:43.990 --> 00:30:48.000
+to do is add this little miles
+from zip filter right here.
+
+00:30:48.000 --> 00:30:48.040
+to do is add this little miles
+from zip filter right here.
+
+00:30:48.040 --> 00:30:49.590
+So I'll go make a label for it.
+
+00:30:50.680 --> 00:30:54.000
+Miles from zip, I'll uppercase it.
+
+00:30:54.000 --> 00:30:54.253
+Miles from zip, I'll uppercase it.
+
+00:30:55.520 --> 00:30:56.940
+And I want the space
+
+00:30:58.180 --> 00:31:00.000
+between the miles from
+zip label and this group
+
+00:31:00.000 --> 00:31:00.170
+between the miles from
+zip label and this group
+
+00:31:00.170 --> 00:31:04.340
+of filters to be greater
+than even the space here
+
+00:31:04.340 --> 00:31:06.000
+or the space here because this label
+
+00:31:06.000 --> 00:31:06.460
+or the space here because this label
+
+00:31:06.460 --> 00:31:09.080
+and its group of filters
+is one logical grouping.
+
+00:31:09.080 --> 00:31:10.220
+And the external spacing
+
+00:31:10.220 --> 00:31:12.000
+between this group of filters
+and this group of filters,
+
+00:31:12.000 --> 00:31:14.010
+between this group of filters
+and this group of filters,
+
+00:31:14.010 --> 00:31:16.360
+which is really just these
+two needs to be greater
+
+00:31:16.360 --> 00:31:18.000
+than any of the other
+spacings that we have here.
+
+00:31:18.000 --> 00:31:19.410
+than any of the other
+spacings that we have here.
+
+00:31:19.410 --> 00:31:21.710
+So miles from zip, that's nice.
+
+00:31:21.710 --> 00:31:22.890
+I have a text box.
+
+00:31:22.890 --> 00:31:24.000
+So what I'm going to do
+is steal the one text box
+
+00:31:24.000 --> 00:31:25.260
+So what I'm going to do
+is steal the one text box
+
+00:31:25.260 --> 00:31:28.500
+on this page and I'll
+make it much smaller.
+
+00:31:28.500 --> 00:31:30.000
+And I'm also going to reduce
+the size of the shadow.
+
+00:31:30.000 --> 00:31:30.880
+And I'm also going to reduce
+the size of the shadow.
+
+00:31:30.880 --> 00:31:32.410
+This is something again,
+don't worry about it.
+
+00:31:32.410 --> 00:31:34.120
+We'll talk about it more soon.
+
+00:31:34.120 --> 00:31:36.000
+But the idea here is this
+text box is really not
+
+00:31:36.000 --> 00:31:37.630
+But the idea here is this
+text box is really not
+
+00:31:37.630 --> 00:31:40.020
+as raised up from the
+surface of the screen.
+
+00:31:40.020 --> 00:31:40.990
+It's not as important,
+
+00:31:40.990 --> 00:31:42.000
+so we don't need as much
+shadowing around it.
+
+00:31:42.000 --> 00:31:43.240
+so we don't need as much
+shadowing around it.
+
+00:31:52.160 --> 00:31:54.000
+So one thing I'll do is go
+look at what this margin is.
+
+00:31:54.000 --> 00:31:55.420
+So one thing I'll do is go
+look at what this margin is.
+
+00:31:55.420 --> 00:31:59.030
+That's 13 pixels do, maybe not 13
+
+00:31:59.030 --> 00:32:00.000
+but something pretty similar here.
+
+00:32:00.000 --> 00:32:02.213
+but something pretty similar here.
+
+00:32:05.150 --> 00:32:06.000
+See how that feels, decent.
+
+00:32:06.000 --> 00:32:07.843
+See how that feels, decent.
+
+00:32:13.060 --> 00:32:14.630
+And then, because these are hint texts,
+
+00:32:14.630 --> 00:32:18.000
+I'll make them lighter,
+50, 60% opacity is good.
+
+00:32:18.000 --> 00:32:18.543
+I'll make them lighter,
+50, 60% opacity is good.
+
+00:32:19.441 --> 00:32:21.430
+And then update search,
+I'm going to remove
+
+00:32:21.430 --> 00:32:23.530
+because that should be done automatically.
+
+00:32:24.630 --> 00:32:25.880
+Reset, I might also remove
+
+00:32:25.880 --> 00:32:28.390
+because it's only unclicking a few boxes
+
+00:32:28.390 --> 00:32:30.000
+or we could have a reset button appear
+
+00:32:30.000 --> 00:32:30.440
+or we could have a reset button appear
+
+00:32:30.440 --> 00:32:33.060
+once the user has actually
+done some searches
+
+00:32:33.060 --> 00:32:35.030
+and the same thing for save search.
+
+00:32:35.030 --> 00:32:36.000
+I don't necessarily need
+to give someone the option
+
+00:32:36.000 --> 00:32:36.920
+I don't necessarily need
+to give someone the option
+
+00:32:36.920 --> 00:32:40.270
+to save a search until after
+they've actually entered one.
+
+00:32:40.270 --> 00:32:42.000
+I might be being touch fast
+
+00:32:42.000 --> 00:32:42.700
+I might be being touch fast
+
+00:32:42.700 --> 00:32:45.710
+and loose with really just
+kind of getting everything
+
+00:32:45.710 --> 00:32:48.000
+down to the simple bare bones elements
+
+00:32:48.000 --> 00:32:48.240
+down to the simple bare bones elements
+
+00:32:48.240 --> 00:32:50.870
+but it is actually a real strategy.
+
+00:32:50.870 --> 00:32:51.703
+And I will use this
+
+00:32:51.703 --> 00:32:53.720
+with my clients where just
+every little element, I'll say
+
+00:32:53.720 --> 00:32:54.000
+how much do we really need this?
+
+00:32:54.000 --> 00:32:55.530
+how much do we really need this?
+
+00:32:55.530 --> 00:32:57.180
+It's something that we
+will be talking about more
+
+00:32:57.180 --> 00:32:59.660
+in this unit, because
+it's super important.
+
+00:32:59.660 --> 00:33:00.000
+Now I'm just going to give
+this a little bit more spacing.
+
+00:33:00.000 --> 00:33:01.900
+Now I'm just going to give
+this a little bit more spacing.
+
+00:33:01.900 --> 00:33:02.733
+You can see it's kind
+
+00:33:02.733 --> 00:33:04.103
+of running into the miles from zip here.
+
+00:33:04.103 --> 00:33:05.720
+I don't really want that.
+
+00:33:05.720 --> 00:33:06.000
+And I'm going to take this sidebar.
+
+00:33:06.000 --> 00:33:07.380
+And I'm going to take this sidebar.
+
+00:33:07.380 --> 00:33:09.800
+And I think I just kind
+of inherited this 10
+
+00:33:09.800 --> 00:33:12.000
+or 11 pixel spacing from the
+original version of the app.
+
+00:33:12.000 --> 00:33:13.400
+or 11 pixel spacing from the
+original version of the app.
+
+00:33:13.400 --> 00:33:16.410
+But when I have kind of this
+whole page at my disposal,
+
+00:33:16.410 --> 00:33:18.000
+I could put in a little more space there,
+
+00:33:18.000 --> 00:33:18.440
+I could put in a little more space there,
+
+00:33:18.440 --> 00:33:21.570
+something like 24 pixels, of
+course, spacing by default.
+
+00:33:21.570 --> 00:33:22.770
+I don't want it to be symmetric.
+
+00:33:22.770 --> 00:33:24.000
+So maybe I moved that into.
+
+00:33:24.000 --> 00:33:24.930
+So maybe I moved that into.
+
+00:33:24.930 --> 00:33:26.470
+And all of a sudden I am looking
+
+00:33:26.470 --> 00:33:30.000
+at a much better version of this same app
+
+00:33:30.000 --> 00:33:30.380
+at a much better version of this same app
+
+00:33:31.320 --> 00:33:33.700
+when we zoom out and look
+at the before and after.
+
+00:33:33.700 --> 00:33:35.973
+It's just a total world
+of difference here.
+
+00:33:37.630 --> 00:33:40.080
+All right, and now I want to
+switch gears a little bit.
+
+00:33:40.080 --> 00:33:42.000
+I want to talk about
+another aspect of spacing
+
+00:33:42.000 --> 00:33:43.110
+I want to talk about
+another aspect of spacing
+
+00:33:43.110 --> 00:33:47.090
+with maybe a little bit more
+elemental of an example.
+
+00:33:47.090 --> 00:33:48.000
+When we just have text on a page.
+
+00:33:48.000 --> 00:33:49.280
+When we just have text on a page.
+
+00:33:49.280 --> 00:33:52.260
+And to me this is a really
+important test piece
+
+00:33:52.260 --> 00:33:53.850
+of your design skills.
+
+00:33:53.850 --> 00:33:54.000
+Can you take just a
+headline, maybe a subheader,
+
+00:33:54.000 --> 00:33:57.120
+Can you take just a
+headline, maybe a subheader,
+
+00:33:57.120 --> 00:34:00.000
+and some text and style
+it really, really well.
+
+00:34:00.000 --> 00:34:00.180
+and some text and style
+it really, really well.
+
+00:34:00.180 --> 00:34:02.330
+What I'm going to do with
+this example is first
+
+00:34:02.330 --> 00:34:04.100
+I'm just going to do the white space stuff
+
+00:34:04.100 --> 00:34:06.000
+and then we're going to
+like pick a different font
+
+00:34:06.000 --> 00:34:06.250
+and then we're going to
+like pick a different font
+
+00:34:06.250 --> 00:34:09.110
+to use and whatever kind
+of make the last details
+
+00:34:09.110 --> 00:34:11.360
+but you'll be able to see just
+how much better we can get
+
+00:34:11.360 --> 00:34:12.000
+it using this silly default
+times font where it just looks
+
+00:34:12.000 --> 00:34:15.460
+it using this silly default
+times font where it just looks
+
+00:34:15.460 --> 00:34:18.000
+like totally unstyled HTML,
+just a totally plain webpage.
+
+00:34:18.000 --> 00:34:19.340
+like totally unstyled HTML,
+just a totally plain webpage.
+
+00:34:19.340 --> 00:34:20.840
+We're going to get as far as we can
+
+00:34:20.840 --> 00:34:23.330
+styling with white space,
+and then and only then
+
+00:34:23.330 --> 00:34:24.000
+will we apply some nicer fonts
+
+00:34:24.000 --> 00:34:24.970
+will we apply some nicer fonts
+
+00:34:24.970 --> 00:34:28.210
+just so you can see how far
+we can get with white space.
+
+00:34:28.210 --> 00:34:30.000
+Like this last example is really cool
+
+00:34:30.000 --> 00:34:30.580
+Like this last example is really cool
+
+00:34:30.580 --> 00:34:33.350
+but many of the things
+that make this look better
+
+00:34:33.350 --> 00:34:35.200
+aren't specifically white space.
+
+00:34:35.200 --> 00:34:36.000
+It's not like Craigslist
+design, it's a little bit messy.
+
+00:34:36.000 --> 00:34:37.520
+It's not like Craigslist
+design, it's a little bit messy.
+
+00:34:37.520 --> 00:34:39.250
+And we talked about the
+principles of spacing
+
+00:34:39.250 --> 00:34:40.420
+as we cleaned it up
+
+00:34:40.420 --> 00:34:42.000
+but it's not like it just lacks for space.
+
+00:34:42.000 --> 00:34:43.260
+but it's not like it just lacks for space.
+
+00:34:43.260 --> 00:34:45.040
+So now let's look at this other example
+
+00:34:45.040 --> 00:34:48.000
+and see what can we do just using spacing.
+
+00:34:48.000 --> 00:34:48.470
+and see what can we do just using spacing.
+
+00:34:48.470 --> 00:34:52.580
+So my particular example here
+is part of the first chapter
+
+00:34:52.580 --> 00:34:54.000
+of Greg Egan's excellent
+scifi novel "Diaspora."
+
+00:34:54.000 --> 00:34:56.070
+of Greg Egan's excellent
+scifi novel "Diaspora."
+
+00:34:56.070 --> 00:34:58.050
+For those of you following
+along at home, the fact
+
+00:34:58.050 --> 00:35:00.000
+that it's a scifi novel
+is maybe a little bit
+
+00:35:00.000 --> 00:35:00.600
+that it's a scifi novel
+is maybe a little bit
+
+00:35:00.600 --> 00:35:02.850
+of a hint of what type of brand we'll try
+
+00:35:02.850 --> 00:35:06.000
+and hit when it comes time
+to pick out some fonts.
+
+00:35:06.000 --> 00:35:06.310
+and hit when it comes time
+to pick out some fonts.
+
+00:35:06.310 --> 00:35:08.680
+So here's our new duplicated frame
+
+00:35:08.680 --> 00:35:10.180
+and let's get to work.
+
+00:35:10.180 --> 00:35:11.740
+Now, like I said this is just what
+
+00:35:11.740 --> 00:35:12.000
+an unstyled HTML page looks like.
+
+00:35:12.000 --> 00:35:14.640
+an unstyled HTML page looks like.
+
+00:35:14.640 --> 00:35:18.000
+And if you, like me, came to design by way
+
+00:35:18.000 --> 00:35:18.050
+And if you, like me, came to design by way
+
+00:35:19.210 --> 00:35:21.540
+of development, you've
+probably had some texts
+
+00:35:21.540 --> 00:35:24.000
+on the page at some point in
+a browser that looks like this
+
+00:35:24.000 --> 00:35:24.260
+on the page at some point in
+a browser that looks like this
+
+00:35:24.260 --> 00:35:27.230
+before you've gotten around
+to writing all the CSS styles.
+
+00:35:27.230 --> 00:35:28.230
+I want to take just a minute
+
+00:35:28.230 --> 00:35:30.000
+and talk about kind of
+what being a developer did
+
+00:35:30.000 --> 00:35:30.450
+and talk about kind of
+what being a developer did
+
+00:35:30.450 --> 00:35:32.460
+for my mindset with white space.
+
+00:35:32.460 --> 00:35:36.000
+Because when I created my
+first web projects, you know
+
+00:35:36.000 --> 00:35:36.030
+Because when I created my
+first web projects, you know
+
+00:35:36.030 --> 00:35:38.000
+if I had a whole bunch of texts like this,
+
+00:35:38.000 --> 00:35:38.980
+I would think, okay
+
+00:35:38.980 --> 00:35:40.730
+I'm going to add in some
+margins here, but I want
+
+00:35:40.730 --> 00:35:42.000
+to add, I want to pick a
+reasonable amount of margin to add.
+
+00:35:42.000 --> 00:35:44.240
+to add, I want to pick a
+reasonable amount of margin to add.
+
+00:35:44.240 --> 00:35:47.030
+So what's reasonable, like
+20 pixels or something?
+
+00:35:47.030 --> 00:35:48.000
+20 sounds pretty reasonable,
+30 pixels, right?
+
+00:35:48.000 --> 00:35:49.200
+20 sounds pretty reasonable,
+30 pixels, right?
+
+00:35:49.200 --> 00:35:53.360
+Maybe 30 pixels on top,
+30 pixels on the side.
+
+00:35:53.360 --> 00:35:54.000
+And you know, 30 pixels in from this side
+
+00:35:54.000 --> 00:35:56.500
+And you know, 30 pixels in from this side
+
+00:35:56.500 --> 00:35:59.750
+or something like, you
+know, if someone were
+
+00:35:59.750 --> 00:36:00.000
+to say, well you should just
+add in 500 pixels of space.
+
+00:36:00.000 --> 00:36:02.130
+to say, well you should just
+add in 500 pixels of space.
+
+00:36:02.130 --> 00:36:06.000
+It's like, wow, that,
+hey, pretty good, 505.
+
+00:36:06.000 --> 00:36:06.110
+It's like, wow, that,
+hey, pretty good, 505.
+
+00:36:06.110 --> 00:36:09.320
+That number would seem so
+big and, and meaningless.
+
+00:36:09.320 --> 00:36:11.770
+And I wouldn't even necessarily consider
+
+00:36:11.770 --> 00:36:12.000
+adding in this much margin on one side.
+
+00:36:12.000 --> 00:36:13.410
+adding in this much margin on one side.
+
+00:36:13.410 --> 00:36:14.530
+Just doesn't make any sense.
+
+00:36:14.530 --> 00:36:17.000
+Even if I know the screen
+is going to be quite large.
+
+00:36:17.000 --> 00:36:18.000
+So I had this mindset
+
+00:36:18.000 --> 00:36:18.050
+So I had this mindset
+
+00:36:18.050 --> 00:36:21.060
+of white space is
+something that one adds in.
+
+00:36:21.060 --> 00:36:23.030
+You start with all this content
+
+00:36:23.030 --> 00:36:24.000
+and then you specifically write lines
+
+00:36:24.000 --> 00:36:24.830
+and then you specifically write lines
+
+00:36:24.830 --> 00:36:27.030
+of code that add a
+little white space there.
+
+00:36:27.030 --> 00:36:28.680
+Boop, add a little white space there
+
+00:36:28.680 --> 00:36:30.000
+maybe some white space
+here whatever it is.
+
+00:36:30.000 --> 00:36:31.440
+maybe some white space
+here whatever it is.
+
+00:36:31.440 --> 00:36:35.460
+That mindset is not useful for design.
+
+00:36:35.460 --> 00:36:36.000
+For design, I think it's
+much better to almost feel
+
+00:36:36.000 --> 00:36:38.790
+For design, I think it's
+much better to almost feel
+
+00:36:38.790 --> 00:36:41.520
+like you're starting from
+a blank piece of paper,
+
+00:36:41.520 --> 00:36:42.000
+and then you're adding in
+elements one at a time.
+
+00:36:42.000 --> 00:36:45.640
+and then you're adding in
+elements one at a time.
+
+00:36:45.640 --> 00:36:48.000
+So if I was adding in just this title,
+
+00:36:48.000 --> 00:36:48.477
+So if I was adding in just this title,
+
+00:36:48.477 --> 00:36:50.700
+I might say, Hmm, you know what?
+
+00:36:50.700 --> 00:36:52.540
+I'm totally going to center it here.
+
+00:36:52.540 --> 00:36:54.000
+Or maybe I don't want to center it.
+
+00:36:54.000 --> 00:36:55.120
+Or maybe I don't want to center it.
+
+00:36:55.120 --> 00:36:56.700
+Maybe I want it to left align it.
+
+00:36:56.700 --> 00:36:58.870
+But you know, the content I'll just have
+
+00:36:58.870 --> 00:37:00.000
+in one little column right here
+
+00:37:00.000 --> 00:37:00.550
+in one little column right here
+
+00:37:00.550 --> 00:37:01.383
+or maybe it will be kind
+
+00:37:01.383 --> 00:37:03.870
+of tastefully offset
+or something like that.
+
+00:37:03.870 --> 00:37:05.740
+But when I see the frame as a blank page,
+
+00:37:05.740 --> 00:37:06.000
+I start to think about every
+element that I add being taking
+
+00:37:06.000 --> 00:37:09.150
+I start to think about every
+element that I add being taking
+
+00:37:09.150 --> 00:37:11.160
+away white space strategically rather
+
+00:37:11.160 --> 00:37:12.000
+than white space being
+something that's added one line
+
+00:37:12.000 --> 00:37:14.350
+than white space being
+something that's added one line
+
+00:37:14.350 --> 00:37:18.000
+of code at a time in quote
+unquote, reasonable amounts.
+
+00:37:18.000 --> 00:37:19.310
+So let's fast forward here.
+
+00:37:19.310 --> 00:37:21.540
+How would I approach this today?
+
+00:37:21.540 --> 00:37:24.000
+Well, the Learn UI design
+way of doing things is
+
+00:37:24.000 --> 00:37:25.023
+Well, the Learn UI design
+way of doing things is
+
+00:37:25.023 --> 00:37:27.130
+to say, listen every bit
+of white space that we add,
+
+00:37:27.130 --> 00:37:29.450
+along with all these
+other elements, they need
+
+00:37:29.450 --> 00:37:30.000
+to solve problems because
+design is not art,
+
+00:37:30.000 --> 00:37:32.390
+to solve problems because
+design is not art,
+
+00:37:32.390 --> 00:37:35.840
+design is solving a problem,
+very often a business problem.
+
+00:37:35.840 --> 00:37:36.000
+When we go to do something
+like let's say add,
+
+00:37:36.000 --> 00:37:38.990
+When we go to do something
+like let's say add,
+
+00:37:38.990 --> 00:37:40.540
+what would be the first
+margin you would add?
+
+00:37:40.540 --> 00:37:42.000
+Probably some space on the sides here.
+
+00:37:42.000 --> 00:37:43.560
+Probably some space on the sides here.
+
+00:37:43.560 --> 00:37:44.820
+When you add space
+
+00:37:44.820 --> 00:37:47.090
+to the left and to the right of this text
+
+00:37:47.090 --> 00:37:48.000
+what's the problem that
+you're trying to solve?
+
+00:37:48.000 --> 00:37:49.960
+what's the problem that
+you're trying to solve?
+
+00:37:49.960 --> 00:37:51.320
+It should be fairly obvious.
+
+00:37:51.320 --> 00:37:54.000
+The problem is these line
+links will just go to infinity.
+
+00:37:54.000 --> 00:37:55.910
+The problem is these line
+links will just go to infinity.
+
+00:37:55.910 --> 00:37:57.470
+They're completely unbounded.
+
+00:37:57.470 --> 00:38:00.000
+If you had a monitor that
+was 10,000 pixels wide,
+
+00:38:00.000 --> 00:38:00.120
+If you had a monitor that
+was 10,000 pixels wide,
+
+00:38:00.120 --> 00:38:02.330
+you would have texts
+that would go all 10,000
+
+00:38:02.330 --> 00:38:03.163
+of those pixels.
+
+00:38:03.163 --> 00:38:05.410
+And even if I couldn't even
+read it, cause it was so far off
+
+00:38:05.410 --> 00:38:06.000
+to the right, that text was
+still just keep on going.
+
+00:38:06.000 --> 00:38:08.320
+to the right, that text was
+still just keep on going.
+
+00:38:08.320 --> 00:38:10.350
+The problem we're trying
+to solve by adding left
+
+00:38:10.350 --> 00:38:12.000
+and right margin is the
+infinite line length problem.
+
+00:38:12.000 --> 00:38:13.220
+and right margin is the
+infinite line length problem.
+
+00:38:13.220 --> 00:38:14.920
+We want lines that are short enough
+
+00:38:14.920 --> 00:38:17.630
+that like not only do we
+not have to turn our head
+
+00:38:17.630 --> 00:38:18.000
+to go from the beginning,
+from the end of one line
+
+00:38:18.000 --> 00:38:20.010
+to go from the beginning,
+from the end of one line
+
+00:38:20.010 --> 00:38:22.600
+to the beginning of
+the next, but it's easy
+
+00:38:22.600 --> 00:38:24.000
+to keep track of where
+in the document you are
+
+00:38:24.000 --> 00:38:25.320
+to keep track of where
+in the document you are
+
+00:38:25.320 --> 00:38:27.410
+as you go from one line to the next.
+
+00:38:27.410 --> 00:38:29.220
+Now spoiler alert, we've already talked
+
+00:38:29.220 --> 00:38:30.000
+about what the ideal line length was
+
+00:38:30.000 --> 00:38:30.900
+about what the ideal line length was
+
+00:38:30.900 --> 00:38:32.890
+and the introductory unit I even said
+
+00:38:32.890 --> 00:38:36.000
+it's 50 to 75 characters,
+which is generally,
+
+00:38:36.000 --> 00:38:36.290
+it's 50 to 75 characters,
+which is generally,
+
+00:38:36.290 --> 00:38:38.860
+I always do that as
+two to three alphabets.
+
+00:38:38.860 --> 00:38:41.050
+So I've just entered my little ATEX code
+
+00:38:41.050 --> 00:38:42.000
+to enter the alphabet three times.
+
+00:38:42.000 --> 00:38:43.110
+to enter the alphabet three times.
+
+00:38:43.110 --> 00:38:43.943
+And I'm actually
+
+00:38:43.943 --> 00:38:46.290
+I'm going to make this,
+Oh, this is Georgia.
+
+00:38:46.290 --> 00:38:48.000
+This should actually be
+times, huh, there we go.
+
+00:38:48.000 --> 00:38:50.210
+This should actually be
+times, huh, there we go.
+
+00:38:50.210 --> 00:38:52.173
+There's that default text that we want.
+
+00:38:53.520 --> 00:38:54.000
+Go ahead and make sure this is the same.
+
+00:38:54.000 --> 00:38:55.520
+Go ahead and make sure this is the same.
+
+00:38:56.760 --> 00:38:58.300
+Anyhow with this text box,
+
+00:38:58.300 --> 00:39:00.000
+now we can see that this three alphabet,
+
+00:39:00.000 --> 00:39:01.670
+now we can see that this three alphabet,
+
+00:39:01.670 --> 00:39:05.530
+roughly 75 character string
+right here being kind
+
+00:39:05.530 --> 00:39:06.000
+of a natural max width for
+the text box is telling us
+
+00:39:06.000 --> 00:39:08.110
+of a natural max width for
+the text box is telling us
+
+00:39:08.110 --> 00:39:10.650
+we either need to make
+this text box smaller
+
+00:39:10.650 --> 00:39:12.000
+or we need to make the font bigger.
+
+00:39:12.000 --> 00:39:13.020
+or we need to make the font bigger.
+
+00:39:13.020 --> 00:39:14.690
+And we could do a little bit
+
+00:39:14.690 --> 00:39:16.920
+of each like we could
+say, this will be 19.
+
+00:39:16.920 --> 00:39:18.000
+I'm not going to be too strict
+
+00:39:18.000 --> 00:39:18.360
+I'm not going to be too strict
+
+00:39:18.360 --> 00:39:21.350
+about whatever this size is here.
+
+00:39:21.350 --> 00:39:23.000
+I reserve the right to change the width
+
+00:39:23.000 --> 00:39:24.000
+of this text box as this font changes,
+
+00:39:24.000 --> 00:39:25.040
+of this text box as this font changes,
+
+00:39:25.040 --> 00:39:26.630
+and as the font size changes.
+
+00:39:26.630 --> 00:39:27.700
+So if at the end of this,
+
+00:39:27.700 --> 00:39:30.000
+we change fonts and then we
+want to change sizes again,
+
+00:39:30.000 --> 00:39:30.140
+we change fonts and then we
+want to change sizes again,
+
+00:39:30.140 --> 00:39:32.700
+that might also necessitate
+us changing the width
+
+00:39:32.700 --> 00:39:34.320
+of this text box.
+
+00:39:34.320 --> 00:39:36.000
+That being said, if we had
+
+00:39:36.000 --> 00:39:36.970
+That being said, if we had
+
+00:39:38.210 --> 00:39:40.163
+oh whatever let's just do 18 here.
+
+00:39:41.670 --> 00:39:42.000
+Yeah, maybe something
+like this, let's do 530
+
+00:39:42.000 --> 00:39:45.380
+Yeah, maybe something
+like this, let's do 530
+
+00:39:47.400 --> 00:39:48.000
+and I'm gonna do the same thing here.
+
+00:39:48.000 --> 00:39:48.780
+and I'm gonna do the same thing here.
+
+00:39:48.780 --> 00:39:51.360
+They're all going to be
+given a width the 530
+
+00:39:51.360 --> 00:39:53.720
+and they all should be
+aligned with one another,
+
+00:39:53.720 --> 00:39:54.000
+but there we go.
+
+00:39:54.000 --> 00:39:54.800
+but there we go.
+
+00:39:54.800 --> 00:39:56.450
+I can take this, group it,
+
+00:39:56.450 --> 00:39:59.653
+and press option H to
+center it in my page.
+
+00:40:01.110 --> 00:40:05.120
+Now I'm just going to ungroup
+it, command shift G, cool.
+
+00:40:05.120 --> 00:40:06.000
+We've added in the biggest white space
+
+00:40:06.000 --> 00:40:06.910
+We've added in the biggest white space
+
+00:40:06.910 --> 00:40:07.960
+on the page, the white space
+
+00:40:07.960 --> 00:40:09.900
+that's on the right
+side and the left side.
+
+00:40:09.900 --> 00:40:11.410
+And by doing so, we've solved
+
+00:40:11.410 --> 00:40:12.000
+the infinite line length problem.
+
+00:40:12.000 --> 00:40:12.830
+the infinite line length problem.
+
+00:40:12.830 --> 00:40:16.890
+We've now made this reading
+text an ideal line length,
+
+00:40:16.890 --> 00:40:18.000
+somewhere in the vicinity of
+50 to 75 characters per line.
+
+00:40:18.000 --> 00:40:20.360
+somewhere in the vicinity of
+50 to 75 characters per line.
+
+00:40:20.360 --> 00:40:21.540
+Now this strikes me as good
+
+00:40:21.540 --> 00:40:22.900
+for a couple of different reasons.
+
+00:40:22.900 --> 00:40:24.000
+First of all, it's easier
+to read, that's awesome.
+
+00:40:24.000 --> 00:40:25.270
+First of all, it's easier
+to read, that's awesome.
+
+00:40:25.270 --> 00:40:29.010
+Second of all these margins
+add a lot of breathing room.
+
+00:40:29.010 --> 00:40:30.000
+And third of all,
+
+00:40:30.000 --> 00:40:30.420
+And third of all,
+
+00:40:30.420 --> 00:40:32.860
+even beyond just having
+breathing room here,
+
+00:40:32.860 --> 00:40:34.280
+I just have this sense of like,
+
+00:40:34.280 --> 00:40:36.000
+this was, this is non
+default, we have went
+
+00:40:36.000 --> 00:40:37.200
+this was, this is non
+default, we have went
+
+00:40:37.200 --> 00:40:39.830
+from a totally default
+webpage that makes you
+
+00:40:39.830 --> 00:40:42.000
+think you're seeing some
+technical website that's been
+
+00:40:42.000 --> 00:40:42.660
+think you're seeing some
+technical website that's been
+
+00:40:42.660 --> 00:40:46.060
+up since 1995 to seeing
+something that a little
+
+00:40:46.060 --> 00:40:48.000
+more care was put into, not
+much, but just a tiny bit.
+
+00:40:48.000 --> 00:40:50.020
+more care was put into, not
+much, but just a tiny bit.
+
+00:40:50.020 --> 00:40:52.070
+All right, now let's look at the next type
+
+00:40:52.070 --> 00:40:53.730
+of spacing that you'd probably add
+
+00:40:53.730 --> 00:40:54.000
+which is the spacing above this header.
+
+00:40:54.000 --> 00:40:55.510
+which is the spacing above this header.
+
+00:40:55.510 --> 00:40:58.230
+Again, we're going to use
+white space to solve a problem.
+
+00:40:58.230 --> 00:41:00.000
+So let's say, what problem are we solving
+
+00:41:00.000 --> 00:41:00.060
+So let's say, what problem are we solving
+
+00:41:00.060 --> 00:41:03.270
+by putting white space above this header?
+
+00:41:03.270 --> 00:41:05.260
+One of our laws of white
+space was to use white space
+
+00:41:05.260 --> 00:41:06.000
+to make things look presented
+or to draw out focal points.
+
+00:41:06.000 --> 00:41:08.410
+to make things look presented
+or to draw out focal points.
+
+00:41:08.410 --> 00:41:11.510
+So to some degree, this
+chapter one, then the title
+
+00:41:11.510 --> 00:41:12.000
+of chapter one, that is a
+focal point of the page.
+
+00:41:12.000 --> 00:41:14.790
+of chapter one, that is a
+focal point of the page.
+
+00:41:14.790 --> 00:41:17.900
+And so white space will kind
+of surround it probably more
+
+00:41:17.900 --> 00:41:18.000
+than any other element so
+
+00:41:18.000 --> 00:41:19.190
+than any other element so
+
+00:41:19.190 --> 00:41:22.620
+that it appears like a focal point should.
+
+00:41:22.620 --> 00:41:24.000
+But we can also use our
+strategy from the first unit
+
+00:41:24.000 --> 00:41:25.690
+But we can also use our
+strategy from the first unit
+
+00:41:25.690 --> 00:41:28.050
+of saying let's fail left and fail right.
+
+00:41:28.050 --> 00:41:30.000
+And say like, what is too small
+
+00:41:30.000 --> 00:41:30.200
+And say like, what is too small
+
+00:41:30.200 --> 00:41:33.400
+a value of white space for
+the top, like 10 pixels?
+
+00:41:33.400 --> 00:41:36.000
+Yeah, that doesn't even look
+like any white space, frankly.
+
+00:41:36.000 --> 00:41:37.050
+Yeah, that doesn't even look
+like any white space, frankly.
+
+00:41:37.050 --> 00:41:39.720
+That could be the browser
+default and no one wrote any CSS
+
+00:41:39.720 --> 00:41:41.460
+to make things look more designed.
+
+00:41:41.460 --> 00:41:42.000
+What would appear like too much?
+
+00:41:42.000 --> 00:41:43.230
+What would appear like too much?
+
+00:41:43.230 --> 00:41:44.900
+Well, here's one answer.
+
+00:41:44.900 --> 00:41:46.280
+Tell you if this tech started halfway
+
+00:41:46.280 --> 00:41:48.000
+down the page on a desktop
+monitor, I would think is there
+
+00:41:48.000 --> 00:41:49.510
+down the page on a desktop
+monitor, I would think is there
+
+00:41:49.510 --> 00:41:51.940
+like supposed to be an image
+here that's not loading
+
+00:41:51.940 --> 00:41:54.000
+or something, like this
+just feels awkward.
+
+00:41:54.000 --> 00:41:54.300
+or something, like this
+just feels awkward.
+
+00:41:54.300 --> 00:41:55.720
+So we're definitely not going to do that.
+
+00:41:55.720 --> 00:41:56.880
+Let's pick a solution,
+
+00:41:56.880 --> 00:41:58.520
+we're going to go probably
+a little bit closer
+
+00:41:58.520 --> 00:42:00.000
+to the lower bounds here
+of having no white space.
+
+00:42:00.000 --> 00:42:00.920
+to the lower bounds here
+of having no white space.
+
+00:42:00.920 --> 00:42:02.900
+But what does this turn out to be?
+
+00:42:02.900 --> 00:42:05.220
+88 pixels of white space.
+
+00:42:05.220 --> 00:42:06.000
+Cool, at least for our intents
+
+00:42:06.000 --> 00:42:06.490
+Cool, at least for our intents
+
+00:42:06.490 --> 00:42:09.390
+and purposes right now,
+88 works just fine.
+
+00:42:09.390 --> 00:42:11.580
+Now, when we look at this
+little element right here,
+
+00:42:11.580 --> 00:42:12.000
+this is styled as a level
+two header an H two and HTML
+
+00:42:12.000 --> 00:42:16.400
+this is styled as a level
+two header an H two and HTML
+
+00:42:16.400 --> 00:42:18.000
+but it's not really so
+much a header as it is kind
+
+00:42:18.000 --> 00:42:19.610
+but it's not really so
+much a header as it is kind
+
+00:42:19.610 --> 00:42:23.730
+of the time and place where
+this chapter takes place.
+
+00:42:23.730 --> 00:42:24.000
+It's the setting.
+
+00:42:24.000 --> 00:42:24.790
+It's the setting.
+
+00:42:24.790 --> 00:42:27.450
+So I'm actually going to use
+the default text styling here
+
+00:42:27.450 --> 00:42:30.000
+and I'll just do option
+command C to copy the style,
+
+00:42:30.000 --> 00:42:30.260
+and I'll just do option
+command C to copy the style,
+
+00:42:30.260 --> 00:42:32.840
+option command V to paste the style.
+
+00:42:32.840 --> 00:42:34.100
+And then I'm going to unbold it
+
+00:42:34.100 --> 00:42:36.000
+by of course, pressing control B.
+
+00:42:36.000 --> 00:42:36.930
+by of course, pressing control B.
+
+00:42:36.930 --> 00:42:38.680
+There's a little bit of
+extra line spacing there
+
+00:42:38.680 --> 00:42:39.750
+which I'm going to remove for right now,
+
+00:42:39.750 --> 00:42:41.710
+cause that's kind of awkward.
+
+00:42:41.710 --> 00:42:42.000
+And there we go.
+
+00:42:42.000 --> 00:42:42.543
+And there we go.
+
+00:42:42.543 --> 00:42:45.490
+That actually looks better
+even just like that.
+
+00:42:45.490 --> 00:42:47.262
+But then one other thing I'm going
+
+00:42:47.262 --> 00:42:48.000
+to do is this chapter
+one, in some sense is kind
+
+00:42:48.000 --> 00:42:50.290
+to do is this chapter
+one, in some sense is kind
+
+00:42:50.290 --> 00:42:53.230
+of like a label for the
+name of the chapter.
+
+00:42:53.230 --> 00:42:54.000
+So I'm actually just going to put the name
+
+00:42:54.000 --> 00:42:54.790
+So I'm actually just going to put the name
+
+00:42:54.790 --> 00:42:55.860
+of the chapter here
+
+00:42:55.860 --> 00:42:58.863
+but I'm going to put a label
+above it that says chapter one.
+
+00:43:00.150 --> 00:43:02.350
+I think it needs a
+colon, let's add a colon.
+
+00:43:03.740 --> 00:43:05.993
+Yeah, there we go. That's
+a little bit better.
+
+00:43:07.210 --> 00:43:09.290
+All right, now I'm just going to kind of
+
+00:43:09.290 --> 00:43:12.000
+put in some white space
+here so it feels neat.
+
+00:43:12.000 --> 00:43:13.180
+And just going to kind of like mess around
+
+00:43:13.180 --> 00:43:14.940
+with things just a little bit,
+
+00:43:14.940 --> 00:43:17.540
+actually, honestly this
+feels pretty good how it is.
+
+00:43:19.290 --> 00:43:20.697
+Yeah, there we go, I like this.
+
+00:43:20.697 --> 00:43:23.840
+Now look in some sense,
+this is actually, if I,
+
+00:43:23.840 --> 00:43:24.000
+if I did this, correct, let's see here,
+
+00:43:24.000 --> 00:43:25.250
+if I did this, correct, let's see here,
+
+00:43:25.250 --> 00:43:27.120
+this should be an example
+
+00:43:27.120 --> 00:43:30.000
+of external spacing being
+greater than internal spacing.
+
+00:43:30.000 --> 00:43:30.240
+of external spacing being
+greater than internal spacing.
+
+00:43:30.240 --> 00:43:32.650
+So what, what's the most
+internal spacing we have?
+
+00:43:32.650 --> 00:43:34.410
+What's the logically, the
+smallest little group,
+
+00:43:34.410 --> 00:43:36.000
+is probably this chapter one label,
+
+00:43:36.000 --> 00:43:36.570
+is probably this chapter one label,
+
+00:43:36.570 --> 00:43:38.040
+and then the name of chapter one.
+
+00:43:38.040 --> 00:43:40.320
+And what's the spacing
+between these things?
+
+00:43:40.320 --> 00:43:42.000
+There's none, there's zero pixels
+
+00:43:42.000 --> 00:43:42.030
+There's none, there's zero pixels
+
+00:43:42.030 --> 00:43:44.240
+of space between these two text boxes.
+
+00:43:44.240 --> 00:43:46.400
+And by the way, when you're
+checking internal spacing
+
+00:43:46.400 --> 00:43:48.000
+and external spacing with text here again
+
+00:43:48.000 --> 00:43:48.840
+and external spacing with text here again
+
+00:43:48.840 --> 00:43:50.790
+the space of the text
+
+00:43:50.790 --> 00:43:54.000
+like on one hand, that zero
+pixels of space, right?
+
+00:43:54.000 --> 00:43:55.040
+like on one hand, that zero
+pixels of space, right?
+
+00:43:55.040 --> 00:43:56.627
+That's zero pixels of visual space.
+
+00:43:56.627 --> 00:43:59.240
+And the visual is ultimately what matters
+
+00:43:59.240 --> 00:44:00.000
+but generally it can be a good shorthand
+
+00:44:00.000 --> 00:44:02.290
+but generally it can be a good shorthand
+
+00:44:02.290 --> 00:44:05.810
+to check just how far apart
+the bounding boxes are
+
+00:44:05.810 --> 00:44:06.000
+but don't necessarily think
+
+00:44:06.000 --> 00:44:07.020
+but don't necessarily think
+
+00:44:07.020 --> 00:44:09.110
+that for text it's kind
+of the be-all-end-all.
+
+00:44:09.110 --> 00:44:11.860
+Visually what you want to do is make sure
+
+00:44:11.860 --> 00:44:12.000
+that the internal spacing
+always appears less
+
+00:44:12.000 --> 00:44:14.410
+that the internal spacing
+always appears less
+
+00:44:14.410 --> 00:44:17.400
+even if the numbers are
+a little wonky in places.
+
+00:44:17.400 --> 00:44:18.000
+All right, so then I have chapter one
+
+00:44:18.000 --> 00:44:19.100
+All right, so then I have chapter one
+
+00:44:19.100 --> 00:44:20.970
+and the name of chapter one.
+
+00:44:20.970 --> 00:44:23.600
+Let's consider this little
+setting element here.
+
+00:44:23.600 --> 00:44:24.000
+Now, this setting for chapter one,
+
+00:44:24.000 --> 00:44:26.310
+Now, this setting for chapter one,
+
+00:44:26.310 --> 00:44:29.690
+does that seem more related
+to the title of chapter one
+
+00:44:29.690 --> 00:44:30.000
+or does that seem more related
+to content of chapter one?
+
+00:44:30.000 --> 00:44:32.620
+or does that seem more related
+to content of chapter one?
+
+00:44:32.620 --> 00:44:33.800
+To me it almost feels
+
+00:44:33.800 --> 00:44:36.000
+like it's more a sub property
+of the title itself, right?
+
+00:44:36.000 --> 00:44:37.620
+like it's more a sub property
+of the title itself, right?
+
+00:44:37.620 --> 00:44:40.200
+It's kind of like the
+metadata about this chapter.
+
+00:44:40.200 --> 00:44:41.540
+It's not really content.
+
+00:44:41.540 --> 00:44:42.000
+And so it more seems like it fits
+
+00:44:42.000 --> 00:44:43.830
+And so it more seems like it fits
+
+00:44:43.830 --> 00:44:45.350
+in a group with these elements
+
+00:44:45.350 --> 00:44:48.000
+rather than in a group
+with the text itself.
+
+00:44:48.000 --> 00:44:48.500
+rather than in a group
+with the text itself.
+
+00:44:48.500 --> 00:44:51.130
+And consequently, if
+you look here, let's see
+
+00:44:51.130 --> 00:44:52.930
+this is 22 pixels of space.
+
+00:44:52.930 --> 00:44:54.000
+Yeah, and this is 38 pixels of space.
+
+00:44:54.000 --> 00:44:55.260
+Yeah, and this is 38 pixels of space.
+
+00:44:55.260 --> 00:44:58.500
+So if you then consider
+this as the smallest group,
+
+00:44:58.500 --> 00:44:59.930
+the internal spacing is zero.
+
+00:44:59.930 --> 00:45:00.000
+If you consider this as
+the next smallest group,
+
+00:45:00.000 --> 00:45:02.010
+If you consider this as
+the next smallest group,
+
+00:45:02.010 --> 00:45:04.210
+the internal spacing is 22.
+
+00:45:04.210 --> 00:45:06.000
+If you then consider this
+as another group down here
+
+00:45:06.000 --> 00:45:06.950
+If you then consider this
+as another group down here
+
+00:45:06.950 --> 00:45:10.670
+it's the external spacing, 38 pixels.
+
+00:45:10.670 --> 00:45:12.000
+So just kind of eyeballing
+things, I have gotten
+
+00:45:12.000 --> 00:45:14.140
+So just kind of eyeballing
+things, I have gotten
+
+00:45:14.140 --> 00:45:16.780
+to the point where I'm naturally going
+
+00:45:16.780 --> 00:45:18.000
+to start thinking what kind
+
+00:45:18.000 --> 00:45:18.520
+to start thinking what kind
+
+00:45:18.520 --> 00:45:19.770
+of belongs near one thing or the other.
+
+00:45:19.770 --> 00:45:21.020
+It's not to say, you always need
+
+00:45:21.020 --> 00:45:22.870
+to do this but if you don't
+find yourself doing it
+
+00:45:22.870 --> 00:45:24.000
+the vast majority of the time,
+just be repeating yourself
+
+00:45:24.000 --> 00:45:25.480
+the vast majority of the time,
+just be repeating yourself
+
+00:45:25.480 --> 00:45:29.640
+as you design, internal spacing
+less than external spacing.
+
+00:45:29.640 --> 00:45:30.000
+Your goal is to follow the rule explicitly
+
+00:45:30.000 --> 00:45:31.510
+Your goal is to follow the rule explicitly
+
+00:45:31.510 --> 00:45:34.760
+until it just becomes this
+automatic unconscious process.
+
+00:45:34.760 --> 00:45:36.000
+All right, so maybe I would
+also just add in something that
+
+00:45:36.000 --> 00:45:39.210
+All right, so maybe I would
+also just add in something that
+
+00:45:39.210 --> 00:45:42.000
+was like the name of the novel "Diaspora"
+
+00:45:42.000 --> 00:45:42.970
+was like the name of the novel "Diaspora"
+
+00:45:42.970 --> 00:45:45.210
+and it's by Greg Egan.
+
+00:45:45.210 --> 00:45:48.000
+So maybe what I would do is put
+
+00:45:48.000 --> 00:45:48.020
+So maybe what I would do is put
+
+00:45:48.020 --> 00:45:50.110
+in a little dash between
+the names, actually, sorry
+
+00:45:50.110 --> 00:45:52.803
+a dash as this character, let's add this.
+
+00:45:52.803 --> 00:45:54.000
+I'm going to put in a longer form of dash.
+
+00:45:54.000 --> 00:45:55.960
+I'm going to put in a longer form of dash.
+
+00:45:55.960 --> 00:45:57.490
+There is the n-dash
+
+00:45:57.490 --> 00:46:00.000
+which you can create by
+pressing option and then dash
+
+00:46:00.000 --> 00:46:00.960
+which you can create by
+pressing option and then dash
+
+00:46:00.960 --> 00:46:04.330
+or there is if you press
+shift option dash, the m-dash.
+
+00:46:04.330 --> 00:46:06.000
+And this is the longest
+one, not every font has it
+
+00:46:06.000 --> 00:46:06.790
+And this is the longest
+one, not every font has it
+
+00:46:06.790 --> 00:46:08.350
+but it's kind of cool looking.
+
+00:46:08.350 --> 00:46:10.880
+And it's like, since
+most people don't use it,
+
+00:46:10.880 --> 00:46:12.000
+it's so long that it looks
+like a little more designed.
+
+00:46:12.000 --> 00:46:13.720
+it's so long that it looks
+like a little more designed.
+
+00:46:13.720 --> 00:46:16.130
+Of course, I'll just give
+this just a bit of space
+
+00:46:17.240 --> 00:46:18.000
+and there we go.
+
+00:46:18.000 --> 00:46:18.140
+and there we go.
+
+00:46:18.140 --> 00:46:19.480
+And this is really its own group, right?
+
+00:46:19.480 --> 00:46:20.600
+This is kind of the nav.
+
+00:46:20.600 --> 00:46:22.640
+It's not really related
+to this content at all.
+
+00:46:22.640 --> 00:46:23.473
+Let's see, in fact
+
+00:46:23.473 --> 00:46:24.000
+is this 45 pixels of space,
+even greater than this.
+
+00:46:24.000 --> 00:46:26.830
+is this 45 pixels of space,
+even greater than this.
+
+00:46:26.830 --> 00:46:30.000
+So even adding this in like
+all the internal spacing
+
+00:46:30.000 --> 00:46:31.190
+So even adding this in like
+all the internal spacing
+
+00:46:31.190 --> 00:46:32.980
+and external spacing constraints here,
+
+00:46:32.980 --> 00:46:35.940
+I am following unconsciously, pretty cool.
+
+00:46:35.940 --> 00:46:36.000
+Okay, it's at this point
+though, that I want
+
+00:46:36.000 --> 00:46:38.150
+Okay, it's at this point
+though, that I want
+
+00:46:38.150 --> 00:46:42.000
+to direct your attention to
+both of them at the same time
+
+00:46:42.000 --> 00:46:42.110
+to direct your attention to
+both of them at the same time
+
+00:46:42.110 --> 00:46:44.560
+just bask in how much better this looks.
+
+00:46:44.560 --> 00:46:46.850
+Like, this is still the same
+
+00:46:46.850 --> 00:46:48.000
+unstyled obnoxious times font that you see
+
+00:46:48.000 --> 00:46:50.220
+unstyled obnoxious times font that you see
+
+00:46:50.220 --> 00:46:52.940
+on a website where there's
+no styling entered,
+
+00:46:52.940 --> 00:46:54.000
+but even so this is a
+world apart from this.
+
+00:46:54.000 --> 00:46:56.730
+but even so this is a
+world apart from this.
+
+00:46:56.730 --> 00:46:59.100
+In fact, if someone showed
+me this and it was like
+
+00:46:59.100 --> 00:47:00.000
+I'm not a designer, I
+think, yeah, you are.
+
+00:47:00.000 --> 00:47:02.103
+I'm not a designer, I
+think, yeah, you are.
+
+00:47:02.960 --> 00:47:06.000
+We may not have picked any
+fancy fonts for this, but just
+
+00:47:06.000 --> 00:47:06.260
+We may not have picked any
+fancy fonts for this, but just
+
+00:47:06.260 --> 00:47:10.540
+from the white space alone,
+it feels much more considered.
+
+00:47:10.540 --> 00:47:12.000
+Okay, so now we're at the
+point where I do actually
+
+00:47:12.000 --> 00:47:12.640
+Okay, so now we're at the
+point where I do actually
+
+00:47:12.640 --> 00:47:13.780
+want to pick a couple of fonts.
+
+00:47:13.780 --> 00:47:15.170
+And then once I do that,
+
+00:47:15.170 --> 00:47:17.920
+we'll be able to talk about
+the space between paragraphs,
+
+00:47:17.920 --> 00:47:18.000
+the space between lines, the
+space, even between characters.
+
+00:47:18.000 --> 00:47:20.890
+the space between lines, the
+space, even between characters.
+
+00:47:20.890 --> 00:47:22.840
+The thing is how you talk
+
+00:47:22.840 --> 00:47:24.000
+about that changes depending on the font.
+
+00:47:24.000 --> 00:47:25.240
+about that changes depending on the font.
+
+00:47:25.240 --> 00:47:27.310
+So I want to make sure
+we have the fonts nailed,
+
+00:47:27.310 --> 00:47:30.000
+and once those are dialed
+in, then we will switch
+
+00:47:30.000 --> 00:47:30.010
+and once those are dialed
+in, then we will switch
+
+00:47:30.010 --> 00:47:33.420
+over to talking about the
+details of spacing within text.
+
+00:47:33.420 --> 00:47:36.000
+I'm not going to go into super
+depth on how to pick fonts
+
+00:47:36.000 --> 00:47:36.370
+I'm not going to go into super
+depth on how to pick fonts
+
+00:47:36.370 --> 00:47:39.230
+in this unit, but I will just say, okay
+
+00:47:39.230 --> 00:47:41.450
+knowing that this is a
+scifi book, I'm going to
+
+00:47:41.450 --> 00:47:42.000
+be picking some kind of more
+squared off or geometric fonts.
+
+00:47:42.000 --> 00:47:45.170
+be picking some kind of more
+squared off or geometric fonts.
+
+00:47:45.170 --> 00:47:46.590
+When I saw all these numbers here,
+
+00:47:46.590 --> 00:47:48.000
+I immediately thought I
+should use a monospace font.
+
+00:47:48.000 --> 00:47:49.180
+I immediately thought I
+should use a monospace font.
+
+00:47:49.180 --> 00:47:50.990
+Well, one of my favorite monospace fonts
+
+00:47:50.990 --> 00:47:54.000
+is one called carbon, which
+is very scifi feeling.
+
+00:47:54.000 --> 00:47:55.990
+is one called carbon, which
+is very scifi feeling.
+
+00:47:56.090 --> 00:47:57.320
+This is nice because all the numbers
+
+00:47:57.320 --> 00:47:59.390
+then line up from line to line.
+
+00:47:59.390 --> 00:48:00.000
+And I can just copy
+that and paste it here,
+
+00:48:00.000 --> 00:48:03.030
+And I can just copy
+that and paste it here,
+
+00:48:03.030 --> 00:48:04.980
+that same style and paste it here.
+
+00:48:04.980 --> 00:48:06.000
+That's good right there.
+
+00:48:06.000 --> 00:48:06.600
+That's good right there.
+
+00:48:06.600 --> 00:48:09.580
+All of a sudden, my m-dash becomes like
+
+00:48:09.580 --> 00:48:11.180
+an underscore character.
+
+00:48:11.180 --> 00:48:12.000
+So I'm going to need to do something else
+
+00:48:12.000 --> 00:48:13.990
+So I'm going to need to do something else
+
+00:48:13.990 --> 00:48:17.130
+to distinguish the title of
+the book from the author.
+
+00:48:17.130 --> 00:48:18.000
+That should be fine.
+
+00:48:18.000 --> 00:48:18.143
+That should be fine.
+
+00:48:19.040 --> 00:48:21.940
+And carbon, like many
+fonts is one that is good
+
+00:48:21.940 --> 00:48:24.000
+but it's even better upper case.
+
+00:48:24.000 --> 00:48:24.710
+but it's even better upper case.
+
+00:48:24.710 --> 00:48:25.690
+When I make that uppercase,
+
+00:48:25.690 --> 00:48:28.513
+it just looks even crisper
+and cleaner and better.
+
+00:48:30.890 --> 00:48:34.020
+But one thing I am going
+to do is shrink it too.
+
+00:48:34.020 --> 00:48:35.630
+Again this is just one more thing
+
+00:48:35.630 --> 00:48:36.000
+that's just going to have it
+appear a little bit crisper.
+
+00:48:36.000 --> 00:48:38.913
+that's just going to have it
+appear a little bit crisper.
+
+00:48:40.020 --> 00:48:42.000
+It's a weird effect, but
+that happens to text plenty.
+
+00:48:42.000 --> 00:48:42.170
+It's a weird effect, but
+that happens to text plenty.
+
+00:48:42.170 --> 00:48:43.570
+You make it just a little bit smaller
+
+00:48:43.570 --> 00:48:45.010
+and yeah, it might get harder to read
+
+00:48:45.010 --> 00:48:46.940
+but it just feels a little bit crisper.
+
+00:48:46.940 --> 00:48:48.000
+That's really the best
+word I can think of for it.
+
+00:48:48.000 --> 00:48:49.440
+That's really the best
+word I can think of for it.
+
+00:48:50.300 --> 00:48:51.760
+The spacing is starting to get messed up
+
+00:48:51.760 --> 00:48:54.000
+as I pick out fonts here, so we'll just
+
+00:48:54.000 --> 00:48:54.350
+as I pick out fonts here, so we'll just
+
+00:48:54.350 --> 00:48:56.380
+get through it and then readjust things.
+
+00:48:56.380 --> 00:48:58.210
+For the title, another one of the fonts
+
+00:48:58.210 --> 00:49:00.000
+that I most recommend is abolition
+
+00:49:00.000 --> 00:49:00.900
+that I most recommend is abolition
+
+00:49:00.900 --> 00:49:03.840
+which is just incredibly geometric
+
+00:49:03.840 --> 00:49:06.000
+and angular and looks very
+good in a scifi setting,
+
+00:49:06.000 --> 00:49:07.410
+and angular and looks very
+good in a scifi setting,
+
+00:49:07.410 --> 00:49:09.130
+I mean, along with the
+zillion other settings,
+
+00:49:09.130 --> 00:49:10.750
+I really love it.
+
+00:49:10.750 --> 00:49:12.000
+Now, if I have this here
+picking the exact font size
+
+00:49:12.000 --> 00:49:12.885
+Now, if I have this here
+picking the exact font size
+
+00:49:12.885 --> 00:49:15.490
+is not something I can
+really commit to right now.
+
+00:49:15.490 --> 00:49:16.540
+What I'd want to do is see
+
+00:49:16.540 --> 00:49:18.000
+how long are all the chapter
+titles in this whole book?
+
+00:49:18.000 --> 00:49:19.110
+how long are all the chapter
+titles in this whole book?
+
+00:49:19.110 --> 00:49:19.943
+Because if there's some
+
+00:49:19.943 --> 00:49:21.400
+that are going to be three lines long,
+
+00:49:21.400 --> 00:49:23.130
+then this will probably
+be a little bit smaller.
+
+00:49:23.130 --> 00:49:24.000
+However, if they're all only one word,
+
+00:49:24.000 --> 00:49:24.990
+However, if they're all only one word,
+
+00:49:24.990 --> 00:49:27.720
+then I can probably more safely
+make this default font size
+
+00:49:27.720 --> 00:49:28.950
+a little bit bigger.
+
+00:49:28.950 --> 00:49:30.000
+Font sizes, and the actual
+real data that they apply to
+
+00:49:30.000 --> 00:49:31.960
+Font sizes, and the actual
+real data that they apply to
+
+00:49:31.960 --> 00:49:34.150
+is like one of those
+chicken and egg problems
+
+00:49:34.150 --> 00:49:36.000
+in design where you should
+never fully finally commit
+
+00:49:36.000 --> 00:49:36.690
+in design where you should
+never fully finally commit
+
+00:49:36.690 --> 00:49:38.710
+to one before you've seen the other.
+
+00:49:38.710 --> 00:49:40.560
+Even then they'll continue
+to inform each other.
+
+00:49:40.560 --> 00:49:42.000
+And the work of design just never ends.
+
+00:49:42.000 --> 00:49:43.300
+And the work of design just never ends.
+
+00:49:43.300 --> 00:49:45.090
+For the body font, I
+actually tried a couple
+
+00:49:45.090 --> 00:49:46.640
+of different ones but the one I landed on
+
+00:49:46.640 --> 00:49:48.000
+was this Google font called Noticia Text.
+
+00:49:48.000 --> 00:49:49.447
+was this Google font called Noticia Text.
+
+00:49:49.447 --> 00:49:52.440
+And Noticia is awesome
+because it's a serif font,
+
+00:49:52.440 --> 00:49:53.710
+It feels a little bit more stately.
+
+00:49:53.710 --> 00:49:54.000
+It's good for long form
+reading, it's very readable.
+
+00:49:54.000 --> 00:49:56.480
+It's good for long form
+reading, it's very readable.
+
+00:49:56.480 --> 00:49:58.090
+But if you look at these letter forms,
+
+00:49:58.090 --> 00:50:00.000
+they're like not angular,
+
+00:50:00.000 --> 00:50:00.340
+they're like not angular,
+
+00:50:00.340 --> 00:50:01.740
+but they're like a
+little more squared off.
+
+00:50:01.740 --> 00:50:03.400
+This isn't just like a round O,
+
+00:50:03.400 --> 00:50:05.270
+and it's not like it's a full-on rectangle
+
+00:50:05.270 --> 00:50:06.000
+in the middle here, but just that hint
+
+00:50:06.000 --> 00:50:07.110
+in the middle here, but just that hint
+
+00:50:07.110 --> 00:50:10.300
+of rectangularness makes
+this play very nicely
+
+00:50:10.300 --> 00:50:11.610
+with these fonts where, I mean
+
+00:50:11.610 --> 00:50:12.000
+literally they're geometrical shapes.
+
+00:50:12.000 --> 00:50:13.670
+literally they're geometrical shapes.
+
+00:50:13.670 --> 00:50:16.210
+You know, it's a good balance
+
+00:50:16.210 --> 00:50:18.000
+between something you
+need to read for hours
+
+00:50:18.000 --> 00:50:18.200
+between something you
+need to read for hours
+
+00:50:18.200 --> 00:50:22.283
+at a time and something
+that fits in a scifi book.
+
+00:50:23.510 --> 00:50:24.000
+I might do something with
+some of these labels here,
+
+00:50:24.000 --> 00:50:27.770
+I might do something with
+some of these labels here,
+
+00:50:27.770 --> 00:50:30.000
+but if I make them bold, I
+might kind of counteract them
+
+00:50:30.000 --> 00:50:30.770
+but if I make them bold, I
+might kind of counteract them
+
+00:50:30.770 --> 00:50:35.477
+by making them just a little
+bit lighter too, 80%, 90%.
+
+00:50:36.510 --> 00:50:40.080
+There we go, okay, and this text, it looks
+
+00:50:40.080 --> 00:50:42.000
+like this is kind of
+on the short side now.
+
+00:50:42.000 --> 00:50:42.230
+like this is kind of
+on the short side now.
+
+00:50:42.230 --> 00:50:46.180
+I might try, Oh, whatever,
+let's just go with 17.
+
+00:50:46.180 --> 00:50:48.000
+All right, that strikes me as good enough
+
+00:50:48.000 --> 00:50:48.390
+All right, that strikes me as good enough
+
+00:50:48.390 --> 00:50:50.410
+for picking fonts at least for
+a little exercise like this.
+
+00:50:50.410 --> 00:50:52.270
+Let's talk about now, some
+
+00:50:52.270 --> 00:50:54.000
+of the spacing inherent
+to this body text here.
+
+00:50:54.000 --> 00:50:55.000
+of the spacing inherent
+to this body text here.
+
+00:50:55.000 --> 00:50:57.200
+First there's the space between lines.
+
+00:50:57.200 --> 00:50:59.230
+Now, again, if we're going to
+do this Learn UI design way
+
+00:50:59.230 --> 00:51:00.000
+we're going to say what
+problem is the space
+
+00:51:00.000 --> 00:51:01.304
+we're going to say what
+problem is the space
+
+00:51:01.304 --> 00:51:03.320
+between lines trying to solve?
+
+00:51:03.320 --> 00:51:05.760
+Well, there's a really
+obvious answer to that.
+
+00:51:05.760 --> 00:51:06.000
+There's space between lines
+so that your eyes can track
+
+00:51:06.000 --> 00:51:08.200
+There's space between lines
+so that your eyes can track
+
+00:51:08.200 --> 00:51:10.740
+from the end of one line to
+the beginning of the next line.
+
+00:51:10.740 --> 00:51:12.000
+And so we want there to be enough space
+
+00:51:12.000 --> 00:51:12.920
+And so we want there to be enough space
+
+00:51:12.920 --> 00:51:14.520
+so that that's easy to do.
+
+00:51:14.520 --> 00:51:15.500
+One of the easiest ways
+
+00:51:15.500 --> 00:51:18.000
+to test for that is just
+to like read a paragraph.
+
+00:51:18.000 --> 00:51:18.090
+to test for that is just
+to like read a paragraph.
+
+00:51:18.090 --> 00:51:20.870
+Okay, so as I read a little
+bit, I'm just making sure
+
+00:51:20.870 --> 00:51:23.410
+that my eyes can easily
+track from one to the next.
+
+00:51:23.410 --> 00:51:24.000
+And that seems to be the case.
+
+00:51:24.000 --> 00:51:25.430
+And that seems to be the case.
+
+00:51:25.430 --> 00:51:26.860
+Now this is interesting
+
+00:51:26.860 --> 00:51:29.640
+because let's say 23,
+we'll make it explicit.
+
+00:51:29.640 --> 00:51:30.000
+That's what that value is.
+
+00:51:30.000 --> 00:51:31.070
+That's what that value is.
+
+00:51:31.070 --> 00:51:32.960
+Could even bump it up one
+
+00:51:32.960 --> 00:51:35.110
+probably not going to be any harm in that.
+
+00:51:35.110 --> 00:51:36.000
+I just want to tell you,
+you'll probably see out there
+
+00:51:36.000 --> 00:51:37.250
+I just want to tell you,
+you'll probably see out there
+
+00:51:37.250 --> 00:51:40.960
+some people recommending doing
+things like giving you ratio.
+
+00:51:40.960 --> 00:51:42.000
+So 24 divided by 17.
+24 divided by 17, 1.4.
+
+00:51:42.000 --> 00:51:45.600
+So 24 divided by 17.
+24 divided by 17, 1.4.
+
+00:51:45.600 --> 00:51:48.000
+So some people say, Oh,
+1.4, 140% is, you know
+
+00:51:48.000 --> 00:51:49.950
+So some people say, Oh,
+1.4, 140% is, you know
+
+00:51:49.950 --> 00:51:50.890
+good letter spacing.
+
+00:51:50.890 --> 00:51:53.930
+Actually that is a number that
+I've seen 140% is the best
+
+00:51:53.930 --> 00:51:54.000
+excuse me, not letter spacing,
+the best line height to use,
+
+00:51:54.000 --> 00:51:57.310
+excuse me, not letter spacing,
+the best line height to use,
+
+00:51:57.310 --> 00:51:59.180
+but the truth is the line height,
+
+00:51:59.180 --> 00:52:00.000
+it just totally depends on the line.
+
+00:52:00.000 --> 00:52:01.260
+it just totally depends on the line.
+
+00:52:01.260 --> 00:52:02.960
+It depends first of all, on the font
+
+00:52:02.960 --> 00:52:05.680
+because different fonts have
+different line heights built
+
+00:52:05.680 --> 00:52:06.000
+in sort of naturally, but it also depends
+
+00:52:06.000 --> 00:52:08.260
+in sort of naturally, but it also depends
+
+00:52:08.260 --> 00:52:09.583
+on the length of the line,
+
+00:52:10.620 --> 00:52:12.000
+because the purpose of line
+height is to make it easy
+
+00:52:12.000 --> 00:52:12.470
+because the purpose of line
+height is to make it easy
+
+00:52:12.470 --> 00:52:14.200
+to go from one line to the next.
+
+00:52:14.200 --> 00:52:16.700
+If there's not very many
+characters per line,
+
+00:52:16.700 --> 00:52:18.000
+such as in a title, the
+very long title that goes
+
+00:52:18.000 --> 00:52:20.730
+such as in a title, the
+very long title that goes
+
+00:52:20.730 --> 00:52:24.000
+on forever, then I don't
+need 140% line height here.
+
+00:52:24.000 --> 00:52:25.730
+on forever, then I don't
+need 140% line height here.
+
+00:52:26.190 --> 00:52:27.760
+Like that is ridiculous.
+
+00:52:27.760 --> 00:52:30.000
+In fact, even if I just did,
+let's say auto that's 68.
+
+00:52:30.000 --> 00:52:32.210
+In fact, even if I just did,
+let's say auto that's 68.
+
+00:52:32.210 --> 00:52:33.043
+Okay, so we've got a 68
+
+00:52:33.043 --> 00:52:35.123
+and then we'll just start making it lower.
+
+00:52:37.560 --> 00:52:39.600
+You know, as long as the
+characters aren't touching
+
+00:52:39.600 --> 00:52:40.900
+like here or they're
+touching, I, that's not
+
+00:52:40.900 --> 00:52:42.000
+the look I'm going for,
+that would be an effect,
+
+00:52:42.000 --> 00:52:43.210
+the look I'm going for,
+that would be an effect,
+
+00:52:43.210 --> 00:52:45.140
+but as long as they're not touching,
+
+00:52:45.140 --> 00:52:46.630
+there's enough space, you know
+
+00:52:46.630 --> 00:52:48.000
+the space is not the problem here.
+
+00:52:48.000 --> 00:52:48.730
+the space is not the problem here.
+
+00:52:48.730 --> 00:52:50.120
+There's so few characters
+
+00:52:50.120 --> 00:52:51.810
+per line that I have no problem going
+
+00:52:51.810 --> 00:52:54.000
+from long to title, that's simple.
+
+00:52:54.000 --> 00:52:55.050
+from long to title, that's simple.
+
+00:52:55.050 --> 00:52:59.590
+But in body text, that's a
+much tougher thing to do.
+
+00:52:59.590 --> 00:53:00.000
+So that's when we start
+adding in a lot more space.
+
+00:53:00.000 --> 00:53:02.750
+So that's when we start
+adding in a lot more space.
+
+00:53:02.750 --> 00:53:04.993
+So 140, that's one way to think about it.
+
+00:53:06.700 --> 00:53:07.690
+What was this before?
+
+00:53:07.690 --> 00:53:10.180
+Did we say 26 or 27 or something?
+
+00:53:10.180 --> 00:53:11.730
+Maybe it was a little bit less.
+
+00:53:14.280 --> 00:53:16.420
+In general, failing left
+is when the letter forms
+
+00:53:16.420 --> 00:53:18.000
+are hitting each other, and failing right
+
+00:53:18.000 --> 00:53:18.450
+are hitting each other, and failing right
+
+00:53:18.450 --> 00:53:20.680
+is when there is so much space
+
+00:53:20.680 --> 00:53:23.010
+in between the lines that you
+could put whole other lines
+
+00:53:23.010 --> 00:53:24.000
+in between your lines.
+
+00:53:24.000 --> 00:53:24.720
+in between your lines.
+
+00:53:24.720 --> 00:53:27.510
+Yo dawg, you don't want to do that.
+
+00:53:27.510 --> 00:53:29.410
+Like, that's one thing if
+you're printing out a paper
+
+00:53:29.410 --> 00:53:30.000
+for someone to write a
+bunch of comments on,
+
+00:53:30.000 --> 00:53:31.330
+for someone to write a
+bunch of comments on,
+
+00:53:31.330 --> 00:53:34.963
+but it's not really a good
+thing to do for web design.
+
+00:53:37.580 --> 00:53:39.290
+Yeah, that seems good enough.
+
+00:53:39.290 --> 00:53:42.000
+So I just pick this
+font and this font size
+
+00:53:42.000 --> 00:53:42.570
+So I just pick this
+font and this font size
+
+00:53:42.570 --> 00:53:45.840
+and then that kind of
+affects the line length.
+
+00:53:45.840 --> 00:53:48.000
+But also if I make the line
+length longer than, you know,
+
+00:53:48.000 --> 00:53:48.990
+But also if I make the line
+length longer than, you know,
+
+00:53:48.990 --> 00:53:52.060
+at some point, if I go
+all the way out to here,
+
+00:53:52.060 --> 00:53:54.000
+I'm going to want to
+have more line spacing
+
+00:53:54.000 --> 00:53:54.600
+I'm going to want to
+have more line spacing
+
+00:53:54.600 --> 00:53:56.000
+so that it's easier to go
+
+00:53:56.000 --> 00:53:57.760
+from the end of one line to the next.
+
+00:53:57.760 --> 00:54:00.000
+So it all kind of feeds back into itself.
+
+00:54:00.000 --> 00:54:01.200
+So it all kind of feeds back into itself.
+
+00:54:01.200 --> 00:54:02.900
+You want to get the characters per line,
+
+00:54:02.900 --> 00:54:06.000
+the font size, and the line
+height all lined up perfectly.
+
+00:54:06.000 --> 00:54:07.900
+the font size, and the line
+height all lined up perfectly.
+
+00:54:08.257 --> 00:54:10.100
+All right, so now that we have that,
+
+00:54:10.100 --> 00:54:12.000
+let's actually remove these alphabets
+
+00:54:12.000 --> 00:54:12.410
+let's actually remove these alphabets
+
+00:54:12.410 --> 00:54:13.670
+since we don't need them.
+
+00:54:13.670 --> 00:54:16.440
+And now we'll talk about the
+space in between paragraphs.
+
+00:54:16.440 --> 00:54:18.000
+So first question, what's the goal
+
+00:54:18.000 --> 00:54:18.770
+So first question, what's the goal
+
+00:54:18.770 --> 00:54:20.530
+of putting a space in between a paragraph?
+
+00:54:20.530 --> 00:54:21.460
+Well it's to let you know
+
+00:54:21.460 --> 00:54:24.000
+that there's a little bit
+more emphatic of a break
+
+00:54:24.000 --> 00:54:25.540
+that there's a little bit
+more emphatic of a break
+
+00:54:25.540 --> 00:54:28.400
+between here and here
+
+00:54:28.400 --> 00:54:30.000
+than there is between say here and here.
+
+00:54:30.000 --> 00:54:32.790
+than there is between say here and here.
+
+00:54:32.790 --> 00:54:34.180
+Honestly, it's just another version
+
+00:54:34.180 --> 00:54:36.000
+of external spacing is
+greater than internal spacing.
+
+00:54:36.000 --> 00:54:36.870
+of external spacing is
+greater than internal spacing.
+
+00:54:36.870 --> 00:54:39.670
+The space within a paragraph,
+that is the line height,
+
+00:54:39.670 --> 00:54:42.000
+is going to be less than the
+space between paragraphs.
+
+00:54:42.000 --> 00:54:42.500
+is going to be less than the
+space between paragraphs.
+
+00:54:42.500 --> 00:54:45.790
+So a failing left in
+this case is having no
+
+00:54:45.790 --> 00:54:47.270
+paragraph spacing whatsoever.
+
+00:54:47.270 --> 00:54:48.000
+There, I mean like, look, when I do this,
+
+00:54:48.000 --> 00:54:48.730
+There, I mean like, look, when I do this,
+
+00:54:48.730 --> 00:54:52.210
+I can't even tell where
+this paragraph begins.
+
+00:54:52.210 --> 00:54:54.000
+Right, because there's
+no, there's no clue.
+
+00:54:54.000 --> 00:54:54.970
+Right, because there's
+no, there's no clue.
+
+00:54:54.970 --> 00:54:56.930
+Failing right, on the other hand
+
+00:54:56.930 --> 00:54:59.100
+would be adding so much paragraph spacing
+
+00:54:59.100 --> 00:55:00.000
+that it just looks like
+a double line break.
+
+00:55:00.000 --> 00:55:00.800
+that it just looks like
+a double line break.
+
+00:55:00.800 --> 00:55:02.920
+It looks like I was here
+and I pressed enter enter,
+
+00:55:02.920 --> 00:55:04.920
+and there's no actual paragraph spacing.
+
+00:55:04.920 --> 00:55:06.000
+It's just kind of a double enter.
+
+00:55:06.000 --> 00:55:06.740
+It's just kind of a double enter.
+
+00:55:06.740 --> 00:55:08.610
+Again, that's fine if you have to like
+
+00:55:08.610 --> 00:55:10.860
+put some, type something
+out on a typewriter,
+
+00:55:12.037 --> 00:55:13.040
+but in digital design we
+can pick a value that's
+
+00:55:13.040 --> 00:55:15.870
+in between zero and the full line height.
+
+00:55:15.870 --> 00:55:17.310
+So that a paragraph space looks
+
+00:55:17.310 --> 00:55:18.000
+like a different type of space.
+
+00:55:18.000 --> 00:55:19.810
+like a different type of space.
+
+00:55:19.810 --> 00:55:21.050
+It looks designed.
+
+00:55:21.050 --> 00:55:22.830
+It's just like, it's a little clue.
+
+00:55:22.830 --> 00:55:24.000
+It's not, it's not the
+biggest thing in the world
+
+00:55:24.000 --> 00:55:24.920
+It's not, it's not the
+biggest thing in the world
+
+00:55:24.920 --> 00:55:27.270
+but it's just going to add to that sense.
+
+00:55:27.270 --> 00:55:28.843
+Now I will be honest,
+
+00:55:29.840 --> 00:55:30.000
+you're going to hear
+other designers recommend
+
+00:55:30.000 --> 00:55:31.690
+you're going to hear
+other designers recommend
+
+00:55:31.690 --> 00:55:34.690
+that you do something
+different, many designers
+
+00:55:34.690 --> 00:55:36.000
+praise baseline grids,
+where they have a grid
+
+00:55:36.000 --> 00:55:38.690
+praise baseline grids,
+where they have a grid
+
+00:55:38.690 --> 00:55:42.000
+of say eight pixels or 10
+pixels or whatever it is.
+
+00:55:42.000 --> 00:55:42.350
+of say eight pixels or 10
+pixels or whatever it is.
+
+00:55:42.350 --> 00:55:44.630
+And then they line up
+texts so that the baseline
+
+00:55:44.630 --> 00:55:47.160
+of the text is on one of these grid lines
+
+00:55:47.160 --> 00:55:48.000
+for every single line, for
+the header, for everything.
+
+00:55:48.000 --> 00:55:49.970
+for every single line, for
+the header, for everything.
+
+00:55:49.970 --> 00:55:51.570
+And sometimes the grids will be small
+
+00:55:51.570 --> 00:55:54.000
+such that there's two or three
+rows here per line of text.
+
+00:55:54.000 --> 00:55:55.050
+such that there's two or three
+rows here per line of text.
+
+00:55:55.050 --> 00:55:56.560
+And sometimes there'll be bigger
+
+00:55:56.560 --> 00:55:59.010
+where perhaps they're just on one line.
+
+00:55:59.010 --> 00:56:00.000
+If you do that system,
+you may end up having kind
+
+00:56:00.000 --> 00:56:02.230
+If you do that system,
+you may end up having kind
+
+00:56:02.230 --> 00:56:06.000
+of that double line break
+style paragraph space.
+
+00:56:06.000 --> 00:56:06.120
+of that double line break
+style paragraph space.
+
+00:56:06.120 --> 00:56:09.530
+I'm not going to discourage
+you from doing a baseline grid.
+
+00:56:09.530 --> 00:56:11.182
+I will say though that
+I think it is better
+
+00:56:11.182 --> 00:56:12.000
+to have a paragraph space that is
+
+00:56:12.000 --> 00:56:13.160
+to have a paragraph space that is
+
+00:56:13.160 --> 00:56:15.510
+in between zero and the full
+value of the line height,
+
+00:56:15.510 --> 00:56:18.000
+just so it does appear
+like its own type of space.
+
+00:56:18.000 --> 00:56:18.560
+just so it does appear
+like its own type of space.
+
+00:56:18.560 --> 00:56:21.410
+But I'll also say if you don't
+do a baseline grid already,
+
+00:56:21.410 --> 00:56:23.340
+it's really not worth necessarily getting
+
+00:56:23.340 --> 00:56:24.000
+in the habit of it, and the reason why is
+
+00:56:24.000 --> 00:56:25.580
+in the habit of it, and the reason why is
+
+00:56:25.580 --> 00:56:28.420
+because it won't make a
+bad design look better.
+
+00:56:28.420 --> 00:56:30.000
+A bad design still looks
+bad when you apply a great
+
+00:56:30.000 --> 00:56:30.780
+A bad design still looks
+bad when you apply a great
+
+00:56:30.780 --> 00:56:34.460
+baseline grid and a good design
+just can still look great
+
+00:56:34.460 --> 00:56:36.000
+even if it's totally off the grid.
+
+00:56:36.000 --> 00:56:36.820
+even if it's totally off the grid.
+
+00:56:36.820 --> 00:56:37.990
+All right, rant over.
+
+00:56:37.990 --> 00:56:39.120
+Let's talk a little bit
+
+00:56:39.120 --> 00:56:41.510
+about the third and
+final type of space here.
+
+00:56:41.510 --> 00:56:42.000
+We talked about space
+between lines and texts.
+
+00:56:42.000 --> 00:56:43.290
+We talked about space
+between lines and texts.
+
+00:56:43.290 --> 00:56:45.100
+We talked about space between paragraphs.
+
+00:56:45.100 --> 00:56:46.950
+Let's talk about space between characters.
+
+00:56:46.950 --> 00:56:48.000
+For the most part again, ask yourself
+
+00:56:48.000 --> 00:56:49.780
+For the most part again, ask yourself
+
+00:56:49.780 --> 00:56:51.220
+what problem are we trying to solve
+
+00:56:51.220 --> 00:56:53.610
+by adding letter spacing
+or subtracting it?
+
+00:56:53.610 --> 00:56:54.000
+Well, if the font is
+well-designed and you're using it
+
+00:56:54.000 --> 00:56:56.400
+Well, if the font is
+well-designed and you're using it
+
+00:56:56.400 --> 00:57:00.000
+as intended, there is no problem
+to solve for the most part.
+
+00:57:00.000 --> 00:57:00.370
+as intended, there is no problem
+to solve for the most part.
+
+00:57:00.370 --> 00:57:02.720
+Honestly, it's a very
+common beginner mistake
+
+00:57:02.720 --> 00:57:06.000
+to add letter spacing,
+to sentence case text.
+
+00:57:06.000 --> 00:57:07.160
+to add letter spacing,
+to sentence case text.
+
+00:57:07.160 --> 00:57:08.970
+Just text that should be sent normally.
+
+00:57:08.970 --> 00:57:09.803
+And I think
+
+00:57:09.803 --> 00:57:12.000
+as you grow and sort of your
+gut instinct of design, when
+
+00:57:12.000 --> 00:57:12.760
+as you grow and sort of your
+gut instinct of design, when
+
+00:57:12.760 --> 00:57:15.930
+you see this sort of thing, it
+will become obnoxious to you.
+
+00:57:15.930 --> 00:57:18.000
+It appears too loose and too spaced out.
+
+00:57:18.000 --> 00:57:18.610
+It appears too loose and too spaced out.
+
+00:57:18.610 --> 00:57:21.810
+And sure enough, like that's
+not how the font was designed.
+
+00:57:21.810 --> 00:57:23.560
+Now, one of the exceptions
+
+00:57:23.560 --> 00:57:24.000
+to this is when you're using uppercase.
+
+00:57:24.000 --> 00:57:26.090
+to this is when you're using uppercase.
+
+00:57:26.090 --> 00:57:28.092
+When you're using uppercase,
+
+00:57:28.092 --> 00:57:30.000
+in some sense, you're not using
+the font as it was designed.
+
+00:57:30.000 --> 00:57:31.260
+in some sense, you're not using
+the font as it was designed.
+
+00:57:31.260 --> 00:57:32.950
+You're kind of doing the special edge case
+
+00:57:32.950 --> 00:57:34.990
+of what you can do with a font.
+
+00:57:34.990 --> 00:57:36.000
+And so then it's actually
+much more acceptable
+
+00:57:36.000 --> 00:57:38.360
+And so then it's actually
+much more acceptable
+
+00:57:38.360 --> 00:57:40.150
+to add in some letter spacing.
+
+00:57:40.150 --> 00:57:40.983
+And you can see that,
+
+00:57:40.983 --> 00:57:42.000
+that that actually looks kind of cool.
+
+00:57:42.000 --> 00:57:42.810
+that that actually looks kind of cool.
+
+00:57:42.810 --> 00:57:44.620
+Like I didn't even realize how
+cool that was going to look.
+
+00:57:44.620 --> 00:57:46.410
+I don't know if I would keep it like that.
+
+00:57:46.410 --> 00:57:48.000
+And that's pretty dramatic,
+14% letter spacing here.
+
+00:57:48.000 --> 00:57:49.890
+And that's pretty dramatic,
+14% letter spacing here.
+
+00:57:49.890 --> 00:57:51.480
+Like that's quite a bit,
+
+00:57:51.480 --> 00:57:54.000
+but the point is it works a
+lot better with uppercase.
+
+00:57:54.000 --> 00:57:54.170
+but the point is it works a
+lot better with uppercase.
+
+00:57:54.170 --> 00:57:56.190
+For the most part, you're
+never going to be putting
+
+00:57:56.190 --> 00:57:59.490
+in letter spacing into
+sentence text like this.
+
+00:57:59.490 --> 00:58:00.000
+You're really only going to be adding it
+
+00:58:00.000 --> 00:58:01.340
+You're really only going to be adding it
+
+00:58:01.340 --> 00:58:02.949
+if you're working with uppercase here.
+
+00:58:02.949 --> 00:58:06.000
+And just to be fair, abolition, this font
+
+00:58:06.000 --> 00:58:06.110
+And just to be fair, abolition, this font
+
+00:58:06.110 --> 00:58:08.160
+this is an uppercase only font.
+
+00:58:08.160 --> 00:58:10.530
+So it was actually designed
+with upper case in mind.
+
+00:58:10.530 --> 00:58:12.000
+I would not add in letter spacing here
+
+00:58:12.000 --> 00:58:13.730
+I would not add in letter spacing here
+
+00:58:13.730 --> 00:58:15.760
+since I guess it does kind of look cool
+
+00:58:15.760 --> 00:58:17.790
+but just by default, it's not like I need
+
+00:58:17.790 --> 00:58:18.000
+to simply because it's already uppercase.
+
+00:58:18.000 --> 00:58:20.380
+to simply because it's already uppercase.
+
+00:58:20.380 --> 00:58:21.580
+The biggest exception you'll see
+
+00:58:21.580 --> 00:58:24.000
+to this is occasionally some titles
+
+00:58:24.000 --> 00:58:24.670
+to this is occasionally some titles
+
+00:58:24.670 --> 00:58:26.710
+especially when you use say like kind
+
+00:58:26.710 --> 00:58:28.620
+of grotesque fonts as a category of fonts
+
+00:58:28.620 --> 00:58:30.000
+we'll be talking about more
+in the topography unit.
+
+00:58:30.000 --> 00:58:31.170
+we'll be talking about more
+in the topography unit.
+
+00:58:32.220 --> 00:58:35.680
+Well then I might actually
+for, if something was
+
+00:58:35.680 --> 00:58:36.000
+like a headline remove a
+little bit of letter spacing
+
+00:58:42.000 --> 00:58:42.720
+and neat and clean
+
+00:58:42.720 --> 00:58:45.420
+but that's really kind
+of the only main place
+
+00:58:45.420 --> 00:58:47.100
+where I'm going to be
+removing letter spacing
+
+00:58:47.100 --> 00:58:48.000
+and uppercase is the only
+place where I'm going
+
+00:58:48.000 --> 00:58:48.750
+and uppercase is the only
+place where I'm going
+
+00:58:48.750 --> 00:58:50.320
+to be adding it in.
+
+00:58:50.320 --> 00:58:53.470
+If you're using a font as
+designed like right here,
+
+00:58:53.470 --> 00:58:54.000
+then I'm just going to leave this be.
+
+00:58:54.000 --> 00:58:55.390
+then I'm just going to leave this be.
+
+00:58:55.390 --> 00:58:57.770
+Oh, and by the way, like,
+even though this is uppercase
+
+00:58:57.770 --> 00:59:00.000
+because it's a monospace
+font, I feel like, Hmm
+
+00:59:00.000 --> 00:59:01.310
+because it's a monospace
+font, I feel like, Hmm
+
+00:59:01.310 --> 00:59:03.440
+I don't necessarily need to add in any.
+
+00:59:03.440 --> 00:59:05.030
+And I don't know that I would get anything
+
+00:59:05.030 --> 00:59:06.000
+by adding in letter spacing right there.
+
+00:59:06.000 --> 00:59:07.150
+by adding in letter spacing right there.
+
+00:59:07.150 --> 00:59:08.543
+So we'll leave that be too.
+
+00:59:10.540 --> 00:59:12.000
+All right, before and after, how'd we do?
+
+00:59:12.000 --> 00:59:12.603
+All right, before and after, how'd we do?
+
+00:59:13.920 --> 00:59:15.320
+It's not too bad, right?
+
+00:59:15.320 --> 00:59:17.930
+Let's just talk about a couple
+other things that come up
+
+00:59:17.930 --> 00:59:18.000
+whenever we start talking
+about white space.
+
+00:59:18.000 --> 00:59:20.170
+whenever we start talking
+about white space.
+
+00:59:20.170 --> 00:59:21.760
+The first is landing pages.
+
+00:59:21.760 --> 00:59:24.000
+Landing pages are one end of the spectrum
+
+00:59:24.000 --> 00:59:24.970
+Landing pages are one end of the spectrum
+
+00:59:24.970 --> 00:59:27.470
+where you're just going to
+add white space like crazy.
+
+00:59:27.470 --> 00:59:30.000
+So let's look at this headline,
+lab management made easy.
+
+00:59:30.000 --> 00:59:30.590
+So let's look at this headline,
+lab management made easy.
+
+00:59:30.590 --> 00:59:34.460
+If I look here and I do a
+little pixel measurement
+
+00:59:34.460 --> 00:59:36.000
+I've got something like 180
+pixels of space right here.
+
+00:59:36.000 --> 00:59:38.890
+I've got something like 180
+pixels of space right here.
+
+00:59:38.890 --> 00:59:40.900
+And that was probably
+hard-coded, a developer wrote
+
+00:59:40.900 --> 00:59:42.000
+yeah, we just want 180 pixels
+of space above this headline.
+
+00:59:42.000 --> 00:59:43.780
+yeah, we just want 180 pixels
+of space above this headline.
+
+00:59:43.780 --> 00:59:45.173
+When I was a developer at least,
+
+00:59:45.173 --> 00:59:48.000
+I would have thought that
+seems very excessive.
+
+00:59:48.000 --> 00:59:48.540
+I would have thought that
+seems very excessive.
+
+00:59:48.540 --> 00:59:49.530
+But again the goal is not
+
+00:59:49.530 --> 00:59:51.650
+to make these numbers seem reasonable,
+
+00:59:51.650 --> 00:59:54.000
+it's to make the visual
+end result very pleasing.
+
+00:59:54.000 --> 00:59:54.640
+it's to make the visual
+end result very pleasing.
+
+00:59:54.640 --> 00:59:57.110
+And how they're doing that
+is they're putting this nice
+
+00:59:57.110 --> 00:59:58.920
+crisp, clear image behind it.
+
+00:59:58.920 --> 00:59:59.930
+And they have the headline
+
+00:59:59.930 --> 01:00:00.000
+and this is roughly vertically
+centered within this space.
+
+01:00:00.000 --> 01:00:02.607
+and this is roughly vertically
+centered within this space.
+
+01:00:02.607 --> 01:00:04.630
+That's great, works fine.
+
+01:00:04.630 --> 01:00:05.463
+Another example.
+
+01:00:05.463 --> 01:00:06.000
+And we don't even need to scroll to see it
+
+01:00:06.000 --> 01:00:06.950
+And we don't even need to scroll to see it
+
+01:00:06.950 --> 01:00:08.320
+is look at this header.
+
+01:00:08.320 --> 01:00:10.410
+This is actually quite big for a header.
+
+01:00:10.410 --> 01:00:12.000
+I rarely would design a header
+
+01:00:12.000 --> 01:00:12.250
+I rarely would design a header
+
+01:00:12.250 --> 01:00:15.640
+that is all of 110
+pixels tall or something.
+
+01:00:15.640 --> 01:00:18.000
+But it is interesting to see
+that of this font right here,
+
+01:00:18.000 --> 01:00:20.330
+But it is interesting to see
+that of this font right here,
+
+01:00:20.330 --> 01:00:21.990
+this little text that says tour
+
+01:00:21.990 --> 01:00:24.000
+and has the nav destinations.
+
+01:00:24.000 --> 01:00:24.190
+and has the nav destinations.
+
+01:00:24.190 --> 01:00:27.810
+It's like roughly 10 pixels
+tall, the space below it,
+
+01:00:27.810 --> 01:00:30.000
+that is roughly 54 pixels tall.
+
+01:00:30.000 --> 01:00:30.490
+that is roughly 54 pixels tall.
+
+01:00:30.490 --> 01:00:33.860
+So this is like 90% white space.
+
+01:00:33.860 --> 01:00:36.000
+Again, as a developer, this
+would have blown my mind.
+
+01:00:36.000 --> 01:00:36.590
+Again, as a developer, this
+would have blown my mind.
+
+01:00:36.590 --> 01:00:37.850
+It was something that when I noticed
+
+01:00:37.850 --> 01:00:40.070
+that this is what
+professional designers did,
+
+01:00:40.070 --> 01:00:42.000
+I was like, wow, I am not
+using spacing the correct way.
+
+01:00:42.000 --> 01:00:43.470
+I was like, wow, I am not
+using spacing the correct way.
+
+01:00:43.470 --> 01:00:44.800
+So when I say double your white space,
+
+01:00:44.800 --> 01:00:46.512
+I just mean there's going
+to be a lot of times
+
+01:00:46.512 --> 01:00:48.000
+where you're adding much more
+
+01:00:48.000 --> 01:00:48.360
+where you're adding much more
+
+01:00:48.360 --> 01:00:49.770
+than you otherwise would have thought.
+
+01:00:49.770 --> 01:00:53.000
+And probably the best
+heuristic to help you there is,
+
+01:00:53.000 --> 01:00:54.000
+like I said time and time
+again, fail left, fail right.
+
+01:00:54.000 --> 01:00:56.170
+like I said time and time
+again, fail left, fail right.
+
+01:00:56.170 --> 01:00:58.280
+Figure out what looks like
+definitely too little.
+
+01:00:58.280 --> 01:01:00.000
+Figure out what it looks
+like definitely too much.
+
+01:01:00.000 --> 01:01:00.170
+Figure out what it looks
+like definitely too much.
+
+01:01:00.170 --> 01:01:01.850
+And then go somewhere in between.
+
+01:01:01.850 --> 01:01:04.620
+Knowing that, I almost feel
+like that's too little.
+
+01:01:04.620 --> 01:01:06.000
+I feel like they could add
+a little space right here.
+
+01:01:06.000 --> 01:01:06.587
+I feel like they could add
+a little space right here.
+
+01:01:06.587 --> 01:01:07.950
+I'm not even sure if it's supposed
+
+01:01:07.950 --> 01:01:09.460
+to be related to this stuff.
+
+01:01:09.460 --> 01:01:11.080
+Maybe because these are case studies,
+
+01:01:11.080 --> 01:01:12.000
+and these are people who use
+them, but still it does feel
+
+01:01:12.000 --> 01:01:14.010
+and these are people who use
+them, but still it does feel
+
+01:01:14.010 --> 01:01:15.990
+like there should be a
+little bit more space there.
+
+01:01:15.990 --> 01:01:16.960
+And that's not a huge deal.
+
+01:01:16.960 --> 01:01:18.000
+I don't mean to throw too much shade here.
+
+01:01:18.000 --> 01:01:18.680
+I don't mean to throw too much shade here.
+
+01:01:18.680 --> 01:01:20.010
+Quartzy is actually designed
+
+01:01:20.010 --> 01:01:22.920
+by Wayno which is a fantastic design firm.
+
+01:01:22.920 --> 01:01:24.000
+They do very, very good work.
+
+01:01:24.000 --> 01:01:24.490
+They do very, very good work.
+
+01:01:24.490 --> 01:01:25.900
+I just wanted to point this out
+
+01:01:25.900 --> 01:01:28.050
+because on one hand, landing pages are one
+
+01:01:28.050 --> 01:01:29.610
+of the places where people are just,
+
+01:01:29.610 --> 01:01:30.000
+you're going to add in
+a ton of white space,
+
+01:01:30.000 --> 01:01:32.090
+you're going to add in
+a ton of white space,
+
+01:01:32.090 --> 01:01:34.930
+maybe even more so than you
+would in comparable pages
+
+01:01:34.930 --> 01:01:36.000
+throughout the rest of your app.
+
+01:01:36.000 --> 01:01:37.290
+throughout the rest of your app.
+
+01:01:37.290 --> 01:01:40.810
+To make that clear, here's
+an example from Quartzy's
+
+01:01:40.810 --> 01:01:42.000
+actual order requests
+form page inside the app.
+
+01:01:42.000 --> 01:01:45.110
+actual order requests
+form page inside the app.
+
+01:01:45.110 --> 01:01:47.220
+And you'll see that
+there's a lot more data
+
+01:01:47.220 --> 01:01:48.000
+on this page, right?
+
+01:01:48.000 --> 01:01:48.230
+on this page, right?
+
+01:01:48.230 --> 01:01:50.460
+This is actually a
+pretty data heavy table.
+
+01:01:50.460 --> 01:01:52.530
+There's a lot going on here,
+there's a bunch of information
+
+01:01:52.530 --> 01:01:54.000
+about all these different
+things you can order
+
+01:01:54.000 --> 01:01:54.100
+about all these different
+things you can order
+
+01:01:54.100 --> 01:01:55.980
+for your lab, et cetera.
+
+01:01:55.980 --> 01:01:58.120
+And, and honestly, it's pages like this
+
+01:01:58.120 --> 01:01:59.610
+where people give me the most pushback.
+
+01:01:59.610 --> 01:02:00.000
+They say double your white space.
+
+01:02:00.000 --> 01:02:00.890
+They say double your white space.
+
+01:02:00.890 --> 01:02:03.160
+What if I have a lot
+of information to show?
+
+01:02:03.160 --> 01:02:05.750
+And my reply is you can
+still often have a lot
+
+01:02:05.750 --> 01:02:06.000
+more white space than
+you'd otherwise expect.
+
+01:02:06.000 --> 01:02:08.160
+more white space than
+you'd otherwise expect.
+
+01:02:08.160 --> 01:02:12.000
+If you look, this page feels
+very generously laid out.
+
+01:02:12.000 --> 01:02:12.027
+If you look, this page feels
+very generously laid out.
+
+01:02:12.027 --> 01:02:13.630
+Like there's a lot of white space.
+
+01:02:13.630 --> 01:02:15.060
+There's plenty of white space here.
+
+01:02:15.060 --> 01:02:16.760
+Let's start measuring stuff again.
+
+01:02:18.680 --> 01:02:21.493
+50 pixels above this button or 54 pixels.
+
+01:02:23.477 --> 01:02:24.000
+Even say as padding around
+these groups right here,
+
+01:02:24.000 --> 01:02:26.380
+Even say as padding around
+these groups right here,
+
+01:02:26.380 --> 01:02:30.000
+25 pixels high, 35 pixels
+on the sides, et cetera.
+
+01:02:30.000 --> 01:02:31.380
+25 pixels high, 35 pixels
+on the sides, et cetera.
+
+01:02:32.470 --> 01:02:33.540
+You get the point here.
+
+01:02:33.540 --> 01:02:35.310
+I mean, you could do the
+same exact measurements.
+
+01:02:35.310 --> 01:02:36.000
+We can figure out
+
+01:02:36.000 --> 01:02:36.143
+We can figure out
+
+01:02:36.143 --> 01:02:38.650
+what percentage of this
+button is actually taken up
+
+01:02:38.650 --> 01:02:41.050
+by the text and what is
+just padding, et cetera.
+
+01:02:42.060 --> 01:02:44.270
+I just want to show this example
+because it makes it clear
+
+01:02:44.270 --> 01:02:46.280
+that just because you have this page
+
+01:02:46.280 --> 01:02:48.000
+with a lot of data, you need to show,
+
+01:02:48.000 --> 01:02:48.020
+with a lot of data, you need to show,
+
+01:02:48.020 --> 01:02:50.100
+it does not mean that you
+can't have white space
+
+01:02:50.100 --> 01:02:52.850
+that everything needs to
+be super smushed together.
+
+01:02:52.850 --> 01:02:54.000
+Now I will say that the more
+data you do need to show,
+
+01:02:54.000 --> 01:02:56.080
+Now I will say that the more
+data you do need to show,
+
+01:02:56.080 --> 01:02:58.860
+like for instance, these
+designers judged acceptable
+
+01:02:58.860 --> 01:03:00.000
+than a normal desktop screen,
+
+01:03:00.000 --> 01:03:00.310
+than a normal desktop screen,
+
+01:03:00.310 --> 01:03:04.370
+I would only see two actual
+items and a title, right?
+
+01:03:04.370 --> 01:03:05.910
+Like that may be too little.
+
+01:03:05.910 --> 01:03:06.000
+Someone might say, no, you know what?
+
+01:03:06.000 --> 01:03:07.350
+Someone might say, no, you know what?
+
+01:03:07.350 --> 01:03:09.160
+We need greater information density here.
+
+01:03:09.160 --> 01:03:11.040
+I want to be able to
+see four of these things
+
+01:03:11.040 --> 01:03:12.000
+the moment I load up the page.
+
+01:03:12.000 --> 01:03:12.520
+the moment I load up the page.
+
+01:03:12.520 --> 01:03:13.610
+Yeah, if that's the case,
+
+01:03:13.610 --> 01:03:16.890
+we would do some things
+to rework the white space,
+
+01:03:16.890 --> 01:03:18.000
+rework how probably how these
+columns are done, et cetera
+
+01:03:18.000 --> 01:03:19.990
+rework how probably how these
+columns are done, et cetera
+
+01:03:19.990 --> 01:03:22.245
+but just because you need
+to display a lot of data
+
+01:03:22.245 --> 01:03:24.000
+does not mean you shouldn't
+be including white space
+
+01:03:24.000 --> 01:03:25.190
+does not mean you shouldn't
+be including white space
+
+01:03:25.190 --> 01:03:27.970
+or trying to include as
+much spacing as possible.
+
+01:03:27.970 --> 01:03:30.000
+And when you do run into
+a situation like that,
+
+01:03:30.000 --> 01:03:30.250
+And when you do run into
+a situation like that,
+
+01:03:30.250 --> 01:03:32.500
+the only other pointer I will say is
+
+01:03:32.500 --> 01:03:35.405
+pay attention in particular,
+then to all the other lessons
+
+01:03:35.405 --> 01:03:36.000
+that we covered in the fundamentals unit.
+
+01:03:36.000 --> 01:03:38.570
+that we covered in the fundamentals unit.
+
+01:03:38.570 --> 01:03:40.940
+Alignment becomes all the more important
+
+01:03:40.940 --> 01:03:42.000
+if you have to have a little less space
+
+01:03:42.000 --> 01:03:42.900
+if you have to have a little less space
+
+01:03:42.900 --> 01:03:44.275
+than you otherwise would like to.
+
+01:03:44.275 --> 01:03:47.030
+Consistency becomes a
+little more important when
+
+01:03:47.030 --> 01:03:48.000
+you're not going to get away
+with showing just a few things,
+
+01:03:48.000 --> 01:03:49.590
+you're not going to get away
+with showing just a few things,
+
+01:03:49.590 --> 01:03:51.963
+you still have to show a ton of things.
+
+01:03:53.160 --> 01:03:54.000
+And the last thing I'll mention
+is just about mobile apps.
+
+01:03:54.000 --> 01:03:55.780
+And the last thing I'll mention
+is just about mobile apps.
+
+01:03:55.780 --> 01:03:57.410
+Seriously, all the examples we've looked
+
+01:03:57.410 --> 01:04:00.000
+at so far have been desktop apps.
+
+01:04:00.000 --> 01:04:04.090
+And to me, that actually seems
+fine because desktop apps
+
+01:04:04.090 --> 01:04:06.000
+and mobile apps have the same
+principles in these regards.
+
+01:04:06.000 --> 01:04:07.410
+and mobile apps have the same
+principles in these regards.
+
+01:04:07.410 --> 01:04:09.340
+But if anything, working on a desktop app
+
+01:04:09.340 --> 01:04:11.460
+affords you more natural room
+
+01:04:11.460 --> 01:04:12.000
+to put in white space
+and on the mobile app,
+
+01:04:12.000 --> 01:04:13.540
+to put in white space
+and on the mobile app,
+
+01:04:13.540 --> 01:04:15.480
+you're just not even going
+to have the choice sometimes.
+
+01:04:15.480 --> 01:04:18.000
+Like things are just going
+to be kind of constrained.
+
+01:04:18.000 --> 01:04:18.150
+Like things are just going
+to be kind of constrained.
+
+01:04:18.150 --> 01:04:21.460
+That being said, when you
+can really do a good job
+
+01:04:21.460 --> 01:04:23.640
+of just showing the essential,
+
+01:04:23.640 --> 01:04:24.000
+having it well aligned,
+neat, clean, consistent
+
+01:04:24.000 --> 01:04:27.900
+having it well aligned,
+neat, clean, consistent
+
+01:04:27.900 --> 01:04:30.000
+and plenty of generous spacing around it,
+
+01:04:30.000 --> 01:04:30.370
+and plenty of generous spacing around it,
+
+01:04:30.370 --> 01:04:32.620
+It's going to appear really, really good.
+
+01:04:32.620 --> 01:04:34.860
+So fundamentally none of
+the principles have changed.
+
+01:04:34.860 --> 01:04:36.000
+It's just a little bit harder
+
+01:04:36.000 --> 01:04:36.330
+It's just a little bit harder
+
+01:04:36.330 --> 01:04:39.550
+to add in a ton of white space
+when the screen is small.
+
+01:04:39.550 --> 01:04:40.800
+One thing I will say,
+
+01:04:40.800 --> 01:04:42.000
+I'll just throw this in
+right at the very end.
+
+01:04:42.000 --> 01:04:42.430
+I'll just throw this in
+right at the very end.
+
+01:04:42.430 --> 01:04:45.560
+It's just because it's a
+pretty common beginner mistake.
+
+01:04:45.560 --> 01:04:48.000
+On mobile, you really do want to make sure
+
+01:04:48.000 --> 01:04:48.010
+On mobile, you really do want to make sure
+
+01:04:48.010 --> 01:04:50.820
+that when you have a lot of
+content to display on one page,
+
+01:04:50.820 --> 01:04:54.000
+to the best of your ability,
+you're using the entire page.
+
+01:04:54.000 --> 01:04:54.380
+to the best of your ability,
+you're using the entire page.
+
+01:04:54.380 --> 01:04:56.950
+So for instance, at the time of recording
+
+01:04:56.950 --> 01:05:00.000
+both Android and iOS typically
+have 16 pixel side margins
+
+01:05:00.000 --> 01:05:01.670
+both Android and iOS typically
+have 16 pixel side margins
+
+01:05:01.670 --> 01:05:04.700
+on either side and most of
+the content on your screen,
+
+01:05:04.700 --> 01:05:06.000
+If you have to display a lot, you're going
+
+01:05:06.000 --> 01:05:06.900
+If you have to display a lot, you're going
+
+01:05:06.900 --> 01:05:09.670
+to want to go all the way
+from one side to the other.
+
+01:05:09.670 --> 01:05:11.940
+If not from the very
+borders of the screen,
+
+01:05:11.940 --> 01:05:12.000
+then to that side margin line
+on the left and on the right.
+
+01:05:12.000 --> 01:05:16.600
+then to that side margin line
+on the left and on the right.
+
+01:05:16.600 --> 01:05:17.433
+If you're doing that,
+
+01:05:17.433 --> 01:05:18.000
+you're going to get this very consistent
+
+01:05:18.000 --> 01:05:19.400
+you're going to get this very consistent
+
+01:05:19.400 --> 01:05:23.120
+horizontal spacing, but it
+won't necessarily be a ton.
+
+01:05:23.120 --> 01:05:24.000
+You'll do a lot more following of the law
+
+01:05:24.000 --> 01:05:25.100
+You'll do a lot more following of the law
+
+01:05:25.100 --> 01:05:27.780
+of internal spacing, being
+less than external spacing
+
+01:05:27.780 --> 01:05:30.000
+and a little bit less doubling
+your white space simply
+
+01:05:30.000 --> 01:05:30.620
+and a little bit less doubling
+your white space simply
+
+01:05:30.620 --> 01:05:32.750
+because there's not the room to.
+
+01:05:32.750 --> 01:05:34.740
+And there we have it
+folks, that's spacing.
+
+01:05:34.740 --> 01:05:36.000
+So I won't belabor this conclusion
+
+01:05:36.000 --> 01:05:36.530
+So I won't belabor this conclusion
+
+01:05:36.530 --> 01:05:38.340
+by introducing any new ideas.
+
+01:05:38.340 --> 01:05:40.330
+Just remember those four laws
+
+01:05:40.330 --> 01:05:42.000
+of spacing and take a look
+at the homework below.
+
+01:05:42.000 --> 01:05:43.230
+of spacing and take a look
+at the homework below.
+
+01:05:43.230 --> 01:05:44.320
+It's about all there is to it.
+
+01:05:44.320 --> 01:05:46.883
+Hope you enjoyed and we'll
+see you in the next lesson.
+

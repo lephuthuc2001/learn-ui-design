@@ -1,0 +1,5599 @@
+WEBVTT
+
+00:00:00.570 --> 00:00:01.700
+- Hey folks and welcome
+
+00:00:01.700 --> 00:00:04.740
+to the Learn UI Design
+Lesson on Simplicity.
+
+00:00:04.740 --> 00:00:06.000
+Today we're gonna be covering
+six strategies for making
+
+00:00:06.000 --> 00:00:07.240
+Today we're gonna be covering
+six strategies for making
+
+00:00:07.240 --> 00:00:12.000
+your designs look clean,
+simple, neat, modern, et cetera.
+
+00:00:12.000 --> 00:00:12.240
+your designs look clean,
+simple, neat, modern, et cetera.
+
+00:00:12.500 --> 00:00:13.820
+Those adjectives by the way,
+
+00:00:13.820 --> 00:00:16.470
+are the most common
+adjectives that clients use
+
+00:00:16.470 --> 00:00:18.000
+to describe what they want
+you to design for them.
+
+00:00:18.000 --> 00:00:18.900
+to describe what they want
+you to design for them.
+
+00:00:18.900 --> 00:00:20.120
+So being able to make something
+
+00:00:20.120 --> 00:00:22.550
+just look neat and clean
+and simple and modern,
+
+00:00:22.550 --> 00:00:24.000
+whatever, that's an
+extremely valuable skill
+
+00:00:24.000 --> 00:00:25.500
+whatever, that's an
+extremely valuable skill
+
+00:00:25.500 --> 00:00:29.060
+and once you've mastered
+that, achieving other brands,
+
+00:00:29.060 --> 00:00:30.000
+whether you're going for something
+that looks very luxurious
+
+00:00:30.000 --> 00:00:31.320
+whether you're going for something
+that looks very luxurious
+
+00:00:31.320 --> 00:00:34.853
+or very friendly, very techie,
+futuristic, whatever it is,
+
+00:00:34.853 --> 00:00:36.000
+you're building on top of
+the lessons in this video.
+
+00:00:36.000 --> 00:00:38.870
+you're building on top of
+the lessons in this video.
+
+00:00:38.870 --> 00:00:41.250
+Not around them, you're
+building on top of them.
+
+00:00:41.250 --> 00:00:42.000
+So it's almost difficult to overstate
+
+00:00:42.000 --> 00:00:43.950
+So it's almost difficult to overstate
+
+00:00:43.950 --> 00:00:46.340
+how important this six-pronged approach
+
+00:00:46.340 --> 00:00:48.000
+for making simple designs is.
+
+00:00:48.000 --> 00:00:48.470
+for making simple designs is.
+
+00:00:48.470 --> 00:00:49.870
+You are going to be hearing it
+
+00:00:49.870 --> 00:00:51.800
+throughout the remainder of this course
+
+00:00:51.800 --> 00:00:54.000
+and I want you to be saying
+these strategies to yourself
+
+00:00:54.000 --> 00:00:54.730
+and I want you to be saying
+these strategies to yourself
+
+00:00:54.730 --> 00:00:58.340
+as you approach any design
+that comes across your desk
+
+00:00:58.340 --> 00:01:00.000
+and this approach will
+give you the power to take,
+
+00:01:00.000 --> 00:01:02.340
+and this approach will
+give you the power to take,
+
+00:01:02.340 --> 00:01:05.950
+again, any design, whether
+it's maybe just a sketch or a
+
+00:01:05.950 --> 00:01:06.000
+wireframe from a UX designer
+who you might be working with
+
+00:01:06.000 --> 00:01:08.990
+wireframe from a UX designer
+who you might be working with
+
+00:01:08.990 --> 00:01:10.990
+or even if it's say a client comes to you
+
+00:01:10.990 --> 00:01:12.000
+with kind of a half-finished
+design or maybe
+
+00:01:12.000 --> 00:01:13.400
+with kind of a half-finished
+design or maybe
+
+00:01:13.400 --> 00:01:15.220
+an MVP prototype that they've already
+
+00:01:15.220 --> 00:01:16.930
+put on the web and it doesn't really
+
+00:01:16.930 --> 00:01:18.000
+look good but they want
+you to spiff it up.
+
+00:01:18.000 --> 00:01:18.620
+look good but they want
+you to spiff it up.
+
+00:01:18.620 --> 00:01:21.060
+It doesn't matter, in
+any of those scenarios,
+
+00:01:21.060 --> 00:01:23.380
+you can take this
+framework and the six ideas
+
+00:01:23.380 --> 00:01:24.000
+in it and start applying them
+and make a ton of progress
+
+00:01:24.000 --> 00:01:26.410
+in it and start applying them
+and make a ton of progress
+
+00:01:26.410 --> 00:01:29.620
+into making the design look
+neat and clean and simple.
+
+00:01:29.620 --> 00:01:30.000
+All right, so let's
+start talking about it.
+
+00:01:30.000 --> 00:01:31.770
+All right, so let's
+start talking about it.
+
+00:01:33.140 --> 00:01:34.900
+So I'm gonna start by
+just doing a very brief
+
+00:01:34.900 --> 00:01:36.000
+review of the six
+strategies of simplicity.
+
+00:01:36.000 --> 00:01:37.840
+review of the six
+strategies of simplicity.
+
+00:01:37.840 --> 00:01:39.520
+I'm not gonna go into super detail here
+
+00:01:39.520 --> 00:01:41.530
+but at least you'll
+know what we're covering
+
+00:01:41.530 --> 00:01:42.000
+over the rest of the
+lesson and as these kinda
+
+00:01:42.000 --> 00:01:43.480
+over the rest of the
+lesson and as these kinda
+
+00:01:43.480 --> 00:01:46.010
+cycle through my mind and
+what I'm talking about,
+
+00:01:46.010 --> 00:01:48.000
+you can just keep thinking
+of this same list here.
+
+00:01:48.000 --> 00:01:48.550
+you can just keep thinking
+of this same list here.
+
+00:01:48.550 --> 00:01:51.200
+So the first three strategies
+we've already covered,
+
+00:01:51.200 --> 00:01:53.150
+alignment, spacing, and consistency.
+
+00:01:53.150 --> 00:01:54.000
+I'm gonna assume that you know
+enough about those already.
+
+00:01:54.000 --> 00:01:56.430
+I'm gonna assume that you know
+enough about those already.
+
+00:01:56.430 --> 00:01:58.740
+The fourth, fifth and six,
+these are the new ones.
+
+00:01:58.740 --> 00:02:00.000
+The fourth strategy is
+one that I call lightening
+
+00:02:00.000 --> 00:02:01.350
+The fourth strategy is
+one that I call lightening
+
+00:02:01.350 --> 00:02:03.650
+and by lightening, I just
+mean removing emphasis
+
+00:02:03.650 --> 00:02:06.000
+from something, making
+it a little bit lighter.
+
+00:02:06.000 --> 00:02:06.040
+from something, making
+it a little bit lighter.
+
+00:02:06.040 --> 00:02:06.960
+It doesn't have to be lighter
+
+00:02:06.960 --> 00:02:09.510
+in the sense that it's
+closer to white, just lighter
+
+00:02:09.510 --> 00:02:12.000
+in the sense that it doesn't
+draw your attention as much.
+
+00:02:12.000 --> 00:02:12.560
+in the sense that it doesn't
+draw your attention as much.
+
+00:02:12.560 --> 00:02:13.990
+The first three strategies are ones that
+
+00:02:13.990 --> 00:02:16.530
+you apply to elements
+that are important enough
+
+00:02:16.530 --> 00:02:18.000
+that you definitely want
+them visible on your screen.
+
+00:02:18.000 --> 00:02:19.340
+that you definitely want
+them visible on your screen.
+
+00:02:19.340 --> 00:02:23.230
+The second three are kind of
+the less important elements.
+
+00:02:23.230 --> 00:02:24.000
+You're not gonna take an
+important element and lighten it
+
+00:02:24.000 --> 00:02:25.410
+You're not gonna take an
+important element and lighten it
+
+00:02:25.410 --> 00:02:27.020
+but if there's something that's essential
+
+00:02:27.020 --> 00:02:30.000
+but not super important, that's
+where you use lightening.
+
+00:02:30.000 --> 00:02:30.050
+but not super important, that's
+where you use lightening.
+
+00:02:30.050 --> 00:02:31.930
+Hiding is another one like lightening.
+
+00:02:31.930 --> 00:02:33.200
+Hiding just means you're taking
+
+00:02:33.200 --> 00:02:35.490
+an element and hiding it by default.
+
+00:02:35.490 --> 00:02:36.000
+You're making it not visible by default.
+
+00:02:36.000 --> 00:02:37.370
+You're making it not visible by default.
+
+00:02:37.370 --> 00:02:39.340
+It's still in the app, it
+still might be essential
+
+00:02:39.340 --> 00:02:41.770
+but maybe you put it in a
+menu or in a hover state
+
+00:02:41.770 --> 00:02:42.000
+or on a different screen or
+a pop-up or whatever it is.
+
+00:02:42.000 --> 00:02:45.340
+or on a different screen or
+a pop-up or whatever it is.
+
+00:02:45.340 --> 00:02:46.760
+The point is there's some elements that
+
+00:02:46.760 --> 00:02:48.000
+you just don't want to
+be visible by default
+
+00:02:48.000 --> 00:02:48.780
+you just don't want to
+be visible by default
+
+00:02:48.780 --> 00:02:50.110
+and the more you can do that,
+
+00:02:50.110 --> 00:02:52.640
+the simpler of an appearance
+your screen will have.
+
+00:02:52.640 --> 00:02:54.000
+And the final strategy is removing.
+
+00:02:54.000 --> 00:02:54.280
+And the final strategy is removing.
+
+00:02:54.280 --> 00:02:55.530
+This is simple, it just means
+
+00:02:55.530 --> 00:02:58.920
+getting rid of that thing
+entirely from the app.
+
+00:02:58.920 --> 00:03:00.000
+So the whole idea behind the
+simplicity framework here
+
+00:03:00.000 --> 00:03:01.860
+So the whole idea behind the
+simplicity framework here
+
+00:03:01.860 --> 00:03:03.640
+is you just go through every element
+
+00:03:03.640 --> 00:03:05.690
+on the page and you say
+can I align this better?
+
+00:03:05.690 --> 00:03:06.000
+Can I space this better?
+
+00:03:06.000 --> 00:03:06.850
+Can I space this better?
+
+00:03:06.850 --> 00:03:08.890
+Can I make it consistent with anything?
+
+00:03:08.890 --> 00:03:11.490
+Or if it's not super
+important, can I lighten it?
+
+00:03:11.490 --> 00:03:12.000
+If it's even less important,
+maybe you can hide it
+
+00:03:12.000 --> 00:03:13.330
+If it's even less important,
+maybe you can hide it
+
+00:03:13.330 --> 00:03:14.880
+and if it's just totally unimportant,
+
+00:03:14.880 --> 00:03:16.400
+you can remove it entirely.
+
+00:03:16.400 --> 00:03:17.760
+But the point is if you keep these six
+
+00:03:17.760 --> 00:03:18.000
+strategies in mind, it's gonna give you
+
+00:03:18.000 --> 00:03:19.130
+strategies in mind, it's gonna give you
+
+00:03:19.130 --> 00:03:23.750
+a very powerful framework for
+making messy UI look cleaner.
+
+00:03:23.750 --> 00:03:24.000
+So as always, I want to
+apply it to an example
+
+00:03:24.000 --> 00:03:26.570
+So as always, I want to
+apply it to an example
+
+00:03:26.570 --> 00:03:29.810
+and this particular example
+is an app for veterinarians
+
+00:03:29.810 --> 00:03:30.000
+and this page of the app
+has to do with the idea
+
+00:03:30.000 --> 00:03:32.300
+and this page of the app
+has to do with the idea
+
+00:03:32.300 --> 00:03:35.410
+that if a dog eats some
+chocolate, first of all,
+
+00:03:35.410 --> 00:03:36.000
+that's poisonous for the
+dog but second of all,
+
+00:03:36.000 --> 00:03:37.780
+that's poisonous for the
+dog but second of all,
+
+00:03:37.780 --> 00:03:39.800
+you might need to know some information
+
+00:03:39.800 --> 00:03:41.170
+about how to treat that dog
+
+00:03:41.170 --> 00:03:42.000
+and so this is a little calculator
+
+00:03:42.000 --> 00:03:42.890
+and so this is a little calculator
+
+00:03:42.890 --> 00:03:45.270
+for vets that you can enter
+in the weight of the dog,
+
+00:03:45.270 --> 00:03:47.320
+the weight of the chocolate,
+the type of the chocolate
+
+00:03:47.320 --> 00:03:48.000
+and you get some information
+out about what to do next.
+
+00:03:48.000 --> 00:03:50.450
+and you get some information
+out about what to do next.
+
+00:03:50.450 --> 00:03:52.790
+Now this example is extremely similar
+
+00:03:52.790 --> 00:03:54.000
+to a lot of the examples that I see
+
+00:03:54.000 --> 00:03:54.240
+to a lot of the examples that I see
+
+00:03:54.240 --> 00:03:56.710
+all the time from my students and readers.
+
+00:03:56.710 --> 00:03:59.180
+So even if you think this
+is like fairly messy UI
+
+00:03:59.180 --> 00:04:00.000
+and you have a sense of
+how you would fix it,
+
+00:04:00.000 --> 00:04:01.030
+and you have a sense of
+how you would fix it,
+
+00:04:01.030 --> 00:04:03.320
+just know that it's still
+a very valuable skill
+
+00:04:03.320 --> 00:04:05.100
+to be able to explicitly go through this
+
+00:04:05.100 --> 00:04:06.000
+and understand what you're
+doing as you clean it up.
+
+00:04:06.000 --> 00:04:07.740
+and understand what you're
+doing as you clean it up.
+
+00:04:07.740 --> 00:04:09.500
+But it's not unrealistic at all
+
+00:04:09.500 --> 00:04:11.390
+that clients or employers will come to you
+
+00:04:11.390 --> 00:04:12.000
+with apps that look very much like this.
+
+00:04:12.000 --> 00:04:14.250
+with apps that look very much like this.
+
+00:04:14.250 --> 00:04:17.210
+Now as far as this six-pronged
+approach to simplicity goes,
+
+00:04:17.210 --> 00:04:18.000
+when you're kind of advanced at it,
+
+00:04:18.000 --> 00:04:19.000
+when you're kind of advanced at it,
+
+00:04:19.000 --> 00:04:20.510
+I think you'll be able to like open up
+
+00:04:20.510 --> 00:04:22.330
+a page and you'll just have a gut instinct
+
+00:04:22.330 --> 00:04:24.000
+of what you want to start changing first
+
+00:04:24.000 --> 00:04:24.190
+of what you want to start changing first
+
+00:04:24.190 --> 00:04:26.160
+that'll kind of give you
+the most bang for your buck.
+
+00:04:26.160 --> 00:04:27.860
+Like for instance, I look at these inputs
+
+00:04:27.860 --> 00:04:29.890
+and I think immediately about making them
+
+00:04:29.890 --> 00:04:30.000
+more consistent and
+full width and that will
+
+00:04:30.000 --> 00:04:32.390
+more consistent and
+full width and that will
+
+00:04:32.390 --> 00:04:34.590
+make them feel very aligned
+and crisp and so on.
+
+00:04:34.590 --> 00:04:36.000
+I think that'd be a good thing
+to do but we'll get there.
+
+00:04:36.000 --> 00:04:37.760
+I think that'd be a good thing
+to do but we'll get there.
+
+00:04:37.760 --> 00:04:40.710
+What I kind of want to do is
+start by talking a little bit
+
+00:04:40.710 --> 00:04:42.000
+about the new strategies and
+how they might pop up here
+
+00:04:42.000 --> 00:04:43.230
+about the new strategies and
+how they might pop up here
+
+00:04:43.230 --> 00:04:45.370
+and specifically, we can talk
+about them in the context
+
+00:04:45.370 --> 00:04:48.000
+of this top menu and this
+bottom menu-like element.
+
+00:04:48.000 --> 00:04:49.540
+of this top menu and this
+bottom menu-like element.
+
+00:04:49.540 --> 00:04:51.020
+So if you remember, the fourth strategy
+
+00:04:51.020 --> 00:04:53.650
+is lightening and that's
+something that you apply
+
+00:04:53.650 --> 00:04:54.000
+to an element that you
+want to keep on the page
+
+00:04:54.000 --> 00:04:55.350
+to an element that you
+want to keep on the page
+
+00:04:55.350 --> 00:04:58.760
+but just currently seems a
+little bit too important.
+
+00:04:58.760 --> 00:05:00.000
+And like one way of saying what
+
+00:05:00.000 --> 00:05:00.430
+And like one way of saying what
+
+00:05:00.430 --> 00:05:02.760
+is too important is to do a squint test,
+
+00:05:02.760 --> 00:05:05.090
+the same thing that we've
+talked about already
+
+00:05:05.090 --> 00:05:06.000
+and even just doing a
+squint test on the top half
+
+00:05:06.000 --> 00:05:07.030
+and even just doing a
+squint test on the top half
+
+00:05:07.030 --> 00:05:10.030
+of this screen, I can see
+there's a nice title here.
+
+00:05:10.030 --> 00:05:12.000
+This looks like some
+important kind of title too
+
+00:05:12.000 --> 00:05:12.220
+This looks like some
+important kind of title too
+
+00:05:12.220 --> 00:05:14.900
+and then there's a really
+big light blob right here,
+
+00:05:14.900 --> 00:05:17.950
+which I wouldn't immediately
+be sure what that is.
+
+00:05:17.950 --> 00:05:18.000
+Of course in this case, it's
+this question mark icon.
+
+00:05:18.000 --> 00:05:20.640
+Of course in this case, it's
+this question mark icon.
+
+00:05:20.640 --> 00:05:22.740
+Probably it's gonna give
+me some sort of help
+
+00:05:22.740 --> 00:05:24.000
+but what's weird about
+this is this question
+
+00:05:24.000 --> 00:05:24.520
+but what's weird about
+this is this question
+
+00:05:24.520 --> 00:05:26.630
+mark is essentially in size 30 font
+
+00:05:26.630 --> 00:05:29.200
+which compared to this title at size 17,
+
+00:05:29.200 --> 00:05:30.000
+this thing is just huge
+and oversized and it's just
+
+00:05:30.000 --> 00:05:33.150
+this thing is just huge
+and oversized and it's just
+
+00:05:33.150 --> 00:05:36.000
+too big and attention-grabbing
+for its own importance.
+
+00:05:36.000 --> 00:05:36.710
+too big and attention-grabbing
+for its own importance.
+
+00:05:36.710 --> 00:05:40.280
+So one thing we could do
+is start by removing that
+
+00:05:40.280 --> 00:05:42.000
+and then we're gonna go
+ahead and say add in an icon
+
+00:05:42.000 --> 00:05:43.490
+and then we're gonna go
+ahead and say add in an icon
+
+00:05:43.490 --> 00:05:46.140
+from something like the
+Material Design Icon Library.
+
+00:05:48.450 --> 00:05:51.633
+So the Help icon is the one
+that I want, gonna grab it here.
+
+00:05:53.170 --> 00:05:54.000
+Then I'm gonna center it nicely
+
+00:05:54.000 --> 00:05:54.640
+Then I'm gonna center it nicely
+
+00:05:54.640 --> 00:05:57.240
+in sort of this top
+slot area in the header
+
+00:05:58.940 --> 00:06:00.000
+and I'm gonna go make it white
+
+00:06:00.000 --> 00:06:00.040
+and I'm gonna go make it white
+
+00:06:00.040 --> 00:06:01.580
+because it's on a colored background,
+
+00:06:01.580 --> 00:06:04.690
+that's the best way to do
+it and then I'm actually
+
+00:06:04.690 --> 00:06:06.000
+going to apply another form of lightening.
+
+00:06:06.000 --> 00:06:06.470
+going to apply another form of lightening.
+
+00:06:06.470 --> 00:06:07.550
+So far, I've lightened it
+
+00:06:07.550 --> 00:06:09.100
+in the sense that I've made it smaller.
+
+00:06:09.100 --> 00:06:10.840
+I'm just like reduced kind of
+
+00:06:10.840 --> 00:06:12.000
+its pop or it's visual emphasis.
+
+00:06:12.000 --> 00:06:13.440
+its pop or it's visual emphasis.
+
+00:06:13.440 --> 00:06:14.890
+But sizes isn't the only way to do it.
+
+00:06:14.890 --> 00:06:17.010
+I can literally do it by making it
+
+00:06:17.010 --> 00:06:18.000
+less contrasting against its background
+
+00:06:18.000 --> 00:06:19.420
+less contrasting against its background
+
+00:06:19.420 --> 00:06:23.570
+using like an opacity 50%,
+70%, something like that.
+
+00:06:23.570 --> 00:06:24.000
+The fifth strategy is hiding
+
+00:06:24.000 --> 00:06:25.050
+The fifth strategy is hiding
+
+00:06:25.050 --> 00:06:26.430
+and that's something that I do to
+
+00:06:26.430 --> 00:06:27.790
+anything that feels like it belongs
+
+00:06:27.790 --> 00:06:30.000
+in the app but just doesn't belong here.
+
+00:06:30.000 --> 00:06:30.030
+in the app but just doesn't belong here.
+
+00:06:30.030 --> 00:06:33.160
+So one great example
+is these three actions
+
+00:06:33.160 --> 00:06:36.000
+along the bottom, reset
+inputs, print and scan,
+
+00:06:36.000 --> 00:06:36.270
+along the bottom, reset
+inputs, print and scan,
+
+00:06:36.270 --> 00:06:39.050
+these actually look in most iPhone apps
+
+00:06:39.050 --> 00:06:42.000
+like the major app navigational
+destinations of the app
+
+00:06:42.000 --> 00:06:43.400
+like the major app navigational
+destinations of the app
+
+00:06:43.400 --> 00:06:45.880
+and yet these are not kind
+of the main destinations
+
+00:06:45.880 --> 00:06:47.830
+of the app or the main
+sections of the app.
+
+00:06:47.830 --> 00:06:48.000
+These are just three actions
+that you can take on this page.
+
+00:06:48.000 --> 00:06:51.080
+These are just three actions
+that you can take on this page.
+
+00:06:51.080 --> 00:06:53.210
+So instead what I'm gonna do is take them
+
+00:06:53.210 --> 00:06:54.000
+and presumably they're
+not all that important.
+
+00:06:54.000 --> 00:06:55.240
+and presumably they're
+not all that important.
+
+00:06:55.240 --> 00:06:56.500
+I don't think I'm very often gonna
+
+00:06:56.500 --> 00:06:58.780
+want to print or scan this information.
+
+00:06:58.780 --> 00:07:00.000
+So I would say these actions
+
+00:07:00.000 --> 00:07:00.230
+So I would say these actions
+
+00:07:00.230 --> 00:07:02.653
+actually better belong in a menu.
+
+00:07:03.910 --> 00:07:06.000
+Now one very common way to do menus on iOS
+
+00:07:06.000 --> 00:07:06.760
+Now one very common way to do menus on iOS
+
+00:07:06.760 --> 00:07:09.470
+is to say have some little icon up here
+
+00:07:09.470 --> 00:07:11.170
+which I can pull down a menu from.
+
+00:07:14.050 --> 00:07:15.970
+It's actually Google
+that uses this pattern
+
+00:07:15.970 --> 00:07:18.000
+of three dots to represent a menu.
+
+00:07:18.000 --> 00:07:18.060
+of three dots to represent a menu.
+
+00:07:18.060 --> 00:07:20.100
+But the point is I could actually
+
+00:07:20.100 --> 00:07:24.000
+replace this question
+mark icon with a menu icon
+
+00:07:24.000 --> 00:07:24.040
+replace this question
+mark icon with a menu icon
+
+00:07:24.040 --> 00:07:26.530
+and then whatever help I
+would get by clicking here,
+
+00:07:26.530 --> 00:07:29.290
+that help could just be
+one more item in the menu
+
+00:07:29.290 --> 00:07:30.000
+along with Print and
+whatever else was there.
+
+00:07:30.000 --> 00:07:32.130
+along with Print and
+whatever else was there.
+
+00:07:32.130 --> 00:07:34.180
+So again, I might do a
+slightly lesser opacity
+
+00:07:34.180 --> 00:07:36.000
+'cause it doesn't need
+to be super important.
+
+00:07:36.000 --> 00:07:36.920
+'cause it doesn't need
+to be super important.
+
+00:07:36.920 --> 00:07:39.110
+I could try 100%, whatever,
+
+00:07:39.110 --> 00:07:41.350
+there's some leeway in
+exactly what you do there.
+
+00:07:41.350 --> 00:07:42.000
+Again, I'm gonna get it
+centered nicely there
+
+00:07:42.000 --> 00:07:44.000
+Again, I'm gonna get it
+centered nicely there
+
+00:07:45.000 --> 00:07:46.630
+and now the app is once again simpler
+
+00:07:46.630 --> 00:07:48.000
+in that it no longer has this bottom bar
+
+00:07:48.000 --> 00:07:48.700
+in that it no longer has this bottom bar
+
+00:07:48.700 --> 00:07:52.000
+of infrequently used
+actions visible by default.
+
+00:07:52.000 --> 00:07:53.530
+The sixth strategy is just
+
+00:07:53.530 --> 00:07:54.000
+to remove whatever is
+completely unnecessary
+
+00:07:54.000 --> 00:07:55.770
+to remove whatever is
+completely unnecessary
+
+00:07:55.770 --> 00:07:57.740
+and one example from this header here
+
+00:07:57.740 --> 00:08:00.000
+is this little picture of chocolate.
+
+00:08:00.000 --> 00:08:00.060
+is this little picture of chocolate.
+
+00:08:00.060 --> 00:08:01.590
+It adds nothing to the title,
+
+00:08:01.590 --> 00:08:04.990
+so I can remove it and
+certainly nothing bad happens.
+
+00:08:04.990 --> 00:08:06.000
+I might also consider
+making the title a little
+
+00:08:06.000 --> 00:08:06.720
+I might also consider
+making the title a little
+
+00:08:06.720 --> 00:08:09.047
+bit more useful given
+the purpose of the page,
+
+00:08:09.047 --> 00:08:11.540
+"Chocolate Ingested" or
+something like that that kind of
+
+00:08:11.540 --> 00:08:12.000
+describes the case that brings
+you to use this calculator.
+
+00:08:12.000 --> 00:08:14.910
+describes the case that brings
+you to use this calculator.
+
+00:08:14.910 --> 00:08:16.970
+So we're gonna talk a lot
+more about lightening, hiding
+
+00:08:16.970 --> 00:08:18.000
+and removing but that's
+the general gist of things.
+
+00:08:18.000 --> 00:08:19.800
+and removing but that's
+the general gist of things.
+
+00:08:19.800 --> 00:08:21.320
+One tool that goes arm-in-arm with
+
+00:08:21.320 --> 00:08:24.000
+the six strategies of
+simplicity is the squint test.
+
+00:08:24.000 --> 00:08:24.190
+the six strategies of
+simplicity is the squint test.
+
+00:08:24.190 --> 00:08:25.830
+We've already talked about it a little bit
+
+00:08:25.830 --> 00:08:26.960
+but it's just something you're gonna want
+
+00:08:26.960 --> 00:08:28.700
+to be doing very frequently as you try
+
+00:08:28.700 --> 00:08:30.000
+and make an app simpler and neater looking
+
+00:08:30.000 --> 00:08:31.200
+and make an app simpler and neater looking
+
+00:08:31.200 --> 00:08:33.800
+and so one example of how we'd use it here
+
+00:08:33.800 --> 00:08:36.000
+is if I kind of take a
+high level description
+
+00:08:36.000 --> 00:08:36.260
+is if I kind of take a
+high level description
+
+00:08:36.260 --> 00:08:39.070
+of this app or this page,
+I would say you enter
+
+00:08:39.070 --> 00:08:42.000
+in some inputs here and then
+you get some results here
+
+00:08:42.000 --> 00:08:42.140
+in some inputs here and then
+you get some results here
+
+00:08:42.140 --> 00:08:43.530
+and if that could be communicated
+
+00:08:43.530 --> 00:08:45.880
+even to someone who's squinting or even
+
+00:08:45.880 --> 00:08:47.570
+if there's a blurry overlay on top,
+
+00:08:47.570 --> 00:08:48.000
+that there's kind of like some
+inputs and then maybe some
+
+00:08:48.000 --> 00:08:49.520
+that there's kind of like some
+inputs and then maybe some
+
+00:08:49.520 --> 00:08:52.840
+other information below, that
+would be really, really good.
+
+00:08:52.840 --> 00:08:54.000
+I think one way to do that is
+to style them consistently.
+
+00:08:54.000 --> 00:08:56.760
+I think one way to do that is
+to style them consistently.
+
+00:08:56.760 --> 00:08:58.100
+In other words, instead of having
+
+00:08:58.100 --> 00:09:00.000
+just one card that surrounds everything,
+
+00:09:00.000 --> 00:09:00.280
+just one card that surrounds everything,
+
+00:09:00.280 --> 00:09:01.830
+we'd actually kind of do a style
+
+00:09:01.830 --> 00:09:03.280
+where there's maybe two cards
+
+00:09:04.390 --> 00:09:06.000
+and one card has the inputs on it
+
+00:09:06.000 --> 00:09:06.640
+and one card has the inputs on it
+
+00:09:06.640 --> 00:09:11.510
+and the other card has the
+information that is output.
+
+00:09:11.510 --> 00:09:12.000
+Now I don't believe this image
+
+00:09:12.000 --> 00:09:12.550
+Now I don't believe this image
+
+00:09:12.550 --> 00:09:14.510
+of chocolate is really adding anything.
+
+00:09:14.510 --> 00:09:16.290
+So I'm gonna use the removal strategy
+
+00:09:16.290 --> 00:09:18.000
+and just go ahead and get rid of that.
+
+00:09:18.000 --> 00:09:18.520
+and just go ahead and get rid of that.
+
+00:09:18.520 --> 00:09:22.720
+But already I now have sort
+of a neater UI to work with
+
+00:09:22.720 --> 00:09:24.000
+in that these two cards make it clear
+
+00:09:24.000 --> 00:09:24.420
+in that these two cards make it clear
+
+00:09:24.420 --> 00:09:27.390
+that there's kind of two
+main sections of the screen.
+
+00:09:27.390 --> 00:09:29.790
+And let's talk about card
+styling just for a second.
+
+00:09:29.790 --> 00:09:30.000
+If you remember from the spacing lesson,
+
+00:09:30.000 --> 00:09:32.130
+If you remember from the spacing lesson,
+
+00:09:32.130 --> 00:09:34.520
+one thing I said is that you
+can use white space in place of
+
+00:09:34.520 --> 00:09:36.000
+any other border that you have
+or any other real separator.
+
+00:09:36.000 --> 00:09:38.600
+any other border that you have
+or any other real separator.
+
+00:09:38.600 --> 00:09:40.500
+So one thing we're gonna try is just
+
+00:09:40.500 --> 00:09:42.000
+removing some of these separators,
+
+00:09:42.000 --> 00:09:42.040
+removing some of these separators,
+
+00:09:42.040 --> 00:09:44.340
+in particular the stroke
+around these cards.
+
+00:09:44.340 --> 00:09:45.730
+I can definitely get rid of that
+
+00:09:45.730 --> 00:09:47.260
+and then one other thing is it's generally
+
+00:09:47.260 --> 00:09:48.000
+a design faux pas to have a rounded
+
+00:09:48.000 --> 00:09:50.100
+a design faux pas to have a rounded
+
+00:09:50.100 --> 00:09:51.900
+corner that meets the edge of the screen.
+
+00:09:51.900 --> 00:09:54.000
+That's cool if this content
+slides in from the bottom
+
+00:09:54.000 --> 00:09:55.630
+That's cool if this content
+slides in from the bottom
+
+00:09:55.630 --> 00:09:58.140
+but there's really no reason
+for these to be rounded.
+
+00:09:58.140 --> 00:10:00.000
+So I'm actually gonna
+bring the border radius
+
+00:10:00.000 --> 00:10:00.140
+So I'm actually gonna
+bring the border radius
+
+00:10:00.140 --> 00:10:02.970
+down to zero and then I'm
+also gonna remove the shadow.
+
+00:10:02.970 --> 00:10:04.130
+That's one other sort of type
+
+00:10:04.130 --> 00:10:05.940
+of separator and you can just see it.
+
+00:10:05.940 --> 00:10:06.000
+I'm just gonna remove
+it because by default,
+
+00:10:06.000 --> 00:10:07.790
+I'm just gonna remove
+it because by default,
+
+00:10:07.790 --> 00:10:09.010
+I want to get rid of all this stuff
+
+00:10:09.010 --> 00:10:11.620
+and just make things as
+clean and simple as possible.
+
+00:10:11.620 --> 00:10:12.000
+Really the name of the game here
+
+00:10:12.000 --> 00:10:12.800
+Really the name of the game here
+
+00:10:12.800 --> 00:10:16.560
+is remove it now and then
+add in later as necessary.
+
+00:10:16.560 --> 00:10:18.000
+But default to removing stuff now.
+
+00:10:18.000 --> 00:10:18.510
+But default to removing stuff now.
+
+00:10:18.510 --> 00:10:19.790
+Go as simple as possible
+
+00:10:19.790 --> 00:10:21.690
+and then add in whatever is necessary.
+
+00:10:22.540 --> 00:10:24.000
+So this is generally working all right
+
+00:10:24.000 --> 00:10:24.640
+So this is generally working all right
+
+00:10:24.640 --> 00:10:27.670
+but I really want to make this display
+
+00:10:27.670 --> 00:10:29.810
+and this display feel very consistent
+
+00:10:29.810 --> 00:10:30.000
+so that even to someone
+doing a squint test,
+
+00:10:30.000 --> 00:10:31.961
+so that even to someone
+doing a squint test,
+
+00:10:31.961 --> 00:10:35.740
+you can see clearly that
+there's two parts to the screen.
+
+00:10:35.740 --> 00:10:36.000
+So I'm actually gonna give
+this a little bit more space
+
+00:10:36.000 --> 00:10:37.830
+So I'm actually gonna give
+this a little bit more space
+
+00:10:37.830 --> 00:10:41.113
+and then we're gonna worry
+about this title right here.
+
+00:10:42.195 --> 00:10:45.880
+First of all, again, think
+about the spacing lesson.
+
+00:10:45.880 --> 00:10:48.000
+I say background color
+changes are a very common way
+
+00:10:48.000 --> 00:10:49.330
+I say background color
+changes are a very common way
+
+00:10:49.330 --> 00:10:52.770
+of denoting what element
+is separated from the rest.
+
+00:10:52.770 --> 00:10:54.000
+Well, that's one way to
+do it but you know what?
+
+00:10:54.000 --> 00:10:54.720
+Well, that's one way to
+do it but you know what?
+
+00:10:54.720 --> 00:10:56.290
+There's others as well.
+
+00:10:56.290 --> 00:10:59.020
+We could simply put this
+kind of above the card
+
+00:10:59.020 --> 00:11:00.000
+and then we're also going to left-align it
+
+00:11:00.000 --> 00:11:02.141
+and then we're also going to left-align it
+
+00:11:02.141 --> 00:11:04.120
+and the big reason to
+left-align this title
+
+00:11:04.120 --> 00:11:06.000
+is because in general, aligning text left
+
+00:11:06.000 --> 00:11:07.430
+is because in general, aligning text left
+
+00:11:07.430 --> 00:11:09.520
+is always gonna give you a greater sense
+
+00:11:09.520 --> 00:11:11.480
+of alignment or a greater
+feel of alignment.
+
+00:11:11.480 --> 00:11:12.000
+It's gonna buy you a bit more alignment
+
+00:11:12.000 --> 00:11:13.270
+It's gonna buy you a bit more alignment
+
+00:11:13.270 --> 00:11:15.290
+with the same elements on the page.
+
+00:11:15.290 --> 00:11:18.000
+So it's just the way we want to default.
+
+00:11:18.000 --> 00:11:18.090
+So it's just the way we want to default.
+
+00:11:18.090 --> 00:11:20.330
+Now I'm actually gonna title this "Inputs"
+
+00:11:20.330 --> 00:11:23.080
+and this might be something
+like "Results" or whatever.
+
+00:11:24.969 --> 00:11:28.140
+And now that all this
+is looking fairly good,
+
+00:11:28.140 --> 00:11:30.000
+I'm going to dive into working on
+
+00:11:30.000 --> 00:11:30.240
+I'm going to dive into working on
+
+00:11:30.240 --> 00:11:32.280
+these little inputs right here.
+
+00:11:32.280 --> 00:11:33.990
+Now if you remember from
+the consistency lesson,
+
+00:11:33.990 --> 00:11:35.800
+I said one very important element
+
+00:11:35.800 --> 00:11:36.000
+of consistency is being consistent
+
+00:11:36.000 --> 00:11:37.750
+of consistency is being consistent
+
+00:11:37.750 --> 00:11:40.180
+with the other apps that
+are already out there
+
+00:11:40.180 --> 00:11:42.000
+and one way this comes into play here
+
+00:11:42.000 --> 00:11:42.170
+and one way this comes into play here
+
+00:11:42.170 --> 00:11:44.810
+is when I click in the pounds
+and I edit this number,
+
+00:11:44.810 --> 00:11:46.270
+this is actually just a translation
+
+00:11:46.270 --> 00:11:48.000
+in kilograms of the same value
+and so if I edit this one,
+
+00:11:48.000 --> 00:11:49.430
+in kilograms of the same value
+and so if I edit this one,
+
+00:11:49.430 --> 00:11:51.760
+this one updates and vice
+versa and it's the same
+
+00:11:51.760 --> 00:11:54.000
+with the ounces ingested
+versus grams ingested.
+
+00:11:54.000 --> 00:11:54.510
+with the ounces ingested
+versus grams ingested.
+
+00:11:54.510 --> 00:11:56.340
+Now to me, this feels
+a little bit confusing
+
+00:11:56.340 --> 00:11:57.900
+because it's not often that you see two
+
+00:11:57.900 --> 00:12:00.000
+text boxes on one row and
+that means enter in one
+
+00:12:00.000 --> 00:12:02.010
+text boxes on one row and
+that means enter in one
+
+00:12:02.010 --> 00:12:04.230
+and the other's gonna
+just automatically update.
+
+00:12:04.230 --> 00:12:05.830
+So I want to be more consistent.
+
+00:12:05.830 --> 00:12:06.000
+Maybe I'll just have a single text box
+
+00:12:06.000 --> 00:12:07.540
+Maybe I'll just have a single text box
+
+00:12:07.540 --> 00:12:09.360
+that says "Amount Ingested"
+and then it could be
+
+00:12:09.360 --> 00:12:11.380
+like a small dropdown or
+something where you choose
+
+00:12:11.380 --> 00:12:12.000
+between pounds and
+kilograms and likewise for,
+
+00:12:12.000 --> 00:12:14.720
+between pounds and
+kilograms and likewise for,
+
+00:12:14.720 --> 00:12:17.070
+sorry, the weight of the
+dog and then the amount
+
+00:12:17.070 --> 00:12:18.000
+ingested and then I can
+choose my units on the side.
+
+00:12:18.000 --> 00:12:18.930
+ingested and then I can
+choose my units on the side.
+
+00:12:18.930 --> 00:12:20.830
+So that's one thing
+that'll make these two rows
+
+00:12:20.830 --> 00:12:23.720
+feel consistent with how
+other apps would do this.
+
+00:12:23.720 --> 00:12:24.000
+But then another way I can add in
+
+00:12:24.000 --> 00:12:25.010
+But then another way I can add in
+
+00:12:25.010 --> 00:12:27.080
+consistency is remember consistency first.
+
+00:12:27.080 --> 00:12:28.670
+If I'm adding in another form control,
+
+00:12:28.670 --> 00:12:30.000
+in this case here's this
+totally separate drop-down,
+
+00:12:30.000 --> 00:12:31.090
+in this case here's this
+totally separate drop-down,
+
+00:12:31.090 --> 00:12:33.500
+this is given its own style.
+
+00:12:33.500 --> 00:12:35.210
+It doesn't have a border,
+it doesn't have a shadow.
+
+00:12:35.210 --> 00:12:36.000
+In no way does it look like
+
+00:12:36.000 --> 00:12:36.450
+In no way does it look like
+
+00:12:36.450 --> 00:12:38.830
+this other form control right here.
+
+00:12:38.830 --> 00:12:41.700
+Well as much as possible, I
+want to go consistency first
+
+00:12:41.700 --> 00:12:42.000
+and have things kind of
+default to looking the same
+
+00:12:42.000 --> 00:12:44.080
+and have things kind of
+default to looking the same
+
+00:12:44.080 --> 00:12:46.090
+and then if I make any differences
+
+00:12:46.090 --> 00:12:48.000
+or inconsistencies to them, I'm only gonna
+
+00:12:48.000 --> 00:12:48.040
+or inconsistencies to them, I'm only gonna
+
+00:12:48.040 --> 00:12:50.400
+do that where I have
+rationale for doing so.
+
+00:12:50.400 --> 00:12:52.730
+So let's actually just
+slide this off so that
+
+00:12:52.730 --> 00:12:54.000
+I can kind of work things
+through consistency first.
+
+00:12:54.000 --> 00:12:55.483
+I can kind of work things
+through consistency first.
+
+00:13:00.750 --> 00:13:03.280
+Of course in sizing, we
+know that the default
+
+00:13:03.280 --> 00:13:06.000
+iOS form control needs to be
+44 pixels tall, there we go.
+
+00:13:06.000 --> 00:13:07.630
+iOS form control needs to be
+44 pixels tall, there we go.
+
+00:13:07.630 --> 00:13:09.240
+So that looks good
+there and then I'm gonna
+
+00:13:09.240 --> 00:13:12.000
+just kind of grab the same
+thing and bring it down here.
+
+00:13:12.000 --> 00:13:12.040
+just kind of grab the same
+thing and bring it down here.
+
+00:13:13.570 --> 00:13:15.170
+And ultimately this will be a text input
+
+00:13:15.170 --> 00:13:17.680
+of the dog's weight and this'll
+be like a little selector
+
+00:13:17.680 --> 00:13:18.000
+and if I tap here, I'll have
+maybe some sort of modal that
+
+00:13:18.000 --> 00:13:20.400
+and if I tap here, I'll have
+maybe some sort of modal that
+
+00:13:20.400 --> 00:13:23.410
+quickly allows me to pick
+between pounds and kilograms.
+
+00:13:23.410 --> 00:13:24.000
+Now we used the Material
+design Icon Set there,
+
+00:13:24.000 --> 00:13:25.410
+Now we used the Material
+design Icon Set there,
+
+00:13:25.410 --> 00:13:27.250
+so I'm gonna do option + command + P
+
+00:13:27.250 --> 00:13:30.000
+which brings up the last
+extension I used in Figma
+
+00:13:30.000 --> 00:13:30.270
+which brings up the last
+extension I used in Figma
+
+00:13:30.270 --> 00:13:33.850
+and I want the little down caret.
+
+00:13:33.850 --> 00:13:36.000
+This is just a very easy
+way to create a dropdown.
+
+00:13:36.000 --> 00:13:37.863
+This is just a very easy
+way to create a dropdown.
+
+00:13:39.530 --> 00:13:40.880
+And of course, I'm gonna align that well
+
+00:13:40.880 --> 00:13:42.000
+by centering it vertically
+in its bounding box.
+
+00:13:42.000 --> 00:13:43.953
+by centering it vertically
+in its bounding box.
+
+00:13:47.970 --> 00:13:48.000
+I'll give it a little
+extra margin right there.
+
+00:13:48.000 --> 00:13:50.433
+I'll give it a little
+extra margin right there.
+
+00:13:53.000 --> 00:13:54.000
+I think this needs an S.
+
+00:13:54.000 --> 00:13:54.423
+I think this needs an S.
+
+00:13:58.180 --> 00:14:00.000
+So now this is interesting
+because it's very consistent.
+
+00:14:00.000 --> 00:14:00.490
+So now this is interesting
+because it's very consistent.
+
+00:14:00.490 --> 00:14:02.180
+The text box and the dropdown
+
+00:14:02.180 --> 00:14:04.170
+actually look really, really similar.
+
+00:14:04.170 --> 00:14:06.000
+I could imagine that
+somewhere else in the app,
+
+00:14:06.000 --> 00:14:06.030
+I could imagine that
+somewhere else in the app,
+
+00:14:06.030 --> 00:14:07.730
+this actually becomes a bit of an issue
+
+00:14:07.730 --> 00:14:10.980
+but as long as it's not, I'm
+gonna default to consistency
+
+00:14:10.980 --> 00:14:12.000
+and so let's do the
+same thing where we make
+
+00:14:12.000 --> 00:14:13.070
+and so let's do the
+same thing where we make
+
+00:14:13.070 --> 00:14:16.063
+a similar control for the chocolate type.
+
+00:14:17.410 --> 00:14:18.000
+A little space in here,
+
+00:14:18.000 --> 00:14:19.030
+A little space in here,
+
+00:14:19.030 --> 00:14:21.223
+maybe default to something like 12 pixels.
+
+00:14:23.770 --> 00:14:24.000
+And then I suppose actually one smart way
+
+00:14:24.000 --> 00:14:25.630
+And then I suppose actually one smart way
+
+00:14:25.630 --> 00:14:28.400
+to do this is to highlight
+these three things,
+
+00:14:28.400 --> 00:14:30.000
+press option + command + G.
+
+00:14:30.000 --> 00:14:30.690
+press option + command + G.
+
+00:14:30.690 --> 00:14:33.040
+It's gonna make them into their own frame
+
+00:14:33.040 --> 00:14:36.000
+and then I can say for
+instance, we're going to, oops,
+
+00:14:36.000 --> 00:14:37.273
+and then I can say for
+instance, we're going to, oops,
+
+00:14:38.180 --> 00:14:39.920
+we're gonna hold this on the right side,
+
+00:14:39.920 --> 00:14:41.870
+the pounds will be anchored on the left
+
+00:14:43.070 --> 00:14:44.660
+and this background needs to stretch
+
+00:14:44.660 --> 00:14:48.000
+left to right and top to bottom.
+
+00:14:48.000 --> 00:14:48.740
+left to right and top to bottom.
+
+00:14:48.740 --> 00:14:51.210
+So that way when I duplicate this,
+
+00:14:51.210 --> 00:14:53.210
+pull this over, it behaves appropriately
+
+00:14:54.540 --> 00:14:55.780
+and I can say the chocolate type
+
+00:14:55.780 --> 00:14:57.920
+is dark chocolate or what have you
+
+00:15:00.380 --> 00:15:03.190
+and then finally in the name
+of consistency first, for
+
+00:15:03.190 --> 00:15:06.000
+the third row, that has the
+same format as the first row.
+
+00:15:06.000 --> 00:15:06.410
+the third row, that has the
+same format as the first row.
+
+00:15:06.410 --> 00:15:08.660
+So we'll just duplicate
+it and go from there.
+
+00:15:14.240 --> 00:15:16.880
+Now I can unlock this background layer,
+
+00:15:16.880 --> 00:15:18.000
+maybe do something like 12
+pixels of padding there.
+
+00:15:18.000 --> 00:15:21.720
+maybe do something like 12
+pixels of padding there.
+
+00:15:21.720 --> 00:15:23.820
+Looks good enough.
+
+00:15:23.820 --> 00:15:24.000
+Give it a little space above
+the title and likewise,
+
+00:15:24.000 --> 00:15:26.790
+Give it a little space above
+the title and likewise,
+
+00:15:26.790 --> 00:15:28.740
+we'll give the title a little space too
+
+00:15:32.570 --> 00:15:34.930
+and that is looking much better.
+
+00:15:34.930 --> 00:15:36.000
+The only little issue I see
+here is related to spacing.
+
+00:15:36.000 --> 00:15:37.570
+The only little issue I see
+here is related to spacing.
+
+00:15:37.570 --> 00:15:39.180
+It's the idea of internal spacing
+
+00:15:39.180 --> 00:15:41.110
+being less than external spacing.
+
+00:15:41.110 --> 00:15:42.000
+Because the space between
+this and this is actually
+
+00:15:42.000 --> 00:15:43.870
+Because the space between
+this and this is actually
+
+00:15:43.870 --> 00:15:46.170
+very little compared to the
+space between the control
+
+00:15:46.170 --> 00:15:48.000
+and the label is attached
+to, it almost feels
+
+00:15:48.000 --> 00:15:48.300
+and the label is attached
+to, it almost feels
+
+00:15:48.300 --> 00:15:51.560
+like this is kind of one unit,
+at the squint test level,
+
+00:15:51.560 --> 00:15:53.150
+this is one unit of this area
+
+00:15:53.150 --> 00:15:54.000
+and these three labels are another unit
+
+00:15:54.000 --> 00:15:54.830
+and these three labels are another unit
+
+00:15:54.830 --> 00:15:56.100
+and that's not really the case.
+
+00:15:56.100 --> 00:15:57.940
+If anything, I want the user to first
+
+00:15:57.940 --> 00:16:00.000
+perceive this as a set of rows.
+
+00:16:00.000 --> 00:16:00.190
+perceive this as a set of rows.
+
+00:16:00.190 --> 00:16:02.680
+So I'm actually gonna go ahead
+and add divider lines in.
+
+00:16:02.680 --> 00:16:06.000
+This is a great reason why one would break
+
+00:16:06.000 --> 00:16:06.050
+This is a great reason why one would break
+
+00:16:06.050 --> 00:16:08.670
+using white space as the
+only divider or something
+
+00:16:08.670 --> 00:16:11.180
+is just you need to
+more clearly convey that
+
+00:16:11.180 --> 00:16:12.000
+even if the spacing
+isn't quite working out,
+
+00:16:12.000 --> 00:16:13.260
+even if the spacing
+isn't quite working out,
+
+00:16:13.260 --> 00:16:15.960
+this is one unit and this
+is a totally separate thing.
+
+00:16:22.870 --> 00:16:24.000
+Nice, so I'm gonna get
+rid of all this stuff
+
+00:16:24.000 --> 00:16:25.210
+Nice, so I'm gonna get
+rid of all this stuff
+
+00:16:25.210 --> 00:16:28.130
+and then we move on to the results here.
+
+00:16:28.130 --> 00:16:29.920
+Basically my main goal is to try
+
+00:16:29.920 --> 00:16:30.000
+and do something that is as consistent
+
+00:16:30.000 --> 00:16:31.960
+and do something that is as consistent
+
+00:16:31.960 --> 00:16:34.360
+as possible with this display here.
+
+00:16:34.360 --> 00:16:36.000
+So maybe I'll do something
+where I'm kind of using rows.
+
+00:16:36.000 --> 00:16:36.740
+So maybe I'll do something
+where I'm kind of using rows.
+
+00:16:36.740 --> 00:16:38.530
+For instance, I might take this "Emergency
+
+00:16:38.530 --> 00:16:42.000
+Treatment Advised" and
+perhaps if you click that,
+
+00:16:42.000 --> 00:16:42.030
+Treatment Advised" and
+perhaps if you click that,
+
+00:16:42.030 --> 00:16:46.100
+it launches into exactly what
+emergency treatment you need.
+
+00:16:46.100 --> 00:16:48.000
+It's not necessarily a huge
+deal exactly how that works.
+
+00:16:48.000 --> 00:16:49.073
+It's not necessarily a huge
+deal exactly how that works.
+
+00:16:51.540 --> 00:16:53.160
+If you remember from the alignment lesson,
+
+00:16:53.160 --> 00:16:54.000
+since this is rounded,
+I could even bump it
+
+00:16:54.000 --> 00:16:54.800
+since this is rounded,
+I could even bump it
+
+00:16:54.800 --> 00:16:57.483
+a pixel or two to the left,
+that's not a huge deal.
+
+00:16:58.460 --> 00:17:00.000
+To be otherwise consistent
+with the spacing,
+
+00:17:00.000 --> 00:17:00.748
+To be otherwise consistent
+with the spacing,
+
+00:17:00.748 --> 00:17:02.520
+there's six pixels above
+and below everything
+
+00:17:02.520 --> 00:17:04.763
+here as far as I know,
+oops, that was nine.
+
+00:17:06.930 --> 00:17:08.640
+Now I might do something like make this
+
+00:17:08.640 --> 00:17:10.940
+font size the same as this font size
+
+00:17:10.940 --> 00:17:12.000
+because it's kind of that
+same standard body text.
+
+00:17:12.000 --> 00:17:13.760
+because it's kind of that
+same standard body text.
+
+00:17:13.760 --> 00:17:16.210
+Again, just being consistent
+as much as possible.
+
+00:17:17.400 --> 00:17:18.000
+We want everything nice and lined up.
+
+00:17:18.000 --> 00:17:19.250
+We want everything nice and lined up.
+
+00:17:20.670 --> 00:17:22.050
+We'll actually move this down
+
+00:17:22.050 --> 00:17:23.700
+to deal with it in just a second.
+
+00:17:24.840 --> 00:17:26.430
+Center text, I don't have anything
+
+00:17:26.430 --> 00:17:29.100
+really against it but again, it's just not
+
+00:17:29.100 --> 00:17:30.000
+as easy to get that feeling of alignment.
+
+00:17:30.000 --> 00:17:31.630
+as easy to get that feeling of alignment.
+
+00:17:31.630 --> 00:17:33.580
+So I'm gonna change it up a little bit.
+
+00:17:35.750 --> 00:17:36.000
+I'm not gonna use a bold label here
+
+00:17:36.000 --> 00:17:37.180
+I'm not gonna use a bold label here
+
+00:17:37.180 --> 00:17:38.440
+'cause this one is already bold.
+
+00:17:38.440 --> 00:17:39.780
+But what I might do is just give this
+
+00:17:39.780 --> 00:17:42.000
+like a 70% opacity and
+then it kind of feels
+
+00:17:42.000 --> 00:17:43.170
+like a 70% opacity and
+then it kind of feels
+
+00:17:43.170 --> 00:17:46.063
+like a label for the data
+below, that works nicely.
+
+00:17:49.050 --> 00:17:53.920
+And then you can
+duplicate this and finally
+
+00:17:53.920 --> 00:17:54.000
+add in something, again a
+label, even though there
+
+00:17:54.000 --> 00:17:56.630
+add in something, again a
+label, even though there
+
+00:17:56.630 --> 00:17:59.380
+wasn't a label initially
+for this equation, I'm gonna
+
+00:17:59.380 --> 00:18:00.000
+add one just so it makes
+these two rows consistent.
+
+00:18:00.000 --> 00:18:02.410
+add one just so it makes
+these two rows consistent.
+
+00:18:02.410 --> 00:18:03.860
+So I might say something like
+
+00:18:04.927 --> 00:18:06.000
+"Total Methylxanthines
+
+00:18:06.000 --> 00:18:09.560
+"Total Methylxanthines
+
+00:18:09.560 --> 00:18:10.467
+Ingested."
+
+00:18:12.130 --> 00:18:14.320
+Consistency first, since
+I'm making more kind
+
+00:18:14.320 --> 00:18:16.650
+of body text, I'm gonna start by grabbing
+
+00:18:16.650 --> 00:18:18.000
+the text I already have and
+we can type in the data.
+
+00:18:18.000 --> 00:18:19.830
+the text I already have and
+we can type in the data.
+
+00:18:19.830 --> 00:18:22.673
+85 milligrams of theobromine.
+
+00:18:24.815 --> 00:18:27.590
+13.2 milligrams caffeine
+
+00:18:28.530 --> 00:18:30.000
+and 99.12 milligrams
+
+00:18:30.000 --> 00:18:31.380
+and 99.12 milligrams
+
+00:18:32.590 --> 00:18:33.423
+total
+
+00:18:34.842 --> 00:18:36.000
+methylxanthines.
+
+00:18:36.000 --> 00:18:36.175
+methylxanthines.
+
+00:18:37.110 --> 00:18:38.290
+Since this is the important bit,
+
+00:18:38.290 --> 00:18:40.570
+I will just bold it like that.
+
+00:18:40.570 --> 00:18:42.000
+But there we go, that
+feels like a much more
+
+00:18:42.000 --> 00:18:42.510
+But there we go, that
+feels like a much more
+
+00:18:42.510 --> 00:18:44.653
+consistent way to display all this.
+
+00:18:46.326 --> 00:18:47.860
+And now that we have both sections done,
+
+00:18:47.860 --> 00:18:48.000
+I can maybe get this a
+little bit closer here.
+
+00:18:48.000 --> 00:18:50.933
+I can maybe get this a
+little bit closer here.
+
+00:18:53.050 --> 00:18:54.000
+My goal is just to kind
+of like squint at it
+
+00:18:54.000 --> 00:18:54.920
+My goal is just to kind
+of like squint at it
+
+00:18:54.920 --> 00:18:57.790
+as I do this and say
+what feels like sort of
+
+00:18:57.790 --> 00:19:00.000
+the right amount where my
+eye very easily understands
+
+00:19:00.000 --> 00:19:01.660
+the right amount where my
+eye very easily understands
+
+00:19:01.660 --> 00:19:04.140
+that I'm looking at two
+separate things here?
+
+00:19:04.140 --> 00:19:05.370
+And then you might notice I'm just
+
+00:19:05.370 --> 00:19:06.000
+adding some borders at
+the top and bottom here.
+
+00:19:06.000 --> 00:19:07.530
+adding some borders at
+the top and bottom here.
+
+00:19:07.530 --> 00:19:10.440
+This is actually consistent
+with how iOS styles its own
+
+00:19:10.440 --> 00:19:12.000
+lists but it is nice because
+it kind of just adds a little
+
+00:19:12.000 --> 00:19:12.920
+lists but it is nice because
+it kind of just adds a little
+
+00:19:12.920 --> 00:19:16.993
+more separation between the
+list and the label for it.
+
+00:19:18.720 --> 00:19:19.553
+So there we go.
+
+00:19:19.553 --> 00:19:21.220
+I'm not saying that's the
+only way of doing things.
+
+00:19:21.220 --> 00:19:23.130
+This is just one take at it.
+
+00:19:23.130 --> 00:19:24.000
+But you can see by taking those six ideas
+
+00:19:24.000 --> 00:19:25.760
+But you can see by taking those six ideas
+
+00:19:25.760 --> 00:19:28.920
+of alignment, spacing,
+consistency, lightening,
+
+00:19:28.920 --> 00:19:30.000
+hiding and removing, we've made something
+
+00:19:30.000 --> 00:19:31.080
+hiding and removing, we've made something
+
+00:19:31.080 --> 00:19:32.850
+that's quite messy into something that's
+
+00:19:32.850 --> 00:19:35.963
+actually quite a bit
+neater and easier to parse.
+
+00:19:37.830 --> 00:19:38.990
+Now we're gonna set our sights
+
+00:19:38.990 --> 00:19:40.800
+on a little more complicated example.
+
+00:19:40.800 --> 00:19:42.000
+This one is a submission
+or based very closely
+
+00:19:42.000 --> 00:19:43.290
+This one is a submission
+or based very closely
+
+00:19:43.290 --> 00:19:45.880
+on a submission from Learn
+UI Design student Brayden.
+
+00:19:45.880 --> 00:19:47.750
+So thank you for that, Brayden.
+
+00:19:47.750 --> 00:19:48.000
+It's a kind of typical clean
+and simple job tracker.
+
+00:19:48.000 --> 00:19:51.520
+It's a kind of typical clean
+and simple job tracker.
+
+00:19:51.520 --> 00:19:53.350
+There's some orders that
+have come in and people
+
+00:19:53.350 --> 00:19:54.000
+need to go install roller
+blinds or something like that.
+
+00:19:54.000 --> 00:19:56.490
+need to go install roller
+blinds or something like that.
+
+00:19:56.490 --> 00:19:58.420
+Honestly it doesn't really matter
+
+00:19:58.420 --> 00:19:59.900
+exactly what the details are.
+
+00:19:59.900 --> 00:20:00.000
+The point is we're gonna be
+taking our six strategies
+
+00:20:00.000 --> 00:20:02.570
+The point is we're gonna be
+taking our six strategies
+
+00:20:02.570 --> 00:20:05.940
+of simplicity and going
+through basically top to bottom
+
+00:20:05.940 --> 00:20:06.000
+and doing everything up and
+making this look much better.
+
+00:20:06.000 --> 00:20:10.340
+and doing everything up and
+making this look much better.
+
+00:20:10.340 --> 00:20:11.640
+Now just like the mobile example,
+
+00:20:11.640 --> 00:20:12.000
+I want to start by
+talking a little bit more
+
+00:20:12.000 --> 00:20:13.340
+I want to start by
+talking a little bit more
+
+00:20:13.340 --> 00:20:16.281
+about those new three ideas that we have,
+
+00:20:16.281 --> 00:20:18.000
+lightening, hiding and removing.
+
+00:20:18.000 --> 00:20:18.940
+lightening, hiding and removing.
+
+00:20:18.940 --> 00:20:20.740
+So with lightening, I think it's worth
+
+00:20:20.740 --> 00:20:23.870
+mentioning one thing
+that is just absolutely
+
+00:20:23.870 --> 00:20:24.000
+a prime candidate for getting lightened
+
+00:20:24.000 --> 00:20:26.020
+a prime candidate for getting lightened
+
+00:20:26.020 --> 00:20:29.090
+is what I call meta
+content or meta elements.
+
+00:20:29.090 --> 00:20:30.000
+So like for instance,
+this reference number,
+
+00:20:30.000 --> 00:20:30.940
+So like for instance,
+this reference number,
+
+00:20:30.940 --> 00:20:34.600
+this is useful data that is
+being presented to the user.
+
+00:20:34.600 --> 00:20:36.000
+But something like these
+borders right here,
+
+00:20:36.000 --> 00:20:36.840
+But something like these
+borders right here,
+
+00:20:36.840 --> 00:20:38.140
+it's not really data.
+
+00:20:38.140 --> 00:20:41.100
+It's more like it shows
+how the data is structured,
+
+00:20:41.100 --> 00:20:42.000
+kind of what the relationship is.
+
+00:20:42.000 --> 00:20:42.580
+kind of what the relationship is.
+
+00:20:42.580 --> 00:20:45.350
+In this case, these borders
+show that this is one cell
+
+00:20:45.350 --> 00:20:47.320
+and this is another cell
+and that's another cell
+
+00:20:47.320 --> 00:20:48.000
+and this is a row and what have you.
+
+00:20:48.000 --> 00:20:49.110
+and this is a row and what have you.
+
+00:20:49.110 --> 00:20:50.840
+So a lot of times content like this
+
+00:20:50.840 --> 00:20:53.940
+like borders or shadows,
+background color changes,
+
+00:20:53.940 --> 00:20:54.000
+even characters used for
+kind of dividing things up,
+
+00:20:54.000 --> 00:20:56.360
+even characters used for
+kind of dividing things up,
+
+00:20:56.360 --> 00:20:58.550
+maybe even bullet points
+fit into this category,
+
+00:20:58.550 --> 00:21:00.000
+all of these things I call meta content
+
+00:21:00.000 --> 00:21:00.760
+all of these things I call meta content
+
+00:21:00.760 --> 00:21:04.570
+and meta content or
+meta elements are often
+
+00:21:04.570 --> 00:21:06.000
+the first things that you go to lighten.
+
+00:21:06.000 --> 00:21:06.570
+the first things that you go to lighten.
+
+00:21:06.570 --> 00:21:10.010
+So for instance, I mean let
+me just duplicate this here
+
+00:21:10.010 --> 00:21:12.000
+so we can compare it
+before and after but then
+
+00:21:12.000 --> 00:21:12.010
+so we can compare it
+before and after but then
+
+00:21:12.010 --> 00:21:15.520
+let's go and just take out
+some of these meta elements.
+
+00:21:15.520 --> 00:21:18.000
+The borders, going, background
+color changes, going.
+
+00:21:18.000 --> 00:21:19.160
+The borders, going, background
+color changes, going.
+
+00:21:19.160 --> 00:21:20.990
+We are gonna fix up this table
+
+00:21:20.990 --> 00:21:23.290
+towards the end of the demo here.
+
+00:21:23.290 --> 00:21:24.000
+But the first thing we're
+gonna do is remove all of this.
+
+00:21:24.000 --> 00:21:25.950
+But the first thing we're
+gonna do is remove all of this.
+
+00:21:25.950 --> 00:21:27.330
+And of course, this isn't to say that
+
+00:21:27.330 --> 00:21:29.420
+every table doesn't
+have any borders at all.
+
+00:21:29.420 --> 00:21:30.000
+It's just saying we're
+removing these borders for now
+
+00:21:30.000 --> 00:21:31.880
+It's just saying we're
+removing these borders for now
+
+00:21:31.880 --> 00:21:34.070
+and we're gonna add in
+something that is exactly
+
+00:21:34.070 --> 00:21:36.000
+as heavy as we feel like
+we need and no heavier.
+
+00:21:36.000 --> 00:21:37.730
+as heavy as we feel like
+we need and no heavier.
+
+00:21:37.730 --> 00:21:39.600
+I'm also gonna lighten this header.
+
+00:21:39.600 --> 00:21:42.000
+I think maybe the easiest way to do it
+
+00:21:42.000 --> 00:21:42.220
+I think maybe the easiest way to do it
+
+00:21:42.220 --> 00:21:45.980
+might be to turn it into a background.
+
+00:21:45.980 --> 00:21:48.000
+I pressed shift + X to swap
+the stroke with the fill.
+
+00:21:48.000 --> 00:21:50.850
+I pressed shift + X to swap
+the stroke with the fill.
+
+00:21:50.850 --> 00:21:52.797
+So now it is just the stroke.
+
+00:21:52.797 --> 00:21:54.000
+I'm gonna move it all the way to the back
+
+00:21:54.000 --> 00:21:54.470
+I'm gonna move it all the way to the back
+
+00:21:54.470 --> 00:21:56.814
+here and I'm gonna move it to the outside,
+
+00:21:56.814 --> 00:21:58.810
+which should turn it into
+just this bottom stroke.
+
+00:21:58.810 --> 00:22:00.000
+Give it a very light
+opacity and there we go.
+
+00:22:00.000 --> 00:22:01.370
+Give it a very light
+opacity and there we go.
+
+00:22:01.370 --> 00:22:02.400
+Now the only thing distinguishing
+
+00:22:02.400 --> 00:22:05.250
+the header is this very light gray line.
+
+00:22:05.250 --> 00:22:06.000
+So that's a good way to lighten things up.
+
+00:22:06.000 --> 00:22:07.650
+So that's a good way to lighten things up.
+
+00:22:07.650 --> 00:22:10.070
+I'm gonna lock it in place
+just for a sec here and
+
+00:22:10.070 --> 00:22:12.000
+that's gonna allow me to select
+all these other elements.
+
+00:22:12.000 --> 00:22:12.830
+that's gonna allow me to select
+all these other elements.
+
+00:22:12.830 --> 00:22:15.480
+Now actually, I kind
+of want a default color
+
+00:22:15.480 --> 00:22:18.000
+and this text color seems
+like it'll fit the bill.
+
+00:22:18.000 --> 00:22:18.573
+and this text color seems
+like it'll fit the bill.
+
+00:22:19.450 --> 00:22:21.550
+If I remember correctly,
+everything in this app
+
+00:22:21.550 --> 00:22:24.000
+more or less uses variations
+on the same color,
+
+00:22:24.000 --> 00:22:24.690
+more or less uses variations
+on the same color,
+
+00:22:24.690 --> 00:22:27.273
+an idea that we will talk
+about in the color unit.
+
+00:22:28.290 --> 00:22:30.000
+So I can highlight all of this stuff
+
+00:22:30.000 --> 00:22:30.090
+So I can highlight all of this stuff
+
+00:22:34.330 --> 00:22:36.000
+and then I'm going to go give it
+
+00:22:36.000 --> 00:22:36.550
+and then I'm going to go give it
+
+00:22:36.550 --> 00:22:37.890
+a more visible treatment here.
+
+00:22:37.890 --> 00:22:40.290
+We'll just use this default
+color for everything
+
+00:22:41.790 --> 00:22:42.000
+and this actually said zero.
+
+00:22:42.000 --> 00:22:43.030
+and this actually said zero.
+
+00:22:43.030 --> 00:22:46.550
+There were no new alerts, so
+I can remove that entirely.
+
+00:22:46.550 --> 00:22:48.000
+But yeah, now the header background
+
+00:22:48.000 --> 00:22:49.010
+But yeah, now the header background
+
+00:22:49.010 --> 00:22:53.543
+metadata or meta element
+is appropriately lightened.
+
+00:22:54.430 --> 00:22:57.250
+The sidebar is now
+distinguished only by spacing,
+
+00:22:57.250 --> 00:22:58.560
+which seems to work fine.
+
+00:22:58.560 --> 00:23:00.000
+We can talk more about
+it in a sec and our table
+
+00:23:00.000 --> 00:23:00.870
+We can talk more about
+it in a sec and our table
+
+00:23:00.870 --> 00:23:03.340
+we sort of stripped
+out all of the borders,
+
+00:23:03.340 --> 00:23:06.000
+which of course we will add
+in to some degree but again,
+
+00:23:06.000 --> 00:23:06.100
+which of course we will add
+in to some degree but again,
+
+00:23:06.100 --> 00:23:08.480
+we're just starting by
+removing as much as possible
+
+00:23:08.480 --> 00:23:11.090
+and we'll go and add
+it back as we need it.
+
+00:23:11.090 --> 00:23:12.000
+Another prime target for lightening
+
+00:23:12.000 --> 00:23:12.830
+Another prime target for lightening
+
+00:23:12.830 --> 00:23:14.800
+is anything that gets repeated
+
+00:23:14.800 --> 00:23:17.090
+and we'll come back to
+this when we do the table.
+
+00:23:17.090 --> 00:23:18.000
+But for instance, if I
+have these three bells
+
+00:23:18.000 --> 00:23:19.100
+But for instance, if I
+have these three bells
+
+00:23:19.100 --> 00:23:20.190
+and if this is just something that
+
+00:23:20.190 --> 00:23:22.200
+appears on every single row of the table,
+
+00:23:22.200 --> 00:23:24.000
+I can actually have it be quite a bit
+
+00:23:24.000 --> 00:23:24.100
+I can actually have it be quite a bit
+
+00:23:24.100 --> 00:23:26.680
+less visible and still
+attract people's attention.
+
+00:23:26.680 --> 00:23:29.220
+Now in this case, these three
+rows have specific alerts.
+
+00:23:29.220 --> 00:23:30.000
+So I don't really want to
+remove this but it's just an
+
+00:23:30.000 --> 00:23:32.290
+So I don't really want to
+remove this but it's just an
+
+00:23:32.290 --> 00:23:35.000
+idea we'll talk about more in
+the Lists and Tables lesson.
+
+00:23:35.000 --> 00:23:36.000
+Something may look good if
+you just design a single row
+
+00:23:36.000 --> 00:23:37.260
+Something may look good if
+you just design a single row
+
+00:23:37.260 --> 00:23:39.310
+but then when you
+duplicate that row a bunch,
+
+00:23:39.310 --> 00:23:42.000
+that element now attracts
+your attention way too much.
+
+00:23:42.000 --> 00:23:42.110
+that element now attracts
+your attention way too much.
+
+00:23:42.110 --> 00:23:42.943
+So a lot of times,
+
+00:23:42.943 --> 00:23:45.120
+you just have to lighten
+repeating elements.
+
+00:23:45.120 --> 00:23:47.700
+Now when lightening, it is
+really good to use the squint
+
+00:23:47.700 --> 00:23:48.000
+test and when I kind of
+squint my eyes right here,
+
+00:23:48.000 --> 00:23:50.918
+test and when I kind of
+squint my eyes right here,
+
+00:23:50.918 --> 00:23:54.000
+imagining that this is
+a table, I'm actually
+
+00:23:54.000 --> 00:23:54.390
+imagining that this is
+a table, I'm actually
+
+00:23:54.390 --> 00:23:56.330
+a little stuck on what
+the title of the page is.
+
+00:23:56.330 --> 00:23:58.700
+To me, this almost looks a
+little bit more like a title.
+
+00:23:58.700 --> 00:24:00.000
+This definitely looks like
+a sidebar, that's good.
+
+00:24:00.000 --> 00:24:00.610
+This definitely looks like
+a sidebar, that's good.
+
+00:24:00.610 --> 00:24:04.180
+This looks like some
+help and profile stuff,
+
+00:24:04.180 --> 00:24:05.680
+that's good and I can tell these controls
+
+00:24:05.680 --> 00:24:06.000
+probably have something
+to do with the table.
+
+00:24:06.000 --> 00:24:07.190
+probably have something
+to do with the table.
+
+00:24:07.190 --> 00:24:10.140
+So overall it's not like
+we're in an awful situation
+
+00:24:10.140 --> 00:24:12.000
+but I am gonna want to beef up
+the title just a little bit.
+
+00:24:12.000 --> 00:24:12.960
+but I am gonna want to beef up
+the title just a little bit.
+
+00:24:12.960 --> 00:24:15.540
+Of course, I could also
+consider moving this thing that
+
+00:24:15.540 --> 00:24:18.000
+looks like a title over to
+where these other controls are.
+
+00:24:18.000 --> 00:24:18.583
+looks like a title over to
+where these other controls are.
+
+00:24:19.860 --> 00:24:21.510
+One thing that's important to be aware of
+
+00:24:21.510 --> 00:24:24.000
+is most controls have sort
+of a natural maximum width
+
+00:24:24.000 --> 00:24:24.300
+is most controls have sort
+of a natural maximum width
+
+00:24:24.300 --> 00:24:26.230
+that you shouldn't go above and beyond.
+
+00:24:26.230 --> 00:24:28.330
+So for this search bar,
+I really don't need it
+
+00:24:28.330 --> 00:24:30.000
+stretching all the way across the screen.
+
+00:24:30.000 --> 00:24:30.670
+stretching all the way across the screen.
+
+00:24:30.670 --> 00:24:32.720
+I'm gonna have it be quite a bit smaller
+
+00:24:32.720 --> 00:24:34.270
+and if I'm gonna keep these buttons here,
+
+00:24:34.270 --> 00:24:36.000
+I'm gonna default to having
+them be a consistent height.
+
+00:24:36.000 --> 00:24:37.190
+I'm gonna default to having
+them be a consistent height.
+
+00:24:37.190 --> 00:24:39.420
+The color we can come
+back to but they just
+
+00:24:39.420 --> 00:24:42.000
+look a little bit neater
+and cleaner right here.
+
+00:24:42.000 --> 00:24:42.590
+look a little bit neater
+and cleaner right here.
+
+00:24:42.590 --> 00:24:44.900
+And then we can work on
+the title a little bit.
+
+00:24:44.900 --> 00:24:48.000
+So "Job Tracking" is indeed
+the title of the page
+
+00:24:48.000 --> 00:24:48.810
+So "Job Tracking" is indeed
+the title of the page
+
+00:24:48.810 --> 00:24:49.990
+but then there's also a view,
+
+00:24:49.990 --> 00:24:52.150
+which is in some sense the important part.
+
+00:24:52.150 --> 00:24:54.000
+In this case, "Active Orders" is the view
+
+00:24:54.000 --> 00:24:54.370
+In this case, "Active Orders" is the view
+
+00:24:54.370 --> 00:24:57.000
+and there's a number of ones
+that I can switch between.
+
+00:24:57.000 --> 00:24:59.140
+So one thing I might do
+is just get rid of some
+
+00:24:59.140 --> 00:25:00.000
+of this stuff except for "Job
+Tracking" and "Active Orders"
+
+00:25:00.000 --> 00:25:02.980
+of this stuff except for "Job
+Tracking" and "Active Orders"
+
+00:25:02.980 --> 00:25:05.873
+and make these look a
+little bit more important.
+
+00:25:06.730 --> 00:25:09.330
+I'll bold both of them and
+"Job Tracking" I'll make
+
+00:25:09.330 --> 00:25:12.000
+a bit bigger but actually I'm
+gonna see if "Active Orders"
+
+00:25:12.000 --> 00:25:12.840
+a bit bigger but actually I'm
+gonna see if "Active Orders"
+
+00:25:12.840 --> 00:25:16.139
+looks the best as kind
+of the title of the page.
+
+00:25:16.139 --> 00:25:18.000
+To do this, I can lighten the
+"Job Tracking" title right
+
+00:25:18.000 --> 00:25:20.800
+To do this, I can lighten the
+"Job Tracking" title right
+
+00:25:20.800 --> 00:25:24.000
+there and then I can bring in
+this control from the side.
+
+00:25:24.000 --> 00:25:24.880
+there and then I can bring in
+this control from the side.
+
+00:25:24.880 --> 00:25:26.110
+Of course, vertically centering it.
+
+00:25:26.110 --> 00:25:29.100
+I'm thinking about center
+of pixel mass here.
+
+00:25:29.100 --> 00:25:30.000
+Tighten that up and that
+looks much more like a title.
+
+00:25:30.000 --> 00:25:33.210
+Tighten that up and that
+looks much more like a title.
+
+00:25:33.210 --> 00:25:34.810
+If I want to align other things to it,
+
+00:25:34.810 --> 00:25:36.000
+I will just put in a little ruler.
+
+00:25:36.000 --> 00:25:37.513
+I will just put in a little ruler.
+
+00:25:39.680 --> 00:25:41.260
+There we go.
+
+00:25:41.260 --> 00:25:42.000
+Now I feel like my squint
+test already gives me
+
+00:25:42.000 --> 00:25:43.070
+Now I feel like my squint
+test already gives me
+
+00:25:43.070 --> 00:25:46.200
+a much clearer idea of the
+overall layout of the page.
+
+00:25:46.200 --> 00:25:47.900
+So so far, so good.
+
+00:25:47.900 --> 00:25:48.000
+All right, so we talked about lightening
+
+00:25:48.000 --> 00:25:49.300
+All right, so we talked about lightening
+
+00:25:49.300 --> 00:25:51.070
+some elements like the repeating elements
+
+00:25:51.070 --> 00:25:53.800
+or kind of the meta content on the page.
+
+00:25:53.800 --> 00:25:54.000
+There's other things that also
+
+00:25:54.000 --> 00:25:54.730
+There's other things that also
+
+00:25:54.730 --> 00:25:56.110
+we're just gonna want to hide.
+
+00:25:56.110 --> 00:25:58.070
+So in this case, I go straight
+
+00:25:58.070 --> 00:25:59.700
+into looking at these buttons here.
+
+00:25:59.700 --> 00:26:00.000
+Hide details is actually something
+
+00:26:00.000 --> 00:26:01.300
+Hide details is actually something
+
+00:26:01.300 --> 00:26:03.930
+that just hides some of
+the columns in this table.
+
+00:26:03.930 --> 00:26:05.470
+But if we do our job, we should
+
+00:26:05.470 --> 00:26:06.000
+be able to display them all by default
+
+00:26:06.000 --> 00:26:07.240
+be able to display them all by default
+
+00:26:07.240 --> 00:26:09.970
+and have it be a manageable
+number of columns.
+
+00:26:09.970 --> 00:26:12.000
+So let's just assume we can remove that.
+
+00:26:12.000 --> 00:26:12.400
+So let's just assume we can remove that.
+
+00:26:12.400 --> 00:26:14.498
+This Refresh Data button refreshes
+
+00:26:14.498 --> 00:26:17.380
+whatever is displayed here on the table.
+
+00:26:17.380 --> 00:26:18.000
+But honestly, we could probably
+
+00:26:18.000 --> 00:26:19.090
+But honestly, we could probably
+
+00:26:19.090 --> 00:26:21.530
+hide that too in a certain sense.
+
+00:26:21.530 --> 00:26:23.700
+Rather than make the
+user actively refresh,
+
+00:26:23.700 --> 00:26:24.000
+either we should just do it whenever
+
+00:26:24.000 --> 00:26:25.430
+either we should just do it whenever
+
+00:26:25.430 --> 00:26:27.580
+there's a data update, do it automatically
+
+00:26:27.580 --> 00:26:29.900
+or if that's too expensive,
+perhaps just prompt
+
+00:26:29.900 --> 00:26:30.000
+the user with some sort
+of message that might
+
+00:26:30.000 --> 00:26:32.000
+the user with some sort
+of message that might
+
+00:26:32.000 --> 00:26:33.597
+appear at the bottom
+of the screen that says
+
+00:26:33.597 --> 00:26:35.970
+"Refresh the Page" or "Click Here" to get
+
+00:26:35.970 --> 00:26:36.000
+the new data that's part of this table.
+
+00:26:36.000 --> 00:26:37.920
+the new data that's part of this table.
+
+00:26:39.340 --> 00:26:41.900
+Likewise, there are some tutorials here
+
+00:26:41.900 --> 00:26:42.000
+next to this little information icon
+
+00:26:42.000 --> 00:26:43.910
+next to this little information icon
+
+00:26:43.910 --> 00:26:45.990
+but these tutorials in my mind,
+
+00:26:45.990 --> 00:26:48.000
+unless we're really trying to
+direct a lot of users to them,
+
+00:26:48.000 --> 00:26:49.090
+unless we're really trying to
+direct a lot of users to them,
+
+00:26:49.090 --> 00:26:51.740
+they can probably go
+in this little dropdown
+
+00:26:51.740 --> 00:26:53.560
+right here and this is a drop down that
+
+00:26:53.560 --> 00:26:54.000
+is related to whoever the current user is.
+
+00:26:54.000 --> 00:26:56.570
+is related to whoever the current user is.
+
+00:26:56.570 --> 00:26:57.770
+So I'd imagine I'm gonna find things
+
+00:26:57.770 --> 00:27:00.000
+like Log Out or Settings and that also
+
+00:27:00.000 --> 00:27:00.790
+like Log Out or Settings and that also
+
+00:27:00.790 --> 00:27:02.890
+feels like a really good
+place for tutorials.
+
+00:27:02.890 --> 00:27:05.680
+Again, if I want to direct a
+lot of users to the tutorials,
+
+00:27:05.680 --> 00:27:06.000
+if that's some feature
+we're trying to push,
+
+00:27:06.000 --> 00:27:07.430
+if that's some feature
+we're trying to push,
+
+00:27:07.430 --> 00:27:08.523
+I might make it even more visible.
+
+00:27:08.523 --> 00:27:10.370
+Instead of being here,
+there might be some color
+
+00:27:10.370 --> 00:27:12.000
+to it or it might kind
+of slide in from the side
+
+00:27:12.000 --> 00:27:12.840
+to it or it might kind
+of slide in from the side
+
+00:27:12.840 --> 00:27:14.500
+of the screen or just be somewhere else
+
+00:27:14.500 --> 00:27:17.620
+where it does get an
+attention-attracting treatment.
+
+00:27:17.620 --> 00:27:18.000
+But for now, I can assume
+
+00:27:18.000 --> 00:27:18.610
+But for now, I can assume
+
+00:27:18.610 --> 00:27:20.840
+we're gonna use the hiding strategy.
+
+00:27:20.840 --> 00:27:22.950
+Now we're also going to be talking
+
+00:27:22.950 --> 00:27:24.000
+about hiding a lot of stuff in this table.
+
+00:27:24.000 --> 00:27:24.930
+about hiding a lot of stuff in this table.
+
+00:27:24.930 --> 00:27:27.060
+But we will kind of
+deal with the table last
+
+00:27:27.060 --> 00:27:29.580
+since it's the most
+complex part of the page.
+
+00:27:29.580 --> 00:27:30.000
+As far as the rest of the page goes,
+
+00:27:30.000 --> 00:27:31.100
+As far as the rest of the page goes,
+
+00:27:31.100 --> 00:27:33.490
+I think that's most of the
+stuff I'd want to hide.
+
+00:27:33.490 --> 00:27:34.323
+All right, so that's
+
+00:27:34.323 --> 00:27:36.000
+the lightening strategy
+and the hiding strategy.
+
+00:27:36.000 --> 00:27:36.470
+the lightening strategy
+and the hiding strategy.
+
+00:27:36.470 --> 00:27:38.150
+The sixth one is removal.
+
+00:27:38.150 --> 00:27:40.750
+What can we just like
+downright get rid of?
+
+00:27:40.750 --> 00:27:42.000
+I think one element that
+we can probably get rid of
+
+00:27:42.000 --> 00:27:43.100
+I think one element that
+we can probably get rid of
+
+00:27:43.100 --> 00:27:46.820
+pretty safely is this Minimize
+Sidebar button right here.
+
+00:27:46.820 --> 00:27:48.000
+The sidebar doesn't actually attract
+
+00:27:48.000 --> 00:27:48.270
+The sidebar doesn't actually attract
+
+00:27:48.270 --> 00:27:49.990
+too much attention and
+if we do our jobs right,
+
+00:27:49.990 --> 00:27:51.800
+it should look pretty nice anyways.
+
+00:27:51.800 --> 00:27:53.290
+Now just doing that makes it clear
+
+00:27:53.290 --> 00:27:54.000
+that I actually really want to have this
+
+00:27:54.000 --> 00:27:55.790
+that I actually really want to have this
+
+00:27:55.790 --> 00:27:59.830
+Job Tracker logo aligned
+here and let's maybe
+
+00:27:59.830 --> 00:28:00.000
+move this so there's just
+20 pixels to the side.
+
+00:28:00.000 --> 00:28:03.300
+move this so there's just
+20 pixels to the side.
+
+00:28:03.300 --> 00:28:05.260
+Yeah, there we go, that looks nice.
+
+00:28:05.260 --> 00:28:06.000
+The removal strategy works really well
+
+00:28:06.000 --> 00:28:07.060
+The removal strategy works really well
+
+00:28:07.060 --> 00:28:10.130
+for anything that everyone
+agrees we just don't need
+
+00:28:10.130 --> 00:28:12.000
+but it also can work well if you can,
+
+00:28:12.000 --> 00:28:12.550
+but it also can work well if you can,
+
+00:28:12.550 --> 00:28:13.880
+say, convince your client that we don't
+
+00:28:13.880 --> 00:28:16.070
+need something in this
+version of the software.
+
+00:28:16.070 --> 00:28:18.000
+Say "Hey boss, let's actually wait
+
+00:28:18.000 --> 00:28:18.200
+Say "Hey boss, let's actually wait
+
+00:28:18.200 --> 00:28:20.110
+for users to complain
+about this being missing
+
+00:28:20.110 --> 00:28:22.640
+before we decide if we want
+to put it back in or not."
+
+00:28:22.640 --> 00:28:24.000
+It's the easiest decision in the world
+
+00:28:24.000 --> 00:28:24.170
+It's the easiest decision in the world
+
+00:28:24.170 --> 00:28:25.990
+to add something in that your users want.
+
+00:28:25.990 --> 00:28:27.640
+It's much harder to remove something
+
+00:28:27.640 --> 00:28:29.550
+when you're not necessarily sure.
+
+00:28:29.550 --> 00:28:30.000
+So we're gonna make the hard choice now,
+
+00:28:30.000 --> 00:28:30.820
+So we're gonna make the hard choice now,
+
+00:28:30.820 --> 00:28:31.700
+we're just gonna remove it
+
+00:28:31.700 --> 00:28:33.650
+and then we can always
+put it back in later.
+
+00:28:33.650 --> 00:28:35.290
+And by the way, another
+example of when you
+
+00:28:35.290 --> 00:28:36.000
+can remove stuff is say for
+mobile versions of a screen.
+
+00:28:36.000 --> 00:28:38.910
+can remove stuff is say for
+mobile versions of a screen.
+
+00:28:38.910 --> 00:28:40.396
+It doesn't really apply to this
+
+00:28:40.396 --> 00:28:42.000
+because we're just looking
+at it on desktop but
+
+00:28:42.000 --> 00:28:42.460
+because we're just looking
+at it on desktop but
+
+00:28:42.460 --> 00:28:45.750
+it could be very reasonable
+that say in an app like this,
+
+00:28:45.750 --> 00:28:48.000
+there's certain things that
+I don't see on the mobile
+
+00:28:48.000 --> 00:28:48.500
+there's certain things that
+I don't see on the mobile
+
+00:28:48.500 --> 00:28:50.620
+version of this app but if
+there was a desktop site,
+
+00:28:50.620 --> 00:28:52.490
+I would see those things.
+
+00:28:52.490 --> 00:28:54.000
+So just bear that in mind,
+
+00:28:54.000 --> 00:28:54.120
+So just bear that in mind,
+
+00:28:54.120 --> 00:28:56.690
+removing something doesn't
+just mean removing it period.
+
+00:28:56.690 --> 00:28:58.390
+It might mean removing
+it from this version.
+
+00:28:58.390 --> 00:29:00.000
+It might mean removing
+it on mobile, et cetera.
+
+00:29:00.000 --> 00:29:00.840
+It might mean removing
+it on mobile, et cetera.
+
+00:29:00.840 --> 00:29:03.260
+Okay, now the story so far
+
+00:29:03.260 --> 00:29:05.680
+is we started with this very messy screen
+
+00:29:05.680 --> 00:29:06.000
+and we have lightened,
+removed and hidden a bunch
+
+00:29:06.000 --> 00:29:08.640
+and we have lightened,
+removed and hidden a bunch
+
+00:29:08.640 --> 00:29:10.980
+of things that we didn't
+think were very necessary.
+
+00:29:10.980 --> 00:29:12.000
+In a big way, those latter
+three strategies of the six
+
+00:29:12.000 --> 00:29:13.700
+In a big way, those latter
+three strategies of the six
+
+00:29:13.700 --> 00:29:16.870
+strategies of simplicity are
+what gets you to the stripped
+
+00:29:16.870 --> 00:29:18.000
+down, bare bones elements
+of what you actually need.
+
+00:29:18.000 --> 00:29:19.600
+down, bare bones elements
+of what you actually need.
+
+00:29:19.600 --> 00:29:22.340
+Now we're gonna use more of
+the first three strategies,
+
+00:29:22.340 --> 00:29:24.000
+alignment, consistency and
+spacing to kind of determine
+
+00:29:24.000 --> 00:29:25.500
+alignment, consistency and
+spacing to kind of determine
+
+00:29:25.500 --> 00:29:28.500
+how we lay out the stuff
+that we do know we need.
+
+00:29:28.500 --> 00:29:30.000
+So let's start at the top, Job Tracker.
+
+00:29:30.000 --> 00:29:30.920
+So let's start at the top, Job Tracker.
+
+00:29:30.920 --> 00:29:34.230
+What I'm gonna do is just
+kind of center that logo here,
+
+00:29:34.230 --> 00:29:36.000
+20 pixels of space there on
+that side, that looks good.
+
+00:29:36.000 --> 00:29:36.960
+20 pixels of space there on
+that side, that looks good.
+
+00:29:36.960 --> 00:29:38.730
+Now I'm actually gonna start doing
+
+00:29:38.730 --> 00:29:40.177
+this header by removing this stuff here
+
+00:29:40.177 --> 00:29:42.000
+and the big reason why
+is consistency first.
+
+00:29:42.000 --> 00:29:43.350
+and the big reason why
+is consistency first.
+
+00:29:43.350 --> 00:29:45.830
+I'm gonna start with a font
+size that I know I like.
+
+00:29:45.830 --> 00:29:47.300
+So let's go see, this is 16,
+
+00:29:47.300 --> 00:29:48.000
+that sounds like a perfect
+default and I'm going to,
+
+00:29:48.000 --> 00:29:52.250
+that sounds like a perfect
+default and I'm going to,
+
+00:29:52.250 --> 00:29:53.800
+I'm actually gonna use the same
+
+00:29:54.950 --> 00:29:58.420
+drop down icon from Material Design.
+
+00:29:58.420 --> 00:30:00.000
+Consistency first once again.
+
+00:30:00.000 --> 00:30:00.810
+Consistency first once again.
+
+00:30:00.810 --> 00:30:04.557
+Bring it over here, put it in close, oops.
+
+00:30:04.557 --> 00:30:06.000
+I'm gonna center these vertically and then
+
+00:30:06.000 --> 00:30:06.960
+I'm gonna center these vertically and then
+
+00:30:06.960 --> 00:30:11.100
+make sure they have fairly
+even spacing around them.
+
+00:30:11.100 --> 00:30:12.000
+So that is 20 pixels on all
+three sides, that looks good.
+
+00:30:12.000 --> 00:30:16.100
+So that is 20 pixels on all
+three sides, that looks good.
+
+00:30:16.960 --> 00:30:18.000
+Now I'm gonna take this 'cause
+
+00:30:18.000 --> 00:30:18.050
+Now I'm gonna take this 'cause
+
+00:30:18.050 --> 00:30:19.940
+this is a Material Design icon as well.
+
+00:30:19.940 --> 00:30:21.010
+Because there's no new alerts,
+
+00:30:21.010 --> 00:30:22.380
+I can make it really quite light,
+
+00:30:22.380 --> 00:30:24.000
+like maybe 50%, perhaps even 30%
+
+00:30:24.000 --> 00:30:25.680
+like maybe 50%, perhaps even 30%
+
+00:30:25.680 --> 00:30:28.310
+and then I'll do something
+like 20 pixels of spacing.
+
+00:30:28.310 --> 00:30:30.000
+Now it's gonna be the same on
+all sides, that works well.
+
+00:30:30.000 --> 00:30:31.678
+Now it's gonna be the same on
+all sides, that works well.
+
+00:30:31.678 --> 00:30:35.010
+I could take this Search icon too
+
+00:30:35.010 --> 00:30:36.000
+and maybe I will just grab
+this search bar right here.
+
+00:30:36.000 --> 00:30:38.150
+and maybe I will just grab
+this search bar right here.
+
+00:30:38.150 --> 00:30:40.290
+But one thing I'm definitely gonna do
+
+00:30:40.290 --> 00:30:42.000
+is give it our theme
+color, make it much lighter
+
+00:30:42.000 --> 00:30:44.420
+is give it our theme
+color, make it much lighter
+
+00:30:44.420 --> 00:30:48.000
+with like say one, pressing
+one to get 10% opacity
+
+00:30:48.000 --> 00:30:49.420
+with like say one, pressing
+one to get 10% opacity
+
+00:30:49.460 --> 00:30:52.280
+and then I'm gonna kind
+of expand it a little bit
+
+00:30:52.280 --> 00:30:54.000
+and actually this might just
+feel like a lot of lines here.
+
+00:30:54.000 --> 00:30:55.130
+and actually this might just
+feel like a lot of lines here.
+
+00:30:55.130 --> 00:30:56.220
+I will play around with swapping
+
+00:30:56.220 --> 00:30:58.253
+the fill and the border there.
+
+00:31:02.140 --> 00:31:04.810
+Now I clicked and dragged some
+text over from the other side
+
+00:31:04.810 --> 00:31:06.000
+here and that's just so the
+baselines line up right here.
+
+00:31:06.000 --> 00:31:07.720
+here and that's just so the
+baselines line up right here.
+
+00:31:07.720 --> 00:31:10.900
+I can now put in this text
+something like "Search App."
+
+00:31:10.900 --> 00:31:12.000
+Make it, I don't know, 50 or 60% opacity
+
+00:31:12.000 --> 00:31:14.030
+Make it, I don't know, 50 or 60% opacity
+
+00:31:14.030 --> 00:31:16.410
+so that it's a good kind of hint text
+
+00:31:16.410 --> 00:31:18.000
+and we're gonna make sure
+the margins are consistent.
+
+00:31:18.000 --> 00:31:20.524
+and we're gonna make sure
+the margins are consistent.
+
+00:31:20.524 --> 00:31:22.790
+Then I'm going to group this
+
+00:31:22.790 --> 00:31:24.000
+and just move it a couple pixels closer
+
+00:31:24.000 --> 00:31:24.660
+and just move it a couple pixels closer
+
+00:31:24.660 --> 00:31:27.250
+so now there's consistent
+spacing right here
+
+00:31:27.250 --> 00:31:30.000
+and then finally I have this new dropdown
+
+00:31:30.000 --> 00:31:30.740
+and then finally I have this new dropdown
+
+00:31:30.740 --> 00:31:32.330
+but I'm actually gonna just like style
+
+00:31:32.330 --> 00:31:34.870
+that a little bit more like a button
+
+00:31:34.870 --> 00:31:36.000
+and maybe I can turn it into a button
+
+00:31:36.000 --> 00:31:37.395
+and maybe I can turn it into a button
+
+00:31:37.395 --> 00:31:41.050
+by pressing shift + A there and
+
+00:31:41.050 --> 00:31:42.000
+this will say "New."
+
+00:31:42.000 --> 00:31:42.350
+this will say "New."
+
+00:31:42.350 --> 00:31:44.700
+I need to make this white,
+can't see it at all.
+
+00:31:45.560 --> 00:31:46.920
+And we'll make it bold
+
+00:31:48.790 --> 00:31:50.940
+and then I want to make
+this white as well.
+
+00:31:52.930 --> 00:31:53.763
+Oh wait, actually what I'm gonna
+
+00:31:53.763 --> 00:31:54.000
+be doing is adding a Plus icon here.
+
+00:31:54.000 --> 00:31:55.940
+be doing is adding a Plus icon here.
+
+00:31:55.940 --> 00:31:58.590
+So if this is 32 pixels tall,
+
+00:31:58.590 --> 00:32:00.000
+I want to be consistency first,
+
+00:32:00.000 --> 00:32:00.520
+I want to be consistency first,
+
+00:32:00.520 --> 00:32:03.840
+this button needs to be the same height.
+
+00:32:03.840 --> 00:32:06.000
+So let me actually press
+option + command + P,
+
+00:32:06.000 --> 00:32:07.420
+So let me actually press
+option + command + P,
+
+00:32:07.420 --> 00:32:10.543
+go grab a Plus, or what is it, New?
+
+00:32:11.730 --> 00:32:12.000
+Add, here we go.
+
+00:32:12.000 --> 00:32:14.013
+Add, here we go.
+
+00:32:15.160 --> 00:32:16.110
+I'm gonna make it white and then
+
+00:32:16.110 --> 00:32:18.000
+I'm gonna drop it into this button.
+
+00:32:18.000 --> 00:32:18.003
+I'm gonna drop it into this button.
+
+00:32:21.700 --> 00:32:24.000
+Now this already seems to be
+the right height, which is good
+
+00:32:24.000 --> 00:32:24.600
+Now this already seems to be
+the right height, which is good
+
+00:32:24.600 --> 00:32:27.600
+but I do want the contents
+instead to be centered
+
+00:32:28.750 --> 00:32:30.000
+and let's go ahead and just add in
+
+00:32:30.000 --> 00:32:31.630
+and let's go ahead and just add in
+
+00:32:32.473 --> 00:32:35.583
+maybe little bit more padding
+on some of these sides.
+
+00:32:37.980 --> 00:32:38.813
+There we go.
+
+00:32:39.900 --> 00:32:41.420
+And we'll use that same 20 pixels
+
+00:32:41.420 --> 00:32:42.000
+of space that everything else has.
+
+00:32:42.000 --> 00:32:43.120
+of space that everything else has.
+
+00:32:44.100 --> 00:32:46.130
+One thing that strikes
+me is I could actually
+
+00:32:46.130 --> 00:32:48.000
+take the text color and maybe
+go find a more vivid blue.
+
+00:32:48.000 --> 00:32:49.680
+take the text color and maybe
+go find a more vivid blue.
+
+00:32:49.680 --> 00:32:52.700
+It's still that same hue,
+so they're kind of related
+
+00:32:52.700 --> 00:32:54.000
+but that might be a better
+color for the button overall.
+
+00:32:54.000 --> 00:32:55.720
+but that might be a better
+color for the button overall.
+
+00:32:55.720 --> 00:32:57.650
+And there we go, going consistency first,
+
+00:32:57.650 --> 00:32:59.150
+this is looking much better.
+
+00:32:59.150 --> 00:33:00.000
+If anything though, I feel
+like one thing I could do
+
+00:33:00.000 --> 00:33:02.420
+If anything though, I feel
+like one thing I could do
+
+00:33:02.420 --> 00:33:06.000
+is reduce the spacing
+just a little bit here.
+
+00:33:06.000 --> 00:33:06.563
+is reduce the spacing
+just a little bit here.
+
+00:33:08.260 --> 00:33:12.000
+So I will put these in an
+auto layout, center them.
+
+00:33:12.000 --> 00:33:12.753
+So I will put these in an
+auto layout, center them.
+
+00:33:13.852 --> 00:33:15.900
+I want them to hug the right
+side of the screen and then
+
+00:33:15.900 --> 00:33:18.000
+have only maybe say 16 pixels
+instead of 20 between them.
+
+00:33:18.000 --> 00:33:19.283
+have only maybe say 16 pixels
+instead of 20 between them.
+
+00:33:21.300 --> 00:33:22.980
+And actually if we do everything right,
+
+00:33:22.980 --> 00:33:24.000
+I should be able to
+shrink this screen down
+
+00:33:24.000 --> 00:33:24.560
+I should be able to
+shrink this screen down
+
+00:33:24.560 --> 00:33:27.000
+so that it appears just on one screen
+
+00:33:27.000 --> 00:33:29.430
+and doesn't kind of run off
+and I have to scroll to see it.
+
+00:33:29.430 --> 00:33:30.000
+So I might just opt for that now.
+
+00:33:30.000 --> 00:33:33.023
+So I might just opt for that now.
+
+00:33:34.460 --> 00:33:36.000
+Let's go ahead and put in
+like a ruler that'll just
+
+00:33:36.000 --> 00:33:38.800
+Let's go ahead and put in
+like a ruler that'll just
+
+00:33:38.800 --> 00:33:41.720
+kind of be my goal to get
+everything to below that size.
+
+00:33:41.720 --> 00:33:42.000
+So maybe at 1420, this
+should be the new edge
+
+00:33:42.000 --> 00:33:44.610
+So maybe at 1420, this
+should be the new edge
+
+00:33:44.610 --> 00:33:47.783
+of the screen and we'll
+have this be 20 pixels away.
+
+00:33:50.790 --> 00:33:52.360
+All right, this is looking good so far.
+
+00:33:52.360 --> 00:33:54.000
+Now let's move on to
+this sidebar right here.
+
+00:33:54.000 --> 00:33:55.610
+Now let's move on to
+this sidebar right here.
+
+00:33:55.610 --> 00:33:58.314
+Now with this sidebar,
+the alignment looks good.
+
+00:33:58.314 --> 00:34:00.000
+Like all of these icons
+are nice and lined up.
+
+00:34:00.000 --> 00:34:00.860
+Like all of these icons
+are nice and lined up.
+
+00:34:00.860 --> 00:34:01.960
+And actually, so let's just remember
+
+00:34:01.960 --> 00:34:03.910
+that tracking is the active item here.
+
+00:34:03.910 --> 00:34:06.000
+I'm gonna kind of get that out
+of the way just for a second.
+
+00:34:06.000 --> 00:34:06.963
+I'm gonna kind of get that out
+of the way just for a second.
+
+00:34:07.960 --> 00:34:10.290
+But there we go, all of
+those are nice and lined up
+
+00:34:10.290 --> 00:34:12.000
+and now all of these are
+nice and lined up and
+
+00:34:12.000 --> 00:34:13.900
+and now all of these are
+nice and lined up and
+
+00:34:14.871 --> 00:34:16.740
+what I can do is
+
+00:34:18.240 --> 00:34:19.140
+tidy these up.
+
+00:34:19.140 --> 00:34:21.057
+When I do that, I have a little bit
+
+00:34:21.057 --> 00:34:23.450
+of control over how much
+space I want between the icon
+
+00:34:23.450 --> 00:34:24.000
+and the text and how much I
+want between the different rows.
+
+00:34:24.000 --> 00:34:26.660
+and the text and how much I
+want between the different rows.
+
+00:34:26.660 --> 00:34:28.698
+And my goal here is twofold.
+
+00:34:28.698 --> 00:34:30.000
+On one hand, I actually want to include
+
+00:34:30.000 --> 00:34:31.470
+On one hand, I actually want to include
+
+00:34:31.470 --> 00:34:33.230
+plenty of space here but not so much
+
+00:34:33.230 --> 00:34:35.380
+that this feels really
+kind of loosey-goosey
+
+00:34:35.380 --> 00:34:36.000
+and just really overly spaced out.
+
+00:34:36.000 --> 00:34:37.540
+and just really overly spaced out.
+
+00:34:37.540 --> 00:34:39.433
+Like this just seems silly to me.
+
+00:34:39.433 --> 00:34:42.000
+I would be baffled to hover
+over this calendar and find that
+
+00:34:42.000 --> 00:34:42.330
+I would be baffled to hover
+over this calendar and find that
+
+00:34:42.330 --> 00:34:46.670
+it has like a 60 or whatever,
+80 pixel tall hover state.
+
+00:34:46.670 --> 00:34:48.000
+So I do want these kind
+of tight but there reaches
+
+00:34:48.000 --> 00:34:50.590
+So I do want these kind
+of tight but there reaches
+
+00:34:50.590 --> 00:34:54.000
+a point where if I bring them
+in too tight, these icons
+
+00:34:54.000 --> 00:34:54.050
+a point where if I bring them
+in too tight, these icons
+
+00:34:54.050 --> 00:34:56.310
+get closer to one another
+than they are to their labels
+
+00:34:56.310 --> 00:34:58.700
+and I have that same internal spacing,
+
+00:34:58.700 --> 00:35:00.000
+external spacing thing going on.
+
+00:35:00.000 --> 00:35:01.020
+external spacing thing going on.
+
+00:35:01.020 --> 00:35:02.710
+Now I don't actually want to put rules
+
+00:35:02.710 --> 00:35:04.820
+in between each of the list items here.
+
+00:35:04.820 --> 00:35:06.000
+So I'm going to include a
+little bit more spacing.
+
+00:35:06.000 --> 00:35:07.160
+So I'm going to include a
+little bit more spacing.
+
+00:35:07.160 --> 00:35:09.680
+Let's say 20 pixels vertically
+
+00:35:09.680 --> 00:35:11.910
+and then if I try something
+like, I don't know,
+
+00:35:11.910 --> 00:35:12.000
+16 pixels here, like just
+keeping it a little bit less
+
+00:35:12.000 --> 00:35:15.860
+16 pixels here, like just
+keeping it a little bit less
+
+00:35:15.860 --> 00:35:18.000
+or even it shouldn't be,
+yeah, like that could work
+
+00:35:18.000 --> 00:35:19.180
+or even it shouldn't be,
+yeah, like that could work
+
+00:35:19.180 --> 00:35:21.290
+but I want to avoid something like this
+
+00:35:21.290 --> 00:35:23.040
+where the icons feel like their own column
+
+00:35:23.040 --> 00:35:24.000
+and the text feels like its own column.
+
+00:35:24.000 --> 00:35:25.710
+and the text feels like its own column.
+
+00:35:25.710 --> 00:35:29.080
+So again, just reviewing
+some lessons from spacing.
+
+00:35:29.080 --> 00:35:30.000
+So I'll try something like that,
+
+00:35:30.000 --> 00:35:30.040
+So I'll try something like that,
+
+00:35:30.040 --> 00:35:32.020
+keep it aligned with the
+logo here but otherwise
+
+00:35:32.020 --> 00:35:34.853
+move it up nice towards
+the top of the page here.
+
+00:35:35.780 --> 00:35:36.000
+Now we have like significantly
+
+00:35:36.000 --> 00:35:37.500
+Now we have like significantly
+
+00:35:37.500 --> 00:35:39.520
+cleaned up this area above the table.
+
+00:35:39.520 --> 00:35:41.230
+In fact, really the
+only thing we have here
+
+00:35:41.230 --> 00:35:42.000
+is this search bar that
+applies over the table
+
+00:35:42.000 --> 00:35:43.530
+is this search bar that
+applies over the table
+
+00:35:43.530 --> 00:35:45.490
+but in the name of consistency first,
+
+00:35:45.490 --> 00:35:48.000
+now what I'm gonna do
+is just duplicate this
+
+00:35:48.000 --> 00:35:48.380
+now what I'm gonna do
+is just duplicate this
+
+00:35:48.380 --> 00:35:52.107
+and change this maybe to say
+something like "Search Table."
+
+00:35:53.620 --> 00:35:54.000
+Now one way to align this
+nicely is to put it here
+
+00:35:54.000 --> 00:35:56.440
+Now one way to align this
+nicely is to put it here
+
+00:35:56.440 --> 00:35:59.500
+but also since this is
+really the only control,
+
+00:35:59.500 --> 00:36:00.000
+I could consider aligning it
+to this side of the screen here
+
+00:36:00.000 --> 00:36:04.110
+I could consider aligning it
+to this side of the screen here
+
+00:36:04.110 --> 00:36:06.000
+and then just vertically
+centering it with this text.
+
+00:36:06.000 --> 00:36:07.581
+and then just vertically
+centering it with this text.
+
+00:36:07.581 --> 00:36:10.610
+And the nice thing about that is
+
+00:36:10.610 --> 00:36:12.000
+now it takes up less vertical space,
+
+00:36:12.000 --> 00:36:12.590
+now it takes up less vertical space,
+
+00:36:12.590 --> 00:36:15.170
+which means the table can
+take up more vertical space.
+
+00:36:15.170 --> 00:36:17.780
+I will see more data
+without having to scroll.
+
+00:36:17.780 --> 00:36:18.000
+With this much data as
+there is right here,
+
+00:36:18.000 --> 00:36:19.660
+With this much data as
+there is right here,
+
+00:36:19.660 --> 00:36:21.670
+that's not really an
+issue but in the real app,
+
+00:36:21.670 --> 00:36:23.580
+this could be a nice little bonus.
+
+00:36:23.580 --> 00:36:24.000
+All right, so now we've
+done everything else and we
+
+00:36:24.000 --> 00:36:25.840
+All right, so now we've
+done everything else and we
+
+00:36:25.840 --> 00:36:29.160
+get to the tough part of the
+app, which is this table.
+
+00:36:29.160 --> 00:36:30.000
+Now when I sit down with
+a new client and we go
+
+00:36:30.000 --> 00:36:31.970
+Now when I sit down with
+a new client and we go
+
+00:36:31.970 --> 00:36:34.210
+over say a page where
+there's a big data table,
+
+00:36:34.210 --> 00:36:36.000
+a lot of times these
+conversations look like me
+
+00:36:36.000 --> 00:36:36.360
+a lot of times these
+conversations look like me
+
+00:36:36.360 --> 00:36:38.020
+like really trying to push on them
+
+00:36:38.020 --> 00:36:40.160
+to figure out everything
+we can get rid of.
+
+00:36:40.160 --> 00:36:41.430
+I just go "Is this necessary?
+
+00:36:41.430 --> 00:36:42.000
+Who uses this, do we really need this?"
+
+00:36:42.000 --> 00:36:43.620
+Who uses this, do we really need this?"
+
+00:36:43.620 --> 00:36:45.750
+And the reason why is I
+want to get my clients
+
+00:36:45.750 --> 00:36:47.970
+to make the hard choice of
+figuring out what's really
+
+00:36:47.970 --> 00:36:48.000
+essential and then removing
+everything that's not.
+
+00:36:48.000 --> 00:36:51.690
+essential and then removing
+everything that's not.
+
+00:36:51.690 --> 00:36:53.727
+There's an Antoine de
+Saint-Exupery quote that
+
+00:36:53.727 --> 00:36:54.000
+"Perfection is reached
+not when there's nothing
+
+00:36:54.000 --> 00:36:55.910
+"Perfection is reached
+not when there's nothing
+
+00:36:55.910 --> 00:36:58.060
+left to add but when there's
+nothing left to take away."
+
+00:36:58.060 --> 00:36:58.990
+And it's a beautiful quote
+
+00:36:58.990 --> 00:37:00.000
+and it also really applies to UI design.
+
+00:37:00.000 --> 00:37:01.810
+and it also really applies to UI design.
+
+00:37:01.810 --> 00:37:03.930
+But it begs the question,
+like what is the measure
+
+00:37:03.930 --> 00:37:06.000
+of what you can take
+away and what you can't?
+
+00:37:06.000 --> 00:37:06.400
+of what you can take
+away and what you can't?
+
+00:37:06.400 --> 00:37:09.269
+Well in a table, the
+stuff that we want to keep
+
+00:37:09.269 --> 00:37:11.620
+is anything that helps the user decide
+
+00:37:11.620 --> 00:37:12.000
+what road they're gonna like dig into.
+
+00:37:12.000 --> 00:37:13.490
+what road they're gonna like dig into.
+
+00:37:13.490 --> 00:37:16.330
+So I'm presuming that if I
+click on one of these rows,
+
+00:37:16.330 --> 00:37:18.000
+I'm gonna bring up the full
+information about that order.
+
+00:37:18.000 --> 00:37:19.190
+I'm gonna bring up the full
+information about that order.
+
+00:37:19.190 --> 00:37:20.160
+This is just some of it,
+
+00:37:20.160 --> 00:37:23.050
+this is not all the data that
+we have about this order.
+
+00:37:23.050 --> 00:37:24.000
+So I need to click in and
+then I'm gonna get all of the
+
+00:37:24.000 --> 00:37:25.060
+So I need to click in and
+then I'm gonna get all of the
+
+00:37:25.060 --> 00:37:27.500
+information and maybe that's
+gonna be a separate page,
+
+00:37:27.500 --> 00:37:28.680
+maybe that's gonna be a pop-up,
+
+00:37:28.680 --> 00:37:30.000
+maybe it's gonna be a slide
+over panel, that doesn't matter.
+
+00:37:30.000 --> 00:37:31.590
+maybe it's gonna be a slide
+over panel, that doesn't matter.
+
+00:37:31.590 --> 00:37:33.710
+But all I want to do is
+keep that information
+
+00:37:33.710 --> 00:37:36.000
+that helps the user decide
+what is my next action here?
+
+00:37:36.000 --> 00:37:36.740
+that helps the user decide
+what is my next action here?
+
+00:37:36.740 --> 00:37:38.050
+Like do I need to dig into something
+
+00:37:38.050 --> 00:37:40.780
+or is there some real world
+action that I need to take?
+
+00:37:40.780 --> 00:37:42.000
+Anything that helps them decide
+that action is what we keep.
+
+00:37:42.000 --> 00:37:44.170
+Anything that helps them decide
+that action is what we keep.
+
+00:37:44.170 --> 00:37:47.210
+So I'm just gonna go through
+these columns and use
+
+00:37:47.210 --> 00:37:48.000
+sample answers somewhat based
+on what might be realistic.
+
+00:37:48.000 --> 00:37:51.040
+sample answers somewhat based
+on what might be realistic.
+
+00:37:51.040 --> 00:37:54.000
+All right, let's start with
+the reference number here.
+
+00:37:54.000 --> 00:37:55.540
+So it turns out these reference numbers
+
+00:37:55.540 --> 00:37:58.570
+are actually really important
+and they are used to try
+
+00:37:58.570 --> 00:38:00.000
+and determine what users are
+going to think about next.
+
+00:38:00.000 --> 00:38:01.680
+and determine what users are
+going to think about next.
+
+00:38:01.680 --> 00:38:03.370
+So I'm gonna take all these
+and because they're not
+
+00:38:03.370 --> 00:38:06.000
+digit for digit comparable,
+I'm going to align them left.
+
+00:38:06.000 --> 00:38:07.670
+digit for digit comparable,
+I'm going to align them left.
+
+00:38:07.670 --> 00:38:09.740
+And then also you'll
+notice these are blue.
+
+00:38:09.740 --> 00:38:11.600
+Presumably I can click into these
+
+00:38:11.600 --> 00:38:12.000
+and they function like any other link.
+
+00:38:12.000 --> 00:38:13.800
+and they function like any other link.
+
+00:38:13.800 --> 00:38:15.490
+I'm actually not really a big fan
+
+00:38:15.490 --> 00:38:18.000
+of having a bunch of other
+links throughout a table row
+
+00:38:18.000 --> 00:38:19.190
+of having a bunch of other
+links throughout a table row
+
+00:38:19.190 --> 00:38:21.440
+and the reason for that
+is because I want the user
+
+00:38:21.440 --> 00:38:24.000
+to very quickly and easily be
+able to click almost anywhere
+
+00:38:24.000 --> 00:38:24.380
+to very quickly and easily be
+able to click almost anywhere
+
+00:38:24.380 --> 00:38:26.920
+in this row and then get
+to the details of that row.
+
+00:38:26.920 --> 00:38:29.710
+If then they want to pull up
+the details on Esther Howard
+
+00:38:29.710 --> 00:38:30.000
+or Jake Jones or
+whatever, they can do that
+
+00:38:30.000 --> 00:38:31.890
+or Jake Jones or
+whatever, they can do that
+
+00:38:31.890 --> 00:38:34.670
+there on kind of that drilled in page.
+
+00:38:34.670 --> 00:38:36.000
+But for right now, anything that's a link,
+
+00:38:36.000 --> 00:38:36.310
+But for right now, anything that's a link,
+
+00:38:36.310 --> 00:38:39.003
+I'm actually gonna default
+to not having it be one.
+
+00:38:40.640 --> 00:38:42.000
+Now the Sales Rep is an important field.
+
+00:38:42.000 --> 00:38:42.680
+Now the Sales Rep is an important field.
+
+00:38:42.680 --> 00:38:45.250
+So we're gonna want to keep
+that, that's fair enough.
+
+00:38:45.250 --> 00:38:48.000
+The company as it turns out, is not
+
+00:38:48.000 --> 00:38:48.100
+The company as it turns out, is not
+
+00:38:48.100 --> 00:38:49.240
+and maybe that's obvious because there
+
+00:38:49.240 --> 00:38:51.430
+wasn't actually any sample data in here
+
+00:38:51.430 --> 00:38:53.300
+and then we get to this
+interesting situation
+
+00:38:53.300 --> 00:38:54.000
+where there's a field called Contact
+
+00:38:54.000 --> 00:38:54.690
+where there's a field called Contact
+
+00:38:54.690 --> 00:38:56.720
+and then there's one
+called Site Contact and in
+
+00:38:56.720 --> 00:38:59.310
+the vast majority of cases,
+these are the same person.
+
+00:38:59.310 --> 00:39:00.000
+So what strategy do we use
+here to simplify things?
+
+00:39:00.000 --> 00:39:02.290
+So what strategy do we use
+here to simplify things?
+
+00:39:02.290 --> 00:39:04.250
+Well one option is we
+could just simply hide
+
+00:39:04.250 --> 00:39:06.000
+like the site contact or
+the normal contact, right?
+
+00:39:06.000 --> 00:39:07.140
+like the site contact or
+the normal contact, right?
+
+00:39:07.140 --> 00:39:09.680
+But to me, that kind of
+naive solution doesn't feel
+
+00:39:09.680 --> 00:39:12.000
+really correct because it sort
+of implies that one of these
+
+00:39:12.000 --> 00:39:12.470
+really correct because it sort
+of implies that one of these
+
+00:39:12.470 --> 00:39:15.110
+is more important and that's
+not necessarily the case.
+
+00:39:15.110 --> 00:39:17.180
+It's just that they're usually the same.
+
+00:39:17.180 --> 00:39:18.000
+So one good strategy here is we could
+
+00:39:18.000 --> 00:39:19.130
+So one good strategy here is we could
+
+00:39:19.130 --> 00:39:22.440
+come up with a custom data display.
+
+00:39:22.440 --> 00:39:24.000
+So we could like for
+instance, join Contact
+
+00:39:24.000 --> 00:39:25.710
+So we could like for
+instance, join Contact
+
+00:39:25.710 --> 00:39:29.470
+and Site Contact into
+Contact parentheses S
+
+00:39:29.470 --> 00:39:30.000
+and then we could do something like
+
+00:39:30.000 --> 00:39:31.590
+and then we could do something like
+
+00:39:31.590 --> 00:39:33.370
+if it's just one person, we write that
+
+00:39:33.370 --> 00:39:36.000
+person's name but if there's two people,
+
+00:39:36.000 --> 00:39:36.313
+person's name but if there's two people,
+
+00:39:38.320 --> 00:39:39.860
+then I'm gonna do something like write
+
+00:39:39.860 --> 00:39:42.000
+the second person and say "Site Contact."
+
+00:39:42.000 --> 00:39:43.537
+the second person and say "Site Contact."
+
+00:39:44.900 --> 00:39:46.840
+Now sure, that means that this row
+
+00:39:46.840 --> 00:39:48.000
+now takes up a little more vertical space
+
+00:39:48.000 --> 00:39:49.000
+now takes up a little more vertical space
+
+00:39:49.000 --> 00:39:51.070
+but that is really not a big deal because
+
+00:39:51.070 --> 00:39:53.770
+we've just saved an entire column that
+
+00:39:53.770 --> 00:39:54.000
+would have been displayed
+on every single row.
+
+00:39:54.000 --> 00:39:57.290
+would have been displayed
+on every single row.
+
+00:39:57.290 --> 00:40:00.000
+This is a great strategy for
+kind of hiding excess data
+
+00:40:00.000 --> 00:40:00.570
+This is a great strategy for
+kind of hiding excess data
+
+00:40:00.570 --> 00:40:03.590
+is think can I do a custom
+data display to make
+
+00:40:03.590 --> 00:40:06.000
+the display as compact
+as possible in the most
+
+00:40:06.000 --> 00:40:06.020
+the display as compact
+as possible in the most
+
+00:40:06.020 --> 00:40:09.210
+common cases for how the
+data is actually structured?
+
+00:40:09.210 --> 00:40:12.000
+Moving on, the City is
+also not super important.
+
+00:40:12.000 --> 00:40:12.902
+Moving on, the City is
+also not super important.
+
+00:40:12.902 --> 00:40:15.910
+Same thing with the Type,
+we can get rid of that.
+
+00:40:15.910 --> 00:40:18.000
+And now Alerts, we're
+actually gonna move this
+
+00:40:18.000 --> 00:40:21.050
+to the side because
+all three of these rows
+
+00:40:21.050 --> 00:40:23.770
+have an alert and these
+are important alerts here.
+
+00:40:23.770 --> 00:40:24.000
+This is definitely stuff we want to keep
+
+00:40:24.000 --> 00:40:25.430
+This is definitely stuff we want to keep
+
+00:40:25.430 --> 00:40:27.740
+but then this is also kind of an alert
+
+00:40:27.740 --> 00:40:30.000
+but it's like maybe more of
+a note alert or something.
+
+00:40:30.000 --> 00:40:30.370
+but it's like maybe more of
+a note alert or something.
+
+00:40:30.370 --> 00:40:32.920
+Like there's just some
+confusion with these fields.
+
+00:40:32.920 --> 00:40:34.980
+So I'm actually gonna
+take all of this stuff
+
+00:40:34.980 --> 00:40:36.000
+and just boot it off to
+the side for right now.
+
+00:40:36.000 --> 00:40:38.720
+and just boot it off to
+the side for right now.
+
+00:40:38.720 --> 00:40:40.990
+Now when I keep going
+through, I get finally
+
+00:40:40.990 --> 00:40:42.000
+to sort of the real
+challenge of this table
+
+00:40:42.000 --> 00:40:42.880
+to sort of the real
+challenge of this table
+
+00:40:42.880 --> 00:40:44.690
+where I have multiple sub rows
+
+00:40:44.690 --> 00:40:47.490
+for each like actual row in the order
+
+00:40:47.490 --> 00:40:48.000
+and this is one of those places where
+
+00:40:48.000 --> 00:40:49.360
+and this is one of those places where
+
+00:40:49.360 --> 00:40:51.550
+it's really fascinating
+and useful to look at
+
+00:40:51.550 --> 00:40:54.000
+what the real-world use
+case of this data is.
+
+00:40:54.000 --> 00:40:54.710
+what the real-world use
+case of this data is.
+
+00:40:54.710 --> 00:40:58.360
+Now in the case of this
+particular app, I was told
+
+00:40:58.360 --> 00:41:00.000
+most people are just
+gonna do one to two items.
+
+00:41:00.000 --> 00:41:01.590
+most people are just
+gonna do one to two items.
+
+00:41:01.590 --> 00:41:03.300
+Very rare that you have three or more.
+
+00:41:03.300 --> 00:41:05.520
+So that's nice because I
+know there's very rarely
+
+00:41:05.520 --> 00:41:06.000
+gonna be all that many
+but also it's important
+
+00:41:06.000 --> 00:41:08.910
+gonna be all that many
+but also it's important
+
+00:41:08.910 --> 00:41:10.780
+enough that we can't
+just remove it entirely.
+
+00:41:10.780 --> 00:41:12.000
+Like maybe someone who
+is looking at this table
+
+00:41:12.000 --> 00:41:13.490
+Like maybe someone who
+is looking at this table
+
+00:41:13.490 --> 00:41:15.720
+of orders is gonna look and
+see, oh yeah, this person
+
+00:41:15.720 --> 00:41:18.000
+ordered two roller blinds or
+this person, I don't know,
+
+00:41:18.000 --> 00:41:18.040
+ordered two roller blinds or
+this person, I don't know,
+
+00:41:18.040 --> 00:41:20.790
+ordered 100 or this person
+ordered some second thing
+
+00:41:20.790 --> 00:41:23.370
+or third thing or whatever
+and they might use that
+
+00:41:23.370 --> 00:41:24.000
+as an indicator of
+remembering what the order is
+
+00:41:24.000 --> 00:41:25.700
+as an indicator of
+remembering what the order is
+
+00:41:25.700 --> 00:41:28.280
+and then diving into that
+order for more details.
+
+00:41:28.280 --> 00:41:30.000
+So again, I'm gonna think like
+what's a custom data display
+
+00:41:30.000 --> 00:41:30.890
+So again, I'm gonna think like
+what's a custom data display
+
+00:41:30.890 --> 00:41:34.080
+that'll display the useful
+stuff here and no more?
+
+00:41:34.080 --> 00:41:36.000
+And one way of potentially
+doing that is just doing
+
+00:41:36.000 --> 00:41:36.090
+And one way of potentially
+doing that is just doing
+
+00:41:36.090 --> 00:41:40.140
+something like kind of summing
+up the products right here.
+
+00:41:40.140 --> 00:41:42.000
+Now this works nicely in the
+case of this particular data.
+
+00:41:42.000 --> 00:41:45.140
+Now this works nicely in the
+case of this particular data.
+
+00:41:45.590 --> 00:41:47.660
+Everyone just ordered two roller blinds
+
+00:41:47.660 --> 00:41:48.000
+but you can imagine that
+if someone had ordered
+
+00:41:48.000 --> 00:41:50.300
+but you can imagine that
+if someone had ordered
+
+00:41:50.300 --> 00:41:52.950
+like some shades or whatever,
+I could just write that
+
+00:41:52.950 --> 00:41:54.000
+and if they ordered 20 different things,
+
+00:41:54.000 --> 00:41:54.690
+and if they ordered 20 different things,
+
+00:41:54.690 --> 00:41:55.880
+there'd just be a little dot dot dot
+
+00:41:55.880 --> 00:41:58.713
+or I'd run over into
+multiple lines, et cetera.
+
+00:42:00.200 --> 00:42:01.960
+And then it turns out that this Status
+
+00:42:01.960 --> 00:42:04.930
+is largely not needed and
+a lot of these actions
+
+00:42:04.930 --> 00:42:06.000
+aren't super needed most of the time.
+
+00:42:06.000 --> 00:42:08.240
+aren't super needed most of the time.
+
+00:42:08.240 --> 00:42:09.840
+Now whenever an action
+is not really needed
+
+00:42:09.840 --> 00:42:11.740
+most of the time, that
+makes me think maybe
+
+00:42:11.740 --> 00:42:12.000
+it's a prime candidate for something like
+
+00:42:12.000 --> 00:42:13.720
+it's a prime candidate for something like
+
+00:42:13.720 --> 00:42:17.320
+showing on row hover
+or something like that.
+
+00:42:17.320 --> 00:42:18.000
+So we'll just leave this here for now
+
+00:42:18.000 --> 00:42:18.770
+So we'll just leave this here for now
+
+00:42:18.770 --> 00:42:20.910
+and we'll actually come
+back to it in a second
+
+00:42:20.910 --> 00:42:23.610
+because most of the rest of this display
+
+00:42:23.610 --> 00:42:24.000
+is going to go to Alerts here.
+
+00:42:24.000 --> 00:42:26.670
+is going to go to Alerts here.
+
+00:42:26.670 --> 00:42:28.320
+And so now what I want to do
+
+00:42:28.320 --> 00:42:30.000
+is kind of come up with an intelligent way
+
+00:42:30.000 --> 00:42:30.440
+is kind of come up with an intelligent way
+
+00:42:30.440 --> 00:42:34.310
+of ideally combining these
+different types of alerts.
+
+00:42:34.310 --> 00:42:35.820
+There's one about a minimum deposit.
+
+00:42:35.820 --> 00:42:36.000
+There's one about a note to call
+
+00:42:36.000 --> 00:42:37.740
+There's one about a note to call
+
+00:42:37.740 --> 00:42:39.560
+a customer or before arriving.
+
+00:42:39.560 --> 00:42:41.470
+There's one about an
+install due in one day
+
+00:42:41.470 --> 00:42:42.000
+and the stock has not been received.
+
+00:42:42.000 --> 00:42:43.340
+and the stock has not been received.
+
+00:42:43.340 --> 00:42:46.210
+I want to take all of
+this and sort of put it
+
+00:42:46.210 --> 00:42:48.000
+into one easy to understand
+alerts or notes type field.
+
+00:42:48.000 --> 00:42:51.090
+into one easy to understand
+alerts or notes type field.
+
+00:42:51.090 --> 00:42:52.860
+So potentially one way to do this
+
+00:42:52.860 --> 00:42:54.000
+is maybe I'll even call it "Notes"
+
+00:42:54.000 --> 00:42:55.840
+is maybe I'll even call it "Notes"
+
+00:42:55.840 --> 00:43:00.000
+and then I can put in a true note here.
+
+00:43:00.000 --> 00:43:00.410
+and then I can put in a true note here.
+
+00:43:00.410 --> 00:43:02.573
+I'm actually gonna shrink
+it a little bit though.
+
+00:43:03.620 --> 00:43:06.000
+Use the standard text color as always.
+
+00:43:06.000 --> 00:43:06.183
+Use the standard text color as always.
+
+00:43:07.440 --> 00:43:11.080
+Duplicate for this alert,
+put the alert here.
+
+00:43:11.080 --> 00:43:12.000
+The alert is actually gonna
+use the same text color too.
+
+00:43:12.000 --> 00:43:13.710
+The alert is actually gonna
+use the same text color too.
+
+00:43:13.710 --> 00:43:16.407
+This is kind of part of lightening
+
+00:43:16.407 --> 00:43:18.000
+is you want to be very judicious
+about how you use color.
+
+00:43:18.000 --> 00:43:19.140
+is you want to be very judicious
+about how you use color.
+
+00:43:19.140 --> 00:43:20.560
+It's a very common beginner mistake
+
+00:43:20.560 --> 00:43:22.970
+to overuse color, especially
+in things like text.
+
+00:43:22.970 --> 00:43:24.000
+So we're gonna avoid it when we can.
+
+00:43:24.000 --> 00:43:25.040
+So we're gonna avoid it when we can.
+
+00:43:25.040 --> 00:43:28.130
+And maybe what we'll do instead is bring
+
+00:43:28.130 --> 00:43:30.000
+up the Material Design icons
+and find something like,
+
+00:43:30.000 --> 00:43:31.910
+up the Material Design icons
+and find something like,
+
+00:43:31.910 --> 00:43:35.680
+their Warning icon is a good little
+
+00:43:35.680 --> 00:43:36.000
+thing that we can put on this page
+
+00:43:36.000 --> 00:43:37.380
+thing that we can put on this page
+
+00:43:39.880 --> 00:43:42.000
+and that we can color,
+that will not look as bad
+
+00:43:42.000 --> 00:43:43.040
+and that we can color,
+that will not look as bad
+
+00:43:43.040 --> 00:43:44.820
+colored as if we try
+and color the whole text
+
+00:43:44.820 --> 00:43:46.620
+and also no one has to read an icon.
+
+00:43:46.620 --> 00:43:48.000
+You just glance at it
+once and you're good.
+
+00:43:48.000 --> 00:43:49.470
+You just glance at it
+once and you're good.
+
+00:43:49.470 --> 00:43:50.670
+So let's actually take a minute
+
+00:43:50.670 --> 00:43:52.190
+and just kind of straighten up some
+
+00:43:52.190 --> 00:43:54.000
+of this stuff and just make
+it look a little bit tighter.
+
+00:43:54.000 --> 00:43:55.040
+of this stuff and just make
+it look a little bit tighter.
+
+00:44:07.110 --> 00:44:10.240
+And there we go, I feel like
+I have a good display of both
+
+00:44:10.240 --> 00:44:12.000
+these notes including the
+kind of special alerts here,
+
+00:44:12.000 --> 00:44:13.210
+these notes including the
+kind of special alerts here,
+
+00:44:13.210 --> 00:44:14.870
+easily the most attention-drawing thing
+
+00:44:14.870 --> 00:44:17.240
+in the entire table,
+which feels appropriate
+
+00:44:17.240 --> 00:44:18.000
+and then I also have included a lot
+
+00:44:18.000 --> 00:44:19.250
+and then I also have included a lot
+
+00:44:19.250 --> 00:44:21.680
+of the actions in a nice
+little hover state right here.
+
+00:44:21.680 --> 00:44:24.000
+It's not visible by default but anytime
+
+00:44:24.000 --> 00:44:24.390
+It's not visible by default but anytime
+
+00:44:24.390 --> 00:44:27.270
+you hover over any of these
+rows, you see this little
+
+00:44:27.270 --> 00:44:29.250
+action button right here
+and if you click on it,
+
+00:44:29.250 --> 00:44:30.000
+you would get a menu of
+actions specific to this row
+
+00:44:30.000 --> 00:44:32.610
+you would get a menu of
+actions specific to this row
+
+00:44:32.610 --> 00:44:35.280
+without even needing to open
+the row in the first place.
+
+00:44:35.280 --> 00:44:36.000
+And with that, that brings
+us basically to the end.
+
+00:44:36.000 --> 00:44:38.220
+And with that, that brings
+us basically to the end.
+
+00:44:38.220 --> 00:44:40.510
+I guess if there were maybe
+a few other things I was
+
+00:44:40.510 --> 00:44:42.000
+gonna do, kind of just
+checking out things at the end,
+
+00:44:42.000 --> 00:44:43.470
+gonna do, kind of just
+checking out things at the end,
+
+00:44:43.470 --> 00:44:46.130
+it would be to lighten
+these icons just a bit,
+
+00:44:46.130 --> 00:44:48.000
+maybe something 60%
+opacity seems too little.
+
+00:44:48.000 --> 00:44:48.970
+maybe something 60%
+opacity seems too little.
+
+00:44:48.970 --> 00:44:52.880
+70, maybe 80% is kind of
+about what I'm looking for.
+
+00:44:52.880 --> 00:44:54.000
+And the idea there is
+just that these icons
+
+00:44:54.000 --> 00:44:55.410
+And the idea there is
+just that these icons
+
+00:44:55.410 --> 00:44:57.080
+kind of hold a lot of visual weight,
+
+00:44:57.080 --> 00:44:59.270
+yet they're not super, super important.
+
+00:44:59.270 --> 00:45:00.000
+It's just it's the same
+thing with any other
+
+00:45:00.000 --> 00:45:02.230
+It's just it's the same
+thing with any other
+
+00:45:02.230 --> 00:45:04.450
+amount of lightening as
+I want things to pop only
+
+00:45:04.450 --> 00:45:06.000
+to the degree that they're
+actually really important.
+
+00:45:06.000 --> 00:45:07.200
+to the degree that they're
+actually really important.
+
+00:45:07.200 --> 00:45:09.220
+The more pixels something
+takes up for being
+
+00:45:09.220 --> 00:45:12.000
+equal importance, the less it needs to pop
+
+00:45:12.000 --> 00:45:14.663
+from the background as it
+gets bigger and bigger.
+
+00:45:17.360 --> 00:45:18.000
+So that's looking better.
+
+00:45:18.000 --> 00:45:18.240
+So that's looking better.
+
+00:45:18.240 --> 00:45:21.040
+Maybe I'll do something like
+round these corners though
+
+00:45:21.040 --> 00:45:24.000
+just to give it a little
+bit of a softer appearance
+
+00:45:24.000 --> 00:45:24.240
+just to give it a little
+bit of a softer appearance
+
+00:45:24.240 --> 00:45:26.750
+and a lot of the other
+corners here are rounded.
+
+00:45:26.750 --> 00:45:28.310
+In fact, I might actually round some
+
+00:45:28.310 --> 00:45:30.000
+of these other corners even a bit more
+
+00:45:30.000 --> 00:45:30.360
+of these other corners even a bit more
+
+00:45:30.360 --> 00:45:33.310
+which will just give it a nice
+kind of friendly appearance.
+
+00:45:35.220 --> 00:45:36.000
+Yeah, that's kind of cool.
+
+00:45:36.000 --> 00:45:36.053
+Yeah, that's kind of cool.
+
+00:45:36.053 --> 00:45:39.860
+Now I think I'm consistent
+at six for most of these.
+
+00:45:39.860 --> 00:45:42.000
+And then honestly, it's just
+a final little detail here
+
+00:45:42.000 --> 00:45:42.720
+And then honestly, it's just
+a final little detail here
+
+00:45:42.720 --> 00:45:45.933
+but I do feel like these
+are perhaps a bit too thin.
+
+00:45:47.450 --> 00:45:48.000
+So now that's 36 pixels tall.
+
+00:45:48.000 --> 00:45:49.603
+So now that's 36 pixels tall.
+
+00:45:50.770 --> 00:45:52.040
+Do the same thing here
+
+00:46:02.850 --> 00:46:03.730
+and there we go.
+
+00:46:03.730 --> 00:46:05.950
+Overall, we are looking
+at what I feel like
+
+00:46:05.950 --> 00:46:06.000
+is a much better design
+and using, honestly,
+
+00:46:06.000 --> 00:46:09.070
+is a much better design
+and using, honestly,
+
+00:46:09.070 --> 00:46:11.230
+in my opinion it's
+surprisingly few strategies,
+
+00:46:11.230 --> 00:46:12.000
+really just six main methods
+of simplifying our UI,
+
+00:46:12.000 --> 00:46:14.750
+really just six main methods
+of simplifying our UI,
+
+00:46:14.750 --> 00:46:18.000
+we have gone from something
+that was quite a bit messier
+
+00:46:18.000 --> 00:46:18.440
+we have gone from something
+that was quite a bit messier
+
+00:46:18.440 --> 00:46:20.390
+and with a lot of other
+elements and colors
+
+00:46:20.390 --> 00:46:22.490
+and sort of things
+competing for our attention
+
+00:46:22.490 --> 00:46:24.000
+to something that just feels
+like it breathes a lot more.
+
+00:46:24.000 --> 00:46:25.710
+to something that just feels
+like it breathes a lot more.
+
+00:46:25.710 --> 00:46:27.120
+And yeah I know, it's not like
+
+00:46:27.120 --> 00:46:29.200
+the most heavily branded app in the world.
+
+00:46:29.200 --> 00:46:30.000
+It's just very neutral
+and clean and simple
+
+00:46:30.000 --> 00:46:31.610
+It's just very neutral
+and clean and simple
+
+00:46:31.610 --> 00:46:33.700
+but it's gonna get the
+job done and overall,
+
+00:46:33.700 --> 00:46:36.000
+users using this will feel like much
+
+00:46:36.000 --> 00:46:36.180
+users using this will feel like much
+
+00:46:36.180 --> 00:46:38.360
+more care was put into it and honestly,
+
+00:46:38.360 --> 00:46:41.280
+this is going to frankly
+be easier to use anyways.
+
+00:46:41.280 --> 00:46:42.000
+So it's really the way to go.
+
+00:46:42.000 --> 00:46:42.730
+So it's really the way to go.
+
+00:46:43.800 --> 00:46:45.070
+And that's it, folks.
+
+00:46:45.070 --> 00:46:46.390
+That wraps up simplicity
+
+00:46:46.390 --> 00:46:48.000
+and the six strategies for getting there.
+
+00:46:48.000 --> 00:46:49.050
+and the six strategies for getting there.
+
+00:46:49.050 --> 00:46:51.080
+Now I know I've said this before but
+
+00:46:51.080 --> 00:46:52.450
+if you've kind of noticed that a lot
+
+00:46:52.450 --> 00:46:54.000
+of the examples seem a little
+bland in the last few lessons,
+
+00:46:54.000 --> 00:46:55.320
+of the examples seem a little
+bland in the last few lessons,
+
+00:46:55.320 --> 00:46:57.500
+they don't really seem to have
+much of an exciting brand,
+
+00:46:57.500 --> 00:46:59.950
+they're just kind of
+clean, simple and neat,
+
+00:46:59.950 --> 00:47:00.000
+that's just because I want to focus
+
+00:47:00.000 --> 00:47:01.950
+that's just because I want to focus
+
+00:47:01.950 --> 00:47:03.570
+on the skills that get you there.
+
+00:47:03.570 --> 00:47:05.220
+It turns out that a lot of making a brand
+
+00:47:05.220 --> 00:47:06.000
+more exciting is in color
+and typography and imagery
+
+00:47:06.000 --> 00:47:08.120
+more exciting is in color
+and typography and imagery
+
+00:47:08.120 --> 00:47:10.440
+and we're gonna cover
+that in a lot of detail.
+
+00:47:10.440 --> 00:47:12.000
+But making something simple is hard enough
+
+00:47:12.000 --> 00:47:13.430
+But making something simple is hard enough
+
+00:47:13.430 --> 00:47:15.970
+and it's a skill worth
+mastering on its own.
+
+00:47:15.970 --> 00:47:18.000
+Not only, like I said, is it
+the most common client request
+
+00:47:18.000 --> 00:47:19.470
+Not only, like I said, is it
+the most common client request
+
+00:47:19.470 --> 00:47:23.010
+but it's also something that's
+just shockingly difficult.
+
+00:47:23.010 --> 00:47:24.000
+Like this framework works very well.
+
+00:47:24.000 --> 00:47:25.470
+Like this framework works very well.
+
+00:47:25.470 --> 00:47:28.090
+It's not easy to do necessarily
+
+00:47:28.090 --> 00:47:30.000
+and a lot of times you'll
+have clients that come
+
+00:47:30.000 --> 00:47:30.240
+and a lot of times you'll
+have clients that come
+
+00:47:30.240 --> 00:47:32.610
+and say "Hey, we'd like
+you to just do this,
+
+00:47:32.610 --> 00:47:34.510
+make up something real quick and simple"
+
+00:47:34.510 --> 00:47:36.000
+and simple is not quick.
+
+00:47:36.000 --> 00:47:36.180
+and simple is not quick.
+
+00:47:36.180 --> 00:47:37.740
+If you've learned anything in this lesson,
+
+00:47:37.740 --> 00:47:40.390
+you've probably seen that it
+takes work to consider exactly
+
+00:47:40.390 --> 00:47:42.000
+what is necessary and exactly
+what is not so necessary
+
+00:47:42.000 --> 00:47:43.690
+what is necessary and exactly
+what is not so necessary
+
+00:47:43.690 --> 00:47:47.330
+and cut all the unnecessary
+stuff or hide it or whatever.
+
+00:47:47.330 --> 00:47:48.000
+But doing that, those are hard decisions,
+
+00:47:48.000 --> 00:47:49.540
+But doing that, those are hard decisions,
+
+00:47:49.540 --> 00:47:50.980
+it takes work and if it was easy,
+
+00:47:50.980 --> 00:47:53.040
+they wouldn't be hiring
+you in the first place.
+
+00:47:53.040 --> 00:47:54.000
+So I guess that's just a warning.
+
+00:47:54.000 --> 00:47:54.100
+So I guess that's just a warning.
+
+00:47:54.100 --> 00:47:55.150
+Don't lower your rates because
+
+00:47:55.150 --> 00:47:56.920
+someone says they want a simple design.
+
+00:47:56.920 --> 00:47:59.080
+All right, take a look at the homework,
+
+00:47:59.080 --> 00:48:00.000
+post it in the Student
+Community when you're done.
+
+00:48:00.000 --> 00:48:01.120
+post it in the Student
+Community when you're done.
+
+00:48:01.120 --> 00:48:02.560
+Check out the cheat
+sheet, there's some good
+
+00:48:02.560 --> 00:48:05.010
+ideas there and we'll see
+you in the next lesson.
+
