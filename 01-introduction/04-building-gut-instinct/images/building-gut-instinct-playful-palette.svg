@@ -1,0 +1,16 @@
+<svg width="392" height="158" xmlns="http://www.w3.org/2000/svg">
+  <rect width="392" height="158" fill="#1f1f1f" rx="12"/>
+  <text x="196" y="30" text-anchor="middle" fill="#e0e0e0" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="bold">Playful Palette</text>
+  <text x="101" y="58" text-anchor="middle" fill="#aaaaaa" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold">PLAYFUL</text>
+  <rect x="24" y="64" width="72" height="52" rx="8" fill="#FF6B9D" fill-opacity="1"/>
+  <text x="60" y="134" text-anchor="middle" fill="#FF6B9D" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal">pink-red</text>
+  <text x="60" y="148" text-anchor="middle" fill="#666666" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal">leans pink</text>
+  <rect x="106" y="64" width="72" height="52" rx="8" fill="#56C9D8" fill-opacity="1"/>
+  <text x="142" y="134" text-anchor="middle" fill="#56C9D8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal">aqua-blue</text>
+  <text x="142" y="148" text-anchor="middle" fill="#666666" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="normal">leans teal</text>
+  <text x="291" y="58" text-anchor="middle" fill="#aaaaaa" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold">FLAT</text>
+  <rect x="214" y="64" width="72" height="52" rx="8" fill="#CC0000" fill-opacity="1"/>
+  <text x="250" y="134" text-anchor="middle" fill="#e88c8c" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal">flat red</text>
+  <rect x="296" y="64" width="72" height="52" rx="8" fill="#003FCC" fill-opacity="1"/>
+  <text x="332" y="134" text-anchor="middle" fill="#8ca9e8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="normal">flat blue</text>
+</svg>

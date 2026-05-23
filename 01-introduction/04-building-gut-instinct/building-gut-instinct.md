@@ -38,6 +38,8 @@ graph LR
 
 Eric shows his actual first professional project — a chart/data UI that he spent 10–20 hours on.
 
+![Eric's first paid design — incoherent colors, crosshatched pattern, misaligned elements](screenshots/01-erics-bad-chart.jpg)
+
 > "I'll be the first to admit. It's really bad."
 
 Things he calls out:
@@ -75,6 +77,8 @@ Not that complicated. Some notes:
 
 **Example used:** Photon app website (linked in course Figma file). Clean, simple, friendly, colorful. Uses isometric 3D illustrations as a visual motif across the page.
 
+![Photon app website — the example Eric uses to walk through the analysis process](screenshots/02-photon-site.jpg)
+
 ### Step 2 — Analyze why the design is good
 
 > "You're gonna hate me for saying this, but what I want you to actually do is write out a list of why you think a particular design is good."
@@ -82,6 +86,8 @@ Not that complicated. Some notes:
 Why writing matters — the mechanism:
 
 > "When you force your brain to come up with a name for something, or to describe something, you're forcing your brain to have like a little connection point that you can then latch to other designs."
+
+![Eric pointing out the isometric illustrations repeated as a visual motif throughout the Photon site](screenshots/03-isometric-illustrations.jpg)
 
 **No fancy terminology required:**
 
@@ -105,6 +111,8 @@ flowchart LR
 
 1. **White space** — "There's so much white space in the design. It just overall feels very, very clean." Between one button and the next text element: 600 pixels of white space. Between a divider line and content: 200 pixels.
 
+   ![Eric measuring white space on the Photon site — 600px between button and text, 200px after a divider](screenshots/04-white-space-analysis.jpg)
+
    > "Someone broke open a CSS file and wrote, yup. I want 200 pixels of white space here."
 
 2. **Colors feel fresh and fun** — Light, cheerful tones. In the color unit this gets named a **"playful palette"** — one of the five most common palettes Eric has identified. Characterized by: a red that borders on pink, a blue that leans toward aqua or teal.
@@ -114,6 +122,8 @@ flowchart LR
    You don't need the name "playful palette" — "fun colors," "light colors," whatever. The point is your brain registers *there's something about colors like this* and files it away.
 
 3. **The layout feels impactful** — Specifically above the fold: large text on the left, big image on the right.
+
+   ![Photon hero section — large text left, big image right, creating a boom-in-your-face impact](screenshots/05-impactful-layout.jpg)
 
    > "There's something about having this large image on one side and then some text on another side that just feels kind of boom in your face."
 
@@ -139,6 +149,8 @@ Don't only look at great designs — look at things you know are awful.
 
 **Example: old GeoCities page** compared to the Photon layout.
 
+![Old GeoCities page vs Photon — same text-left/image-right skeleton, but fonts, image quality, and color coherence drag it down](screenshots/06-geocities-bad-layout.jpg)
+
 Same ingredients (text left, big image right), but it fails because:
 - Default system font — no typographic hierarchy
 - English and French translations carry identical visual weight — eye doesn't know where to go
@@ -155,6 +167,8 @@ The analysis reveals: same layout skeleton, but font quality, image quality, col
 ## Comparing Bad and Good Side-by-Side
 
 Eric places his first chart design next to **Robo Advisor Web App by Michael Parulski** (top Dribbble result for "chart").
+
+![Eric's bad chart vs Parulski's Robo Advisor — one blue used in three tonal variations vs incoherent palette](screenshots/07-robo-advisor-good-chart.jpg)
 
 | Eric's bad chart | Parulski's good chart |
 |---|---|
