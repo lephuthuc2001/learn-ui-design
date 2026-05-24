@@ -20,6 +20,8 @@ flowchart TD
 Q: What is the core insight behind "Fail Left, Fail Right" from the unicycle story?
 A: If you always fail the same way, your body only learns how to fail in one direction. By alternating between two different failures (forward and backward), you unconsciously learn the acceptable range of stable values between them.
 
+![](screenshots/01-unicycle-story.jpg)
+
 Q: What was the friend's unicycle advice that became a maxim for rapid skill development?
 A: "Hey, you know what? You should try to alternate between falling off forwards and falling off backwards."
 
@@ -43,6 +45,7 @@ graph LR
     style C fill:#c0392b,color:#ffffff
 ```
 ![](images/07-3-methods-for-designing-above-your-level-card-2.png)
+![](screenshots/02-fail-left-right-range.jpg)
 
 Q: Who is Julie's Method named after, and what was her key observation?
 A: Julie Zhuo, VP of Design at Facebook. Her observation: "If you have literally tried every possible variation, you will have come across the best solution."
@@ -52,6 +55,8 @@ A: Imagining what a design idea might look like in their head, but not actually 
 
 Q: What is the practical rule of Julie's Method when you think of a design variation?
 A: Duplicate your frame/artboard and design the variation immediately — don't evaluate it in your head. "You can't really evaluate it in your head. You have to see it in front of you."
+
+![](screenshots/03-julies-method-iterations.jpg)
 
 Q: Why do great designers produce far more iterations than you'd expect?
 A: The final product hides all the earlier iterations — you only see the polished result. But the path to that result involved churning through many variations to find what worked best.
@@ -64,6 +69,8 @@ A: "It takes sustained mental effort to generate variation after variation and t
 
 Q: What is the core mechanism behind "Sleep On It"?
 A: After extended focused design work, your brain loses the ability to evaluate your own work clearly. Sleeping resets your perception — you return the next day with instant, clear opinions about what's working and what isn't.
+
+![](screenshots/04-sleep-on-it.jpg)
 
 Q: Fill in the blank: "I guarantee you go get some sleep, come out the next morning, open it up — and you're gonna instantly ___."
 A: "have an opinion on it. You're gonna know what to change, or you're gonna know exactly how much you like it, or what's working and what's not working."

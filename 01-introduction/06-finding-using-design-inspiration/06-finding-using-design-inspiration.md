@@ -12,6 +12,8 @@ The video is divided into two parts: where to find good design inspiration, and 
 
 The instructor shows his very first professional design — someone paid him to make it, and it took over 10 hours.
 
+![The instructor's first professional design — "gross, pukey yellow," muddy header, mismatched saturated colors, no grayscale awareness](screenshots/01-first-bad-design.jpg)
+
 > "And this design is just awful."
 
 Problems with it: a "gross, pukey, yellow" color, a muddy brownish header, mismatching bright saturated red/green/blue that don't fit the vibe. He didn't understand color — didn't know gray was important, didn't know brown headers are basically never used in great designs.
@@ -43,6 +45,9 @@ Designers post finished work or works in progress. You follow designers and stud
 - **Invitation-only** — keeps the quality bar high; not a lot of downright bad stuff
 - **Color search** — one of the instructor's favorite features: enter a hex code or pick a color from a palette, then see what the best designers are doing with that specific color
   - Useful for discovering color pairings: searching blue-indigo surfaces a lot of yellow → good signal for secondary color choices
+
+![Dribbble color search — entering a blue-indigo hex shows what top designers are doing with that exact hue, surfacing yellow as a common pairing](screenshots/02-dribbble-color-search.jpg)
+
 - **Collections** — save any shot to a named collection with one click; the instructor has collections like "gradients," "brutalist," "code editor," "blue-purple"
   - Drawback: online only; requires internet access
 
@@ -129,6 +134,8 @@ Writers and painters have done this for centuries. The reason it works:
 
 The instructor demonstrates in real time on the OpenAI homepage (the one with the dynamic colored background).
 
+![OpenAI homepage copywork in Figma — the instructor's recreation next to the original, showing the radial gradient rectangle technique](screenshots/03-openai-copywork.jpg)
+
 - **The background effect**: big, randomly positioned rectangles with radial gradients (yellow, purple, blue) at 0–100% opacity → creates the "awesome hodgepodge of colors"
   - Each page refresh shows different colors because the site generates them dynamically
 - **Font**: Colfax (paid, hundreds of dollars) → use **Roboto** or **Cooper Hewitt** as free alternatives; he uses Typewolf's Guide to Free Fonts (~$40 resource) to find free equivalents
@@ -149,6 +156,8 @@ Can you peek at the browser's Dev Console for exact values like border-radius?
 
 Example lessons from the Epicurrence Conference site (Dann Petty): giant text used as a visual element (size 360pt for "HI"), watercolor marks as a repeating design motif.
 
+![Epicurrence Conference site — "HI" at 360pt, so large it becomes a visual element rather than readable text](screenshots/04-epicurrence-360-text.jpg)
+
 > "Just before I'd seen this design, I had never considered that you would have text be size 360, right? But at some point, it gets large enough where it's basically a visual element."
 
 And once you learn a technique, you start seeing it everywhere — and can apply it in your own work.
@@ -167,6 +176,8 @@ What to include:
 - Things that represent the brand or vibe you're going for
 
 Example: the instructor built a mood board for Philo (a TV site) that included movie sites and a music site.
+
+![Mood board for Philo — a TV site drawing inspiration from movies, music sites, and adjacent visual ideas](screenshots/05-mood-board-philo.jpg)
 
 > "Like, these are just albums, right? That's not the same thing as TV shows... But there's interesting ideas here. I like how it's laid out. I like the simplicity of the information. The sidebars might be something that I could borrow. I don't know where this blurred-out background came from, but there's an idea that maybe I could use for something related to TV."
 

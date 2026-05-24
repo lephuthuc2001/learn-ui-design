@@ -22,6 +22,8 @@ graph TD
 
 > "College was definitely a time of questionable decisions, unicycling was one of these decisions — and yet it was a ton of fun."
 
+![The instructor's unicycle story slide — College, Thursday midnight unicycle group](screenshots/01-unicycle-story.jpg)
+
 The Unicycle Group met every Thursday at midnight. One Thursday at 12:30 (technically Friday morning), the instructor was stuck in his unicycling progression: he'd pedal for one, one-and-a-half, maybe two cycles, then fall — always the same way, going forward while the unicycle shot backwards.
 
 A friend watching him offered advice he calls probably the best maxim for rapid skill development he's ever heard:
@@ -47,6 +49,8 @@ Example workflow with font size:
 - 24px → a bit small, but still a valid header
 - 50px → getting big, but forces you to rethink the layout — and reveals new ideas
 - 100px → definitely too big, almost no way to make it work
+
+![Fail left, fail right in practice — a landing page with multiple font size variations showing the range from too small to too large](screenshots/02-fail-left-right-range.jpg)
 
 By going to the extremes (50px, 100px), you establish a **range of acceptable values** — say, 30–50px. Now you have something to experiment within. You've also stumbled into design ideas you never would have tried if you just stopped at 32.
 
@@ -75,6 +79,8 @@ Her observation:
 > "If you have literally tried every possible variation, you will have come across the best solution."
 
 This doesn't mean generating millions of variants. It means: **try everything that you think might make sense**. Duplicate your frame/artboard, see how it looks, keep going — so you can compare iterations side by side.
+
+![Julie's Method in action — multiple artboard iterations side by side, each exploring a different design variation](screenshots/03-julies-method-iterations.jpg)
 
 ### The trap designers fall into
 
@@ -105,6 +111,8 @@ This is genuinely hard:
 > "The thing with UI design is it's never a one-day job."
 
 After two hours of cranking on a design, your brain gets fried. You can't tell if your designs are good, you lose the ability to see what to change, you run out of ideas.
+
+![Sleep on it — returning the next day with fresh eyes to instantly spot what works and what doesn't](screenshots/04-sleep-on-it.jpg)
 
 > "I guarantee you go get some sleep, come out the next morning, open it up — and you're gonna instantly have an opinion on it. You're gonna know what to change, or you're gonna know exactly how much you like it, or what's working and what's not working."
 

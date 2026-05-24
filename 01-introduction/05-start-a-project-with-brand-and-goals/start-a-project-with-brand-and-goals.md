@@ -10,6 +10,8 @@ flowchart LR
     A -.->|"brand shapes visual style"| D
 ```
 
+![The four-step project process overview slide — brand & goals, collect inspiration, sketch & wireframe, explore visual styles](screenshots/01-four-step-overview.jpg)
+
 This process scales — dial it up for a multi-year enterprise project, dial it back for a single-page homework assignment. The four steps are the same either way.
 
 ### Step 1 — Determine brand and goals
@@ -140,9 +142,13 @@ For a text-heavy site, typography is an excellent first lever.
 
 Eric shows NEJM with all fonts replaced by Comic Sans.
 
+![NEJM with all fonts replaced by Comic Sans — the design looks unserious and wireframe-like despite the same layout](screenshots/02-comic-sans-nejm.jpg)
+
 > "As you scroll through this, it's like really difficult even to take it seriously. I even find it tough to view it as a completed design. It looks a little bit kinda just like a wireframe — and in large part that's because Comic Sans is not a font that inspires trust."
 
 Then he removes the Comic Sans override:
+
+![NEJM with its real serif fonts restored — immediately looks considered, professional, and trustworthy](screenshots/03-nejm-real-fonts.jpg)
 
 > "All of a sudden things look a lot different. It just looks a lot more considered and professional and trustworthy — and the feel of it totally changes just with the typography alone."
 
@@ -163,6 +169,8 @@ From that, he searches the Good Fonts Table for "squared" to find non-monospaced
 **The Genius Notes font pairing chosen:**
 - Headline: **Freight** (trustworthy — "finely crafted letters reflect the careful recommendations in each Genius Notes guide")
 - Byline: **Plex** (geeky — "techy, squared off terminal inspired font")
+
+![Style tile for Genius Notes — mission, brand values, and font pairings shown in context](screenshots/07-style-tile.jpg)
 
 **Style tile approach for client presentation:**
 
@@ -202,6 +210,8 @@ quadrantChart
     Origin Materials: [0.9, 0.55]
     Quanta Magazine: [0.7, 0.65]
 ```
+
+![The five brand archetypes quadrant — clean & simple at center, with fancy, friendly, quirky, and techie as the four directions](screenshots/04-five-brands-quadrant.jpg)
 
 1. **Clean and simple** — by far the most common client request. "Hey, we just want something clean, simple, neat, and modern."
    - Typography: sans-serif, especially grotesque
@@ -253,6 +263,8 @@ Eric shows a fictional medical wholesale supply company ("MedDepot") to illustra
 
 **Before:** Technically decent. Well-aligned, neat, on a grid, decent white space. But boring. Generic stock photo of a man who "doesn't even look real."
 
+![MedDepot before redesign — clean and aligned but generic, with stock photography and a rounded sans-serif font](screenshots/05-meddepot-before.jpg)
+
 Brand discovery question: *"What do you believe that all your competitors would disagree with?"*
 
 Fictional answer from MedDepot: **"Pro recognizes pro."** If you're a doctor — one of the hardest-working, most trained people out there — MedDepot is the company that wants to stand by you. (Diagnosis: leans techie.)
@@ -267,6 +279,8 @@ Fictional answer from MedDepot: **"Pro recognizes pro."** If you're a doctor —
 - Dark scrim over hero image for readability
 
 **After:**
+
+![MedDepot after brand-driven redesign — authentic photography, Clear Sans, cooler slate palette, and 1px border radius expressing precision](screenshots/06-meddepot-after.jpg)
 
 > "There's so much more attitude. It just looks like this is a real thing. It's a lot more compelling."
 >

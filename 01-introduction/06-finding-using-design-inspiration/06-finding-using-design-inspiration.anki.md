@@ -6,6 +6,8 @@ A: Because studying great designs is how you absorb the "unwritten rules" of the
 Q: What was the measurable outcome of the instructor studying design inspiration systematically?
 A: He redesigned a page that originally took 10+ hours in just 29 minutes — roughly 20× faster — and the result looked dramatically better.
 
+![](screenshots/01-first-bad-design.jpg)
+
 Q: What is the core habit the instructor recommends around design inspiration?
 A: Never click past a good-looking site without cataloging it, so your future self has a reference when stuck on a design problem.
 
@@ -26,6 +28,8 @@ A: It is invitation-only, which filters out most bad work and keeps the content 
 
 Q: What is Dribbble's color search feature, and why is it useful?
 A: You enter a hex code or pick a color and see what top designers are doing with that exact color — useful for discovering color pairings. For example, searching a blue-indigo surfaces a lot of yellow, signaling yellow as a strong secondary color choice.
+
+![](screenshots/02-dribbble-color-search.jpg)
 
 Q: What are Dribbble Collections, and what is their main limitation?
 A: Named buckets where you save shots by theme (e.g. "gradients," "brutalist," "code editor") — but they require internet access; there's no offline access.
@@ -74,8 +78,12 @@ A: "Really the idea is, you're here to learn lessons from the original design." 
 Q: What lesson did the instructor learn from the Epicurrence Conference site that he'd never considered before?
 A: That text can be sized so large (360pt) that it becomes a visual element rather than readable text — a technique he had never thought to try before studying that design.
 
+![](screenshots/04-epicurrence-360-text.jpg)
+
 Q: What technique creates the "awesome hodgepodge of colors" background on the OpenAI homepage the instructor replicated?
 A: Large randomly positioned rectangles with radial gradients in different colors (yellow, purple, blue) at varying opacities — the site generates them dynamically so each refresh looks different.
+
+![](screenshots/03-openai-copywork.jpg)
 
 Q: What is a mood board, and how does it differ from your general inspiration catalog?
 A: A mood board is inspiration collected specifically for one project — not general inspiration, but designs applicable to the project at hand: similar products, adjacent industries, and things representing the brand vibe you're going for.
@@ -91,6 +99,8 @@ A: "Design is a really great way to distinguish yourself from your competitors. 
 
 Q: What is the primary use of a mood board during a project?
 A: To gut-check your work throughout: "Am I on track? Am I drawing inspiration from the things I want and hitting the brand I want to hit?"
+
+![](screenshots/05-mood-board-philo.jpg)
 
 Q: What are the two strategies for avoiding plagiarism when working from inspiration?
 A: (1) Draw from multiple sources — recombining font from one site, palette from another, and imagery motif from a third is recombination, not copying. (2) Sleep on it — analyze inspiration on Day 1, then design without looking at it the next day so what emerges is lessons you remember in your own expression.

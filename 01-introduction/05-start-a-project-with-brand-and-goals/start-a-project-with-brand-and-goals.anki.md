@@ -11,6 +11,7 @@ flowchart LR
     A -.->|"brand shapes<br/>visual style"| D
 ```
 ![](images/start-a-project-with-brand-and-goals-card-1.png)
+![](screenshots/01-four-step-overview.jpg)
 
 Q: Which step is "the most important" for UI designers and must be completed before touching visual design?
 A: Step 1 — Determine brand and goals. Both must be nailed down before any visual work begins.
@@ -77,6 +78,7 @@ flowchart LR
     Center --> T[Techie / Scientific]
 ```
 ![](images/start-a-project-with-brand-and-goals-card-3.png)
+![](screenshots/04-five-brands-quadrant.jpg)
 
 Q: What typography, color, and imagery characterize the "clean and simple" brand?
 A: Typography: sans-serif (especially grotesque). Color: bright primary hues or mono-hue schemes. Imagery: illustrations or photos.
@@ -99,11 +101,17 @@ A: Techie/scientific. Choose a squared-off, precise sans-serif like Clear Sans (
 Q: In the MedDepot redesign demo, what single copy change illustrated the shift from generic to brand-driven?
 A: "20,000 satisfied customers" → "Helping 20,000+ professionals do their best work" — the new line speaks directly to the "pro recognizes pro" brand value.
 
+![](screenshots/05-meddepot-before.jpg)
+![](screenshots/06-meddepot-after.jpg)
+
 Q: In the MedDepot redesign, what visual details were changed to express a "techie / precise" brand (list at least four)?
 A: Font → Clear Sans (squared-off). Border radius: 4px → 1px (more precise, less soft). Colors → cooler slate greens and grays ("literally the colors of medical professionals"). Authentic photography instead of generic stock. Headline sizing up, line spacing tightened.
 
 Q: Why does Comic Sans on a medical journal site make the design feel "like a wireframe"?
 A: "Comic Sans is not a font that inspires trust." The wrong typography undercuts credibility so severely that even a complete layout reads as unfinished or unserious.
+
+![](screenshots/02-comic-sans-nejm.jpg)
+![](screenshots/03-nejm-real-fonts.jpg)
 
 Q: For the Genius Notes "geeky" brand value, what font category did the instructor choose and why?
 A: Monospaced fonts — they evoke coding and terminal input. Specifically, Input Mono was chosen for its "squared-off letterforms" that make it "feel particularly geeky."
