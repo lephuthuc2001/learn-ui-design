@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%"   stop-color="#1e1b16"/>
+      <stop offset="100%" stop-color="#0d0c09"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="500" fill="url(#bg)"/>
+  <rect width="900" height="500" fill="none" stroke="#2a2520" stroke-width="1"/>
+
+  <!-- Glyphs -->
+  <path d="M248.82 248.63L226.47 248.63L226.47 367.08Q226.47 396.15 210.48 411.96Q194.48 427.76 164.90 427.76Q151.57 427.76 139.38 425.35Q127.20 422.94 116.03 418.12L116.03 389.80L128.21 389.80Q130.50 403.01 139 409.10Q147.51 415.20 163.38 415.20Q183.95 415.20 193.53 403.58Q203.12 391.96 203.12 367.08L203.12 348.93Q196.26 361.62 185.66 367.65Q175.06 373.68 159.44 373.68Q134.56 373.68 118.75 353.94Q102.95 334.20 102.95 302.46Q102.95 270.72 118.69 251.04Q134.43 231.37 159.44 231.37Q175.06 231.37 185.66 237.40Q196.26 243.43 203.12 256.12L203.12 235.05L248.82 235.05L248.82 248.63M203.12 309.19L203.12 295.86Q203.12 271.61 193.78 258.79Q184.45 245.97 166.68 245.97Q148.65 245.97 139.45 260.19Q130.24 274.40 130.24 302.46Q130.24 330.39 139.45 344.74Q148.65 359.08 166.68 359.08Q184.45 359.08 193.78 346.32Q203.12 333.56 203.12 309.19" fill="#e8dfc8" />
+  <path d="M628.07 297.26Q628.07 271.87 617.59 257.90Q607.12 243.94 588.20 243.94Q569.41 243.94 558.94 257.90Q548.47 271.87 548.47 297.26Q548.47 322.52 558.94 336.48Q569.41 350.45 588.20 350.45Q607.12 350.45 617.59 336.48Q628.07 322.52 628.07 297.26M651.43 227.81L651.43 352.35Q651.43 388.66 635.30 406.37Q619.18 424.08 585.92 424.08Q573.60 424.08 562.69 422.24Q551.77 420.40 541.48 416.59L541.48 393.87Q551.77 399.45 561.80 402.12Q571.83 404.79 582.24 404.79Q605.21 404.79 616.64 392.79Q628.07 380.79 628.07 356.54L628.07 344.99Q620.83 357.56 609.53 363.78Q598.23 370 582.49 370Q556.34 370 540.34 350.07Q524.35 330.14 524.35 297.26Q524.35 264.25 540.34 244.32Q556.34 224.38 582.49 224.38Q598.23 224.38 609.53 230.61Q620.83 236.83 628.07 249.39L628.07 227.81" fill="#e8dfc8" />
+
+  <!-- Annotations -->
+  
+    <ellipse cx="171.50771484375" cy="278.50234375" rx="64.182421875" ry="47.13515625"
+             fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="6 3" opacity="0.85"/>
+    <text x="99.32529296874999" y="272.50234375" fill="#f59e0b" font-family="'Courier New', monospace"
+          font-size="12" text-anchor="end" opacity="0.9">bowl — oval</text>
+
+    <ellipse cx="177.34248046875" cy="388.484375" rx="67.0998046875" ry="39.279296875"
+             fill="none" stroke="#34d399" stroke-width="2.5" stroke-dasharray="6 3" opacity="0.85"/>
+    <text x="177.34248046875" y="445.763671875" fill="#34d399" font-family="'Courier New', monospace"
+          font-size="12" text-anchor="middle" opacity="0.9">loop — closed curve</text>
+<circle cx="228.3966796875" cy="239.223046875" r="4" fill="#fb7185" opacity="0.9"/>
+<line x1="228.3966796875" y1="239.223046875" x2="258.3966796875" y2="217.223046875" stroke="#fb7185" stroke-width="1.5" opacity="0.6"/>
+<text x="262.3966796875" y="215.223046875" fill="#fb7185" font-family="'Courier New', monospace"
+        font-size="12" text-anchor="start" opacity="0.9">ear — teardrop</text>
+<line x1="216.7271484375" y1="325.6375"
+         x2="248.818359375" y2="317.781640625"
+         stroke="#a78bfa" stroke-width="2.5" stroke-dasharray="5 3" opacity="0.8"/>
+<text x="254.653125" y="323.67353515625" fill="#a78bfa"
+        font-family="'Courier New', monospace" font-size="12" text-anchor="start" opacity="0.9">link</text>
+  
+    <ellipse cx="587.8857421875" cy="300.2697265625" rx="55.915234375" ry="71.891015625"
+             fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="6 3" opacity="0.85"/>
+    <text x="587.8857421875" y="216.37871093750002" fill="#f59e0b" font-family="'Courier New', monospace"
+          font-size="12" text-anchor="middle" opacity="0.9">bowl — open circle</text>
+<circle cx="636.176171875" cy="376.1546875" r="4" fill="#34d399" opacity="0.9"/>
+<line x1="636.176171875" y1="376.1546875" x2="664.176171875" y2="404.1546875" stroke="#34d399" stroke-width="1.5" opacity="0.6"/>
+<text x="668.176171875" y="408.1546875" fill="#34d399"
+        font-family="'Courier New', monospace" font-size="12" text-anchor="start" opacity="0.9">tail — hooked arc</text>
+<text x="577.7193359375" y="424.08203125"
+        fill="#fb7185" font-family="'Courier New', monospace" font-size="12" text-anchor="middle" opacity="0.9">aperture — open</text>
+
+  <!-- Divider + labels -->
+  
+  <line x1="450" y1="60" x2="450" y2="460" stroke="#444" stroke-width="1" opacity="0.6"/>
+
+  <text x="270" y="46" fill="#888" font-family="'Courier New', monospace"
+        font-size="11" text-anchor="middle" letter-spacing="3">SERIF  ·  double-story</text>
+  <text x="680" y="46" fill="#888" font-family="'Courier New', monospace"
+        font-size="11" text-anchor="middle" letter-spacing="3">SANS-SERIF  ·  single-story</text>
+
+  <text x="270" y="462" fill="#555" font-family="'Courier New', monospace"
+        font-size="10" text-anchor="middle">complex overlapping shapes → traditional, literary</text>
+  <text x="680" y="462" fill="#555" font-family="'Courier New', monospace"
+        font-size="10" text-anchor="middle">simple geometric shapes → modern, clean</text>
+
+
+  <!-- Footer -->
+  
+  <text x="450" y="488" fill="#333" font-family="'Courier New', monospace"
+        font-size="11" text-anchor="middle" letter-spacing="2">
+    A FONT IS JUST A SET OF SHAPES THAT MATCH EACH OTHER
+  </text>
+</svg>
