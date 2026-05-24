@@ -46,14 +46,23 @@ Example tags: `learn-ui-design`, `01-introduction`, `01-begin-here`
 
 ## Step 2 — Upload images
 
-Parse the `.anki.md` file for `![](images/<filename>)` references. For each unique image file referenced:
+Parse the `.anki.md` file for ALL image references. Two path patterns appear:
 
-1. Build the **Windows UNC path** to the image:
+- `![](images/<filename>)` — Mermaid PNGs and SVG illustrations
+- `![](screenshots/<filename>)` — lesson screenshots
+
+For each **unique** image file referenced (deduplicate — two cards can reference the same screenshot):
+
+1. Build the **Windows UNC path** based on the subfolder:
    ```
+   # For images/ references:
    \\wsl.localhost\Ubuntu\home\lephuthuc\learn-ui-design\<unit>\<lesson>\images\<filename>
+
+   # For screenshots/ references:
+   \\wsl.localhost\Ubuntu\home\lephuthuc\learn-ui-design\<unit>\<lesson>\screenshots\<filename>
    ```
 2. Call `store_media_file` with that path. Save the **returned filename** (Anki may rename the file with a hash suffix if a collision exists).
-3. Build a map: `original-filename → stored-filename` for use in card HTML.
+3. Build a unified map: `original-path → stored-filename` keyed by the full original reference string (e.g. `screenshots/02-alignment-room.jpg`).
 
 Upload all images before creating any cards.
 
@@ -75,17 +84,18 @@ A: <answer text>
 - A card starts with `Q:` on its own line.
 - The answer is the `A:` line(s) that follow.
 - A ` ```mermaid ` block immediately after an answer belongs to that card (skip the raw Mermaid source — Anki doesn't render it).
-- A `![](images/<filename>)` line immediately after a mermaid block (or after an answer with no diagram) belongs to that card.
+- Any `![](images/<filename>)` or `![](screenshots/<filename>)` line that follows an answer (or a mermaid block) belongs to that card. A single card can have multiple image lines — collect them all.
 - Blank lines separate cards.
 - The `# Title` header line is not a card — skip it.
 
 **Card fields:**
 - **Front:** The question text (everything after `Q: `).
-- **Back:** The answer text (everything after `A: `), followed by the image HTML if this card has one:
+- **Back:** The answer text (everything after `A: `), followed by one `<br><img src="...">` tag per image this card references:
   ```html
-  <br><img src="<stored-filename>">
+  <br><img src="<stored-filename-1>">
+  <br><img src="<stored-filename-2>">
   ```
-  Use the `stored-filename` from the map built in Step 2 (not the original filename).
+  Use `stored-filename` values from the map built in Step 2 (not the original paths).
 
 ## Step 4 — Upload cards
 

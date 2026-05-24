@@ -40,9 +40,60 @@ A: <answer>
 - Question and answer each fit on one line if reasonable; if the answer needs multiple lines, indent continuation lines or use `<br>` so it stays one logical card.
 - Use **the instructor's exact phrasing** (in quotes) when the answer is a memorable line or framework — don't sanitize it.
 
-## Visuals (Mermaid diagrams)
+## Visuals — priority order
 
-The user is a visual learner. For any card whose answer has **structure** that a diagram would communicate better than prose, include a Mermaid diagram immediately after the answer line. Place it inside a fenced ` ```mermaid ` block so it renders in the Markdown preview.
+The user is a visual learner. Every card that illustrates a principle with a real example or that involves inherently visual concepts (color, spatial relationships, spectrums) **must** have a visual. Use the following priority order:
+
+1. **Lesson screenshot** — if the notes file references a `![...](screenshots/...)` image that directly illustrates this card's concept, embed that screenshot in the card (see "Screenshots" below).
+2. **SVG illustration** — if the concept is inherently visual (color palettes, tonal ranges, design spectrums) but no screenshot covers it and Mermaid can't render actual colors, invoke `anki-illustrate` to generate an SVG (see "SVG illustrations" below).
+3. **Mermaid diagram** — for structural concepts: relationships, flows, hierarchies, spectrums described in text (see "Mermaid diagrams" below).
+
+Aim for **at least half of all cards** to have a visual of some kind. A card with a clear example from the lesson and no image is a missed opportunity.
+
+---
+
+## Screenshots from the lesson
+
+The notes file embeds screenshots under `screenshots/`. When a card explains a principle the instructor illustrated with a real visual, **embed that screenshot** — it anchors the abstract idea to the moment it was taught and makes the card far more memorable.
+
+**How to decide:**
+- Scan the `![...](screenshots/...)` lines in the notes `.md` file to see which screenshots exist and what each illustrates.
+- For each card, ask: did the instructor show a real-world example (a room, a UI, a photo) while making this point? If a screenshot captures that moment, add it to the card.
+- Don't add screenshots to pure-definition cards ("What is a heuristic?") — screenshots add value when they ground a principle in a concrete visual.
+
+**How to reference in the `.anki.md`:**
+
+Add the screenshot immediately after the answer line (or after the Mermaid PNG reference if the card already has a diagram):
+
+```
+Q: What deeper meaning does alignment carry beyond visual neatness?
+A: "Alignment is sort of this signal that a human being has put care into it."
+![](screenshots/02-alignment-room.jpg)
+```
+
+The `anki-upload` skill knows how to upload from the `screenshots/` subfolder — use the path exactly as shown.
+
+---
+
+## SVG illustrations for color and visual concepts
+
+Some concepts are inherently visual — color palettes, warm vs. cool tones, elegant vs. cluttered aesthetics — but no lesson screenshot covers them and Mermaid can't render actual colors or freeform layouts.
+
+For these cards, invoke the `anki-illustrate` skill to generate a custom SVG. Good candidates:
+- Why gray is elegant (grayscale vs. vibrant color comparison)
+- Warm vs. cool brand palettes
+- Any before/after comparison that needs real color
+
+SVGs go in `images/`, referenced the same way as Mermaid PNGs:
+```
+![](images/<slug>-<descriptor>.svg)
+```
+
+---
+
+## Mermaid diagrams
+
+For any card whose answer has **structure** that a diagram would communicate better than prose, include a Mermaid diagram immediately after the answer line. Place it inside a fenced ` ```mermaid ` block so it renders in the Markdown preview.
 
 Example (verbatim, no outer wrapping — write it directly to the output file):
 
@@ -173,12 +224,14 @@ The core question for every potential card: **"Six months from now, mid-project,
 ## Workflow
 
 1. Read the entire notes file first — don't card section-by-section without seeing the whole.
-2. Draft a mental list of: named concepts, frameworks, counterexamples, distinctive quotes, scenarios.
-3. Write concept-recall cards covering each.
-4. Write 3–6 application/scenario cards using examples from the lesson.
-5. Order cards roughly in the lesson's order, so the deck reads as a study path.
-6. Write to `<slug>.anki.md` in the same folder as the notes.
-7. **Render the Mermaid diagrams to PNGs** (see below) so they're usable in Anki — Anki does not render Mermaid natively.
+2. List all `![...](screenshots/...)` references in the notes to know which visuals are available.
+3. Draft a mental list of: named concepts, frameworks, counterexamples, distinctive quotes, scenarios.
+4. Write concept-recall cards covering each — add screenshot references where a lesson screenshot applies.
+5. Write 3–6 application/scenario cards using examples from the lesson.
+6. Identify any cards that need an SVG (color concepts, visual spectrums with no screenshot); invoke `anki-illustrate` for each.
+7. Order cards roughly in the lesson's order, so the deck reads as a study path.
+8. Write to `<slug>.anki.md` in the same folder as the notes.
+9. **Render the Mermaid diagrams to PNGs** (see below) so they're usable in Anki — Anki does not render Mermaid natively.
 
 ## Rendering diagrams to PNG
 
