@@ -130,3 +130,52 @@ If the user gave a pattern a name (e.g. "Big 3", "the 1M trick"), use their name
 - Don't add sections the user didn't observe.
 - Don't write generic design advice unconnected to what the user actually noticed.
 - Don't use placeholder image references. If an image doesn't exist yet, leave a `<!-- TODO: image needed -->` comment and mention it to the user.
+
+---
+
+## Publishing to the blog
+
+When the user asks to publish the analysis (or the notes.md is complete and images are in place), run this publish step.
+
+### 1. Create the blog content entry
+
+Copy the notes.md to `~/blog/src/content/ui-collections/<slug>.md` and add frontmatter at the top:
+
+```yaml
+---
+title: "<site> — <subtitle>"
+site: "<site>"
+url: "https://<site-domain>"
+type: "<category e.g. Wiki / SaaS>"
+date: YYYY-MM-DD
+description: "<2-sentence summary of the analysis>"
+coverImage: "/ui-collections/<slug>/images/image 1.png"
+tags: [<relevant tags>]
+---
+```
+
+Remove the leading `# <Site> — Design Analysis` heading from the body — the layout renders the title from frontmatter.
+
+Update all image paths from relative (`images/image%20N.png`) to absolute (`/ui-collections/<slug>/images/image%20N.png`).
+
+### 2. Copy images to blog public
+
+```bash
+cp -r ~/learn-ui-design/ui-collections/<slug>/images ~/blog/public/ui-collections/<slug>/
+```
+
+### 3. Build to verify
+
+```bash
+cd ~/blog && pnpm build 2>&1 | tail -5
+```
+
+### 4. Commit both repos
+
+```bash
+git -C ~/learn-ui-design add ui-collections/<slug>/
+git -C ~/learn-ui-design commit -m "Add <slug> UI collection analysis"
+
+git -C ~/blog add src/content/ui-collections/<slug>.md public/ui-collections/<slug>/
+git -C ~/blog commit -m "feat(ui-collections): publish <slug> analysis"
+```
