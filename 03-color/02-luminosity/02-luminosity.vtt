@@ -1,0 +1,3290 @@
+WEBVTT
+
+00:00:00.970 --> 00:00:02.080
+- Hey folks, and welcome
+
+00:00:02.080 --> 00:00:05.120
+to the Learn UI Design
+lesson on Luminosity.
+
+00:00:05.120 --> 00:00:06.000
+Now, luminosity is probably one
+of the most important topics
+
+00:00:06.000 --> 00:00:07.970
+Now, luminosity is probably one
+of the most important topics
+
+00:00:07.970 --> 00:00:09.850
+in all of color and UI Design.
+
+00:00:09.850 --> 00:00:11.080
+And yet, to be honest,
+
+00:00:11.080 --> 00:00:12.000
+you basically hear no
+one talking about it.
+
+00:00:12.000 --> 00:00:13.390
+you basically hear no
+one talking about it.
+
+00:00:13.390 --> 00:00:15.660
+So in this lesson,
+we're gonna take a look.
+
+00:00:15.660 --> 00:00:18.000
+Now I'll say that luminosity
+is kind of a fourth property
+
+00:00:18.000 --> 00:00:18.810
+Now I'll say that luminosity
+is kind of a fourth property
+
+00:00:18.810 --> 00:00:21.830
+of color that is separate from hue,
+
+00:00:21.830 --> 00:00:24.000
+separate from saturation,
+separate from brightness and yet,
+
+00:00:24.000 --> 00:00:25.510
+separate from saturation,
+separate from brightness and yet,
+
+00:00:25.510 --> 00:00:28.000
+related to all three of those things.
+
+00:00:28.000 --> 00:00:30.000
+I'll explain exactly what
+it is and how it works
+
+00:00:30.000 --> 00:00:30.230
+I'll explain exactly what
+it is and how it works
+
+00:00:30.230 --> 00:00:32.850
+and I'll also of course, be
+showing you a couple examples
+
+00:00:32.850 --> 00:00:36.000
+on mobile and desktop of
+how you can use luminosity
+
+00:00:36.000 --> 00:00:36.560
+on mobile and desktop of
+how you can use luminosity
+
+00:00:36.560 --> 00:00:40.020
+to fix very common problems
+in user interface design.
+
+00:00:40.020 --> 00:00:40.930
+Alright, you ready?
+
+00:00:40.930 --> 00:00:41.830
+Let's get started.
+
+00:00:42.740 --> 00:00:44.630
+So the example we're
+gonna start with is kind
+
+00:00:44.630 --> 00:00:47.320
+of this Fitness app
+that I have right here.
+
+00:00:47.320 --> 00:00:48.000
+And I've just thrown together
+some stuff on the page,
+
+00:00:48.000 --> 00:00:49.640
+And I've just thrown together
+some stuff on the page,
+
+00:00:49.640 --> 00:00:52.000
+don't look too much into the specifics.
+
+00:00:52.000 --> 00:00:54.000
+The real point here is this is realistic,
+
+00:00:54.000 --> 00:00:54.370
+The real point here is this is realistic,
+
+00:00:54.370 --> 00:00:55.203
+and that a lot of times,
+
+00:00:55.203 --> 00:00:57.900
+you'll start on a design
+project for a new client,
+
+00:00:57.900 --> 00:01:00.000
+and they might say, hey,
+when we add the logo design,
+
+00:01:00.000 --> 00:01:00.990
+and they might say, hey,
+when we add the logo design,
+
+00:01:00.990 --> 00:01:03.480
+we got these two colors,
+these are our brand colors,
+
+00:01:03.480 --> 00:01:06.000
+yellow, turquoise, I want you to use them.
+
+00:01:06.000 --> 00:01:06.340
+yellow, turquoise, I want you to use them.
+
+00:01:06.340 --> 00:01:08.660
+And so you start designing
+out stuff and you think, okay,
+
+00:01:08.660 --> 00:01:10.260
+I'm gonna apply these brand colors,
+
+00:01:10.260 --> 00:01:11.410
+but you quickly find out
+
+00:01:11.410 --> 00:01:12.000
+that there's actually
+some issues there and you
+
+00:01:12.000 --> 00:01:13.960
+that there's actually
+some issues there and you
+
+00:01:13.960 --> 00:01:16.440
+can't just kind of slap
+them on wherever you want.
+
+00:01:16.440 --> 00:01:18.000
+Well, I'm gonna talk about
+some of those issues.
+
+00:01:18.000 --> 00:01:18.290
+Well, I'm gonna talk about
+some of those issues.
+
+00:01:18.290 --> 00:01:20.330
+And I'm also gonna talk about how knowing
+
+00:01:20.330 --> 00:01:21.720
+and understanding luminosity
+
+00:01:21.720 --> 00:01:23.700
+can help you solve those issues.
+
+00:01:23.700 --> 00:01:24.000
+So issue number one, you
+can probably see this even
+
+00:01:24.000 --> 00:01:26.470
+So issue number one, you
+can probably see this even
+
+00:01:26.470 --> 00:01:27.870
+before I zoom in, but when I zoom in,
+
+00:01:27.870 --> 00:01:29.660
+it's just especially obvious.
+
+00:01:29.660 --> 00:01:30.000
+These colors are both just a lot.
+
+00:01:30.000 --> 00:01:32.090
+These colors are both just a lot.
+
+00:01:32.090 --> 00:01:36.000
+They're very bright in your
+face and they kinda clash
+
+00:01:36.000 --> 00:01:36.010
+They're very bright in your
+face and they kinda clash
+
+00:01:36.010 --> 00:01:37.810
+and it almost like hurts
+my eyes a little bit
+
+00:01:37.810 --> 00:01:39.010
+to stare at the screen.
+
+00:01:39.010 --> 00:01:40.460
+I feel like for too long.
+
+00:01:40.460 --> 00:01:42.000
+And yet these are the
+colors we have, right?
+
+00:01:42.000 --> 00:01:42.460
+And yet these are the
+colors we have, right?
+
+00:01:42.460 --> 00:01:43.640
+So what are we gonna do about it?
+
+00:01:43.640 --> 00:01:45.250
+How are we gonna help fix this?
+
+00:01:45.250 --> 00:01:46.820
+Individually, they might be fine
+
+00:01:46.820 --> 00:01:48.000
+but especially when taken together,
+
+00:01:48.000 --> 00:01:48.433
+but especially when taken together,
+
+00:01:48.433 --> 00:01:51.090
+there's just a lot going on.
+
+00:01:51.090 --> 00:01:52.680
+Now part of the issue here is both
+
+00:01:52.680 --> 00:01:54.000
+of these colors are very bright.
+
+00:01:54.000 --> 00:01:54.120
+of these colors are very bright.
+
+00:01:54.120 --> 00:01:56.810
+So if I use my little color
+picker, Control C, you can see
+
+00:01:56.810 --> 00:02:00.000
+this is 97% brightness, and
+this has 100% brightness.
+
+00:02:00.000 --> 00:02:01.120
+this is 97% brightness, and
+this has 100% brightness.
+
+00:02:01.120 --> 00:02:02.710
+And so maybe your first instinct
+
+00:02:02.710 --> 00:02:05.010
+is to do something like take
+the yellow and just move
+
+00:02:05.010 --> 00:02:06.000
+the brightness down a little bit.
+
+00:02:06.000 --> 00:02:06.300
+the brightness down a little bit.
+
+00:02:06.300 --> 00:02:07.840
+Here I moved it down 20.
+
+00:02:07.840 --> 00:02:09.580
+But if I move it down 20, all of a sudden,
+
+00:02:09.580 --> 00:02:11.160
+this does not look yellow anymore.
+
+00:02:11.160 --> 00:02:12.000
+And actually turns out that yellow,
+
+00:02:12.000 --> 00:02:12.810
+And actually turns out that yellow,
+
+00:02:12.810 --> 00:02:15.970
+if you bring it under about
+90% brightness in HSB,
+
+00:02:15.970 --> 00:02:17.930
+it just kinda loses that yellow field.
+
+00:02:17.930 --> 00:02:18.000
+So that solution is not gonna work.
+
+00:02:18.000 --> 00:02:19.903
+So that solution is not gonna work.
+
+00:02:19.903 --> 00:02:22.520
+Now maybe your next guest is to say, hey,
+
+00:02:22.520 --> 00:02:24.000
+maybe I'd mess with the
+brightness of this turquoise.
+
+00:02:24.000 --> 00:02:25.110
+maybe I'd mess with the
+brightness of this turquoise.
+
+00:02:25.110 --> 00:02:26.350
+But what I wanna show you is something
+
+00:02:26.350 --> 00:02:28.540
+that might actually be kind of surprising.
+
+00:02:28.540 --> 00:02:30.000
+So yeah, this turquoise is bright,
+
+00:02:30.000 --> 00:02:30.080
+So yeah, this turquoise is bright,
+
+00:02:30.080 --> 00:02:32.240
+it's 100% brightness but we're not looking
+
+00:02:32.240 --> 00:02:34.530
+at solely a brightness problem.
+
+00:02:34.530 --> 00:02:36.000
+If I take the hue slider
+and just kinda move
+
+00:02:36.000 --> 00:02:37.900
+If I take the hue slider
+and just kinda move
+
+00:02:37.900 --> 00:02:41.000
+it on over into this blue range to 48
+
+00:02:41.000 --> 00:02:42.000
+is like basically focused on blue,
+
+00:02:42.000 --> 00:02:43.490
+is like basically focused on blue,
+
+00:02:43.490 --> 00:02:45.250
+although this is coming
+out a little more indigo,
+
+00:02:45.250 --> 00:02:46.370
+almost purple.
+
+00:02:46.370 --> 00:02:48.000
+But if I switch that theme color,
+
+00:02:48.000 --> 00:02:48.120
+But if I switch that theme color,
+
+00:02:48.120 --> 00:02:49.730
+there's no problem anymore, right?
+
+00:02:49.730 --> 00:02:53.050
+This yellow just does not
+contrast in the same way.
+
+00:02:53.050 --> 00:02:54.000
+Or Honestly, it contrasts
+better and it doesn't clash
+
+00:02:54.000 --> 00:02:56.210
+Or Honestly, it contrasts
+better and it doesn't clash
+
+00:02:56.210 --> 00:02:57.440
+in the same way.
+
+00:02:57.440 --> 00:03:00.000
+And yet, check this out, I
+didn't change the brightness,
+
+00:03:00.000 --> 00:03:00.520
+And yet, check this out, I
+didn't change the brightness,
+
+00:03:00.520 --> 00:03:02.863
+this has a brightness of 100%.
+
+00:03:04.110 --> 00:03:06.000
+And all this raises an
+interesting sort of contradiction.
+
+00:03:06.000 --> 00:03:07.620
+And all this raises an
+interesting sort of contradiction.
+
+00:03:07.620 --> 00:03:10.450
+This has a brightness
+of 97 so basically 100,
+
+00:03:10.450 --> 00:03:11.960
+this has a brightness of 100,
+
+00:03:11.960 --> 00:03:12.000
+and this has a brightness of 100.
+
+00:03:12.000 --> 00:03:13.370
+and this has a brightness of 100.
+
+00:03:13.370 --> 00:03:15.380
+And yet, if you showed them
+to someone on the street
+
+00:03:15.380 --> 00:03:17.090
+and said which one of these is brighter,
+
+00:03:17.090 --> 00:03:18.000
+they would undoubtedly pick the yellow.
+
+00:03:18.000 --> 00:03:19.040
+they would undoubtedly pick the yellow.
+
+00:03:19.040 --> 00:03:21.680
+And they would say that this
+kind of Indigo ish color
+
+00:03:21.680 --> 00:03:24.000
+is certainly the darkest of these three.
+
+00:03:24.000 --> 00:03:24.240
+is certainly the darkest of these three.
+
+00:03:24.240 --> 00:03:26.510
+So there has to be more
+to the brightness story
+
+00:03:26.510 --> 00:03:30.000
+than just whatever the B value
+is in the HSB color system.
+
+00:03:30.000 --> 00:03:30.570
+than just whatever the B value
+is in the HSB color system.
+
+00:03:30.570 --> 00:03:34.010
+And there is, that something
+else is called luminosity.
+
+00:03:34.010 --> 00:03:36.000
+And it's sort of refers
+to the natural brightness
+
+00:03:36.000 --> 00:03:36.730
+And it's sort of refers
+to the natural brightness
+
+00:03:36.730 --> 00:03:38.540
+of a particular color.
+
+00:03:38.540 --> 00:03:41.530
+The HSB brightness is
+sort of as we described
+
+00:03:41.530 --> 00:03:42.000
+in the last lesson,
+
+00:03:42.000 --> 00:03:42.520
+in the last lesson,
+
+00:03:42.520 --> 00:03:45.230
+it's kind of how on is
+that light bulb, right?
+
+00:03:45.230 --> 00:03:48.000
+It goes from black to some
+very bright version of a color.
+
+00:03:48.000 --> 00:03:48.880
+It goes from black to some
+very bright version of a color.
+
+00:03:48.880 --> 00:03:52.020
+But there's kind of this
+other brightness scale
+
+00:03:52.020 --> 00:03:53.890
+that is independent of those.
+
+00:03:53.890 --> 00:03:54.000
+And that's actually what we
+wanna take a look at here.
+
+00:03:54.000 --> 00:03:56.620
+And that's actually what we
+wanna take a look at here.
+
+00:03:56.620 --> 00:03:59.480
+So one way to tap into this
+other brightness scale,
+
+00:03:59.480 --> 00:04:00.000
+this natural brightness of luminosity
+
+00:04:00.000 --> 00:04:01.550
+this natural brightness of luminosity
+
+00:04:01.550 --> 00:04:04.380
+and this is the best way to
+do it in Figma, honestly,
+
+00:04:04.380 --> 00:04:06.000
+is to grab one of these
+colors, and go to blend mode,
+
+00:04:06.000 --> 00:04:09.380
+is to grab one of these
+colors, and go to blend mode,
+
+00:04:10.470 --> 00:04:12.000
+which in Figma is this
+little like teardrop kind
+
+00:04:12.000 --> 00:04:12.730
+which in Figma is this
+little like teardrop kind
+
+00:04:12.730 --> 00:04:14.670
+of icon shape, and go all the way down
+
+00:04:14.670 --> 00:04:16.540
+to luminosity blend mode.
+
+00:04:16.540 --> 00:04:18.000
+And unfortunately, I'm gonna
+have to do this three times.
+
+00:04:18.000 --> 00:04:19.940
+And unfortunately, I'm gonna
+have to do this three times.
+
+00:04:19.940 --> 00:04:22.000
+But you can see what
+it's done is changed each
+
+00:04:22.000 --> 00:04:24.000
+of these colors to gray.
+
+00:04:24.000 --> 00:04:24.450
+of these colors to gray.
+
+00:04:24.450 --> 00:04:27.320
+There's really no hue,
+there's zero saturation,
+
+00:04:27.320 --> 00:04:29.500
+and there's just a brightness of the gray.
+
+00:04:29.500 --> 00:04:30.000
+And what's interesting is
+when we change these colors
+
+00:04:30.000 --> 00:04:31.410
+And what's interesting is
+when we change these colors
+
+00:04:31.410 --> 00:04:35.090
+to luminosity blend mode, the
+brightness of the gray sort
+
+00:04:35.090 --> 00:04:36.000
+of corresponds to the natural
+brightness of the color.
+
+00:04:36.000 --> 00:04:38.420
+of corresponds to the natural
+brightness of the color.
+
+00:04:38.420 --> 00:04:40.560
+So these two colors, both very bright,
+
+00:04:40.560 --> 00:04:42.000
+and we get as the luminosity output a gray
+
+00:04:42.000 --> 00:04:43.190
+and we get as the luminosity output a gray
+
+00:04:43.190 --> 00:04:44.630
+with a brightness of 82.
+
+00:04:44.630 --> 00:04:48.000
+This purple ish color Indigo
+adds a little bit darker
+
+00:04:48.000 --> 00:04:48.350
+This purple ish color Indigo
+adds a little bit darker
+
+00:04:48.350 --> 00:04:49.530
+and sure enough,
+
+00:04:49.530 --> 00:04:52.240
+when it gets put into
+luminosity blend mode,
+
+00:04:52.240 --> 00:04:54.000
+it only has a brightness of 52%.
+
+00:04:54.000 --> 00:04:54.600
+it only has a brightness of 52%.
+
+00:04:54.600 --> 00:04:57.160
+Just to be totally clear technically,
+
+00:04:57.160 --> 00:05:00.000
+designers kind of misuse the
+words luminance and luminosity
+
+00:05:00.000 --> 00:05:01.200
+designers kind of misuse the
+words luminance and luminosity
+
+00:05:01.200 --> 00:05:03.330
+and the definitions are a little bit messy
+
+00:05:03.330 --> 00:05:04.770
+and kind of mangled together.
+
+00:05:04.770 --> 00:05:06.000
+Scientists actually have
+two different precise things
+
+00:05:06.000 --> 00:05:07.630
+Scientists actually have
+two different precise things
+
+00:05:07.630 --> 00:05:08.920
+that they mean here.
+
+00:05:08.920 --> 00:05:12.000
+And so this blend mode
+brightness of the gray,
+
+00:05:12.000 --> 00:05:12.450
+And so this blend mode
+brightness of the gray,
+
+00:05:12.450 --> 00:05:15.320
+that is not like an official
+measure of luminosity
+
+00:05:15.320 --> 00:05:17.740
+that goes from some scale to zero to 100,
+
+00:05:17.740 --> 00:05:18.000
+that other people outside of UI design
+
+00:05:18.000 --> 00:05:19.980
+that other people outside of UI design
+
+00:05:19.980 --> 00:05:22.240
+would actually know about
+if you talked about it.
+
+00:05:22.240 --> 00:05:24.000
+But it is useful as kind
+of a relative measure
+
+00:05:24.000 --> 00:05:25.020
+But it is useful as kind
+of a relative measure
+
+00:05:25.020 --> 00:05:27.630
+of relative to these other colors,
+
+00:05:27.630 --> 00:05:29.170
+which one is sort of the naturally
+
+00:05:29.170 --> 00:05:30.000
+that has the most brightness to it,
+
+00:05:30.000 --> 00:05:30.397
+that has the most brightness to it,
+
+00:05:30.397 --> 00:05:34.080
+and which has the kind of
+the is naturally the darkest.
+
+00:05:34.080 --> 00:05:35.220
+So just bear that in mind,
+
+00:05:35.220 --> 00:05:36.000
+we're not talking about
+some official measure
+
+00:05:36.000 --> 00:05:37.430
+we're not talking about
+some official measure
+
+00:05:37.430 --> 00:05:40.180
+of like photons hitting
+your eye or whatever.
+
+00:05:40.180 --> 00:05:41.900
+We're just sort of saying, okay,
+
+00:05:41.900 --> 00:05:42.000
+this is we're gonna call
+this a 52 luminosity,
+
+00:05:42.000 --> 00:05:44.660
+this is we're gonna call
+this a 52 luminosity,
+
+00:05:44.660 --> 00:05:47.410
+and we're gonna call
+this an 82 luminosity.
+
+00:05:47.410 --> 00:05:48.000
+Now, you might be wondering,
+
+00:05:48.000 --> 00:05:49.100
+Now, you might be wondering,
+
+00:05:49.100 --> 00:05:52.070
+if in going from this turquoise color,
+
+00:05:52.070 --> 00:05:54.000
+which has a saturation of
+53, and a brightness of 100,
+
+00:05:54.000 --> 00:05:55.250
+which has a saturation of
+53, and a brightness of 100,
+
+00:05:55.250 --> 00:05:58.990
+to this purple color, which
+is a very similar saturation
+
+00:05:58.990 --> 00:06:00.000
+and an identical brightness,
+if in doing that,
+
+00:06:00.000 --> 00:06:01.780
+and an identical brightness,
+if in doing that,
+
+00:06:01.780 --> 00:06:03.520
+just shifting the hue I got
+
+00:06:03.520 --> 00:06:06.000
+this drastic change in luminosity.
+
+00:06:06.000 --> 00:06:06.550
+this drastic change in luminosity.
+
+00:06:06.550 --> 00:06:08.820
+What exactly is the pattern there?
+
+00:06:08.820 --> 00:06:10.690
+What's going on?
+
+00:06:10.690 --> 00:06:12.000
+Well, here's the pattern,
+I'll show you here,
+
+00:06:12.000 --> 00:06:12.680
+Well, here's the pattern,
+I'll show you here,
+
+00:06:12.680 --> 00:06:14.410
+this is also on the color cheat sheet,
+
+00:06:14.410 --> 00:06:15.800
+which is linked below.
+
+00:06:15.800 --> 00:06:17.320
+But the gist of it is,
+
+00:06:17.320 --> 00:06:18.000
+is all colors have a natural
+luminosity, and it changes
+
+00:06:18.000 --> 00:06:21.520
+is all colors have a natural
+luminosity, and it changes
+
+00:06:21.520 --> 00:06:24.000
+with hue, saturation, and
+brightness but hue is perhaps
+
+00:06:24.000 --> 00:06:24.580
+with hue, saturation, and
+brightness but hue is perhaps
+
+00:06:24.580 --> 00:06:26.740
+the most interesting pattern here.
+
+00:06:26.740 --> 00:06:30.000
+You can see I've taken all the
+hues of the rainbow laid out
+
+00:06:30.000 --> 00:06:30.170
+You can see I've taken all the
+hues of the rainbow laid out
+
+00:06:30.170 --> 00:06:33.410
+from zero degrees to 360 degrees.
+
+00:06:33.410 --> 00:06:36.000
+And I've taken the
+swatches at 100% brightness
+
+00:06:36.000 --> 00:06:36.707
+And I've taken the
+swatches at 100% brightness
+
+00:06:36.707 --> 00:06:39.331
+and 100% saturation for each of these
+
+00:06:39.331 --> 00:06:42.000
+so you're just looking
+at a change in hue here.
+
+00:06:42.000 --> 00:06:42.570
+so you're just looking
+at a change in hue here.
+
+00:06:42.570 --> 00:06:45.540
+And then I tracked what
+is the luminosity along
+
+00:06:45.540 --> 00:06:47.420
+that entire color wheel.
+
+00:06:47.420 --> 00:06:48.000
+And what you can see is that
+there's certain high points
+
+00:06:48.000 --> 00:06:51.320
+And what you can see is that
+there's certain high points
+
+00:06:51.320 --> 00:06:52.310
+and low points.
+
+00:06:52.310 --> 00:06:54.000
+And very interestingly, the
+low points are this red,
+
+00:06:54.000 --> 00:06:56.370
+And very interestingly, the
+low points are this red,
+
+00:06:56.370 --> 00:06:58.870
+because it certainly rises as you increase
+
+00:06:58.870 --> 00:06:59.720
+the hue from here,
+
+00:06:59.720 --> 00:07:00.000
+it also rises as you
+decrease the hue from 360.
+
+00:07:00.000 --> 00:07:03.020
+it also rises as you
+decrease the hue from 360.
+
+00:07:03.020 --> 00:07:04.240
+So the red is one low point,
+
+00:07:04.240 --> 00:07:05.650
+the green is another low point
+
+00:07:05.650 --> 00:07:06.000
+and the blue is a third low point.
+
+00:07:06.000 --> 00:07:08.230
+and the blue is a third low point.
+
+00:07:08.230 --> 00:07:12.000
+Likewise, the high points
+are yellow at 60 degrees,
+
+00:07:12.000 --> 00:07:13.210
+Likewise, the high points
+are yellow at 60 degrees,
+
+00:07:13.210 --> 00:07:16.140
+the cyan color at 180 degrees,
+
+00:07:16.140 --> 00:07:18.000
+and this kind of magenta at 300 degrees.
+
+00:07:18.000 --> 00:07:19.390
+and this kind of magenta at 300 degrees.
+
+00:07:19.390 --> 00:07:20.930
+If you've done much design work,
+
+00:07:20.930 --> 00:07:23.730
+you may recognize that RGB for red, green,
+
+00:07:23.730 --> 00:07:24.000
+blue is the most popular color system used
+
+00:07:24.000 --> 00:07:26.570
+blue is the most popular color system used
+
+00:07:26.570 --> 00:07:30.000
+and CMY or cyan, magenta, yellow,
+
+00:07:30.000 --> 00:07:31.570
+and CMY or cyan, magenta, yellow,
+
+00:07:31.640 --> 00:07:34.860
+and sometimes black is added as a K, CMYK.
+
+00:07:34.860 --> 00:07:36.000
+That's another color system
+used by print designers.
+
+00:07:36.000 --> 00:07:37.800
+That's another color system
+used by print designers.
+
+00:07:37.800 --> 00:07:40.330
+And you might be wondering,
+is this a coincidence?
+
+00:07:40.330 --> 00:07:41.820
+No, it turns out it's not.
+
+00:07:41.820 --> 00:07:42.000
+Although the exact reason why red,
+
+00:07:42.000 --> 00:07:44.780
+Although the exact reason why red,
+
+00:07:44.780 --> 00:07:47.060
+green and blue are the
+low points and yellow,
+
+00:07:47.060 --> 00:07:48.000
+cyan and magenta are the high points?
+
+00:07:48.000 --> 00:07:48.840
+cyan and magenta are the high points?
+
+00:07:48.840 --> 00:07:50.860
+It's a little bit outside
+the scope of this video,
+
+00:07:50.860 --> 00:07:52.550
+so I have explained it below.
+
+00:07:52.550 --> 00:07:54.000
+Nonetheless, the practical
+part of what you need to know,
+
+00:07:54.000 --> 00:07:56.170
+Nonetheless, the practical
+part of what you need to know,
+
+00:07:56.170 --> 00:08:00.000
+is whenever you have some
+color, let's say it's an orange,
+
+00:08:00.000 --> 00:08:00.110
+is whenever you have some
+color, let's say it's an orange,
+
+00:08:00.110 --> 00:08:02.970
+and you want to raise the
+luminosity of that orange,
+
+00:08:02.970 --> 00:08:05.260
+you want to make it
+appear naturally brighter,
+
+00:08:05.260 --> 00:08:06.000
+you can subtly shift
+the hue towards yellow
+
+00:08:06.000 --> 00:08:07.890
+you can subtly shift
+the hue towards yellow
+
+00:08:07.890 --> 00:08:09.540
+which means increasing the hue.
+
+00:08:09.540 --> 00:08:11.580
+As you do that the natural brightness
+
+00:08:11.580 --> 00:08:12.000
+will increase until the
+point where you hit a hue
+
+00:08:12.000 --> 00:08:14.610
+will increase until the
+point where you hit a hue
+
+00:08:14.610 --> 00:08:15.620
+of 60 degrees.
+
+00:08:15.620 --> 00:08:18.000
+And if you keep increasing the
+hue, that natural brightness
+
+00:08:18.000 --> 00:08:18.960
+And if you keep increasing the
+hue, that natural brightness
+
+00:08:18.960 --> 00:08:21.430
+kind of just someone on
+the street saying, hey,
+
+00:08:21.430 --> 00:08:23.460
+this color looks brighter than that color,
+
+00:08:23.460 --> 00:08:24.000
+that natural brightness is gonna start
+
+00:08:24.000 --> 00:08:25.100
+that natural brightness is gonna start
+
+00:08:25.100 --> 00:08:27.920
+to decrease again until
+you hit 120 and so on
+
+00:08:27.920 --> 00:08:30.000
+and it goes all the way
+around the circle of hues.
+
+00:08:30.000 --> 00:08:30.940
+and it goes all the way
+around the circle of hues.
+
+00:08:30.940 --> 00:08:32.820
+Likewise, if you had that
+orange and wanted to make
+
+00:08:32.820 --> 00:08:34.350
+it naturally darker,
+
+00:08:34.350 --> 00:08:36.000
+then you could slide it
+down towards zero degrees.
+
+00:08:36.000 --> 00:08:37.020
+then you could slide it
+down towards zero degrees.
+
+00:08:37.020 --> 00:08:41.850
+And that's true for basically
+any point on this chart,
+
+00:08:41.850 --> 00:08:42.000
+except for the high point.
+
+00:08:42.000 --> 00:08:43.760
+except for the high point.
+
+00:08:43.760 --> 00:08:46.020
+From a high point you can
+only make the luminosity less,
+
+00:08:46.020 --> 00:08:47.050
+you can move in either way,
+
+00:08:47.050 --> 00:08:48.000
+and it's gonna make the luminosity lower.
+
+00:08:48.000 --> 00:08:48.970
+and it's gonna make the luminosity lower.
+
+00:08:48.970 --> 00:08:50.740
+But for every other point
+besides a high point
+
+00:08:50.740 --> 00:08:52.960
+or a low point, you have one
+direction that's gonna make
+
+00:08:52.960 --> 00:08:54.000
+it naturally a little bit
+brighter, and the other direction,
+
+00:08:54.000 --> 00:08:56.150
+it naturally a little bit
+brighter, and the other direction,
+
+00:08:56.150 --> 00:08:58.700
+that's gonna make it
+naturally a little bit darker.
+
+00:08:59.990 --> 00:09:00.000
+So what that tells me for this
+app here is what I wanna do
+
+00:09:00.000 --> 00:09:03.780
+So what that tells me for this
+app here is what I wanna do
+
+00:09:03.780 --> 00:09:06.000
+is move away from 180 degrees, that cyan,
+
+00:09:06.000 --> 00:09:07.260
+is move away from 180 degrees, that cyan,
+
+00:09:07.260 --> 00:09:09.990
+that's kind of that natural high point.
+
+00:09:09.990 --> 00:09:12.000
+Now as I do that, if I just
+start making jumps of 10,
+
+00:09:12.000 --> 00:09:13.420
+Now as I do that, if I just
+start making jumps of 10,
+
+00:09:13.420 --> 00:09:15.650
+pretty soon even going 20 degrees higher,
+
+00:09:15.650 --> 00:09:18.000
+I kind of lose some of the
+feel of that turquoise.
+
+00:09:18.000 --> 00:09:18.500
+I kind of lose some of the
+feel of that turquoise.
+
+00:09:18.500 --> 00:09:19.360
+And so I know okay,
+
+00:09:19.360 --> 00:09:21.410
+I don't actually wanna go quite that high.
+
+00:09:21.410 --> 00:09:24.000
+But even so much is going
+up to 192 from 185 is going
+
+00:09:24.000 --> 00:09:26.020
+But even so much is going
+up to 192 from 185 is going
+
+00:09:26.020 --> 00:09:29.330
+to do something to kind
+of decrease the luminosity
+
+00:09:29.330 --> 00:09:30.000
+of this blue and thereby make
+it clash a little bit less
+
+00:09:30.000 --> 00:09:32.860
+of this blue and thereby make
+it clash a little bit less
+
+00:09:32.860 --> 00:09:34.810
+against this yellow.
+
+00:09:34.810 --> 00:09:36.000
+Now just in the way that
+luminosity depends on the hue,
+
+00:09:36.000 --> 00:09:37.870
+Now just in the way that
+luminosity depends on the hue,
+
+00:09:37.870 --> 00:09:40.770
+and changing the hue will give
+you a different luminosity,
+
+00:09:40.770 --> 00:09:42.000
+the same thing is also true
+of saturation and brightness.
+
+00:09:42.000 --> 00:09:43.620
+the same thing is also true
+of saturation and brightness.
+
+00:09:44.890 --> 00:09:46.100
+So let's start with brightness
+
+00:09:46.100 --> 00:09:48.000
+because that works exactly
+how you would expect it.
+
+00:09:48.000 --> 00:09:49.170
+because that works exactly
+how you would expect it.
+
+00:09:49.170 --> 00:09:52.710
+What I have here is a
+number of squares of red,
+
+00:09:52.710 --> 00:09:54.000
+this is a hue of zero and the saturation
+
+00:09:54.000 --> 00:09:55.220
+this is a hue of zero and the saturation
+
+00:09:55.220 --> 00:09:57.820
+of all these reds is 100%, okay?
+
+00:09:57.820 --> 00:10:00.000
+So the hue of this red and
+the saturation stays constant
+
+00:10:00.000 --> 00:10:01.450
+So the hue of this red and
+the saturation stays constant
+
+00:10:01.450 --> 00:10:03.690
+the entire line across.
+
+00:10:03.690 --> 00:10:04.920
+The only thing that changes
+
+00:10:04.920 --> 00:10:06.000
+is the brightness goes from 0% to 100%.
+
+00:10:06.000 --> 00:10:07.503
+is the brightness goes from 0% to 100%.
+
+00:10:08.670 --> 00:10:10.530
+Now, if I take these 11 squares,
+
+00:10:10.530 --> 00:10:11.700
+and I duplicate them,
+
+00:10:11.700 --> 00:10:12.000
+and then I put them in
+luminosity blend mode,
+
+00:10:12.000 --> 00:10:14.240
+and then I put them in
+luminosity blend mode,
+
+00:10:14.240 --> 00:10:16.970
+I can see that what happens
+is the natural brightness,
+
+00:10:16.970 --> 00:10:18.000
+the luminosity goes from zero.
+
+00:10:18.000 --> 00:10:19.300
+the luminosity goes from zero.
+
+00:10:19.300 --> 00:10:21.010
+Black is the least luminous color,
+
+00:10:21.010 --> 00:10:23.540
+it has no luminosity whatsoever.
+
+00:10:23.540 --> 00:10:24.000
+It goes from zero all the way up to here,
+
+00:10:24.000 --> 00:10:25.830
+It goes from zero all the way up to here,
+
+00:10:25.830 --> 00:10:27.570
+where I have this value of 30.
+
+00:10:27.570 --> 00:10:30.000
+Okay, cool now, that's
+not just true of this red
+
+00:10:30.000 --> 00:10:31.160
+Okay, cool now, that's
+not just true of this red
+
+00:10:31.160 --> 00:10:32.840
+at 100% saturation,
+
+00:10:32.840 --> 00:10:35.700
+it's true of literally every single color.
+
+00:10:35.700 --> 00:10:36.000
+If you increase the brightness,
+
+00:10:36.000 --> 00:10:37.260
+If you increase the brightness,
+
+00:10:37.260 --> 00:10:40.340
+you also increase the luminosity,
+the natural brightness,
+
+00:10:40.340 --> 00:10:42.000
+that should make perfect sense.
+
+00:10:42.000 --> 00:10:42.640
+that should make perfect sense.
+
+00:10:42.640 --> 00:10:45.350
+The thing that's a little
+bit tougher to remember
+
+00:10:45.350 --> 00:10:48.000
+is that luminosity and
+saturation go in opposite ways.
+
+00:10:48.000 --> 00:10:49.540
+is that luminosity and
+saturation go in opposite ways.
+
+00:10:49.540 --> 00:10:51.330
+When I increase the saturation,
+
+00:10:51.330 --> 00:10:53.720
+I'm actually decreasing the luminosity.
+
+00:10:53.720 --> 00:10:54.000
+So here I have the same thing going on.
+
+00:10:54.000 --> 00:10:56.140
+So here I have the same thing going on.
+
+00:10:56.140 --> 00:10:59.640
+All of these swatches are
+at hue zero for just kind
+
+00:10:59.640 --> 00:11:00.000
+of a pure red, and they're
+all at brightness 100.
+
+00:11:00.000 --> 00:11:03.540
+of a pure red, and they're
+all at brightness 100.
+
+00:11:03.540 --> 00:11:05.940
+The only thing that
+changes is the saturation,
+
+00:11:05.940 --> 00:11:06.000
+which I've taken from 0% to
+10% to 20, all the way to 100%.
+
+00:11:06.000 --> 00:11:10.940
+which I've taken from 0% to
+10% to 20, all the way to 100%.
+
+00:11:11.490 --> 00:11:12.000
+If I just check out what that looks like
+
+00:11:12.000 --> 00:11:13.290
+If I just check out what that looks like
+
+00:11:13.290 --> 00:11:15.190
+in luminosity blend mode,
+
+00:11:15.190 --> 00:11:17.980
+it's the same thing but
+interestingly enough,
+
+00:11:17.980 --> 00:11:18.000
+you'll notice I'm going
+from a luminosity of 100,
+
+00:11:18.000 --> 00:11:21.530
+you'll notice I'm going
+from a luminosity of 100,
+
+00:11:21.530 --> 00:11:24.000
+that's white, down to a luminosity of 30.
+
+00:11:24.000 --> 00:11:25.230
+that's white, down to a luminosity of 30.
+
+00:11:25.230 --> 00:11:27.290
+And that luminosity moves down
+
+00:11:27.290 --> 00:11:30.000
+while the saturation is moving up.
+
+00:11:30.000 --> 00:11:30.520
+while the saturation is moving up.
+
+00:11:30.520 --> 00:11:32.740
+One just mental check you
+can do if you feel like
+
+00:11:32.740 --> 00:11:35.660
+this is getting confusing,
+is just think about white,
+
+00:11:35.660 --> 00:11:36.000
+white is the most luminous color.
+
+00:11:36.000 --> 00:11:37.630
+white is the most luminous color.
+
+00:11:37.630 --> 00:11:40.350
+Just as Black has a luminosity of zero,
+
+00:11:40.350 --> 00:11:42.000
+White has a luminosity of 100%.
+
+00:11:42.000 --> 00:11:42.820
+White has a luminosity of 100%.
+
+00:11:42.820 --> 00:11:46.850
+And yet white always has 0% saturation.
+
+00:11:46.850 --> 00:11:48.000
+So you can always think
+that if you're trying
+
+00:11:48.000 --> 00:11:48.770
+So you can always think
+that if you're trying
+
+00:11:48.770 --> 00:11:50.340
+to make something more luminous,
+
+00:11:50.340 --> 00:11:51.960
+you're moving it towards white.
+
+00:11:51.960 --> 00:11:54.000
+And that kind of ties it
+in to practically speaking
+
+00:11:54.000 --> 00:11:55.130
+And that kind of ties it
+in to practically speaking
+
+00:11:55.130 --> 00:11:58.080
+what we've seen in over
+the last couple of lessons,
+
+00:11:58.080 --> 00:12:00.000
+where I move things up into the left
+
+00:12:00.000 --> 00:12:00.240
+where I move things up into the left
+
+00:12:00.240 --> 00:12:03.490
+for them to be like
+white or more luminous.
+
+00:12:03.490 --> 00:12:05.830
+And I move these colors
+down and to the right,
+
+00:12:05.830 --> 00:12:06.000
+if I want them to be less luminous
+
+00:12:06.000 --> 00:12:07.710
+if I want them to be less luminous
+
+00:12:07.710 --> 00:12:09.640
+or kind of naturally darker.
+
+00:12:09.640 --> 00:12:11.100
+The big point of this lesson, though,
+
+00:12:11.100 --> 00:12:12.000
+is that I have the option of moving hue,
+
+00:12:12.000 --> 00:12:13.460
+is that I have the option of moving hue,
+
+00:12:13.460 --> 00:12:15.610
+saturation and brightness,
+
+00:12:15.610 --> 00:12:18.000
+I just have to know which
+direction to move each.
+
+00:12:18.000 --> 00:12:19.150
+I just have to know which
+direction to move each.
+
+00:12:19.150 --> 00:12:20.630
+So going back to our Fitness app,
+
+00:12:20.630 --> 00:12:23.330
+let's keep playing with this
+little turquoise color here.
+
+00:12:23.330 --> 00:12:24.000
+Now one thing I do with colors,
+
+00:12:24.000 --> 00:12:24.730
+Now one thing I do with colors,
+
+00:12:24.730 --> 00:12:28.750
+I kind of obey my own maxim
+of fail left, fail right.
+
+00:12:28.750 --> 00:12:30.000
+You might have noticed when I
+was adjusting this turquoise,
+
+00:12:30.000 --> 00:12:31.770
+You might have noticed when I
+was adjusting this turquoise,
+
+00:12:31.770 --> 00:12:33.947
+I went a little bit too
+high until I feel like,
+
+00:12:33.947 --> 00:12:36.000
+you know what this is actually
+more of like a blue just kind
+
+00:12:36.000 --> 00:12:36.740
+you know what this is actually
+more of like a blue just kind
+
+00:12:36.740 --> 00:12:39.110
+of a soft blue color doesn't
+have that turquoise field
+
+00:12:39.110 --> 00:12:41.540
+doesn't quite feel as beachy as this.
+
+00:12:41.540 --> 00:12:42.000
+And yet, at 192, this
+feels a little bit better.
+
+00:12:42.000 --> 00:12:45.850
+And yet, at 192, this
+feels a little bit better.
+
+00:12:45.850 --> 00:12:48.000
+It's not exactly the same
+as a hue of 185 here,
+
+00:12:48.000 --> 00:12:48.960
+It's not exactly the same
+as a hue of 185 here,
+
+00:12:48.960 --> 00:12:51.940
+but honestly, if your client
+tells you to use this color,
+
+00:12:51.940 --> 00:12:53.220
+and you use this color,
+
+00:12:53.220 --> 00:12:54.000
+they probably won't even notice
+
+00:12:54.000 --> 00:12:54.610
+they probably won't even notice
+
+00:12:54.610 --> 00:12:56.940
+it's feels like a very natural variation.
+
+00:12:56.940 --> 00:12:59.340
+And that largely is
+what we're trying to do
+
+00:12:59.340 --> 00:13:00.000
+is make a natural variation
+on this theme color.
+
+00:13:00.000 --> 00:13:03.470
+is make a natural variation
+on this theme color.
+
+00:13:03.470 --> 00:13:04.460
+Now, like we just talked about,
+
+00:13:04.460 --> 00:13:06.000
+if I want to decrease the
+luminosity of this turquoise,
+
+00:13:06.000 --> 00:13:07.420
+if I want to decrease the
+luminosity of this turquoise,
+
+00:13:07.420 --> 00:13:10.620
+okay, I've got the hue
+dialed that looks good.
+
+00:13:10.620 --> 00:13:12.000
+Let's do the brightness,
+that one's really easy.
+
+00:13:12.000 --> 00:13:12.680
+Let's do the brightness,
+that one's really easy.
+
+00:13:12.680 --> 00:13:16.390
+I know I'm gonna be bringing
+this brightness down, right?
+
+00:13:16.390 --> 00:13:18.000
+So let's try 90%, 80%,
+70%, definitely at 70%
+
+00:13:18.000 --> 00:13:21.390
+So let's try 90%, 80%,
+70%, definitely at 70%
+
+00:13:21.650 --> 00:13:24.000
+this is losing some of that
+tropical beach feel right?
+
+00:13:24.000 --> 00:13:24.240
+this is losing some of that
+tropical beach feel right?
+
+00:13:24.240 --> 00:13:26.050
+This is like the sun is
+going down and things
+
+00:13:26.050 --> 00:13:27.310
+are getting a little bit darker,
+
+00:13:27.310 --> 00:13:29.260
+this is definitely too dark.
+
+00:13:29.260 --> 00:13:30.000
+So maybe I bumped it back up to like 80,
+
+00:13:30.000 --> 00:13:32.250
+So maybe I bumped it back up to like 80,
+
+00:13:32.250 --> 00:13:35.660
+maybe kind of low 80s is
+about that sweet spot.
+
+00:13:35.660 --> 00:13:36.000
+And then saturation just as
+I brought brightness down,
+
+00:13:36.000 --> 00:13:38.810
+And then saturation just as
+I brought brightness down,
+
+00:13:38.810 --> 00:13:40.720
+saturation is gonna move
+in the opposite direction,
+
+00:13:40.720 --> 00:13:42.000
+it's gonna go up a little bit.
+
+00:13:42.000 --> 00:13:42.290
+it's gonna go up a little bit.
+
+00:13:42.290 --> 00:13:44.830
+So okay, cool, I can
+start to saturate this.
+
+00:13:44.830 --> 00:13:47.800
+And I don't, you know, I don't
+need to go to 100, I could,
+
+00:13:47.800 --> 00:13:48.000
+I suppose that's fine.
+
+00:13:48.000 --> 00:13:49.170
+I suppose that's fine.
+
+00:13:49.170 --> 00:13:50.270
+But what I'm gonna do for now
+
+00:13:50.270 --> 00:13:52.410
+is kind of play around
+with a value that feels
+
+00:13:52.410 --> 00:13:54.000
+a little bit closer to just being again,
+
+00:13:54.000 --> 00:13:55.080
+a little bit closer to just being again,
+
+00:13:55.080 --> 00:13:58.520
+sort of a natural variation
+to this color right here.
+
+00:13:58.520 --> 00:14:00.000
+Now I can go to this yellow and do kind
+
+00:14:00.000 --> 00:14:00.410
+Now I can go to this yellow and do kind
+
+00:14:00.410 --> 00:14:02.060
+of the inverse thing.
+
+00:14:02.060 --> 00:14:03.740
+Just as I was trying to make the turquoise
+
+00:14:03.740 --> 00:14:06.000
+a little naturally darker,
+I'm gonna try and make
+
+00:14:06.000 --> 00:14:06.370
+a little naturally darker,
+I'm gonna try and make
+
+00:14:06.370 --> 00:14:08.670
+this yellow just a bit brighter.
+
+00:14:08.670 --> 00:14:11.890
+And so I know the high point
+is centered at 60 degrees,
+
+00:14:11.890 --> 00:14:12.000
+I'll just bump this up a couple degrees,
+
+00:14:12.000 --> 00:14:13.390
+I'll just bump this up a couple degrees,
+
+00:14:13.390 --> 00:14:15.340
+although I really don't
+have to go too much,
+
+00:14:15.340 --> 00:14:17.520
+or else that yellow is gonna
+start feeling greenish,
+
+00:14:17.520 --> 00:14:18.000
+that's what I don't want.
+
+00:14:18.000 --> 00:14:19.570
+that's what I don't want.
+
+00:14:19.570 --> 00:14:24.000
+The saturation, likewise is
+going to start going down.
+
+00:14:24.000 --> 00:14:24.370
+The saturation, likewise is
+going to start going down.
+
+00:14:24.370 --> 00:14:27.660
+So there we go, 69, what
+feels like too much, you know,
+
+00:14:27.660 --> 00:14:30.000
+maybe 59 definitely by 49
+
+00:14:30.000 --> 00:14:30.430
+maybe 59 definitely by 49
+
+00:14:30.430 --> 00:14:31.450
+that's starting to feel like too much.
+
+00:14:31.450 --> 00:14:33.200
+This is a very pale yellow.
+
+00:14:33.200 --> 00:14:35.440
+So I'll go with a slightly
+higher saturation here,
+
+00:14:35.440 --> 00:14:36.000
+even if I am moving it down somewhat.
+
+00:14:36.000 --> 00:14:37.440
+even if I am moving it down somewhat.
+
+00:14:37.440 --> 00:14:38.940
+And this brightness I'll just bring up
+
+00:14:38.940 --> 00:14:41.900
+to 100 because of course why not.
+
+00:14:41.900 --> 00:14:42.000
+There we go.
+
+00:14:42.000 --> 00:14:42.733
+There we go.
+
+00:14:42.733 --> 00:14:44.170
+And that is feeling good to me.
+
+00:14:44.170 --> 00:14:47.150
+Those two colors seem to
+go much better together
+
+00:14:47.150 --> 00:14:48.000
+than these two right here.
+
+00:14:48.000 --> 00:14:49.760
+than these two right here.
+
+00:14:49.760 --> 00:14:51.580
+Now of course this is
+never the whole story
+
+00:14:51.580 --> 00:14:53.080
+because you can see right here I've got
+
+00:14:53.080 --> 00:14:54.000
+this little plus button and it's white
+
+00:14:54.000 --> 00:14:55.020
+this little plus button and it's white
+
+00:14:55.020 --> 00:14:57.660
+and against this newly brightened yellow,
+
+00:14:57.660 --> 00:15:00.000
+it is especially difficult to see.
+
+00:15:00.000 --> 00:15:00.060
+it is especially difficult to see.
+
+00:15:00.060 --> 00:15:03.080
+And if I'm ever in a situation
+where I need to bring text
+
+00:15:03.080 --> 00:15:06.000
+in on top, let's say I
+have kind of a some text,
+
+00:15:06.000 --> 00:15:06.100
+in on top, let's say I
+have kind of a some text,
+
+00:15:06.100 --> 00:15:09.040
+I'm defaulting to white on
+top of a colored background,
+
+00:15:09.040 --> 00:15:11.090
+which I should always do for text and UI.
+
+00:15:11.090 --> 00:15:12.000
+The background is colored, it's
+almost guaranteed that white
+
+00:15:12.000 --> 00:15:14.610
+The background is colored, it's
+almost guaranteed that white
+
+00:15:14.610 --> 00:15:16.250
+is gonna be the neatest looking color
+
+00:15:16.250 --> 00:15:18.000
+for your text on top of
+that colored background.
+
+00:15:18.000 --> 00:15:18.630
+for your text on top of
+that colored background.
+
+00:15:18.630 --> 00:15:21.520
+But in this case, it's just
+not working like this text
+
+00:15:21.520 --> 00:15:24.000
+is white and this yellow is
+very luminous and overall,
+
+00:15:24.000 --> 00:15:25.900
+is white and this yellow is
+very luminous and overall,
+
+00:15:25.900 --> 00:15:27.740
+I can't read it whatsoever.
+
+00:15:27.740 --> 00:15:30.000
+Basically, what I'm saying
+is I want more contrast
+
+00:15:30.000 --> 00:15:30.030
+Basically, what I'm saying
+is I want more contrast
+
+00:15:30.030 --> 00:15:32.230
+between the luminosity of my text color
+
+00:15:32.230 --> 00:15:34.620
+and the luminosity of my background color.
+
+00:15:34.620 --> 00:15:36.000
+And this issue of text color contrast,
+
+00:15:36.000 --> 00:15:37.010
+And this issue of text color contrast,
+
+00:15:37.010 --> 00:15:39.340
+is something we're gonna
+dive into in great depth
+
+00:15:39.340 --> 00:15:41.420
+in the accessibility lesson.
+
+00:15:41.420 --> 00:15:42.000
+Making software accessible
+refers to making sure
+
+00:15:42.000 --> 00:15:43.840
+Making software accessible
+refers to making sure
+
+00:15:43.840 --> 00:15:46.870
+that people with different
+impairments such as bad eyesight,
+
+00:15:46.870 --> 00:15:48.000
+or visual impairments, can
+use your app very smoothly.
+
+00:15:48.000 --> 00:15:49.750
+or visual impairments, can
+use your app very smoothly.
+
+00:15:49.750 --> 00:15:51.850
+And one important piece
+of it is making sure
+
+00:15:51.850 --> 00:15:54.000
+that your text always contrasts enough
+
+00:15:54.000 --> 00:15:54.560
+that your text always contrasts enough
+
+00:15:54.560 --> 00:15:56.110
+from the background colors.
+
+00:15:56.110 --> 00:15:59.150
+Knowing about luminosity is a huge help
+
+00:15:59.150 --> 00:16:00.000
+in solving text contrast issues.
+
+00:16:00.000 --> 00:16:02.060
+in solving text contrast issues.
+
+00:16:02.060 --> 00:16:04.040
+For instance, if I didn't
+know anything about luminosity
+
+00:16:04.040 --> 00:16:06.000
+at all, I might select
+these layers and just say,
+
+00:16:06.000 --> 00:16:06.220
+at all, I might select
+these layers and just say,
+
+00:16:06.220 --> 00:16:07.860
+let's make this text black.
+
+00:16:07.860 --> 00:16:11.320
+And if I make this text black,
+I suppose it could work,
+
+00:16:11.320 --> 00:16:12.000
+but it kind of ruins some of that light
+
+00:16:12.000 --> 00:16:14.170
+but it kind of ruins some of that light
+
+00:16:14.170 --> 00:16:17.700
+and airy beach vibe that's
+going on throughout the app.
+
+00:16:17.700 --> 00:16:18.000
+And so I might also want to be able
+
+00:16:18.000 --> 00:16:19.620
+And so I might also want to be able
+
+00:16:19.620 --> 00:16:22.000
+to explore some other options here.
+
+00:16:22.000 --> 00:16:24.000
+Well, I basically have two
+directions that I can move in.
+
+00:16:24.000 --> 00:16:25.330
+Well, I basically have two
+directions that I can move in.
+
+00:16:25.330 --> 00:16:27.680
+One is to make this yellow darker such
+
+00:16:27.680 --> 00:16:30.000
+that it contrasts suitably
+against these letters right here.
+
+00:16:30.000 --> 00:16:31.200
+that it contrasts suitably
+against these letters right here.
+
+00:16:31.200 --> 00:16:34.060
+And the other option is to
+make these letters instead
+
+00:16:34.060 --> 00:16:36.000
+of making them white,
+perhaps to make them darker
+
+00:16:36.000 --> 00:16:37.330
+of making them white,
+perhaps to make them darker
+
+00:16:37.330 --> 00:16:41.420
+than the yellow, even if I'm
+not just using flat black.
+
+00:16:41.420 --> 00:16:42.000
+One really useful way to
+measure text contrast in Figma,
+
+00:16:42.000 --> 00:16:45.240
+One really useful way to
+measure text contrast in Figma,
+
+00:16:45.240 --> 00:16:48.000
+is to use the plugin
+that I plugged earlier
+
+00:16:48.000 --> 00:16:48.360
+is to use the plugin
+that I plugged earlier
+
+00:16:48.360 --> 00:16:50.070
+on in this course.
+
+00:16:50.070 --> 00:16:52.950
+Stark right here, and I
+can say check contrast.
+
+00:16:52.950 --> 00:16:54.000
+And it's gonna tell me that the contrast
+
+00:16:54.000 --> 00:16:54.650
+And it's gonna tell me that the contrast
+
+00:16:54.650 --> 00:16:56.900
+between these two selected
+layers, the white text layer,
+
+00:16:56.900 --> 00:17:00.000
+and the yellow background is 1.17 to one.
+
+00:17:00.000 --> 00:17:00.440
+and the yellow background is 1.17 to one.
+
+00:17:00.440 --> 00:17:03.460
+Now for large texts like this,
+where it's of a certain size,
+
+00:17:03.460 --> 00:17:05.980
+I think 18 pixels is kind of that cut off.
+
+00:17:05.980 --> 00:17:06.000
+Yeah, there we go.
+
+00:17:06.000 --> 00:17:07.550
+Yeah, there we go.
+
+00:17:07.550 --> 00:17:09.710
+I need to meet at minimum these guidelines
+
+00:17:09.710 --> 00:17:11.360
+and for some specific projects,
+
+00:17:11.360 --> 00:17:12.000
+you may need to meet the triple A level.
+
+00:17:12.000 --> 00:17:13.560
+you may need to meet the triple A level.
+
+00:17:13.560 --> 00:17:15.360
+But usually you're just
+shooting for double A
+
+00:17:15.360 --> 00:17:18.000
+and I'm supposed to get a
+three to one contrast ratio.
+
+00:17:18.000 --> 00:17:18.880
+and I'm supposed to get a
+three to one contrast ratio.
+
+00:17:18.880 --> 00:17:21.460
+Well, 1.17 to one is not very good,
+
+00:17:21.460 --> 00:17:23.820
+definitely gonna need to
+make this stuff darker.
+
+00:17:23.820 --> 00:17:24.000
+Unfortunately, the free version
+
+00:17:24.000 --> 00:17:25.310
+Unfortunately, the free version
+
+00:17:25.310 --> 00:17:27.660
+of Stark doesn't actually
+give you any suggestions
+
+00:17:27.660 --> 00:17:30.000
+for how to do this, but I
+actually have created a tool
+
+00:17:30.000 --> 00:17:30.720
+for how to do this, but I
+actually have created a tool
+
+00:17:30.720 --> 00:17:33.050
+and it's linked below that does just this.
+
+00:17:33.050 --> 00:17:35.710
+You can go paste in whatever
+theme color you're using,
+
+00:17:35.710 --> 00:17:36.000
+you have a couple different
+ways of using this.
+
+00:17:36.000 --> 00:17:37.650
+you have a couple different
+ways of using this.
+
+00:17:37.650 --> 00:17:41.820
+The first is, it's gonna
+show you the closest shade
+
+00:17:41.820 --> 00:17:42.000
+to the color that you
+input that contrasts three
+
+00:17:42.000 --> 00:17:45.480
+to the color that you
+input that contrasts three
+
+00:17:45.480 --> 00:17:47.870
+to one against white right here.
+
+00:17:47.870 --> 00:17:48.000
+And the other option is I can switch
+
+00:17:48.000 --> 00:17:49.240
+And the other option is I can switch
+
+00:17:49.240 --> 00:17:53.040
+from contrasting against the
+color white or some other color
+
+00:17:53.040 --> 00:17:54.000
+to contrast against itself,
+
+00:17:54.000 --> 00:17:54.700
+to contrast against itself,
+
+00:17:54.700 --> 00:17:57.340
+which is gonna give me,
+here's the color I input.
+
+00:17:57.340 --> 00:18:00.000
+And then here is the nearest
+variation of that color,
+
+00:18:00.000 --> 00:18:00.510
+And then here is the nearest
+variation of that color,
+
+00:18:00.510 --> 00:18:02.460
+that contrast three to one.
+
+00:18:02.460 --> 00:18:05.610
+Now this yellow, you can
+see it kinda went down
+
+00:18:05.610 --> 00:18:06.000
+the green direction
+where the hue increased,
+
+00:18:06.000 --> 00:18:09.100
+the green direction
+where the hue increased,
+
+00:18:09.100 --> 00:18:10.740
+I don't like that as much.
+
+00:18:10.740 --> 00:18:12.000
+So if I was using this
+tool to try and pick
+
+00:18:12.000 --> 00:18:12.790
+So if I was using this
+tool to try and pick
+
+00:18:12.790 --> 00:18:14.060
+a better text color,
+
+00:18:14.060 --> 00:18:18.000
+I'm gonna slide it just a
+little bit towards the red side
+
+00:18:18.000 --> 00:18:18.010
+I'm gonna slide it just a
+little bit towards the red side
+
+00:18:18.010 --> 00:18:22.360
+of things where I get a color
+that is much more red here.
+
+00:18:22.360 --> 00:18:24.000
+And I can go in here and
+for my selected color,
+
+00:18:24.000 --> 00:18:25.940
+And I can go in here and
+for my selected color,
+
+00:18:25.940 --> 00:18:27.310
+paste this new one in.
+
+00:18:27.310 --> 00:18:29.360
+And if I go to Stark,
+
+00:18:29.360 --> 00:18:30.000
+which I can always bring
+up my last round plugin
+
+00:18:30.000 --> 00:18:31.840
+which I can always bring
+up my last round plugin
+
+00:18:31.840 --> 00:18:33.780
+by saying option Command P.
+
+00:18:33.780 --> 00:18:36.000
+I'm gonna see that I now
+have a text contrast ratio
+
+00:18:36.000 --> 00:18:36.230
+I'm gonna see that I now
+have a text contrast ratio
+
+00:18:36.230 --> 00:18:38.240
+of 4.11 to one.
+
+00:18:38.240 --> 00:18:41.320
+Which actually means that for
+large text at double A level,
+
+00:18:41.320 --> 00:18:42.000
+I've got some kind of wiggle room here I
+
+00:18:42.000 --> 00:18:43.550
+I've got some kind of wiggle room here I
+
+00:18:43.550 --> 00:18:45.170
+can play around a little bit.
+
+00:18:45.170 --> 00:18:47.230
+And honestly, getting text on yellow
+
+00:18:47.230 --> 00:18:48.000
+can be a tricky problem,
+
+00:18:48.000 --> 00:18:48.690
+can be a tricky problem,
+
+00:18:48.690 --> 00:18:50.650
+I really need to decide like sometimes
+
+00:18:50.650 --> 00:18:52.000
+it's gonna look better to have a color
+
+00:18:52.000 --> 00:18:54.000
+that's almost just more red.
+
+00:18:54.000 --> 00:18:54.180
+that's almost just more red.
+
+00:18:54.180 --> 00:18:56.730
+Sometimes an orange is
+gonna work good like kind
+
+00:18:56.730 --> 00:18:58.710
+of a gold feel like that works here.
+
+00:18:58.710 --> 00:19:00.000
+And I have this trade off where I
+
+00:19:00.000 --> 00:19:00.530
+And I have this trade off where I
+
+00:19:00.530 --> 00:19:03.050
+can actually do less saturation.
+
+00:19:03.050 --> 00:19:04.850
+But the less saturation I have,
+
+00:19:04.850 --> 00:19:06.000
+the more that increases the luminosity,
+
+00:19:06.000 --> 00:19:06.830
+the more that increases the luminosity,
+
+00:19:06.830 --> 00:19:09.510
+so I need to counteract it
+by going a little bit darker.
+
+00:19:09.510 --> 00:19:10.840
+So I always have some play here
+
+00:19:10.840 --> 00:19:12.000
+with exactly what color I want.
+
+00:19:12.000 --> 00:19:12.640
+with exactly what color I want.
+
+00:19:12.640 --> 00:19:14.380
+But in knowing about luminosity,
+
+00:19:14.380 --> 00:19:17.600
+I know how can I adjust
+the luminosity of the text
+
+00:19:17.600 --> 00:19:18.000
+so that it contrasts
+suitably from the background,
+
+00:19:18.000 --> 00:19:20.360
+so that it contrasts
+suitably from the background,
+
+00:19:20.360 --> 00:19:22.970
+and if needed, meets the
+accessibility guidelines
+
+00:19:22.970 --> 00:19:24.000
+that I need to achieve.
+
+00:19:24.000 --> 00:19:24.610
+that I need to achieve.
+
+00:19:24.610 --> 00:19:28.720
+Alright, now let's go look at
+a totally different example.
+
+00:19:28.720 --> 00:19:30.000
+This is just sort of a pricing page
+
+00:19:30.000 --> 00:19:30.840
+This is just sort of a pricing page
+
+00:19:30.840 --> 00:19:32.220
+for some sort of service.
+
+00:19:32.220 --> 00:19:35.400
+It's all kind of general and
+the specifics don't matter.
+
+00:19:35.400 --> 00:19:36.000
+But I want to use it to
+demonstrate one other
+
+00:19:36.000 --> 00:19:38.160
+But I want to use it to
+demonstrate one other
+
+00:19:38.160 --> 00:19:40.240
+very important lesson about luminosity,
+
+00:19:40.240 --> 00:19:42.000
+which is luminosity is absolutely critical
+
+00:19:42.000 --> 00:19:42.800
+which is luminosity is absolutely critical
+
+00:19:42.800 --> 00:19:45.010
+in making elements appear to pop out
+
+00:19:45.010 --> 00:19:47.990
+of the page or be recessed
+down into the page.
+
+00:19:47.990 --> 00:19:48.000
+So I've got these three cards here.
+
+00:19:48.000 --> 00:19:49.500
+So I've got these three cards here.
+
+00:19:49.500 --> 00:19:51.720
+They're white cards on
+a light gray background,
+
+00:19:51.720 --> 00:19:53.520
+and they definitely
+appear to be popping out
+
+00:19:53.520 --> 00:19:54.000
+of the screen right now.
+
+00:19:54.000 --> 00:19:54.920
+of the screen right now.
+
+00:19:54.920 --> 00:19:55.753
+Now of course you could say,
+
+00:19:55.753 --> 00:19:57.940
+that's just because they
+have shadows, right?
+
+00:19:57.940 --> 00:20:00.000
+But if I go and I remove those shadows,
+
+00:20:00.000 --> 00:20:00.070
+But if I go and I remove those shadows,
+
+00:20:00.070 --> 00:20:03.650
+they still if you had to judge
+are these cards popping out
+
+00:20:03.650 --> 00:20:06.000
+of the screen or the kind
+of recessed into the screen,
+
+00:20:06.000 --> 00:20:06.130
+of the screen or the kind
+of recessed into the screen,
+
+00:20:06.130 --> 00:20:07.940
+it looks more like they're popping out.
+
+00:20:07.940 --> 00:20:10.679
+And kind of the inverse of this, you know,
+
+00:20:10.679 --> 00:20:12.000
+if I go and I put an inner shadow
+
+00:20:12.000 --> 00:20:12.718
+if I go and I put an inner shadow
+
+00:20:12.718 --> 00:20:13.870
+on these three cards right here,
+
+00:20:13.870 --> 00:20:16.050
+now they're recessed into the screen.
+
+00:20:16.050 --> 00:20:18.000
+But the light is kinda
+gonna make them look
+
+00:20:18.000 --> 00:20:18.700
+But the light is kinda
+gonna make them look
+
+00:20:18.700 --> 00:20:19.970
+like they're popping out.
+
+00:20:19.970 --> 00:20:22.890
+And so the inner shadow is sort of working
+
+00:20:22.890 --> 00:20:24.000
+against the white background here.
+
+00:20:24.000 --> 00:20:24.980
+against the white background here.
+
+00:20:24.980 --> 00:20:26.580
+It's gonna look more natural,
+
+00:20:26.580 --> 00:20:29.210
+if I pick a color that
+is slightly darker than
+
+00:20:29.210 --> 00:20:30.000
+that background so let me
+do that, hey, there we go.
+
+00:20:30.000 --> 00:20:33.070
+that background so let me
+do that, hey, there we go.
+
+00:20:33.070 --> 00:20:36.000
+And now these look much
+more convincingly recessed
+
+00:20:36.000 --> 00:20:36.100
+And now these look much
+more convincingly recessed
+
+00:20:36.100 --> 00:20:37.320
+into the screen, right?
+
+00:20:37.320 --> 00:20:39.530
+You kind of see, the inner
+shadow is now working
+
+00:20:39.530 --> 00:20:41.930
+with the background color
+in the same direction.
+
+00:20:42.920 --> 00:20:44.960
+Now, that's not what we
+want to do, actually,
+
+00:20:44.960 --> 00:20:46.851
+I'm gonna take away the inner shadow,
+
+00:20:46.851 --> 00:20:48.000
+add the drop shadows and
+move the cards back to white.
+
+00:20:48.000 --> 00:20:50.493
+add the drop shadows and
+move the cards back to white.
+
+00:20:51.380 --> 00:20:53.590
+The whole point here is that the thing
+
+00:20:53.590 --> 00:20:54.000
+that makes these cards
+appear to pop out even
+
+00:20:54.000 --> 00:20:56.420
+that makes these cards
+appear to pop out even
+
+00:20:56.420 --> 00:20:59.080
+when there's no shadow,
+is the fact that white
+
+00:20:59.080 --> 00:21:00.000
+is more luminous than this
+background color gray.
+
+00:21:00.000 --> 00:21:01.570
+is more luminous than this
+background color gray.
+
+00:21:01.570 --> 00:21:05.010
+And so anything that you want
+to pop out from the screen,
+
+00:21:05.010 --> 00:21:06.000
+like let's say some sort
+of header or whatever,
+
+00:21:06.000 --> 00:21:07.660
+like let's say some sort
+of header or whatever,
+
+00:21:07.660 --> 00:21:10.213
+I have the option of making
+it darker than the background.
+
+00:21:10.213 --> 00:21:12.000
+But at least I always have
+in mind that if I make
+
+00:21:12.000 --> 00:21:14.160
+But at least I always have
+in mind that if I make
+
+00:21:14.160 --> 00:21:15.570
+it lighter than the background,
+
+00:21:15.570 --> 00:21:18.000
+it's gonna make it easier to
+make it appear popping out
+
+00:21:18.000 --> 00:21:18.620
+it's gonna make it easier to
+make it appear popping out
+
+00:21:18.620 --> 00:21:20.370
+of the screen, you're kind of going
+
+00:21:20.370 --> 00:21:22.420
+with the grain of the color, so to speak.
+
+00:21:22.420 --> 00:21:24.000
+And this is not just true
+of a grayscale example
+
+00:21:24.000 --> 00:21:25.460
+And this is not just true
+of a grayscale example
+
+00:21:25.460 --> 00:21:26.570
+like this right here.
+
+00:21:26.570 --> 00:21:29.380
+I can also do it with color.
+
+00:21:29.380 --> 00:21:30.000
+So let me take this
+card now kind of extend
+
+00:21:30.000 --> 00:21:31.290
+So let me take this
+card now kind of extend
+
+00:21:31.290 --> 00:21:33.260
+it just a little bit here,
+
+00:21:33.260 --> 00:21:34.880
+just so you can really see it kind
+
+00:21:34.880 --> 00:21:36.000
+of butting up against these other cards,
+
+00:21:36.000 --> 00:21:36.620
+of butting up against these other cards,
+
+00:21:36.620 --> 00:21:37.820
+this is a good thing to do
+
+00:21:37.820 --> 00:21:40.933
+if I wanna like draw more
+attention to the pro option.
+
+00:21:41.900 --> 00:21:42.000
+And let's say I give all
+three of these cards,
+
+00:21:42.000 --> 00:21:44.470
+And let's say I give all
+three of these cards,
+
+00:21:44.470 --> 00:21:46.253
+a particular background color.
+
+00:21:47.810 --> 00:21:48.000
+So maybe I'll go pick some, I don't know,
+
+00:21:48.000 --> 00:21:50.070
+So maybe I'll go pick some, I don't know,
+
+00:21:50.070 --> 00:21:51.790
+just pick a purple here.
+
+00:21:51.790 --> 00:21:53.750
+Now one other thing I
+should do is now that I
+
+00:21:53.750 --> 00:21:54.000
+have this purple, I should
+make the text color white.
+
+00:21:54.000 --> 00:21:56.370
+have this purple, I should
+make the text color white.
+
+00:21:56.370 --> 00:22:00.000
+So we'll switch all these
+pretty simply and reduce
+
+00:22:00.000 --> 00:22:01.270
+So we'll switch all these
+pretty simply and reduce
+
+00:22:01.270 --> 00:22:04.710
+the opacity of those very nice this works.
+
+00:22:04.710 --> 00:22:06.000
+But one thing that's gonna
+make it work even better
+
+00:22:06.000 --> 00:22:07.310
+But one thing that's gonna
+make it work even better
+
+00:22:07.310 --> 00:22:09.750
+is if I make this front card,
+
+00:22:09.750 --> 00:22:12.000
+which is popped out even more
+than the other two cards,
+
+00:22:12.000 --> 00:22:12.480
+which is popped out even more
+than the other two cards,
+
+00:22:12.480 --> 00:22:14.300
+and you can see it's the
+shadow of the front card
+
+00:22:14.300 --> 00:22:16.750
+that lands on the two cards behind it.
+
+00:22:16.750 --> 00:22:18.000
+If I make that front
+card even more luminous,
+
+00:22:18.000 --> 00:22:19.550
+If I make that front
+card even more luminous,
+
+00:22:19.550 --> 00:22:23.070
+or contrastingly, if I make
+these back cards less luminous,
+
+00:22:23.070 --> 00:22:24.000
+now we're just gonna do the
+same thing that we always do,
+
+00:22:24.000 --> 00:22:25.530
+now we're just gonna do the
+same thing that we always do,
+
+00:22:25.530 --> 00:22:27.140
+which is decreased luminosity
+
+00:22:27.140 --> 00:22:30.000
+by increasing saturation
+and decreasing brightness.
+
+00:22:30.000 --> 00:22:31.510
+by increasing saturation
+and decreasing brightness.
+
+00:22:31.510 --> 00:22:32.700
+And there we have it.
+
+00:22:32.700 --> 00:22:35.230
+Now this front card pops even more.
+
+00:22:35.230 --> 00:22:36.000
+And so this trick works
+when you're dealing
+
+00:22:36.000 --> 00:22:37.010
+And so this trick works
+when you're dealing
+
+00:22:37.010 --> 00:22:39.360
+with grayscale cards that
+are kinda or elements
+
+00:22:39.360 --> 00:22:40.920
+that are layered on top of each other.
+
+00:22:40.920 --> 00:22:42.000
+It works when you're dealing with elements
+
+00:22:42.000 --> 00:22:42.380
+It works when you're dealing with elements
+
+00:22:42.380 --> 00:22:43.320
+that have the same hue,
+
+00:22:43.320 --> 00:22:44.960
+it also works when you're dealing
+
+00:22:44.960 --> 00:22:46.430
+with elements that have different hues.
+
+00:22:46.430 --> 00:22:48.000
+So like let's go make this yellow,
+
+00:22:48.000 --> 00:22:48.170
+So like let's go make this yellow,
+
+00:22:48.170 --> 00:22:49.470
+just some kind of bright yellow,
+
+00:22:49.470 --> 00:22:51.060
+find a very bright one here.
+
+00:22:51.060 --> 00:22:53.470
+That's bright, that's maybe too bright.
+
+00:22:53.470 --> 00:22:54.000
+Look at this, this now looks awkward,
+
+00:22:54.000 --> 00:22:55.910
+Look at this, this now looks awkward,
+
+00:22:55.910 --> 00:22:59.740
+not just because it's
+weirdly asymmetric here
+
+00:22:59.740 --> 00:23:00.000
+but also or because you
+can't read the text,
+
+00:23:00.000 --> 00:23:02.970
+but also or because you
+can't read the text,
+
+00:23:02.970 --> 00:23:05.590
+it just looks awkward
+because this yellow demands
+
+00:23:05.590 --> 00:23:06.000
+to pop out from the screen
+because it's so bright,
+
+00:23:06.000 --> 00:23:07.860
+to pop out from the screen
+because it's so bright,
+
+00:23:07.860 --> 00:23:09.440
+and yet this purple overshadowing
+
+00:23:09.440 --> 00:23:10.930
+it just feels kind of weird.
+
+00:23:10.930 --> 00:23:12.000
+Things are going to feel
+much more natural if instead
+
+00:23:12.000 --> 00:23:14.250
+Things are going to feel
+much more natural if instead
+
+00:23:14.250 --> 00:23:15.980
+of having, say colors like this,
+
+00:23:15.980 --> 00:23:17.020
+and let me just get this one,
+
+00:23:17.020 --> 00:23:18.000
+I'll just adjust this to like
+an orange or something, right?
+
+00:23:18.000 --> 00:23:19.750
+I'll just adjust this to like
+an orange or something, right?
+
+00:23:19.750 --> 00:23:22.770
+Like, that seems very, very strange.
+
+00:23:22.770 --> 00:23:24.000
+And yet, if I kind of
+move the background ones
+
+00:23:24.000 --> 00:23:26.230
+And yet, if I kind of
+move the background ones
+
+00:23:26.230 --> 00:23:28.880
+to be a little bit darker
+here, do something like a blue
+
+00:23:28.880 --> 00:23:30.000
+or a purple where there is that kind
+
+00:23:30.000 --> 00:23:30.430
+or a purple where there is that kind
+
+00:23:30.430 --> 00:23:32.923
+of natural darkness to them.
+
+00:23:34.490 --> 00:23:36.000
+I want to reduce the
+saturation a little bit.
+
+00:23:36.000 --> 00:23:36.740
+I want to reduce the
+saturation a little bit.
+
+00:23:38.170 --> 00:23:41.440
+And I have the one that's popping
+out be naturally brighter,
+
+00:23:41.440 --> 00:23:42.000
+could just even use this red right here,
+
+00:23:42.000 --> 00:23:43.000
+could just even use this red right here,
+
+00:23:43.000 --> 00:23:44.720
+that actually looks pretty good.
+
+00:23:44.720 --> 00:23:46.920
+And just to kind of double
+check until we start
+
+00:23:46.920 --> 00:23:48.000
+to get a real feel for
+trusting our eye here,
+
+00:23:48.000 --> 00:23:49.230
+to get a real feel for
+trusting our eye here,
+
+00:23:49.230 --> 00:23:52.230
+we can always go to the layer
+blend mode and just say,
+
+00:23:52.230 --> 00:23:53.800
+luminosity blend mode.
+
+00:23:53.800 --> 00:23:54.000
+And sure enough, what's this, 55.
+
+00:23:54.000 --> 00:23:56.000
+And sure enough, what's this, 55.
+
+00:23:56.000 --> 00:23:59.160
+Okay, it's actually the same
+as that one and this one is 50.
+
+00:23:59.160 --> 00:24:00.000
+So slightly darker.
+
+00:24:00.000 --> 00:24:00.383
+So slightly darker.
+
+00:24:01.740 --> 00:24:03.920
+Now, if all this is true,
+
+00:24:03.920 --> 00:24:05.930
+by making this look a little bit darker,
+
+00:24:05.930 --> 00:24:06.000
+not gonna make it too saturated,
+
+00:24:06.000 --> 00:24:07.830
+not gonna make it too saturated,
+
+00:24:07.830 --> 00:24:09.910
+should really kind of
+help the pop of this red.
+
+00:24:09.910 --> 00:24:11.360
+And I feel like it does.
+
+00:24:11.360 --> 00:24:12.000
+So elevation is kind of this
+whole other problem where
+
+00:24:12.000 --> 00:24:15.140
+So elevation is kind of this
+whole other problem where
+
+00:24:15.140 --> 00:24:18.000
+if you're using luminosity
+as you think about elevation,
+
+00:24:18.000 --> 00:24:18.450
+if you're using luminosity
+as you think about elevation,
+
+00:24:18.450 --> 00:24:20.970
+it's just gonna be a whole
+other tool in your toolkit
+
+00:24:20.970 --> 00:24:24.000
+to help you design exactly
+the best looking UI.
+
+00:24:24.000 --> 00:24:24.570
+to help you design exactly
+the best looking UI.
+
+00:24:24.570 --> 00:24:26.640
+Now, one thing to be aware of with this,
+
+00:24:26.640 --> 00:24:29.450
+especially kind of related
+to elevation is shadows.
+
+00:24:29.450 --> 00:24:30.000
+If I ever have, let's say
+a very bright color here,
+
+00:24:30.000 --> 00:24:33.710
+If I ever have, let's say
+a very bright color here,
+
+00:24:33.710 --> 00:24:36.000
+pick something like
+this green or whatever.
+
+00:24:36.000 --> 00:24:36.290
+pick something like
+this green or whatever.
+
+00:24:36.290 --> 00:24:38.010
+I have a bright color here and I put
+
+00:24:38.010 --> 00:24:40.570
+this in luminosity blend mode,
+
+00:24:40.570 --> 00:24:42.000
+you're gonna notice something interesting.
+
+00:24:42.000 --> 00:24:42.120
+you're gonna notice something interesting.
+
+00:24:42.120 --> 00:24:44.540
+I'm gonna press Control P
+that's gonna go into pixel mode
+
+00:24:44.540 --> 00:24:46.710
+and just show me individually what pixels
+
+00:24:46.710 --> 00:24:48.000
+would look like output on the screen.
+
+00:24:48.000 --> 00:24:48.950
+would look like output on the screen.
+
+00:24:48.950 --> 00:24:50.920
+You're gonna notice that
+there's a very smooth transition
+
+00:24:50.920 --> 00:24:53.950
+between the shadow and the layer itself.
+
+00:24:53.950 --> 00:24:54.000
+It's actually kinda
+difficult to make out exactly
+
+00:24:54.000 --> 00:24:56.440
+It's actually kinda
+difficult to make out exactly
+
+00:24:56.440 --> 00:24:59.420
+where the layer begins because
+there's not a big difference
+
+00:24:59.420 --> 00:25:00.000
+between this and that it's
+like kind of following
+
+00:25:00.000 --> 00:25:02.190
+between this and that it's
+like kind of following
+
+00:25:02.190 --> 00:25:04.690
+the same pattern of
+getting darker every pixel.
+
+00:25:04.690 --> 00:25:06.000
+Now, that's not to say it's impossible.
+
+00:25:06.000 --> 00:25:06.290
+Now, that's not to say it's impossible.
+
+00:25:06.290 --> 00:25:10.790
+But when this happens when you
+have a high luminosity layer,
+
+00:25:10.790 --> 00:25:12.000
+and then you have a nice big shadow on it,
+
+00:25:12.000 --> 00:25:13.400
+and then you have a nice big shadow on it,
+
+00:25:13.400 --> 00:25:16.950
+sometimes that shadow will
+appear a little bit fuzzy.
+
+00:25:16.950 --> 00:25:18.000
+And if you look right here, like yeah,
+
+00:25:18.000 --> 00:25:18.880
+And if you look right here, like yeah,
+
+00:25:18.880 --> 00:25:20.800
+the layer that kind of the bottom
+
+00:25:20.800 --> 00:25:23.620
+of it looks a little blurred,
+I can see it on my screen,
+
+00:25:23.620 --> 00:25:24.000
+you might need to like, do
+this on your own computer
+
+00:25:24.000 --> 00:25:25.890
+you might need to like, do
+this on your own computer
+
+00:25:25.890 --> 00:25:27.770
+to prove it to yourself here.
+
+00:25:27.770 --> 00:25:30.000
+But the layer just looks a
+little bit blurred at the bottom.
+
+00:25:30.000 --> 00:25:30.520
+But the layer just looks a
+little bit blurred at the bottom.
+
+00:25:30.520 --> 00:25:33.690
+And that's not true of
+this blue or this purple.
+
+00:25:33.690 --> 00:25:36.000
+And that is just because
+the luminosity is so high
+
+00:25:36.000 --> 00:25:37.100
+And that is just because
+the luminosity is so high
+
+00:25:37.100 --> 00:25:39.660
+that it kind of matches the
+luminosity of the shadow.
+
+00:25:39.660 --> 00:25:42.000
+So whenever that happens,
+you know, I know,
+
+00:25:42.000 --> 00:25:42.490
+So whenever that happens,
+you know, I know,
+
+00:25:42.490 --> 00:25:44.270
+either I need to make
+the layer much lighter,
+
+00:25:44.270 --> 00:25:46.560
+or I need to make it a little bit darker.
+
+00:25:46.560 --> 00:25:48.000
+And that's gonna be a big help there.
+
+00:25:48.000 --> 00:25:48.610
+And that's gonna be a big help there.
+
+00:25:48.610 --> 00:25:50.380
+Now, I don't actually
+wanna green layer there
+
+00:25:50.380 --> 00:25:52.250
+but it's kind of wanted
+to talk about one thing
+
+00:25:52.250 --> 00:25:53.270
+that could happen.
+
+00:25:53.270 --> 00:25:54.000
+You could have that shadow
+fuzzing, if the luminosity
+
+00:25:54.000 --> 00:25:56.100
+You could have that shadow
+fuzzing, if the luminosity
+
+00:25:56.100 --> 00:25:58.300
+of the layer is not well distinguished
+
+00:25:58.300 --> 00:26:00.000
+from the luminosity of the shadow.
+
+00:26:00.000 --> 00:26:00.800
+from the luminosity of the shadow.
+
+00:26:00.800 --> 00:26:02.820
+And that wraps it up for luminosity.
+
+00:26:02.820 --> 00:26:06.000
+So luminosity, as you can see
+is a totally useful concept
+
+00:26:06.000 --> 00:26:06.230
+So luminosity, as you can see
+is a totally useful concept
+
+00:26:06.230 --> 00:26:07.940
+in user interface design.
+
+00:26:07.940 --> 00:26:11.442
+Any issue of text contrast,
+luminosity will help you there.
+
+00:26:11.442 --> 00:26:12.000
+Any issue of elevation,
+
+00:26:12.000 --> 00:26:13.430
+Any issue of elevation,
+
+00:26:13.430 --> 00:26:16.300
+luminosity is a critical
+tool for your toolkit.
+
+00:26:16.300 --> 00:26:18.000
+And any issue of, what was the
+third thing clashing colors,
+
+00:26:18.000 --> 00:26:19.800
+And any issue of, what was the
+third thing clashing colors,
+
+00:26:19.800 --> 00:26:21.380
+it's useful there as well.
+
+00:26:21.380 --> 00:26:24.000
+Now, I also am fully willing
+to admit that kind of the way
+
+00:26:24.000 --> 00:26:25.530
+Now, I also am fully willing
+to admit that kind of the way
+
+00:26:25.530 --> 00:26:27.330
+in which luminosity relates to hue,
+
+00:26:27.330 --> 00:26:29.720
+saturation and brightness
+is pretty confusing.
+
+00:26:29.720 --> 00:26:30.000
+And right now, it may
+feel very awkward and slow
+
+00:26:30.000 --> 00:26:32.400
+And right now, it may
+feel very awkward and slow
+
+00:26:32.400 --> 00:26:34.410
+to think and consciously remember each
+
+00:26:34.410 --> 00:26:36.000
+of these properties and
+kinda how to move them to get
+
+00:26:36.000 --> 00:26:37.900
+of these properties and
+kinda how to move them to get
+
+00:26:37.900 --> 00:26:40.550
+the right luminosity for
+whatever you're trying to do.
+
+00:26:40.550 --> 00:26:42.000
+That being said, you will be
+applying this again and again.
+
+00:26:42.000 --> 00:26:44.500
+That being said, you will be
+applying this again and again.
+
+00:26:44.500 --> 00:26:46.970
+And at this point, you now
+know the building blocks
+
+00:26:46.970 --> 00:26:48.000
+of the Learn UI Design color system.
+
+00:26:48.000 --> 00:26:49.320
+of the Learn UI Design color system.
+
+00:26:49.320 --> 00:26:52.100
+Almost all of the rest
+of it is just applying
+
+00:26:52.100 --> 00:26:54.000
+this in a zillion different ways, okay?
+
+00:26:54.000 --> 00:26:54.590
+this in a zillion different ways, okay?
+
+00:26:54.590 --> 00:26:56.820
+So take some heart from that.
+
+00:26:56.820 --> 00:26:58.677
+There's no homework
+per se but do check out
+
+00:26:58.677 --> 00:27:00.000
+the color cheat sheet which is
+linked below if you haven't,
+
+00:27:00.000 --> 00:27:01.720
+the color cheat sheet which is
+linked below if you haven't,
+
+00:27:01.720 --> 00:27:03.230
+it's a nice printable reference.
+
+00:27:03.230 --> 00:27:05.670
+And at least until all
+this becomes second nature,
+
+00:27:05.670 --> 00:27:06.000
+it'll help you just have
+a really quick guide
+
+00:27:06.000 --> 00:27:08.100
+it'll help you just have
+a really quick guide
+
+00:27:08.100 --> 00:27:10.740
+into moving hue, saturation and brightness
+
+00:27:10.740 --> 00:27:12.000
+to achieve different
+effects with luminosity.
+
+00:27:12.000 --> 00:27:13.050
+to achieve different
+effects with luminosity.
+
+00:27:13.050 --> 00:27:15.913
+Alright, from there, we will
+see you in the next video.
+
