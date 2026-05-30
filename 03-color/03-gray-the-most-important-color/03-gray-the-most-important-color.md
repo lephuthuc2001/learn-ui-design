@@ -50,10 +50,16 @@ graph TD
 The instructor walks through multiple real-world examples:
 
 - **Reuters app wireframe / final design** — a gray skeleton that looks sharp by itself, then gains imagery and a few color highlights (section headline pops, imagery colors)
+
+![Reuters app wireframe — entirely gray rectangles, text, and placeholders, yet it looks sharp and well-structured without any color at all](screenshots/01-reuters-wireframe.jpg)
 - **Twitter iOS** — gray, gray, gray, that blue brand color, imagery from user content, purple color, and that's basically it. The brand color is clear, but the design works entirely without it
+
+![Twitter iOS — nearly everything is gray; color only appears in user-submitted imagery and the one blue brand pop in the nav/buttons](screenshots/02-twitter-gray-formula.jpg)
 - **Semplice** — formal, serif font brand with a lot of gray. Pops of color plus gray, with little to no imagery on the front page
 - **Origin Materials (Brian Powell)** — technical/engineering brand. Dots feel technical, pops of color only in arrows and hover states, everything else is gray. Even the imagery is grayscale on this site
 - **Row 7 Seeds** — quirky, artistic, avant-garde brand. Does not feel minimalistic at all. And yet: white text (gray), imagery, more imagery, gray divider lines, gray big lines — broken down it's still gray + imagery + a few pops
+
+![Row 7 Seeds — artsy, busy feeling, yet still just gray backgrounds + editorial photography + a few pops of color in accents](screenshots/03-row7-breakdown.jpg)
 
 > "Consider this, this site, which again is as busy as anyone would want, is still just a very basic pattern. You can break it down to being gray, plus imagery, plus just a few pops of color."
 
@@ -103,6 +109,8 @@ Reduce the opacity of an element to reduce its visual weight / importance.
 
 **Common use cases:**
 - **Non-selected nav items** — selected at 100%, non-selected at 70–80%. Going below 50% of the selected opacity makes elements look disabled
+![bizBrain app with opacity technique applied — nav tabs and secondary labels reduced to ~70% opacity, bar charts at ~30–40%, making the primary content stand out clearly](screenshots/04-opacity-technique.jpg)
+
 - **Heavy decorative elements** — a thick underline under a selected nav item looks too strong next to thin text; bring it to 60–70% opacity to balance ("drawing with the same pen" concept from the icons unit)
 - **SLUB styling** — **S**maller, **L**ighter, **U**ppercase, **B**old. When a label is already bold + uppercase (two attention-grabbing properties), reduce its opacity to 70% to compensate. Lighter here specifically means reduced opacity
 - **Meta/structural elements** (borders, divider lines, background color region boundaries) — can go very low, even 10% opacity; they only need to be visible enough to signal structure
@@ -137,6 +145,8 @@ In the real world, grays in photographs are almost never pure gray — they're a
 
 For backgrounds, repeat with a much higher brightness (~90%) and very low saturation (~3%).
 
+![bizBrain app with just-barely-colored grays — dark text and background have a subtle teal tint matching the theme color; the right panel shows FFFFFF at 10% fill plus Background blur effect selected](screenshots/05-just-barely-colored.jpg)
+
 **Twitter is doing this without you noticing:**
 > "What Twitter has done here, without us even really noticing, is they've taken their theme color and they've, ever so gently saturated all of the texts on their whole app with the hue of that theme color."
 
@@ -155,6 +165,8 @@ Light backgrounds and raised surfaces use gray to convey **elevation**: surfaces
 From the lighting & shadows lesson: a raised card should be lighter than its background. A background of 97% brightness gray with a white card on top looks cleanly elevated. You can even have a background as dark as 97% brightness and visitors might not even know it's not pure white.
 
 > "This was kind of an interesting realization for me as a beginning designer, because I just sort of assumed that even light backgrounds were almost basically just white and yet it's not at all crazy to have let's say a 97% brightness gray background."
+
+![bizBrain app with elevation technique — header is a slightly darker gray than the white card surface; background (E5E5E5) selected in the panel, confirming it is not pure white](screenshots/06-elevation-stack.jpg)
 
 **Elevation stack (light theme):**
 ```mermaid
@@ -176,6 +188,8 @@ When two background colors are very similar (e.g., 97% gray vs. 95% gray), the e
 **The solution:** Add a very thin, very light border (e.g., 10% opacity dark color) at the boundary. It's a meta element — it doesn't need to attract attention, it just needs to be subtly perceptible.
 
 This is a widely used pattern. Once you know it, you'll start to see it everywhere.
+
+![Betterment.com — light gray background transitions to white section with a thin border separating them; the brand color appears only in the CTA button](screenshots/07-border-technique.jpg)
 
 ### Technique 5: The Border Technique (Fuzzy Shadows)
 
@@ -202,6 +216,8 @@ This technique is equally powerful for apps (not just landing pages). The time-t
 The squint test: either physically squint at your design, or in Figma apply a large layer with a background blur effect (~10+ pixels) to simulate it.
 
 > "The squint test just refers to either squinting at your design or putting on a big layer with an effect of type background blur."
+
+![Squint test in Figma — a white layer at 10% opacity with Background blur applied sits over the entire design, simulating squinting at the layout](screenshots/08-squint-test.jpg)
 
 **Purpose:** Verify that your visual hierarchy is working. After a half-second glance (or squint), what information does the user extract?
 

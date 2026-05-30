@@ -20,6 +20,8 @@ The yellow is at 97% brightness (HSB) and the turquoise at 100% brightness. Inst
 
 So reducing brightness to tame yellow destroys the color itself.
 
+![Yellow and turquoise brand colors clashing — both at near-100% brightness, both demanding attention at once](screenshots/01-clashing-colors.jpg)
+
 The real insight comes when you try something unexpected: leave brightness at 100%, but **shift the hue** of the turquoise into indigo/purple territory. Suddenly the clash disappears — and both colors still have ~100% brightness. So why does one look dramatically darker than the other?
 
 > "There has to be more to the brightness story than just whatever the B value is in the HSB color system. And there is — that something else is called luminosity."
@@ -37,6 +39,8 @@ Luminosity = a *separate* brightness scale that accounts for how our eyes percei
 ### Measuring Luminosity in Figma
 
 The best way to see luminosity in Figma is to apply **Luminosity blend mode** to a color layer. This strips out all hue and saturation, leaving only a gray whose brightness corresponds to that color's natural luminosity.
+
+![Three colors — yellow, turquoise, indigo — shown alongside their luminosity blend mode equivalents. Yellow and turquoise both map to gray-82; indigo maps to gray-52 despite identical HSB brightness](screenshots/02-luminosity-blend-mode.jpg)
 
 Example from the lesson:
 - Yellow (97% HSB brightness) → luminosity gray brightness: **82**
@@ -62,6 +66,8 @@ graph LR
   E --> F["Magenta 300°<br/>(HIGH POINT)"]
   F --> G["Red 360°<br/>(low point)"]
 ```
+
+![Hue vs. luminosity scatter plot — yellow peaks at 60°, cyan near 180°, magenta near 300°; red, green, and blue are the valleys](screenshots/03-hue-luminosity-chart.jpg)
 
 **Low-luminosity hues:** Red (0°), Green (120°), Blue (240°) — these are the **RGB primaries**
 
@@ -136,6 +142,8 @@ For the yellow (near high point at 60°, can only go down):
 
 The result: the two colors "go much better together" with far less clash.
 
+![Fitness app with adjusted colors — turquoise shifted to hue 192 at 80% brightness, yellow at 100% brightness with reduced saturation. The clash is gone](screenshots/04-fixed-app-colors.jpg)
+
 ---
 
 ## Practical Application 2: Text Contrast on High-Luminosity Backgrounds
@@ -148,7 +156,11 @@ Options:
 
 > "The background is colored, it's almost guaranteed that white is gonna be the neatest looking color for your text on top of that colored background."
 
+![Stark plugin showing 1.17:1 contrast ratio — white text on the brightened yellow fails every accessibility level](screenshots/05-text-contrast-fail.jpg)
+
 The instructor mentions a custom tool (linked below the video) that finds the nearest color variation that meets a 3:1 ratio — either against white, or against itself (same hue family).
+
+![Stark plugin showing 4.11:1 — a gold/amber text color (hue shifted toward red) passes Large Text AA with wiggle room](screenshots/06-text-contrast-fixed.jpg)
 
 For yellow text overlay: shifting slightly toward red (lower hue) to get a gold/amber that is darker, hitting 4.11:1 — above the AA threshold with some wiggle room.
 
@@ -165,6 +177,8 @@ Luminosity directly controls whether elements appear to float **in front of** or
 ### The Core Principle
 
 White cards on a light gray background pop out — not primarily because of drop shadows, but because **white is more luminous than gray**. Even without shadows, you perceive the white cards as being in front.
+
+![Pricing page with three white cards on a light gray background — cards pop out purely because white is more luminous than the background, even without shadows](screenshots/07-elevation-pricing-cards.jpg)
 
 > "The thing that makes these cards appear to pop out even when there's no shadow, is the fact that white is more luminous than this background color gray."
 
