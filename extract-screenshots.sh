@@ -59,8 +59,15 @@ KEY_URL="https://contentplayer.hotmart.com/video/${VIDEO_ID}/mp4/key/${VIDEO_ID}
 HDRS=(
   -H "Origin: https://player.hotmart.com"
   -H "Referer: https://player.hotmart.com/"
-  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0"
   -H "Accept: */*"
+  -H "Accept-Language: en-US,en;q=0.9"
+  -H "Sec-Fetch-Dest: empty"
+  -H "Sec-Fetch-Mode: cors"
+  -H "Sec-Fetch-Site: same-site"
+  -H "DNT: 1"
+  -H "Pragma: no-cache"
+  -H "Cache-Control: no-cache"
 )
 
 # Fetch AES key once

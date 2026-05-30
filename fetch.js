@@ -9,10 +9,23 @@ const fs = require('fs');
 const path = require('path');
 
 const MASTER_NAMES = ['master.m3u8', '_resMaster.m3u8', 'index.m3u8'];
+// Akamai CDN (vod-akm.play.hotmart.com) requires Sec-Fetch-* headers to allow
+// subtitle segment requests. Without them it returns HTTP 403 Access Denied even
+// with a valid hdntl token. Accept-Encoding is intentionally omitted — Node's
+// https module doesn't auto-decompress, so we let the server send plain text.
 const HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0',
+  'Accept': '*/*',
+  'Accept-Language': 'en-US,en;q=0.9',
   'Origin': 'https://player.hotmart.com',
   'Referer': 'https://player.hotmart.com/',
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0',
+  'Sec-Fetch-Dest': 'empty',
+  'Sec-Fetch-Mode': 'cors',
+  'Sec-Fetch-Site': 'same-site',
+  'DNT': '1',
+  'Pragma': 'no-cache',
+  'Cache-Control': 'no-cache',
+  ...(process.env.HOTMART_COOKIES ? { 'Cookie': process.env.HOTMART_COOKIES } : {}),
 };
 
 function fetchUrl(url) {

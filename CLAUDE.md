@@ -36,6 +36,8 @@ The shared `fetch.js` at the repo root auto-detects the master playlist, validat
 
 **If the token is expired**, tell the user to re-open the video in their browser — this regenerates the master playlist file.
 
+**If fetch succeeds but the `.vtt` is empty (8 bytes, just `WEBVTT`)**, the Akamai CDN rejected the subtitle segments. This is fixed in `fetch.js` by including `Sec-Fetch-Dest`, `Sec-Fetch-Mode`, and `Sec-Fetch-Site` headers — Akamai requires these to allow cross-origin subtitle requests even with a valid `hdntl` token. The fix is already applied; if it recurs, check that those headers are still present in `HEADERS` in `fetch.js`.
+
 **Then convert VTT to notes** using the `vtt-to-notes` skill.
 
 **Or do both steps at once** using the `process-video` skill.
