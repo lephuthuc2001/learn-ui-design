@@ -135,33 +135,33 @@ If the user gave a pattern a name (e.g. "Big 3", "the 1M trick"), use their name
 
 ## Publishing to the blog
 
-When the user asks to publish the analysis (or the notes.md is complete and images are in place), run this publish step.
+UI collection analyses are published as plain **notes** (not a separate collection), under `course: "UI Collections"`. This is the same pattern as `ui-collections/almanac/notes.md` → `~/blog/src/content/notes/learn-ui-design/almanac.md`.
+
+When the user asks to publish, run this publish step.
 
 ### 1. Create the blog content entry
 
-Copy the notes.md to `~/blog/src/content/ui-collections/<slug>.md` and add frontmatter at the top:
+Write to `~/blog/src/content/notes/learn-ui-design/<slug>.md` with this frontmatter:
 
 ```yaml
 ---
-title: "<site> — <subtitle>"
-site: "<site>"
-url: "https://<site-domain>"
-type: "<category e.g. Wiki / SaaS>"
+title: "<site> — Design Analysis"
+course: "UI Collections"
 date: YYYY-MM-DD
-description: "<2-sentence summary of the analysis>"
-coverImage: "/ui-collections/<slug>/images/image 1.png"
-tags: [<relevant tags>]
+tags: [ui-design, ui-collections, <relevant-tags>]
+description: "<1-2 sentence summary of the analysis>"
 ---
 ```
 
-Remove the leading `# <Site> — Design Analysis` heading from the body — the layout renders the title from frontmatter.
+Copy the body of `notes.md` **without** the leading `# <Site> — Design Analysis` heading.
 
-Update all image paths from relative (`images/image%20N.png`) to absolute (`/ui-collections/<slug>/images/image%20N.png`).
+Update all image paths from relative (`images/filename.jpg`) to absolute (`/notes/learn-ui-design/<slug>/filename.jpg`).
 
 ### 2. Copy images to blog public
 
 ```bash
-cp -r ~/learn-ui-design/ui-collections/<slug>/images ~/blog/public/ui-collections/<slug>/
+mkdir -p ~/blog/public/notes/learn-ui-design/<slug>
+cp ~/learn-ui-design/ui-collections/<slug>/images/*.{jpg,png} ~/blog/public/notes/learn-ui-design/<slug>/
 ```
 
 ### 3. Build to verify
@@ -174,8 +174,8 @@ cd ~/blog && pnpm build 2>&1 | tail -5
 
 ```bash
 git -C ~/learn-ui-design add ui-collections/<slug>/
-git -C ~/learn-ui-design commit -m "Add <slug> UI collection analysis"
+git -C ~/learn-ui-design commit -m "feat: add <slug> UI collection notes"
 
-git -C ~/blog add src/content/ui-collections/<slug>.md public/ui-collections/<slug>/
+git -C ~/blog add src/content/notes/learn-ui-design/<slug>.md public/notes/learn-ui-design/<slug>/
 git -C ~/blog commit -m "feat(ui-collections): publish <slug> analysis"
 ```
