@@ -1,0 +1,5022 @@
+WEBVTT
+
+00:00:00.710 --> 00:00:03.360
+- Hey folks, and welcome to
+the Learn UI Design lesson
+
+00:00:03.360 --> 00:00:04.800
+on the color gray.
+
+00:00:04.800 --> 00:00:06.000
+So I'd like to start by saying
+I'm dressed for the occasion.
+
+00:00:06.000 --> 00:00:08.610
+So I'd like to start by saying
+I'm dressed for the occasion.
+
+00:00:08.610 --> 00:00:12.000
+The color gray, the only
+color worth it's own video,
+
+00:00:12.000 --> 00:00:12.600
+The color gray, the only
+color worth it's own video,
+
+00:00:12.600 --> 00:00:14.410
+is actually the most important color
+
+00:00:14.410 --> 00:00:16.210
+in all of user interface design.
+
+00:00:16.210 --> 00:00:18.000
+And the reason why that is,
+is because in this video,
+
+00:00:18.000 --> 00:00:19.950
+And the reason why that is,
+is because in this video,
+
+00:00:19.950 --> 00:00:22.850
+like in the entire
+course, when I say gray,
+
+00:00:22.850 --> 00:00:24.000
+I'm talking about white
+and black inclusive.
+
+00:00:24.000 --> 00:00:25.400
+I'm talking about white
+and black inclusive.
+
+00:00:25.400 --> 00:00:28.680
+White, black and every shade
+of gray in between them.
+
+00:00:28.680 --> 00:00:29.700
+That's what makes up gray.
+
+00:00:29.700 --> 00:00:30.000
+That's really the only
+logical way to view it
+
+00:00:30.000 --> 00:00:31.470
+That's really the only
+logical way to view it
+
+00:00:31.470 --> 00:00:33.930
+as far as a UI designer is concerned.
+
+00:00:33.930 --> 00:00:36.000
+Now, gray is the most important color
+
+00:00:36.000 --> 00:00:36.780
+Now, gray is the most important color
+
+00:00:36.780 --> 00:00:37.840
+that you're going to be using.
+
+00:00:37.840 --> 00:00:40.200
+Not only is it by far
+the most common color,
+
+00:00:40.200 --> 00:00:41.630
+but it's also the only color
+
+00:00:41.630 --> 00:00:42.000
+that doesn't really call
+attention to itself.
+
+00:00:42.000 --> 00:00:43.820
+that doesn't really call
+attention to itself.
+
+00:00:43.820 --> 00:00:45.230
+You put some red on the interface
+
+00:00:45.230 --> 00:00:47.610
+and you're calling attention
+to that red in a special way.
+
+00:00:47.610 --> 00:00:48.000
+Yellow, same thing.
+
+00:00:48.000 --> 00:00:48.680
+Yellow, same thing.
+
+00:00:48.680 --> 00:00:50.820
+Even blue, blue is a little bit more chill
+
+00:00:50.820 --> 00:00:53.180
+but gray is really the backseat.
+
+00:00:53.180 --> 00:00:54.000
+It just kinda, let someone
+else do the driving
+
+00:00:54.000 --> 00:00:56.060
+It just kinda, let someone
+else do the driving
+
+00:00:56.060 --> 00:00:57.400
+and the grabbing the attention,
+
+00:00:57.400 --> 00:00:59.900
+and gray is just there to
+transmit the information
+
+00:00:59.900 --> 00:01:00.000
+that you need to transmit but
+not to attract any attention.
+
+00:01:00.000 --> 00:01:02.880
+that you need to transmit but
+not to attract any attention.
+
+00:01:02.880 --> 00:01:04.290
+It does it very subtly.
+
+00:01:04.290 --> 00:01:06.000
+It's the quiet professional, okay?
+
+00:01:06.000 --> 00:01:06.440
+It's the quiet professional, okay?
+
+00:01:06.440 --> 00:01:08.500
+so we're going to be
+talking about graying,
+
+00:01:08.500 --> 00:01:10.440
+all throughout this video.
+
+00:01:10.440 --> 00:01:12.000
+Just to give you kind of an
+overview of how this unit
+
+00:01:12.000 --> 00:01:13.680
+Just to give you kind of an
+overview of how this unit
+
+00:01:13.680 --> 00:01:14.880
+is put together.
+
+00:01:14.880 --> 00:01:17.790
+We started by talking
+about HSB, hue, saturation,
+
+00:01:17.790 --> 00:01:18.000
+and brightness.
+
+00:01:18.000 --> 00:01:18.680
+and brightness.
+
+00:01:18.680 --> 00:01:22.670
+That HSB way of naming and
+modifying colors is foundational
+
+00:01:22.670 --> 00:01:24.000
+to the learn UI design color
+system that I am teaching you.
+
+00:01:24.000 --> 00:01:26.020
+to the learn UI design color
+system that I am teaching you.
+
+00:01:26.020 --> 00:01:28.790
+From HSB, we then talked
+about this all-important
+
+00:01:28.790 --> 00:01:30.000
+fourth property, luminosity,
+which is related to hue,
+
+00:01:30.000 --> 00:01:32.380
+fourth property, luminosity,
+which is related to hue,
+
+00:01:32.380 --> 00:01:34.820
+related to saturation,
+related to brightness,
+
+00:01:34.820 --> 00:01:36.000
+but different than all three of those.
+
+00:01:36.000 --> 00:01:36.680
+but different than all three of those.
+
+00:01:36.680 --> 00:01:39.440
+And with that knowledge,
+we're actually gonna go to,
+
+00:01:39.440 --> 00:01:42.000
+very soon from here, it's not
+this lesson, but very soon,
+
+00:01:42.000 --> 00:01:42.560
+very soon from here, it's not
+this lesson, but very soon,
+
+00:01:42.560 --> 00:01:44.550
+the keystone lesson of this unit,
+
+00:01:44.550 --> 00:01:46.450
+which is on making color adjustments.
+
+00:01:46.450 --> 00:01:48.000
+You have one base color
+and using your knowledge
+
+00:01:48.000 --> 00:01:48.990
+You have one base color
+and using your knowledge
+
+00:01:48.990 --> 00:01:52.330
+of luminosity, you can make
+variations on that base color
+
+00:01:52.330 --> 00:01:53.530
+as you need.
+
+00:01:53.530 --> 00:01:54.000
+But, what I want to kind
+of hit home in this lesson
+
+00:01:54.000 --> 00:01:56.810
+But, what I want to kind
+of hit home in this lesson
+
+00:01:56.810 --> 00:02:00.000
+is the idea that color is
+actually a little bit more
+
+00:02:00.000 --> 00:02:00.920
+is the idea that color is
+actually a little bit more
+
+00:02:00.920 --> 00:02:02.530
+like the toppings on a pizza.
+
+00:02:02.530 --> 00:02:04.400
+And it's actually really important
+
+00:02:04.400 --> 00:02:06.000
+that you get the foundation
+of the pizza set first.
+
+00:02:06.000 --> 00:02:07.490
+that you get the foundation
+of the pizza set first.
+
+00:02:07.490 --> 00:02:10.230
+The good crust, good cheese, good sauce.
+
+00:02:10.230 --> 00:02:12.000
+It's like, you could have great basics
+
+00:02:12.000 --> 00:02:12.730
+It's like, you could have great basics
+
+00:02:12.730 --> 00:02:14.730
+and that's a pizza just by itself.
+
+00:02:14.730 --> 00:02:16.120
+But if you ruin those basics,
+
+00:02:16.120 --> 00:02:17.750
+good toppings aren't gonna save it.
+
+00:02:17.750 --> 00:02:18.000
+I would probably still eat
+the pizza, 'cause it's pizza,
+
+00:02:18.000 --> 00:02:20.650
+I would probably still eat
+the pizza, 'cause it's pizza,
+
+00:02:20.650 --> 00:02:22.120
+but it's not gonna be very good.
+
+00:02:22.120 --> 00:02:24.000
+And so, the color gray is
+really like the solid crust
+
+00:02:24.000 --> 00:02:27.120
+And so, the color gray is
+really like the solid crust
+
+00:02:27.170 --> 00:02:30.000
+and cheese and sauce
+that goes on the pizza.
+
+00:02:30.000 --> 00:02:30.230
+and cheese and sauce
+that goes on the pizza.
+
+00:02:30.230 --> 00:02:32.600
+It's those foundations
+that we really wanna nail.
+
+00:02:32.600 --> 00:02:34.470
+All right, enough pizza analogies,
+
+00:02:34.470 --> 00:02:36.000
+let's actually just get started.
+
+00:02:36.000 --> 00:02:37.460
+let's actually just get started.
+
+00:02:37.460 --> 00:02:39.230
+All right, so I'm gonna start off
+
+00:02:39.230 --> 00:02:41.790
+by showing you this
+nice little design here.
+
+00:02:41.790 --> 00:02:42.000
+And this is a concept
+from the design El Niño.
+
+00:02:42.000 --> 00:02:44.820
+And this is a concept
+from the design El Niño.
+
+00:02:44.820 --> 00:02:47.050
+As you may intuit, this is not supposed
+
+00:02:47.050 --> 00:02:48.000
+to be a finalized design,
+
+00:02:48.000 --> 00:02:49.000
+to be a finalized design,
+
+00:02:49.000 --> 00:02:50.570
+but one thing that's really cool about it
+
+00:02:50.570 --> 00:02:54.000
+is even just being some gray
+rectangles and gray text,
+
+00:02:54.000 --> 00:02:54.500
+is even just being some gray
+rectangles and gray text,
+
+00:02:54.500 --> 00:02:57.960
+it looks really, really sharp, I love it.
+
+00:02:57.960 --> 00:03:00.000
+And it's kind of impressive
+that they're able to do this.
+
+00:03:00.000 --> 00:03:01.440
+And it's kind of impressive
+that they're able to do this.
+
+00:03:01.440 --> 00:03:05.060
+It relies totally on the
+fundamentals of alignment,
+
+00:03:05.060 --> 00:03:06.000
+spacing, consistency and things
+like using good typography.
+
+00:03:06.000 --> 00:03:10.060
+spacing, consistency and things
+like using good typography.
+
+00:03:10.400 --> 00:03:12.000
+Now for we know this was
+not some idol exercise here.
+
+00:03:12.000 --> 00:03:14.150
+Now for we know this was
+not some idol exercise here.
+
+00:03:14.150 --> 00:03:16.300
+This is actually a design that they made
+
+00:03:16.300 --> 00:03:18.000
+in preparation for the final design,
+
+00:03:18.000 --> 00:03:18.310
+in preparation for the final design,
+
+00:03:18.310 --> 00:03:21.670
+which is for the news
+organization writers,
+
+00:03:21.670 --> 00:03:23.540
+which you can see here.
+
+00:03:23.540 --> 00:03:24.000
+And the thing about this is,
+
+00:03:24.000 --> 00:03:25.080
+And the thing about this is,
+
+00:03:25.080 --> 00:03:27.860
+this design also looks really awesome.
+
+00:03:27.860 --> 00:03:30.000
+Those fundamentals are
+still here, the alignment,
+
+00:03:30.000 --> 00:03:30.760
+Those fundamentals are
+still here, the alignment,
+
+00:03:30.760 --> 00:03:34.550
+the consistency and so on, but
+with the extra pop of color
+
+00:03:34.550 --> 00:03:36.000
+from all the imagery and from
+some of this colored text
+
+00:03:36.000 --> 00:03:37.370
+from all the imagery and from
+some of this colored text
+
+00:03:37.370 --> 00:03:39.020
+from little things like a highlight next
+
+00:03:39.020 --> 00:03:40.560
+to some section names,
+
+00:03:40.560 --> 00:03:42.000
+it just stays looking
+really, really sharp.
+
+00:03:42.000 --> 00:03:44.190
+it just stays looking
+really, really sharp.
+
+00:03:44.190 --> 00:03:46.670
+And so my first big lesson for you
+
+00:03:46.670 --> 00:03:48.000
+is until you feel very
+comfortable with color,
+
+00:03:48.000 --> 00:03:50.250
+is until you feel very
+comfortable with color,
+
+00:03:50.250 --> 00:03:53.730
+you should try and design a
+little bit more like this.
+
+00:03:53.730 --> 00:03:54.000
+I call this black and white first.
+
+00:03:54.000 --> 00:03:56.260
+I call this black and white first.
+
+00:03:56.260 --> 00:03:57.400
+Why not gray first?
+
+00:03:57.400 --> 00:03:58.930
+I dunno, black and white first
+
+00:03:58.930 --> 00:04:00.000
+is just a little bit catchier,
+but basically the point is,
+
+00:04:00.000 --> 00:04:01.730
+is just a little bit catchier,
+but basically the point is,
+
+00:04:01.730 --> 00:04:04.210
+until you're very confident
+with working with color
+
+00:04:04.210 --> 00:04:06.000
+try and design something
+that looks perfectly sharp,
+
+00:04:06.000 --> 00:04:07.350
+try and design something
+that looks perfectly sharp,
+
+00:04:07.350 --> 00:04:08.820
+that obeys all that we've already learned
+
+00:04:08.820 --> 00:04:11.150
+about alignment, consistency, spacing
+
+00:04:11.150 --> 00:04:12.000
+except it just doesn't
+have any color in it yet.
+
+00:04:12.000 --> 00:04:13.270
+except it just doesn't
+have any color in it yet.
+
+00:04:13.270 --> 00:04:15.430
+And then once it looks awesome,
+
+00:04:15.430 --> 00:04:16.840
+go ahead and add in that color,
+
+00:04:16.840 --> 00:04:18.000
+from the imagery, from the theme color
+
+00:04:18.000 --> 00:04:19.290
+from the imagery, from the theme color
+
+00:04:19.290 --> 00:04:21.440
+the little pops of color and so on.
+
+00:04:21.440 --> 00:04:24.000
+To use the pizza metaphor,
+once you have that good crust
+
+00:04:24.000 --> 00:04:24.190
+To use the pizza metaphor,
+once you have that good crust
+
+00:04:24.190 --> 00:04:25.580
+and good sauce and good cheese,
+
+00:04:25.580 --> 00:04:27.320
+then you add on those toppings.
+
+00:04:27.320 --> 00:04:29.200
+Now, just to set expectations here.
+
+00:04:29.200 --> 00:04:30.000
+I'm not saying this is required
+
+00:04:30.000 --> 00:04:30.800
+I'm not saying this is required
+
+00:04:30.800 --> 00:04:33.190
+but this is a very useful thing to do,
+
+00:04:33.190 --> 00:04:35.660
+until you're actually really
+confident about color.
+
+00:04:35.660 --> 00:04:36.000
+Because in my own experience,
+having looked at thousands
+
+00:04:36.000 --> 00:04:38.840
+Because in my own experience,
+having looked at thousands
+
+00:04:38.840 --> 00:04:41.570
+of submissions from Learn UI
+design students over the years,
+
+00:04:41.570 --> 00:04:42.000
+I have noticed that color
+is one of the easiest things
+
+00:04:42.000 --> 00:04:43.918
+I have noticed that color
+is one of the easiest things
+
+00:04:43.918 --> 00:04:46.630
+to mess up if you're a beginning designer.
+
+00:04:46.630 --> 00:04:48.000
+Beginning designers put in too much color,
+
+00:04:48.000 --> 00:04:48.830
+Beginning designers put in too much color,
+
+00:04:48.830 --> 00:04:51.810
+too early and it can really
+screw with the design.
+
+00:04:51.810 --> 00:04:54.000
+So, what I want you to do
+is hold off on that color
+
+00:04:54.000 --> 00:04:54.770
+So, what I want you to do
+is hold off on that color
+
+00:04:54.770 --> 00:04:55.603
+just a little bit.
+
+00:04:55.603 --> 00:04:56.580
+And we will have future lessons
+
+00:04:56.580 --> 00:04:58.930
+where we talk about
+exactly how to add it in.
+
+00:04:58.930 --> 00:05:00.000
+But for now we're going to
+say how can we get things
+
+00:05:00.000 --> 00:05:01.550
+But for now we're going to
+say how can we get things
+
+00:05:01.550 --> 00:05:04.370
+looking as good as
+possible, just using gray,
+
+00:05:04.370 --> 00:05:06.000
+and then, once we allow
+ourselves to use color
+
+00:05:06.000 --> 00:05:06.670
+and then, once we allow
+ourselves to use color
+
+00:05:06.670 --> 00:05:09.170
+and imagery just really
+make that design shine
+
+00:05:09.170 --> 00:05:10.580
+for the final version.
+
+00:05:10.580 --> 00:05:12.000
+Now you might be thinking,
+hey, wait a second.
+
+00:05:12.000 --> 00:05:12.960
+Now you might be thinking,
+hey, wait a second.
+
+00:05:12.960 --> 00:05:16.080
+You're telling me to not use
+like one of the most important
+
+00:05:16.080 --> 00:05:18.000
+and fundamental things in
+design until the very end?
+
+00:05:18.000 --> 00:05:18.830
+and fundamental things in
+design until the very end?
+
+00:05:18.830 --> 00:05:21.070
+Well, it's not quite so bad.
+
+00:05:21.070 --> 00:05:23.020
+One of the things I wanna convince you of,
+
+00:05:23.020 --> 00:05:24.000
+is that a shocking
+amount of good UI design
+
+00:05:24.000 --> 00:05:25.500
+is that a shocking
+amount of good UI design
+
+00:05:25.500 --> 00:05:29.180
+is actually really just
+gray, plus imagery,
+
+00:05:29.180 --> 00:05:30.000
+plus a few pops of color.
+
+00:05:30.000 --> 00:05:31.210
+plus a few pops of color.
+
+00:05:31.210 --> 00:05:32.850
+If you've never thought about this before
+
+00:05:32.850 --> 00:05:35.030
+or if you never have
+seen a design this way,
+
+00:05:35.030 --> 00:05:36.000
+it's actually kind of tough to overstate
+
+00:05:36.000 --> 00:05:36.990
+it's actually kind of tough to overstate
+
+00:05:36.990 --> 00:05:38.450
+how important this is.
+
+00:05:38.450 --> 00:05:41.360
+When you look at this design,
+nothing about it seems like
+
+00:05:41.360 --> 00:05:42.000
+too simplistic, or like
+it's just like too minimal
+
+00:05:42.000 --> 00:05:44.055
+too simplistic, or like
+it's just like too minimal
+
+00:05:44.055 --> 00:05:45.520
+and boring or whatever.
+
+00:05:45.520 --> 00:05:48.000
+I just, it looks very, very good here.
+
+00:05:48.000 --> 00:05:48.450
+I just, it looks very, very good here.
+
+00:05:48.450 --> 00:05:51.020
+And yet when I go through and kind of,
+
+00:05:51.020 --> 00:05:52.620
+look element by element,
+
+00:05:52.620 --> 00:05:54.000
+it's clear that basically
+everything is gray.
+
+00:05:54.000 --> 00:05:55.800
+it's clear that basically
+everything is gray.
+
+00:05:55.800 --> 00:05:59.090
+A small pop of color for,
+I guess this is a title,
+
+00:05:59.090 --> 00:06:00.000
+for a little section, sort of headline.
+
+00:06:00.000 --> 00:06:01.259
+for a little section, sort of headline.
+
+00:06:01.259 --> 00:06:03.010
+Some of this text is filler text
+
+00:06:03.010 --> 00:06:05.030
+which I don't recommend doing
+
+00:06:05.030 --> 00:06:06.000
+but you gotta do it occasionally.
+
+00:06:06.000 --> 00:06:06.740
+but you gotta do it occasionally.
+
+00:06:06.740 --> 00:06:09.230
+Pops of color in the imagery,
+
+00:06:09.230 --> 00:06:11.710
+little section highlights right here,
+
+00:06:11.710 --> 00:06:12.000
+it's all gray scale, plus
+imagery, plus pops color.
+
+00:06:12.000 --> 00:06:16.060
+it's all gray scale, plus
+imagery, plus pops color.
+
+00:06:16.060 --> 00:06:18.000
+I'll show you another example.
+
+00:06:18.000 --> 00:06:18.030
+I'll show you another example.
+
+00:06:18.030 --> 00:06:21.190
+We'll go on over to the
+mobile Twitter design here.
+
+00:06:21.190 --> 00:06:22.680
+This is for iOS.
+
+00:06:22.680 --> 00:06:24.000
+If I look at this app right here,
+
+00:06:24.000 --> 00:06:25.062
+If I look at this app right here,
+
+00:06:25.062 --> 00:06:28.890
+I am seeing gray, gray,
+gray, purple color,
+
+00:06:28.890 --> 00:06:30.000
+there's that blue, gray,
+
+00:06:30.000 --> 00:06:30.650
+there's that blue, gray,
+
+00:06:30.650 --> 00:06:32.884
+imagery from user submitted content,
+
+00:06:32.884 --> 00:06:36.000
+gray, gray, imagery from
+user submitted content.
+
+00:06:36.000 --> 00:06:36.500
+gray, gray, imagery from
+user submitted content.
+
+00:06:36.500 --> 00:06:39.860
+Same thing with the imagery,
+purple color, purple color.
+
+00:06:39.860 --> 00:06:41.300
+All the rest is gray.
+
+00:06:41.300 --> 00:06:42.000
+And this is kind of interesting
+
+00:06:42.000 --> 00:06:42.490
+And this is kind of interesting
+
+00:06:42.490 --> 00:06:45.090
+because it's not like
+Twitter is just known
+
+00:06:45.090 --> 00:06:46.910
+as a totally Spartan interface, right?
+
+00:06:46.910 --> 00:06:48.000
+Like everyone knows Twitter's
+brand color is this blue.
+
+00:06:48.000 --> 00:06:49.910
+Like everyone knows Twitter's
+brand color is this blue.
+
+00:06:49.910 --> 00:06:51.290
+Like you use the product
+and you're gonna be
+
+00:06:51.290 --> 00:06:52.180
+familiar with that.
+
+00:06:52.180 --> 00:06:54.000
+It's done well, it has a good brand.
+
+00:06:54.000 --> 00:06:54.330
+It's done well, it has a good brand.
+
+00:06:54.330 --> 00:06:57.840
+It's very solid, but it
+stands apart from the brand.
+
+00:06:57.840 --> 00:06:59.740
+The point is I don't need
+to have the blue in there
+
+00:06:59.740 --> 00:07:00.000
+for this design to work.
+
+00:07:00.000 --> 00:07:00.910
+for this design to work.
+
+00:07:00.910 --> 00:07:03.810
+If I just strip out all the
+imagery and all the popsicolor,
+
+00:07:03.810 --> 00:07:06.000
+this is a totally functional
+design right here.
+
+00:07:06.000 --> 00:07:06.510
+this is a totally functional
+design right here.
+
+00:07:06.510 --> 00:07:09.010
+And if black and white first sounds like
+
+00:07:09.010 --> 00:07:11.470
+maybe a bit too extreme
+of a way to design,
+
+00:07:11.470 --> 00:07:12.000
+just consider that it's almost obvious
+
+00:07:12.000 --> 00:07:14.100
+just consider that it's almost obvious
+
+00:07:14.100 --> 00:07:16.380
+where you're gonna end up
+putting color in this design.
+
+00:07:16.380 --> 00:07:18.000
+You're gonna see it
+wherever there's imagery.
+
+00:07:18.000 --> 00:07:18.420
+You're gonna see it
+wherever there's imagery.
+
+00:07:18.420 --> 00:07:20.790
+You're gonna see it wherever
+there's a selected state,
+
+00:07:20.790 --> 00:07:23.610
+that's a very common
+place for pops of color.
+
+00:07:23.610 --> 00:07:24.000
+So home is selected, search
+and alerts and inbox or not.
+
+00:07:24.000 --> 00:07:27.610
+So home is selected, search
+and alerts and inbox or not.
+
+00:07:27.610 --> 00:07:28.740
+You're gonna see it in buttons.
+
+00:07:28.740 --> 00:07:30.000
+That's another super common place.
+
+00:07:30.000 --> 00:07:30.480
+That's another super common place.
+
+00:07:30.480 --> 00:07:31.697
+And to say, hey, we're gonna show a blue
+
+00:07:31.697 --> 00:07:34.150
+and a badge right here,
+that's also really common.
+
+00:07:34.150 --> 00:07:36.000
+It's just those couple
+of decisions that get you
+
+00:07:36.000 --> 00:07:36.170
+It's just those couple
+of decisions that get you
+
+00:07:36.170 --> 00:07:37.920
+from something totally gray scale,
+
+00:07:37.920 --> 00:07:38.810
+to something that looks like
+
+00:07:38.810 --> 00:07:41.950
+a very neat, clean, modern interface.
+
+00:07:41.950 --> 00:07:42.000
+Now you might be saying, hey, Eric,
+
+00:07:42.000 --> 00:07:43.380
+Now you might be saying, hey, Eric,
+
+00:07:43.380 --> 00:07:45.150
+you've just kind of shown
+me a couple of clean
+
+00:07:45.150 --> 00:07:45.983
+and simple designs.
+
+00:07:45.983 --> 00:07:47.930
+Like of course, clean and simple works,
+
+00:07:47.930 --> 00:07:48.000
+black and white first
+because there's really,
+
+00:07:48.000 --> 00:07:50.570
+black and white first
+because there's really,
+
+00:07:50.570 --> 00:07:53.720
+they're not using color all
+that extensively anyways.
+
+00:07:53.720 --> 00:07:54.000
+I'm glad you mentioned it.
+
+00:07:54.000 --> 00:07:54.920
+I'm glad you mentioned it.
+
+00:07:54.920 --> 00:07:57.960
+I want to talk about a
+couple other examples
+
+00:07:57.960 --> 00:08:00.000
+where again when we put on
+that lens of a lot of good UI
+
+00:08:00.000 --> 00:08:01.150
+where again when we put on
+that lens of a lot of good UI
+
+00:08:01.150 --> 00:08:04.380
+just being gray scale plus
+imagery, plus pops of color,
+
+00:08:04.380 --> 00:08:06.000
+you're gonna see exactly how it works.
+
+00:08:06.000 --> 00:08:06.210
+you're gonna see exactly how it works.
+
+00:08:06.210 --> 00:08:09.090
+Even in more thoroughly branded sites.
+
+00:08:09.090 --> 00:08:11.810
+sites that don't have quite as neutral
+
+00:08:11.810 --> 00:08:12.000
+of a brand to something like
+Twitter or the Reuters app.
+
+00:08:12.000 --> 00:08:14.870
+of a brand to something like
+Twitter or the Reuters app.
+
+00:08:14.870 --> 00:08:17.330
+So here's Semplice, I called
+this out in the first unit
+
+00:08:17.330 --> 00:08:18.000
+as being a very fancy site.
+
+00:08:18.000 --> 00:08:19.150
+as being a very fancy site.
+
+00:08:19.150 --> 00:08:21.090
+It has a little bit
+more of a formal brand.
+
+00:08:21.090 --> 00:08:24.000
+Look at that Sarah font
+and a lot of gray scale
+
+00:08:24.000 --> 00:08:24.010
+Look at that Sarah font
+and a lot of gray scale
+
+00:08:24.010 --> 00:08:27.530
+which seems kind of serious
+and yet understated.
+
+00:08:27.530 --> 00:08:29.550
+Again when we count
+this dark gray or black,
+
+00:08:29.550 --> 00:08:30.000
+whatever it is, I think
+it's probably a dark gray.
+
+00:08:30.000 --> 00:08:31.820
+whatever it is, I think
+it's probably a dark gray.
+
+00:08:31.820 --> 00:08:35.670
+When we count all of
+the white and dark gray
+
+00:08:35.670 --> 00:08:36.000
+as part of that gray spectrum,
+
+00:08:36.000 --> 00:08:37.770
+as part of that gray spectrum,
+
+00:08:37.770 --> 00:08:40.430
+we realized that we're
+just looking essentially
+
+00:08:40.430 --> 00:08:42.000
+at a few pops of color.
+
+00:08:42.000 --> 00:08:42.410
+at a few pops of color.
+
+00:08:42.410 --> 00:08:44.350
+And I don't even think
+there's any imagery here.
+
+00:08:44.350 --> 00:08:46.650
+Maybe if we play through
+this video, we'll see it.
+
+00:08:46.650 --> 00:08:48.000
+But it's basically pops
+of color and gray scale.
+
+00:08:48.000 --> 00:08:50.070
+But it's basically pops
+of color and gray scale.
+
+00:08:50.070 --> 00:08:52.880
+And we'll come back at the
+end of this video specifically
+
+00:08:52.880 --> 00:08:54.000
+to the idea of formal and fancy brands
+
+00:08:54.000 --> 00:08:55.650
+to the idea of formal and fancy brands
+
+00:08:55.650 --> 00:08:58.300
+being really well-served
+by the color gray.
+
+00:08:58.300 --> 00:08:59.890
+Here's the techie brand.
+
+00:08:59.890 --> 00:09:00.000
+This is a design for origin
+materials by Brian Powell,
+
+00:09:00.000 --> 00:09:03.440
+This is a design for origin
+materials by Brian Powell,
+
+00:09:03.440 --> 00:09:05.360
+and it's supposed to be kind of technical
+
+00:09:05.360 --> 00:09:06.000
+and engineering focused and
+you know, that kind of thing.
+
+00:09:06.000 --> 00:09:09.140
+and engineering focused and
+you know, that kind of thing.
+
+00:09:09.140 --> 00:09:12.000
+And it's, I mean, super understated here.
+
+00:09:12.000 --> 00:09:12.640
+And it's, I mean, super understated here.
+
+00:09:12.640 --> 00:09:15.840
+You can see, look at these
+dots, feel very technical.
+
+00:09:15.840 --> 00:09:18.000
+Anyhow, as I scroll down,
+pops of color are in arrows,
+
+00:09:18.000 --> 00:09:19.440
+Anyhow, as I scroll down,
+pops of color are in arrows,
+
+00:09:19.440 --> 00:09:22.770
+they're in hover states, but
+basically everything else here,
+
+00:09:22.770 --> 00:09:24.000
+is some shade of gray.
+
+00:09:24.000 --> 00:09:24.530
+is some shade of gray.
+
+00:09:24.530 --> 00:09:27.170
+It's not a very long page
+but my guess is it's exactly
+
+00:09:27.170 --> 00:09:29.520
+the same story on other pages as well.
+
+00:09:29.520 --> 00:09:30.000
+Interestingly enough,
+not that this is required
+
+00:09:30.000 --> 00:09:31.610
+Interestingly enough,
+not that this is required
+
+00:09:31.610 --> 00:09:34.900
+but even the imagery is
+gray scale on this site.
+
+00:09:34.900 --> 00:09:35.900
+So there we go.
+
+00:09:35.900 --> 00:09:36.000
+You could even do a site that's supposed
+
+00:09:36.000 --> 00:09:37.270
+You could even do a site that's supposed
+
+00:09:37.270 --> 00:09:40.120
+to look a lot more
+technical or scientific,
+
+00:09:40.120 --> 00:09:42.000
+and you can use gray scale very heavily
+
+00:09:42.000 --> 00:09:42.150
+and you can use gray scale very heavily
+
+00:09:42.150 --> 00:09:44.240
+with just pops of color and imagery.
+
+00:09:44.240 --> 00:09:45.970
+Now I think quirky brands are kind of one
+
+00:09:45.970 --> 00:09:47.890
+of the other quintessential brands
+
+00:09:47.890 --> 00:09:48.000
+that you need to learn to design for,
+
+00:09:48.000 --> 00:09:50.020
+that you need to learn to design for,
+
+00:09:50.020 --> 00:09:53.040
+and Row 7 Seeds is actually a
+really good example of that.
+
+00:09:53.040 --> 00:09:54.000
+They make kind of these, I
+dunno, seeds for vegetables
+
+00:09:54.000 --> 00:09:56.240
+They make kind of these, I
+dunno, seeds for vegetables
+
+00:09:56.240 --> 00:09:57.780
+that are special in some way.
+
+00:09:57.780 --> 00:10:00.000
+A seed company dedicated to
+deliciousness, there we go.
+
+00:10:00.000 --> 00:10:00.550
+A seed company dedicated to
+deliciousness, there we go.
+
+00:10:00.550 --> 00:10:02.870
+But you can see they really
+have this more artistic,
+
+00:10:02.870 --> 00:10:04.330
+kind of avant-garde take on it,
+
+00:10:04.330 --> 00:10:06.000
+like row separated by this
+huge space and then seven.
+
+00:10:06.000 --> 00:10:07.500
+like row separated by this
+huge space and then seven.
+
+00:10:07.500 --> 00:10:09.200
+That's not, you can tell they're trying
+
+00:10:09.200 --> 00:10:11.310
+to push kind of how they display things,
+
+00:10:11.310 --> 00:10:12.000
+make it more interesting
+or artsy and so on.
+
+00:10:12.000 --> 00:10:13.688
+make it more interesting
+or artsy and so on.
+
+00:10:13.688 --> 00:10:15.840
+And yet, even on this site,
+
+00:10:15.840 --> 00:10:18.000
+which does not feel minimalistic per save,
+
+00:10:18.000 --> 00:10:18.053
+which does not feel minimalistic per save,
+
+00:10:19.390 --> 00:10:22.830
+I still see imagery, white
+text, so that's gray,
+
+00:10:22.830 --> 00:10:24.000
+that counts as gray, imagery, gray, gray,
+
+00:10:24.000 --> 00:10:25.473
+that counts as gray, imagery, gray, gray,
+
+00:10:26.390 --> 00:10:28.030
+some more imagery, which is interesting
+
+00:10:28.030 --> 00:10:30.000
+'cause it's not necessarily
+just in a rectangle
+
+00:10:30.000 --> 00:10:31.710
+'cause it's not necessarily
+just in a rectangle
+
+00:10:31.710 --> 00:10:35.000
+kind of partitioned off as
+one image on the screen,
+
+00:10:35.000 --> 00:10:36.000
+it's sort of splattered
+about but fair enough,
+
+00:10:36.000 --> 00:10:37.060
+it's sort of splattered
+about but fair enough,
+
+00:10:37.060 --> 00:10:39.200
+more gray, more gray, more imagery
+
+00:10:39.200 --> 00:10:42.000
+more of the other imagery,
+gray, gray divider lines,
+
+00:10:42.000 --> 00:10:42.780
+more of the other imagery,
+gray, gray divider lines,
+
+00:10:42.780 --> 00:10:46.470
+gray big lines here, kind of
+a motif echoing what we saw
+
+00:10:46.470 --> 00:10:47.720
+in the title.
+
+00:10:47.720 --> 00:10:48.000
+More imagery, more imagery,
+and gray, blah, blah,
+
+00:10:48.000 --> 00:10:50.610
+More imagery, more imagery,
+and gray, blah, blah,
+
+00:10:50.610 --> 00:10:51.550
+all the way down.
+
+00:10:51.550 --> 00:10:54.000
+So consider this, this site, which again
+
+00:10:54.000 --> 00:10:55.090
+So consider this, this site, which again
+
+00:10:55.090 --> 00:10:57.210
+is as busy as anyone would want,
+
+00:10:57.210 --> 00:10:59.150
+is still just a very basic pattern.
+
+00:10:59.150 --> 00:11:00.000
+You can break it down to
+being gray, plus imagery,
+
+00:11:00.000 --> 00:11:02.440
+You can break it down to
+being gray, plus imagery,
+
+00:11:02.440 --> 00:11:04.950
+plus just a few pops of color.
+
+00:11:04.950 --> 00:11:06.000
+And it's probably worth saying
+that when I refer to gray
+
+00:11:06.000 --> 00:11:08.710
+And it's probably worth saying
+that when I refer to gray
+
+00:11:08.710 --> 00:11:11.270
+sometimes I do talk about
+low saturation colors
+
+00:11:11.270 --> 00:11:12.000
+as being gray, even if they're technically
+
+00:11:12.000 --> 00:11:12.830
+as being gray, even if they're technically
+
+00:11:12.830 --> 00:11:14.570
+kind of an off gray, so to speak.
+
+00:11:14.570 --> 00:11:16.560
+Like I think there is
+some saturation in this.
+
+00:11:16.560 --> 00:11:18.000
+This does not look flat to me.
+
+00:11:18.000 --> 00:11:18.310
+This does not look flat to me.
+
+00:11:18.310 --> 00:11:20.110
+And yet for the purposes of this video,
+
+00:11:20.110 --> 00:11:23.040
+as long as we have something
+that's fairly low saturation
+
+00:11:23.040 --> 00:11:24.000
+like we're effectively
+dealing with a gray.
+
+00:11:24.000 --> 00:11:25.750
+like we're effectively
+dealing with a gray.
+
+00:11:25.750 --> 00:11:27.840
+So when we designed
+black and white, first,
+
+00:11:27.840 --> 00:11:30.000
+all I'm saying to do, is
+to take out the imagery,
+
+00:11:30.000 --> 00:11:31.040
+all I'm saying to do, is
+to take out the imagery,
+
+00:11:31.040 --> 00:11:33.940
+at least at the beginning and
+take out the pops of color
+
+00:11:33.940 --> 00:11:36.000
+and just have that skeleton
+of the site underneath.
+
+00:11:36.000 --> 00:11:36.920
+and just have that skeleton
+of the site underneath.
+
+00:11:36.920 --> 00:11:40.540
+If you can nail the skeleton,
+you're gonna how things look
+
+00:11:40.540 --> 00:11:42.000
+when you add in the pops of color
+
+00:11:42.000 --> 00:11:42.320
+when you add in the pops of color
+
+00:11:42.320 --> 00:11:44.770
+and when you add in the beautiful imagery.
+
+00:11:44.770 --> 00:11:47.850
+Now, one thing worth
+mentioning is that we actually
+
+00:11:47.850 --> 00:11:48.000
+have a word for a design
+that's largely done
+
+00:11:48.000 --> 00:11:49.960
+have a word for a design
+that's largely done
+
+00:11:49.960 --> 00:11:52.940
+in black and white and kind
+of ignores color and imagery.
+
+00:11:52.940 --> 00:11:54.000
+And in designer terms,
+we call the wireframe.
+
+00:11:54.000 --> 00:11:55.610
+And in designer terms,
+we call the wireframe.
+
+00:11:55.610 --> 00:11:57.710
+And if you go to Dribbble
+and you search wireframe,
+
+00:11:57.710 --> 00:12:00.000
+you're gonna find a lot of
+things that in my opinion
+
+00:12:00.000 --> 00:12:00.811
+you're gonna find a lot of
+things that in my opinion
+
+00:12:00.811 --> 00:12:03.310
+are too nice to be wireframes.
+
+00:12:03.310 --> 00:12:05.440
+I'm gonna call them Dribbble wireframe.
+
+00:12:05.440 --> 00:12:06.000
+See, a wireframe is a
+useful tool for designers
+
+00:12:06.000 --> 00:12:09.020
+See, a wireframe is a
+useful tool for designers
+
+00:12:09.020 --> 00:12:10.530
+because it looks bad.
+
+00:12:10.530 --> 00:12:12.000
+Here's an example of one
+that I did some years back.
+
+00:12:12.000 --> 00:12:13.230
+Here's an example of one
+that I did some years back.
+
+00:12:13.230 --> 00:12:15.870
+It's got like everything
+written in Comic Sans
+
+00:12:15.870 --> 00:12:17.937
+and it's got these overly dark borders
+
+00:12:17.937 --> 00:12:18.000
+and it's just, it's really
+intentionally low fidelity.
+
+00:12:18.000 --> 00:12:21.420
+and it's just, it's really
+intentionally low fidelity.
+
+00:12:21.420 --> 00:12:22.650
+And that's for two reasons.
+
+00:12:22.650 --> 00:12:24.000
+One is it's quicker to design that way
+
+00:12:24.000 --> 00:12:24.540
+One is it's quicker to design that way
+
+00:12:24.540 --> 00:12:27.060
+and two, it signals to
+viewers that this is not
+
+00:12:27.060 --> 00:12:30.000
+a final version and you can
+suggest drastic sweeping changes
+
+00:12:30.000 --> 00:12:30.282
+a final version and you can
+suggest drastic sweeping changes
+
+00:12:30.282 --> 00:12:31.660
+if you want.
+
+00:12:31.660 --> 00:12:33.940
+Anyone I show it to is not
+gonna feel bad about saying,
+
+00:12:33.940 --> 00:12:35.820
+hey scrap this and do
+something totally different
+
+00:12:35.820 --> 00:12:36.000
+'cause it doesn't look like
+
+00:12:36.000 --> 00:12:37.340
+'cause it doesn't look like
+
+00:12:37.340 --> 00:12:39.500
+I put my heart and soul into this,
+
+00:12:39.500 --> 00:12:42.000
+but Dribbble wireframes
+can be really nice.
+
+00:12:42.000 --> 00:12:42.490
+but Dribbble wireframes
+can be really nice.
+
+00:12:42.490 --> 00:12:44.090
+And I think that's just kind of the nature
+
+00:12:44.090 --> 00:12:46.060
+of having a social network for designers
+
+00:12:46.060 --> 00:12:47.960
+is people only want to upload things
+
+00:12:47.960 --> 00:12:48.000
+when they look really, really sharp.
+
+00:12:48.000 --> 00:12:49.730
+when they look really, really sharp.
+
+00:12:49.730 --> 00:12:52.140
+But you can think of
+these Dribbble wireframes
+
+00:12:52.140 --> 00:12:54.000
+as being the sort of thing
+that we want to get to
+
+00:12:54.000 --> 00:12:55.200
+as being the sort of thing
+that we want to get to
+
+00:12:55.200 --> 00:12:57.220
+with our own black and
+white first designs.
+
+00:12:57.220 --> 00:12:59.110
+You can go look at a lot
+of these for inspiration
+
+00:12:59.110 --> 00:13:00.000
+and they are linked below.
+
+00:13:00.000 --> 00:13:01.180
+and they are linked below.
+
+00:13:01.180 --> 00:13:02.390
+All right, cool.
+
+00:13:02.390 --> 00:13:04.380
+Now in the interest of staying practical,
+
+00:13:04.380 --> 00:13:05.910
+I'm actually gonna slide on over,
+
+00:13:05.910 --> 00:13:06.000
+and we're gonna do a
+little bit of an example.
+
+00:13:06.000 --> 00:13:07.860
+and we're gonna do a
+little bit of an example.
+
+00:13:07.860 --> 00:13:10.610
+So this is something
+that's maybe a bit closer
+
+00:13:10.610 --> 00:13:12.000
+to a full-on wireframe in
+that everything on here
+
+00:13:12.000 --> 00:13:14.580
+to a full-on wireframe in
+that everything on here
+
+00:13:14.580 --> 00:13:18.000
+is either the default figma
+gray, black, or white.
+
+00:13:18.000 --> 00:13:18.260
+is either the default figma
+gray, black, or white.
+
+00:13:18.260 --> 00:13:20.760
+And we're gonna talk
+about different strategies
+
+00:13:20.760 --> 00:13:24.000
+for sort of using gray in your designs.
+
+00:13:24.000 --> 00:13:24.640
+for sort of using gray in your designs.
+
+00:13:24.640 --> 00:13:25.920
+In particular, I'm gonna talk
+
+00:13:25.920 --> 00:13:27.710
+about seven specific techniques,
+
+00:13:27.710 --> 00:13:30.000
+but I'm gonna touch on
+a whole bunch of ideas.
+
+00:13:30.000 --> 00:13:30.040
+but I'm gonna touch on
+a whole bunch of ideas.
+
+00:13:30.040 --> 00:13:32.220
+Now keep in mind that I
+am starting from a place
+
+00:13:32.220 --> 00:13:34.780
+where the alignment here looks good.
+
+00:13:34.780 --> 00:13:35.980
+Everything's well aligned,
+
+00:13:35.980 --> 00:13:36.000
+the spacing, I think this
+looks like great spacing,
+
+00:13:36.000 --> 00:13:38.830
+the spacing, I think this
+looks like great spacing,
+
+00:13:38.830 --> 00:13:41.150
+consistency wires and it's fine enough
+
+00:13:41.150 --> 00:13:42.000
+for our purposes right now.
+
+00:13:42.000 --> 00:13:42.730
+for our purposes right now.
+
+00:13:42.730 --> 00:13:44.890
+We're just gonna do some
+touch up of the design
+
+00:13:44.890 --> 00:13:47.040
+and as we sort of get all the grays
+
+00:13:47.040 --> 00:13:48.000
+in this design straightened out,
+
+00:13:48.000 --> 00:13:48.730
+in this design straightened out,
+
+00:13:48.730 --> 00:13:51.690
+then you will see what
+exactly it looks like
+
+00:13:51.690 --> 00:13:53.390
+and what sort of
+techniques you'll be using
+
+00:13:53.390 --> 00:13:54.000
+when you design black
+and white first yourself.
+
+00:13:54.000 --> 00:13:55.780
+when you design black
+and white first yourself.
+
+00:13:55.780 --> 00:13:57.200
+All right, so the first
+technique is something
+
+00:13:57.200 --> 00:13:59.180
+that you've probably
+seen me do a whole bunch
+
+00:13:59.180 --> 00:14:00.000
+and I call it the opacity technique.
+
+00:14:00.000 --> 00:14:01.410
+and I call it the opacity technique.
+
+00:14:01.410 --> 00:14:03.732
+It's just like reducing
+the opacity of something
+
+00:14:03.732 --> 00:14:06.000
+to sort of reduce its importance.
+
+00:14:06.000 --> 00:14:06.480
+to sort of reduce its importance.
+
+00:14:06.480 --> 00:14:09.500
+For instance, one place where
+you're gonna do that a lot
+
+00:14:09.500 --> 00:14:11.720
+is when you have non selected elements
+
+00:14:11.720 --> 00:14:12.000
+and a list here, profiles
+is the selected state
+
+00:14:12.000 --> 00:14:13.960
+and a list here, profiles
+is the selected state
+
+00:14:13.960 --> 00:14:16.680
+but inbox models and net
+new are not as important.
+
+00:14:16.680 --> 00:14:18.000
+So I could do something like
+press eight for 80% opacity,
+
+00:14:18.000 --> 00:14:19.408
+So I could do something like
+press eight for 80% opacity,
+
+00:14:19.408 --> 00:14:22.040
+even seven for 70% opacity and it's gonna
+
+00:14:22.040 --> 00:14:23.040
+make them lighter.
+
+00:14:23.040 --> 00:14:24.000
+So that way it's much
+easier to focus on the one
+
+00:14:24.000 --> 00:14:25.670
+So that way it's much
+easier to focus on the one
+
+00:14:25.670 --> 00:14:29.240
+that's fully dark, as with
+like every property in design,
+
+00:14:29.240 --> 00:14:30.000
+I don't wanna go so light
+that these appear kind
+
+00:14:30.000 --> 00:14:31.300
+I don't wanna go so light
+that these appear kind
+
+00:14:31.300 --> 00:14:34.520
+of disabled and unclickable
+and typically that's around 50%
+
+00:14:34.520 --> 00:14:36.000
+compared to whatever the full
+opacity is that you're using.
+
+00:14:36.000 --> 00:14:37.290
+compared to whatever the full
+opacity is that you're using.
+
+00:14:37.290 --> 00:14:39.560
+Here it kind of looks
+like inbox is disabled.
+
+00:14:39.560 --> 00:14:42.000
+So it's usually in that 70 to
+80% range that I like to go.
+
+00:14:42.000 --> 00:14:43.140
+So it's usually in that 70 to
+80% range that I like to go.
+
+00:14:43.140 --> 00:14:44.880
+And Imma do the same
+thing for these tabs here.
+
+00:14:44.880 --> 00:14:47.830
+I can just select all these to seven,
+
+00:14:47.830 --> 00:14:48.000
+perfect it's looking great.
+
+00:14:48.000 --> 00:14:49.540
+perfect it's looking great.
+
+00:14:49.540 --> 00:14:52.470
+Another place where you can
+kind of reduce some of the pop
+
+00:14:52.470 --> 00:14:54.000
+or the visual weight of
+certain elements is...
+
+00:14:54.000 --> 00:14:55.500
+or the visual weight of
+certain elements is...
+
+00:14:55.500 --> 00:14:57.674
+I've got this underline under profiles
+
+00:14:57.674 --> 00:15:00.000
+and yet it's supposed to
+kind of compliment profiles
+
+00:15:00.000 --> 00:15:01.660
+and yet it's supposed to
+kind of compliment profiles
+
+00:15:01.660 --> 00:15:04.680
+and ultimately what I wanna
+do is have it sort of look
+
+00:15:04.680 --> 00:15:06.000
+like it belongs with this
+text, but this is really thick.
+
+00:15:06.000 --> 00:15:07.460
+like it belongs with this
+text, but this is really thick.
+
+00:15:07.460 --> 00:15:10.790
+This is three pixels thick,
+and this text is much thinner.
+
+00:15:10.790 --> 00:15:12.000
+And so to kind of make up
+
+00:15:12.000 --> 00:15:12.180
+And so to kind of make up
+
+00:15:12.180 --> 00:15:15.100
+for its overly beefy thickness here.
+
+00:15:15.100 --> 00:15:16.540
+I'm gonna make it a little bit lighter.
+
+00:15:16.540 --> 00:15:17.373
+Check this out.
+
+00:15:17.373 --> 00:15:18.000
+If I do like 70% here and then zoom out,
+
+00:15:18.000 --> 00:15:20.910
+If I do like 70% here and then zoom out,
+
+00:15:20.910 --> 00:15:23.846
+it actually feels a little bit
+more balanced with profiles.
+
+00:15:23.846 --> 00:15:24.000
+We talk about this in the icons unit too.
+
+00:15:24.000 --> 00:15:26.390
+We talk about this in the icons unit too.
+
+00:15:26.390 --> 00:15:28.527
+We call it drawing with the same pen.
+
+00:15:28.527 --> 00:15:30.000
+In this case, the quote
+unquote pen that drew this
+
+00:15:30.000 --> 00:15:31.730
+In this case, the quote
+unquote pen that drew this
+
+00:15:31.730 --> 00:15:34.430
+is much thicker than
+the pen that wrote this.
+
+00:15:34.430 --> 00:15:36.000
+And so I'm gonna make
+up for that thickness
+
+00:15:36.000 --> 00:15:36.100
+And so I'm gonna make
+up for that thickness
+
+00:15:36.100 --> 00:15:37.540
+by just making a little bit lighter.
+
+00:15:37.540 --> 00:15:38.923
+There's 60% even.
+
+00:15:40.290 --> 00:15:42.000
+And that looks fine too.
+
+00:15:42.000 --> 00:15:42.070
+And that looks fine too.
+
+00:15:42.070 --> 00:15:45.210
+Another prime candidate for
+lightening is little labels
+
+00:15:45.210 --> 00:15:47.750
+or texts that has
+attention grabbing styling
+
+00:15:47.750 --> 00:15:48.000
+applied to it in some way.
+
+00:15:48.000 --> 00:15:49.270
+applied to it in some way.
+
+00:15:49.270 --> 00:15:52.590
+So this profile label on
+the top here is bolder
+
+00:15:52.590 --> 00:15:54.000
+than normal text it's uppercase
+
+00:15:54.000 --> 00:15:54.830
+than normal text it's uppercase
+
+00:15:54.830 --> 00:15:58.430
+and overall I kind want of,
+adjust for that extra styling
+
+00:15:58.430 --> 00:16:00.000
+by making it let's say like 70% opacity.
+
+00:16:00.000 --> 00:16:01.113
+by making it let's say like 70% opacity.
+
+00:16:01.113 --> 00:16:04.320
+And I call this slub styling.
+
+00:16:04.320 --> 00:16:06.000
+Slub means smaller,
+lighter uppercase and bold
+
+00:16:06.000 --> 00:16:07.460
+Slub means smaller,
+lighter uppercase and bold
+
+00:16:07.460 --> 00:16:09.620
+and lighter refers to
+reducing the opacity.
+
+00:16:09.620 --> 00:16:12.000
+Those four properties
+when used in combination
+
+00:16:12.000 --> 00:16:12.340
+Those four properties
+when used in combination
+
+00:16:12.340 --> 00:16:15.200
+can oftentimes look really, really nice.
+
+00:16:15.200 --> 00:16:17.550
+I'm gonna do the same thing
+with these labels right here.
+
+00:16:17.550 --> 00:16:18.000
+I could say something
+like 70% there and yeah
+
+00:16:18.000 --> 00:16:22.140
+I could say something
+like 70% there and yeah
+
+00:16:22.140 --> 00:16:24.000
+that looks a little bit better to me.
+
+00:16:24.000 --> 00:16:24.140
+that looks a little bit better to me.
+
+00:16:24.140 --> 00:16:27.660
+Now, another thing is borders.
+
+00:16:27.660 --> 00:16:30.000
+In the simplicity lesson,
+I talked about borders,
+
+00:16:30.000 --> 00:16:30.640
+In the simplicity lesson,
+I talked about borders,
+
+00:16:30.640 --> 00:16:33.300
+divider lines, subtle background colors.
+
+00:16:33.300 --> 00:16:35.880
+All of this stuff is sort
+of being meta content
+
+00:16:35.880 --> 00:16:36.000
+or meta elements.
+
+00:16:36.000 --> 00:16:37.130
+or meta elements.
+
+00:16:37.130 --> 00:16:39.080
+It doesn't tell me something directly.
+
+00:16:39.080 --> 00:16:40.430
+There there's a border here.
+
+00:16:40.430 --> 00:16:42.000
+It kind of just describes
+that the information
+
+00:16:42.000 --> 00:16:42.950
+It kind of just describes
+that the information
+
+00:16:42.950 --> 00:16:45.990
+within the border is separate
+from the information outside
+
+00:16:45.990 --> 00:16:47.060
+of the border.
+
+00:16:47.060 --> 00:16:48.000
+Doesn't directly convey information.
+
+00:16:48.000 --> 00:16:48.870
+Doesn't directly convey information.
+
+00:16:48.870 --> 00:16:52.300
+It conveys information about
+the content that's in here.
+
+00:16:52.300 --> 00:16:54.000
+So any sort of meta element like ,
+
+00:16:54.000 --> 00:16:55.080
+So any sort of meta element like ,
+
+00:16:55.080 --> 00:16:57.740
+is a prime candidate for
+lightening as we discussed
+
+00:16:57.740 --> 00:16:59.050
+in the simplicity video.
+
+00:16:59.050 --> 00:17:00.000
+I'm gonna go through, I'm
+gonna grab all of these
+
+00:17:00.000 --> 00:17:00.830
+I'm gonna go through, I'm
+gonna grab all of these
+
+00:17:00.830 --> 00:17:03.890
+and I'm just gonna make them
+something like 10% opacity.
+
+00:17:03.890 --> 00:17:06.000
+You can often have them
+be very, very light.
+
+00:17:06.000 --> 00:17:06.163
+You can often have them
+be very, very light.
+
+00:17:06.163 --> 00:17:08.930
+And the reason for that
+is because they only need
+
+00:17:08.930 --> 00:17:12.000
+to be kind of visible
+enough to signal even subtly
+
+00:17:12.000 --> 00:17:12.890
+to be kind of visible
+enough to signal even subtly
+
+00:17:12.890 --> 00:17:16.530
+even unconsciously, that the
+stuff in here is separate
+
+00:17:16.530 --> 00:17:18.000
+from the stuff out there.
+
+00:17:18.000 --> 00:17:18.340
+from the stuff out there.
+
+00:17:18.340 --> 00:17:20.440
+As long as I can kind of
+see that at first glance.
+
+00:17:20.440 --> 00:17:22.080
+I actually don't need
+to worry too much more
+
+00:17:22.080 --> 00:17:24.000
+about exactly how dark or light these are.
+
+00:17:24.000 --> 00:17:25.230
+about exactly how dark or light these are.
+
+00:17:25.230 --> 00:17:27.340
+Now, another huge candidate for lightening
+
+00:17:27.340 --> 00:17:28.930
+is repeated elements.
+
+00:17:28.930 --> 00:17:30.000
+This is also something we
+mentioned briefly in simplicity.
+
+00:17:30.000 --> 00:17:31.760
+This is also something we
+mentioned briefly in simplicity.
+
+00:17:31.760 --> 00:17:34.970
+When I have something
+like this little bar chart
+
+00:17:34.970 --> 00:17:36.000
+that's repeated across all
+these different elements.
+
+00:17:36.000 --> 00:17:37.710
+that's repeated across all
+these different elements.
+
+00:17:37.710 --> 00:17:39.870
+That's nice and if there
+was just one chart,
+
+00:17:39.870 --> 00:17:41.250
+I might leave it quite dark.
+
+00:17:41.250 --> 00:17:42.000
+But when there's all of
+these different charts,
+
+00:17:42.000 --> 00:17:43.060
+But when there's all of
+these different charts,
+
+00:17:43.060 --> 00:17:45.300
+I'm actually gonna
+probably reduce the opacity
+
+00:17:45.300 --> 00:17:47.060
+a little bit here
+because it's not supposed
+
+00:17:47.060 --> 00:17:48.000
+to be the focal point of the page.
+
+00:17:48.000 --> 00:17:48.460
+to be the focal point of the page.
+
+00:17:48.460 --> 00:17:50.200
+I'm gonna find one of
+these things when I need
+
+00:17:50.200 --> 00:17:52.670
+to look at it and I'm gonna
+be able to see this chart.
+
+00:17:52.670 --> 00:17:54.000
+I'm not saying I want it to
+be at like 10% opacity here
+
+00:17:54.000 --> 00:17:55.520
+I'm not saying I want it to
+be at like 10% opacity here
+
+00:17:55.520 --> 00:17:57.670
+but it certainly doesn't
+need to be pure black.
+
+00:17:57.670 --> 00:17:59.260
+You know, now when I
+make a pure black again,
+
+00:17:59.260 --> 00:18:00.000
+it looks way too strong.
+
+00:18:00.000 --> 00:18:01.010
+it looks way too strong.
+
+00:18:01.010 --> 00:18:04.120
+So even if I do something like, 30% or 40%
+
+00:18:04.120 --> 00:18:06.000
+in all likelihood, I'm
+gonna end up coloring
+
+00:18:06.000 --> 00:18:06.410
+in all likelihood, I'm
+gonna end up coloring
+
+00:18:06.410 --> 00:18:08.150
+something like these charts anyways.
+
+00:18:08.150 --> 00:18:09.530
+So I don't need to fret too much
+
+00:18:09.530 --> 00:18:11.590
+about the exact shade of gray.
+
+00:18:11.590 --> 00:18:12.000
+And finally, one other thing
+that I really like to lighten
+
+00:18:12.000 --> 00:18:14.980
+And finally, one other thing
+that I really like to lighten
+
+00:18:14.980 --> 00:18:16.380
+is secondary text.
+
+00:18:16.380 --> 00:18:18.000
+So when I have kind of this primary text,
+
+00:18:18.000 --> 00:18:18.430
+So when I have kind of this primary text,
+
+00:18:18.430 --> 00:18:20.980
+secondary text pattern
+where the secondary text
+
+00:18:20.980 --> 00:18:23.360
+is below could be above,
+or it could be beside
+
+00:18:23.360 --> 00:18:24.000
+but in this case, it's below,
+it's a little bit smaller
+
+00:18:24.000 --> 00:18:25.907
+but in this case, it's below,
+it's a little bit smaller
+
+00:18:25.907 --> 00:18:28.190
+and it's kind of secondary information.
+
+00:18:28.190 --> 00:18:30.000
+I'm just gonna grab
+all of these right here
+
+00:18:30.000 --> 00:18:30.330
+I'm just gonna grab
+all of these right here
+
+00:18:30.330 --> 00:18:33.271
+and bring them down to 70% opacity.
+
+00:18:33.271 --> 00:18:35.910
+Lot of stuff at 70% opacity on this page.
+
+00:18:35.910 --> 00:18:36.000
+But I feel like that's
+kind of a good go-to range.
+
+00:18:36.000 --> 00:18:38.160
+But I feel like that's
+kind of a good go-to range.
+
+00:18:38.160 --> 00:18:39.110
+It's like your first guests
+
+00:18:39.110 --> 00:18:41.240
+and you can fail left,
+fail right around it
+
+00:18:41.240 --> 00:18:42.000
+but 70% is often a
+fairly good value to use.
+
+00:18:42.000 --> 00:18:44.940
+but 70% is often a
+fairly good value to use.
+
+00:18:44.940 --> 00:18:47.160
+Now because I'm talking
+about the opacity technique
+
+00:18:47.160 --> 00:18:48.000
+in particular right here.
+
+00:18:48.000 --> 00:18:48.670
+in particular right here.
+
+00:18:48.670 --> 00:18:50.900
+I should say that when
+you hand over a design
+
+00:18:50.900 --> 00:18:53.640
+to the developer, I've been asked like,
+
+00:18:53.640 --> 00:18:54.000
+should I actually tell
+them to use this same shade
+
+00:18:54.000 --> 00:18:56.240
+should I actually tell
+them to use this same shade
+
+00:18:56.240 --> 00:18:58.030
+of it's just black?
+
+00:18:58.030 --> 00:19:00.000
+Should I have them use
+black and 70% opacity,
+
+00:19:00.000 --> 00:19:00.670
+Should I have them use
+black and 70% opacity,
+
+00:19:00.670 --> 00:19:02.940
+or should I just direct
+them to use the color
+
+00:19:02.940 --> 00:19:06.000
+that is output when black
+is made to be 70% opacity?
+
+00:19:06.000 --> 00:19:07.930
+that is output when black
+is made to be 70% opacity?
+
+00:19:07.930 --> 00:19:10.590
+And in this case, I mean, we could see
+
+00:19:10.590 --> 00:19:12.000
+what that would look like, by going here.
+
+00:19:12.000 --> 00:19:12.780
+what that would look like, by going here.
+
+00:19:12.780 --> 00:19:15.270
+And it's four D, four D, four D.
+
+00:19:15.270 --> 00:19:17.950
+in my opinion it doesn't
+matter a whole ton.
+
+00:19:17.950 --> 00:19:18.000
+I think on my own sites,
+
+00:19:18.000 --> 00:19:19.220
+I think on my own sites,
+
+00:19:19.220 --> 00:19:21.190
+I typically will have the base color
+
+00:19:21.190 --> 00:19:23.350
+have different opacities,
+four different versions
+
+00:19:23.350 --> 00:19:24.000
+of the text.
+
+00:19:24.000 --> 00:19:24.183
+of the text.
+
+00:19:24.183 --> 00:19:26.510
+But one of the reasons that
+works or one of the conditions
+
+00:19:26.510 --> 00:19:30.000
+for it working is this
+text test to only appear
+
+00:19:30.000 --> 00:19:30.020
+for it working is this
+text test to only appear
+
+00:19:30.020 --> 00:19:32.070
+on gray backgrounds.
+
+00:19:32.070 --> 00:19:36.000
+If I have a somewhat
+transparent layer of a dark gray
+
+00:19:36.000 --> 00:19:36.210
+If I have a somewhat
+transparent layer of a dark gray
+
+00:19:36.210 --> 00:19:38.460
+or black, that appears
+on a colored background
+
+00:19:38.460 --> 00:19:40.280
+that can be a little bit
+weirder of a combination.
+
+00:19:40.280 --> 00:19:42.000
+And I might wanna specifically
+hand adjust that color.
+
+00:19:42.000 --> 00:19:43.690
+And I might wanna specifically
+hand adjust that color.
+
+00:19:43.690 --> 00:19:45.820
+But if I know that this
+text is always gonna appear
+
+00:19:45.820 --> 00:19:48.000
+on light gray or white,
+then I have no problem
+
+00:19:48.000 --> 00:19:48.380
+on light gray or white,
+then I have no problem
+
+00:19:48.380 --> 00:19:51.250
+saying, yeah just take the
+base color black in this case
+
+00:19:51.250 --> 00:19:54.000
+and make it a lighter variation of that.
+
+00:19:54.000 --> 00:19:54.462
+and make it a lighter variation of that.
+
+00:19:54.462 --> 00:19:56.380
+The second technique I'm gonna talk about
+
+00:19:56.380 --> 00:19:58.900
+is called thee just
+barely colored technique,
+
+00:19:58.900 --> 00:20:00.000
+and this whole idea
+references the fact that
+
+00:20:00.000 --> 00:20:01.240
+and this whole idea
+references the fact that
+
+00:20:01.240 --> 00:20:04.080
+in the real world, if you look
+at a photograph or something
+
+00:20:04.080 --> 00:20:06.000
+you're almost never going
+to be seeing pure black
+
+00:20:06.000 --> 00:20:07.340
+you're almost never going
+to be seeing pure black
+
+00:20:07.340 --> 00:20:10.380
+just like this, bringing
+that photograph into figma,
+
+00:20:10.380 --> 00:20:12.000
+pull up your color picker
+and see what colors there're.
+
+00:20:12.000 --> 00:20:12.630
+pull up your color picker
+and see what colors there're.
+
+00:20:12.630 --> 00:20:15.310
+And you're gonna notice that
+the grays are always saturated
+
+00:20:15.310 --> 00:20:17.153
+and almost always the darker they go
+
+00:20:17.153 --> 00:20:18.000
+, the more saturated they get.
+
+00:20:18.000 --> 00:20:19.280
+, the more saturated they get.
+
+00:20:19.280 --> 00:20:20.930
+Now, it's totally possible to say,
+
+00:20:20.930 --> 00:20:22.829
+hey, I'm gonna make a site
+
+00:20:22.829 --> 00:20:24.000
+that just will appear super, super stark
+
+00:20:24.000 --> 00:20:24.290
+that just will appear super, super stark
+
+00:20:24.290 --> 00:20:27.890
+and I'm gonna stick with a
+default black, black text.
+
+00:20:27.890 --> 00:20:30.000
+But, in kind of reference
+to the real world
+
+00:20:30.000 --> 00:20:31.520
+But, in kind of reference
+to the real world
+
+00:20:31.520 --> 00:20:33.870
+and how color works, and
+how our eyes are used
+
+00:20:33.870 --> 00:20:35.090
+to perceiving things.
+
+00:20:35.090 --> 00:20:36.000
+A lot of times we will not
+include flat totally pure black
+
+00:20:36.000 --> 00:20:39.490
+A lot of times we will not
+include flat totally pure black
+
+00:20:39.490 --> 00:20:40.323
+in our designs.
+
+00:20:40.323 --> 00:20:41.810
+And instead we'll sat, we'll make it
+
+00:20:41.810 --> 00:20:42.000
+a little bit more bright and
+a little bit more saturated.
+
+00:20:42.000 --> 00:20:45.280
+a little bit more bright and
+a little bit more saturated.
+
+00:20:45.280 --> 00:20:47.610
+And that's what the just
+barely color technique is.
+
+00:20:47.610 --> 00:20:48.000
+Now, one way that I recommend
+doing this, is let's say
+
+00:20:48.000 --> 00:20:50.440
+Now, one way that I recommend
+doing this, is let's say
+
+00:20:50.440 --> 00:20:53.400
+I just select all the
+layers here, on this screen.
+
+00:20:53.400 --> 00:20:54.000
+And figma is gonna show me all the colors
+
+00:20:54.000 --> 00:20:55.400
+And figma is gonna show me all the colors
+
+00:20:55.400 --> 00:20:57.250
+of everything that I have selected.
+
+00:20:57.250 --> 00:20:59.410
+Of course, it's just a
+couple of colors right here.
+
+00:20:59.410 --> 00:21:00.000
+To use the just barely colored technique.
+
+00:21:00.000 --> 00:21:01.860
+To use the just barely colored technique.
+
+00:21:01.860 --> 00:21:04.130
+What I'm gonna do is I'm gonna
+take all these black layers.
+
+00:21:04.130 --> 00:21:05.207
+This is gonna reference all the black
+
+00:21:05.207 --> 00:21:06.000
+and the layers I've selected here.
+
+00:21:06.000 --> 00:21:07.220
+and the layers I've selected here.
+
+00:21:07.220 --> 00:21:09.870
+And I'm gonna go, let's say,
+this is our theme color.
+
+00:21:09.870 --> 00:21:11.600
+I'm just gonna make it a theme color.
+
+00:21:11.600 --> 00:21:12.000
+Now, obviously this is
+not what I wanna do.
+
+00:21:12.000 --> 00:21:13.670
+Now, obviously this is
+not what I wanna do.
+
+00:21:13.670 --> 00:21:15.100
+Although it looks kind of interesting,
+
+00:21:15.100 --> 00:21:17.240
+but step one is I'm gonna
+start with a theme color
+
+00:21:17.240 --> 00:21:18.000
+that I wanna saturate in.
+
+00:21:18.000 --> 00:21:19.410
+that I wanna saturate in.
+
+00:21:19.410 --> 00:21:21.940
+And then step two is I'm
+gonna set the saturation
+
+00:21:21.940 --> 00:21:23.010
+and brightness to zero.
+
+00:21:23.010 --> 00:21:24.000
+So the hue doesn't change.
+
+00:21:24.000 --> 00:21:24.290
+So the hue doesn't change.
+
+00:21:24.290 --> 00:21:25.460
+The hue is still 191.
+
+00:21:25.460 --> 00:21:27.700
+I'm still looking at kind of
+this teal thing right here,
+
+00:21:27.700 --> 00:21:30.000
+but the saturation and the
+brightness are both zero.
+
+00:21:30.000 --> 00:21:30.320
+but the saturation and the
+brightness are both zero.
+
+00:21:30.320 --> 00:21:32.772
+Now what I'm gonna do
+is I'm just gonna sort
+
+00:21:32.772 --> 00:21:33.930
+of adjust the brightness up.
+
+00:21:33.930 --> 00:21:36.000
+If I go too far with it,
+it's too light of a design.
+
+00:21:36.000 --> 00:21:36.610
+If I go too far with it,
+it's too light of a design.
+
+00:21:36.610 --> 00:21:38.920
+And if I don't go far enough,
+then it's still just kind
+
+00:21:38.920 --> 00:21:40.040
+of a flat black.
+
+00:21:40.040 --> 00:21:42.000
+But I'm gonna bring that brightness up
+
+00:21:42.000 --> 00:21:45.223
+until I feel like I'm kind of
+at a good middle ground here.
+
+00:21:46.540 --> 00:21:48.000
+So maybe something like in the
+25% brightness range is good.
+
+00:21:48.000 --> 00:21:51.100
+So maybe something like in the
+25% brightness range is good.
+
+00:21:51.100 --> 00:21:54.000
+Now step four is I'm
+gonna add in saturation
+
+00:21:54.000 --> 00:21:54.033
+Now step four is I'm
+gonna add in saturation
+
+00:21:54.033 --> 00:21:56.420
+until it's just barely colored.
+
+00:21:56.420 --> 00:21:58.300
+And this is kind of the
+name of the technique.
+
+00:21:58.300 --> 00:21:59.830
+I'm just gonna add in that saturation
+
+00:21:59.830 --> 00:22:00.000
+until I feel like I'm just
+giving off those subtle vibes
+
+00:22:00.000 --> 00:22:02.930
+until I feel like I'm just
+giving off those subtle vibes
+
+00:22:02.930 --> 00:22:04.220
+of this teal.
+
+00:22:04.220 --> 00:22:06.000
+Now it's up to me, how
+far I wanna go with this.
+
+00:22:06.000 --> 00:22:06.754
+Now it's up to me, how
+far I wanna go with this.
+
+00:22:06.754 --> 00:22:10.530
+I could have some pretty dark
+and quite saturated texts
+
+00:22:10.530 --> 00:22:12.000
+but I think it's almost better to stick
+
+00:22:12.000 --> 00:22:12.650
+but I think it's almost better to stick
+
+00:22:12.650 --> 00:22:15.310
+where there's just a hint of color.
+
+00:22:15.310 --> 00:22:17.010
+And it feels like kind of a good trade-off
+
+00:22:17.010 --> 00:22:18.000
+between something that is
+stayed and boring enough
+
+00:22:18.000 --> 00:22:19.900
+between something that is
+stayed and boring enough
+
+00:22:19.900 --> 00:22:23.250
+to be just the text in this business app,
+
+00:22:23.250 --> 00:22:24.000
+but also just has these subtle vibes
+
+00:22:24.000 --> 00:22:25.910
+but also just has these subtle vibes
+
+00:22:25.910 --> 00:22:28.350
+of a cool color coming through.
+
+00:22:28.350 --> 00:22:30.000
+So I could go, grab this color
+here and, maybe I paste it,
+
+00:22:30.000 --> 00:22:33.350
+So I could go, grab this color
+here and, maybe I paste it,
+
+00:22:34.840 --> 00:22:36.000
+and have the opportunity
+to make another variation
+
+00:22:36.000 --> 00:22:37.150
+and have the opportunity
+to make another variation
+
+00:22:37.150 --> 00:22:39.720
+where the figma gray was.
+
+00:22:39.720 --> 00:22:42.000
+This time though, I'm going to...
+
+00:22:42.000 --> 00:22:43.130
+This time though, I'm going to...
+
+00:22:43.130 --> 00:22:46.510
+Let's see, start with
+black but the brightness
+
+00:22:46.510 --> 00:22:48.000
+is gonna have to come up much higher here.
+
+00:22:48.000 --> 00:22:49.550
+is gonna have to come up much higher here.
+
+00:22:49.550 --> 00:22:52.640
+So maybe I'll do something
+like brightness of 90
+
+00:22:52.640 --> 00:22:54.000
+would be good here and
+then add in a little bit
+
+00:22:54.000 --> 00:22:55.640
+would be good here and
+then add in a little bit
+
+00:22:55.640 --> 00:22:58.300
+of saturation because the
+brightness is so high.
+
+00:22:58.300 --> 00:23:00.000
+I don't need to add in
+very much saturation.
+
+00:23:00.000 --> 00:23:00.720
+I don't need to add in
+very much saturation.
+
+00:23:00.720 --> 00:23:02.970
+Remember that from the HSB lesson.
+
+00:23:02.970 --> 00:23:05.920
+I'll probably just add
+in a saturation of three
+
+00:23:05.920 --> 00:23:06.000
+and call it day there.
+
+00:23:06.000 --> 00:23:07.313
+and call it day there.
+
+00:23:08.500 --> 00:23:11.370
+Now this technique might sound
+kind of strange and useless
+
+00:23:11.370 --> 00:23:12.000
+but it's actually really common.
+
+00:23:12.000 --> 00:23:13.367
+but it's actually really common.
+
+00:23:13.367 --> 00:23:15.590
+And it's something that if you're not used
+
+00:23:15.590 --> 00:23:16.670
+to designing yourself,
+
+00:23:16.670 --> 00:23:18.000
+you're probably never gonna notice it.
+
+00:23:18.000 --> 00:23:18.640
+you're probably never gonna notice it.
+
+00:23:18.640 --> 00:23:20.510
+But if I go to this Twitter example
+
+00:23:20.510 --> 00:23:22.220
+and I'm just gonna make a square of color,
+
+00:23:22.220 --> 00:23:24.000
+I'm gonna capture their
+theme color in one square.
+
+00:23:24.000 --> 00:23:25.180
+I'm gonna capture their
+theme color in one square.
+
+00:23:25.180 --> 00:23:29.500
+I'm gonna capture their
+dark text color right here.
+
+00:23:29.500 --> 00:23:30.000
+I'm gonna grab their...
+
+00:23:30.000 --> 00:23:31.020
+I'm gonna grab their...
+
+00:23:32.790 --> 00:23:35.100
+Thinner texts color right there.
+
+00:23:35.100 --> 00:23:36.000
+It's kind of a secondary color.
+
+00:23:36.000 --> 00:23:37.010
+It's kind of a secondary color.
+
+00:23:37.010 --> 00:23:40.230
+And let's also get, they've
+got this lighter color
+
+00:23:40.230 --> 00:23:42.000
+for this little dot, dot, right there.
+
+00:23:42.000 --> 00:23:42.040
+for this little dot, dot, right there.
+
+00:23:42.040 --> 00:23:43.097
+Let's grab all these.
+
+00:23:43.097 --> 00:23:45.770
+All right, let's check this
+out folks, what do we got here?
+
+00:23:45.770 --> 00:23:48.000
+Hue of 201, that's really the
+main thing we're looking at.
+
+00:23:48.000 --> 00:23:48.160
+Hue of 201, that's really the
+main thing we're looking at.
+
+00:23:48.160 --> 00:23:48.993
+What's this?
+
+00:23:48.993 --> 00:23:51.010
+A hue of 210, that's pretty close.
+
+00:23:51.010 --> 00:23:54.000
+It's not spot on, but
+that's not coincidence.
+
+00:23:54.000 --> 00:23:54.420
+It's not spot on, but
+that's not coincidence.
+
+00:23:54.420 --> 00:23:59.150
+A hue of 205, that's even
+closer, and a hue of 203.
+
+00:23:59.150 --> 00:24:00.000
+What Twitter has done here,
+without us even really noticing,
+
+00:24:00.000 --> 00:24:02.800
+What Twitter has done here,
+without us even really noticing,
+
+00:24:02.800 --> 00:24:04.500
+is they've taken their theme color
+
+00:24:04.500 --> 00:24:06.000
+and they've, ever so gently
+saturated all of the texts
+
+00:24:06.000 --> 00:24:08.410
+and they've, ever so gently
+saturated all of the texts
+
+00:24:08.410 --> 00:24:11.623
+on their whole app with the
+hue of that theme color.
+
+00:24:12.480 --> 00:24:13.320
+Now, this is not to say,
+
+00:24:13.320 --> 00:24:16.250
+you always have to use the
+just barely colored technique
+
+00:24:16.250 --> 00:24:17.730
+in the hue of your theme color.
+
+00:24:17.730 --> 00:24:18.000
+You could also have the text be saturated
+
+00:24:18.000 --> 00:24:20.090
+You could also have the text be saturated
+
+00:24:20.090 --> 00:24:23.270
+in some other theme color,
+but if you do kind of,
+
+00:24:23.270 --> 00:24:24.000
+be consistent about this, it's just gonna
+
+00:24:24.000 --> 00:24:25.710
+be consistent about this, it's just gonna
+
+00:24:25.710 --> 00:24:28.010
+have a more subtle, consistent vibe.
+
+00:24:28.010 --> 00:24:30.000
+And to be fair, not having a
+totally harsh black color here.
+
+00:24:30.000 --> 00:24:31.550
+And to be fair, not having a
+totally harsh black color here.
+
+00:24:31.550 --> 00:24:33.027
+Instead, we have a
+little brightness of 10%
+
+00:24:33.027 --> 00:24:34.840
+and there's some saturation baked in.
+
+00:24:34.840 --> 00:24:36.000
+That's just gonna feel a little bit easier
+
+00:24:36.000 --> 00:24:36.580
+That's just gonna feel a little bit easier
+
+00:24:36.580 --> 00:24:39.613
+on the eyes than if everything
+was just that flat black.
+
+00:24:42.040 --> 00:24:44.010
+All right, this is maybe a
+bit silly, but I'm actually
+
+00:24:44.010 --> 00:24:47.100
+just going to reduce the
+brightness of this a little bit.
+
+00:24:47.100 --> 00:24:48.000
+So it stands out better
+against the background up here.
+
+00:24:48.000 --> 00:24:50.990
+So it stands out better
+against the background up here.
+
+00:24:50.990 --> 00:24:53.480
+And from here, we're gonna
+move on to our third technique.
+
+00:24:53.480 --> 00:24:54.000
+The elevation technique.
+
+00:24:54.000 --> 00:24:55.580
+The elevation technique.
+
+00:24:55.580 --> 00:24:59.120
+Gray is a super useful color
+for conveying elevation.
+
+00:24:59.120 --> 00:25:00.000
+And if you've seen the
+lighting and shadows video,
+
+00:25:00.000 --> 00:25:01.380
+And if you've seen the
+lighting and shadows video,
+
+00:25:01.380 --> 00:25:03.280
+none of this is gonna be news to you,
+
+00:25:03.280 --> 00:25:06.000
+but we'll just kind of work
+out some elevation details
+
+00:25:06.000 --> 00:25:06.380
+but we'll just kind of work
+out some elevation details
+
+00:25:06.380 --> 00:25:08.080
+in this app right here.
+
+00:25:08.080 --> 00:25:10.990
+Now let's say because of a
+constraint on another page
+
+00:25:10.990 --> 00:25:12.000
+or the other pages in this
+app, we know that we want all
+
+00:25:12.000 --> 00:25:14.410
+or the other pages in this
+app, we know that we want all
+
+00:25:14.410 --> 00:25:17.290
+of this body content
+to be in its own card.
+
+00:25:17.290 --> 00:25:18.000
+That sort of separated
+from the background.
+
+00:25:18.000 --> 00:25:19.290
+That sort of separated
+from the background.
+
+00:25:19.290 --> 00:25:22.740
+That is by the way, a
+totally realistic thing
+
+00:25:22.740 --> 00:25:24.000
+to have happen.
+
+00:25:24.000 --> 00:25:24.200
+to have happen.
+
+00:25:24.200 --> 00:25:26.300
+I might think, hey this
+design looks pretty good,
+
+00:25:26.300 --> 00:25:29.250
+all by itself but then
+because of the constraint
+
+00:25:29.250 --> 00:25:30.000
+of some other page.
+
+00:25:30.000 --> 00:25:30.550
+of some other page.
+
+00:25:30.550 --> 00:25:34.480
+I actually need to adjust it,
+such that all of this content
+
+00:25:34.480 --> 00:25:36.000
+is on a card that otherwise
+isn't strictly necessary.
+
+00:25:36.000 --> 00:25:37.760
+is on a card that otherwise
+isn't strictly necessary.
+
+00:25:37.760 --> 00:25:38.920
+So I'm gonna take this layer.
+
+00:25:38.920 --> 00:25:39.753
+I'm gonna lock it.
+
+00:25:39.753 --> 00:25:41.890
+We've got our card, let's move this in.
+
+00:25:41.890 --> 00:25:42.000
+We'll just move it, something like,
+
+00:25:42.000 --> 00:25:43.563
+We'll just move it, something like,
+
+00:25:44.450 --> 00:25:46.563
+10 pixels in or whatever that was.
+
+00:25:47.900 --> 00:25:48.000
+This is in 16 already.
+
+00:25:48.000 --> 00:25:49.653
+This is in 16 already.
+
+00:25:52.910 --> 00:25:54.000
+I could take my columns,
+reduce them there.
+
+00:25:54.000 --> 00:25:55.583
+I could take my columns,
+reduce them there.
+
+00:26:00.070 --> 00:26:02.240
+So if you've watched the
+lighting and shadows video,
+
+00:26:02.240 --> 00:26:04.590
+this should already be a
+little bit frustrating to you
+
+00:26:04.590 --> 00:26:06.000
+because you should know that
+to make something appear
+
+00:26:06.000 --> 00:26:07.300
+because you should know that
+to make something appear
+
+00:26:07.300 --> 00:26:10.360
+kind of raised up above the
+surface of its background.
+
+00:26:10.360 --> 00:26:12.000
+Like this card should be
+compared to this background.
+
+00:26:12.000 --> 00:26:12.900
+Like this card should be
+compared to this background.
+
+00:26:12.900 --> 00:26:16.570
+You want to make the
+surface as raised up lighter
+
+00:26:16.570 --> 00:26:18.000
+and the background a little bit darker.
+
+00:26:18.000 --> 00:26:19.000
+and the background a little bit darker.
+
+00:26:19.000 --> 00:26:21.010
+This was kind of an
+interesting realization for me
+
+00:26:21.010 --> 00:26:23.520
+as a beginning designer,
+because I just sort of assumed
+
+00:26:23.520 --> 00:26:24.000
+that even light backgrounds
+were almost basically just white
+
+00:26:24.000 --> 00:26:26.800
+that even light backgrounds
+were almost basically just white
+
+00:26:26.800 --> 00:26:29.970
+and yet it's not at all
+crazy to have let's say
+
+00:26:29.970 --> 00:26:30.000
+a 97% brightness gray background.
+
+00:26:30.000 --> 00:26:32.770
+a 97% brightness gray background.
+
+00:26:32.770 --> 00:26:35.010
+And in fact, you could
+probably visit some sites
+
+00:26:35.010 --> 00:26:36.000
+and not even know that
+there's a difference
+
+00:26:36.000 --> 00:26:36.860
+and not even know that
+there's a difference
+
+00:26:36.860 --> 00:26:38.960
+that the background isn't just pure white.
+
+00:26:40.280 --> 00:26:42.000
+So that covers the background right there.
+
+00:26:42.000 --> 00:26:42.100
+So that covers the background right there.
+
+00:26:42.100 --> 00:26:43.330
+Now let's make our card.
+
+00:26:43.330 --> 00:26:45.643
+We're actually just gonna
+bring it to be pure white.
+
+00:26:46.950 --> 00:26:48.000
+There's nothing that
+really needs to be raised
+
+00:26:48.000 --> 00:26:48.510
+There's nothing that
+really needs to be raised
+
+00:26:48.510 --> 00:26:49.370
+above this card.
+
+00:26:49.370 --> 00:26:50.870
+So that should work just fine.
+
+00:26:52.630 --> 00:26:54.000
+But now we have kind of
+a weird scenario here
+
+00:26:54.000 --> 00:26:55.480
+But now we have kind of
+a weird scenario here
+
+00:26:55.480 --> 00:26:58.790
+because the background
+background is 97% brightness.
+
+00:26:58.790 --> 00:27:00.000
+And the darker we make
+this, the more apparent
+
+00:27:00.000 --> 00:27:00.740
+And the darker we make
+this, the more apparent
+
+00:27:00.740 --> 00:27:02.150
+the effect is gonna be.
+
+00:27:02.150 --> 00:27:04.500
+But then we get darker for the background
+
+00:27:04.500 --> 00:27:05.470
+of these tabs here.
+
+00:27:05.470 --> 00:27:06.000
+And then we get even
+lighter, oh, 98% brightness.
+
+00:27:06.000 --> 00:27:08.250
+And then we get even
+lighter, oh, 98% brightness.
+
+00:27:08.250 --> 00:27:09.083
+That's not right.
+
+00:27:09.083 --> 00:27:11.040
+This needs to be pure white.
+
+00:27:11.040 --> 00:27:11.873
+There we go.
+
+00:27:11.873 --> 00:27:12.000
+What did I say about not
+noticing some of these things.
+
+00:27:12.000 --> 00:27:14.020
+What did I say about not
+noticing some of these things.
+
+00:27:14.020 --> 00:27:15.850
+But the point is we go from this 97
+
+00:27:15.850 --> 00:27:18.000
+to a slightly darker
+color, to then a white
+
+00:27:18.000 --> 00:27:18.360
+to a slightly darker
+color, to then a white
+
+00:27:18.360 --> 00:27:20.020
+that's even brighter.
+
+00:27:20.020 --> 00:27:22.130
+And that's not the end of
+the world from the context
+
+00:27:22.130 --> 00:27:23.360
+of this tab control.
+
+00:27:23.360 --> 00:27:24.000
+I can probably more or less tell
+
+00:27:24.000 --> 00:27:25.680
+I can probably more or less tell
+
+00:27:25.680 --> 00:27:28.300
+that this tab like floats above,
+
+00:27:28.300 --> 00:27:29.900
+and it's kind of part of the card element
+
+00:27:29.900 --> 00:27:30.000
+rather than the background.
+
+00:27:30.000 --> 00:27:31.250
+rather than the background.
+
+00:27:31.250 --> 00:27:35.270
+But still the more consistent
+I can be with higher up colors
+
+00:27:35.270 --> 00:27:36.000
+being a lighter and lower
+down colors being darker.
+
+00:27:36.000 --> 00:27:38.710
+being a lighter and lower
+down colors being darker.
+
+00:27:38.710 --> 00:27:42.000
+Even if it's a subtle change,
+the better it's gonna look.
+
+00:27:42.000 --> 00:27:42.790
+Even if it's a subtle change,
+the better it's gonna look.
+
+00:27:42.790 --> 00:27:44.110
+So I like this even better.
+
+00:27:44.110 --> 00:27:46.150
+I could do something
+like a 95% brightness,
+
+00:27:46.150 --> 00:27:47.170
+with this increased brightness.
+
+00:27:47.170 --> 00:27:48.000
+I have to bring the saturation
+down a point though.
+
+00:27:48.000 --> 00:27:49.580
+I have to bring the saturation
+down a point though.
+
+00:27:49.580 --> 00:27:51.470
+But now we're running
+into a whole other issue,
+
+00:27:51.470 --> 00:27:53.890
+and you can see it on the sides here.
+
+00:27:53.890 --> 00:27:54.000
+And now you can see it on the top too.
+
+00:27:54.000 --> 00:27:55.780
+And now you can see it on the top too.
+
+00:27:55.780 --> 00:27:58.740
+These colors are like all
+really similar, right?
+
+00:27:58.740 --> 00:28:00.000
+97% brightness, 95, a 100% brightness.
+
+00:28:00.000 --> 00:28:02.320
+97% brightness, 95, a 100% brightness.
+
+00:28:02.320 --> 00:28:05.360
+How like when you look at
+them, there's some borders
+
+00:28:05.360 --> 00:28:06.000
+where when I focus on them,
+it's kind of difficult
+
+00:28:06.000 --> 00:28:07.250
+where when I focus on them,
+it's kind of difficult
+
+00:28:07.250 --> 00:28:10.070
+for my eye because the
+colors are so similar
+
+00:28:10.070 --> 00:28:12.000
+that when I zoom in, it's
+maybe not hard to see,
+
+00:28:12.000 --> 00:28:12.540
+that when I zoom in, it's
+maybe not hard to see,
+
+00:28:12.540 --> 00:28:14.830
+but overall, it just kind
+of stresses out your eye
+
+00:28:14.830 --> 00:28:18.000
+to have to peer so intently to
+see where one color deviates
+
+00:28:18.000 --> 00:28:18.410
+to have to peer so intently to
+see where one color deviates
+
+00:28:18.410 --> 00:28:19.450
+to another color.
+
+00:28:19.450 --> 00:28:21.570
+And that's why we use
+the fourth technique,
+
+00:28:21.570 --> 00:28:23.900
+which is what I call the border technique.
+
+00:28:23.900 --> 00:28:24.000
+And all this refers to really,
+it's not that ingenious
+
+00:28:24.000 --> 00:28:27.053
+And all this refers to really,
+it's not that ingenious
+
+00:28:27.053 --> 00:28:29.797
+of a name here is adding borders,
+
+00:28:29.797 --> 00:28:30.000
+to help your eye distinguish
+
+00:28:30.000 --> 00:28:31.630
+to help your eye distinguish
+
+00:28:31.630 --> 00:28:33.680
+where subtle color changes happen.
+
+00:28:33.680 --> 00:28:35.910
+So when I have some subtle
+background color change.
+
+00:28:35.910 --> 00:28:36.000
+I can just add a border and
+that's gonna make things
+
+00:28:36.000 --> 00:28:38.240
+I can just add a border and
+that's gonna make things
+
+00:28:38.240 --> 00:28:39.240
+a lot better.
+
+00:28:39.240 --> 00:28:42.000
+Let's go into stroke here and
+I'm gonna grab my default,
+
+00:28:42.000 --> 00:28:43.880
+Let's go into stroke here and
+I'm gonna grab my default,
+
+00:28:43.880 --> 00:28:46.730
+kind of dark, dark slate right there.
+
+00:28:46.730 --> 00:28:48.000
+And I can bring the opacity easily down
+
+00:28:48.000 --> 00:28:48.870
+And I can bring the opacity easily down
+
+00:28:48.870 --> 00:28:50.020
+to something like 10%.
+
+00:28:50.020 --> 00:28:51.810
+Again, this is sort of a meta element.
+
+00:28:51.810 --> 00:28:54.000
+It doesn't need to have
+much going on for it
+
+00:28:54.000 --> 00:28:54.470
+It doesn't need to have
+much going on for it
+
+00:28:54.470 --> 00:28:56.090
+in terms of attracting attention,
+
+00:28:56.090 --> 00:28:58.650
+but it's just there to
+make it a little bit easier
+
+00:28:58.650 --> 00:29:00.000
+to see where you switch
+from that 97% brightness,
+
+00:29:00.000 --> 00:29:01.800
+to see where you switch
+from that 97% brightness,
+
+00:29:01.800 --> 00:29:04.780
+group down and 90 and
+bounce back up to a hundred.
+
+00:29:04.780 --> 00:29:06.000
+That's gonna make it way easier
+
+00:29:06.000 --> 00:29:06.500
+That's gonna make it way easier
+
+00:29:06.500 --> 00:29:08.770
+to see where these things are happening.
+
+00:29:08.770 --> 00:29:11.130
+Likewise, I'm gonna do
+something else with this design.
+
+00:29:11.130 --> 00:29:12.000
+Let's say we kind of isolated these cards
+
+00:29:12.000 --> 00:29:13.660
+Let's say we kind of isolated these cards
+
+00:29:13.660 --> 00:29:15.423
+and they were floating here,
+
+00:29:16.670 --> 00:29:18.000
+and there was a background color.
+
+00:29:18.000 --> 00:29:18.760
+and there was a background color.
+
+00:29:18.760 --> 00:29:20.290
+The cards were floating on,
+
+00:29:20.290 --> 00:29:22.140
+and have to make them white, one sec.
+
+00:29:28.580 --> 00:29:30.000
+If I have another background
+color change right here
+
+00:29:30.000 --> 00:29:31.140
+If I have another background
+color change right here
+
+00:29:31.140 --> 00:29:34.900
+for some reason, then that's
+like just one more instance
+
+00:29:34.900 --> 00:29:36.000
+where adding a border is going
+to help make that difference
+
+00:29:36.000 --> 00:29:38.660
+where adding a border is going
+to help make that difference
+
+00:29:38.660 --> 00:29:41.490
+between the two background
+colors, a little more clear.
+
+00:29:41.490 --> 00:29:42.000
+So I could do that there,
+by the way I'm gonna give
+
+00:29:42.000 --> 00:29:43.900
+So I could do that there,
+by the way I'm gonna give
+
+00:29:43.900 --> 00:29:46.050
+these all zero border radius.
+
+00:29:46.050 --> 00:29:48.000
+This little curved in right there.
+
+00:29:48.000 --> 00:29:48.270
+This little curved in right there.
+
+00:29:48.270 --> 00:29:50.620
+You can see that makes that easier to see.
+
+00:29:50.620 --> 00:29:53.830
+And then of course I could
+do the same thing up here,
+
+00:29:53.830 --> 00:29:54.000
+although I would not want
+it to go above the tab.
+
+00:29:54.000 --> 00:29:56.763
+although I would not want
+it to go above the tab.
+
+00:29:57.730 --> 00:30:00.000
+So we'll bring all of
+these things to the front.
+
+00:30:00.000 --> 00:30:00.810
+So we'll bring all of
+these things to the front.
+
+00:30:00.810 --> 00:30:01.643
+There we go.
+
+00:30:04.680 --> 00:30:06.000
+And overall that looks
+a little bit cleaner.
+
+00:30:06.000 --> 00:30:07.160
+And overall that looks
+a little bit cleaner.
+
+00:30:07.160 --> 00:30:09.250
+One concern I have as a background though,
+
+00:30:09.250 --> 00:30:12.000
+is the more of this see, the
+more the saturation stands out.
+
+00:30:12.000 --> 00:30:12.940
+is the more of this see, the
+more the saturation stands out.
+
+00:30:12.940 --> 00:30:15.840
+So I'm actually gonna reduce
+that saturation even further.
+
+00:30:16.930 --> 00:30:18.000
+Now we're talking.
+
+00:30:18.000 --> 00:30:18.100
+Now we're talking.
+
+00:30:18.100 --> 00:30:20.870
+So that's the border technique
+for background color changes.
+
+00:30:20.870 --> 00:30:23.210
+Whenever you have a very subtle difference
+
+00:30:23.210 --> 00:30:24.000
+between one background color
+and another background color
+
+00:30:24.000 --> 00:30:25.740
+between one background color
+and another background color
+
+00:30:25.740 --> 00:30:27.380
+and you want to sort of highlight that,
+
+00:30:27.380 --> 00:30:30.000
+without making the background
+colors more different
+
+00:30:30.000 --> 00:30:30.800
+without making the background
+colors more different
+
+00:30:30.800 --> 00:30:32.990
+then just throw a really
+thin border in there.
+
+00:30:32.990 --> 00:30:34.620
+We'll see that in some other examples.
+
+00:30:34.620 --> 00:30:36.000
+And now that you know about
+it, you'll actually start
+
+00:30:36.000 --> 00:30:36.560
+And now that you know about
+it, you'll actually start
+
+00:30:36.560 --> 00:30:38.160
+to notice it everywhere.
+
+00:30:38.160 --> 00:30:39.530
+The next technique I wanna talk about
+
+00:30:39.530 --> 00:30:42.000
+is the border technique but
+applied to fixing fuzzy shadows.
+
+00:30:42.000 --> 00:30:42.990
+is the border technique but
+applied to fixing fuzzy shadows.
+
+00:30:42.990 --> 00:30:45.230
+So again, this is something
+that we kind of touched on
+
+00:30:45.230 --> 00:30:46.640
+in the lighting and shadows unit,
+
+00:30:46.640 --> 00:30:48.000
+but especially if I go
+into pixel mode here.
+
+00:30:48.000 --> 00:30:49.063
+but especially if I go
+into pixel mode here.
+
+00:30:50.040 --> 00:30:52.390
+You can see that there's sort
+of this natural transition
+
+00:30:52.390 --> 00:30:54.000
+of darkness, ignore the saturation here.
+
+00:30:54.000 --> 00:30:54.698
+of darkness, ignore the saturation here.
+
+00:30:54.698 --> 00:30:56.970
+If you ignore that this is kind of blue.
+
+00:30:56.970 --> 00:30:59.140
+You'll notice there's sort
+of this natural transition
+
+00:30:59.140 --> 00:31:00.000
+where it's almost like the difference
+
+00:31:00.000 --> 00:31:00.930
+where it's almost like the difference
+
+00:31:00.930 --> 00:31:03.880
+between these two pixels, is
+the same as between these two,
+
+00:31:05.270 --> 00:31:06.000
+and so on down the road.
+
+00:31:06.000 --> 00:31:06.620
+and so on down the road.
+
+00:31:06.620 --> 00:31:09.070
+And when that happens,
+it can make the border
+
+00:31:09.070 --> 00:31:10.320
+look a little fuzzy.
+
+00:31:10.320 --> 00:31:11.960
+And I'm definitely getting this effect.
+
+00:31:11.960 --> 00:31:12.000
+You're watching a more
+compressed video of my screen.
+
+00:31:12.000 --> 00:31:14.080
+You're watching a more
+compressed video of my screen.
+
+00:31:14.080 --> 00:31:16.010
+So I dunno if he can see it per save,
+
+00:31:16.010 --> 00:31:18.000
+but to me the shadow here
+looks a little bit fuzzy
+
+00:31:18.000 --> 00:31:19.130
+but to me the shadow here
+looks a little bit fuzzy
+
+00:31:19.130 --> 00:31:21.030
+and kind of hard to distinguish.
+
+00:31:21.030 --> 00:31:23.100
+So again, we're just
+gonna do that same thing
+
+00:31:23.100 --> 00:31:24.000
+that we did before and copy
+this layer, kind of throw it
+
+00:31:24.000 --> 00:31:26.020
+that we did before and copy
+this layer, kind of throw it
+
+00:31:26.020 --> 00:31:27.363
+at the bottom right here,
+
+00:31:28.600 --> 00:31:30.000
+press enter (mumbles) edit
+these points individually
+
+00:31:30.000 --> 00:31:31.150
+press enter (mumbles) edit
+these points individually
+
+00:31:31.150 --> 00:31:32.500
+which is a little annoying.
+
+00:31:36.410 --> 00:31:38.290
+And let me just zoom in.
+
+00:31:38.290 --> 00:31:42.000
+I wanna make sure, that
+this is coming through here.
+
+00:31:42.000 --> 00:31:42.573
+I wanna make sure, that
+this is coming through here.
+
+00:31:46.600 --> 00:31:48.000
+We'll go grab the text color.
+
+00:31:48.000 --> 00:31:48.233
+We'll go grab the text color.
+
+00:31:50.690 --> 00:31:52.660
+Perfect, it's way too strong
+
+00:31:52.660 --> 00:31:54.000
+but something like a 10% opacity,
+
+00:31:54.000 --> 00:31:55.420
+but something like a 10% opacity,
+
+00:31:55.420 --> 00:31:58.440
+like that should be enough, let's see.
+
+00:31:58.440 --> 00:32:00.000
+Maybe not, bump it up to 20.
+
+00:32:00.000 --> 00:32:01.014
+Maybe not, bump it up to 20.
+
+00:32:01.014 --> 00:32:04.510
+With 20 you can definitely
+see the effect, that's cool.
+
+00:32:04.510 --> 00:32:06.000
+Now I also would be, remiss not to mention
+
+00:32:06.000 --> 00:32:08.040
+Now I also would be, remiss not to mention
+
+00:32:08.040 --> 00:32:11.160
+that you can also solve
+this by reducing the opacity
+
+00:32:11.160 --> 00:32:11.993
+of the shadow.
+
+00:32:11.993 --> 00:32:12.000
+So, right now, I mean, if
+the shadow is really strong
+
+00:32:12.000 --> 00:32:15.340
+So, right now, I mean, if
+the shadow is really strong
+
+00:32:15.340 --> 00:32:17.650
+then just making it
+lighter, can often solve it
+
+00:32:17.650 --> 00:32:18.000
+without needing a border.
+
+00:32:18.000 --> 00:32:19.830
+without needing a border.
+
+00:32:19.830 --> 00:32:21.300
+And of course the other way to fix it
+
+00:32:21.300 --> 00:32:23.430
+is just to change this color right here.
+
+00:32:23.430 --> 00:32:24.000
+This is one thing in particular,
+
+00:32:24.000 --> 00:32:25.370
+This is one thing in particular,
+
+00:32:25.370 --> 00:32:27.860
+but hey you know what,
+it's like if this header
+
+00:32:27.860 --> 00:32:30.000
+is supposed to float
+above this background,
+
+00:32:30.000 --> 00:32:30.300
+is supposed to float
+above this background,
+
+00:32:30.300 --> 00:32:32.683
+I could even make it
+lighter than the background.
+
+00:32:33.620 --> 00:32:34.453
+There we go.
+
+00:32:34.453 --> 00:32:36.000
+That looks pretty cool by itself too.
+
+00:32:36.000 --> 00:32:36.170
+That looks pretty cool by itself too.
+
+00:32:38.540 --> 00:32:40.050
+Now the sixth technique I wanna talk
+
+00:32:40.050 --> 00:32:42.000
+about is something that we've
+already kind of seen here.
+
+00:32:42.000 --> 00:32:42.640
+about is something that we've
+already kind of seen here.
+
+00:32:42.640 --> 00:32:45.080
+I call it the subtle background technique.
+
+00:32:45.080 --> 00:32:47.220
+And again, is it really a technique?
+
+00:32:47.220 --> 00:32:48.000
+It's something that was not obvious
+
+00:32:48.000 --> 00:32:48.820
+It's something that was not obvious
+
+00:32:48.820 --> 00:32:50.800
+to me as a beginning designer.
+
+00:32:50.800 --> 00:32:52.710
+I thought when the
+background color changed,
+
+00:32:52.710 --> 00:32:54.000
+you couldn't just go from
+a gray of 97 brightness
+
+00:32:54.000 --> 00:32:55.560
+you couldn't just go from
+a gray of 97 brightness
+
+00:32:55.560 --> 00:32:57.280
+to a gray of 95 brightness,
+
+00:32:57.280 --> 00:32:58.760
+to a gray of a hundred brightness,
+
+00:32:58.760 --> 00:33:00.000
+back down to 95 and so on.
+
+00:33:00.000 --> 00:33:01.210
+back down to 95 and so on.
+
+00:33:01.210 --> 00:33:03.320
+I thought it kind of
+had to be big and bold
+
+00:33:03.320 --> 00:33:04.403
+and in your face.
+
+00:33:06.340 --> 00:33:09.490
+Betterment.com has a
+really nice site design
+
+00:33:09.490 --> 00:33:12.000
+but when I scroll down
+these sections right here
+
+00:33:12.000 --> 00:33:12.270
+but when I scroll down
+these sections right here
+
+00:33:12.270 --> 00:33:14.170
+kinda like what I just imagined,
+
+00:33:14.170 --> 00:33:15.450
+if you're designing a landing page
+
+00:33:15.450 --> 00:33:17.070
+and you have a different
+section, why not go
+
+00:33:17.070 --> 00:33:18.000
+from blue to green, to gray,
+back to blue and whatever.
+
+00:33:18.000 --> 00:33:21.650
+from blue to green, to gray,
+back to blue and whatever.
+
+00:33:21.650 --> 00:33:23.670
+And even, here's a light gray,
+
+00:33:23.670 --> 00:33:24.000
+looks like it's gonna
+transition into a white
+
+00:33:24.000 --> 00:33:25.700
+looks like it's gonna
+transition into a white
+
+00:33:25.700 --> 00:33:27.280
+but that's just a card.
+
+00:33:27.280 --> 00:33:29.430
+And that real transition
+is this light gray,
+
+00:33:29.430 --> 00:33:30.000
+back to the blue and then the
+blue back to the dark gray,
+
+00:33:30.000 --> 00:33:32.290
+back to the blue and then the
+blue back to the dark gray,
+
+00:33:32.290 --> 00:33:33.570
+the dark gray back to the white.
+
+00:33:33.570 --> 00:33:35.120
+I mean, these are, with the exception
+
+00:33:35.120 --> 00:33:36.000
+of this little bit right here.
+
+00:33:36.000 --> 00:33:36.350
+of this little bit right here.
+
+00:33:36.350 --> 00:33:38.010
+These are very heavy transitions.
+
+00:33:38.010 --> 00:33:40.420
+They actually have a very subtle
+one at the top right here.
+
+00:33:40.420 --> 00:33:42.000
+Hey, look at this.
+
+00:33:42.000 --> 00:33:42.190
+Hey, look at this.
+
+00:33:42.190 --> 00:33:44.170
+That's our border technique.
+
+00:33:44.170 --> 00:33:46.417
+But once you know about things
+like the border technique
+
+00:33:46.417 --> 00:33:48.000
+and the subtle background technique,
+
+00:33:48.000 --> 00:33:48.360
+and the subtle background technique,
+
+00:33:48.360 --> 00:33:51.120
+you can get a lot of
+mileage out of like race.
+
+00:33:51.120 --> 00:33:53.480
+Here's an example, this is Lemonade.com.
+
+00:33:53.480 --> 00:33:54.000
+There's some things
+I'm a little iffy about
+
+00:33:54.000 --> 00:33:55.180
+There's some things
+I'm a little iffy about
+
+00:33:55.180 --> 00:33:56.013
+on this homepage.
+
+00:33:56.013 --> 00:33:57.960
+I don't love the font Lato, which they use
+
+00:33:57.960 --> 00:34:00.000
+and I don't know why
+their shadows are pink.
+
+00:34:00.000 --> 00:34:00.330
+and I don't know why
+their shadows are pink.
+
+00:34:00.330 --> 00:34:02.120
+Feels like a little bit
+too much is if the buttons
+
+00:34:02.120 --> 00:34:04.897
+are like emanating out pink light.
+
+00:34:04.897 --> 00:34:06.000
+Anyhow, in this nice
+illustration right here,
+
+00:34:06.000 --> 00:34:08.650
+Anyhow, in this nice
+illustration right here,
+
+00:34:08.650 --> 00:34:11.170
+you'll notice the horizon
+is this light gray.
+
+00:34:11.170 --> 00:34:12.000
+And the page just stays that light gray,
+
+00:34:12.000 --> 00:34:13.570
+And the page just stays that light gray,
+
+00:34:13.570 --> 00:34:17.620
+until what happens, the page
+transitions to the white again.
+
+00:34:17.620 --> 00:34:18.000
+So it's a very light gray,
+back to a white, okay?
+
+00:34:18.000 --> 00:34:21.100
+So it's a very light gray,
+back to a white, okay?
+
+00:34:21.100 --> 00:34:22.670
+Now we have another illustration.
+
+00:34:22.670 --> 00:34:24.000
+The corner of the room here is,
+
+00:34:24.000 --> 00:34:25.470
+The corner of the room here is,
+
+00:34:25.470 --> 00:34:27.650
+I guess you could call
+this the border technique
+
+00:34:27.650 --> 00:34:30.000
+but then we transitioned
+into a light gray.
+
+00:34:30.000 --> 00:34:30.400
+but then we transitioned
+into a light gray.
+
+00:34:30.400 --> 00:34:32.730
+It stays light gray, for
+this section till we need
+
+00:34:32.730 --> 00:34:34.080
+to change sections and bam,
+
+00:34:34.080 --> 00:34:35.380
+we're back in white again.
+
+00:34:36.320 --> 00:34:38.350
+Keep going, here's just one border.
+
+00:34:38.350 --> 00:34:40.010
+It looks like it's white,
+above and below it.
+
+00:34:40.010 --> 00:34:42.000
+So not really anything crazy right there.
+
+00:34:42.000 --> 00:34:42.210
+So not really anything crazy right there.
+
+00:34:42.210 --> 00:34:43.560
+They do another border,
+
+00:34:43.560 --> 00:34:47.050
+and then they have a light
+gray transition right here
+
+00:34:47.050 --> 00:34:48.000
+with the border technique,
+
+00:34:48.000 --> 00:34:48.400
+with the border technique,
+
+00:34:48.400 --> 00:34:50.400
+and finally ended with
+a much darker header
+
+00:34:50.400 --> 00:34:52.510
+that just says, hey this
+is totally set apart
+
+00:34:52.510 --> 00:34:54.000
+from the rest of the page,
+you're looking at new stuff now.
+
+00:34:54.000 --> 00:34:55.010
+from the rest of the page,
+you're looking at new stuff now.
+
+00:34:55.010 --> 00:34:56.410
+So that's a perfect example
+
+00:34:56.410 --> 00:34:58.320
+of the subtle background technique.
+
+00:34:58.320 --> 00:34:59.550
+We get a lot of mileage out
+
+00:34:59.550 --> 00:35:00.000
+of just having very subtle
+background color changes.
+
+00:35:00.000 --> 00:35:03.030
+of just having very subtle
+background color changes.
+
+00:35:03.030 --> 00:35:04.880
+Was also a good demo of
+the border technique,
+
+00:35:04.880 --> 00:35:06.000
+if I do say so myself, thank you Lemonade.
+
+00:35:06.000 --> 00:35:07.950
+if I do say so myself, thank you Lemonade.
+
+00:35:07.950 --> 00:35:10.180
+Now we just looked at a
+couple of landing pages
+
+00:35:10.180 --> 00:35:12.000
+but this is actually a
+really useful strategy
+
+00:35:12.000 --> 00:35:12.840
+but this is actually a
+really useful strategy
+
+00:35:12.840 --> 00:35:14.840
+for apps as well.
+
+00:35:14.840 --> 00:35:16.570
+So I have a screenshot here,
+
+00:35:16.570 --> 00:35:18.000
+from the time tracking app harvest,
+
+00:35:18.000 --> 00:35:18.100
+from the time tracking app harvest,
+
+00:35:18.100 --> 00:35:19.370
+which I really like and you can see
+
+00:35:19.370 --> 00:35:21.510
+that a big chunk of this page.
+
+00:35:21.510 --> 00:35:23.400
+This is actually the same gray 93
+
+00:35:23.400 --> 00:35:24.000
+above and below this little line here,
+
+00:35:24.000 --> 00:35:25.520
+above and below this little line here,
+
+00:35:25.520 --> 00:35:26.410
+half the pages, is just like gray,
+
+00:35:26.410 --> 00:35:30.000
+and then it transitions
+over into a bright white.
+
+00:35:30.000 --> 00:35:30.280
+and then it transitions
+over into a bright white.
+
+00:35:30.280 --> 00:35:32.430
+Of course this subtle
+background color change
+
+00:35:32.430 --> 00:35:35.070
+is also, accompanied with our favorite
+
+00:35:35.070 --> 00:35:36.000
+secondary technique here.
+
+00:35:36.000 --> 00:35:36.330
+secondary technique here.
+
+00:35:36.330 --> 00:35:40.280
+The border technique and that
+border has a brightness of 80.
+
+00:35:40.280 --> 00:35:42.000
+All right, now the final
+technique I wanna talk about
+
+00:35:42.000 --> 00:35:42.230
+All right, now the final
+technique I wanna talk about
+
+00:35:42.230 --> 00:35:43.590
+that you should be using
+
+00:35:43.590 --> 00:35:46.380
+when you're kind of in
+those early pre-color stages
+
+00:35:46.380 --> 00:35:48.000
+of your design, is the squint test.
+
+00:35:48.000 --> 00:35:48.500
+of your design, is the squint test.
+
+00:35:48.500 --> 00:35:50.260
+And if you've watched this
+course straight through
+
+00:35:50.260 --> 00:35:53.500
+you've heard me talk about
+the squint test before.
+
+00:35:53.500 --> 00:35:54.000
+The squint test just
+refers to either squinting
+
+00:35:54.000 --> 00:35:56.130
+The squint test just
+refers to either squinting
+
+00:35:56.130 --> 00:36:00.000
+at your design or putting on
+a big layer with an effect
+
+00:36:00.000 --> 00:36:01.079
+at your design or putting on
+a big layer with an effect
+
+00:36:01.079 --> 00:36:04.600
+of type background blur,
+and we'll do something
+
+00:36:04.600 --> 00:36:06.000
+like 10 pixels of blur and
+reduce thee fill opacity
+
+00:36:06.000 --> 00:36:08.820
+like 10 pixels of blur and
+reduce thee fill opacity
+
+00:36:08.820 --> 00:36:11.190
+until we get something like
+this, we need more blur.
+
+00:36:11.190 --> 00:36:12.000
+There we go.
+
+00:36:12.000 --> 00:36:12.650
+There we go.
+
+00:36:12.650 --> 00:36:15.540
+Now we were effectively
+squinting at our own design here.
+
+00:36:15.540 --> 00:36:18.000
+And the whole idea, is
+just, we want to see
+
+00:36:18.000 --> 00:36:18.200
+And the whole idea, is
+just, we want to see
+
+00:36:18.200 --> 00:36:21.680
+are we effectively corralling
+our users' attention?
+
+00:36:21.680 --> 00:36:23.990
+If someone has just loaded up this page
+
+00:36:23.990 --> 00:36:24.000
+and they take a half second glance at it.
+
+00:36:24.000 --> 00:36:25.984
+and they take a half second glance at it.
+
+00:36:25.984 --> 00:36:29.620
+What sort of information
+are they getting out of it?
+
+00:36:29.620 --> 00:36:30.000
+That's what the squint
+test is really useful for.
+
+00:36:30.000 --> 00:36:31.940
+That's what the squint
+test is really useful for.
+
+00:36:31.940 --> 00:36:35.130
+I can see right here,
+definitely have this big title.
+
+00:36:35.130 --> 00:36:36.000
+I think I would be able to call it.
+
+00:36:36.000 --> 00:36:36.400
+I think I would be able to call it.
+
+00:36:36.400 --> 00:36:39.431
+These are tabs, that this has
+maybe some sort of subtitle.
+
+00:36:39.431 --> 00:36:41.980
+It looks like I have a
+couple of numbers right here,
+
+00:36:41.980 --> 00:36:42.000
+and there's some buttons.
+
+00:36:42.000 --> 00:36:42.990
+and there's some buttons.
+
+00:36:42.990 --> 00:36:44.410
+My guess is, these three buttons
+
+00:36:44.410 --> 00:36:47.180
+are probably pretty important
+because they're nice and bold.
+
+00:36:47.180 --> 00:36:48.000
+And then I can tell that I also
+
+00:36:48.000 --> 00:36:49.150
+And then I can tell that I also
+
+00:36:49.150 --> 00:36:51.180
+have this little repeating multiple
+
+00:36:51.180 --> 00:36:53.220
+of a chart bouncing across here.
+
+00:36:53.220 --> 00:36:54.000
+Now, every example is gonna
+be a little bit different
+
+00:36:54.000 --> 00:36:56.140
+Now, every example is gonna
+be a little bit different
+
+00:36:56.140 --> 00:36:59.170
+but I would say that finding
+an individual action,
+
+00:36:59.170 --> 00:37:00.000
+adding a new action and
+publishing an unpublished profile
+
+00:37:00.000 --> 00:37:02.440
+adding a new action and
+publishing an unpublished profile
+
+00:37:02.440 --> 00:37:03.870
+are gonna be some of the
+most important things
+
+00:37:03.870 --> 00:37:05.420
+that you could do on this page.
+
+00:37:05.420 --> 00:37:06.000
+So the fact that those
+things and the title
+
+00:37:06.000 --> 00:37:07.450
+So the fact that those
+things and the title
+
+00:37:07.450 --> 00:37:10.600
+and the subtitle and these
+kind of key indicators
+
+00:37:10.600 --> 00:37:12.000
+are the first things you
+see in that squint test,
+
+00:37:12.000 --> 00:37:12.750
+are the first things you
+see in that squint test,
+
+00:37:12.750 --> 00:37:14.020
+that is a good sign.
+
+00:37:14.020 --> 00:37:16.520
+A squint test is kind of
+a final check of saying,
+
+00:37:16.520 --> 00:37:18.000
+all right, if I think I've
+gotten everything good
+
+00:37:18.000 --> 00:37:18.850
+all right, if I think I've
+gotten everything good
+
+00:37:18.850 --> 00:37:19.683
+to go here.
+
+00:37:19.683 --> 00:37:21.583
+Can I be sure that this design is going
+
+00:37:21.583 --> 00:37:24.000
+to corral my users' attention effectively?
+
+00:37:24.000 --> 00:37:25.710
+to corral my users' attention effectively?
+
+00:37:25.710 --> 00:37:28.650
+All right, now I just wanna
+end with a few final thoughts
+
+00:37:28.650 --> 00:37:29.800
+on the color gray.
+
+00:37:29.800 --> 00:37:30.000
+The first is gray is
+the most subtle color.
+
+00:37:30.000 --> 00:37:32.320
+The first is gray is
+the most subtle color.
+
+00:37:32.320 --> 00:37:35.070
+This is something we've
+kind of alluded to already,
+
+00:37:35.070 --> 00:37:36.000
+but gray attracts no
+undue attention to itself.
+
+00:37:36.000 --> 00:37:38.707
+but gray attracts no
+undue attention to itself.
+
+00:37:38.707 --> 00:37:41.520
+Because of that, It's the perfect color
+
+00:37:41.520 --> 00:37:42.000
+to let the other content
+on the page, shine through.
+
+00:37:42.000 --> 00:37:44.700
+to let the other content
+on the page, shine through.
+
+00:37:44.700 --> 00:37:48.000
+It's the perfect color for
+those kind of meta content
+
+00:37:48.000 --> 00:37:48.160
+It's the perfect color for
+those kind of meta content
+
+00:37:48.160 --> 00:37:51.920
+like elements, the background
+colors, the divider lines,
+
+00:37:51.920 --> 00:37:54.000
+the shadows, even some of the text.
+
+00:37:54.000 --> 00:37:54.810
+the shadows, even some of the text.
+
+00:37:54.810 --> 00:37:58.090
+The more gray you have, the
+more you're allowing yourself
+
+00:37:58.090 --> 00:38:00.000
+freedom to direct attention
+effectively using color.
+
+00:38:00.000 --> 00:38:02.440
+freedom to direct attention
+effectively using color.
+
+00:38:02.440 --> 00:38:04.970
+The next point is that
+gray allows the content
+
+00:38:04.970 --> 00:38:06.000
+to shine through.
+
+00:38:06.000 --> 00:38:06.510
+to shine through.
+
+00:38:06.510 --> 00:38:08.740
+Of course, this is kind of
+connected to the first point
+
+00:38:08.740 --> 00:38:11.620
+but I wanna show you
+some specific examples.
+
+00:38:11.620 --> 00:38:12.000
+Again, let's take a look
+at a site like Dribbble.
+
+00:38:12.000 --> 00:38:14.470
+Again, let's take a look
+at a site like Dribbble.
+
+00:38:14.470 --> 00:38:15.840
+If you go to a site like Dribbble,
+
+00:38:15.840 --> 00:38:18.000
+the focus is absolutely on
+this content right here.
+
+00:38:18.000 --> 00:38:18.600
+the focus is absolutely on
+this content right here.
+
+00:38:18.600 --> 00:38:22.340
+Thee uploads by designers
+who are part of the site,
+
+00:38:22.340 --> 00:38:24.000
+consequently almost everything else
+
+00:38:24.000 --> 00:38:24.750
+consequently almost everything else
+
+00:38:24.750 --> 00:38:26.930
+on the entire screen is gray.
+
+00:38:26.930 --> 00:38:29.810
+Like they have some
+imagery for your team logo
+
+00:38:29.810 --> 00:38:30.000
+or your personal profile photo.
+
+00:38:30.000 --> 00:38:31.860
+or your personal profile photo.
+
+00:38:31.860 --> 00:38:34.140
+There's some pink links right here.
+
+00:38:34.140 --> 00:38:35.800
+Of course there's a big
+button that is supposed
+
+00:38:35.800 --> 00:38:36.000
+to attract my attention.
+
+00:38:36.000 --> 00:38:36.840
+to attract my attention.
+
+00:38:36.840 --> 00:38:38.780
+This is them, corralling our attention
+
+00:38:38.780 --> 00:38:41.550
+towards uploading a shot,
+which they would like us to do.
+
+00:38:41.550 --> 00:38:42.000
+But other than that, it's basically gray
+
+00:38:42.000 --> 00:38:44.350
+But other than that, it's basically gray
+
+00:38:44.350 --> 00:38:46.853
+kind of taking a back seat to the content.
+
+00:38:48.580 --> 00:38:50.440
+YouTube is another perfect example
+
+00:38:50.440 --> 00:38:51.590
+of the same sort of thing.
+
+00:38:51.590 --> 00:38:53.390
+If I look for color on this screen
+
+00:38:53.390 --> 00:38:54.000
+it's like just in the videos,
+
+00:38:54.000 --> 00:38:56.320
+it's like just in the videos,
+
+00:38:56.320 --> 00:38:59.630
+it's just in the content,
+the images and whatever.
+
+00:38:59.630 --> 00:39:00.000
+And there's basically no pops of color.
+
+00:39:00.000 --> 00:39:02.050
+And there's basically no pops of color.
+
+00:39:02.050 --> 00:39:04.730
+In fact, looking around, I kind
+of only see it in this home.
+
+00:39:04.730 --> 00:39:06.000
+So again, a selected state
+
+00:39:06.000 --> 00:39:06.170
+So again, a selected state
+
+00:39:06.170 --> 00:39:08.330
+and in a logo right here.
+
+00:39:08.330 --> 00:39:10.440
+Right now we're looking
+at this in the context
+
+00:39:10.440 --> 00:39:12.000
+of a light design but
+I can also go and say,
+
+00:39:12.000 --> 00:39:13.870
+of a light design but
+I can also go and say,
+
+00:39:13.870 --> 00:39:14.950
+use a dark theme.
+
+00:39:14.950 --> 00:39:18.000
+And this whole lesson is
+applicable to dark themes as well.
+
+00:39:18.000 --> 00:39:18.530
+And this whole lesson is
+applicable to dark themes as well.
+
+00:39:18.530 --> 00:39:20.720
+Now we have a totally
+separate video on that.
+
+00:39:20.720 --> 00:39:23.980
+And so we'll be talking about
+it later, but just consider
+
+00:39:23.980 --> 00:39:24.000
+that a dark theme as well is gonna really
+
+00:39:24.000 --> 00:39:26.710
+that a dark theme as well is gonna really
+
+00:39:26.710 --> 00:39:29.320
+let that content shine through
+and rather than competing
+
+00:39:29.320 --> 00:39:30.000
+with it, with white, which
+is also a very bright color.
+
+00:39:30.000 --> 00:39:32.320
+with it, with white, which
+is also a very bright color.
+
+00:39:32.320 --> 00:39:34.670
+We're basically saying
+nothing on the screen,
+
+00:39:34.670 --> 00:39:36.000
+has any real saturation or brightness
+
+00:39:36.000 --> 00:39:37.520
+has any real saturation or brightness
+
+00:39:37.520 --> 00:39:38.980
+except for the content.
+
+00:39:38.980 --> 00:39:41.010
+You wanna talk about letting
+the content shine through.
+
+00:39:41.010 --> 00:39:42.000
+And that's what dark
+themes can really excel at.
+
+00:39:42.000 --> 00:39:43.463
+And that's what dark
+themes can really excel at.
+
+00:39:45.290 --> 00:39:48.000
+And finally, gray is
+also the classiest color.
+
+00:39:48.000 --> 00:39:49.080
+And finally, gray is
+also the classiest color.
+
+00:39:49.080 --> 00:39:53.480
+There is a undeniable connection
+between the color gray
+
+00:39:53.480 --> 00:39:54.000
+and creating a luxury brand.
+
+00:39:54.000 --> 00:39:55.700
+and creating a luxury brand.
+
+00:39:55.700 --> 00:39:59.153
+And I think this is because
+gray is understated.
+
+00:40:00.062 --> 00:40:02.500
+When you're selling
+something that's luxury
+
+00:40:02.500 --> 00:40:03.640
+or really expensive.
+
+00:40:03.640 --> 00:40:05.930
+You want all attention
+to go to the imagery,
+
+00:40:05.930 --> 00:40:06.000
+whatever these highly stylized videos
+
+00:40:06.000 --> 00:40:08.190
+whatever these highly stylized videos
+
+00:40:08.190 --> 00:40:11.470
+of super expensive
+earrings or whatever it is.
+
+00:40:11.470 --> 00:40:12.000
+So as I scroll down, I'm
+looking at a lot of black.
+
+00:40:12.000 --> 00:40:14.260
+So as I scroll down, I'm
+looking at a lot of black.
+
+00:40:14.260 --> 00:40:16.960
+Again, this is kind of like a
+dark theme, at least in places
+
+00:40:16.960 --> 00:40:18.000
+a lot of high quality
+imagery, but even fewer pops
+
+00:40:18.000 --> 00:40:20.510
+a lot of high quality
+imagery, but even fewer pops
+
+00:40:20.510 --> 00:40:23.023
+of color than I otherwise might have.
+
+00:40:24.810 --> 00:40:28.000
+I collected some luxury
+like shots on Dribbble
+
+00:40:28.000 --> 00:40:30.000
+and I'll link to these below,
+but you can get an idea
+
+00:40:30.000 --> 00:40:30.610
+and I'll link to these below,
+but you can get an idea
+
+00:40:30.610 --> 00:40:32.590
+that you're just gonna end up seeing a ton
+
+00:40:32.590 --> 00:40:34.210
+of black and white.
+
+00:40:34.210 --> 00:40:36.000
+It's those understated colors that truly
+
+00:40:36.000 --> 00:40:37.020
+It's those understated colors that truly
+
+00:40:37.020 --> 00:40:39.063
+let thee content shine through.
+
+00:40:39.930 --> 00:40:42.000
+And that covers it for the color gray.
+
+00:40:42.000 --> 00:40:42.640
+And that covers it for the color gray.
+
+00:40:42.640 --> 00:40:45.700
+So take a look at the homework
+below as you go through it.
+
+00:40:45.700 --> 00:40:47.980
+Remember all the tips that
+we've talked about today
+
+00:40:47.980 --> 00:40:48.000
+and as you apply the
+lessons from this video
+
+00:40:48.000 --> 00:40:50.810
+and as you apply the
+lessons from this video
+
+00:40:50.810 --> 00:40:51.990
+to your design work.
+
+00:40:51.990 --> 00:40:54.000
+I encourage you really to think
+about black and white first.
+
+00:40:54.000 --> 00:40:54.470
+I encourage you really to think
+about black and white first.
+
+00:40:54.470 --> 00:40:56.770
+Again, I don't say this is
+something that you need to stick
+
+00:40:56.770 --> 00:40:58.630
+to a hundred percent of the time,
+
+00:40:58.630 --> 00:41:00.000
+but until you feel quite
+comfortable with color.
+
+00:41:00.000 --> 00:41:01.210
+but until you feel quite
+comfortable with color.
+
+00:41:01.210 --> 00:41:02.890
+It's really not a bad idea
+
+00:41:02.890 --> 00:41:06.000
+to try and nail those fundamental
+elements of the design,
+
+00:41:06.000 --> 00:41:06.360
+to try and nail those fundamental
+elements of the design,
+
+00:41:06.360 --> 00:41:08.890
+before you start adding on
+too many splashes of color.
+
+00:41:08.890 --> 00:41:12.000
+You will have a lot of time
+to get better at color.
+
+00:41:12.000 --> 00:41:12.580
+You will have a lot of time
+to get better at color.
+
+00:41:12.580 --> 00:41:15.700
+Once you have nailed the
+foundations involved with gray
+
+00:41:15.700 --> 00:41:18.000
+and all the things that we've
+talked about up to this point.
+
+00:41:18.000 --> 00:41:18.150
+and all the things that we've
+talked about up to this point.
+
+00:41:18.150 --> 00:41:19.810
+All right, so take a look at the homework.
+
+00:41:19.810 --> 00:41:21.210
+Lemme know if you have any questions,
+
+00:41:21.210 --> 00:41:22.860
+we'll see you in the next lesson.
+
