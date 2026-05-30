@@ -1,0 +1,2052 @@
+WEBVTT
+
+00:00:00.570 --> 00:00:04.290
+- Hey folks, and welcome
+to the video on HSB
+
+00:00:04.290 --> 00:00:06.000
+or hue, saturation, brightness.
+
+00:00:06.000 --> 00:00:07.000
+or hue, saturation, brightness.
+
+00:00:07.000 --> 00:00:09.350
+HSB is one of the many systems
+
+00:00:09.350 --> 00:00:12.000
+that people use to name individual colors.
+
+00:00:12.000 --> 00:00:13.310
+that people use to name individual colors.
+
+00:00:13.310 --> 00:00:14.910
+It's not the most common system,
+
+00:00:14.910 --> 00:00:17.100
+I would say that RGB or hex,
+
+00:00:17.100 --> 00:00:18.000
+you may have heard of
+either or both of those,
+
+00:00:18.000 --> 00:00:19.310
+you may have heard of
+either or both of those,
+
+00:00:19.310 --> 00:00:21.780
+are more common ways
+of talking about color,
+
+00:00:21.780 --> 00:00:23.790
+but HSB in my opinion,
+
+00:00:23.790 --> 00:00:24.000
+is the most practical
+and the most intuitive.
+
+00:00:24.000 --> 00:00:26.670
+is the most practical
+and the most intuitive.
+
+00:00:26.670 --> 00:00:29.900
+So for those reasons, it
+is kind of the foundation
+
+00:00:29.900 --> 00:00:30.000
+of the learn UI design color system.
+
+00:00:30.000 --> 00:00:31.860
+of the learn UI design color system.
+
+00:00:31.860 --> 00:00:33.720
+How I'm gonna be teaching
+you to think about
+
+00:00:33.720 --> 00:00:36.000
+and to use color in this course.
+
+00:00:36.000 --> 00:00:36.020
+and to use color in this course.
+
+00:00:36.020 --> 00:00:38.420
+Now, if you've used HSB before,
+
+00:00:38.420 --> 00:00:39.670
+half this video is a by
+
+00:00:39.670 --> 00:00:41.280
+you can just skip ahead,
+
+00:00:41.280 --> 00:00:42.000
+past the point where
+I explain what HSB are
+
+00:00:42.000 --> 00:00:44.210
+past the point where
+I explain what HSB are
+
+00:00:44.210 --> 00:00:45.880
+and to the part where
+I start talking about
+
+00:00:45.880 --> 00:00:48.000
+how white and black are not
+opposites in this color system.
+
+00:00:48.000 --> 00:00:49.590
+how white and black are not
+opposites in this color system.
+
+00:00:49.590 --> 00:00:52.470
+But you can watch the whole
+thing through anyways.
+
+00:00:52.470 --> 00:00:54.000
+As always, I'm gonna try
+and be very practical
+
+00:00:54.000 --> 00:00:54.770
+As always, I'm gonna try
+and be very practical
+
+00:00:54.770 --> 00:00:58.010
+in the examples and how
+I give information here.
+
+00:00:58.010 --> 00:00:59.760
+And so it's a little theoretical
+
+00:00:59.760 --> 00:01:00.000
+but we will very quickly be
+into the practice of things.
+
+00:01:00.000 --> 00:01:03.800
+but we will very quickly be
+into the practice of things.
+
+00:01:03.800 --> 00:01:05.420
+Let's get started.
+
+00:01:05.420 --> 00:01:06.000
+So the first thing I'm gonna
+do is change my color system
+
+00:01:06.000 --> 00:01:08.060
+So the first thing I'm gonna
+do is change my color system
+
+00:01:08.060 --> 00:01:09.870
+in Figma to HSB.
+
+00:01:09.870 --> 00:01:12.000
+If you haven't done that,
+just pick any layer,
+
+00:01:12.000 --> 00:01:12.600
+If you haven't done that,
+just pick any layer,
+
+00:01:12.600 --> 00:01:15.400
+go to where RGB or hex is mentioned here
+
+00:01:15.400 --> 00:01:17.720
+and just slide on down to HSB.
+
+00:01:17.720 --> 00:01:18.000
+And what I have now are three numbers,
+
+00:01:18.000 --> 00:01:20.630
+And what I have now are three numbers,
+
+00:01:20.630 --> 00:01:22.290
+there's actually four but this fourth one
+
+00:01:22.290 --> 00:01:24.000
+is just the opacity and it's
+much simpler to understand
+
+00:01:24.000 --> 00:01:24.950
+is just the opacity and it's
+much simpler to understand
+
+00:01:24.950 --> 00:01:26.190
+than all the other three.
+
+00:01:26.190 --> 00:01:28.150
+These first three numbers are HSB,
+
+00:01:28.150 --> 00:01:29.650
+hue, saturation and brightness.
+
+00:01:29.650 --> 00:01:30.000
+And we're gonna talk
+about what they each mean.
+
+00:01:30.000 --> 00:01:32.830
+And we're gonna talk
+about what they each mean.
+
+00:01:32.830 --> 00:01:33.970
+The first is hue.
+
+00:01:33.970 --> 00:01:36.000
+Hue is a number that is on a scale
+
+00:01:36.000 --> 00:01:36.090
+Hue is a number that is on a scale
+
+00:01:36.090 --> 00:01:39.760
+from a minimum of the
+zero to a maximum of 360.
+
+00:01:39.760 --> 00:01:41.630
+And if I just press Shift + Up Arrow,
+
+00:01:41.630 --> 00:01:42.000
+I can skip by increments of 10
+
+00:01:42.000 --> 00:01:43.730
+I can skip by increments of 10
+
+00:01:43.730 --> 00:01:46.320
+all the way through
+the range of hues here.
+
+00:01:46.320 --> 00:01:48.000
+Now, did you notice something interesting?
+
+00:01:48.000 --> 00:01:48.600
+Now, did you notice something interesting?
+
+00:01:48.600 --> 00:01:51.550
+As I was doing that, I'll
+go all the way back down,
+
+00:01:51.550 --> 00:01:53.910
+I'm also sliding across this.
+
+00:01:53.910 --> 00:01:54.000
+So this is a hue picker
+
+00:01:54.000 --> 00:01:55.670
+So this is a hue picker
+
+00:01:55.670 --> 00:01:58.560
+and this is exactly the same
+as typing some number in there.
+
+00:01:58.560 --> 00:02:00.000
+There's no difference between these two.
+
+00:02:00.000 --> 00:02:00.440
+There's no difference between these two.
+
+00:02:00.440 --> 00:02:02.480
+So knowing that, you
+might even have a sense
+
+00:02:02.480 --> 00:02:05.380
+of what exactly hue is.
+
+00:02:05.380 --> 00:02:06.000
+If hue is on a scale from zero to 360,
+
+00:02:06.000 --> 00:02:08.670
+If hue is on a scale from zero to 360,
+
+00:02:08.670 --> 00:02:11.030
+like I don't know, the
+degrees in a circle,
+
+00:02:11.030 --> 00:02:12.000
+or that circle being the color wheel,
+
+00:02:12.000 --> 00:02:13.530
+or that circle being the color wheel,
+
+00:02:13.530 --> 00:02:15.810
+hue is actually kind of the property
+
+00:02:15.810 --> 00:02:18.000
+that represents where you
+are on the color wheel.
+
+00:02:18.000 --> 00:02:18.360
+that represents where you
+are on the color wheel.
+
+00:02:18.360 --> 00:02:20.970
+Like what color of the rainbow does,
+
+00:02:20.970 --> 00:02:22.060
+whatever color we're talking about,
+
+00:02:22.060 --> 00:02:24.000
+most closely correspond to?
+
+00:02:24.000 --> 00:02:24.020
+most closely correspond to?
+
+00:02:24.020 --> 00:02:27.140
+Now, it's independent of
+kind of the exact shade
+
+00:02:27.140 --> 00:02:30.000
+that you're using, all of
+these are the same hue.
+
+00:02:30.000 --> 00:02:30.200
+that you're using, all of
+these are the same hue.
+
+00:02:30.200 --> 00:02:31.520
+They're the hue of zero.
+
+00:02:31.520 --> 00:02:32.460
+Which is kind of centered,
+
+00:02:32.460 --> 00:02:34.140
+that is a pure red.
+
+00:02:34.140 --> 00:02:36.000
+And like you might expect, a hue of 360
+
+00:02:36.000 --> 00:02:36.910
+And like you might expect, a hue of 360
+
+00:02:36.910 --> 00:02:38.410
+this is a pure red as well.
+
+00:02:38.410 --> 00:02:41.440
+A hue of zero and a hue of 360
+are exactly the same thing.
+
+00:02:41.440 --> 00:02:42.000
+There is zero difference between them.
+
+00:02:42.000 --> 00:02:43.550
+There is zero difference between them.
+
+00:02:43.550 --> 00:02:44.720
+In between those two numbers
+
+00:02:44.720 --> 00:02:46.730
+is where we get every other hue though.
+
+00:02:46.730 --> 00:02:48.000
+And most notably, green
+is centered just at 120,
+
+00:02:48.000 --> 00:02:51.190
+And most notably, green
+is centered just at 120,
+
+00:02:51.190 --> 00:02:52.960
+and blue is centered at 240.
+
+00:02:52.960 --> 00:02:54.000
+So they sort of split the color wheel
+
+00:02:54.000 --> 00:02:56.050
+So they sort of split the color wheel
+
+00:02:56.050 --> 00:02:57.390
+into three even parts.
+
+00:02:57.390 --> 00:03:00.000
+From red to green, green to
+blue, and blue back to red.
+
+00:03:00.000 --> 00:03:00.800
+From red to green, green to
+blue, and blue back to red.
+
+00:03:00.800 --> 00:03:03.360
+Now what I wanna do is just
+mention a little practical note
+
+00:03:03.360 --> 00:03:05.970
+about each of these three
+properties as I explain them.
+
+00:03:05.970 --> 00:03:06.000
+So one thing I'll say is,
+hue is really fantastic
+
+00:03:06.000 --> 00:03:09.510
+So one thing I'll say is,
+hue is really fantastic
+
+00:03:09.510 --> 00:03:11.730
+in practice for just kind of coming up
+
+00:03:11.730 --> 00:03:12.000
+with a more interesting
+variation on a color.
+
+00:03:12.000 --> 00:03:14.190
+with a more interesting
+variation on a color.
+
+00:03:14.190 --> 00:03:16.510
+So let's say that I have some red.
+
+00:03:16.510 --> 00:03:18.000
+It's just kind of a very normal red,
+
+00:03:18.000 --> 00:03:18.220
+It's just kind of a very normal red,
+
+00:03:18.220 --> 00:03:20.053
+and maybe it's for an error message.
+
+00:03:21.500 --> 00:03:23.710
+One way that I'll frequently use hue,
+
+00:03:23.710 --> 00:03:24.000
+is if I say, hey, you know what?
+
+00:03:24.000 --> 00:03:24.960
+is if I say, hey, you know what?
+
+00:03:24.960 --> 00:03:26.710
+This error message, it kinda feels boring.
+
+00:03:26.710 --> 00:03:29.270
+Maybe my app is supposed
+to be pretty chill
+
+00:03:29.270 --> 00:03:30.000
+and relaxed, and this feels very intense
+
+00:03:30.000 --> 00:03:31.730
+and relaxed, and this feels very intense
+
+00:03:31.730 --> 00:03:33.040
+and in your face.
+
+00:03:33.040 --> 00:03:35.540
+I'm just gonna try bending
+the hue a little bit.
+
+00:03:35.540 --> 00:03:36.000
+I'm gonna say, I'm gonna
+move it up 10 degrees,
+
+00:03:36.000 --> 00:03:37.870
+I'm gonna say, I'm gonna
+move it up 10 degrees,
+
+00:03:37.870 --> 00:03:39.390
+move it up even 20 degrees.
+
+00:03:39.390 --> 00:03:41.343
+Now, I'm almost more towards orange,
+
+00:03:42.720 --> 00:03:44.830
+it's kinda still recognizable as red
+
+00:03:44.830 --> 00:03:46.910
+especially if this is
+clearly an error message
+
+00:03:46.910 --> 00:03:48.000
+or I have some little icon that says,
+
+00:03:48.000 --> 00:03:48.837
+or I have some little icon that says,
+
+00:03:48.837 --> 00:03:50.850
+"Hey, this is an error."
+
+00:03:50.850 --> 00:03:53.880
+Likewise, I could move
+the hue down, right?
+
+00:03:53.880 --> 00:03:54.000
+Now, as from zero degrees,
+
+00:03:54.000 --> 00:03:55.330
+Now, as from zero degrees,
+
+00:03:55.330 --> 00:03:56.730
+I can't actually move it down directly.
+
+00:03:56.730 --> 00:03:58.000
+Got to go over to 360,
+
+00:03:58.000 --> 00:04:00.000
+and then I can move it down
+10 degrees, 20 degrees,
+
+00:04:00.000 --> 00:04:01.100
+and then I can move it down
+10 degrees, 20 degrees,
+
+00:04:01.100 --> 00:04:02.880
+and now I'm getting
+pretty close to a pink.
+
+00:04:02.880 --> 00:04:06.000
+And that doesn't necessarily
+look like an error.
+
+00:04:06.000 --> 00:04:06.130
+And that doesn't necessarily
+look like an error.
+
+00:04:06.130 --> 00:04:07.770
+But the thing is I don't
+have to be full on pink.
+
+00:04:07.770 --> 00:04:10.780
+I can kinda have a red that
+has a hint of pink in it.
+
+00:04:10.780 --> 00:04:12.000
+And so that's what hue is really good for.
+
+00:04:12.000 --> 00:04:12.340
+And so that's what hue is really good for.
+
+00:04:12.340 --> 00:04:16.240
+Is coming up with those
+slightly different variations
+
+00:04:16.240 --> 00:04:17.830
+where you just kinda
+wanna play with something,
+
+00:04:17.830 --> 00:04:18.000
+make it a little more interesting,
+
+00:04:18.000 --> 00:04:19.430
+make it a little more interesting,
+
+00:04:19.430 --> 00:04:21.830
+make it match your brand
+just a little bit more.
+
+00:04:23.070 --> 00:04:24.000
+Now let's talk about saturation.
+
+00:04:24.000 --> 00:04:24.820
+Now let's talk about saturation.
+
+00:04:24.820 --> 00:04:26.920
+Saturation is the second property.
+
+00:04:26.920 --> 00:04:29.290
+And while hue goes from zero to 360,
+
+00:04:29.290 --> 00:04:30.000
+saturation actually only
+goes from zero to 100.
+
+00:04:30.000 --> 00:04:32.770
+saturation actually only
+goes from zero to 100.
+
+00:04:32.770 --> 00:04:36.000
+So again, I'm gonna
+slide in there, go to 0%,
+
+00:04:36.000 --> 00:04:36.120
+So again, I'm gonna
+slide in there, go to 0%,
+
+00:04:36.120 --> 00:04:38.760
+watch what happens when
+I hold Shift + Up Arrow
+
+00:04:38.760 --> 00:04:39.673
+and go to 100.
+
+00:04:40.880 --> 00:04:42.000
+Now I'm at this very
+rich kind of red here.
+
+00:04:42.000 --> 00:04:43.077
+Now I'm at this very
+rich kind of red here.
+
+00:04:43.077 --> 00:04:44.730
+Let me go back down.
+
+00:04:44.730 --> 00:04:46.950
+Be-oop! It's gone, I'm back to gray.
+
+00:04:46.950 --> 00:04:48.000
+And so saturation works like this.
+
+00:04:48.000 --> 00:04:49.210
+And so saturation works like this.
+
+00:04:49.210 --> 00:04:52.570
+0% saturation is always gray.
+
+00:04:52.570 --> 00:04:54.000
+It's always gonna be
+some shade of gray, look.
+
+00:04:54.000 --> 00:04:54.870
+It's always gonna be
+some shade of gray, look.
+
+00:04:57.350 --> 00:05:00.000
+It might even be white, it might be black,
+
+00:05:00.000 --> 00:05:00.380
+It might even be white, it might be black,
+
+00:05:00.380 --> 00:05:01.800
+it could be something
+that we traditionally
+
+00:05:01.800 --> 00:05:02.740
+refer to as gray.
+
+00:05:02.740 --> 00:05:06.000
+And by the way, every single
+time I say gray in this course,
+
+00:05:06.000 --> 00:05:06.050
+And by the way, every single
+time I say gray in this course,
+
+00:05:06.050 --> 00:05:09.640
+I virtually always mean
+white and black inclusive.
+
+00:05:09.640 --> 00:05:11.060
+It's much more logical and useful
+
+00:05:11.060 --> 00:05:12.000
+from a designer's perspective
+
+00:05:12.000 --> 00:05:12.690
+from a designer's perspective
+
+00:05:12.690 --> 00:05:15.290
+if white and black are included in gray.
+
+00:05:15.290 --> 00:05:16.620
+And that's true here.
+
+00:05:16.620 --> 00:05:18.000
+A saturation of zero will
+always give me some gray.
+
+00:05:18.000 --> 00:05:19.330
+A saturation of zero will
+always give me some gray.
+
+00:05:19.330 --> 00:05:21.280
+As I increase it towards 100,
+
+00:05:21.280 --> 00:05:24.000
+I'm gonna kind of inject
+color into the gray.
+
+00:05:24.000 --> 00:05:24.730
+I'm gonna kind of inject
+color into the gray.
+
+00:05:24.730 --> 00:05:25.940
+That's a good way to think about it.
+
+00:05:25.940 --> 00:05:27.220
+Let's go see some other hues here.
+
+00:05:27.220 --> 00:05:28.730
+Now I'm at one 12.
+
+00:05:28.730 --> 00:05:30.000
+I'm removing the color
+until all I have is gray
+
+00:05:30.000 --> 00:05:31.720
+I'm removing the color
+until all I have is gray
+
+00:05:31.720 --> 00:05:33.720
+and then I'm injecting the color back in.
+
+00:05:33.720 --> 00:05:35.870
+So 100% saturation is kind of
+
+00:05:35.870 --> 00:05:36.000
+like the maximum amount of color
+
+00:05:36.000 --> 00:05:37.580
+like the maximum amount of color
+
+00:05:37.580 --> 00:05:39.650
+that I can inject into that gray.
+
+00:05:39.650 --> 00:05:42.000
+Another word that you
+will hear me use a ton
+
+00:05:42.000 --> 00:05:42.040
+Another word that you
+will hear me use a ton
+
+00:05:42.040 --> 00:05:44.970
+in describing saturation is richness.
+
+00:05:44.970 --> 00:05:47.850
+I often will describe
+a fully-saturated color
+
+00:05:47.850 --> 00:05:48.000
+or a very saturated
+color as being very rich.
+
+00:05:48.000 --> 00:05:51.430
+or a very saturated
+color as being very rich.
+
+00:05:51.430 --> 00:05:54.000
+And this is being kind of dull or flat.
+
+00:05:54.000 --> 00:05:54.790
+And this is being kind of dull or flat.
+
+00:05:54.790 --> 00:05:57.320
+It's not essential that you
+have to start talking like that
+
+00:05:57.320 --> 00:05:58.380
+but it can be useful to kind of
+
+00:05:58.380 --> 00:06:00.000
+build up your design vocabulary
+
+00:06:00.000 --> 00:06:03.290
+and understand some terms to
+describe those sorts of things.
+
+00:06:03.290 --> 00:06:05.940
+Now in practice, here's
+my little practical tip
+
+00:06:05.940 --> 00:06:06.000
+about saturation.
+
+00:06:06.000 --> 00:06:07.140
+about saturation.
+
+00:06:07.140 --> 00:06:11.270
+It is something that is
+often used if for instance,
+
+00:06:11.270 --> 00:06:12.000
+something feels like it's just too much.
+
+00:06:12.000 --> 00:06:14.050
+something feels like it's just too much.
+
+00:06:14.050 --> 00:06:16.480
+Like, you know, with this red,
+
+00:06:16.480 --> 00:06:18.000
+I might feel, "Wow, this
+red is just too much
+
+00:06:18.000 --> 00:06:19.170
+I might feel, "Wow, this
+red is just too much
+
+00:06:19.170 --> 00:06:21.330
+for whatever the particular setting is."
+
+00:06:21.330 --> 00:06:22.430
+Again, if it's kind of supposed to be
+
+00:06:22.430 --> 00:06:24.000
+a little bit more chill of an app.
+
+00:06:24.000 --> 00:06:24.030
+a little bit more chill of an app.
+
+00:06:24.030 --> 00:06:26.730
+So a lot of times when
+something feels like too much
+
+00:06:26.730 --> 00:06:29.860
+or too eye-popping, or it's
+searing itself into my eyes,
+
+00:06:29.860 --> 00:06:30.000
+I'm gonna go and I'm gonna
+reduce that saturation.
+
+00:06:30.000 --> 00:06:32.410
+I'm gonna go and I'm gonna
+reduce that saturation.
+
+00:06:32.410 --> 00:06:33.550
+And if I do it too quickly,
+
+00:06:33.550 --> 00:06:35.550
+it's just gonna look like
+it's kind of fading out here
+
+00:06:35.550 --> 00:06:36.000
+that's not the goal,
+you kinda have to blink
+
+00:06:36.000 --> 00:06:37.680
+that's not the goal,
+you kinda have to blink
+
+00:06:37.680 --> 00:06:38.597
+and reassess and say,
+
+00:06:38.597 --> 00:06:42.000
+"You know what? This
+red with 70% saturation
+
+00:06:42.000 --> 00:06:42.210
+"You know what? This
+red with 70% saturation
+
+00:06:42.210 --> 00:06:44.120
+actually feels a lot better
+
+00:06:44.120 --> 00:06:46.860
+compared to this blazing red right here."
+
+00:06:46.860 --> 00:06:48.000
+So that's one useful thing
+to know about saturation.
+
+00:06:48.000 --> 00:06:50.080
+So that's one useful thing
+to know about saturation.
+
+00:06:50.080 --> 00:06:53.500
+The third property, fortunately
+is the most obvious one.
+
+00:06:53.500 --> 00:06:54.000
+So we're ending very easy here.
+
+00:06:54.000 --> 00:06:54.740
+So we're ending very easy here.
+
+00:06:54.740 --> 00:06:57.380
+I'll just go pick another random hue here.
+
+00:06:57.380 --> 00:06:59.160
+The third property is brightness.
+
+00:06:59.160 --> 00:07:00.000
+And like saturation,
+
+00:07:00.000 --> 00:07:00.380
+And like saturation,
+
+00:07:00.380 --> 00:07:04.080
+brightness goes on a
+scale of 0% brightness
+
+00:07:04.080 --> 00:07:06.000
+all the way up to 100% brightness.
+
+00:07:06.000 --> 00:07:07.670
+all the way up to 100% brightness.
+
+00:07:07.670 --> 00:07:10.570
+Back down to zero and back up to 100.
+
+00:07:10.570 --> 00:07:12.000
+And you may be noticing something
+
+00:07:12.000 --> 00:07:12.430
+And you may be noticing something
+
+00:07:12.430 --> 00:07:14.540
+that's kind of a little interesting here.
+
+00:07:14.540 --> 00:07:18.000
+0% brightness is black and
+100% brightness is not white.
+
+00:07:18.000 --> 00:07:19.540
+0% brightness is black and
+100% brightness is not white.
+
+00:07:19.900 --> 00:07:21.930
+We're actually gonna come
+back to that in just a sec.
+
+00:07:21.930 --> 00:07:23.950
+Instead you should think
+of brightness more like
+
+00:07:23.950 --> 00:07:24.000
+kind of having a light
+bulb in a dark room.
+
+00:07:24.000 --> 00:07:26.193
+kind of having a light
+bulb in a dark room.
+
+00:07:27.030 --> 00:07:30.000
+When that light bulb is off, 0% on,
+
+00:07:30.000 --> 00:07:30.120
+When that light bulb is off, 0% on,
+
+00:07:30.120 --> 00:07:31.380
+that room is pitch black.
+
+00:07:31.380 --> 00:07:33.830
+And that's what I see right here.
+
+00:07:33.830 --> 00:07:36.000
+As I start to turn that light
+bulb on a little bit more,
+
+00:07:36.000 --> 00:07:37.270
+As I start to turn that light
+bulb on a little bit more,
+
+00:07:37.270 --> 00:07:40.370
+it's going to light up the
+room, but only so much.
+
+00:07:40.370 --> 00:07:42.000
+It's really not gonna do all that much.
+
+00:07:42.000 --> 00:07:42.290
+It's really not gonna do all that much.
+
+00:07:42.290 --> 00:07:44.723
+As I turn that brightness
+on more and more,
+
+00:07:45.810 --> 00:07:47.430
+it's clear that this is a blue light bulb
+
+00:07:47.430 --> 00:07:48.000
+and it's lighting up the
+room in kind of a blue hue.
+
+00:07:48.000 --> 00:07:50.610
+and it's lighting up the
+room in kind of a blue hue.
+
+00:07:50.610 --> 00:07:53.430
+But no matter how much I
+turn on that light bulb,
+
+00:07:53.430 --> 00:07:54.000
+I can get a brighter and brighter blue
+
+00:07:54.000 --> 00:07:55.060
+I can get a brighter and brighter blue
+
+00:07:55.060 --> 00:07:56.450
+but I'm never gonna get white.
+
+00:07:56.450 --> 00:07:58.340
+There's no blue that's so strong
+
+00:07:58.340 --> 00:07:59.410
+that it just turns into white.
+
+00:07:59.410 --> 00:08:00.000
+That's not how color works.
+
+00:08:00.000 --> 00:08:00.870
+That's not how color works.
+
+00:08:00.870 --> 00:08:04.910
+So think of brightness like,
+how much is that light bulb on?
+
+00:08:04.910 --> 00:08:06.000
+Now with saturation and brightness,
+
+00:08:06.000 --> 00:08:06.160
+Now with saturation and brightness,
+
+00:08:06.160 --> 00:08:08.970
+you may have also noticed that
+when I'm moving saturation
+
+00:08:08.970 --> 00:08:11.620
+what's going on is I am
+moving from left to right
+
+00:08:11.620 --> 00:08:12.000
+on this color picker here.
+
+00:08:12.000 --> 00:08:13.110
+on this color picker here.
+
+00:08:13.110 --> 00:08:14.490
+And when I'm moving brightness,
+
+00:08:14.490 --> 00:08:17.720
+I'm moving up and down on
+this color picker here.
+
+00:08:17.720 --> 00:08:18.000
+So I can type in three numbers here,
+
+00:08:18.000 --> 00:08:19.840
+So I can type in three numbers here,
+
+00:08:19.840 --> 00:08:22.510
+I can type them directly,
+I can use my arrow keys,
+
+00:08:22.510 --> 00:08:23.900
+I can paste something,
+
+00:08:23.900 --> 00:08:24.000
+or I can change the hue
+via this hue picker,
+
+00:08:24.000 --> 00:08:27.330
+or I can change the hue
+via this hue picker,
+
+00:08:27.330 --> 00:08:30.000
+the saturation via left to right here,
+
+00:08:30.000 --> 00:08:30.230
+the saturation via left to right here,
+
+00:08:30.230 --> 00:08:33.240
+and the brightness via up and down here.
+
+00:08:33.240 --> 00:08:35.490
+All right, so that's
+the fundamentals of HSB.
+
+00:08:35.490 --> 00:08:36.000
+That's what hue, saturation
+and brightness are.
+
+00:08:36.000 --> 00:08:38.270
+That's what hue, saturation
+and brightness are.
+
+00:08:38.270 --> 00:08:40.010
+If this seems a little bit complex,
+
+00:08:40.010 --> 00:08:41.740
+I encourage you to open up your design app
+
+00:08:41.740 --> 00:08:42.000
+and kinda play around with how HSB work,
+
+00:08:42.000 --> 00:08:44.330
+and kinda play around with how HSB work,
+
+00:08:44.330 --> 00:08:46.030
+to get a little more intuitive sense.
+
+00:08:46.030 --> 00:08:48.000
+But now we're gonna get into
+some kind of interesting points
+
+00:08:48.000 --> 00:08:48.340
+But now we're gonna get into
+some kind of interesting points
+
+00:08:48.340 --> 00:08:50.260
+about exactly how they work
+
+00:08:50.260 --> 00:08:52.670
+and some of their quirky behaviors.
+
+00:08:52.670 --> 00:08:54.000
+So the first thing I wanna talk about
+
+00:08:54.000 --> 00:08:54.070
+So the first thing I wanna talk about
+
+00:08:54.070 --> 00:08:57.630
+is the fact that black and
+white are not opposites in HSB.
+
+00:08:57.630 --> 00:08:59.660
+And we kind of alluded to this earlier.
+
+00:08:59.660 --> 00:09:00.000
+It's really apparent if you
+look at the color picker here,
+
+00:09:00.000 --> 00:09:02.800
+It's really apparent if you
+look at the color picker here,
+
+00:09:02.800 --> 00:09:05.400
+where white is just the
+upper-left hand corner.
+
+00:09:05.400 --> 00:09:06.000
+If I wanna make something white,
+
+00:09:06.000 --> 00:09:06.360
+If I wanna make something white,
+
+00:09:06.360 --> 00:09:08.720
+I have to slide loop, up to this corner.
+
+00:09:08.720 --> 00:09:11.510
+But black is not just
+the bottom left corner,
+
+00:09:11.510 --> 00:09:12.000
+it's this entire bottom of the graph.
+
+00:09:12.000 --> 00:09:14.210
+it's this entire bottom of the graph.
+
+00:09:14.210 --> 00:09:15.810
+And what that's saying is,
+
+00:09:15.810 --> 00:09:18.000
+in HSB, it doesn't matter
+what saturation is.
+
+00:09:18.000 --> 00:09:19.790
+in HSB, it doesn't matter
+what saturation is.
+
+00:09:19.790 --> 00:09:22.550
+If my brightness is zero, it's black.
+
+00:09:22.550 --> 00:09:24.000
+On the other hand, if I wanna make white,
+
+00:09:24.000 --> 00:09:24.700
+On the other hand, if I wanna make white,
+
+00:09:24.700 --> 00:09:26.310
+I have to do two things.
+
+00:09:26.310 --> 00:09:28.700
+I have to make the saturation zero
+
+00:09:28.700 --> 00:09:30.000
+and I have to make the brightness 100.
+
+00:09:30.000 --> 00:09:31.180
+and I have to make the brightness 100.
+
+00:09:31.180 --> 00:09:33.470
+This actually has a lot of implications
+
+00:09:33.470 --> 00:09:35.430
+for user-interface design,
+
+00:09:35.430 --> 00:09:36.000
+which I'll show you now.
+
+00:09:36.000 --> 00:09:36.850
+which I'll show you now.
+
+00:09:36.850 --> 00:09:39.540
+So let's say I just press
+A to create new art board,
+
+00:09:39.540 --> 00:09:41.450
+bring up an old iPhone size,
+
+00:09:41.450 --> 00:09:42.000
+and I'm gonna go ahead
+
+00:09:42.000 --> 00:09:42.370
+and I'm gonna go ahead
+
+00:09:42.370 --> 00:09:46.500
+and just create some kind
+of like header and whatever.
+
+00:09:46.500 --> 00:09:48.000
+Some color here, it totally
+doesn't matter what color.
+
+00:09:48.000 --> 00:09:49.660
+Some color here, it totally
+doesn't matter what color.
+
+00:09:49.660 --> 00:09:51.270
+And then I'm gonna put in a search bar.
+
+00:09:51.270 --> 00:09:53.440
+So I'll press R to get a new rectangle,
+
+00:09:53.440 --> 00:09:54.000
+I'll round off my search bar here.
+
+00:09:54.000 --> 00:09:55.540
+I'll round off my search bar here.
+
+00:09:55.540 --> 00:09:57.820
+And now I'm gonna make
+my search bar white.
+
+00:09:57.820 --> 00:09:59.370
+But if I decide that
+I really don't want it
+
+00:09:59.370 --> 00:10:00.000
+to be quite this eye-popping,
+
+00:10:00.000 --> 00:10:01.100
+to be quite this eye-popping,
+
+00:10:01.100 --> 00:10:03.940
+I could actually reduce the
+opacity of the search bar.
+
+00:10:03.940 --> 00:10:06.000
+If I reduce it to 50% here,
+
+00:10:06.000 --> 00:10:06.010
+If I reduce it to 50% here,
+
+00:10:06.010 --> 00:10:10.010
+what that's doing is it's
+blending the white of this layer,
+
+00:10:10.010 --> 00:10:12.000
+with kind of this teal
+of the background layer.
+
+00:10:12.000 --> 00:10:12.770
+with kind of this teal
+of the background layer.
+
+00:10:12.770 --> 00:10:15.260
+And it's actually a color
+that's sort of like halfway
+
+00:10:15.260 --> 00:10:16.750
+in-between those two colors.
+
+00:10:16.750 --> 00:10:18.000
+It's 50% foreground and 50% background.
+
+00:10:18.000 --> 00:10:19.900
+It's 50% foreground and 50% background.
+
+00:10:19.900 --> 00:10:23.220
+Interestingly enough, if you look here,
+
+00:10:23.220 --> 00:10:24.000
+let's go look at this
+color and this color.
+
+00:10:24.000 --> 00:10:26.103
+let's go look at this
+color and this color.
+
+00:10:27.150 --> 00:10:30.000
+You can see that my darker teal right here
+
+00:10:30.000 --> 00:10:31.410
+You can see that my darker teal right here
+
+00:10:31.410 --> 00:10:33.470
+is neatly situated right there.
+
+00:10:33.470 --> 00:10:36.000
+A saturation of 65 and a brightness of 46.
+
+00:10:36.000 --> 00:10:36.220
+A saturation of 65 and a brightness of 46.
+
+00:10:36.220 --> 00:10:38.850
+As I add in white, even
+though it's not full on white
+
+00:10:38.850 --> 00:10:40.830
+it's kinda added to that background color.
+
+00:10:40.830 --> 00:10:42.000
+What happens is I move
+up into the left here,
+
+00:10:42.000 --> 00:10:43.890
+What happens is I move
+up into the left here,
+
+00:10:43.890 --> 00:10:45.320
+which makes sense.
+
+00:10:45.320 --> 00:10:48.000
+The white is just this point
+all the way to the left
+
+00:10:48.000 --> 00:10:48.340
+The white is just this point
+all the way to the left
+
+00:10:48.340 --> 00:10:49.500
+and all the way up,
+
+00:10:49.500 --> 00:10:52.400
+and what I'm gonna do as
+I add more and more white
+
+00:10:52.400 --> 00:10:54.000
+is move towards that point from
+whatever other point I'm at.
+
+00:10:54.000 --> 00:10:55.590
+is move towards that point from
+whatever other point I'm at.
+
+00:10:55.590 --> 00:10:57.440
+So the function of adding white
+
+00:10:57.440 --> 00:10:59.580
+or creating a lighter variation,
+
+00:10:59.580 --> 00:11:00.000
+is always going to entail
+increasing the brightness
+
+00:11:00.000 --> 00:11:03.080
+is always going to entail
+increasing the brightness
+
+00:11:03.080 --> 00:11:05.150
+and decreasing the saturation.
+
+00:11:05.150 --> 00:11:06.000
+Let's contrast that to
+something like adding black.
+
+00:11:06.000 --> 00:11:08.860
+Let's contrast that to
+something like adding black.
+
+00:11:08.860 --> 00:11:10.187
+If I take this search bar and I said,
+
+00:11:10.187 --> 00:11:12.000
+"You know what? I don't
+like the light variation."
+
+00:11:12.000 --> 00:11:12.630
+"You know what? I don't
+like the light variation."
+
+00:11:12.630 --> 00:11:15.130
+I'm actually just gonna
+make the search bar black.
+
+00:11:15.130 --> 00:11:17.890
+Well, I have, here, I'm gonna move this
+
+00:11:17.890 --> 00:11:18.000
+so it's not quite so much a mess here.
+
+00:11:18.000 --> 00:11:19.790
+so it's not quite so much a mess here.
+
+00:11:20.870 --> 00:11:23.600
+Here's my black search
+bar, it's 50% opacity.
+
+00:11:23.600 --> 00:11:24.000
+Let's make another little swatch
+
+00:11:24.000 --> 00:11:24.850
+Let's make another little swatch
+
+00:11:24.850 --> 00:11:26.870
+and see what is the resulting color.
+
+00:11:26.870 --> 00:11:28.220
+Oops, I lost my first one.
+
+00:11:28.220 --> 00:11:30.000
+What's the resulting color here?
+
+00:11:30.000 --> 00:11:30.310
+What's the resulting color here?
+
+00:11:30.310 --> 00:11:33.470
+So again, I start at saturation of 65%,
+
+00:11:33.470 --> 00:11:35.240
+brightness of 46%.
+
+00:11:35.240 --> 00:11:36.000
+And when I move to the darker variation,
+
+00:11:36.000 --> 00:11:37.320
+And when I move to the darker variation,
+
+00:11:37.320 --> 00:11:42.000
+the saturation stays the same
+and the brightness goes down.
+
+00:11:42.000 --> 00:11:42.320
+the saturation stays the same
+and the brightness goes down.
+
+00:11:42.340 --> 00:11:46.470
+So 65, 46, 66, that's
+actually a rounding error.
+
+00:11:46.470 --> 00:11:48.000
+You can nevermind that it
+goes from 65 to 66 here.
+
+00:11:48.000 --> 00:11:49.640
+You can nevermind that it
+goes from 65 to 66 here.
+
+00:11:49.640 --> 00:11:54.000
+But the important bit is the
+brightness goes from 46 to 23.
+
+00:11:54.000 --> 00:11:54.640
+But the important bit is the
+brightness goes from 46 to 23.
+
+00:11:54.730 --> 00:11:56.540
+It basically halves.
+
+00:11:56.540 --> 00:11:58.900
+And what that means is
+on this color chart,
+
+00:11:58.900 --> 00:12:00.000
+adding black isn't the
+opposite of adding white.
+
+00:12:00.000 --> 00:12:01.590
+adding black isn't the
+opposite of adding white.
+
+00:12:01.590 --> 00:12:03.170
+Adding white means up into the left.
+
+00:12:03.170 --> 00:12:05.960
+Adding black is just going straight down.
+
+00:12:05.960 --> 00:12:06.000
+It's just a drop in brightness,
+
+00:12:06.000 --> 00:12:07.750
+It's just a drop in brightness,
+
+00:12:07.750 --> 00:12:10.460
+there's really no change
+to the saturation.
+
+00:12:10.460 --> 00:12:12.000
+The implication of this for us though,
+
+00:12:12.000 --> 00:12:12.620
+The implication of this for us though,
+
+00:12:12.620 --> 00:12:14.020
+is that we are basically never
+
+00:12:14.020 --> 00:12:16.940
+going to be making color
+variations by adding black,
+
+00:12:16.940 --> 00:12:18.000
+because in the real world,
+
+00:12:18.000 --> 00:12:18.780
+because in the real world,
+
+00:12:18.780 --> 00:12:20.940
+when you see a shadow
+fall on a colored layer,
+
+00:12:20.940 --> 00:12:23.190
+you have kind of a darker
+variation of a color,
+
+00:12:23.190 --> 00:12:24.000
+it's not the equivalent of
+adding black to that color.
+
+00:12:24.000 --> 00:12:25.750
+it's not the equivalent of
+adding black to that color.
+
+00:12:25.750 --> 00:12:29.930
+It's the equivalent of
+removing white from the color.
+
+00:12:29.930 --> 00:12:30.000
+And in the HSB those are different things.
+
+00:12:30.000 --> 00:12:32.650
+And in the HSB those are different things.
+
+00:12:32.650 --> 00:12:34.660
+We always wanna think
+in terms of adding white
+
+00:12:34.660 --> 00:12:36.000
+and removing white, not
+adding white or adding black.
+
+00:12:36.000 --> 00:12:39.530
+and removing white, not
+adding white or adding black.
+
+00:12:39.530 --> 00:12:42.000
+If we do a lot of adding
+black what we'll notice is
+
+00:12:42.000 --> 00:12:42.280
+If we do a lot of adding
+black what we'll notice is
+
+00:12:42.280 --> 00:12:45.570
+our colors tend to end
+up a little bit flat
+
+00:12:45.570 --> 00:12:47.430
+when we make darker variations.
+
+00:12:47.430 --> 00:12:48.000
+And instead, what we might wanna do is,
+
+00:12:48.000 --> 00:12:50.350
+And instead, what we might wanna do is,
+
+00:12:50.350 --> 00:12:51.183
+I mean, one way of doing it
+
+00:12:51.183 --> 00:12:53.200
+is to make a hand-picked variation,
+
+00:12:53.200 --> 00:12:54.000
+and we'll talk about others
+in a little bit later,
+
+00:12:54.000 --> 00:12:55.250
+and we'll talk about others
+in a little bit later,
+
+00:12:55.250 --> 00:12:56.990
+but if I make a
+hand-picked variation here,
+
+00:12:56.990 --> 00:12:58.940
+let's bring the opacity back up to 100%.
+
+00:12:58.940 --> 00:13:00.000
+I'm just going down in to the right
+
+00:13:00.000 --> 00:13:01.830
+I'm just going down in to the right
+
+00:13:01.830 --> 00:13:03.930
+and kind of exploring
+for exactly the color
+
+00:13:03.930 --> 00:13:05.810
+that feels good there.
+
+00:13:05.810 --> 00:13:06.000
+And that's gonna be much more natural
+
+00:13:06.000 --> 00:13:07.810
+And that's gonna be much more natural
+
+00:13:07.810 --> 00:13:12.000
+than just having say some
+flat black layer here
+
+00:13:12.000 --> 00:13:12.340
+than just having say some
+flat black layer here
+
+00:13:12.340 --> 00:13:14.220
+with a reduced opacity.
+
+00:13:14.220 --> 00:13:16.460
+You can see there's a little
+bit more richness to this one
+
+00:13:16.460 --> 00:13:18.000
+than there is to this one.
+
+00:13:18.000 --> 00:13:18.340
+than there is to this one.
+
+00:13:18.340 --> 00:13:20.310
+Now one final point about HSB
+
+00:13:20.310 --> 00:13:22.140
+and how they all kinda work together.
+
+00:13:22.140 --> 00:13:24.000
+And that is, saturation
+actually works slower
+
+00:13:24.000 --> 00:13:25.370
+And that is, saturation
+actually works slower
+
+00:13:25.370 --> 00:13:26.730
+for darker colors.
+
+00:13:26.730 --> 00:13:28.510
+So if I had some element,
+
+00:13:28.510 --> 00:13:30.000
+I'm just gonna like pick a card here.
+
+00:13:30.000 --> 00:13:30.690
+I'm just gonna like pick a card here.
+
+00:13:30.690 --> 00:13:32.720
+Although I just need something
+on the screen to show you,
+
+00:13:32.720 --> 00:13:35.980
+I don't actually recommend
+making cards like this.
+
+00:13:35.980 --> 00:13:36.000
+Let's say I have a very
+bright card, 93% brightness,
+
+00:13:36.000 --> 00:13:38.980
+Let's say I have a very
+bright card, 93% brightness,
+
+00:13:38.980 --> 00:13:41.340
+I can even go higher 98, 99, whatever.
+
+00:13:41.340 --> 00:13:42.000
+There's 96, that's fine.
+
+00:13:42.000 --> 00:13:42.670
+There's 96, that's fine.
+
+00:13:42.670 --> 00:13:45.880
+Now I'm gonna use this
+same hue that I have 176,
+
+00:13:45.880 --> 00:13:48.000
+that's gonna kinda make
+everything feel matching
+
+00:13:48.000 --> 00:13:48.180
+that's gonna kinda make
+everything feel matching
+
+00:13:48.180 --> 00:13:49.410
+and put together.
+
+00:13:49.410 --> 00:13:52.850
+And what I'm gonna do is
+I'm gonna add in saturation,
+
+00:13:52.850 --> 00:13:53.850
+I'm gonna take this gray,
+
+00:13:53.850 --> 00:13:54.000
+and I'm gonna inject this hue into it
+
+00:13:54.000 --> 00:13:56.210
+and I'm gonna inject this hue into it
+
+00:13:56.210 --> 00:13:58.930
+until I can kind of just barely see it.
+
+00:13:58.930 --> 00:14:00.000
+And the idea is like when
+would I kind of identify,
+
+00:14:00.000 --> 00:14:01.297
+And the idea is like when
+would I kind of identify,
+
+00:14:01.297 --> 00:14:02.950
+"Oh yeah, that is definitely
+
+00:14:02.950 --> 00:14:05.120
+that same sort of aquamarine color."
+
+00:14:05.120 --> 00:14:06.000
+And actually it feels like
+now is about that time.
+
+00:14:06.000 --> 00:14:08.300
+And actually it feels like
+now is about that time.
+
+00:14:08.300 --> 00:14:09.680
+This is a hue of six.
+
+00:14:09.680 --> 00:14:11.100
+This isn't an exact science,
+
+00:14:11.100 --> 00:14:12.000
+it's just, I'm kinda saying,
+
+00:14:12.000 --> 00:14:12.277
+it's just, I'm kinda saying,
+
+00:14:12.277 --> 00:14:15.670
+"Okay when can I like
+pretty easily feel that
+
+00:14:15.670 --> 00:14:18.000
+that is gonna be that same aquamarine?"
+
+00:14:18.000 --> 00:14:18.470
+that is gonna be that same aquamarine?"
+
+00:14:18.470 --> 00:14:21.660
+Now, all I had to add in
+was the saturation of six
+
+00:14:21.660 --> 00:14:23.250
+before I felt like that gray
+
+00:14:23.250 --> 00:14:24.000
+had a very distinct color to it.
+
+00:14:24.000 --> 00:14:25.610
+had a very distinct color to it.
+
+00:14:25.610 --> 00:14:27.700
+That is not how it works
+with darker colors.
+
+00:14:27.700 --> 00:14:30.000
+And one example of this
+is let's say I have some
+
+00:14:30.000 --> 00:14:30.420
+And one example of this
+is let's say I have some
+
+00:14:30.420 --> 00:14:33.540
+kinda like sidebar menu that comes in here
+
+00:14:33.540 --> 00:14:35.330
+for my mobile app.
+
+00:14:35.330 --> 00:14:36.000
+I'm gonna grab that same hue,
+
+00:14:36.000 --> 00:14:38.010
+I'm gonna grab that same hue,
+
+00:14:38.010 --> 00:14:39.050
+I'm actually gonna,
+
+00:14:39.050 --> 00:14:40.860
+well I'm gonna remove the
+saturation to begin with,
+
+00:14:40.860 --> 00:14:41.940
+but we'll add it back in.
+
+00:14:41.940 --> 00:14:42.000
+But this time I'm gonna
+make it much darker.
+
+00:14:42.000 --> 00:14:43.750
+But this time I'm gonna
+make it much darker.
+
+00:14:43.750 --> 00:14:48.000
+Like let's say like 20%
+or something, even 15.
+
+00:14:48.000 --> 00:14:48.360
+Like let's say like 20%
+or something, even 15.
+
+00:14:48.360 --> 00:14:52.580
+Now, as I add in the saturation,
+let's watch what happens.
+
+00:14:52.580 --> 00:14:54.000
+I'm at four or five, six.
+
+00:14:54.000 --> 00:14:54.410
+I'm at four or five, six.
+
+00:14:54.410 --> 00:14:58.990
+At 6% saturation, I still
+cannot distinguish this
+
+00:14:58.990 --> 00:15:00.000
+from a totally flat gray.
+
+00:15:00.000 --> 00:15:01.000
+from a totally flat gray.
+
+00:15:01.000 --> 00:15:02.140
+So I added more.
+
+00:15:02.140 --> 00:15:06.000
+Here's 12, 13, still nothing,
+still appears very gray.
+
+00:15:06.000 --> 00:15:06.060
+Here's 12, 13, still nothing,
+still appears very gray.
+
+00:15:06.060 --> 00:15:08.706
+24, okay, now I'm just gonna go up by 10.
+
+00:15:08.706 --> 00:15:09.971
+34, 44.
+
+00:15:09.971 --> 00:15:12.000
+Okay, 44 is sort of the first time
+
+00:15:12.000 --> 00:15:12.960
+Okay, 44 is sort of the first time
+
+00:15:12.960 --> 00:15:15.050
+where I feel like, "Ah,
+yeah, there's some green
+
+00:15:15.050 --> 00:15:17.120
+in this gray. I can see
+what's going on here."
+
+00:15:17.120 --> 00:15:18.000
+Well, this is not an exact measure, right?
+
+00:15:18.000 --> 00:15:19.350
+Well, this is not an exact measure, right?
+
+00:15:19.350 --> 00:15:22.117
+I'm just, again, kind of
+eyeballing it and saying,
+
+00:15:22.117 --> 00:15:24.000
+"I'm just saturating this,
+I'm just injecting color in
+
+00:15:24.000 --> 00:15:25.040
+"I'm just saturating this,
+I'm just injecting color in
+
+00:15:25.040 --> 00:15:26.780
+until I can kinda barely notice it."
+
+00:15:26.780 --> 00:15:29.660
+It's not like these are
+equivalently saturated
+
+00:15:29.660 --> 00:15:30.000
+or like some level of visual saturation,
+
+00:15:30.000 --> 00:15:32.220
+or like some level of visual saturation,
+
+00:15:32.220 --> 00:15:33.860
+but that's kinda what I'm going for here.
+
+00:15:33.860 --> 00:15:36.000
+And the important takeaway,
+
+00:15:36.000 --> 00:15:36.280
+And the important takeaway,
+
+00:15:36.280 --> 00:15:38.120
+is when you're working
+with a very bright color,
+
+00:15:38.120 --> 00:15:41.210
+towards the top here, you
+actually don't have to add in
+
+00:15:41.210 --> 00:15:42.000
+very much saturation at all
+for it to be kind of apparent.
+
+00:15:42.000 --> 00:15:45.210
+very much saturation at all
+for it to be kind of apparent.
+
+00:15:45.210 --> 00:15:47.130
+But when you're working
+with a very dark color,
+
+00:15:47.130 --> 00:15:48.000
+you can add in a shocking
+amount of saturation
+
+00:15:48.000 --> 00:15:50.010
+you can add in a shocking
+amount of saturation
+
+00:15:50.010 --> 00:15:51.740
+and it's not gonna look crazy.
+
+00:15:51.740 --> 00:15:54.000
+Here we are at 74% saturation.
+
+00:15:54.000 --> 00:15:54.220
+Here we are at 74% saturation.
+
+00:15:54.220 --> 00:15:57.846
+If I took this card and brought
+it up to 74% saturation,
+
+00:15:57.846 --> 00:16:00.000
+(laughs) you can see it's
+like quite rich and strong.
+
+00:16:00.000 --> 00:16:00.760
+(laughs) you can see it's
+like quite rich and strong.
+
+00:16:00.760 --> 00:16:03.260
+It's really not even the
+same feel at all anymore.
+
+00:16:04.300 --> 00:16:06.000
+And that wraps it up for HSB.
+
+00:16:06.000 --> 00:16:07.060
+And that wraps it up for HSB.
+
+00:16:07.060 --> 00:16:09.480
+Now, whether or not
+you've used this system
+
+00:16:09.480 --> 00:16:11.590
+whether you're already
+kind of an expert at it,
+
+00:16:11.590 --> 00:16:12.000
+or even if you're just seeing
+it for the first time today,
+
+00:16:12.000 --> 00:16:14.300
+or even if you're just seeing
+it for the first time today,
+
+00:16:14.300 --> 00:16:16.470
+go ahead and take a
+look at today's homework
+
+00:16:16.470 --> 00:16:17.850
+which is to play a game.
+
+00:16:17.850 --> 00:16:18.000
+And this game is a guessing game
+
+00:16:18.000 --> 00:16:19.290
+And this game is a guessing game
+
+00:16:19.290 --> 00:16:20.810
+and it's gonna help you kind of
+
+00:16:20.810 --> 00:16:22.730
+forge a deeper mental connection
+
+00:16:22.730 --> 00:16:24.000
+between values of HSB,
+those three numbers,
+
+00:16:24.000 --> 00:16:25.970
+between values of HSB,
+those three numbers,
+
+00:16:25.970 --> 00:16:28.800
+and the actual color that they generate.
+
+00:16:28.800 --> 00:16:30.000
+And that is only a good thing.
+
+00:16:30.000 --> 00:16:31.260
+And that is only a good thing.
+
+00:16:31.260 --> 00:16:33.970
+The goal is that you would
+be able to look at any color
+
+00:16:33.970 --> 00:16:35.660
+and not only have a sense of roughly
+
+00:16:35.660 --> 00:16:36.000
+what the HSB values are,
+
+00:16:36.000 --> 00:16:37.680
+what the HSB values are,
+
+00:16:37.680 --> 00:16:39.970
+but eventually you will see a color,
+
+00:16:39.970 --> 00:16:41.450
+know how you wanna change it,
+
+00:16:41.450 --> 00:16:42.000
+know which of those
+properties you need to change,
+
+00:16:42.000 --> 00:16:43.590
+know which of those
+properties you need to change,
+
+00:16:43.590 --> 00:16:45.730
+and by roughly what amount.
+
+00:16:45.730 --> 00:16:48.000
+Now it's a long road,
+but you will get there.
+
+00:16:48.000 --> 00:16:48.350
+Now it's a long road,
+but you will get there.
+
+00:16:48.350 --> 00:16:50.410
+And we are going to be
+spending a lot of time
+
+00:16:50.410 --> 00:16:52.190
+going very deep on HSB.
+
+00:16:52.190 --> 00:16:54.000
+So all of this stuff
+is foundational things
+
+00:16:54.000 --> 00:16:54.680
+So all of this stuff
+is foundational things
+
+00:16:54.680 --> 00:16:58.280
+that we will very much be
+building on in future videos.
+
+00:16:58.280 --> 00:16:59.620
+All right, take a look at the homework.
+
+00:16:59.620 --> 00:17:00.000
+Feel free to post high scores
+in the student community
+
+00:17:00.000 --> 00:17:01.980
+Feel free to post high scores
+in the student community
+
+00:17:01.980 --> 00:17:03.830
+and we'll see you in the next lesson.
+
