@@ -13,6 +13,12 @@ This is a **geometric sans-serif** — letterforms constructed from basic geomet
 
 The weight hierarchy is consistent throughout: one large bold headline, one smaller lighter description — repeated every section. Easy to follow, easy to skim.
 
+**Pattern:** Geometric sans-serif
+
+**Trick:** Choose a typeface whose letterform construction matches the product's personality — geometric = engineered, humanist = warm, transitional = classic.
+
+**Apply it:** Any product selling precision, structure, or efficiency. Developer tools, finance dashboards, productivity apps.
+
 ---
 
 ## Color
@@ -20,6 +26,12 @@ The weight hierarchy is consistent throughout: one large bold headline, one smal
 > Overall color are dark background and white text to really help to highlight things — show users what are really important, stands out to remember.
 
 Strong contrast that ensures the important content always wins attention. Nothing competes. A lighter blue accent appears selectively (the "1M" figure, the large "M" shape in the background) to draw the eye without overwhelming the palette.
+
+**Pattern:** Maximum contrast + single accent
+
+**Trick:** Dark background + white text + one selective accent color. Nothing competes — the accent only fires when you need the eye to land somewhere specific.
+
+**Apply it:** Any dark-mode landing page. Use the accent color on exactly one element per section — a stat, a CTA, a headline word.
 
 ---
 
@@ -37,6 +49,12 @@ Almost every section is built from the same core: **Header + Description + Illus
 
 The hero answers three questions in sequence — what it is, why it matters, what it looks like — before the user has to scroll. The subtle curved white shapes in the background are a small but important touch: without them the dark background would feel flat and lifeless.
 
+**Pattern:** Hero trifecta (WHAT + WHY + HOW)
+
+**Trick:** Stack header (what it is), description (why it matters), and illustration (how it looks) in one centered block. Three questions answered before the first scroll.
+
+**Apply it:** Any hero section for a new product. If the user can't answer all three questions without scrolling, the hero isn't doing its job.
+
 ---
 
 ### 2. The "1M" Stat Trick
@@ -47,7 +65,11 @@ The hero answers three questions in sequence — what it is, why it matters, wha
 
 The number is shown as a visual element *before* its context is given. Your eye catches the 1M, then the headline tells you what it means — so by the time you read "1 million hours," your brain has already been primed by the scale of that number. The impact lands harder than if it were just embedded in a sentence.
 
-> **Pattern:** Lead with the stat as a visual anchor, give context second.
+**Pattern:** Stat-as-visual-anchor
+
+**Trick:** Display the number at display scale before its label. The eye reads the number first, the brain gets primed, then the headline confirms the meaning — impact lands harder than if it's inline.
+
+**Apply it:** Any social proof or traction section. "10,000 teams", "99.9% uptime", "$2B managed" — make the number the hero, not a footnote.
 
 ---
 
@@ -61,6 +83,12 @@ The number is shown as a visual element *before* its context is given. Your eye 
 
 The scroll-triggered illustration change lets multiple related features share one section without requiring the user to do anything — no tabs, no clicks, just scroll. The gradient color shift (purple → teal) signals that something changed on screen without breaking the layout rhythm.
 
+**Pattern:** Scroll-triggered feature carousel
+
+**Trick:** Lock the layout, swap only the illustration and gradient as scroll progresses. Multiple features share one section — no tabs, no clicks needed.
+
+**Apply it:** Any "here are 4 related benefits" section where each benefit is small enough to not deserve its own full page. Groups similar features without the overhead of a tab component.
+
 ---
 
 ### 4. Left–Right Split (Alternating)
@@ -72,6 +100,12 @@ The scroll-triggered illustration change lets multiple related features share on
 > Still a combination of big 3. But now text is in 1 side and illustration is in another side and this pattern is repeated and switching side alternatively. Text left image right and then text right image left. This highlights the benefits clearly, and predictable. People often read left to right top to bottom, so first I see text left image right, right below the image of the first section is the text for the next section => I can scroll down and see the text and look left for the images => I feel a sense of smoothness and ease when going through the page.
 
 The alternating layout uses reading direction (left-to-right, top-to-bottom) deliberately — the eye follows a natural Z-path down the page. Predictability creates smoothness: the user knows the rhythm and stops thinking about the layout, focusing entirely on the content.
+
+**Pattern:** Z-pattern alternating layout
+
+**Trick:** Alternate text-left/image-right and image-left/text-right across pairs of sections. The eye follows a natural Z-path — each new section is where the reader's eye already is.
+
+**Apply it:** Feature comparison sections, product benefit lists, anything with 4+ items that each deserve breathing room. Rhythm > variety here.
 
 ---
 
@@ -86,6 +120,12 @@ The alternating layout uses reading direction (left-to-right, top-to-bottom) del
 > These contain just 2 elements of the big 3: Header + images or texts. If something is clear enough with texts or images => need no description. Save space for users.
 
 When the feature name and visual are self-explanatory, adding a description just adds noise and slows the page down. Dropping it respects the user's time and keeps the scrolling pace feeling fast and confident.
+
+**Pattern:** Self-evident feature grid
+
+**Trick:** Drop the description when the header + visual already say everything. Fewer words = faster scroll pace = more confidence in the product.
+
+**Apply it:** Feature lists, integration grids, security/compliance badges. If you have to explain it, the label or icon isn't good enough — fix those first, then remove the description.
 
 ---
 

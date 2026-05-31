@@ -19,6 +19,12 @@ Blue and yellow are doing different jobs but working in the same direction. Blue
 
 Notice the sequencing: blue dominates the hero (first impression = trust), then yellow takes over for the savings and retirement sections (second impression = opportunity). The palette doesn't just look good — it structures the emotional arc of the page.
 
+**Pattern:** Two-color emotional arc
+
+**Trick:** Assign each color a meaning (blue = trust, yellow = opportunity), then sequence them intentionally — lead with trust, follow with benefit.
+
+**Apply it:** Any fintech, health, or insurance product. Pick two colors that answer "can I trust you?" and "will I benefit?" then order them that way down the page.
+
 ---
 
 ## 3D Illustrations
@@ -38,6 +44,12 @@ Notice the sequencing: blue dominates the hero (first impression = trust), then 
 3D illustration also signals craft and investment. A flat icon takes minutes; a rendered 3D scene takes hours. Users don't consciously think this, but they feel it — "someone put serious work into this." In finance, effort reads as carefulness, and carefulness reads as trust.
 
 The specific style Betterment uses is worth noting: stylized and slightly cartoonish, not photorealistic. Bright saturated colors, simplified forms, exaggerated proportions. This prevents the 3D from feeling cold or corporate — dimensional enough to feel substantial, playful enough to feel approachable. The floating money bills are a good example: they make an abstract number (4.00% APY) feel physically real and abundant without being garish.
+
+**Pattern:** Stylized 3D illustration
+
+**Trick:** Use dimensionality (volume, shadow, z-axis) to signal substance — but keep it stylized, not photorealistic, so it stays warm and approachable.
+
+**Apply it:** Trust-critical products (finance, health, legal) where you need to feel serious but not cold. Abstract concepts (savings, security, growth) benefit most — 3D makes invisible things feel tangible.
 
 ---
 

@@ -21,7 +21,11 @@ This works because of the brand promise alignment: Webflow's value proposition i
 
 The execution is expensive — it requires sticky scroll-pinning, precise layer compositing, and careful tuning to feel seamless rather than glitchy. That investment is visible, which is itself a brand signal: a tool that ships this says "we care about every detail of this craft."
 
-> **Pattern:** When your hero *is* the product demo, let the scroll drive the transition. Show the tool in use, not just its marketing surface.
+**Pattern:** Hero-to-product scroll reveal
+
+**Trick:** Pin the hero with sticky positioning, layer the marketing surface over the actual product UI, dissolve between them as scroll progresses. The boundary between "marketing site" and "the tool" visibly collapses.
+
+**Apply it:** Any product where the UI itself is the most compelling argument — design tools, code editors, dashboards. If your product is beautiful to use, don't describe it, reveal it.
 
 ---
 
@@ -37,7 +41,11 @@ The scrollspy section below the hero uses the same **scrollspy** pattern seen in
 
 Switching the audience selector from "design teams" to "developers" or "marketers" presumably re-filters the scrollspy sections below, tailoring the feature tour to that persona. But the deeper move is syntactic: the selector sits *inside a sentence*, not in a separate filter row. It reads as natural language with a choice inside it. You feel like you're filling in a sentence, not operating a form control. That's the reusable insight — the moment a filter or dropdown can be written into a sentence instead of extracted to UI chrome, it feels dramatically more natural.
 
-> **Pattern:** When a UI control can live inside prose syntax instead of adjacent chrome, embed it there. The interaction cost drops, the feel of control rises.
+**Pattern:** Inline prose selector
+
+**Trick:** Write the filter/selector as a gap in a sentence — "Everything [design teams ▼] love about X." The dropdown sits inside the headline. The user fills in a sentence, not a form field.
+
+**Apply it:** Audience selectors, persona switchers, product variant pickers. Any time a filter changes what content is shown — try writing the filter into the content headline first before reaching for a separate filter row.
 
 ---
 
@@ -53,7 +61,11 @@ Three tabs at the bottom — **Build**, **Manage**, **Optimize** — each with a
 
 Two things make this feel high-brand. First, the loop: there's no end state, which communicates that the product is a continuous workflow, not a one-time build. Second, the progress bar creates gentle urgency — you watch it fill and want to see what comes next. It holds attention without demanding it. Compared to a static illustration of the same three steps, the timed animation turns a feature list into a felt experience of the workflow.
 
-> **Pattern:** For multi-step workflows, animate the transitions with a visible timer. It turns a diagram into a live demo and communicates "this is ongoing, not a one-time task."
+**Pattern:** Auto-advancing process loop
+
+**Trick:** Progress bar per step that fills and auto-advances. Loops back to step 1 after the last. Product demo updates with each step. No end state — communicates that the product is a continuous workflow.
+
+**Apply it:** Any SaaS product with distinct workflow phases (Build → Manage → Optimize). Makes a static feature diagram into a felt experience of the product lifecycle.
 
 ---
 
@@ -67,7 +79,11 @@ A marquee of partner logos tells you the names. This section tells you the story
 
 The hover-to-play mechanic is the key decision. Autoplay across all cards would be visually chaotic. Hover-to-play means each card is dormant until you bring attention to it — the video rewards curiosity rather than demanding it. And linking to the real built site closes the loop: you go from hearing the testimonial to seeing the actual work. Most social proof sections stop at the quote. This one lets you verify the claim.
 
-> **Pattern:** Testimonials with a verifiable output (the actual work) are more credible than testimonials alone. Give people a way to check.
+**Pattern:** Verifiable testimonial card
+
+**Trick:** Hover-to-play silent video of a real person + bold metric + quote + link to the actual work they built. Each card is dormant until hovered — rewards curiosity rather than demanding attention.
+
+**Apply it:** Any social proof section. Replace static logos or text quotes with cards that let people verify the claim. The "View website →" link is what separates credibility from marketing.
 
 ---
 
@@ -83,7 +99,11 @@ Webflow's implementation uses two large blurred color blobs (implemented with CS
 
 What makes this especially right for Webflow is the brand promise: *"you can build living, dynamic, interactive things."* If the homepage itself is interactive before you've clicked anything, you believe the product before reading a feature. Almanac used the same principle with SVG blob shapes that breathe in the background. Both say: *this background is not wallpaper, it's a surface*.
 
-> **Pattern:** Cursor-reactive backgrounds turn the hero from something to scroll past into somewhere to be. Reserve for high-craft contexts — done poorly it looks cheap; done well it communicates the product's capability through the medium itself.
+**Pattern:** Cursor-reactive ambient background
+
+**Trick:** Two CSS radial gradient blobs that lazily follow cursor position on mousemove. Creates ambient light effect — the background acknowledges you before you've clicked anything.
+
+**Apply it:** Hero sections for high-craft products (design tools, creative platforms, portfolios). The background becomes a silent demonstration of capability. Done poorly it looks cheap — reserve for contexts where interactivity is the brand promise.
 
 ---
 

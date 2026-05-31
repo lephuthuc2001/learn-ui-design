@@ -19,7 +19,11 @@
 
 There's also a confidence signal: a static layout feels settled. A scrolling marquee feels like it's nervously trying to fit more in. Fade-in-place says "we have enough credible names, we don't need to rush them past you."
 
-> **Pattern:** Motion should signal change, not demand attention. Use the minimum motion needed.
+**Pattern:** Minimum-motion signaling
+
+**Trick:** Use the smallest possible animation to communicate change. For a logo ticker: fade-in-place instead of scrolling. For demos: animate inside a fixed frame so the layout stays still.
+
+**Apply it:** Any section with repeated motion — logo tickers, testimonial carousels, feature demos. Ask: does this animation demand the user's attention, or just signal that something changed?
 
 ---
 
@@ -37,7 +41,11 @@ The technical name for this is **scrollspy** — the active tab tracks your scro
 
 The sticky tab bar is load-bearing here. Without it staying fixed at the top, the highlight change would be invisible — you'd have scrolled past the tabs long before reaching the section. Stickiness is what keeps the feedback visible at all times.
 
-> **Pattern:** Navigation that reflects scroll position removes the feeling of being lost. The user always knows where they are without having to think about it.
+**Pattern:** Scrollspy navigation
+
+**Trick:** Sticky tab bar that highlights the active section as scroll position changes. Works in both directions — scrolling updates the highlight, clicking a tab jumps to the section.
+
+**Apply it:** Any long feature page with multiple distinct sections. Especially effective when sections are long enough that the user loses context of where they are in the page.
 
 ---
 
