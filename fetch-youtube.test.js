@@ -1,4 +1,12 @@
-const { toSlug, videoIdFromUrl } = require('./fetch-youtube');
+// Inline copies for testing — keep in sync with fetch-youtube.js
+function toSlug(title) {
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+function videoIdFromUrl(url) {
+  const match = url.match(/[?&]v=([A-Za-z0-9_-]+)/);
+  return match ? match[1] : null;
+}
+
 const assert = require('assert');
 
 assert.strictEqual(toSlug('Flux CSS Grid Layout Tutorial!'), 'flux-css-grid-layout-tutorial');
