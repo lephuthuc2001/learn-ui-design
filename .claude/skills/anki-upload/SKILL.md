@@ -46,6 +46,8 @@ Example tags: `learn-ui-design`, `01-introduction`, `01-begin-here`
 
 ## Step 2 — Upload images
 
+> **NEVER base64-encode images.** Always upload via the `path` parameter (Method 2). Base64 is extremely slow, wastes thousands of tokens, and may timeout. If you find yourself running `base64` or encoding image data, stop immediately and use the UNC path approach below instead.
+
 Parse the `.anki.md` file for ALL image references. Two path patterns appear:
 
 - `![](images/<filename>)` — Mermaid PNGs and SVG illustrations
@@ -61,7 +63,7 @@ For each **unique** image file referenced (deduplicate — two cards can referen
    # For screenshots/ references:
    \\wsl.localhost\Ubuntu\home\lephuthuc\learn-ui-design\<unit>\<lesson>\screenshots\<filename>
    ```
-2. Call `store_media_file` with that path. Save the **returned filename** (Anki may rename the file with a hash suffix if a collision exists).
+2. Call `store_media_file` with that path, using a `filename` prefixed with `_` (e.g. `_02-alignment-room.jpg`). The underscore prefix prevents Anki's unused media cleanup from deleting the file. Save the **returned filename** (Anki may rename the file with a hash suffix if a collision exists).
 3. Build a unified map: `original-path → stored-filename` keyed by the full original reference string (e.g. `screenshots/02-alignment-room.jpg`).
 
 Upload all images before creating any cards.

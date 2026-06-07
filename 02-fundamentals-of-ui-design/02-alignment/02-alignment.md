@@ -1,267 +1,194 @@
 # Alignment
 
-## Why Alignment Matters
-
 > "Alignment is one of the most important topics in user interface design. And that's why we are starting with it in this fundamentals unit."
 
 > "Alignment is also — if I had to say — probably the most underrated topic in UI design. There are plenty of things written about color and typography, but very little written about alignment, except through grids, which we'll cover later as sort of a special case."
 
-Alignment is critical for making any app appear **clean, neat, and simple**. Even if your brand is more expressive, you'll still spend a significant amount of time thinking about how to align elements to achieve the maximum feeling of cleanness and neatness.
+Alignment is critical for making any app appear **clean, neat, and simple**. Even if your brand is more expressive, you'll still spend a significant amount of time thinking about how to align elements with each other — "so as to achieve a feeling of maximal cleanness or neatness."
+
+The lesson works through a sample app (the "Alignment Co." — a typical data-heavy desktop + mobile table view) starting with elements scattered scattershot, then cleaning them up one by one.
 
 ---
 
-## The Sample App: Desktop Version
+## [1:30] Aligning via centering
 
-The lesson works through a real-world **data table application** (called "Alignment Co.") — the kind of data-heavy app you'd routinely encounter working for clients or a day job. Elements are pasted on scattershot to start; the lesson progressively aligns them and explains edge cases along the way.
-
-![The "Alignment Co." data table app with all elements scattered randomly — the starting state before alignment](screenshots/01-app-unaligned.jpg)
-
----
-
-## Sidebar Alignment
-
-### Centering within a container
-
-The sidebar logo box is centered horizontally using Figma's **Option+H** (horizontal center) and **Option+V** (vertical center) within its container. Even spacing of **8 pixels on every side** is set first.
-
-### The bounding box problem with text
+Starting with the sidebar: use horizontal center (Option+H in Figma) to center the logo box, then apply 8px padding on all sides. Using vertical center (Option+V) to center text within the box gets things close — but the text appears a little high.
 
 > "This program is naively centering by the bounding box of the text. And yet, if you look, the text is not really centered inside of its own bounding box."
 
-Many fonts — including Adelle Sans — don't sit vertically centered within their own bounding box. The computed center of a text frame is not the visual center of the letters. When you auto-center text using a tool shortcut, the result may look slightly too high or too low.
+CSS on the web will behave the same way, so if you just need to ship it, this is acceptable. But if you want to be careful, nudge manually. The instructor settles on 12px above the text, 11px below.
 
-**Fix:** Adjust the margin manually by eye. In the lesson, the ideal result was **12 pixels on top, 11 pixels below** — not perfectly equal, but visually balanced.
+> "As usual, we fail left and fail right until we find kind of the best value."
 
-![Sidebar logo text visually off-center despite being mathematically centered — bounding box centering doesn't match visual center](screenshots/02-bounding-box-text.jpg)
-
-> "If we wanted to really be careful about things, we might specify that actually this should be a little bit lower."
-
-If you just need to ship it, CSS centering will behave the same way, so ignoring it is acceptable. But if you're being precise, you need to nudge it manually.
-
-### Side nav icons and text
-
-- Left-align all icons using **Control+Command+Left** with a consistent margin (e.g., 16 px)
-- Use **distribute vertical spacing** to ensure even gaps between items
-- Determine row height by adding icon size (24 px) + spacing (20 px) = **44 px per row** — the same as the text's line height, so icons and labels align row-for-row
-
-### Baseline alignment for mixed text sizes
-
-When two pieces of text sit side by side (e.g., "Projects" and the count "6"), **align them at the baseline**. This works even when the two text items are different sizes.
-
-![Sidebar navigation with "Projects" label and count badge baseline-aligned — different font sizes sharing the same baseline](screenshots/05-baseline-alignment.jpg)
-
-> "Figma, as it's currently implemented, has text shrink from the top, not the baseline. So I need to reposition it, but it's overall not a big deal."
-
-### Warning: don't align centered content with left-aligned content
-
-> "Beware because one common impulse among beginning designers is to try and align content that is centered with content that is say left-aligned."
-
-Specifically, don't indent icons to align with a centered logo above. This creates a fragile alignment that breaks whenever the logo text changes.
-
-**Principle:** Design alignment schemes that don't rely on the specific widths of other elements. If you translated all text to another language, you shouldn't have to change any alignment values. Let centered things be centered; let left-aligned things be left-aligned.
+For the side nav icons (24×24px), space them at 20px between each — giving each row a total height of 44px. That happens to match the text line height, so icons and text labels stay aligned row over row.
 
 ---
 
-## Main Body — Search Bar and Header Area
+## [2:02] Aligning text elements by pixel center-of-mass
 
-### Matching element heights for alignment
+When aligning a custom icon (no clean bounding box) next to text, naive vertical centering looks wrong. The fix is a concept the instructor calls **center of pixel mass**.
 
-The search bar height was adjusted from 42 px to 44 px to match an adjacent sidebar element — enabling perfect alignment between the two.
+> "If all of this ink — all these filled-in pixels — had weight, where would the center of mass be?"
 
-### Circle vs. rectangle edge alignment
+For a line of mixed-case text, the center of pixel mass is biased **slightly below** the midpoint between cap height and baseline, because lowercase letters cluster their ink toward the bottom of the letterform (think: 'a', 'e', 'o' — all mass below the midline, not above it).
 
-When aligning a **circular element** (e.g., a profile photo) with a **rectangular element**, there's a fundamental optical mismatch:
+For an icon that jets out heavily toward the top (like a location pin), the center of mass is biased **slightly upward**.
 
-```mermaid
-graph LR
-    A["Rectangle<br/>Every pixel on the edge<br/>sits on the alignment line"] --- B["Alignment<br/>Line"]
-    C["Circle<br/>Only touches the line<br/>at one infinitesimal point"] --- B
-```
-
-The circle can look slightly smaller than intended. The accepted practice in design is to **make the circle slightly larger** so it extends just past the alignment line on both sides — compensating for the perceived shrinkage.
-
-![Circle profile photo aligned next to a rectangular element — showing why circles need to extend past the alignment line to look correct](screenshots/03-circle-vs-rectangle.jpg)
-
-> "It's an accepted practice in design to make the circle a little bit bigger so that it actually goes past the line of alignment on both sides."
-
-This same phenomenon appears in typography: in any professionally designed font, **flat letterforms** (like H, E) sit exactly on the baseline, while **rounded letterforms** (like O, C) extend just below it — same reason.
-
-### Center of pixel mass
-
-When aligning a **custom-drawn icon** with text — where the bounding box isn't a reliable guide — use the strategy the instructor calls **center of pixel mass**.
-
-> "You wanna use a strategy that I call center of pixel mass."
-
-Concept: imagine all the filled-in pixels of a shape had physical weight. Where would the center of mass be?
-
-- For lowercase text: the center of pixel mass is biased **toward the bottom**, because most of the ink is in the lower half of the cap-height range (e.g., letters like a, e, o are bottom-heavy)
-- For an icon with elements jutting upward, the center of pixel mass is biased **toward the top**
-- For uppercase text: the center of pixel mass is **truly halfway** between the cap height and the baseline — uppercase centering is simpler
-
-**In practice:** place the icon where there appears to be roughly equal "ink" above and below the text's own center of pixel mass.
-
-![Custom icon aligned with text using center-of-pixel-mass — icon placed so visual weight is balanced above and below the text's ink center](screenshots/04-center-of-pixel-mass.jpg)
+The goal: find where there are equal amounts of ink above and below a horizontal axis, then line those axes up between the icon and the text.
 
 > "Those who know physics know that I'm butchering this a little bit."
 
-### Left and right content margins
-
-> "These two vertical lines that bound the content of the page on the left and the right hand side might be two of the most important lines of alignment that we're gonna do on this project."
-
-For this desktop app, a **40 px margin** was chosen on both left and right sides. Every content element — the search bar, page title, table, buttons — should snap to these edges.
-
-Also important: decide from the start how the layout responds to different screen sizes. Does the margin grow? Does the content? Does the content stay centered? (Full treatment in the responsive design lesson.)
-
-### Hover states and the alignment conundrum
-
-> "This is an interesting issue that responsive design strikes only when we're doing digital design. This is not something that people designing posters or flyers have to worry about."
-
-A user profile button that triggers a dropdown creates a layout problem: if the hover state extends past the icon, it breaks the page's right alignment line. If the hover state sits exactly at the right margin, the non-hovered state looks awkward.
-
-**Solution considered:** Make the button permanently visible (not just on hover), which eliminates the problem entirely and also improves discoverability.
+**Don't align centered content with left-aligned content by offsetting one to match the other.** If the logo is centered and the nav items are left-aligned, leave them be. Schemes of alignment should not rely on the specific widths of other elements — if you translated all the text to another language, you shouldn't have to change any alignment values.
 
 ---
 
-## Title Area and Typography Fine Points
+## [8:35] Aligning rounded and pointed elements with flat elements
 
-### "Buying" more alignment
+Profile photo (circle) next to search bar (rectangle). The issue:
 
-> "One thing I want you to get the sense of as you go through your own projects is trying to buy yourself more feel of alignment using the same elements."
+- A rectangle touches a line of alignment along its **entire top edge** — every pixel is on the line.
+- A circle only touches a line of alignment at **one infinitesimally small point** at the top.
 
-Example: aligning the **cap height** of a large number ("203") with the **x-height** of a nearby title word ("Users"). This wasn't required, but choosing this sizing relationship creates an additional implicit alignment line — making the design feel more intentional with no extra elements.
+This creates the illusion that the circle looks "too small" compared to the rectangle, even when their bounding boxes are flush.
 
-**X-height** is the height of lowercase letters like x, a, e — the line most lowercase letter bodies reach up to. Aligning something's cap height to this level creates a subtle but real visual harmony.
+> "It is an accepted practice in design to make the circle a little bit bigger so that it actually goes past the line of alignment on both sides."
 
-### Big "Add Users" button — alignment vs. emphasis trade-off
+The instructor doesn't apply this here because the effect isn't pronounced, but it's a valid and widely-used technique.
 
-The "Add Users" button was initially oversized (to draw attention). But it already had two other attention signals: it was the **only button with an icon** and the **only blue button** on the page.
+This same principle is baked into professionally designed fonts: zoom in on any well-crafted typeface and you'll see that flat letter forms (H, E, T) sit exactly on the baseline, while **rounded letter forms go slightly past it** (O, C, G all descend a few pixels below the baseline). The extra extension compensates for the optical illusion.
 
-> "If I can make up for needing to attract attention using color and an icon, that actually allows me to buy myself a little bit more alignment by shrinking this down to size with the other elements right here. And in my opinion, that is clearly the way to go."
+![Circle vs rectangle alignment](screenshots/03-circle-vs-rectangle.jpg)
 
-### Breaking alignment intentionally — the floating action button
+---
 
-> "Breaking alignment to attract attention is totally a valid strategy."
+## [14:16] Aligning hover states
 
-A **floating action button (FAB)** — Google's circular button for primary actions — deliberately breaks alignment with the rest of the page. If it were aligned with the table, it might look like part of the table.
+The profile area (name + avatar at the top of the page) is a clickable pulldown. Nothing indicates it's interactive. Adding a hover state creates a tricky alignment problem:
+
+- If the hover highlight **extends beyond the icon**, it breaks the line of alignment with the content below it.
+- If the hover highlight **stops exactly at the line of alignment**, the nav items inside the dropdown need to be indented — and they'll never align with the main content unless the hover is active.
+
+> "There's not necessarily one solution here. But if I was working on this project, I would certainly think about giving this a little bit more permanent of a display, so that you never even ran into that problem in the first place."
+
+The practical solution: show the button/chevron always (not just on hover), so the alignment relationship is predictable at all times.
+
+---
+
+## [16:00] Aligning text of different sizes by baseline
+
+"Users" (large, bold) and "203" (smaller, regular weight, 70% opacity) need to align. Baseline alignment is the correct default.
+
+But there's an opportunity to buy yourself extra alignment: **match the cap height of the smaller text to the x-height of the larger text.**
+
+> "X-height — it's the height of the lowercase x. But it's also the height of a bunch of other lowercase letters. So don't ask me."
+
+When you size "203" so that its capital letters reach exactly the height of the lowercase letters in "Users," the two pieces of text share an additional horizontal alignment line, making the whole unit feel crisper.
+
+> "We didn't need to make this text such that the cap height of 203 is equal to the x-height of the title here. But by doing that, we bought ourselves just a little bit more alignment."
+
+This is a general principle to internalize: when there are multiple ways to style something, choose the one that buys you more feel of alignment.
+
+![Baseline alignment between different text sizes](screenshots/05-baseline-alignment.jpg)
+
+---
+
+## [18:13] Aligning buttons
+
+The "Add Users" button was originally oversized — made large to attract attention. But the button already has two other strong attention signals:
+- It's the only button with an icon
+- It's blue; every other button on the page is white
+
+> "If I can make up for needing to attract attention using color and an icon, that actually allows me to buy myself a little bit more alignment by shrinking this down to size with the other elements."
+
+Shrinking the button to match the height of the other row elements makes the whole header row sit on the same baseline, significantly improving alignment — without sacrificing any visual hierarchy.
+
+**Breaking alignment to attract attention is valid** — but reserve it for cases that genuinely call for it. The classic example is the **floating action button** (FAB):
 
 > "By Google's own admission, you really should break alignment with the rest of the page so that it attracts the most attention."
 
-FABs are typically anchored to the bottom of the screen, positioned so they don't align with any other element.
+A FAB is typically circular, breaks the grid, and is anchored to the bottom of the screen. If it were aligned with the table content, it would look like it belonged to the table.
 
-![Floating action button positioned to intentionally break alignment with the data table — deliberate misalignment draws maximum attention](screenshots/06-floating-action-button.jpg)
-
-```mermaid
-graph TD
-    A["Default: align everything"] -->|"Intentional exception"| B["Break alignment<br/>to attract attention"]
-    B --> C["Floating Action Button<br/>(FAB)"]
-    B --> D["Other prominent CTAs<br/>that need to stand out"]
-```
+![Floating action button](screenshots/06-floating-action-button.jpg)
 
 ---
 
-## Table Alignment
+## [20:20] Aligning padded elements
 
-### Column header alignment — hanging elements
+Rule of thumb: **align to whatever has the most visual contrast** — the element's outer border or its inner content edge.
 
-The "Name" column header is placed above the **text** of the name column, not above the thumbnail image — even though the image is part of the same cell.
+When an element has padding (like a table or card), there are two possible alignment lines:
+1. The **outer edge** of the element (the border of the table itself)
+2. The **inner content edge** (where the data actually starts, inset by padding)
 
-This follows the centuries-old typographic tradition of **hanging punctuation**: placing a character slightly outside the main alignment edge so the strong textual alignment line is preserved.
-
-> "Hanging punctuation is the centuries-old typographical tradition of taking punctuation characters like openings of quotes and parentheses, and hanging them into the left margin so that your text has as strong a sense of alignment as possible."
-
-Modern equivalents:
-- Bullet points hanging into the margin
-- Icons hanging off to the left (e.g., Charity Water's icon layout, where icons hang left of the body text rather than sitting above it)
-
-> "So they didn't align this icon with the text below it, but instead have the icon hanging off into the left margin."
-
-![Table "Name" column header aligned to the text content, not the thumbnail — hanging element preserves the strong text alignment edge](screenshots/07-hanging-punctuation.jpg)
-
-### Centering uppercase text with an icon
-
-For uppercase-only text, the center of pixel mass is exactly halfway between cap height and baseline — a reliable centering anchor. When aligning a non-square icon next to it, apply the same center-of-pixel-mass thinking: the **pointed side** of an asymmetric icon should be closer to the bounding box boundary (because the pointed side has less visual mass, so the true center of mass lies closer to the denser side).
-
-### Padded elements: aligning to the outer or inner edge?
-
-When an element like a table has internal padding (space between the outer border and the first column of data), you have a choice:
-
-- Align to the **outer edge** of the table
-- Align to the **inner edge** (where the data actually starts)
-
-```mermaid
-graph LR
-    A["Outer edge<br/>(border of table)"]
-    B["Inner edge<br/>(left edge of first data column)"]
-    C["Content above/below<br/>the table"]
-
-    C --> A
-    C --> B
-```
-
-The inner edge often **appears stronger** as a line of alignment — it's where the images and text actually sit, and the eye is drawn there.
-
-**Best strategy:** If the outer border of the padded element is visually crisp (hard white background + shadow), align to the outer edge. If the border is subtle or semi-transparent, align to the inner edge (the first column of data), as that will read as the stronger line.
+The inner edge is often visually stronger because the outer-to-inner transition can be subtle. But if you give the element a crisp background (hard white) and a drop shadow, the outer border becomes clear enough to align against.
 
 > "The best strategy here is to align to the outside if that's what feels like the strongest line of alignment."
 
-Adding a **shadow and hard white background** to the table makes the outer edge much crisper and more alignable.
+This applies to tables, cards, and even buttons. The deciding factor is always: which line is more visually prominent?
 
-![Table with shadow showing the choice between aligning page content to the outer table border vs. the inner data edge](screenshots/08-outer-vs-inner-edge.jpg)
-
-### Large text and sidebearing space
-
-When a large headline sits above smaller body text and both are left-aligned:
-
-> "As the letter forms grow, the space around the letter forms grows as well."
-
-There will appear to be more left indent before the larger text's visible letterform — because larger type has proportionally larger sidebearing (the blank space embedded in the font around each character).
-
-You can offset this by nudging the large headline slightly to the left of the common alignment edge, so the first visible stroke of the letter aligns with the smaller text. This is a fine typographic detail — not done universally, but occasionally used on polished designs.
+![Outer vs inner edge alignment](screenshots/08-outer-vs-inner-edge.jpg)
 
 ---
 
-## Mobile Version
+## [20:46] Hanging Alignment — ex. Charity Water
 
-### Standard margins
+In the table, the column header "Name" sits above the text portion of each row — not above the avatar image — even though avatar + text belong to the same cell. This is intentional.
 
-Both Android and iOS guidelines specify **16 px outer margins** on all sides. Place ruler guides at exactly 16 px from the left and 16 px from the right edge (for a 375 px frame, that means the right ruler at 359 px). Align as much content as possible to these guides.
+The reason: the visual alignment between "Name" (header text) and the row names (body text) is much stronger than the alignment between "Name" and the avatar images. Aligning header to text > aligning header to image.
 
-> "What I like to do is always put on a ruler at 16 pixels from the left edge and 16 pixels from the right edge."
+This is an application of **hanging alignment** — a principle with centuries of typographic precedent:
 
-![Mobile frame with 16px ruler guides on both sides — all content snapping to the standard Android/iOS margin](screenshots/09-mobile-margins.jpg)
+> "Hanging punctuation is the centuries-old typographical tradition of taking punctuation characters like opening quotes and parentheses, and hanging them into the left margin so that your text has as strong a sense of alignment as possible."
 
-### Grouping buttons for alignment
+The same logic applies to bullet points and icons. Charity Water does it explicitly on their site: icons hang into the left margin, and the text content begins at the main alignment line.
 
-Grouped buttons can share a single alignment anchor:
-
-> "For the sake of thinking about things being aligned left, these two buttons function as one group, and that's no problem."
-
-One button in a group might not align with anything on the rest of the page — but if it's flush with the button next to it, and that button is aligned, the group as a whole reads as aligned.
-
-### Bottom navigation tabs
-
-Standard mobile bottom navigation: divide the full screen width evenly by the number of tabs. For 5 tabs on a 375 px frame: **375 ÷ 5 = 75 px each**. Set each tab container to exactly 75 px wide, distribute horizontally with zero spacing, then center-align icon and label within each tab.
-
-### Vertical centering — bias slightly high
-
-> "A lot of times when you have the choice of centering something in a larger space, you should default or bias towards having it just be a little bit higher than lower."
-
-When there's a large vertical space and you're centering content (common on mobile onboarding or splash screens), perfectly mathematical centering will often look slightly too low to most people. The fix: bias the element slightly upward.
-
-> "I don't know what weird optical illusion this is. But a lot of times when you have the choice of centering something in a larger space, you should default or bias towards having it just be a little bit higher than lower."
-
-> "A lot of times if I have to make a choice between being like just a pixel high or a pixel low, I will almost always default in direction of going one pixel up from what might otherwise be perfectly centered."
-
-![Mobile content biased slightly above mathematical center — the optical illusion that makes true center look too low](screenshots/10-vertical-centering.jpg)
+![Hanging punctuation example](screenshots/07-hanging-punctuation.jpg)
 
 ---
 
-## Summary: Two Core Lessons
+## [26:15] Responsive considerations for the table
 
-> "If I had to drive home the two most important lessons from this video, I would say: first of all, just align everything."
+The left and right content boundaries are "two of the most important lines of alignment on the project" — not just visually, but because they define how the layout responds to different screen sizes.
 
-1. **Align everything.** Every element on the page should be aligned with another element. Centering something within its parent container counts. It doesn't have to be hard — most alignment decisions are clear. Nothing should be floating in space.
+The key decision: as the screen grows, what expands?
+- Both margins?
+- The right margin only (content stays left-anchored)?
+- The content itself?
 
-2. **Play the alignment game.** When you have two ways to style something, look for which version buys you just a little more feel of alignment — even with the same elements.
+For this desktop layout, the instructor chooses 40px margins on both sides. This is a preview of the full responsive design lesson — for now, pick a scheme that works for this size.
 
-> "Oftentimes, little details like that are the things that can bring a design from good to great."
+> "I don't recommend making a search bar quite this wide."
+
+![Mobile margins](screenshots/09-mobile-margins.jpg)
+
+For mobile (Android + iOS), both platforms specify **16px outer margins** as the standard. Put guide rulers at 16px from the left and right edges and align everything to them.
+
+---
+
+## [27:02] Vertical centering (especially on mobile)
+
+For the bottom tab bar: divide screen width evenly by number of tabs. 375px ÷ 5 = 75px each. Give each item a 75px-wide container, then center within (Option+H in Figma).
+
+The more important insight is about **optical vertical centering**:
+
+> "A lot of times when you have the choice of centering something in a larger space, what looks the best isn't necessarily what is perfectly vertically centered."
+
+When content is mathematically centered in a large vertical space, many people perceive it as sitting "just a little bit too low."
+
+> "I don't know what weird optical illusion this is."
+
+The fix: **bias slightly upward** — a little less space above, a little more below.
+
+> "A lot of times if I have to make a choice between being just a pixel high or a pixel low, I will almost always default in the direction of going one pixel up from what might otherwise be perfectly centered."
+
+This is the same observation that came up at the very start of the video — the text in the sidebar button appeared slightly high after naive centering, and that turned out to be closer to visually correct.
+
+![Vertical centering on mobile](screenshots/10-vertical-centering.jpg)
+
+---
+
+## Closing
+
+> "If I had to drive home the two most important lessons from this video, I would say: first of all, just align everything. Basically every element on your page should be aligned with another element. And this isn't hard... Nothing was really floating in space. And that's by and large how it should be in your own designs."
+
+> "Play a little game with it. Sometimes you'll run into cases where maybe there's way A and there's way B — and look at what might buy you just a little bit more feel of alignment. Those little details are the things that can bring a design from good to great."

@@ -42,6 +42,26 @@ Example: `introduction/begin-here.vtt` → `introduction/begin-here/begin-here.v
 - Use `**bold**` for named concepts, frameworks, and terms the instructor coins
 - End with the instructor's closing words if they're meaningful
 
+### Topics File (when present)
+
+If the video directory contains a `topics.md` file, use it as the structural skeleton **before** reading the VTT.
+
+Format:
+```
+TOPICS
+[1:30] First topic title
+[4:23] Second topic title
+...
+```
+
+Steps:
+1. Parse each `[MM:SS] Title` line into a `##` header, including the timestamp: `## [1:30] First topic title`
+2. Lay out all headers first to scaffold the full structure
+3. Read the VTT and fill content under each header using the timestamps as section boundaries — content between timestamp N and N+1 belongs under header N
+4. If the final topic runs to the end of the video, include everything after its timestamp
+
+**Do not skip topics or merge adjacent ones** — the instructor defined this structure intentionally.
+
 ## Diagrams
 
 Use **Mermaid** diagrams to visualize concepts that have structure — don't just describe them in prose when a diagram communicates it better. Good candidates:

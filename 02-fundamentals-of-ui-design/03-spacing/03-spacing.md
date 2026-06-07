@@ -5,8 +5,6 @@
 
 ---
 
-## Introduction
-
 Spacing is one of the most fundamental and important skills you can develop as a designer. It applies to every project — web apps, mobile apps, any brand, any platform. You will be using white space in basically everything you ever design.
 
 The overarching theme the instructor wants you to walk away with:
@@ -19,11 +17,9 @@ Every other thing you add — even the smallest, lightest one-pixel divider line
 
 ---
 
-## The Four Laws of Spacing
+## [1:48] The four laws of spacing
 
 These are introduced up front so you have a mental model before the examples.
-
-![The four laws of spacing introduced as an overview before the worked examples](screenshots/01-four-laws-slide.jpg)
 
 ```mermaid
 graph TD
@@ -34,23 +30,23 @@ graph TD
     A --> E["4. Double your white space<br/>(figuratively)"]
 ```
 
-### Law 1 — Separate Without Cluttering
+### Use whitespace to separate without cluttering
 
 Borders, background color changes, shadows, and cards are all separators. White space is also a separator — but unlike those others, it adds nothing visual to the screen. Anytime you're trying to make a design look neater and cleaner:
 
 > "Can I use spacing instead of a line? Can I use white space instead of a background color change?"
 
-### Law 2 — Highlight Focal Points
+### Use whitespace to highlight focal points
 
 You can draw attention by making something big or colorful, but a subtler option is to give it a lot of space around it. Especially in clean, uncluttered designs, generous spacing around a key element is one of the go-to ways to create a focal point.
 
-### Law 3 — External > Internal Spacing
+### External spacing > internal spacing
 
 Whenever you have a group of logically related elements, the spacing *around* that group should be greater than the spacing *between* elements inside it. This rule applies recursively — you can traverse the hierarchy of groups and always find the pattern holding.
 
 > "In really good designs, you're just going to be able to go kind of up and down the ladder of groupings and always find that your internal spacing is less than your external spacing."
 
-### Law 4 — Double Your White Space
+### Double your whitespace
 
 > "I only mean this figuratively, but double your white space."
 
@@ -58,21 +54,23 @@ Beginning designers — including the instructor himself — consistently use le
 
 ---
 
-## Aside: White Space vs. "White" Space
+**Aside — "white" space vs. spacing:**
 
 > "I use the terms white space and spacing interchangeably. It doesn't have to be white. This could be a dark UI with white text, and I would still call the empty pixels — dark, black, or whatever it is — spacing or white space. It's just a matter of semantics."
 
 ---
 
-## Example 1: Redesigning Craigslist (Spacing in Practice)
-
-### Setup
+## [3:34] Craigslist app example
 
 Craigslist gets a bad rap among visual designers because it's so unstyled. The instructor does a visual touch-up exercise, primarily using white space principles (plus some alignment from the previous lesson). Important caveat:
 
 > "I want to be clear, this is very much a demo. Craigslist has made the design choices that it has for very specific reasons... Even their logo is the letters C and L in plain Arial [to load quickly]."
 
-### Analyzing the Original Separators
+So we're throwing out their business constraints for the sake of this educational exercise — using custom fonts, adjusting spacing freely, etc.
+
+---
+
+## [4:42] Separators in the current header
 
 The original Craigslist header uses multiple separator mechanisms:
 
@@ -82,81 +80,73 @@ The original Craigslist header uses multiple separator mechanisms:
 
 The point: all three of those techniques do the same thing that *white space alone* could do — but they add visual elements to the screen. The exercise is to see how many can be replaced with spacing.
 
-### Removing the Header Background
-
-Deleting the gray header background and instead using spacing (moving elements down, adding symmetric top/bottom margins) creates the same separation:
+**Removing the header background:** Deleting the gray header background and instead using spacing (moving elements down, adding symmetric top/bottom margins) creates the same separation:
 
 > "And sure enough, that looks cleaner."
 
-![Craigslist header with background removed — spacing alone separates header from body without adding visual noise](screenshots/02-craigslist-header-before-after.jpg)
+**Removing borders from the breadcrumbs:** Removing the borders from the dropdown breadcrumbs and replacing with plain text (with a guillemets `»` separator instead of a caret), slightly darker font color at 60% opacity for the separator, and Freight Text as the font. This cleans up the nav considerably.
 
-### Removing Borders from the Breadcrumbs
+**Internal vs. external — breadcrumbs example:**
 
-Removing the borders from the dropdown breadcrumbs and replacing with plain text (with a guillemets `»` separator instead of a caret) — slightly darker default font color, guillemets at 60% opacity — cleans up the nav considerably. Font changed from Arial to Freight Text.
-
-### Internal vs. External Spacing — Breadcrumbs Example
-
-The breadcrumbs are one group. The spacing *between* each breadcrumb element: 8px. The spacing between the breadcrumbs group and the next element below: 23px. This is Law 3 in action.
+The breadcrumbs are one group. The spacing *between* each breadcrumb element: 8px. The spacing between the breadcrumbs group and the next element below: 23px. Law 3 in action.
 
 > "I'll mention this a whole bunch in this video. It's super important, and if you don't find yourself doing it automatically you should definitely be saying to yourself: internal spacing is less than external spacing."
 
-### The Search Bar — Using Spacing to Create a Focal Point
+---
 
-After removing clutter (sidebar collapse button, greyed-out pagination, sort controls, view toggle), the search bar now has generous space around it on all four sides (18px on three sides). Result:
+## [13:19] Making the search bar a focal point using whitespace
+
+After removing clutter (sidebar collapse button, greyed-out pagination, sort controls, view toggle), the search bar now has generous space around it on all four sides (~18px on three sides). Result:
 
 > "I want you to observe just how much the space around this search bar kind of draws attention to it."
 
-![Redesigned search bar with 18px padding on all sides — generous white space creates a natural focal point (Law 2)](screenshots/03-search-bar-whitespace.jpg)
-
-The search bar and the results list are the two most important elements on a Craigslist job search page — anyone who arrives is going to either skim the list or type a keyword. Making the search bar naturally visible via spacing is the correct design decision.
+The search bar and the results list are the two most important elements on a Craigslist job search page — anyone who arrives is either going to skim the list or type a keyword. Making the search bar naturally visible via spacing is the correct design decision.
 
 Search bar internals: the icon and hint text are one sub-group. The spacing *between* the icon and text (internal) is *less* than the 18px spacing between the group and the search bar border (external). Law 3 again.
 
 > "This is just one example of internal spacing being less than external spacing."
 
-### Combining Separators
-
-White space is preferred, but that doesn't mean it's the only tool:
+**Combining separators:** White space is preferred, but that doesn't mean it's the only tool:
 
 > "Just because white space is kind of this preferred, almost exceptional means of separating elements does not mean it's the only one that you can use... it's when you use them in combination with white space that they become so powerful."
 
 For the search bar: the border alone (without white space) doesn't make it stand out enough. Adding a very light background color change (96% brightness on the page, white for the search bar) makes it pop dramatically more.
 
-### Results List — Cleaning Up Columns
+---
 
-The original results list jams date, title, location, and icons all on one line with 5px between elements. The redesign:
+## [18:24] Using alignment in the results columns
+
+The original results list jams date, title, location, and icons all on one line with only 5px between elements. The redesign:
 
 1. Separates date, title, and location into distinct columns with 32px between them
 2. Makes locations scannable
 3. Uses hover-only reveal for star/trash controls (cleans desktop view; note: would need a solution for mobile accessibility)
-4. Adds a "SEARCH RESULTS (21)" label above the list using the **SLUB pattern** — *S*maller, *L*ighter, *U*ppercase, *B*old. This common typography pattern draws attention to the label while not competing with the content.
+4. Adds a "SEARCH RESULTS (21)" label above the list using the **SLUB pattern** — *S*maller, *L*ighter, *U*ppercase, *B*old.
 
 > "It's something that a lot of really good designers use way more frequently than you might imagine."
 
-### Filters Sidebar — Internal Spacing in Nested Groups
+---
 
-The filters sidebar uses a multi-level grouping that demonstrates Law 3 recursively:
+## [23:53] Internal spacing vs. external spacing in the sidebar
 
-- Spacing between a checkbox and its own label: 8px (internal to the checkbox+label group)
-- Spacing between checkbox rows: 25px line height (internal to the filter group)
-- Spacing between related filter sub-groups (e.g., "Internship / Non-profit / Remote"): paragraph spacing via Shift+Enter
-- Spacing between the label ("FILTER") and its group: 10px
+The filters sidebar demonstrates Law 3 recursively across multiple levels of grouping:
+
+- Spacing between a checkbox and its own label: ~8px (internal to the checkbox+label group)
+- Spacing between checkbox rows: ~25px line height (internal to the filter group)
+- Spacing between related filter sub-groups (e.g., "Internship / Non-profit / Remote"): paragraph spacing via Shift+Enter in Figma
+- Spacing between the "FILTER" label and its group: 10px
 - Spacing between the filter section and the search bar section above: 30px
 - Spacing between the filters and the "Miles from Zip" section: greater than any of the above
 
-**Key rule**: When adding space between a checkbox and its label, be careful not to add *so much* that it exceeds the space between that checkbox group and the next group. The label–group relationship is the external boundary.
+**Key rule:** When adding space between a checkbox and its label, be careful not to add *so much* that it exceeds the space between that checkbox group and the next group. The label–group relationship is the external boundary.
 
-### Before and After
+In really good designs, you can traverse up and down the ladder of groupings and always find internal < external at every level.
 
 > "And all of a sudden I am looking at a much better version of this same app when we zoom out and look at the before and after. It's just a total world of difference here."
 
-![Craigslist before and after — original vs. redesign using spacing principles only, demonstrating how far white space alone takes you](screenshots/04-craigslist-full-comparison.jpg)
-
 ---
 
-## Example 2: Styling Plain Text with White Space Only
-
-### The Mindset Shift
+## [33:37] Text example (Diaspora by Greg Egan)
 
 The instructor uses an excerpt from Greg Egan's sci-fi novel *Diaspora* — an unstyled HTML page — to show how far pure white space can take you before adding any fonts.
 
@@ -170,7 +160,9 @@ The designer's mindset instead:
 
 > "Listen, every bit of white space that we add, along with all these other elements — they need to solve problems. Because design is not art. Design is solving a problem, very often a business problem."
 
-### Step 1: Side Margins — The Infinite Line Length Problem
+---
+
+## [35:26] Side margin spacing
 
 Adding left and right margins solves a specific problem:
 
@@ -178,88 +170,75 @@ Adding left and right margins solves a specific problem:
 
 The solution: constrain the text box to roughly 50–75 characters per line (two to three alphabets). At 18px, 530px width works. Group the content, center it horizontally (option+H in Figma), ungroup.
 
-Result: immediately feels more considered. Not much more designed, but just the constraint alone:
+Benefits of adding side margins:
+1. Easier to read (good line length)
+2. The margins add breathing room
+3. It just feels non-default — like care was taken
 
 > "We went from a totally default webpage that makes you think you're seeing some technical website that's been up since 1995 to seeing something that a little more care was put into — not much, but just a tiny bit."
 
-![Unstyled HTML text vs. same text with spacing applied only — no font changes yet, but already dramatically more considered](screenshots/05-text-only-before-after.jpg)
+---
 
-### Step 2: Space Above the Header — The Focal Point
+## [40:50] Headers, sub-headers, and text
 
-Space above the chapter heading solves the "this is a focal point" problem. Using fail-left / fail-right:
+Space above the chapter heading solves the "this is a focal point" problem (Law 2). Using fail-left / fail-right:
 
 - Too little: 10px looks like no CSS was written at all
 - Too much: starting halfway down the page would look like a missing image
+- Landing around 88px works for this design
 
-Landing around 88px works for this design.
+The heading group shows Law 3 at every level of hierarchy:
 
-### Step 3: Applying Internal > External to the Heading Group
+- Internal spacing between the label ("CHAPTER ONE:") and chapter name: 0px — they're the smallest group
+- Internal spacing between chapter name and setting metadata: 22px — still within the heading group
+- Spacing from heading group to body text: 38px — external to the heading group
+- Spacing between the book nav and the heading: 45px — even more external
 
-The heading group has a hierarchy:
+> "I have gotten to the point where I'm naturally going to start thinking what kind of belongs near one thing or the other."
 
-```mermaid
-graph TD
-    A["CHAPTER ONE<br/>(label)"]
-    B["Transition Dreams<br/>(chapter title)"]
-    C["Setting line<br/>(metadata)"]
-    D["Body text"]
-    A --- B
-    B --> C
-    C --> D
-    style A fill:#f0f0f0
-    style B fill:#f0f0f0
-    style C fill:#f0f0f0
-```
-
-- Internal spacing between the label ("CHAPTER ONE:") and chapter name: 0px (they're one smallest group)
-- Internal spacing between chapter name and setting metadata: 22px (they're still in the heading group)
-- Spacing from heading group to body text: 38px (external to the heading group)
-- Spacing between the book title/author nav and the heading: 45px (even more external)
-
-Every level has internal < external, followed unconsciously.
-
-### Step 4: Adding Fonts
-
-After spacing is locked in, the instructor picks fonts for a sci-fi feel:
-
-- **Carbon** (monospace) for the metadata/nav — very sci-fi feeling; numbers line up; looks even crisper uppercase
+**Fonts chosen for the sci-fi theme:**
+- **Carbon** (monospace) for metadata/nav — sci-fi feeling; numbers line up; crisper uppercase
 - **Abolition** for the chapter title — geometric, angular, uppercase-only
 - **Noticia Text** (Google Fonts) for body — a serif that's readable for long-form but with slightly squared-off letter forms that complement the geometric display fonts
 
+> "Font sizes and the actual real data that they apply to is like one of those chicken and egg problems in design where you should never fully finally commit to one before you've seen the other. Even then they'll continue to inform each other. And the work of design just never ends."
+
 ---
 
-## Text Spacing in Detail
-
-### Line Height
+## [50:50] Line spacing
 
 **Problem it solves:** Your eyes need to track from the end of one line to the beginning of the next.
 
 - Test: just read a paragraph and see if tracking feels easy
 - Common rule you'll see: 140% line height — but this is a guideline, not a law
-- The right line height depends on *both* the font *and* the line length
-- For a short title (few characters per line): line height can be much tighter — no problem tracking a 3-word title
-- For body text: you need more line height because long lines require more eye travel
+- The right line height depends on *both* the font *and* the line length:
+  - For a short title (few characters per line): line height can be much tighter — no problem tracking a 3-word title
+  - For body text: you need more line height because long lines require more eye travel
 
 > "You want to get the characters per line, the font size, and the line height all lined up perfectly."
 
 **Fail left:** Letter forms hitting each other.
 **Fail right:** So much space you could put whole other lines in between.
 
-### Paragraph Spacing
+---
 
-**Problem it solves:** Shows that this break is more emphatic than a line break — that you're starting a new paragraph, not just continuing the same line.
+## [54:14] Paragraph spacing
+
+**Problem it solves:** Shows that this break is more emphatic than a line break — that you're starting a new paragraph, not just continuing.
 
 It's just another instance of Law 3: the line height (internal spacing within a paragraph) should be less than the paragraph spacing (external spacing between paragraphs).
 
 - Fail left: zero paragraph spacing — you can't even tell where paragraphs begin
-- Fail right: so much space it looks like a double line break (like pressing Enter twice on a typewriter)
+- Fail right: so much space it looks like a double line break (pressing Enter twice on a typewriter)
 - Target: a value between zero and the full line height — so it looks distinctly designed
 
 **On baseline grids:** Many designers use them; the instructor doesn't discourage it, but says:
 
 > "I think it is better to have a paragraph space that is in between zero and the full value of the line height, just so it does appear like its own type of space... a bad design still looks bad when you apply a great baseline grid and a good design can still look great even if it's totally off the grid."
 
-### Letter Spacing (Tracking)
+---
+
+## [56:45] Letter spacing
 
 **Default rule:** Leave it alone. If the font is well-designed and you're using it as intended, there's no problem to solve.
 
@@ -282,47 +261,35 @@ flowchart LR
 
 ---
 
-## Landing Pages — Where White Space Goes to Extremes
+## [59:20] Quartzy example
 
 Landing pages are where you add white space like crazy.
 
 > "I've got something like 180 pixels of space right here [above the headline]. When I was a developer at least, I would have thought that seems very excessive."
 
-But the goal isn't to make the numbers seem reasonable — it's to make the visual result pleasing. In this case, a crisp hero image with the headline roughly vertically centered within a large space works beautifully.
-
-Another real-world example: a header that's ~110px tall, where the nav text is ~10px tall and the space *below* the nav text is ~54px. The nav is 90% white space.
+But the goal isn't to make the numbers seem reasonable — it's to make the visual result pleasing. Another real-world example from Quartzy: a header that's ~110px tall, where the nav text is ~10px tall and the space *below* the nav text is ~54px. The nav is 90% white space.
 
 > "It was something that when I noticed that this is what professional designers did, I was like, wow. I am not using spacing the correct way."
 
----
-
-## Dense Data Pages — When You Can't Double It
-
-When someone objects "what if I have a lot of information to show?":
+**Dense data pages:** When someone objects "what if I have a lot of information to show?":
 
 > "You can still often have a lot more white space than you'd otherwise expect."
 
-Example: Quartzy's order requests table. The page is data-heavy, but still has 50px above action buttons, 25px vertical / 35px horizontal padding around elements. It feels "generously laid out."
+Quartzy's order requests table — data-heavy, but still has 50px above action buttons, 25px vertical / 35px horizontal padding around elements. It feels "generously laid out."
 
-However, tradeoffs exist. If a client says "I need to see four items on load, not two," you'd rework column layouts and spacing. The point:
+However, tradeoffs exist. If a client says "I need to see four items on load, not two," you'd rework column layouts and spacing. But:
 
 > "Just because you need to display a lot of data does not mean you shouldn't be including white space or trying to include as much spacing as possible."
 
-If you're forced to reduce spacing, the other fundamentals become *more* important: alignment becomes critical, consistency matters more.
+If you're forced to reduce spacing, the other fundamentals become *more* important — alignment becomes critical, consistency matters more.
 
----
-
-## Mobile Apps
+**Mobile apps:**
 
 > "Desktop apps and mobile apps have the same principles in these regards. But if anything, working on a desktop app affords you more natural room to put in white space, and on the mobile app, you're just not even going to have the choice sometimes."
 
-Standard mobile margins: both Android and iOS typically use 16px side margins. When you have a lot to display, use the full width between those margins — don't have elements floating in an even narrower column.
-
-On mobile you'll follow Law 3 (internal < external) more and double-your-white-space less, simply because there isn't the room. Fundamentally, the principles don't change.
+Standard mobile margins: Android and iOS both typically use 16px side margins. When you have a lot to display, use the full width between those margins. On mobile you'll follow Law 3 (internal < external) more and double-your-white-space less, simply because there isn't the room.
 
 ---
-
-## Closing
 
 > "Just remember those four laws of spacing and take a look at the homework below. It's about all there is to it. Hope you enjoyed and we'll see you in the next lesson."
 
