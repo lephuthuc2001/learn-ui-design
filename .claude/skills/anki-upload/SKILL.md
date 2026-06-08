@@ -46,7 +46,9 @@ Example tags: `learn-ui-design`, `01-introduction`, `01-begin-here`
 
 ## Step 2 — Upload images
 
-> **NEVER base64-encode images.** Always upload via the `path` parameter (Method 2). Base64 is extremely slow, wastes thousands of tokens, and may timeout. If you find yourself running `base64` or encoding image data, stop immediately and use the UNC path approach below instead.
+> **NEVER base64-encode images.** Always use the copy-to-Windows-temp workaround below. Base64 is extremely slow, wastes thousands of tokens, and may timeout.
+
+> **WHY UNC PATHS DON'T WORK:** The AnkiMCP stdio server runs on Windows but resolves paths using Linux `path.resolve()`. Passing a UNC path (`\\wsl.localhost\...`) causes it to emit a Linux path to AnkiConnect, which cannot open it. The workaround: copy files to the Windows temp directory first, then upload from there.
 
 Parse the `.anki.md` file for ALL image references. Two path patterns appear:
 
@@ -55,15 +57,23 @@ Parse the `.anki.md` file for ALL image references. Two path patterns appear:
 
 For each **unique** image file referenced (deduplicate — two cards can reference the same screenshot):
 
-1. Build the **Windows UNC path** based on the subfolder:
+1. **Copy the file to Windows temp via Bash:**
+   ```bash
+   cp /home/lephuthuc/learn-ui-design/<unit>/<lesson>/images/<filename> \
+      /mnt/c/Users/ADMIN/AppData/Local/Temp/<filename>
+   # or for screenshots:
+   cp /home/lephuthuc/learn-ui-design/<unit>/<lesson>/screenshots/<filename> \
+      /mnt/c/Users/ADMIN/AppData/Local/Temp/<filename>
    ```
-   # For images/ references:
-   \\wsl.localhost\Ubuntu\home\lephuthuc\learn-ui-design\<unit>\<lesson>\images\<filename>
+   You can batch all copies in a single `cp` command.
 
-   # For screenshots/ references:
-   \\wsl.localhost\Ubuntu\home\lephuthuc\learn-ui-design\<unit>\<lesson>\screenshots\<filename>
+2. **Call `store_media_file`** with the Windows path:
    ```
-2. Call `store_media_file` with that path, using a `filename` prefixed with `_` (e.g. `_02-alignment-room.jpg`). The underscore prefix prevents Anki's unused media cleanup from deleting the file. Save the **returned filename** (Anki may rename the file with a hash suffix if a collision exists).
+   path: C:\Users\ADMIN\AppData\Local\Temp\<filename>
+   filename: _<filename>
+   ```
+   The `_` prefix prevents Anki's unused-media cleanup from deleting the file. Save the **returned filename** (Anki may add a hash suffix on collision).
+
 3. Build a unified map: `original-path → stored-filename` keyed by the full original reference string (e.g. `screenshots/02-alignment-room.jpg`).
 
 Upload all images before creating any cards.
