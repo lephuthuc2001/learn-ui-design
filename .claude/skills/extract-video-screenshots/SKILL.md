@@ -47,6 +47,20 @@ bash extract-screenshots.sh 02-fundamentals/01-intro \
 
 Output: `<video-directory>/screenshots/<name>.jpg`
 
+## Verify Before Keeping
+
+After extracting, **view every screenshot** with the Read tool and ask: does this image actually show what the notes are talking about?
+
+Reject and re-extract if the image:
+- Shows a title/intro slide (just the lesson title + instructor face — no design content)
+- Is zoomed in so close the context is lost (e.g. 1839% zoom showing two letters)
+- Shows an intermediate/unfinished state when the notes describe the finished design
+- Captures a scene transition where the instructor hasn't settled on the right frame yet
+
+For each rejected image: pick a better timestamp (1–3 seconds earlier or later, or search the VTT for a more specific keyword), re-extract, and check again. Repeat until the image is meaningful.
+
+**Only keep a screenshot if you can write a useful alt text for it.** If you're struggling to describe what it teaches, it's the wrong frame.
+
 ## Embedding in Notes
 
 Use relative paths from the notes `.md` file:

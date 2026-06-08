@@ -70,7 +70,7 @@ So we're throwing out their business constraints for the sake of this educationa
 
 ---
 
-## [4:42] Separators in the current header
+### [4:42] Separators in the current header
 
 The original Craigslist header uses multiple separator mechanisms:
 
@@ -79,6 +79,8 @@ The original Craigslist header uses multiple separator mechanisms:
 - **Divider lines** — e.g., the bottom of the header, the search bar border.
 
 The point: all three of those techniques do the same thing that *white space alone* could do — but they add visual elements to the screen. The exercise is to see how many can be replaced with spacing.
+
+![Original Craigslist header — background color, borders, and divider lines all doing the job that white space could do alone](screenshots/02-craigslist-header-before-after.jpg)
 
 **Removing the header background:** Deleting the gray header background and instead using spacing (moving elements down, adding symmetric top/bottom margins) creates the same separation:
 
@@ -92,9 +94,11 @@ The breadcrumbs are one group. The spacing *between* each breadcrumb element: 8p
 
 > "I'll mention this a whole bunch in this video. It's super important, and if you don't find yourself doing it automatically you should definitely be saying to yourself: internal spacing is less than external spacing."
 
+![After removing the header background and breadcrumb borders — white space now handles all separation, Freight Text font with guillemets breadcrumbs](screenshots/06-results-columns.jpg)
+
 ---
 
-## [13:19] Making the search bar a focal point using whitespace
+### [13:19] Making the search bar a focal point using whitespace
 
 After removing clutter (sidebar collapse button, greyed-out pagination, sort controls, view toggle), the search bar now has generous space around it on all four sides (~18px on three sides). Result:
 
@@ -112,9 +116,11 @@ Search bar internals: the icon and hint text are one sub-group. The spacing *bet
 
 For the search bar: the border alone (without white space) doesn't make it stand out enough. Adding a very light background color change (96% brightness on the page, white for the search bar) makes it pop dramatically more.
 
+![Search bar with ~18px whitespace on all sides — generous space makes it a focal point without extra styling; border + background color change combine with spacing](screenshots/03-search-bar-whitespace.jpg)
+
 ---
 
-## [18:24] Using alignment in the results columns
+### [18:24] Using alignment in the results columns
 
 The original results list jams date, title, location, and icons all on one line with only 5px between elements. The redesign:
 
@@ -125,9 +131,11 @@ The original results list jams date, title, location, and icons all on one line 
 
 > "It's something that a lot of really good designers use way more frequently than you might imagine."
 
+![Redesigned results list — date / title / location in 3 columns with 32px between them; "SEARCH RESULTS (21)" SLUB label above; star/trash controls reveal on hover only](screenshots/07-slub-label.jpg)
+
 ---
 
-## [23:53] Internal spacing vs. external spacing in the sidebar
+### [23:53] Internal spacing vs. external spacing in the sidebar
 
 The filters sidebar demonstrates Law 3 recursively across multiple levels of grouping:
 
@@ -143,6 +151,8 @@ The filters sidebar demonstrates Law 3 recursively across multiple levels of gro
 In really good designs, you can traverse up and down the ladder of groupings and always find internal < external at every level.
 
 > "And all of a sudden I am looking at a much better version of this same app when we zoom out and look at the before and after. It's just a total world of difference here."
+
+![Final Craigslist redesign — sidebar hierarchy visible; internal spacing within each filter group is always less than spacing between groups, recursively](screenshots/08-craigslist-before-after.jpg)
 
 ---
 
@@ -160,9 +170,11 @@ The designer's mindset instead:
 
 > "Listen, every bit of white space that we add, along with all these other elements — they need to solve problems. Because design is not art. Design is solving a problem, very often a business problem."
 
+![The Diaspora text as unstyled HTML — unbounded line length, default serif font, no margins; the starting point before any design work](screenshots/04-craigslist-full-comparison.jpg)
+
 ---
 
-## [35:26] Side margin spacing
+### [35:26] Side margin spacing
 
 Adding left and right margins solves a specific problem:
 
@@ -177,9 +189,13 @@ Benefits of adding side margins:
 
 > "We went from a totally default webpage that makes you think you're seeing some technical website that's been up since 1995 to seeing something that a little more care was put into — not much, but just a tiny bit."
 
+![Diaspora text after adding 530px side margins — line length now 50–75 characters; breathing room immediately makes it feel designed](screenshots/05-text-only-before-after.jpg)
+
+![Diaspora text with side margins applied in Figma — content centered, generous margin on both sides](screenshots/09-diaspora-side-margins.jpg)
+
 ---
 
-## [40:50] Headers, sub-headers, and text
+### [40:50] Headers, sub-headers, and text
 
 Space above the chapter heading solves the "this is a focal point" problem (Law 2). Using fail-left / fail-right:
 
@@ -203,9 +219,11 @@ The heading group shows Law 3 at every level of hierarchy:
 
 > "Font sizes and the actual real data that they apply to is like one of those chicken and egg problems in design where you should never fully finally commit to one before you've seen the other. Even then they'll continue to inform each other. And the work of design just never ends."
 
+![Diaspora page with Abolition (chapter title), Carbon (metadata), Noticia Text (body) — 88px above the heading draws the eye to it as a focal point](screenshots/11-line-spacing.jpg)
+
 ---
 
-## [50:50] Line spacing
+### [50:50] Line spacing
 
 **Problem it solves:** Your eyes need to track from the end of one line to the beginning of the next.
 
@@ -222,7 +240,7 @@ The heading group shows Law 3 at every level of hierarchy:
 
 ---
 
-## [54:14] Paragraph spacing
+### [54:14] Paragraph spacing
 
 **Problem it solves:** Shows that this break is more emphatic than a line break — that you're starting a new paragraph, not just continuing.
 
@@ -236,9 +254,11 @@ It's just another instance of Law 3: the line height (internal spacing within a 
 
 > "I think it is better to have a paragraph space that is in between zero and the full value of the line height, just so it does appear like its own type of space... a bad design still looks bad when you apply a great baseline grid and a good design can still look great even if it's totally off the grid."
 
+![Complete Diaspora typography layout — Carbon monospace header, Abolition chapter title, Noticia Text body; paragraph spacing between sections is visibly greater than line height within each paragraph](screenshots/12-paragraph-spacing.jpg)
+
 ---
 
-## [56:45] Letter spacing
+### [56:45] Letter spacing
 
 **Default rule:** Leave it alone. If the font is well-designed and you're using it as intended, there's no problem to solve.
 
@@ -259,6 +279,8 @@ flowchart LR
     E["Large grotesque<br/>display headlines"] -->|"can remove"| F["Negative tracking<br/>tighter feel"]
 ```
 
+![Carbon monospace "DIASPORA · GREG EGAN" header — uppercase label where added letter spacing is appropriate; Figma letter spacing panel visible](screenshots/13-letter-spacing.jpg)
+
 ---
 
 ## [59:20] Quartzy example
@@ -271,6 +293,8 @@ But the goal isn't to make the numbers seem reasonable — it's to make the visu
 
 > "It was something that when I noticed that this is what professional designers did, I was like, wow. I am not using spacing the correct way."
 
+![Quartzy landing page — ~180px above the headline, nav bar is 90% white space; what looked excessive to a developer eye is exactly right](screenshots/14-quartzy-hero.jpg)
+
 **Dense data pages:** When someone objects "what if I have a lot of information to show?":
 
 > "You can still often have a lot more white space than you'd otherwise expect."
@@ -280,6 +304,8 @@ Quartzy's order requests table — data-heavy, but still has 50px above action b
 However, tradeoffs exist. If a client says "I need to see four items on load, not two," you'd rework column layouts and spacing. But:
 
 > "Just because you need to display a lot of data does not mean you shouldn't be including white space or trying to include as much spacing as possible."
+
+![Quartzy order requests table — data-heavy but generously laid out; 50px above action buttons, 25px vertical / 35px horizontal padding; dense data and white space can coexist](screenshots/15-quartzy-data-table.jpg)
 
 If you're forced to reduce spacing, the other fundamentals become *more* important — alignment becomes critical, consistency matters more.
 

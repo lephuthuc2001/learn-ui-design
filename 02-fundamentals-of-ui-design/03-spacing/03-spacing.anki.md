@@ -15,11 +15,11 @@ graph TD
     A --> E["4. Double your<br/>white space"]
 ```
 ![](images/03-spacing-card-1.png)
-![](screenshots/01-four-laws-slide.jpg)
 
 Q: How does white space as a separator compare to borders, background changes, and shadow?
 A: It achieves the same visual grouping — but adds zero elements to the screen. "Can I use spacing instead of a line? Can I use white space instead of a background color change?"
 ![](screenshots/02-craigslist-header-before-after.jpg)
+![](screenshots/06-results-columns.jpg)
 
 Q: How do you create a focal point using only white space?
 A: Give the element generous space on all sides. In a clean, uncluttered design, surrounding space pulls the eye without needing color or size.
@@ -53,6 +53,7 @@ A: "Start from a blank piece of paper, and then you're adding in elements one at
 
 Q: What problem do side margins solve in text layout, and what line length should you target?
 A: Without margins, line length is unbounded — text stretches to any screen width. Target roughly 50–75 characters per line (two to three alphabets).
+![](screenshots/09-diaspora-side-margins.jpg)
 
 Q: What are the three benefits of adding side margins to body text?
 A: 1) Easier to read (optimal line length); 2) Breathing room; 3) Feels non-default — signals care was taken.
@@ -60,12 +61,15 @@ A: 1) Easier to read (optimal line length); 2) Breathing room; 3) Feels non-defa
 
 Q: What does the right line height depend on — and why isn't "140%" a universal answer?
 A: Both the font AND the line length. Short titles (few chars per line) can be tight — easy to track. Long body text needs more line height because the eye travels farther. The rule is a guideline, not a law.
+![](screenshots/11-line-spacing.jpg)
 
 Q: How does paragraph spacing relate to Law 3?
 A: Line height (internal spacing within a paragraph) should be less than paragraph spacing (external spacing between paragraphs) — so the break reads as more emphatic than a line wrap.
+![](screenshots/12-paragraph-spacing.jpg)
 
 Q: What is the default rule for letter spacing (tracking)?
 A: Leave it alone. Adding letter spacing to sentence-case text is "a very common beginner mistake" — it looks too loose and obnoxious as your gut instinct matures.
+![](screenshots/13-letter-spacing.jpg)
 
 Q: When is it acceptable to add letter spacing?
 A: For UPPERCASE labels — you're using the font outside its intended case, so positive tracking is acceptable and can look crisp (e.g., "CHAPTER ONE", "SEARCH RESULTS").
@@ -83,6 +87,7 @@ flowchart LR
 
 Q: What is the SLUB pattern, and when do you use it?
 A: Smaller, Lighter, Uppercase, Bold — a label style for section headers like "SEARCH RESULTS (21)". "A lot of really good designers use [it] way more frequently than you might imagine."
+![](screenshots/07-slub-label.jpg)
 
 Q: White space alone didn't fully make the Craigslist search bar stand out — what completed it?
 A: Combining white space with a very light background color change (96% brightness on the page, white on the search bar). "It's when you use them in combination with white space that they become so powerful."
@@ -90,6 +95,7 @@ A: Combining white space with a very light background color change (96% brightne
 
 Q: What should you do when a client says "I have too much data to use white space"?
 A: You can still include more than expected — dense data pages can have generous padding. And when you're forced to reduce spacing, the other fundamentals (alignment, consistency) become MORE important to compensate.
+![](screenshots/15-quartzy-data-table.jpg)
 
 Q: How do mobile spacing principles differ from desktop?
 A: Same four laws apply. But Law 4 (double your white space) is often impossible due to limited room — Law 3 (internal < external) dominates instead. Standard side margins: 16px on both iOS and Android.
@@ -103,11 +109,11 @@ A: The checkbox–label gap (internal to the pair) must be less than the gap bet
 
 Q: Your instinct says 40px above a landing page headline feels right. What does Law 4 tell you?
 A: Test something much larger — professional landing pages routinely use 100–200px above headlines. What feels "reasonable" to a developer is about half what a designer would use.
-![](screenshots/05-text-only-before-after.jpg)
+![](screenshots/14-quartzy-hero.jpg)
 
 Q: You've tightened spacing throughout a mobile design to fit more content. What becomes critically important as a result?
 A: Alignment and consistency — when you can't rely on generous spacing to create order, the other fundamentals must do more of the work.
 
 Q: In the Craigslist redesign, name at least three types of separators that were replaced or reduced using white space.
 A: Header background color change, dropdown borders (replaced with plain text + guillemets), and bottom-of-header divider line — all replaced with spacing and margins.
-![](screenshots/04-craigslist-full-comparison.jpg)
+![](screenshots/08-craigslist-before-after.jpg)

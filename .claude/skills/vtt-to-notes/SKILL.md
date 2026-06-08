@@ -55,10 +55,24 @@ TOPICS
 ```
 
 Steps:
-1. Parse each `[MM:SS] Title` line into a `##` header, including the timestamp: `## [1:30] First topic title`
+1. Parse each line — top-level `[MM:SS] Title` lines become `##` headers; **indented** `[MM:SS] Title` lines become `###` headers under the parent `##` section
 2. Lay out all headers first to scaffold the full structure
 3. Read the VTT and fill content under each header using the timestamps as section boundaries — content between timestamp N and N+1 belongs under header N
 4. If the final topic runs to the end of the video, include everything after its timestamp
+
+Example — given this `topics.md`:
+```
+[3:34] Craigslist app example
+
+    [4:42] Separators in the current header
+    [13:19] Making the search bar a focal point
+```
+Produces:
+```
+## [3:34] Craigslist app example
+### [4:42] Separators in the current header
+### [13:19] Making the search bar a focal point
+```
 
 **Do not skip topics or merge adjacent ones** — the instructor defined this structure intentionally.
 
