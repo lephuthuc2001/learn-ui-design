@@ -37,7 +37,11 @@ A: <answer>
 ```
 
 - One blank line between cards.
-- Question and answer each fit on one line if reasonable; if the answer needs multiple lines, indent continuation lines or use `<br>` so it stays one logical card.
+- Answers are rendered as HTML in Anki — **use HTML, not plain text**, for any structured answer:
+  - Numbered list (3 rules, steps, criteria): `<ol><li>Item 1</li><li>Item 2</li><li>Item 3</li></ol>`
+  - Bulleted list (unordered items): `<ul><li>Item A</li><li>Item B</li></ul>`
+  - Line break within an answer: `<br>`
+  - Never write "1. X 2. Y 3. Z" on one line — it displays as unreadable text in Anki.
 - Use **the instructor's exact phrasing** (in quotes) when the answer is a memorable line or framework — don't sanitize it.
 
 ## Visuals — priority order

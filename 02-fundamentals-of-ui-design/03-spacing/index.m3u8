@@ -1,28 +1,28 @@
 #EXTM3U
 #EXT-X-VERSION:4
 ## Created with Unified Streaming Platform  (version=1.14.4-30793)
-#EXT-X-SESSION-KEY:METHOD=AES-128,URI="https://contentplayer.hotmart.com/video/gL6vGemxLG/mp4/key/gL6vGemxLG-1769629032000.key?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2"
+#EXT-X-SESSION-KEY:METHOD=AES-128,URI="https://contentplayer.hotmart.com/video/gL6vGemxLG/mp4/key/gL6vGemxLG-1769629032000.key?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda"
 
 # AUDIO groups
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-aacl-128",NAME="audio",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2"
 
 # SUBTITLES groups
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="textstream",LANGUAGE="en",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="gL6vGemxLG-1769629032000-textstream_eng=1000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="textstream",LANGUAGE="fr",NAME="Français",AUTOSELECT=YES,URI="gL6vGemxLG-1769629032000-textstream_fra=1000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="textstream",LANGUAGE="es",NAME="Español",AUTOSELECT=YES,URI="gL6vGemxLG-1769629032000-textstream_spa=1000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="textstream",LANGUAGE="en",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="gL6vGemxLG-1769629032000-textstream_eng=1000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="textstream",LANGUAGE="fr",NAME="Français",AUTOSELECT=YES,URI="gL6vGemxLG-1769629032000-textstream_fra=1000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="textstream",LANGUAGE="es",NAME="Español",AUTOSELECT=YES,URI="gL6vGemxLG-1769629032000-textstream_spa=1000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
 
 # variants
 #EXT-X-STREAM-INF:BANDWIDTH=206000,CODECS="mp4a.40.2,avc1.640015",RESOLUTION=400x250,AUDIO="audio-aacl-128",SUBTITLES="textstream",CLOSED-CAPTIONS=NONE
-gL6vGemxLG-1769629032000-audio=128000-video=65000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+gL6vGemxLG-1769629032000-audio=128000-video=65000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
 #EXT-X-STREAM-INF:BANDWIDTH=291000,CODECS="mp4a.40.2,avc1.64001E",RESOLUTION=640x400,AUDIO="audio-aacl-128",SUBTITLES="textstream",CLOSED-CAPTIONS=NONE
-gL6vGemxLG-1769629032000-audio=128000-video=145000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+gL6vGemxLG-1769629032000-audio=128000-video=145000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
 #EXT-X-STREAM-INF:BANDWIDTH=411000,CODECS="mp4a.40.2,avc1.64001F",RESOLUTION=960x600,AUDIO="audio-aacl-128",SUBTITLES="textstream",CLOSED-CAPTIONS=NONE
-gL6vGemxLG-1769629032000-audio=128000-video=258000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+gL6vGemxLG-1769629032000-audio=128000-video=258000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
 #EXT-X-STREAM-INF:BANDWIDTH=552000,CODECS="mp4a.40.2,avc1.640020",RESOLUTION=1280x800,AUDIO="audio-aacl-128",SUBTITLES="textstream",CLOSED-CAPTIONS=NONE
-gL6vGemxLG-1769629032000-audio=128000-video=391000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
+gL6vGemxLG-1769629032000-audio=128000-video=391000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c
 
 # keyframes
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=9000,CODECS="avc1.640015",RESOLUTION=400x250,URI="keyframes/gL6vGemxLG-1769629032000-video=65000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=20000,CODECS="avc1.64001E",RESOLUTION=640x400,URI="keyframes/gL6vGemxLG-1769629032000-video=145000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=35000,CODECS="avc1.64001F",RESOLUTION=960x600,URI="keyframes/gL6vGemxLG-1769629032000-video=258000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=52000,CODECS="avc1.640020",RESOLUTION=1280x800,URI="keyframes/gL6vGemxLG-1769629032000-video=391000.m3u8?hdntl=exp=1779437094~acl=/*~data=hdntl~hmac=01b863a3c8dcb71cee378f1fcfbfabea0115c21fca577adb517d0b56863701c2&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=9000,CODECS="avc1.640015",RESOLUTION=400x250,URI="keyframes/gL6vGemxLG-1769629032000-video=65000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=20000,CODECS="avc1.64001E",RESOLUTION=640x400,URI="keyframes/gL6vGemxLG-1769629032000-video=145000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=35000,CODECS="avc1.64001F",RESOLUTION=960x600,URI="keyframes/gL6vGemxLG-1769629032000-video=258000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
+#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=52000,CODECS="avc1.640020",RESOLUTION=1280x800,URI="keyframes/gL6vGemxLG-1769629032000-video=391000.m3u8?hdntl=exp=1781013368~acl=/*~data=hdntl~hmac=364b5ee0e8ddd1561f5b137a8c3aff82a1c06d9ea8928d03901d2bdb059acfda&app=aa2d356b-e2f0-45e8-9725-e0efc7b5d29c"
