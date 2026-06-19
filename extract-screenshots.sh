@@ -59,7 +59,7 @@ KEY_URL="https://contentplayer.hotmart.com/video/${VIDEO_ID}/mp4/key/${VIDEO_ID}
 HDRS=(
   -H "Origin: https://player.hotmart.com"
   -H "Referer: https://player.hotmart.com/"
-  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0"
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0"
   -H "Accept: */*"
   -H "Accept-Language: en-US,en;q=0.9"
   -H "Sec-Fetch-Dest: empty"
@@ -75,7 +75,7 @@ KEY_FILE=$(mktemp /tmp/hotmart-key.XXXXXX)
 trap 'rm -f "$KEY_FILE" /tmp/hotmart-seg.ts /tmp/hotmart-mini.m3u8' EXIT
 
 echo "Fetching AES key..."
-HTTP_CODE=$(curl -sf "${HDRS[@]}" -o "$KEY_FILE" -w "%{http_code}" "$KEY_URL")
+HTTP_CODE=$(curl --compressed -sf "${HDRS[@]}" -o "$KEY_FILE" -w "%{http_code}" "$KEY_URL")
 [[ "$HTTP_CODE" != "200" ]] && { echo "ERROR: Could not fetch AES key (HTTP $HTTP_CODE)"; exit 1; }
 KEY_SIZE=$(wc -c < "$KEY_FILE")
 [[ "$KEY_SIZE" -ne 16 ]] && { echo "ERROR: AES key wrong size ($KEY_SIZE bytes, expected 16)"; exit 1; }
@@ -108,7 +108,7 @@ for shot in "${SHOTS[@]}"; do
 
   SEG_URL="https://vod-akm.play.hotmart.com/video/${VIDEO_ID}/hls/${SEG_PREFIX}-${SEG}.ts?${TOKEN}"
 
-  curl -sf "${HDRS[@]}" -o /tmp/hotmart-seg.ts "$SEG_URL" || { echo "DOWNLOAD FAILED"; continue; }
+  curl --compressed -sf "${HDRS[@]}" -o /tmp/hotmart-seg.ts "$SEG_URL" || { echo "DOWNLOAD FAILED"; continue; }
 
   IV=$(printf "%032x" "$SEG")
   cat > /tmp/hotmart-mini.m3u8 << M3U

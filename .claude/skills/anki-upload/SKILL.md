@@ -127,10 +127,15 @@ Call `add_notes` with all parsed cards in a single batch (up to 100 per call; sp
 }
 ```
 
-## Step 5 — Report
+## Step 5 — Sync to AnkiWeb
 
-After uploading, report:
+Call `sync` after all cards are uploaded to push the new cards and media to AnkiWeb.
+
+## Step 6 — Report
+
+After uploading and syncing, report:
 - How many cards were created / skipped (duplicates) / failed
 - Which deck they landed in
 - Which images were uploaded (and their stored filenames if renamed)
+- Whether the sync succeeded
 - If any sub-deck was missing: instruct the user to create it in Anki GUI and re-run

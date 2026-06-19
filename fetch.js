@@ -4,39 +4,38 @@
 // extracts the video ID and hdntl token, then downloads and merges all English
 // subtitle segments into <video-directory>/<slug>.vtt
 
-const https = require('https');
+const { execFile } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
 const MASTER_NAMES = ['master.m3u8', '_resMaster.m3u8', 'index.m3u8'];
-// Akamai CDN (vod-akm.play.hotmart.com) requires Sec-Fetch-* headers to allow
-// subtitle segment requests. Without them it returns HTTP 403 Access Denied even
-// with a valid hdntl token. Accept-Encoding is intentionally omitted — Node's
-// https module doesn't auto-decompress, so we let the server send plain text.
-const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0',
-  'Accept': '*/*',
-  'Accept-Language': 'en-US,en;q=0.9',
-  'Origin': 'https://player.hotmart.com',
-  'Referer': 'https://player.hotmart.com/',
-  'Sec-Fetch-Dest': 'empty',
-  'Sec-Fetch-Mode': 'cors',
-  'Sec-Fetch-Site': 'same-site',
-  'DNT': '1',
-  'Pragma': 'no-cache',
-  'Cache-Control': 'no-cache',
-  ...(process.env.HOTMART_COOKIES ? { 'Cookie': process.env.HOTMART_COOKIES } : {}),
-};
+// Akamai CDN (vod-akm.play.hotmart.com) requires HTTP/2 (negotiated via ALPN).
+// Node's https module uses HTTP/1.1 and gets blocked by Akamai bot detection.
+// curl --compressed triggers HTTP/2 negotiation and passes the fingerprint check.
+const CURL_HEADERS = [
+  'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0',
+  'Accept: */*',
+  'Accept-Language: en-US,en;q=0.9',
+  'Origin: https://player.hotmart.com',
+  'Referer: https://player.hotmart.com/',
+  'Sec-Fetch-Dest: empty',
+  'Sec-Fetch-Mode: cors',
+  'Sec-Fetch-Site: same-site',
+  'DNT: 1',
+  'Pragma: no-cache',
+  'Cache-Control: no-cache',
+  ...(process.env.HOTMART_COOKIES ? [`Cookie: ${process.env.HOTMART_COOKIES}`] : []),
+];
 
 function fetchUrl(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: HEADERS }, (res) => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location)
-        return fetchUrl(res.headers.location).then(resolve).catch(reject);
-      let data = '';
-      res.on('data', c => data += c);
-      res.on('end', () => resolve(data));
-    }).on('error', reject);
+    const args = ['--compressed', '--silent', '--location', '--max-redirs', '5'];
+    for (const h of CURL_HEADERS) args.push('-H', h);
+    args.push(url);
+    execFile('curl', args, { maxBuffer: 10 * 1024 * 1024 }, (err, stdout, stderr) => {
+      if (err) return reject(new Error(err.message));
+      resolve(stdout);
+    });
   });
 }
 
@@ -99,26 +98,40 @@ async function main() {
   const segments = playlist.split('\n').filter(l => l.trim() && !l.startsWith('#'));
   console.log(`Found ${segments.length} segments`);
 
-  let result = 'WEBVTT\n\n';
-  const seen = new Set();
+  const CONCURRENCY = 10;
+  let done = 0;
+  const results = new Array(segments.length).fill('');
 
-  for (let i = 0; i < segments.length; i++) {
+  async function fetchSegment(i) {
     const seg = segments[i].trim();
     const url = seg.startsWith('http') ? seg : baseUrl + seg;
-    process.stdout.write(`\rFetching segment ${i + 1}/${segments.length}...`);
     try {
-      const text = await fetchUrl(url);
-      for (const block of text.split('\n\n')) {
-        const trimmed = block.trim();
-        if (!trimmed.includes('-->') || seen.has(trimmed)) continue;
-        seen.add(trimmed);
-        const lines = trimmed.split('\n').filter(l => !/^\d+$/.test(l.trim()));
-        result += lines.join('\n') + '\n\n';
-      }
+      results[i] = await fetchUrl(url);
     } catch (e) {
       console.error(`\nError on segment ${i + 1}: ${e.message}`);
     }
-    await new Promise(r => setTimeout(r, 30));
+    done++;
+    process.stdout.write(`\rFetching segments... ${done}/${segments.length}`);
+  }
+
+  // Run in batches of CONCURRENCY
+  for (let i = 0; i < segments.length; i += CONCURRENCY) {
+    const batch = [];
+    for (let j = i; j < Math.min(i + CONCURRENCY, segments.length); j++) batch.push(fetchSegment(j));
+    await Promise.all(batch);
+  }
+  console.log('');
+
+  const seen = new Set();
+  let result = 'WEBVTT\n\n';
+  for (const text of results) {
+    for (const block of text.split('\n\n')) {
+      const trimmed = block.trim();
+      if (!trimmed.includes('-->') || seen.has(trimmed)) continue;
+      seen.add(trimmed);
+      const lines = trimmed.split('\n').filter(l => !/^\d+$/.test(l.trim()));
+      result += lines.join('\n') + '\n\n';
+    }
   }
 
   const outFile = path.join(absDir, `${slug}.vtt`);
