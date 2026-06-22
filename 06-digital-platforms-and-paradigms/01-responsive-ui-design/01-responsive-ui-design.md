@@ -136,11 +136,9 @@ flowchart LR
 
 ---
 
-## General responsive patterns
+## General Patterns
 
-These patterns weren't tied to the topics.md structure but appear throughout the live demo.
-
-### Rows-to-columns
+### [20:08] Rows-to-columns
 
 The most fundamental layout pattern. On desktop, items are displayed in a row. When the screen narrows:
 
@@ -150,7 +148,7 @@ The most fundamental layout pattern. On desktop, items are displayed in a row. W
 
 Microsoft.com exemplifies this. A row of cards becomes a column. Even the footer's "row of columns" becomes a "column of columns." This works for things that are obviously rows, but also for hero sections — "text + image" as a row snaps to "image stacked over text" as a column.
 
-### Hide
+### [22:14] Hide
 
 ![FiveThirtyEight desktop layout with full nav visible — Politics, Sports, Science, Podcasts, Video in the header bar](screenshots/06-fivethirtyeight-hide.jpg)
 
@@ -158,11 +156,15 @@ Don't show everything by default on mobile — hide it behind a click (not compl
 
 > "The whole idea of the hide pattern is you don't need to show everything by default, you can hide it behind a click or in this case, a tap."
 
-### Drop
+### [23:01] Drop
 
-Move secondary content lower on the page rather than removing it. In FiveThirtyEight, the sidebar columns drop to the bottom when the screen is too narrow for three columns. Regent College's sidebar drops below the main content at ~800px — which actually works well because after reading the page, the navigation at the bottom makes natural sense.
+Move secondary content lower on the page rather than removing it. In FiveThirtyEight, the sidebar columns drop to the bottom when the screen is too narrow for three columns.
 
-### Remove
+Note on FiveThirtyEight's intermediate widths: even a nice site can look awkward at the "no man's land" between wide mobile and portrait tablet — too small for side-by-side columns, too wide for a pure mobile layout.
+
+> "This is something where as nice as this site is, if they had a more solid responsive plan, this would look like perfectly native and perfectly well-designed even as sort of these awkward screen widths."
+
+### [24:25] Remove
 
 ![Stripe on a narrow mobile viewport — device imagery is completely absent, logo and hamburger menu only, demonstrating the remove pattern](screenshots/07-opal-remove.jpg)
 
@@ -174,7 +176,7 @@ Note: "hide" and "remove" are also two of the six strategies of simplicity — s
 
 ---
 
-## Navigation patterns (from Figma live demo)
+## Navigation Patterns
 
 Working through the Rebalancr app (a fictional portfolio rebalancing tracker):
 
@@ -199,20 +201,39 @@ For the hamburger menu icon itself, use 16px padding all around to get close to 
 - Each text item should have line height + spacing ≥ 44px (tap target)
 - Bigger text looks natural and well-spaced — don't just shrink the desktop nav text
 
-**Other navigation patterns:**
-
-| Pattern | Description |
-|---------|-------------|
-![WWF website with off-canvas menu open — panel slides in from the left overlaying the darkened page, giving spatial physicality to the navigation](screenshots/09-wwf-off-canvas.jpg)
-
-| **Off-canvas** | Menu slides in from the side (see WWF website) — gives spatial physicality, user sees the transition instead of a snap |
-| **Prioritized items** | Most important nav items stay visible, least important go into "More" as screen shrinks. AWS and the MDCalc course site both do variants of this |
-| **Footer anchor** | "Nav" link jumps to the bottom of the page where the nav lives — no separate page, just an HTML anchor |
-| **Stacked navigation** | At some width, nav items snap from one row to two columns — looks natural at both widths |
-
 > "The goal with responsive design as always is that at every single width things look as native and intuitive as possible."
 
-**Container patterns:**
+### [37:54] Menu hidden behind buttons
+
+The standard hamburger menu pattern. The full nav is hidden behind a button tap — the most common approach, seen everywhere from Stripe (hamburger on the right) to Rebalancr (hamburger on the left). When opened, the button typically transforms into an X.
+
+### [38:20] Off-canvas effect
+
+![WWF website with off-canvas menu open — panel slides in from the left overlaying the darkened page, giving spatial physicality to the navigation](screenshots/09-wwf-off-canvas.jpg)
+
+Menu slides in from the side rather than appearing from nowhere. WWF's website does this — gives spatial physicality, the background darkens, and the user sees the transition instead of a jarring snap.
+
+> "Where possible, it's great to add these animations so that it doesn't just sort of snap from one version of the screen to the next, which can be kinda confusing. But instead the user can see what's happening in between the different states."
+
+### [39:01] Prioritized items
+
+Show only the most important nav items; the rest go into a "More" dropdown as the screen shrinks. As the screen gets narrower, more items move into "More" until eventually everything collapses to a hamburger at the smallest sizes. Amazon Web Services does a scroll-variant where items that don't fit can be scrolled via arrow buttons, with a fade indicating there's more.
+
+> "It's not like you need to use just one of these — instead you can kind of mix and match across various screen widths."
+
+### [40:35] Footer anchor
+
+The "nav" link jumps down to the bottom of the page (via an HTML anchor) where the same nav items appear in the footer. Contents Magazine does this — when you're on mobile and tap "Explore," you're not taken to a new page, you're scrolled to the footer navigation.
+
+This works well because after reading through a page, a reader who wants to know "what's next?" naturally finds the nav right there at the bottom.
+
+### Stacked nav
+
+At some breakpoint, turn horizontal navigation vertical. Instead of a hamburger, the nav snaps from one row to two columns. The instructor does this on his own site — it looks natural at both the wide and narrow ends of that breakpoint, with no width where it seems out of place.
+
+---
+
+## [43:05] Container Patterns
 
 ```mermaid
 flowchart TD
@@ -223,21 +244,51 @@ flowchart TD
 
 ![Rebalancr nav shown at multiple widths in Figma — the top frame stretches to 2202px while lower frames show how content reflows within a fixed max-width container](screenshots/10-container-patterns.jpg)
 
-- **Infinite-width**: backgrounds, hero images, full-bleed headers — the HTML element stretches edge to edge
-- **Max-width**: content has a maximum width and is centered with margins on both sides at wider screens
-- **Snap-width**: max-width itself snaps to a smaller value at breakpoints (like Bootstrap's grid containers)
+These patterns can be mixed and matched. The same page can have an infinite-width hero image, a max-width content container, and a snap-width grid — whatever keeps the layout looking natural at every size.
 
-These can be mixed and matched. Fitt's Law note: items at the edge of the screen are actually easier to click even if they seem far away — you can just slam the cursor into the corner.
+### Infinite-Width Container
+
+The element stretches 100% of screen width, forever. Used for full-bleed backgrounds, hero images, and headers with background colors. The challenge in responsive design is keeping images looking good as the container grows wider.
+
+### Max-Width Container
+
+Content is centered within a fixed maximum width. At screens wider than that max, the margins just grow. Prevents content from becoming uncomfortably wide on ultra-wide screens.
+
+Fitt's Law note: items locked to screen edges (like the Deposit button in Rebalancr's infinite-width nav) are actually easy to hit even when far away — you just slam the cursor into the corner.
+
+### Snap-Width Container
+
+The max-width itself snaps to a smaller value at breakpoints — like Bootstrap's grid containers. Right now the grid is one width; as the screen shrinks past a threshold, it snaps to a smaller fixed width, then snaps again. Only a small set of widths to verify rather than every pixel.
 
 ---
 
-## Text patterns (responsive)
+## Sidebar patterns
 
-### Angular size principle
+### [49:36] Drop the sidebar
 
-Font sizes are ultimately about **angular size** — the angle from your eye to the top vs. bottom of the text should always be roughly the same, regardless of device distance.
+Move the sidebar below the main content when the screen is too narrow. In FiveThirtyEight, both "The Latest" and "Interactives" columns drop to the bottom when the screen narrows — they just aren't shown to the right anymore.
+
+Regent College's website keeps its sidebar in place until ~800px, then it all drops below the main content. This works out nicely:
+
+> "If someone has read through all of this page and they're kinda wondering, what's next? Where can I go to next? Seeing this navigation right here makes a lot of sense."
+
+### [50:36] Hide in top nav
+
+Sidebar items join the top navigation's hamburger menu on mobile — what Rebalancr does. At 500px and below, the hamburger is visible; tapping it opens a menu that contains both the standard nav items *and* the sidebar items (like portfolio selections). The sidebar doesn't appear separately at all at those small sizes.
+
+At 500px and above (where the hamburger disappears), the sidebar reappears as an actual sidebar since there's enough room for it.
+
+---
+
+## Text patterns
+
+### [57:20] Font sizes are (ultimately) about angular sizes
+
+Font sizes are ultimately about **angular size** — the angle from your eye to the top vs. bottom of the text should always be roughly the same, regardless of device or viewing distance.
 
 > "That means no matter what device you're looking at and how far away it is, the farther away the device is, the bigger the letters are gonna get."
+
+This is why a TV across the room needs huge text, and a book held in hand needs much smaller text — but both feel comfortable to read. The principle: text on any screen should take up approximately the same angle of your field of vision.
 
 Practical implication: follow the sizing cheat sheet from the Sizing lesson. For H1:
 - Desktop: 35–50px
@@ -245,22 +296,28 @@ Practical implication: follow the sizing cheat sheet from the Sizing lesson. For
 
 Also account for **realistic content** — if "Retirement Portfolio" is a very common value, does it fit on one line at 32px? User-inputted text length should inform your chosen size.
 
-### 50–75 characters per line
+### [59:06] Ideal text line length is 50-75 characters
 
-The ideal line length is 50–75 characters — not pixels. Use the **three-alphabets trick** to test: paste three repetitions of the alphabet into a text block. If the line breaks somewhere in the third alphabet, you're in range.
+The ideal line length is **50–75 characters** — not pixels. Use the **three-alphabets trick** to test: paste three repetitions of the alphabet into a text block. If the line breaks somewhere in the third alphabet, you're in range.
 
 ![Trent Walton's site with three alphabets pasted in Chrome dev tools — the text wraps partway through the third alphabet, confirming the line length is within the 50–75 character ideal](screenshots/11-trent-walton-alphabets.jpg)
 
-Trent Walton's site exemplifies this — his font size changes 4 times across screen widths so that the line length stays within this range. If the font stayed small, the narrow column would feel lost in a huge sea of background.
+Trent Walton's site exemplifies this — his font size changes 4 times across screen widths so that the line length stays within this range at every size. If the font stayed small on a wide screen, the narrow column would feel lost in a huge sea of background.
 
-### Abbreviations and text removal
+### [1:00:48] Remove extra words
 
-You can always remove extra words or add abbreviations for smaller screens. MDCalc example:
+You can always remove words, add abbreviations, or do small text tweaks for smaller screens. MDCalc example:
 - "Most Popular" → "Popular"
 - "My Specialty" → "Specialty"
 - "Newest" tab disappears entirely on mobile
 
 > "This is like little detail work but it really does help to try and make the experience seem as reasonable as possible even on the smallest screen widths."
+
+Working mobile first tends to surface these improvements — the abbreviated label often reads better everywhere, not just on mobile.
+
+### Responsive footnotes
+
+*(Not covered in this video.)*
 
 ---
 
@@ -268,32 +325,34 @@ You can always remove extra words or add abbreviations for smaller screens. MDCa
 
 > "This is the thing that I most commonly receive questions about in the world of responsive design — how do I do responsive tables?"
 
-### Row-to-mini-table
+### [1:02:20] Row-to-mini-table
 
 ![CSS-Tricks responsive table demo at full desktop width — many-column table with First Name, Last Name, Job Title, Favorite Color, Wars or Trek?, etc.](screenshots/12-table-row-to-mini.jpg)
 
-Each row of the wide table becomes its own mini two-column table. Column headers ("First Name") become row labels ("First Name: James"). Redundant but works well on narrow screens.
+Each row of the wide table becomes its own mini two-column table. Column headers ("First Name") become row labels ("First Name: James"). Redundant but works well on narrow screens — all data is preserved and readable.
 
-### Remove columns
+### [1:03:36] Remove least important rows
 
-Remove the least important columns. They're gone — not accessible. Option: make the table horizontally scrollable instead.
+Remove the least important columns entirely. They're gone — not accessible via scrolling. This is the general "remove" pattern applied to table columns.
 
-### Flip the axis + horizontal scrolling
+Alternative: make the table horizontally scrollable instead of removing columns. Either is valid depending on how important that data is.
 
-Works for tables that are much wider than they are tall (many columns, few rows). Rotate 90°: column headers move from the top to the left side. Horizontal scrolling is enabled, but the labels remain fixed so you always know what you're reading.
+### [1:04:40] Flip the axis / horizontal scrolling
+
+Works for tables that are much **wider than they are tall** (many columns, few rows). Column headers move from the top to the left side. Horizontal scrolling is enabled, but the labels remain fixed so you always know what each piece of data refers to.
 
 > "It actually makes for a much more decent experience. This is one that you're gonna want to think about doing especially if you have a very long table — the taller the table is on desktop, the more horizontal scrolling is gonna be involved."
 
-### Reformat as a list (used in Rebalancr)
+### [1:06:00] Custom reformat as a list
 
-The most custom approach — no one-size-fits-all algorithm. Think of mobile email inboxes: primary info on the left, secondary info on the right-hand side, primary/secondary text hierarchy.
+The most custom approach — no one-size-fits-all algorithm. Think of mobile email inboxes: primary info on the left, secondary on the right, primary/secondary text hierarchy within each row.
 
 ![Rebalancr mobile portfolio list in Figma — each fund name stacked as a row with ticker below it, no table columns, tapping a row reveals the rest of the data](screenshots/13-rebalancr-list.jpg)
 
 For the Rebalancr portfolio table:
 - Primary left: Fund name (big text), ticker symbol below it at 70% opacity (secondary text pattern from Typography unit)
 - Primary right: Current portfolio percentage
-- Secondary right: Current price (shorter value = less likely to collide)
+- Secondary right: Current price (shorter value = less likely to collide with left text)
 - Row height: line height + spacing ≥ 44px tap target; with two lines of text, 50px rows work well
 - Tapping a row opens a popup/detail view with the remaining data
 
@@ -301,37 +360,39 @@ For the Rebalancr portfolio table:
 
 List styling details: slightly darker background color, darker border at top and bottom (~15% opacity black), lighter separator lines between rows (~10% opacity black).
 
+Side benefit of mobile first: designing the mobile list often reveals improvements that carry back to the wider table — e.g., "Percentage" becomes "%" everywhere, which is just better.
+
 ---
 
-## Grid and list patterns
+## Grids/Lists pattern
 
-### Flexible grid items per row
+### [1:18:10] Flexible width, flexible count
 
-Two levers for responsive grids:
-1. **Flexible item width** — items stretch/shrink as the grid container resizes
-2. **Flexible items per row** — the count changes (Pinterest: 5 → 4 → 3 → 2 as screen shrinks)
+Two independent levers for responsive grids:
+1. **Flexible item width** — items stretch/shrink as the grid container resizes (Row 7 Seeds)
+2. **Flexible items per row** — the count changes as screen shrinks (Pinterest: 5 → 4 → 3 → 2)
 
 ![Pinterest on a narrow mobile viewport — masonry grid drops to 2 columns, demonstrating flexible items-per-row rather than flexible item width](screenshots/14-pinterest-grid.jpg)
 
-These can be combined for fine-grain control. Row 7 Seeds uses flexible item width while keeping a fixed count per row until a breakpoint.
+Combining both gives fine-grain control. Wide screens can transition nicely to a single-column list on small screens by adjusting both width and count at each breakpoint.
 
-### Collapsible list items
+### [1:19:30] Collapsible list items
 
-When rows-to-columns would produce enormous vertical content, collapse list sections. Starbucks footer: each sub-list starts collapsed — just the section title is shown. Users who want those links can expand them.
+When rows-to-columns would produce enormous vertical content (like a footer with many sub-lists), collapse list sections to just their title by default. Starbucks footer: each sub-list starts minimized. Users who want those links can expand them individually, keeping the footer short enough to browse quickly.
 
 ---
 
-## Photography and imagery patterns
+## Photography/Imagery Patterns
 
-### Media object
+### [1:20:39] Media object
 
-Image + text laid out horizontally. On narrow screens, this can stay horizontal (image small on left, text right) rather than stacking vertically — because a full-width image on mobile can be obnoxiously tall.
+Image + text laid out horizontally (image on the left, text on the right). On narrow screens, this can *stay* horizontal with a smaller image rather than stacking full-width — because a full-width image on mobile can be obnoxiously tall.
 
 > "A lot of times you may actually want the image to be smaller when you're on a smaller screen size so that it doesn't require so much obnoxious scrolling."
 
-If the image + text is side-by-side on mobile but stacked on desktop — that's intentional. Flexibility to flip between horizontal and vertical gives many layout options across screen widths.
+This can feel counterintuitive — image and text side-by-side on small screens but stacked on wide screens. But it makes sense: on large screens a full-width image is fine; on small screens, keeping the image modest lets the content breathe. Flexibility to flip between horizontal and vertical gives many layout options across screen widths.
 
-### Art direction
+### [1:22:15] "Art direction"
 
 Using **slightly different image files** at different screen sizes — not scaling one image, but loading images specifically composed for each context.
 
@@ -341,29 +402,31 @@ Made in Germany design magazine: on mobile, just the issue number. "Dmig, Design
 
 > "They're sort of using this idea of considering the screen as if that screen size is the only screen size you're designing for it and saying, what would the solution look like here?"
 
-### Labels above images
+### [1:24:08] Labels above images
 
 ![New York Times homepage — headlines and body copy appear above their associated images so context is never below the fold](screenshots/15-nyt-labels-above.jpg)
 
-Put contextual text **above** images on mobile, not below. If a tall image pushes the caption 400px down the page, you've lost context. The New York Times always shows headline + text before the image so you always know what you're looking at without scrolling back up.
+Put contextual text **above** images on mobile, not below. If a tall image pushes the caption 400px down the page, the reader has to scroll past the image, read the caption, then scroll back up to look at the image again.
+
+The New York Times always shows headline + text before the image on mobile — you always know what you're looking at without scrolling back up.
 
 ---
 
 ## Form patterns
 
-### Side labels → top labels
+### [1:25:44] Side labels to top labels
 
-Wide screens can place form labels on the left side of each field (lets the form own horizontal space). At smaller widths, labels naturally go above their fields.
+Wide screens can place form labels on the left side of each field (lets the form own horizontal space). At smaller widths, labels naturally go above their fields. Simple, but the pattern to know.
 
-### Multi-column → single column
+### [1:26:18] Multi-column to single column
+
+Same as the rows-to-columns pattern applied to forms. Harvest collapses a 3-column form to a single column on mobile. They also show a banner suggesting the native mobile app — a nice detail.
 
 ![Harvest expense form on mobile — all fields stacked in a single column with labels above each input, plus a banner suggesting the native app](screenshots/16-harvest-form.jpg)
 
-Same as the rows-to-columns pattern applied to forms. Harvest collapses a 3-column form to a single column on mobile. They also show a banner suggesting the native mobile app.
-
 > "That's a very cool little responsive design detail."
 
-### Sub-element resizing
+### [1:26:56] Sub-element resizing
 
 **Buttons:** Should be ≥ 44 × 44 tap target on mobile.
 
