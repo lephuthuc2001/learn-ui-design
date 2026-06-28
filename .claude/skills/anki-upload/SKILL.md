@@ -100,9 +100,12 @@ A: <answer text>
 - Blank lines separate cards.
 - The `# Title` header line is not a card — skip it.
 
+**Answer formatting rule:**
+- Every sentence in the answer that ends with a period (`.`) must be followed by `<br>` so each sentence renders on its own line in Anki. Apply this to all prose sentences. Do not add `<br>` after list items that already use `<br>` as a separator.
+
 **Card fields:**
 - **Front:** The question text (everything after `Q: `).
-- **Back:** The answer text (everything after `A: `), followed by one `<br><img src="...">` tag per image this card references:
+- **Back:** The answer text (everything after `A: `, with the sentence-break rule applied), followed by one `<br><img src="...">` tag per image this card references:
   ```html
   <br><img src="<stored-filename-1>">
   <br><img src="<stored-filename-2>">

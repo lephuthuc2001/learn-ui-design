@@ -42,6 +42,7 @@ A: <answer>
   - Bulleted list (unordered items): `<ul><li>Item A</li><li>Item B</li></ul>`
   - Line break within an answer: `<br>`
   - Never write "1. X 2. Y 3. Z" on one line — it displays as unreadable text in Anki.
+  - **One sentence per line.** In a prose answer (not a list), put a `<br>` after every sentence-ending period so each sentence starts on its own line — never run multiple sentences together on one line. (Don't break on mid-sentence periods like `e.g.`, `.git`, or decimals.)
 - Use **the instructor's exact phrasing** (in quotes) when the answer is a memorable line or framework — don't sanitize it.
 
 ## Visuals — priority order
@@ -49,8 +50,10 @@ A: <answer>
 The user is a visual learner. Every card that illustrates a principle with a real example or that involves inherently visual concepts (color, spatial relationships, spectrums) **must** have a visual. Use the following priority order:
 
 1. **Lesson screenshot** — if the notes file references a `![...](screenshots/...)` image that directly illustrates this card's concept, embed that screenshot in the card (see "Screenshots" below).
-2. **SVG illustration** — if the concept is inherently visual (color palettes, tonal ranges, design spectrums) but no screenshot covers it and Mermaid can't render actual colors, invoke `anki-illustrate` to generate an SVG (see "SVG illustrations" below).
+2. **Web search** — if no screenshot covers it, web search for an appropriate image. Download the image to `images/` and reference it. Only skip if nothing relevant is found after searching.
 3. **Mermaid diagram** — for structural concepts: relationships, flows, hierarchies, spectrums described in text (see "Mermaid diagrams" below).
+
+**Never generate custom SVGs.** The `anki-illustrate` skill is retired from this workflow — web search always comes first.
 
 Aim for **at least half of all cards** to have a visual of some kind. A card with a clear example from the lesson and no image is a missed opportunity.
 
@@ -78,20 +81,6 @@ A: "Alignment is sort of this signal that a human being has put care into it."
 The `anki-upload` skill knows how to upload from the `screenshots/` subfolder — use the path exactly as shown.
 
 ---
-
-## SVG illustrations for color and visual concepts
-
-Some concepts are inherently visual — color palettes, warm vs. cool tones, elegant vs. cluttered aesthetics — but no lesson screenshot covers them and Mermaid can't render actual colors or freeform layouts.
-
-For these cards, invoke the `anki-illustrate` skill to generate a custom SVG. Good candidates:
-- Why gray is elegant (grayscale vs. vibrant color comparison)
-- Warm vs. cool brand palettes
-- Any before/after comparison that needs real color
-
-SVGs go in `images/`, referenced the same way as Mermaid PNGs:
-```
-![](images/<slug>-<descriptor>.svg)
-```
 
 ---
 
@@ -232,7 +221,7 @@ The core question for every potential card: **"Six months from now, mid-project,
 3. Draft a mental list of: named concepts, frameworks, counterexamples, distinctive quotes, scenarios.
 4. Write concept-recall cards covering each — add screenshot references where a lesson screenshot applies.
 5. Write 3–6 application/scenario cards using examples from the lesson.
-6. Identify any cards that need an SVG (color concepts, visual spectrums with no screenshot); invoke `anki-illustrate` for each.
+6. For any card with no screenshot, web search for an appropriate image, download to `images/`, and reference it.
 7. Order cards roughly in the lesson's order, so the deck reads as a study path.
 8. Write to `<slug>.anki.md` in the same folder as the notes.
 9. **If the deck contains any ` ```mermaid ` blocks**, render them to PNGs so they're usable in Anki (Anki does not render Mermaid natively). Read [references/rendering-mermaid.md](references/rendering-mermaid.md) for the `mmdc` one-shot command, dark-mode flags, PNG linking convention, and when to re-render. Skip this step entirely if the deck has no Mermaid diagrams.
