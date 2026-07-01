@@ -2,218 +2,86 @@
 
 ---
 
-Q: What is a source program (source file)?
-A: A source program is a file the programmer creates with an editor, saved as a sequence of bits organized into 8-bit chunks called <b>bytes</b>.<br>Each byte represents a text character in the program.<br>Example: <code>hello.c</code> is a source file.
-![](images/fig1-3.png)
+Q: What does a simple computer look like at the hardware level?
+A: At its core, a computer has four components connected by <b>buses</b> (electrical wires that carry bytes between components):<br><b>CPU</b> — the engine that executes instructions. Contains a <b>program counter (PC)</b> pointing to the next instruction, a small set of <b>registers</b> for temporary values, and an <b>ALU</b> that performs arithmetic.<br><b>Main memory (DRAM)</b> — stores the running program and its data as a flat array of bytes.<br><b>I/O devices</b> — disk, display, keyboard, NIC — each connected via controllers.<br><b>Buses</b> — system bus, memory bus, I/O bus — ferrying data between all of the above.
+![](images/simple-arch.png)
 
-Q: What is the ASCII standard and how does it apply to source files?
-A: ASCII (American Standard Code for Information Interchange) represents each character with a unique byte-sized integer value.<br>For example, <code>#</code> = 35, <code>i</code> = 105, newline <code>\n</code> = 10.<br>Files consisting exclusively of ASCII characters are called <b>text files</b>; all others are <b>binary files</b>.
-![](images/fig1-3.png)
-
-Q: What is the fundamental principle about information in a computer system?
-A: All information in a system — disk files, programs in memory, user data, network data — is represented as a bunch of bits.<br>The only thing that distinguishes different data objects is the <b>context</b> in which we view them.<br>The same sequence of bytes might represent an integer, a float, a string, or a machine instruction depending on context.
-![](images/fig1-3.png)
-
-Q: What is a text file vs a binary file?
-A: A <b>text file</b> consists exclusively of ASCII characters — every byte maps to a printable or control character.<br>A <b>binary file</b> is everything else — bytes that don't necessarily correspond to characters (e.g. compiled executables, images).
-![](images/fig1-3.png)
-
-Q: What command compiles a C program using GCC, and what does it produce?
-A: <code>unix&gt; gcc -o hello hello.c</code><br>This invokes the compilation system (preprocessor → compiler → assembler → linker) and produces an executable object file named <code>hello</code>.
-![](images/fig1-3.png)
-
-Q: What are the 4 programs that make up the compilation system?
-A: 1. <b>Preprocessor (cpp)</b><br>2. <b>Compiler (cc1)</b><br>3. <b>Assembler (as)</b><br>4. <b>Linker (ld)</b>
-![](images/fig1-3.png)
-
-Q: What does the preprocessor do, and what does it output?
-A: The preprocessor (cpp) modifies the original C program according to directives beginning with <code>#</code>.<br>For example, <code>#include &lt;stdio.h&gt;</code> causes it to read and insert the contents of <code>stdio.h</code> directly into the program text.<br>Output: a modified C program with suffix <code>.i</code>.
-![](images/fig1-3.png)
-
-Q: What does the compiler do, and what does it output?
-A: The compiler (cc1) translates the <code>.i</code> text file into an <b>assembly-language program</b>.<br>Each statement in assembly describes exactly one low-level machine instruction.<br>Output: a <code>.s</code> text file.
-![](images/fig1-3.png)
-
-Q: What does the assembler do, and what does it output?
-A: The assembler (as) translates the assembly <code>.s</code> file into machine-language instructions, packaging them as a <b>relocatable object program</b>.<br>Output: a binary <code>.o</code> file — bytes encode machine instructions, not characters.
-![](images/fig1-3.png)
-
-Q: What does the linker do, and what does it output?
-A: The linker (ld) merges separately compiled object files.<br>For example, it merges the compiled <code>hello.o</code> with <code>printf.o</code> (precompiled standard library) into a single file.<br>Output: an <b>executable object file</b> ready to be loaded into memory and run.
-![](images/fig1-3.png)
-
-Q: Why should programmers understand how compilation systems work? (3 reasons)
-A: 1. <b>Optimizing performance</b> — understand how C constructs map to machine code (switch vs if-else, loop ordering, pointer vs array)<br>2. <b>Understanding link-time errors</b> — know why "undefined reference" happens, static vs dynamic libraries, symbol conflicts<br>3. <b>Avoiding security holes</b> — understand how data and control info sit on the stack, enabling buffer overflow vulnerabilities
-![](images/fig1-3.png)
-
-Q: What is a shell?
-A: A shell is a <b>command-line interpreter</b> that prints a prompt, waits for you to type a command, and then executes it.<br>If the first word of the command is not a built-in command, the shell treats it as the name of an executable file to load and run.<br>Example: typing <code>./hello</code> causes the shell to load and run the <code>hello</code> executable.
+Q: How does the CPU actually execute a program? (the fetch-execute cycle)
+A: The CPU runs one endless loop:<br>1. <b>Fetch</b>: read the instruction at the address stored in the <b>program counter (PC)</b><br>2. <b>Decode</b>: figure out what operation the instruction encodes<br>3. <b>Execute</b>: carry it out — one of four things: <b>Load</b> (RAM → register), <b>Store</b> (register → RAM), <b>Operate</b> (ALU computes, result stays in register), or <b>Jump</b> (new value into PC)<br>4. Update PC to the next instruction (or jump target) and repeat<br>Every line of your Go/Java code — after compilation — becomes a sequence of these primitive CPU operations.
 ![](images/fig1-4.png)
 
-Q: What are buses in a computer system?
-A: Buses are electrical conduits that run throughout the system, carrying bytes of information back and forth between components.<br>They are designed to transfer fixed-size chunks of bytes called <b>words</b>.<br>Types: system bus (CPU ↔ I/O bridge), memory bus (I/O bridge ↔ DRAM), I/O bus (connects I/O devices).
-![](images/fig1-4.png)
-
-Q: What is a word in computer hardware? What is word size?
-A: A <b>word</b> is the fixed-size chunk of bytes that buses are designed to transfer.<br><b>Word size</b> is a fundamental system parameter — most modern systems use <b>4 bytes (32-bit)</b> or <b>8 bytes (64-bit)</b>.<br>It determines the size of registers, memory addresses, and the maximum directly addressable memory.
-![](images/fig1-4.png)
-
-Q: What are I/O devices? How do they connect to the system?
-A: I/O devices are the system's connection to the external world (keyboard, mouse, display, disk).<br>Each I/O device connects to the I/O bus via either a <b>controller</b> (chip set on the device or motherboard) or an <b>adapter</b> (a card that plugs into a motherboard slot).<br>Both transfer information between the I/O bus and the device.
-![](images/fig1-4.png)
-
-Q: What is main memory physically? What is it logically?
-A: <b>Physically</b>: main memory is a collection of <b>DRAM (Dynamic Random Access Memory)</b> chips.<br><b>Logically</b>: memory is organized as a <b>linear array of bytes</b>, each with its own unique address (index) starting at zero.
-![](images/fig1-4.png)
-
-Q: What does main memory hold during program execution?
-A: Main memory is a <b>temporary storage device</b> that holds both the <b>program</b> (machine instructions) and the <b>data it manipulates</b> while the processor is executing the program.
-![](images/fig1-4.png)
-
-Q: How many bytes do C primitive types occupy on a 32-bit (IA32) Linux system?
-A: <code>short</code>: <b>2 bytes</b><br><code>int</code>: <b>4 bytes</b><br><code>float</code>: <b>4 bytes</b><br><code>long</code>: <b>4 bytes</b><br><code>double</code>: <b>8 bytes</b><br>Note: machine instructions themselves can consist of a <b>variable number of bytes</b>.
-![](images/fig1-4.png)
-
-Q: What is the CPU / processor?
-A: The <b>central processing unit (CPU)</b> is the engine that interprets and executes instructions stored in main memory.<br>At its core is a word-sized register called the <b>program counter (PC)</b> that points to the next instruction to execute.<br>From power-on to power-off, the processor repeatedly executes the instruction at the PC and updates the PC.
-![](images/fig1-4.png)
-
-Q: What is the program counter (PC)?
-A: The <b>program counter (PC)</b> is a word-sized register inside the CPU.<br>At any point in time it contains the <b>memory address</b> of the next machine-language instruction to execute.<br>After executing an instruction, the CPU updates the PC to point to the next instruction (which may or may not be contiguous in memory).
-![](images/fig1-4.png)
-
-Q: What is the register file?
-A: The <b>register file</b> is a small, very fast storage device inside the CPU.<br>It consists of a collection of <b>word-sized registers</b>, each with its own unique name (e.g. <code>%eax</code>, <code>%ebx</code>).<br>The CPU reads from and writes to registers far faster than from main memory.
-![](images/fig1-4.png)
-
-Q: What is the ALU?
-A: The <b>Arithmetic/Logic Unit (ALU)</b> is the part of the CPU that <b>computes new data and address values</b>.<br>It performs arithmetic (add, subtract, multiply) and logical (AND, OR, NOT) operations on values from the register file.<br>Results are stored back into a register.
-![](images/fig1-4.png)
-
-Q: What are the 4 basic CPU operations?
-A: <b>Load</b>: copy a byte/word from main memory into a register (overwrites the register).<br><b>Store</b>: copy a byte/word from a register to a main memory location (overwrites that location).<br><b>Operate</b>: copy two register values to the ALU, perform arithmetic, store result in a register.<br><b>Jump</b>: extract a word from the instruction and copy it into the PC (redirects execution).
-![](images/fig1-4.png)
-
-Q: What is the difference between ISA and microarchitecture?
-A: <b>ISA (Instruction Set Architecture)</b>: the abstract model — describes the <i>effect</i> of each machine instruction.<br>Programs are written to the ISA; different CPUs can share the same ISA.<br><b>Microarchitecture</b>: describes <i>how</i> the processor actually implements the ISA in hardware (pipelining, caching, out-of-order execution).<br>Modern processors appear sequential but execute many instructions in parallel internally.
-![](images/fig1-4.png)
-
-Q: What happens step by step when you run ./hello from a shell?
-A: 1. Shell reads typed characters (<code>./hello</code>) into registers, stores them in memory.<br>2. On Enter: shell uses <b>DMA</b> to copy the executable from disk → main memory (bypassing CPU).<br>3. CPU begins executing <code>hello</code>'s machine instructions.<br>4. Instructions copy the string <code>"hello, world\n"</code> from memory → register file → display device.
-![](images/fig1-6.png)
-
-Q: What is DMA (Direct Memory Access)?
-A: <b>DMA</b> is a technique where data travels directly from an I/O device (e.g. disk) to main memory <b>without passing through the processor</b>.<br>This allows the CPU to do other work while the transfer happens.<br>It is used when loading an executable from disk into main memory before execution.
-![](images/fig1-6.png)
-
-Q: Why do caches exist? What problem do they solve?
-A: The <b>processor-memory gap</b>: the CPU operates much faster than DRAM.<br>Reading from a register is ~100× faster than reading from main memory; reading from disk is ~10,000,000× slower.<br>Caches are small, fast staging areas placed between the CPU and slower storage, exploiting <b>locality</b> — programs tend to reuse recently accessed data and code.
+Q: Why did the processor-memory gap grow, and what was the engineering solution?
+A: From the 1980s onward, CPU speeds improved roughly 60% per year following Moore's law — transistors halved in size every 18 months.<br>DRAM (main memory) latency improved only ~7% per year — the physics of capacitor charging didn't scale the same way.<br>By the 2000s, a CPU could issue billions of instructions per second but had to wait ~100 ns (hundreds of idle cycles) for every RAM access.<br>The solution: <b>SRAM cache memories</b> placed between the CPU and DRAM — small enough to be fast (nanoseconds), large enough to hold the working set, and organized in levels (L1/L2/L3) as the gap kept widening.
 ![](images/fig1-8.png)
 
-Q: What hardware technology implements cache memories?
-A: Caches are implemented using <b>SRAM (Static Random Access Memory)</b>.<br>SRAM is faster and more expensive per byte than DRAM (used for main memory).<br>L1 cache (on-chip): tens of KB, ~4 cycles.<br>L2 cache (connected by special bus): hundreds of KB–MB, ~10 cycles — still 5–10× faster than DRAM.
+Q: What are the 4 stages of the compilation pipeline, and why should a Go/Java dev care?
+A: <b>1. Preprocessor</b> — expands macros and <code>#include</code>s (C/C++ only; Go/Java skip this)<br><b>2. Compiler</b> — translates source code to assembly (or JVM bytecode / Go SSA IR)<br><b>3. Assembler</b> — turns assembly into machine code binary object files (<code>.o</code>)<br><b>4. Linker</b> — merges object files and libraries into a single executable<br>Why care? Knowing this explains: <b>undefined symbol errors</b> (linker couldn't find a function), <b>shared vs static libraries</b> (when code is bundled), and <b>compiler optimizations</b> (inlining, escape analysis) that affect your code's runtime behavior — things you debug in Go and Java regularly.
+![](images/fig1-3.png)
+
+Q: Why does the CPU memory gap slow down your programs?
+A: The CPU processes instructions far faster than RAM can supply data — roughly <b>100× faster</b>.<br>This means that when the CPU needs data from main memory, it sits idle waiting for it.<br><b>Caches</b> (small, fast SRAM sitting between the CPU and RAM) exist to bridge this gap by keeping recently used data close to the processor.<br>This is why reducing random memory access in hot loops matters in Go/Java as much as in C.
 ![](images/fig1-8.png)
 
-Q: What is the principle of locality and why does it make caches effective?
-A: <b>Locality</b> is the tendency for programs to access data and code in localized regions — recently accessed memory is likely to be accessed again soon.<br>By pre-loading this likely-needed data into fast cache memory, the system can perform most memory operations using the cache rather than slow DRAM.
-![](images/fig1-8.png)
-
-Q: Describe the memory hierarchy from L0 to L6.
-A: <b>L0 — Registers</b>: few hundred bytes, ~1 cycle (inside CPU)<br><b>L1 — L1 cache (SRAM)</b>: tens of KB, ~4 cycles<br><b>L2 — L2 cache (SRAM)</b>: hundreds of KB–MB, ~10 cycles<br><b>L3 — L3 cache (SRAM)</b>: MB range, ~40 cycles<br><b>L4 — Main memory (DRAM)</b>: GB range, ~100 cycles<br><b>L5 — Local disk</b>: TB range, ~10M cycles<br><b>L6 — Remote storage / network</b>: unlimited, slowest
+Q: What is the memory hierarchy?
+A: Storage is organized in levels: the higher the level, the <b>faster, smaller, and more expensive</b> per byte; the lower, the <b>slower, larger, and cheaper</b>.<br><b>L0 — Registers</b>: ~1 cycle, bytes<br><b>L1 cache (SRAM)</b>: ~4 cycles, tens of KB<br><b>L2 cache (SRAM)</b>: ~10 cycles, hundreds of KB<br><b>L3 cache (SRAM)</b>: ~40 cycles, MB range<br><b>RAM (DRAM)</b>: ~100 cycles, GB range<br><b>SSD / HDD</b>: millions of cycles, TB range<br>Each level caches the level below it.
 ![](images/fig1-9.png)
 
-Q: What is the key idea of the memory hierarchy?
-A: Storage at each level serves as a <b>cache for the level below</b>.<br>Registers cache L1; L1 caches L2; L2 caches L3; L3 caches DRAM; DRAM caches disk.<br>Higher levels are faster, smaller, and more expensive per byte; lower levels are slower, larger, and cheaper.
-![](images/fig1-9.png)
-
-Q: What is the OS's role between application programs and hardware?
-A: The OS is a layer of software <b>interposed between application programs and the hardware</b>.<br>All attempts by an application to manipulate hardware must go through the OS.<br>It has two primary purposes: (1) protect hardware from misuse, and (2) provide simple, uniform abstractions for complex hardware devices.
-![](images/fig1-10.png)
-
-Q: What are the 3 fundamental OS abstractions, and what does each abstract?
-A: <b>Files</b> → abstraction for I/O devices (disk, keyboard, display, network)<br><b>Virtual memory</b> → abstraction for both main memory AND disk<br><b>Processes</b> → abstraction for the processor + main memory + I/O devices
+Q: What are the OS's 3 fundamental abstractions and what does each one hide?
+A: <b>Files</b> → hides the differences between all I/O devices (disk, keyboard, display, network socket — all look the same to your code)<br><b>Virtual memory</b> → hides the physical layout of RAM and the fact that pages can live on disk<br><b>Processes</b> → hides the CPU scheduler and hardware multiplexing, giving each program the illusion of running alone<br>These three abstractions are why your Go HTTP handler doesn't need to know what NIC is installed.
 ![](images/fig1-11.png)
 
-Q: What is a process?
-A: A <b>process</b> is the OS's abstraction for a running program.<br>It creates the illusion that the program has <b>exclusive use</b> of the processor, main memory, and I/O devices — even when multiple processes run concurrently.<br>Concurrently means one process's instructions are interleaved with another's.
+Q: What is a process and what illusion does it create?
+A: A <b>process</b> is the OS's abstraction for a running program.<br>It creates the illusion that the program has <b>exclusive use</b> of the CPU, main memory, and I/O devices — even when dozens of other processes are active.<br>Each process has its own private <b>virtual address space</b>, so it can't accidentally read or write another program's memory.<br>In Go, every program you run — including the Go runtime itself — runs as a process.
 ![](images/fig1-12.png)
 
-Q: What is a process's context?
-A: The <b>context</b> is all the state information a process needs to run: the current values of the <b>PC</b>, <b>register file</b>, and <b>contents of main memory</b>.<br>The OS saves and restores this context when switching between processes.
+Q: What is context switching, and why does it matter to a backend developer?
+A: <b>Context switching</b> is how the OS rapidly hands the CPU from one process (or thread) to another:<br>1. Save the current program's state (PC, registers, memory).<br>2. Restore the next program's state.<br>3. Resume it from exactly where it left off.<br>This is what lets a single Go server appear to handle thousands of concurrent requests — the OS interleaves them on the same hardware.<br>Context switches have overhead (~microseconds), which is why Go goroutines are cheap (they switch in user space, not kernel space).
 ![](images/fig1-12.png)
 
-Q: What is context switching?
-A: <b>Context switching</b> is how the OS transfers control between processes:<br>1. Save the context of the current process.<br>2. Restore the context of the new process.<br>3. Pass control to the new process — it picks up exactly where it left off.<br>This creates the illusion of concurrent execution on a single CPU.
-![](images/fig1-12.png)
+Q: How are threads different from processes?
+A: A <b>thread</b> is an execution unit inside a process.<br>Multiple threads in the same process share: <b>code, heap, global variables, and open file descriptors</b>.<br>Each thread has its own: <b>program counter, register file, and stack</b>.<br>Threads are cheaper to create and switch than processes because they share the address space — no address-space copy needed.<br>Go goroutines are user-space threads multiplexed onto OS threads by the Go scheduler.
+![](images/fig1-16.png)
 
-Q: What are threads, and how do they differ from processes?
-A: A <b>thread</b> is an execution unit within a process.<br>A process can have multiple threads, each running in the process's context and sharing the same <b>code and global data</b>, but with its own <b>PC, register file, and stack</b>.<br>Threads are cheaper to create/switch than processes and share memory by default — important for network servers and multi-core programs.
-![](images/fig1-12.png)
-
-Q: What is virtual memory?
-A: <b>Virtual memory</b> is an abstraction giving each process the illusion it has <b>exclusive use of the entire main memory</b>.<br>Each process sees the same uniform <b>virtual address space</b>.<br>Implemented by storing a process's data on disk and using main memory as a cache for disk pages, with hardware translating every virtual address to a physical address.
+Q: What is virtual memory and what problem does it solve?
+A: <b>Virtual memory</b> gives each process the illusion it owns the <b>entire address space</b> — from address 0 to 2^64 on a 64-bit machine.<br>It solves two problems:<br>1. <b>Isolation</b> — processes can't read or corrupt each other's memory<br>2. <b>Capacity</b> — programs can use more memory than physically available RAM (overflow goes to disk)<br>In practice, each JVM / Go runtime manages its heap entirely in virtual memory — physical RAM pages are mapped in on demand.
 ![](images/fig1-13.png)
 
-Q: What are the regions of a Linux process's virtual address space, from lowest to highest address?
-A: <b>0</b>: unused (null pointer trap)<br><b>Code &amp; data</b>: initialized from the executable — read-only code then read/write global variables<br><b>Heap</b>: expands/contracts at runtime via <code>malloc</code>/<code>free</code><br><b>Shared libraries</b>: C stdlib, math lib, etc. (middle of space)<br><b>User stack</b>: grows downward; expands on function call, contracts on return<br><b>Kernel virtual memory</b>: top — invisible to user code, contains OS kernel
+Q: What is a memory page, and why does the OS manage memory in pages rather than individual bytes?
+A: A <b>page</b> is the smallest unit the OS moves between RAM and disk — typically <b>4 KB</b>.<br>Instead of tracking billions of individual bytes, the OS groups them into fixed-size pages and manages those chunks.<br>Your program's virtual address space is divided into pages; physical RAM is divided into matching <b>frames</b>. The OS maps virtual pages to physical frames as needed.<br>Why 4 KB? It's a hardware-enforced granularity baked into the CPU's memory management unit (MMU). You can't go smaller without redesigning the chip.
 ![](images/fig1-13.png)
 
-Q: What is the heap in a process's virtual address space?
-A: The <b>heap</b> is a region of virtual memory that sits just above the code and data areas.<br>Unlike fixed-size code/data regions, the heap <b>expands and contracts dynamically</b> at run time.<br>It grows upward as a result of calls to <code>malloc</code> and shrinks on calls to <code>free</code>.
-![](images/fig1-13.png)
+Q: What is the page table and what does it do?
+A: The <b>page table</b> is the OS's per-process dictionary that translates <b>virtual addresses → physical addresses</b>.<br>Every memory access your program makes goes through the CPU's MMU, which looks up the page table to find where in physical RAM (or disk) that virtual page actually lives.<br>If the page is in RAM → the MMU returns the physical address instantly.<br>If the page is on disk → the CPU triggers a <b>page fault</b> and the OS steps in to fetch it.<br>In Go/Java: the runtime's heap allocator hands you virtual addresses; the page table is what makes those addresses resolve to real memory.
+![](images/vm-page-table.png)
 
-Q: What is the user stack in a process's virtual address space?
-A: The <b>user stack</b> sits at the top of the user's virtual address space and grows downward.<br>The compiler uses it to implement <b>function calls</b>: the stack grows (downward) each time a function is called, and contracts when a function returns.<br>It expands and contracts dynamically during program execution.
-![](images/fig1-13.png)
+Q: What happens during a page fault?
+A: A <b>page fault</b> is triggered when your program accesses a virtual address whose page is <b>not currently in RAM</b> (it's on disk in swap space).<br>The sequence:<br>1. CPU detects the missing page, raises a page fault interrupt<br>2. OS pauses your program<br>3. OS finds the page on disk, loads it into a free RAM frame, updates the page table<br>4. OS resumes your program — from its perspective, nothing happened<br>Page faults are invisible to your code but expensive (~milliseconds vs nanoseconds for RAM). Too many = your app stalls. This is why the JVM heap size matters: a heap too large for available RAM causes constant page faults.
+![](images/vm-page-fault.png)
 
-Q: What is kernel virtual memory?
-A: The <b>kernel virtual memory</b> is the topmost region of every process's address space, reserved for the OS kernel.<br>It contains the kernel's code and data structures.<br>Application programs are <b>not allowed</b> to read, write, or directly call functions in this area — all access must go through system calls.
-![](images/fig1-13.png)
+Q: What is thrashing and what causes it?
+A: <b>Thrashing</b> happens when the OS spends more time swapping pages between disk and RAM than actually running programs.<br>Cause: total memory demanded by all running processes exceeds physical RAM. The OS must constantly evict pages from RAM to disk to make room — only to immediately need them back.<br>Symptom: CPU utilization collapses (it's waiting on disk I/O, not running code). Your machine feels frozen even though CPU usage reads near 100%.<br>You've seen this when you open 30 Chrome tabs + Docker containers + VS Code: the system stops responding. The fix is either more RAM or fewer processes.
+![](images/vm-thrashing.png)
 
-Q: What is a file in Unix?
-A: A file is simply a <b>sequence of bytes — nothing more and nothing less</b>.<br>Every I/O device — disks, keyboards, displays, and networks — is modeled as a file.<br>All input and output is performed by reading and writing files using a small set of system calls known as <b>Unix I/O</b>.
+Q: What problem does the OS file abstraction solve for developers?
+A: Without it, you'd need <b>device-specific code</b> for every piece of hardware — and that code would break every time a user plugged in a different brand.<br>A keyboard produces individual keystrokes; an SSD reads/writes data blocks on silicon; a network card sends/receives packets. Physically, they all work differently.<br>The OS hides this chaos behind a single uniform interface — <b>the file</b> — so your code never needs to know what hardware is actually present.
+![](images/fig1-11.png)
+
+Q: What are the four universal I/O operations the Unix file abstraction exposes?
+A: Every I/O device — disk, keyboard, network socket, display — is accessed through the same four calls:<br><b>Open</b> — establish a connection to the device<br><b>Read</b> — get data from the device<br><b>Write</b> — send data to the device<br><b>Close</b> — terminate the connection<br>The OS translates these generic calls into whatever binary signals the specific hardware actually needs.<br>In Go: <code>os.Open()</code>, <code>file.Read()</code>, <code>file.Write()</code>, <code>file.Close()</code> — and <code>net.Dial()</code>, <code>conn.Read()</code>, <code>conn.Write()</code>, <code>conn.Close()</code> follow the exact same pattern for a TCP socket.
 ![](images/fig1-14.png)
 
-Q: Why is the Unix file abstraction powerful?
-A: Because it provides applications with a <b>uniform view of all I/O devices</b>.<br>A program that reads/writes files doesn't need to know the specific disk technology, display type, or network protocol.<br>The same program runs unchanged on systems with different underlying hardware.
+Q: What is a file descriptor, and why does it appear everywhere in Go and Java?
+A: A <b>file descriptor</b> is the OS's generic integer handle for any open I/O resource — a disk file, a network connection, stdin, a pipe, a device.<br>When you call <code>open()</code> or <code>socket()</code> the kernel returns a file descriptor (e.g. <code>3</code>). From that point on, <code>read(fd, ...)</code> and <code>write(fd, ...)</code> work identically regardless of what the fd points to.<br>In Go, this is why <code>os.File</code>, <code>net.Conn</code>, and <code>http.Response.Body</code> all satisfy <code>io.Reader</code> and <code>io.Writer</code> — they're all backed by a file descriptor at the kernel level.
 ![](images/fig1-14.png)
 
-Q: How is a network viewed from the perspective of a single computer?
-A: From a single system's viewpoint, a <b>network is just another I/O device</b>.<br>Writing bytes to the network adapter sends data to another machine instead of a local disk.<br>Reading from the network adapter receives data sent from a remote machine.<br>All network applications (email, web, FTP) are built on copying bytes between machines.
+Q: Why is "everything is a file" in Unix so powerful for developers?
+A: In Unix, a <b>file is just a sequence of bytes</b> — and every I/O device (disk, keyboard, display, network socket) is modeled as a file.<br>This means the same <code>read()</code>/<code>write()</code> system calls work for <b>all I/O</b>.<br>In Go, <code>io.Reader</code> and <code>io.Writer</code> work the same way whether the underlying source is a file, an HTTP response body, a gzip stream, or a TCP connection — because they're all files at the OS level.
 ![](images/fig1-14.png)
-
-Q: Describe the 5 steps of running hello remotely via telnet.
-A: 1. User types <code>"hello"</code> at local keyboard → telnet client reads it.<br>2. Telnet client sends the string to the remote telnet server over the network.<br>3. Remote telnet server passes the string to the remote shell, which runs <code>hello</code>.<br>4. Remote shell passes <code>hello</code>'s output (<code>"hello, world\n"</code>) back to the telnet server.<br>5. Telnet server sends the output string back to the client, which displays it on screen.
-![](images/fig1-15.png)
 
 Q: What is the difference between concurrency and parallelism?
-A: <b>Concurrency</b>: a system with multiple, simultaneous activities — even a single CPU appears concurrent by rapidly switching between tasks.<br><b>Parallelism</b>: using concurrency to make a system run <b>faster</b> — actual simultaneous execution on multiple hardware units.<br>All parallelism requires concurrency, but concurrency does not require parallelism.
+A: <b>Concurrency</b>: a system has multiple tasks <i>in progress</i> at the same time — even a single CPU can be concurrent by rapidly interleaving tasks.<br><b>Parallelism</b>: tasks actually execute <i>simultaneously</i> on multiple hardware units (multiple cores or machines).<br>All parallelism involves concurrency, but not all concurrency is parallel.<br>Go's goroutines are concurrent even on a single core; they run in <i>parallel</i> only when <code>GOMAXPROCS > 1</code>.
 ![](images/fig1-16.png)
 
-Q: What is thread-level concurrency? What enables it in hardware?
-A: <b>Thread-level concurrency</b> is having multiple threads/processes active at the same time.<br><b>Multi-core processors</b>: multiple complete CPU cores on one chip, each with its own L1/L2 cache, sharing L3 and main memory.<br><b>Hyperthreading</b>: a single core with multiple copies of PC and register file but shared execution units — switches between threads cycle-by-cycle.
-![](images/fig1-16.png)
-
-Q: What is a uniprocessor vs multiprocessor system?
-A: <b>Uniprocessor</b>: a single CPU — achieves concurrency by rapidly switching between processes/threads, but only truly runs one at a time.<br><b>Multiprocessor</b>: multiple CPUs under a single OS kernel — can execute multiple threads <b>truly simultaneously</b>.<br>Includes multi-core chips and hyperthreaded processors.
-![](images/fig1-16.png)
-
-Q: What is hyperthreading (simultaneous multi-threading)?
-A: <b>Hyperthreading</b> allows a single CPU core to execute multiple threads simultaneously by duplicating some state (PC, register file) while sharing execution units (ALU, FPU).<br>A conventional processor needs ~20,000 clock cycles to switch threads (OS context switch).<br>A hyperthreaded processor decides which thread to run on a <b>cycle-by-cycle basis</b> — if one thread stalls on memory, the other runs immediately.
+Q: What does multi-core hardware mean for Go and Java programs?
+A: Multi-core processors put <b>multiple complete CPU cores</b> on one chip, each with its own L1/L2 cache, sharing L3 and RAM.<br>Programs gain real parallelism — different goroutines/threads run on different cores simultaneously.<br>The catch: cores share L3 and RAM, so <b>cache coherence</b> and <b>memory bandwidth</b> become bottlenecks when many cores fight over the same data.<br>In Go, <code>GOMAXPROCS</code> controls how many OS threads (and thus cores) run goroutines in parallel — it defaults to the number of CPUs.
 ![](images/fig1-17.png)
-
-Q: What is instruction-level parallelism (ILP)?
-A: <b>ILP</b> is a single CPU core's ability to execute multiple instructions simultaneously.<br><b>Pipelining</b>: splits instruction execution into stages (fetch, decode, execute, write-back) that overlap across instructions — like an assembly line — achieving ~1 instruction/cycle.<br><b>Superscalar</b>: multiple execution units that complete >1 instruction per cycle; modern CPUs may have 100+ instructions "in-flight" simultaneously.
-![](images/fig1-16.png)
-
-Q: What is SIMD parallelism?
-A: <b>SIMD (Single Instruction, Multiple Data)</b> is a mode where a single instruction operates on <b>multiple data values in parallel</b>.<br>Example: modern Intel/AMD processors can add 4 pairs of single-precision floats (<code>float</code>) in a single instruction.<br>Used primarily to accelerate image, sound, and video processing.
-![](images/fig1-16.png)
-
-Q: What are the key abstractions in a complete computer system and what does each hide?
-A: <b>Files</b> → hides differences between I/O devices<br><b>Virtual memory</b> → hides physical memory layout and disk paging<br><b>Processes</b> → hides CPU scheduling and hardware multiplexing<br><b>ISA</b> → hides the microarchitecture implementation from software<br><b>Virtual machine</b> → hides the entire system (OS + processor + programs), enabling multiple OSes on one machine
-![](images/fig1-18.png)
-
-Q: What is a virtual machine, and why was it introduced?
-A: A <b>virtual machine</b> provides an abstraction of the <b>entire computer</b> — including the OS, processor, and programs.<br>Originally introduced by IBM in the 1960s.<br>Became prominent as a way to run programs designed for multiple operating systems (Windows, macOS, Linux) or different versions of the same OS on a single physical machine.
-![](images/fig1-18.png)

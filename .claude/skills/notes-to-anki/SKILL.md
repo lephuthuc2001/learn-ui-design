@@ -47,15 +47,16 @@ A: <answer>
 
 ## Visuals — priority order
 
-The user is a visual learner. Every card that illustrates a principle with a real example or that involves inherently visual concepts (color, spatial relationships, spectrums) **must** have a visual. Use the following priority order:
+The user is a visual learner. **Every single card must have a visual** — no exceptions. Use the following priority order:
 
 1. **Lesson screenshot** — if the notes file references a `![...](screenshots/...)` image that directly illustrates this card's concept, embed that screenshot in the card (see "Screenshots" below).
-2. **Web search** — if no screenshot covers it, web search for an appropriate image. Download the image to `images/` and reference it. Only skip if nothing relevant is found after searching.
-3. **Mermaid diagram** — for structural concepts: relationships, flows, hierarchies, spectrums described in text (see "Mermaid diagrams" below).
+2. **Course figure** — for CSAPP decks, download the matching PDF from `https://csapp.cs.cmu.edu/3e/ics3/<chapter>/` and convert with `pdftoppm -r 150 -png`.
+3. **Web search** — if no screenshot or course figure fits, web search for an appropriate diagram (Wikipedia/Wikimedia preferred for clean, freely licensed images). Download to `images/` and reference it.
+4. **Mermaid diagram** — last resort for structural concepts: relationships, flows, hierarchies (see "Mermaid diagrams" below).
 
-**Never generate custom SVGs.** The `anki-illustrate` skill is retired from this workflow — web search always comes first.
+**Never generate custom SVGs.** Illustrations come from real figures (course/book) or web search — never hand-drawn SVGs.
 
-Aim for **at least half of all cards** to have a visual of some kind. A card with a clear example from the lesson and no image is a missed opportunity.
+After writing all cards, audit every single card for an `![](images/...)` line. Any card missing one must get an image via web search before the deck is done.
 
 ---
 
