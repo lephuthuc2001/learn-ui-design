@@ -25,7 +25,11 @@ Path to the `.anki.md` file:
 
 ## Step 1 — Determine target deck and tags
 
-Derive deck and tags from the file path:
+There are two source types in this repo, each with its own deck convention. Check which one the input file belongs to before deriving anything.
+
+### 1a. UI Design course lessons (`notes-to-anki` output)
+
+Path shape: `<unit>/<video-slug>/<video-slug>.anki.md`
 
 | Path component | Maps to |
 |----------------|---------|
@@ -33,7 +37,7 @@ Derive deck and tags from the file path:
 | unit folder (e.g. `01-introduction`) | sub-deck level 1, e.g. `01. Introduction` |
 | lesson folder (e.g. `01-begin-here`) | sub-deck level 2, e.g. `01. Begin Here` |
 
-**Deck name to use:** `UI/UX::Learn UI Design::<Unit>::<Lesson>`  
+**Deck name to use:** `UI/UX::Learn UI Design::<Unit>::<Lesson>`
 Example: `UI/UX::Learn UI Design::01. Introduction::01. Begin Here`
 
 **Tags to apply to every card:** derived from the path segments, lowercased and hyphenated:
@@ -42,20 +46,40 @@ learn-ui-design  <unit-folder>  <lesson-folder>
 ```
 Example tags: `learn-ui-design`, `01-introduction`, `01-begin-here`
 
-> **Sub-deck limitation:** `create_deck` only supports 2-level names. Decks 3+ levels deep must be created manually in the Anki GUI first. If `add_notes` returns "Deck not found", tell the user to create the sub-deck in Anki's GUI, then retry. As a fallback, offer to add cards to `UI/UX::Learn UI Design` with the tags above so no cards are lost.
+### 1b. Academic book decks (`academic-book-anki` output)
+
+Path shape: `<book>/<chapter-or-part>/<book>-<chapter-or-part>.anki.md` (e.g. `csapp/ch06/csapp-ch06.anki.md`, `ostep/part1/ostep-part1.anki.md`)
+
+These are **separate top-level decks**, one per book — never nested under `UI/UX::Learn UI Design`. Check `listDecks` first: if a deck for this book already exists (e.g. `CSAPP`), match its existing chapter-naming style instead of inventing a new one.
+
+| Path component | Maps to |
+|----------------|---------|
+| book folder (e.g. `csapp`, `ostep`) | top-level deck, e.g. `CSAPP`, `OSTEP` |
+| chapter/part folder (e.g. `ch06`, `part1`) | sub-deck, human-readable, e.g. `Ch06 - Memory Hierarchy`, `Part 1 - CPU Virtualization` |
+
+**Deck name to use:** `<BOOK>::<Chapter or Part label>`
+Examples: `CSAPP::Ch06 - Memory Hierarchy`, `OSTEP::Part 1 - CPU Virtualization`
+
+This is always exactly 2 levels, so `create_deck` can create it directly — no manual GUI step needed for this source type.
+
+**Tags to apply to every card:** the book name, the chapter/part slug, and a topic slug derived from the chapter's subject:
+```
+<book>  <chapter-or-part-slug>  <topic-slug>
+```
+Example tags: `ostep`, `part1`, `cpu-virtualization`
+
+> **Sub-deck limitation (UI Design decks only):** `create_deck` only supports 2-level names. Decks 3+ levels deep (as in 1a above) must be created manually in the Anki GUI first. If `add_notes` returns "Deck not found", tell the user to create the sub-deck in Anki's GUI, then retry. As a fallback, offer to add cards to `UI/UX::Learn UI Design` with the tags above so no cards are lost. Academic book decks (1b) don't hit this limitation since they're always 2 levels.
 
 ## Step 2 — Upload images
 
-> **NEVER base64-encode images.** Always use the copy-to-Windows-temp workaround below. Base64 is extremely slow, wastes thousands of tokens, and may timeout.
-
-> **WHY UNC PATHS DON'T WORK:** The AnkiMCP stdio server runs on Windows but resolves paths using Linux `path.resolve()`. Passing a UNC path (`\\wsl.localhost\...`) causes it to emit a Linux path to AnkiConnect, which cannot open it. The workaround: copy files to the Windows temp directory first, then upload from there.
-
 Parse the `.anki.md` file for ALL image references. Two path patterns appear:
 
-- `![](images/<filename>)` — Mermaid PNGs and SVG illustrations
+- `![](images/<filename>)` — Mermaid PNGs, book-figure crops, and other illustrations
 - `![](screenshots/<filename>)` — lesson screenshots
 
-For each **unique** image file referenced (deduplicate — two cards can reference the same screenshot):
+For each **unique** image file referenced (deduplicate — two cards can reference the same image):
+
+### Try first: `store_media_file` with a Windows temp path
 
 1. **Copy the file to Windows temp via Bash:**
    ```bash
@@ -72,9 +96,38 @@ For each **unique** image file referenced (deduplicate — two cards can referen
    path: C:\Users\ADMIN\AppData\Local\Temp\<filename>
    filename: _<filename>
    ```
-   The `_` prefix prevents Anki's unused-media cleanup from deleting the file. Save the **returned filename** (Anki may add a hash suffix on collision).
+   The `_` prefix prevents Anki's unused-media cleanup from deleting the file.
 
-3. Build a unified map: `original-path → stored-filename` keyed by the full original reference string (e.g. `screenshots/02-alignment-room.jpg`).
+> **WHY UNC PATHS DON'T WORK:** The AnkiMCP stdio server runs on Windows but resolves paths using Linux `path.resolve()`. Passing a UNC path (`\\wsl.localhost\...`) causes it to emit a Linux path to AnkiConnect, which cannot open it. The Windows-temp-copy workaround above exists specifically to route around that.
+
+### Known-broken fallback: direct base64 POST to AnkiConnect
+
+As of 2026-07, `store_media_file` with the Windows temp path above has also started failing with `Invalid argument` — AnkiConnect appears to be resolving the Windows path relative to a Linux working directory (joining `C:\...` onto the Linux cwd instead of treating it as an absolute Windows path). If you hit this error, skip the MCP tool entirely and POST directly to AnkiConnect:
+
+```python
+import base64, json, urllib.request
+
+with open("/home/lephuthuc/learn-ui-design/<path>/<filename>", "rb") as f:
+    data = base64.b64encode(f.read()).decode()
+
+payload = {
+    "action": "storeMediaFile",
+    "version": 6,
+    "params": {"filename": "_<filename>", "data": data}
+}
+req = urllib.request.Request(
+    "http://172.23.240.1:8765",
+    data=json.dumps(payload).encode(),
+    headers={"Content-Type": "application/json"},
+)
+print(urllib.request.urlopen(req).read())
+```
+
+This is slower per-file than the path-based call but reliable — normal base64 concerns (token cost) don't apply here since the encoding happens in a Python subprocess, not in the model's own output. Batch multiple files in one script to minimize round trips. Before trying this fallback, first attempt the path-based `store_media_file` call — it's faster when it works, and whether it's still broken should be re-verified each session rather than assumed.
+
+### After either method
+
+Build a unified map: `original-path → stored-filename` keyed by the full original reference string (e.g. `screenshots/02-alignment-room.jpg`, or `images/mlfq-example.png`). Save the returned filename (Anki may add a hash suffix on collision).
 
 Upload all images before creating any cards.
 
@@ -123,12 +176,14 @@ Call `add_notes` with all parsed cards in a single batch (up to 100 per call; sp
   "notes": [
     {
       "fields": { "Front": "<question>", "Back": "<answer html>" },
-      "tags": ["learn-ui-design", "<unit-folder>", "<lesson-folder>"]
+      "tags": ["<tag1>", "<tag2>", "<tag3>"]
     },
     ...
   ]
 }
 ```
+
+Use the deck name and tags derived in Step 1a or 1b, whichever applies to this source file.
 
 ## Step 5 — Sync to AnkiWeb
 
