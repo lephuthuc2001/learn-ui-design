@@ -48,6 +48,31 @@ Before carding a whole book, apply the same 80/20 lens to **which chapters** des
 
 If the user points you at a chapter that's mostly Tier 3 for them, say so plainly and propose the handful of cards actually worth making rather than manufacturing volume.
 
+## Flow — cards are a chain, not a list
+
+The user's core learning method is **problem → solution → what that solution breaks → next solution**, chained end to end. A component only makes sense as the answer to the previous component's shortcoming. Cards must show where they sit in that chain, not stand alone as isolated definitions.
+
+Concrete worked example (OS process execution, in the user's own words): the fastest way to run a program is hand it directly to the kernel/hardware — but then it can freely manipulate I/O devices and do real harm. So we restrict direct access, but the program still needs *some* controlled access (allocate memory, read a file) → **limited direct execution**. How does a restricted program get that access? → **syscalls**, but only through a **trap** the OS installs at boot time, so arbitrary code can never redirect control → trusted trap table. New problem: what if a program loops forever and never syscalls — how does the OS regain control? → timer interrupts. New problem: the OS now has to save/restore state when interrupting → **context switching**. Each step exists because the step before it left a gap.
+
+Apply this with two mechanisms together:
+
+1. **A flow map at the top of the file**, right after the title heading: a short ordered outline of the chapter's problem → solution → next-problem chain, one line per step, e.g.:
+   ```
+   ## The flow
+   1. **Problem:** run a program as fast as possible → hand control straight to the CPU.
+   2. **Break:** unrestricted hardware access means a program can do real harm.
+   3. **Solution:** limited direct execution — restrict access but still allow controlled operations.
+   4. **Break:** controlled operations need a doorway into the OS that user code can't forge.
+   5. **Solution:** syscalls via a trap table installed at boot, trusted by construction.
+   6. **Break:** a program that never syscalls (infinite loop) never gives control back.
+   7. **Solution:** timer interrupts force a return to the OS.
+   8. **Break:** interrupting mid-execution loses the program's state.
+   9. **Solution:** context switching — save/restore state around every handoff.
+   ```
+2. **Per-card orientation** — each card's answer opens with a short clause locating it in that chain before the fact itself, e.g. "Building on limited direct execution: ..." or "This is what closes the gap left by the trap table: ...". Keep it to one short clause, not a paragraph — the atomic fact and its "why it matters" line still do the heavy lifting.
+
+When a chapter is genuinely a flat list of independent concepts with no causal chain (rare, but possible for e.g. a glossary-style chapter), say so and skip the flow map rather than manufacturing a fake chain.
+
 ## Card style — simple words, real examples
 
 - **Plain language over textbook register.** Explain it the way you'd explain it to a sharp colleague at a whiteboard, not the way the book phrases it. Define jargon in the answer rather than assuming it.
@@ -71,16 +96,17 @@ This is real and precise and the user will never need it. Cut it.
 
 ## Visuals — every card gets an image
 
-This is a hard rule for this user (a visual learner): **every card must have an illustration.** Follow the priority order in [notes-to-anki](../notes-to-anki/SKILL.md):
+This is a hard rule for this user (a visual learner): **every card must have an illustration, and it must be a real image fetched from the web — never generated.**
 
 1. **Official course/book figure.** For CSAPP, download the matching figure PDF from `https://csapp.cs.cmu.edu/3e/ics3/<chapter>/<fig>.pdf` and convert with `pdftoppm -r 150 -png <fig>.pdf <fig>`. The chapter directory codes: `mem` (ch6), `ecf` (ch8), `vm` (ch9), `data` (ch2), `intro` (ch1). Browse the figure list at `https://csapp.cs.cmu.edu/3e/figures.html`.
-2. **Web search** (Wikipedia/Wikimedia preferred for clean, freely-licensed diagrams) when no book figure fits the card's concept — e.g. a "memory leak" or "buffer overflow" card with no matching CSAPP figure. Download into the chapter's `images/` folder.
-3. **Mermaid diagram** as a last resort for purely structural concepts.
+2. **Web search** (Wikipedia/Wikimedia Commons preferred for clean, freely-licensed diagrams; open textbook figures, real screenshots, and documentation-site diagrams are also fine) for every other book — this is the *only* fallback when no book figure fits the card's concept. Download into the chapter's `images/` folder with a real user-agent (`curl -L -A "Mozilla/5.0" -o <path> <url>`) and verify with `file` that it's a real image, not an HTML error page.
 
-After writing the deck, **audit every card for an `![](images/...)` line.** A card without one isn't finished.
+**Never generate a diagram yourself** — no Mermaid, no hand-authored SVG, nothing drawn. If a concept is hard to illustrate, that means search harder (more queries, other sources, a looser but still real match) — it is never a reason to draw something. The user has explicitly rejected generated images twice; treat this as a hard constraint, not a style preference.
+
+After writing the deck, **audit every card for an `![](images/...)` line pointing to a real downloaded file.** A card without one isn't finished, and a card with a generated placeholder isn't finished either.
 
 ## Output
 
-Write to `<book>/<chapter>/<book>-<chapter>.anki.md` (e.g. `csapp/ch06/csapp-ch06.anki.md`), images in the sibling `images/` folder. Same flat Q/A format as notes-to-anki: a title heading, then `Q:`/`A:` pairs separated by blank lines, image line directly under each answer.
+Write to `<book>/<chapter>/<book>-<chapter>.anki.md` (e.g. `csapp/ch06/csapp-ch06.anki.md`), images in the sibling `images/` folder. Title heading, then the flow map (see "Flow" above), then `Q:`/`A:` pairs separated by blank lines, image line directly under each answer.
 
 When done, report the card count and the source of each image (book figure vs web), and note any concepts you deliberately skipped as Tier 3 so the user can overrule if they want them.
